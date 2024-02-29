@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5
+    "width": 475.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -302,6 +303,7 @@
   },
   "active": "34eb07cf5d96fe9e",
   "lastOpenFiles": [
+    "Java/Spring/assets/img/Pasted image 20240229161606.png",
     "Java/Spring/assets/img/Pasted image 20240229160222.png",
     "Java/Spring/Spring Boot.md",
     "Java/Spring/assets/img/Pasted image 20240229135913.png",
@@ -337,7 +339,6 @@
     "images/Pasted image 20240222195536.png",
     "Java/在线课/百战程序员Java300集.md",
     "images/Pasted image 20240222183919.png",
-    "images/Pasted image 20240222182532.png",
     "Java/在线课/In28Minutes.md",
     "Java/精通Spring.md",
     "Java/github上类似项目.md",

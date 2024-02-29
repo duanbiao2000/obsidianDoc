@@ -1,7 +1,9 @@
 2024-02-21 16:41
 2024-02-29 15:48
-
+[MVC模式总结和SpringMVC流程及组件整理 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/148557490)
 ![](Pasted%20image%2020240229160222.png)
+![](Pasted%20image%2020240229161606.png)
+
 1. 用户发送请求至前端控制器DispatcherServlet
 2. DispatcherServlet收到请求调用处理器映射器HandlerMapping。
 3. 处理器映射器根据请求url找到具体的处理器，生成处理器执行链HandlerExecutionChain(包括处理器对象和处理器拦截器)一并返回给DispatcherServlet。
