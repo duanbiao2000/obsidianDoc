@@ -1,6 +1,48 @@
 2024-02-21 16:41
 2024-02-29 15:48
+
+- config目录存入的是配置类,写过的配置类有:  
+    
+
+- ServletContainersInitConfig
+- SpringConfig
+- SpringMvcConfig
+- JdbcConfig
+- MybatisConfig
+
+- controller目录存放的是SpringMVC的controller类
+- service目录存放的是service接口和实现类
+- dao目录存放的是dao/Mapper接口
+
+controller、service和dao这些类都需要被容器管理成bean对象，那么到底是该让SpringMVC加载还是让Spring加载呢?
+
+- SpringMVC加载其相关bean(表现层bean),也就是controller包下的类
+- Spring控制的bean
+
+- 业务bean(Service)
+- 功能bean(DataSource,SqlSessionFactoryBean,MapperScannerConfigurer等)
+
+  
+  
+作者：黑马程序员  
+链接：https://www.zhihu.com/question/50392663/answer/2605219477  
+来源：知乎  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+SpringMVC主要负责的就是
+
+- controller如何接收请求和数据
+- 如何将请求和数据转发给业务层
+- 如何将响应数据转换成json发回到前端
 [MVC模式总结和SpringMVC流程及组件整理 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/148557490)
+[JVM运行时内存模型综述 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/137177914)
+
+![](Pasted%20image%2020240229191935.png)
+![](Pasted%20image%2020240229190623.png)
+![](Pasted%20image%2020240229181014.png)
+![](Pasted%20image%2020240229180905.png)  
+
+	合理性有待确认
+
 ![](Pasted%20image%2020240229160222.png)
 ![](Pasted%20image%2020240229161606.png)
 
