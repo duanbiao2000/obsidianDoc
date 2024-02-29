@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "fb9831c8110ee2c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "65e152a0cab30cbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a87897df6bd323e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/typerscript关键知识.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc2141e728f9c16e",
+    "type": "split",
+    "children": [
+      {
+        "id": "61a0a15f0acc685b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aca419b99e2d08c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3ddcc205343a605",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "typerscript",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "798d2d01e50a8c97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "474b2da827061d69",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.49999618530273,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9ca44e713fa402bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f86ad72b93ee5518",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aa3b4706bfdc1d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "typescript/typerscript关键知识.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "87fd87ef8ba0e9c4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "typescript/typerscript关键知识.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28719bd3a833592e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dd1e0b17d7a7daf6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "typescript/typerscript关键知识.md"
+              }
+            }
+          },
+          {
+            "id": "8cd64b7c360cd5dd",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "f67ec5e001c0053f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "e03f593635018d27",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c2cc3c66a5d490bc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a92cb38333d31b0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "homepage:Open homepage": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-memos:Memos": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
+    }
+  },
+  "active": "3a87897df6bd323e",
+  "lastOpenFiles": [
+    "images/Pasted image 20230806100402.png",
+    "100-SlipBox/110-FleetingBox/Home.md",
+    "images/Pasted image 20230803213850.png",
+    "images/Pasted image 20230803213630.png",
+    "100-SlipBox/110-FleetingBox/API网关.md",
+    "100-SlipBox/110-FleetingBox/同构.md",
+    "100-SlipBox/110-FleetingBox/nodejs.md",
+    "100-SlipBox/110-FleetingBox/API设计模式.md",
+    "100-SlipBox/110-FleetingBox/运行时环境.md",
+    "100-SlipBox/110-FleetingBox/模板引擎.md",
+    "100-SlipBox/110-FleetingBox/覆盖全端业务的大前端技术.md",
+    "100-SlipBox/110-FleetingBox/Build and Deploy a Full Stack Next.js 13 Application.md",
+    "nextjs/GraphQL.md",
+    "100-SlipBox/110-FleetingBox/useRef.md",
+    "nextjs",
+    "100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md",
+    "100-SlipBox/110-FleetingBox/React设计模式与最佳实践-MS-GKDVHLTHBXTL.md",
+    "react/React Hooks代码片段.md",
+    "react/React Hooks.md",
+    "react/React Hooks 1.md",
+    "react/React Hooks代码片段 1.md",
+    "typescript/typerscript关键知识.md",
+    "typescript",
+    "images/Pasted image 20230731094456.png",
+    "images/Pasted image 20230731093601.png",
+    "images/Pasted image 20230731093534.png",
+    "images/Pasted image 20230731085328.png",
+    "images/Pasted image 20230731083851.png",
+    "images/Pasted image 20230731083311.png",
+    "images/Pasted image 20230731083154.png",
+    "images/Pasted image 20230730132309.png",
+    "react/Redux Toolkit.md",
+    "react/深入浅出React.md",
+    "RoadMap&Interview/西安前后端面试.md",
+    "100-SlipBox/110-FleetingBox/运动健身.md",
+    "100-SlipBox/110-FleetingBox/深入浅出React技术栈.md",
+    "react/React历史.md",
+    "ILTES/大作文.md",
+    "react/Unconfirmed 71162.crdownload",
+    "Unconfirmed 429076.crdownload"
+  ]
+}

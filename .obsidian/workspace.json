@@ -1,0 +1,354 @@
+{
+  "main": {
+    "id": "1a7ae36bb84bbe8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e68007277d077560",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2c15273cff43b40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/常见面试题.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db350d19c4402771",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/异常处理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5af651868e16d86c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/java常用包.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca2089c81b38cd84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/在线课/In28Minutes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f779e7601d991134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring/Spring Boot.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c87a389b534ad9aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/在线课/百战程序员Java300集.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad028f368f8a10d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/源码阅读/Bookstore.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34eb07cf5d96fe9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring/Spring Boot.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65ed32af27a2de6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d97aabd4c19cd880",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a73026fe242f7bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f9bc094439a9b45",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:spring",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f1d7f23d1cc85da",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "402ac5a9b5e6924b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 475.5
+  },
+  "right": {
+    "id": "719d766977cb2fea",
+    "type": "split",
+    "children": [
+      {
+        "id": "38d155c0ae379eec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39753b40fcdcd9c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/Spring/Spring Boot.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ca25cdbcc7b5f70",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java/Spring/Spring Boot.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "892fb42f42dd4a4b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "43d90e2fd0cc20b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Spring/Spring Boot.md"
+              }
+            }
+          },
+          {
+            "id": "ec57776ac8128f4e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "74a7bc996dfa0756",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Java/Spring/Spring Boot.md"
+              }
+            }
+          },
+          {
+            "id": "de8c23ae9f4b5d90",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "874f460213eee164",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb28b3c6e98e736e",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "34eb07cf5d96fe9e",
+  "lastOpenFiles": [
+    "Java/Spring/assets/img/Pasted image 20240229160222.png",
+    "Java/Spring/Spring Boot.md",
+    "Java/Spring/assets/img/Pasted image 20240229135913.png",
+    "Java/Spring/assets/img/Pasted image 20240229140037.png",
+    "Java/Spring/assets/img",
+    "Java/Spring/assets",
+    "Java/Spring",
+    "Java/Java设计模式_gitting/Readme.md",
+    "Java/Java设计模式_gitting/static/img/JDP_cover.png",
+    "Java/Java设计模式_gitting/static/img/1.png.png",
+    "Java/Java设计模式_gitting/static/img",
+    "Java/Java设计模式_gitting/static/images",
+    "Java/Java设计模式_gitting/static",
+    "images/Pasted image 20240227184201.png",
+    "Java/Java设计模式_gitting/src/Java设计模式.md",
+    "Java/Java设计模式_gitting/src",
+    "Java/Java设计模式_gitting",
+    "Java/java常用包.md",
+    "Java/Untitled.md",
+    "Java/微服务/读书笔记.md",
+    "Java/常见面试题.md",
+    "Java/微服务",
+    "100-SlipBox/110-FleetingBox/React设计模式与最佳实践 (米凯莱 贝尔托利 林昊) (Z-Library).pdf.md",
+    "100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md",
+    "影音/React设计模式.md",
+    "100-SlipBox/110-FleetingBox/API设计模式.md",
+    "Java/在线课/后续要跟的课程.md",
+    "Java/源码阅读/Bookstore.md",
+    "Java/源码阅读",
+    "Java/在线课/AMIGOSCODE.md",
+    "images/Pasted image 20240222200422.png",
+    "images/Pasted image 20240222200050.png",
+    "images/Pasted image 20240222195536.png",
+    "Java/在线课/百战程序员Java300集.md",
+    "images/Pasted image 20240222183919.png",
+    "images/Pasted image 20240222182532.png",
+    "Java/在线课/In28Minutes.md",
+    "Java/精通Spring.md",
+    "Java/github上类似项目.md",
+    "Java/闭环代码框架.md",
+    "Java/异常处理.md",
+    "Java/Java集合类和主要方法.md",
+    "JavaScript/JS基础.md",
+    "TypeScript/typerscript关键知识.md",
+    "Java/Java关键知识.md",
+    "Rust/Rust核心概念.md",
+    "images/Untitled 1.canvas",
+    "images/Untitled.canvas"
+  ]
+}

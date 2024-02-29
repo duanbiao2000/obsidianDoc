@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "fb9831c8110ee2c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4ab9c0e116c319b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f7bd59c0240f426",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/React状态管理Redux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7244c65c169b1a33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "useEffect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc2141e728f9c16e",
+    "type": "split",
+    "children": [
+      {
+        "id": "61a0a15f0acc685b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aca419b99e2d08c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3ddcc205343a605",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:J",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "798d2d01e50a8c97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "474b2da827061d69",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 306.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9ca44e713fa402bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f86ad72b93ee5518",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aa3b4706bfdc1d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "react/React状态管理Redux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "87fd87ef8ba0e9c4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "react/React状态管理Redux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28719bd3a833592e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dd1e0b17d7a7daf6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "react/React状态管理Redux.md"
+              }
+            }
+          },
+          {
+            "id": "8cd64b7c360cd5dd",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "f67ec5e001c0053f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "e03f593635018d27",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc0dc6bdc91b7b64",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2938699a4d35f3bb",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "homepage:Open homepage": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-memos:Memos": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
+    }
+  },
+  "active": "4f7bd59c0240f426",
+  "lastOpenFiles": [
+    "useEffect.md",
+    "react/React状态管理Redux.md",
+    "React Quickly.md",
+    "javascript/JS基础.md",
+    "Data Fetching And Cache Maintenance With React-Query  Apiumhub.md",
+    "Tutorials Overview  Redux Toolkit.md",
+    "react/API数据请求.md",
+    "react/React插件.md",
+    "react/react-bootstrap Components.md",
+    "100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md",
+    "react/React表单Forms.md",
+    "react/偏函数.md",
+    "javascript/Promise.md",
+    "react/React Bootstrap.md",
+    "CSS-TRICKS.md",
+    "100-SlipBox/110-FleetingBox/chakra-202307151559.md",
+    "ILTES/程序员场景对话示例.md",
+    "ILTES/场景英语.md",
+    "javascript/Javascrip高级技术.md",
+    "javascript/DOM操作.md",
+    "react/React组件间通信代码示例.md",
+    "vue/vue组件间通信代码示例.md",
+    "react/React关键技术.md",
+    "ILTES/英语例句0605.md",
+    "react/React Hooks.md",
+    "ILTES/前端开发常见的问题讨论中英.md"
+  ]
+}

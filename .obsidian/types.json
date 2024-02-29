@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "阿东": "datetime",
+    "modified date": "datetime",
+    "excalidraw-plugin": "datetime",
+    "updated date": "datetime",
+    "established": "datetime",
+    "updated": "datetime",
+    "isFinished": "checkbox",
+    "create_date": "date"
+  }
+}
