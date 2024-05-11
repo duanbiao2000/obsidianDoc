@@ -1,0 +1,29 @@
+.obsidian-share-view {
+    background-color: var(--color-base-00);
+    overflow: hidden !important;
+}
+
+.obsidian-share-view canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.canvas-container {
+    position: relative;
+    width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box;
+}
+
+.controller-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.gradients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}

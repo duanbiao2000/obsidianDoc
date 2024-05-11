@@ -1,8 +1,100 @@
 {
   "recentFiles": [
     {
+      "basename": "日语",
+      "path": "信息差/日语.md"
+    },
+    {
+      "basename": "Udemy想要的课",
+      "path": "影音/Udemy想要的课.md"
+    },
+    {
+      "basename": "AI工具",
+      "path": "工具/AI工具.md"
+    },
+    {
+      "basename": "梗直哥丶 专治好奇",
+      "path": "影音/梗直哥丶 专治好奇.md"
+    },
+    {
+      "basename": "每日新知0428",
+      "path": "周月总结/202404/每日新知0428.md"
+    },
+    {
+      "basename": "流行词",
+      "path": "ChatGPT/流行词.md"
+    },
+    {
+      "basename": "每日新知0427",
+      "path": "周月总结/202404/每日新知0427.md"
+    },
+    {
+      "basename": "4月月报",
+      "path": "周月总结/202404/4月月报.md"
+    },
+    {
+      "basename": "微服务架构-MS-GKDVHLTHBXTL",
+      "path": "Java/Spring/微服务架构-MS-GKDVHLTHBXTL.md"
+    },
+    {
+      "basename": "究竟如何获取信息",
+      "path": "信息差/究竟如何获取信息.md"
+    },
+    {
+      "basename": "每日新知0426",
+      "path": "周月总结/202404/每日新知0426.md"
+    },
+    {
+      "basename": "信息差知乎",
+      "path": "信息差/信息差知乎.md"
+    },
+    {
+      "basename": "时间线设计",
+      "path": "周月总结/时间线设计.md"
+    },
+    {
+      "basename": "202312",
+      "path": "周月总结/202312.md"
+    },
+    {
       "basename": "Spring Boot",
       "path": "Java/Spring/Spring Boot.md"
+    },
+    {
+      "basename": "微服务架构",
+      "path": "Java/Spring/微服务架构.md"
+    },
+    {
+      "basename": "Spring 进阶",
+      "path": "Java/Spring/Spring 进阶.md"
+    },
+    {
+      "basename": "黑马程序员",
+      "path": "Java/在线课/黑马程序员.md"
+    },
+    {
+      "basename": "仿知乎",
+      "path": "Java/源码阅读/仿知乎.md"
+    },
+    {
+      "basename": "XiaoMiStore",
+      "path": "Java/源码阅读/XiaoMiStore.md"
+    },
+    {
+      "basename": "常见面试题",
+      "path": "Java/常见面试题.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Java/源码阅读/Untitled.md"
+    },
+    {
+      "basename": "Bookstore",
+      "path": "Java/源码阅读/Bookstore.md"
+    },
+    {
+      "basename": "技术雷达",
+      "path": "社区/技术雷达.md"
     },
     {
       "basename": "Readme",
@@ -29,10 +121,6 @@
       "path": "Java/微服务/读书笔记.md"
     },
     {
-      "basename": "常见面试题",
-      "path": "Java/常见面试题.md"
-    },
-    {
       "basename": "React设计模式与最佳实践 (米凯莱 贝尔托利 林昊) (Z-Library).pdf",
       "path": "100-SlipBox/110-FleetingBox/React设计模式与最佳实践 (米凯莱 贝尔托利 林昊) (Z-Library).pdf.md"
     },
@@ -47,10 +135,6 @@
     {
       "basename": "API设计模式",
       "path": "100-SlipBox/110-FleetingBox/API设计模式.md"
-    },
-    {
-      "basename": "Bookstore",
-      "path": "Java/源码阅读/Bookstore.md"
     },
     {
       "basename": "后续要跟的课程",
@@ -115,86 +199,6 @@
     {
       "basename": "Typescprit语义",
       "path": "TypeScript/Typescprit语义.md"
-    },
-    {
-      "basename": "Typesciprt扩展",
-      "path": "TypeScript/Typesciprt扩展.md"
-    },
-    {
-      "basename": "Typescript泛型",
-      "path": "TypeScript/Typescript泛型.md"
-    },
-    {
-      "basename": "数据库概述",
-      "path": "SQL/数据库概述.md"
-    },
-    {
-      "basename": "Rust特性",
-      "path": "Rust/Rust特性.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Rust/Untitled.md"
-    },
-    {
-      "basename": "迭代项",
-      "path": "Rust/迭代项.md"
-    },
-    {
-      "basename": "内存管理",
-      "path": "Rust/内存管理.md"
-    },
-    {
-      "basename": "所有权规则",
-      "path": "Rust/所有权规则.md"
-    },
-    {
-      "basename": "项目实践总纲",
-      "path": "社区/项目实践/项目实践总纲.md"
-    },
-    {
-      "basename": "RunNoob",
-      "path": "周月总结/RunNoob.md"
-    },
-    {
-      "basename": "时间线设计",
-      "path": "周月总结/时间线设计.md"
-    },
-    {
-      "basename": "python数据分析三件套",
-      "path": "Python/python数据分析三件套.md"
-    },
-    {
-      "basename": "Express迁移到Spring boot",
-      "path": "社区/项目实践/Express迁移到Spring boot.md"
-    },
-    {
-      "basename": "Github高分代码段",
-      "path": "社区/Github/Github高分代码段.md"
-    },
-    {
-      "basename": "项目趋势第一期0127",
-      "path": "社区/Github/项目趋势第一期0127.md"
-    },
-    {
-      "basename": "数据结构与算法",
-      "path": "算法/数据结构与算法.md"
-    },
-    {
-      "basename": "梳理",
-      "path": "ChatGPT/梳理.md"
-    },
-    {
-      "basename": "AIGC发展趋势报告2023 (腾讯研究院)",
-      "path": "AI/AIGC发展趋势报告2023 (腾讯研究院).md"
-    },
-    {
-      "basename": "大语言模型高阶课程设计",
-      "path": "AI/大语言模型高阶课程设计.md"
-    },
-    {
-      "basename": "AI问答",
-      "path": "AI/AI问答.md"
     }
   ],
   "omittedPaths": [],

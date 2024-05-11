@@ -1,6 +1,6 @@
 {
   "showLineNumber": true,
-  "attachmentFolderPath": "./assets/img",
+  "attachmentFolderPath": "./assets/img/",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "promptDelete": false,
@@ -13,5 +13,6 @@
   },
   "trashOption": "local",
   "useMarkdownLinks": true,
-  "vimMode": false
+  "vimMode": false,
+  "newLinkFormat": "relative"
 }

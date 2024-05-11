@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🤓",
+      "🥸",
+      "🤠"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "前端开发/React": "🥸",
+  "前端开发/React/模块化开发": "🤠",
+  "前端开发/React/状态管理": "🤠",
+  "前端开发/React/组件通信": "🤠",
+  "前端开发/React/状态管理/学习Redux.md": "🤓"
+}

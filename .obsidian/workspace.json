@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/在线课/百战程序员Java300集.md",
+                "file": "Java/在线课/黑马程序员.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,12 +86,38 @@
             }
           },
           {
-            "id": "ad028f368f8a10d9",
+            "id": "b325d6dbb942cc6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/源码阅读/Bookstore.md",
+                "file": "Java/Spring/Spring 进阶.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff0d8455ac6da4ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "周月总结/202404/每日新知0427.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "243fa608e6f827ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "信息差/日语.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -141,7 +167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:spring",
+                "query": "日语",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5,
-    "collapsed": true
+    "width": 212.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -187,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Spring/Spring Boot.md",
+                "file": "信息差/日语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Spring/Spring Boot.md",
+                "file": "信息差/日语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Spring/Spring Boot.md"
+                "file": "信息差/日语.md"
               }
             }
           },
@@ -249,7 +274,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Java/Spring/Spring Boot.md"
+                "file": "信息差/日语.md"
               }
             }
           },
@@ -282,8 +307,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -301,54 +325,54 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "34eb07cf5d96fe9e",
+  "active": "243fa608e6f827ed",
   "lastOpenFiles": [
-    "Java/Spring/assets/img/Pasted image 20240229191935.png",
-    "Java/Spring/assets/img/Pasted image 20240229190623.png",
-    "Java/Spring/assets/img/Pasted image 20240229160222.png",
+    "影音/Udemy想要的课.md",
+    "信息差/日语.md",
+    "工具/AI工具.md",
+    "影音/梗直哥丶 专治好奇.md",
+    "周月总结/202404/每日新知0428.md",
+    "ChatGPT/流行词.md",
+    "周月总结/202404/每日新知0427.md",
+    "周月总结/202404/4月月报.md",
+    "Java/Spring/微服务架构-MS-GKDVHLTHBXTL.md",
+    "周月总结/202404/思维模型.md",
+    "信息差/究竟如何获取信息.md",
+    "周月总结/202404/模型.md",
+    "周月总结/202404/每日新知0426.md",
+    "周月总结/202404/assets/img/每日新知0426",
+    "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809319.png",
+    "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
+    "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",
+    "周月总结/202404/assets/img/每日新知/IMG-每日新知-20240426155941582.png",
+    "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808731.png",
+    "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808518.png",
+    "周月总结/202404/assets/img/Pasted image 20240426145141.png",
+    "周月总结/202404/assets/img/Pasted image 20240426145133.png",
+    "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808341.png",
+    "周月总结/202404/assets/img/每日新知",
+    "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808231.png",
+    "周月总结/202404/assets/img",
+    "周月总结/202404/assets",
+    "信息差/信息差知乎.md",
+    "信息差",
+    "周月总结/时间线设计.md",
+    "周月总结/202404",
+    "周月总结/202312.md",
     "Java/Spring/Spring Boot.md",
-    "Java/Spring/assets/img/Pasted image 20240229181014.png",
-    "Java/Spring/assets/img/Pasted image 20240229180905.png",
-    "Java/Spring/assets/img/Pasted image 20240229161606.png",
-    "Java/Spring/assets/img/Pasted image 20240229135913.png",
-    "Java/Spring/assets/img/Pasted image 20240229140037.png",
-    "Java/Spring/assets/img",
-    "Java/Spring/assets",
-    "Java/Spring",
-    "Java/Java设计模式_gitting/Readme.md",
-    "Java/Java设计模式_gitting/static/img/JDP_cover.png",
-    "Java/Java设计模式_gitting/static/img/1.png.png",
-    "Java/Java设计模式_gitting/static/img",
-    "Java/Java设计模式_gitting/static/images",
-    "Java/Java设计模式_gitting/static",
-    "images/Pasted image 20240227184201.png",
-    "Java/Java设计模式_gitting/src/Java设计模式.md",
-    "Java/Java设计模式_gitting/src",
-    "Java/Java设计模式_gitting",
-    "Java/java常用包.md",
-    "Java/Untitled.md",
-    "Java/微服务/读书笔记.md",
-    "Java/常见面试题.md",
-    "Java/微服务",
-    "100-SlipBox/110-FleetingBox/React设计模式与最佳实践 (米凯莱 贝尔托利 林昊) (Z-Library).pdf.md",
-    "100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md",
-    "影音/React设计模式.md",
-    "100-SlipBox/110-FleetingBox/API设计模式.md",
-    "Java/在线课/后续要跟的课程.md",
-    "Java/源码阅读/Bookstore.md",
-    "Java/源码阅读",
-    "Java/在线课/AMIGOSCODE.md",
-    "Java/在线课/百战程序员Java300集.md",
-    "Java/在线课/In28Minutes.md",
-    "Java/精通Spring.md",
-    "Java/github上类似项目.md",
-    "Java/闭环代码框架.md",
-    "Java/异常处理.md",
-    "Java/Java集合类和主要方法.md",
-    "JavaScript/JS基础.md",
-    "TypeScript/typerscript关键知识.md",
-    "Java/Java关键知识.md",
-    "Rust/Rust核心概念.md",
+    "Java/Spring/Spring Core与Spring MVC.md",
+    "Java/Spring/Spring Boot入门.md",
+    "Java/Spring/企业资源规划系统ERP.md",
+    "Java/Spring/数据访问与持久化.md",
+    "Java/Spring/安全性与身份验证.md",
+    "Java/Spring/项目实战.md",
+    "ChatGPT/问题解决 (Problem-Solving).md",
+    "Java/Spring/高级特性与最佳实践.md",
+    "ChatGPT/学习策略.md",
+    "Java/Spring/assets/img/微服务架构",
+    "Java/在线课/assets/img/黑马程序员",
+    "Java/在线课/assets/img/Java/在线课/img/黑马程序员",
+    "Java/在线课/assets/img/Java/在线课/img",
     "images/Untitled 1.canvas",
     "images/Untitled.canvas"
   ]
