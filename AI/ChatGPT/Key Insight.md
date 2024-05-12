@@ -8,17 +8,17 @@ tags:
   - flashcards
 modified date: 2023-10-17T20:55:00
 ---
-![[assets/img/Key Insight/IMG-Key Insight-20240430164326714.png]]
+![[Pasted image 20231017135650.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327010.png]]
+![[Pasted image 20231017140006.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327179.png]]
+![[Pasted image 20231017140303.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327309.png]]
+![[Pasted image 20231017140322.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327379.png]]
+![[Pasted image 20231017140644.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327435.png]]
+![[Pasted image 20231017140906.png]]
 
 
 
@@ -85,16 +85,16 @@ Passive reading and active reading are two different approaches to reading that 
 
 In summary, passive reading is more about leisure and general enjoyment, while active reading is a purposeful and engaged approach to extract specific information or gain a deeper understanding of the text. Depending on your goals and the type of material you're reading, you may choose between these two reading styles. For academic or professional success, mastering active reading techniques is crucial.
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327493.png]]
+![[Pasted image 20231017144600.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327561.png]] 
+![[Pasted image 20231017144831.png]] 
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327625.png]]
+![[Pasted image 20231017144930.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327693.png]]
+![[Pasted image 20231017144957.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327749.png]]
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327801.png]]
+![[Pasted image 20231017145416.png]]
+![[Pasted image 20231017145549.png]]
 
-![[assets/img/Key Insight/IMG-Key Insight-20240430164327848.png]]
+![[Pasted image 20231017150504.png]]
 
