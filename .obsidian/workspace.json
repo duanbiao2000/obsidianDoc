@@ -167,7 +167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "日语",
+                "query": "223910b017d00",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,11 +192,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 560.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -325,8 +326,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "243fa608e6f827ed",
+  "active": "3f9bc094439a9b45",
   "lastOpenFiles": [
+    "README.md",
     "影音/Udemy想要的课.md",
     "信息差/日语.md",
     "工具/AI工具.md",
@@ -368,7 +370,6 @@
     "Java/Spring/项目实战.md",
     "ChatGPT/问题解决 (Problem-Solving).md",
     "Java/Spring/高级特性与最佳实践.md",
-    "ChatGPT/学习策略.md",
     "Java/Spring/assets/img/微服务架构",
     "Java/在线课/assets/img/黑马程序员",
     "Java/在线课/assets/img/Java/在线课/img/黑马程序员",
