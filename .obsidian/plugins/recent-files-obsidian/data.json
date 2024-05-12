@@ -5,16 +5,8 @@
       "path": "Java/常见面试题.md"
     },
     {
-      "basename": "Udemy想要的课",
-      "path": "影音/Udemy想要的课.md"
-    },
-    {
       "basename": "AI工具",
       "path": "工具/AI工具.md"
-    },
-    {
-      "basename": "梗直哥丶 专治好奇",
-      "path": "影音/梗直哥丶 专治好奇.md"
     },
     {
       "basename": "每日新知0428",
@@ -115,10 +107,6 @@
     {
       "basename": "React设计模式与最佳实践",
       "path": "100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md"
-    },
-    {
-      "basename": "React设计模式",
-      "path": "影音/React设计模式.md"
     },
     {
       "basename": "API设计模式",
