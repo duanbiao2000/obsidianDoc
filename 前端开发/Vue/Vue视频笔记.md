@@ -13,8 +13,8 @@ typora-root-url: ./
 
 [[Vue基础]]
 
-[[../JavaScript/ES6笔记汇总]]
+[[ES6笔记汇总]]
 
 [[MVVM模式]]
 
-[[../JavaScript/JS笔记汇总]]
+[[JS笔记汇总]]

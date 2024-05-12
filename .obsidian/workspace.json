@@ -112,19 +112,6 @@
             }
           },
           {
-            "id": "243fa608e6f827ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "信息差/日语.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "34eb07cf5d96fe9e",
             "type": "leaf",
             "state": {
@@ -138,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -192,12 +179,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 560.5
+    "width": 241.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -213,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "信息差/日语.md",
+                "file": "Java/常见面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "信息差/日语.md",
+                "file": "Java/常见面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信息差/日语.md"
+                "file": "Java/常见面试题.md"
               }
             }
           },
@@ -275,7 +261,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "信息差/日语.md"
+                "file": "Java/常见面试题.md"
               }
             }
           },
@@ -326,8 +312,24 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3f9bc094439a9b45",
+  "active": "6a73026fe242f7bd",
   "lastOpenFiles": [
+    "AI/Python/最新Python的web开发全家桶.md",
+    "AI/Python/python笔记.md",
+    "AI/Python/python数据分析三件套.md",
+    "AI/Python/Python11 使用爬虫实现图书250排行榜信息爬取.md",
+    "AI/Python",
+    "前端开发/Rust/迭代项.md",
+    "前端开发/Rust/所有权规则.md",
+    "前端开发/Rust/内存管理.md",
+    "前端开发/Rust/Untitled.md",
+    "前端开发/Rust/Rust特性.md",
+    "前端开发/Rust/Rust核心概念.md",
+    "前端开发/Rust",
+    "前端开发/Nodejs/NodeJS基础.md",
+    "前端开发/Nodejs/Koa学习笔记.md",
+    "前端开发/Nodejs",
+    "AI/信息差/信息差知乎.md",
     "README.md",
     "影音/Udemy想要的课.md",
     "信息差/日语.md",
@@ -341,7 +343,6 @@
     "周月总结/202404/思维模型.md",
     "信息差/究竟如何获取信息.md",
     "周月总结/202404/模型.md",
-    "周月总结/202404/每日新知0426.md",
     "周月总结/202404/assets/img/每日新知0426",
     "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809319.png",
     "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
@@ -356,24 +357,9 @@
     "周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808231.png",
     "周月总结/202404/assets/img",
     "周月总结/202404/assets",
-    "信息差/信息差知乎.md",
     "信息差",
-    "周月总结/时间线设计.md",
     "周月总结/202404",
-    "周月总结/202312.md",
-    "Java/Spring/Spring Boot.md",
-    "Java/Spring/Spring Core与Spring MVC.md",
-    "Java/Spring/Spring Boot入门.md",
-    "Java/Spring/企业资源规划系统ERP.md",
-    "Java/Spring/数据访问与持久化.md",
-    "Java/Spring/安全性与身份验证.md",
-    "Java/Spring/项目实战.md",
-    "ChatGPT/问题解决 (Problem-Solving).md",
-    "Java/Spring/高级特性与最佳实践.md",
     "Java/Spring/assets/img/微服务架构",
-    "Java/在线课/assets/img/黑马程序员",
-    "Java/在线课/assets/img/Java/在线课/img/黑马程序员",
-    "Java/在线课/assets/img/Java/在线课/img",
     "images/Untitled 1.canvas",
     "images/Untitled.canvas"
   ]

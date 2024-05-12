@@ -10,7 +10,7 @@ isFinished: false
 ---
 [浏览器端函数概述 (openai.com)](https://chat.openai.com/share/a009fe98-fd92-4425-9cf9-7ffa5153480a)
 
-![[assets/img/DOM操作/IMG-DOM操作-20240502184447279.png]]
+![[Pasted image 20231027085535.png]]
 
 
 ## DOM操作

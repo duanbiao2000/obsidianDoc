@@ -276,11 +276,11 @@ title:
 origin:
 tags: #flashcards #todo 
 
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240502184315740.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240502184316099.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240502184316475.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240502184316756.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240502184317126.png]]
+![[Pasted image 20230806100402.png]]
+![[Pasted image 20230806101838.png]]
+![[Pasted image 20230806103611.png]]
+![[Pasted image 20230806105323.png]]
+![[Pasted image 20230806105344.png]]
 
 
 ### TypeScript和Flow代码示例
@@ -378,6 +378,6 @@ type Result = IsArray<number[]>;
 使用场景：条件类型可用于根据类型的条件判断执行不同的类型逻辑。
 这些高级类型示例展示了TypeScript的一些强大功能，可以帮助开发人员更好地管理和操作类型。根据不同的需求和场景，可以灵活使用这些特性来提高代码的可读性和健壮性。
 
-[[../CSS/CSS预处理]]
+[[CSS预处理]]
 
-[[../React/React关键技术]]
+[[React关键技术]]

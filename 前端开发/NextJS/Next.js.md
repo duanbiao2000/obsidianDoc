@@ -183,7 +183,7 @@ Server and Client Components allow developers to build applications that span th
 Instead of React rendering your whole application client-side (such as in the case of Single-Page Applications), React now gives you the flexibility to choose where to render your components based on their purpose.  
 React 现在使您可以根据组件的用途灵活地选择在何处渲染组件，而不是在客户端渲染整个应用程序（例如在单页应用程序的情况下）。
 
-![[assets/img/Next.js/IMG-Next.js-20240502184325613.webp]]
+![[thinking-in-server-components.webp]]
 
 If we were to split the page into smaller components, you'll notice that the majority of components are <font color="#92d050">non-interactive and can be rendered on the server as Server Components.</font> For smaller pieces of interactive UI, we can _sprinkle in_ Client Components. This aligns with Next.js server-first approach.
 
@@ -607,7 +607,7 @@ export default Carousel;
 |[Optimizations](https://nextjs.org/docs/app/building-your-application/optimizing)|Image, Fonts, and Script Optimizations to improve your application's Core Web Vitals and User Experience.|
 |[TypeScript](https://nextjs.org/docs/app/building-your-application/configuring/typescript)|Improved support for TypeScript, with better type checking and more efficient compilation, as well as custom TypeScript Plugin and type checker.|
 
-![[assets/img/Next.js/IMG-Next.js-20240502184325861.png]]
+![[Pasted image 20230804113512.png]]
 If we were to split the page into smaller components, you'll notice that the majority of components are non-interactive and can be rendered on the server as Server Components. For smaller pieces of interactive UI, we can _sprinkle in_ Client Components. This aligns with Next.js server-first approach.
 When a route is loaded with Next.js, the initial HTML is rendered on the server. This HTML is then **progressively enhanced** in the browser, allowing the client to take over the application and add interactivity, by asynchronously loading the Next.js and React client-side runtime.
 To make the transition to Server Components easier, all components inside the [App Router](https://nextjs.org/docs/app/building-your-application/routing#the-app-router) are Server Components by default, You can also optionally opt-in to Client Components using the ['use client' directive](https://nextjs.org/docs/getting-started/react-essentials#the-use-client-directive).

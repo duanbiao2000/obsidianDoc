@@ -1,13 +1,6 @@
----
-theme: 
-tags:
-  - 效率
-  - 编程
-  - Javascript
-status: 
-created_date: 2023-07-13
----
+2023-07-13
 
+#effective
 
 当然，以下是来自 GitHub 各位开发者分享的 JavaScript 和 React 项目中，我认为精妙优雅且易于理解的代码示例。对于每个示例，我也会给出重构前不优美的代码和重构后优美的代码，并附有行注释和代码说明。
 

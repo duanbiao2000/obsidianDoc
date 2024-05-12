@@ -6,7 +6,7 @@ aliases:
 links:
 title:
 origin:
-tags: #flashcards #todo 
+tags: #flashcards #todo #bookStatusOnreading 
 
 ## 30段简单趣味的代码
 #### 区分IE浏览器
@@ -477,7 +477,7 @@ bar(1, 1, 1);
 3. 函数内部修改arguments会反映到函数参数上
 这是一道典型的面试题,需要考察对arguments对象的深入理解。
 
-![[assets/img/超实用的javascript代码段/IMG-超实用的javascript代码段-20240502184447305.png]]
+![[Pasted image 20230722174121.png]]
 
  您完全正确!我再次检查了这个例子的代码:
 ```js

@@ -467,7 +467,7 @@ export default {
 通过命名视图，我们能够完成很多灵活的业务设计，比如实现多语言布局、不同设备上的适配等。
 
 
-[[../React/React关键技术]]
+[[React关键技术]]
 
 #### symbol对象
 
@@ -595,10 +595,10 @@ key:Symbol(AA), value=100
 
 需要注意的是，在使用 Symbol 类型作为属性键时，无法使用点操作符或者中括号操作符来访问这个属性，只能通过 `Reflect.ownKeys()` 或者 `Object.getOwnPropertySymbols()` 方法来获取它的键名，然后使用中括号操作符来访问属性。
 
-[[../React/React关键技术]]
+[[React关键技术]]
 
-[[../Vue/vue组件间通信代码示例]]
-[[../React/React组件间通信代码示例]]
+[[vue组件间通信代码示例]]
+[[React组件间通信代码示例]]
 
 #### React性能分析工具
 
@@ -632,4 +632,4 @@ Perf.printWasted();
 
 总之，使用React Addon Perf作为React性能分析工具可以帮助你识别和解决性能问题，从而提高应用程序的质量和用户体验。
 
-[[../React/React关键技术]]
+[[React关键技术]]

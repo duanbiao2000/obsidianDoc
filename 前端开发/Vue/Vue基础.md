@@ -409,10 +409,10 @@ const routes = [
 
 ### Layout
 
-![[assets/img/Vue基础/IMG-Vue基础-20240502184313267.png]]
-![[assets/img/Vue基础/IMG-Vue基础-20240502184313661.png]]
+![[Pasted image 20230908115303.png]]
+![[Pasted image 20230908115424.png]]
 ### 嵌套路由
-![[assets/img/Vue基础/IMG-Vue基础-20240502184313853.png]]
+![[Pasted image 20230908120538.png]]
 
 ### 编程式导航
 
@@ -455,14 +455,14 @@ export default {
 ```
 通过调用 `this.$router.go` 方法，并传递一个整数参数，可以在浏览器的历史记录中前进或后退指定的步数。
 通过以上方法，可以在Vue应用中实现编程式导航，根据业务需求进行页面跳转和导航操作。注意，在使用这些方法之前，确保已经正确配置和初始化了Vue Router。
-![[assets/img/Vue基础/IMG-Vue基础-20240502184314124.png]]
+![[Pasted image 20230908121006.png]]
 也可以使用命名式导航
-![[assets/img/Vue基础/IMG-Vue基础-20240502184314308.png]]
+![[Pasted image 20230908121251.png]]
 
 ### History VS Hash模式
-![[assets/img/Vue基础/IMG-Vue基础-20240502184314498.png]]
+![[Pasted image 20230908121832.png]]
 `Histroy模式需要服务端支持`
-![[assets/img/Vue基础/IMG-Vue基础-20240502184315046.png]]
+![[Pasted image 20230908121922.png]]
 通过pushState()可以实现客户端路由(与push()对比)
 #### 客户端路由
 在前端开发中，客户端路由是一种在浏览器中进行页面导航和路由管理的方式。它可以通过JavaScript来控制页面的跳转，而不需要每次请求新页面的HTML。
@@ -488,15 +488,15 @@ export default {
 | 逆向代理路由           | 逆向代理服务器根据请求的URL将请求转发给不同的后端服务器，实现负载均衡和请求转发的路由方式。常见的逆向代理服务器有Nginx。 |
 | VPN路由               | VPN（Virtual Private Network）路由是一种通过VPN隧道进行路由通信的方式。通过VPN连接的网络将根据路由规则进行数据传输。       |
 | 隧道路由               | 隧道路由是一种在网络中通过隧道进行数据传输的路由方式。通过在网络层封装数据包，将数据从一个网络传输到另一个网络。          |
-![[assets/img/Vue基础/IMG-Vue基础-20240502184315175.png]]
-![[assets/img/Vue基础/IMG-Vue基础-20240502184315354.png]]
+![[Pasted image 20230908122444.png]]
+![[Pasted image 20230908122533.png]]
 
-![[assets/img/Vue基础/IMG-Vue基础-20240502184315565.png]]
-![[assets/img/Vue基础/IMG-Vue基础-20240502184315935.png]]
+![[Pasted image 20230908122628.png]]
+![[Pasted image 20230908122707.png]]
 
 > Vue CLI 自带的web服务器已经配置好了对`history`的支持
 
-![[assets/img/Vue基础/IMG-Vue基础-20240502184316230.png]]
+![[Pasted image 20230908123201.png]]
 
 
 
@@ -1212,7 +1212,7 @@ hello-node
 
 #  认识组件化设计
 
-![[assets/img/Vue基础/IMG-Vue基础-20240502184316589.png]]
+![[Pasted image 20230831114141.png]]
 常见的组件有：页头、页脚、导航栏、侧边栏… 甚至小到一个用户头像也可以抽离成组件，因为头像可能只是尺寸、圆角不同而已。
 
 每个组件都有自己的 “作用域” ， JavaScript 部分利用 [模块化](https://vue3.chengpeiquan.com/guide.html#%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9D%97%E5%8C%96%E8%AE%BE%E8%AE%A1) 来实现作用域隔离， HTML 和 CSS 代码则借助 [Style Scoped](https://vue3.chengpeiquan.com/component.html#style-scoped) 来生成独有的 hash ，避免全局污染，这些方案组合起来，使得组件与组件之间的代码不会互相影响。
@@ -1328,7 +1328,7 @@ TIP
 |不存在|Null|null|
 |未定义|Undefined|undefined|
 
-![[assets/img/Vue基础/IMG-Vue基础-20240502184316985.png]]
+![[Pasted image 20230831120608.png]]
 笔者最常用的就是 `string[]` 这样的格式，只需要追加一个方括号 `[]` ，另外一种写法是基于 TS 的泛型 `Array<T>` ，两种方式定义出来的类型其实是一样的。
 
 ```tsx

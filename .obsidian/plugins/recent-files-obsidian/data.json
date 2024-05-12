@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "日语",
-      "path": "信息差/日语.md"
+      "basename": "常见面试题",
+      "path": "Java/常见面试题.md"
     },
     {
       "basename": "Udemy想要的课",
@@ -37,16 +37,8 @@
       "path": "Java/Spring/微服务架构-MS-GKDVHLTHBXTL.md"
     },
     {
-      "basename": "究竟如何获取信息",
-      "path": "信息差/究竟如何获取信息.md"
-    },
-    {
       "basename": "每日新知0426",
       "path": "周月总结/202404/每日新知0426.md"
-    },
-    {
-      "basename": "信息差知乎",
-      "path": "信息差/信息差知乎.md"
     },
     {
       "basename": "时间线设计",
@@ -79,10 +71,6 @@
     {
       "basename": "XiaoMiStore",
       "path": "Java/源码阅读/XiaoMiStore.md"
-    },
-    {
-      "basename": "常见面试题",
-      "path": "Java/常见面试题.md"
     },
     {
       "basename": "Untitled",
@@ -177,28 +165,8 @@
       "path": "Java/Java集合类和主要方法.md"
     },
     {
-      "basename": "JS基础",
-      "path": "JavaScript/JS基础.md"
-    },
-    {
-      "basename": "typerscript关键知识",
-      "path": "TypeScript/typerscript关键知识.md"
-    },
-    {
       "basename": "Java关键知识",
       "path": "Java/Java关键知识.md"
-    },
-    {
-      "basename": "Rust核心概念",
-      "path": "Rust/Rust核心概念.md"
-    },
-    {
-      "basename": "模块系统",
-      "path": "JavaScript/模块系统.md"
-    },
-    {
-      "basename": "Typescprit语义",
-      "path": "TypeScript/Typescprit语义.md"
     }
   ],
   "omittedPaths": [],

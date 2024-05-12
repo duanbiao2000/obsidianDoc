@@ -1,6 +1,6 @@
 2023-07-13
 
-[[../JavaScript/SCSS Versus CSS]]
+[[SCSS Versus CSS]]
 
 
 ### 一省:插槽机制
