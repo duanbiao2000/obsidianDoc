@@ -1,3 +1,8 @@
 {
-  "blue-topaz-theme@@font-family-change-to-default": true
+  "blue-topaz-theme@@font-family-change-to-default": true,
+  "blue-topaz-theme@@font-text-theme": "Bookerly,'Inter', 'Segoe UI','霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji',var(--font-interface)",
+  "sanctum@@font-editor-theme": "??",
+  "sanctum@@active-line-accent": "var(--background-hover)",
+  "sanctum@@aside-border": false,
+  "sanctum@@aside-counter": false
 }

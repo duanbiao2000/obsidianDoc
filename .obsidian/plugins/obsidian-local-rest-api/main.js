@@ -208,9 +208,9 @@ var require_baseN = __commonJS({
 // node_modules/node-forge/lib/util.js
 var require_util = __commonJS({
   "node_modules/node-forge/lib/util.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     var baseN = require_baseN();
-    var util = module2.exports = forge2.util = forge2.util || {};
+    var util = module2.exports = forge3.util = forge3.util || {};
     (function() {
       if (typeof process !== "undefined" && process.nextTick && !process.browser) {
         util.nextTick = process.nextTick;
@@ -1560,14 +1560,14 @@ var require_util = __commonJS({
 // node_modules/node-forge/lib/cipher.js
 var require_cipher = __commonJS({
   "node_modules/node-forge/lib/cipher.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
-    module2.exports = forge2.cipher = forge2.cipher || {};
-    forge2.cipher.algorithms = forge2.cipher.algorithms || {};
-    forge2.cipher.createCipher = function(algorithm, key) {
+    module2.exports = forge3.cipher = forge3.cipher || {};
+    forge3.cipher.algorithms = forge3.cipher.algorithms || {};
+    forge3.cipher.createCipher = function(algorithm, key) {
       var api = algorithm;
       if (typeof api === "string") {
-        api = forge2.cipher.getAlgorithm(api);
+        api = forge3.cipher.getAlgorithm(api);
         if (api) {
           api = api();
         }
@@ -1575,16 +1575,16 @@ var require_cipher = __commonJS({
       if (!api) {
         throw new Error("Unsupported algorithm: " + algorithm);
       }
-      return new forge2.cipher.BlockCipher({
+      return new forge3.cipher.BlockCipher({
         algorithm: api,
         key,
         decrypt: false
       });
     };
-    forge2.cipher.createDecipher = function(algorithm, key) {
+    forge3.cipher.createDecipher = function(algorithm, key) {
       var api = algorithm;
       if (typeof api === "string") {
-        api = forge2.cipher.getAlgorithm(api);
+        api = forge3.cipher.getAlgorithm(api);
         if (api) {
           api = api();
         }
@@ -1592,24 +1592,24 @@ var require_cipher = __commonJS({
       if (!api) {
         throw new Error("Unsupported algorithm: " + algorithm);
       }
-      return new forge2.cipher.BlockCipher({
+      return new forge3.cipher.BlockCipher({
         algorithm: api,
         key,
         decrypt: true
       });
     };
-    forge2.cipher.registerAlgorithm = function(name, algorithm) {
+    forge3.cipher.registerAlgorithm = function(name, algorithm) {
       name = name.toUpperCase();
-      forge2.cipher.algorithms[name] = algorithm;
+      forge3.cipher.algorithms[name] = algorithm;
     };
-    forge2.cipher.getAlgorithm = function(name) {
+    forge3.cipher.getAlgorithm = function(name) {
       name = name.toUpperCase();
-      if (name in forge2.cipher.algorithms) {
-        return forge2.cipher.algorithms[name];
+      if (name in forge3.cipher.algorithms) {
+        return forge3.cipher.algorithms[name];
       }
       return null;
     };
-    var BlockCipher = forge2.cipher.BlockCipher = function(options) {
+    var BlockCipher = forge3.cipher.BlockCipher = function(options) {
       this.algorithm = options.algorithm;
       this.mode = this.algorithm.mode;
       this.blockSize = this.mode.blockSize;
@@ -1628,8 +1628,8 @@ var require_cipher = __commonJS({
       }
       opts.decrypt = this._decrypt;
       this._finish = false;
-      this._input = forge2.util.createBuffer();
-      this.output = options.output || forge2.util.createBuffer();
+      this._input = forge3.util.createBuffer();
+      this.output = options.output || forge3.util.createBuffer();
       this.mode.start(opts);
     };
     BlockCipher.prototype.update = function(input) {
@@ -1677,10 +1677,10 @@ var require_cipher = __commonJS({
 // node_modules/node-forge/lib/cipherModes.js
 var require_cipherModes = __commonJS({
   "node_modules/node-forge/lib/cipherModes.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
-    forge2.cipher = forge2.cipher || {};
-    var modes = module2.exports = forge2.cipher.modes = forge2.cipher.modes || {};
+    forge3.cipher = forge3.cipher || {};
+    var modes = module2.exports = forge3.cipher.modes = forge3.cipher.modes || {};
     modes.ecb = function(options) {
       options = options || {};
       this.name = "ECB";
@@ -1807,7 +1807,7 @@ var require_cipherModes = __commonJS({
       this._inBlock = null;
       this._outBlock = new Array(this._ints);
       this._partialBlock = new Array(this._ints);
-      this._partialOutput = forge2.util.createBuffer();
+      this._partialOutput = forge3.util.createBuffer();
       this._partialBytes = 0;
     };
     modes.cfb.prototype.start = function(options) {
@@ -1906,7 +1906,7 @@ var require_cipherModes = __commonJS({
       this._ints = this.blockSize / 4;
       this._inBlock = null;
       this._outBlock = new Array(this._ints);
-      this._partialOutput = forge2.util.createBuffer();
+      this._partialOutput = forge3.util.createBuffer();
       this._partialBytes = 0;
     };
     modes.ofb.prototype.start = function(options) {
@@ -1965,7 +1965,7 @@ var require_cipherModes = __commonJS({
       this._ints = this.blockSize / 4;
       this._inBlock = null;
       this._outBlock = new Array(this._ints);
-      this._partialOutput = forge2.util.createBuffer();
+      this._partialOutput = forge3.util.createBuffer();
       this._partialBytes = 0;
     };
     modes.ctr.prototype.start = function(options) {
@@ -2020,7 +2020,7 @@ var require_cipherModes = __commonJS({
       this._ints = this.blockSize / 4;
       this._inBlock = new Array(this._ints);
       this._outBlock = new Array(this._ints);
-      this._partialOutput = forge2.util.createBuffer();
+      this._partialOutput = forge3.util.createBuffer();
       this._partialBytes = 0;
       this._R = 3774873600;
     };
@@ -2028,13 +2028,13 @@ var require_cipherModes = __commonJS({
       if (!("iv" in options)) {
         throw new Error("Invalid IV parameter.");
       }
-      var iv = forge2.util.createBuffer(options.iv);
+      var iv = forge3.util.createBuffer(options.iv);
       this._cipherLength = 0;
       var additionalData;
       if ("additionalData" in options) {
-        additionalData = forge2.util.createBuffer(options.additionalData);
+        additionalData = forge3.util.createBuffer(options.additionalData);
       } else {
-        additionalData = forge2.util.createBuffer();
+        additionalData = forge3.util.createBuffer();
       }
       if ("tagLength" in options) {
         this._tagLength = options.tagLength;
@@ -2043,7 +2043,7 @@ var require_cipherModes = __commonJS({
       }
       this._tag = null;
       if (options.decrypt) {
-        this._tag = forge2.util.createBuffer(options.tag).getBytes();
+        this._tag = forge3.util.createBuffer(options.tag).getBytes();
         if (this._tag.length !== this._tagLength / 8) {
           throw new Error("Authentication tag does not match tag length.");
         }
@@ -2067,7 +2067,7 @@ var require_cipherModes = __commonJS({
       this._inBlock = this._j0.slice(0);
       inc32(this._inBlock);
       this._partialBytes = 0;
-      additionalData = forge2.util.createBuffer(additionalData);
+      additionalData = forge3.util.createBuffer(additionalData);
       this._aDataLength = from64To32(additionalData.length() * 8);
       var overflow = additionalData.length() % this.blockSize;
       if (overflow) {
@@ -2157,7 +2157,7 @@ var require_cipherModes = __commonJS({
       if (options.decrypt && options.overflow) {
         output.truncate(this.blockSize - options.overflow);
       }
-      this.tag = forge2.util.createBuffer();
+      this.tag = forge3.util.createBuffer();
       var lengths = this._aDataLength.concat(from64To32(this._cipherLength * 8));
       this._s = this.ghash(this._hashSubkey, this._s, lengths);
       var tag = [];
@@ -2263,11 +2263,11 @@ var require_cipherModes = __commonJS({
     };
     function transformIV(iv, blockSize) {
       if (typeof iv === "string") {
-        iv = forge2.util.createBuffer(iv);
+        iv = forge3.util.createBuffer(iv);
       }
-      if (forge2.util.isArray(iv) && iv.length > 4) {
+      if (forge3.util.isArray(iv) && iv.length > 4) {
         var tmp = iv;
-        iv = forge2.util.createBuffer();
+        iv = forge3.util.createBuffer();
         for (var i = 0; i < tmp.length; ++i) {
           iv.putByte(tmp[i]);
         }
@@ -2275,7 +2275,7 @@ var require_cipherModes = __commonJS({
       if (iv.length() < blockSize) {
         throw new Error("Invalid IV length; got " + iv.length() + " bytes and expected " + blockSize + " bytes.");
       }
-      if (!forge2.util.isArray(iv)) {
+      if (!forge3.util.isArray(iv)) {
         var ints = [];
         var blocks = blockSize / 4;
         for (var i = 0; i < blocks; ++i) {
@@ -2297,12 +2297,12 @@ var require_cipherModes = __commonJS({
 // node_modules/node-forge/lib/aes.js
 var require_aes = __commonJS({
   "node_modules/node-forge/lib/aes.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_cipher();
     require_cipherModes();
     require_util();
-    module2.exports = forge2.aes = forge2.aes || {};
-    forge2.aes.startEncrypting = function(key, iv, output, mode) {
+    module2.exports = forge3.aes = forge3.aes || {};
+    forge3.aes.startEncrypting = function(key, iv, output, mode) {
       var cipher = _createCipher({
         key,
         output,
@@ -2312,7 +2312,7 @@ var require_aes = __commonJS({
       cipher.start(iv);
       return cipher;
     };
-    forge2.aes.createEncryptionCipher = function(key, mode) {
+    forge3.aes.createEncryptionCipher = function(key, mode) {
       return _createCipher({
         key,
         output: null,
@@ -2320,7 +2320,7 @@ var require_aes = __commonJS({
         mode
       });
     };
-    forge2.aes.startDecrypting = function(key, iv, output, mode) {
+    forge3.aes.startDecrypting = function(key, iv, output, mode) {
       var cipher = _createCipher({
         key,
         output,
@@ -2330,7 +2330,7 @@ var require_aes = __commonJS({
       cipher.start(iv);
       return cipher;
     };
-    forge2.aes.createDecryptionCipher = function(key, mode) {
+    forge3.aes.createDecryptionCipher = function(key, mode) {
       return _createCipher({
         key,
         output: null,
@@ -2338,7 +2338,7 @@ var require_aes = __commonJS({
         mode
       });
     };
-    forge2.aes.Algorithm = function(name, mode) {
+    forge3.aes.Algorithm = function(name, mode) {
       if (!init) {
         initialize();
       }
@@ -2357,22 +2357,22 @@ var require_aes = __commonJS({
       });
       self2._init = false;
     };
-    forge2.aes.Algorithm.prototype.initialize = function(options) {
+    forge3.aes.Algorithm.prototype.initialize = function(options) {
       if (this._init) {
         return;
       }
       var key = options.key;
       var tmp;
       if (typeof key === "string" && (key.length === 16 || key.length === 24 || key.length === 32)) {
-        key = forge2.util.createBuffer(key);
-      } else if (forge2.util.isArray(key) && (key.length === 16 || key.length === 24 || key.length === 32)) {
+        key = forge3.util.createBuffer(key);
+      } else if (forge3.util.isArray(key) && (key.length === 16 || key.length === 24 || key.length === 32)) {
         tmp = key;
-        key = forge2.util.createBuffer();
+        key = forge3.util.createBuffer();
         for (var i = 0; i < tmp.length; ++i) {
           key.putByte(tmp[i]);
         }
       }
-      if (!forge2.util.isArray(key)) {
+      if (!forge3.util.isArray(key)) {
         tmp = key;
         key = [];
         var len = tmp.length();
@@ -2383,7 +2383,7 @@ var require_aes = __commonJS({
           }
         }
       }
-      if (!forge2.util.isArray(key) || !(key.length === 4 || key.length === 6 || key.length === 8)) {
+      if (!forge3.util.isArray(key) || !(key.length === 4 || key.length === 6 || key.length === 8)) {
         throw new Error("Invalid key parameter.");
       }
       var mode = this.mode.name;
@@ -2391,24 +2391,24 @@ var require_aes = __commonJS({
       this._w = _expandKey(key, options.decrypt && !encryptOp);
       this._init = true;
     };
-    forge2.aes._expandKey = function(key, decrypt) {
+    forge3.aes._expandKey = function(key, decrypt) {
       if (!init) {
         initialize();
       }
       return _expandKey(key, decrypt);
     };
-    forge2.aes._updateBlock = _updateBlock;
-    registerAlgorithm("AES-ECB", forge2.cipher.modes.ecb);
-    registerAlgorithm("AES-CBC", forge2.cipher.modes.cbc);
-    registerAlgorithm("AES-CFB", forge2.cipher.modes.cfb);
-    registerAlgorithm("AES-OFB", forge2.cipher.modes.ofb);
-    registerAlgorithm("AES-CTR", forge2.cipher.modes.ctr);
-    registerAlgorithm("AES-GCM", forge2.cipher.modes.gcm);
+    forge3.aes._updateBlock = _updateBlock;
+    registerAlgorithm("AES-ECB", forge3.cipher.modes.ecb);
+    registerAlgorithm("AES-CBC", forge3.cipher.modes.cbc);
+    registerAlgorithm("AES-CFB", forge3.cipher.modes.cfb);
+    registerAlgorithm("AES-OFB", forge3.cipher.modes.ofb);
+    registerAlgorithm("AES-CTR", forge3.cipher.modes.ctr);
+    registerAlgorithm("AES-GCM", forge3.cipher.modes.gcm);
     function registerAlgorithm(name, mode) {
       var factory = function() {
-        return new forge2.aes.Algorithm(name, mode);
+        return new forge3.aes.Algorithm(name, mode);
       };
-      forge2.cipher.registerAlgorithm(name, factory);
+      forge3.cipher.registerAlgorithm(name, factory);
     }
     var init = false;
     var Nb = 4;
@@ -2542,14 +2542,14 @@ var require_aes = __commonJS({
       var algorithm = "AES-" + mode;
       var cipher;
       if (options.decrypt) {
-        cipher = forge2.cipher.createDecipher(algorithm, options.key);
+        cipher = forge3.cipher.createDecipher(algorithm, options.key);
       } else {
-        cipher = forge2.cipher.createCipher(algorithm, options.key);
+        cipher = forge3.cipher.createCipher(algorithm, options.key);
       }
       var start = cipher.start;
       cipher.start = function(iv, options2) {
         var output = null;
-        if (options2 instanceof forge2.util.ByteBuffer) {
+        if (options2 instanceof forge3.util.ByteBuffer) {
           output = options2;
           options2 = {};
         }
@@ -2566,9 +2566,9 @@ var require_aes = __commonJS({
 // node_modules/node-forge/lib/oids.js
 var require_oids = __commonJS({
   "node_modules/node-forge/lib/oids.js"(exports2, module2) {
-    var forge2 = require_forge();
-    forge2.pki = forge2.pki || {};
-    var oids = module2.exports = forge2.pki.oids = forge2.oids = forge2.oids || {};
+    var forge3 = require_forge();
+    forge3.pki = forge3.pki || {};
+    var oids = module2.exports = forge3.pki.oids = forge3.oids = forge3.oids || {};
     function _IN(id, name) {
       oids[id] = name;
       oids[name] = id;
@@ -2710,10 +2710,10 @@ var require_oids = __commonJS({
 // node_modules/node-forge/lib/asn1.js
 var require_asn1 = __commonJS({
   "node_modules/node-forge/lib/asn1.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
     require_oids();
-    var asn1 = module2.exports = forge2.asn1 = forge2.asn1 || {};
+    var asn1 = module2.exports = forge3.asn1 = forge3.asn1 || {};
     asn1.Class = {
       UNIVERSAL: 0,
       APPLICATION: 64,
@@ -2744,7 +2744,7 @@ var require_asn1 = __commonJS({
       BMPSTRING: 30
     };
     asn1.create = function(tagClass, type, constructed, value, options) {
-      if (forge2.util.isArray(value)) {
+      if (forge3.util.isArray(value)) {
         var tmp = [];
         for (var i = 0; i < value.length; ++i) {
           if (value[i] !== void 0) {
@@ -2757,7 +2757,7 @@ var require_asn1 = __commonJS({
         tagClass,
         type,
         constructed,
-        composed: constructed || forge2.util.isArray(value),
+        composed: constructed || forge3.util.isArray(value),
         value
       };
       if (options && "bitStringContents" in options) {
@@ -2768,7 +2768,7 @@ var require_asn1 = __commonJS({
     };
     asn1.copy = function(obj, options) {
       var copy;
-      if (forge2.util.isArray(obj)) {
+      if (forge3.util.isArray(obj)) {
         copy = [];
         for (var i = 0; i < obj.length; ++i) {
           copy.push(asn1.copy(obj[i], options));
@@ -2791,8 +2791,8 @@ var require_asn1 = __commonJS({
       return copy;
     };
     asn1.equals = function(obj1, obj2, options) {
-      if (forge2.util.isArray(obj1)) {
-        if (!forge2.util.isArray(obj2)) {
+      if (forge3.util.isArray(obj1)) {
+        if (!forge3.util.isArray(obj2)) {
           return false;
         }
         if (obj1.length !== obj2.length) {
@@ -2885,7 +2885,7 @@ var require_asn1 = __commonJS({
         options.decodeBitStrings = true;
       }
       if (typeof bytes === "string") {
-        bytes = forge2.util.createBuffer(bytes);
+        bytes = forge3.util.createBuffer(bytes);
       }
       var byteCount = bytes.length();
       var value = _fromDer(bytes, bytes.length(), 0, options);
@@ -3005,9 +3005,9 @@ var require_asn1 = __commonJS({
       return asn1.create(tagClass, type, constructed, value, asn1Options);
     }
     asn1.toDer = function(obj) {
-      var bytes = forge2.util.createBuffer();
+      var bytes = forge3.util.createBuffer();
       var b1 = obj.tagClass | obj.type;
-      var value = forge2.util.createBuffer();
+      var value = forge3.util.createBuffer();
       var useBitStringContents = false;
       if ("bitStringContents" in obj) {
         useBitStringContents = true;
@@ -3061,7 +3061,7 @@ var require_asn1 = __commonJS({
     };
     asn1.oidToDer = function(oid) {
       var values = oid.split(".");
-      var bytes = forge2.util.createBuffer();
+      var bytes = forge3.util.createBuffer();
       bytes.putByte(40 * parseInt(values[0], 10) + parseInt(values[1], 10));
       var last, valueBytes, value, b;
       for (var i = 2; i < values.length; ++i) {
@@ -3086,7 +3086,7 @@ var require_asn1 = __commonJS({
     asn1.derToOid = function(bytes) {
       var oid;
       if (typeof bytes === "string") {
-        bytes = forge2.util.createBuffer(bytes);
+        bytes = forge3.util.createBuffer(bytes);
       }
       var b = bytes.getByte();
       oid = Math.floor(b / 40) + "." + b % 40;
@@ -3219,7 +3219,7 @@ var require_asn1 = __commonJS({
       return rval;
     };
     asn1.integerToDer = function(x) {
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       if (x >= -128 && x < 128) {
         return rval.putSignedInt(x, 8);
       }
@@ -3238,7 +3238,7 @@ var require_asn1 = __commonJS({
     };
     asn1.derToInteger = function(bytes) {
       if (typeof bytes === "string") {
-        bytes = forge2.util.createBuffer(bytes);
+        bytes = forge3.util.createBuffer(bytes);
       }
       var n = bytes.length() * 8;
       if (n > 32) {
@@ -3251,7 +3251,7 @@ var require_asn1 = __commonJS({
       if ((obj.tagClass === v.tagClass || typeof v.tagClass === "undefined") && (obj.type === v.type || typeof v.type === "undefined")) {
         if (obj.constructed === v.constructed || typeof v.constructed === "undefined") {
           rval = true;
-          if (v.value && forge2.util.isArray(v.value)) {
+          if (v.value && forge3.util.isArray(v.value)) {
             var j = 0;
             for (var i = 0; rval && i < v.value.length; ++i) {
               rval = v.value[i].optional || false;
@@ -3421,9 +3421,9 @@ var require_asn1 = __commonJS({
         if (obj.type === asn1.Type.OID) {
           var oid = asn1.derToOid(obj.value);
           rval += oid;
-          if (forge2.pki && forge2.pki.oids) {
-            if (oid in forge2.pki.oids) {
-              rval += " (" + forge2.pki.oids[oid] + ") ";
+          if (forge3.pki && forge3.pki.oids) {
+            if (oid in forge3.pki.oids) {
+              rval += " (" + forge3.pki.oids[oid] + ") ";
             }
           }
         }
@@ -3431,11 +3431,11 @@ var require_asn1 = __commonJS({
           try {
             rval += asn1.derToInteger(obj.value);
           } catch (ex) {
-            rval += "0x" + forge2.util.bytesToHex(obj.value);
+            rval += "0x" + forge3.util.bytesToHex(obj.value);
           }
         } else if (obj.type === asn1.Type.BITSTRING) {
           if (obj.value.length > 1) {
-            rval += "0x" + forge2.util.bytesToHex(obj.value.slice(1));
+            rval += "0x" + forge3.util.bytesToHex(obj.value.slice(1));
           } else {
             rval += "(none)";
           }
@@ -3451,13 +3451,13 @@ var require_asn1 = __commonJS({
           if (!_nonLatinRegex.test(obj.value)) {
             rval += "(" + obj.value + ") ";
           }
-          rval += "0x" + forge2.util.bytesToHex(obj.value);
+          rval += "0x" + forge3.util.bytesToHex(obj.value);
         } else if (obj.type === asn1.Type.UTF8) {
           try {
-            rval += forge2.util.decodeUtf8(obj.value);
+            rval += forge3.util.decodeUtf8(obj.value);
           } catch (e) {
             if (e.message === "URI malformed") {
-              rval += "0x" + forge2.util.bytesToHex(obj.value) + " (malformed UTF8)";
+              rval += "0x" + forge3.util.bytesToHex(obj.value) + " (malformed UTF8)";
             } else {
               throw e;
             }
@@ -3465,7 +3465,7 @@ var require_asn1 = __commonJS({
         } else if (obj.type === asn1.Type.PRINTABLESTRING || obj.type === asn1.Type.IA5String) {
           rval += obj.value;
         } else if (_nonLatinRegex.test(obj.value)) {
-          rval += "0x" + forge2.util.bytesToHex(obj.value);
+          rval += "0x" + forge3.util.bytesToHex(obj.value);
         } else if (obj.value.length === 0) {
           rval += "[null]";
         } else {
@@ -3480,19 +3480,19 @@ var require_asn1 = __commonJS({
 // node_modules/node-forge/lib/md.js
 var require_md = __commonJS({
   "node_modules/node-forge/lib/md.js"(exports2, module2) {
-    var forge2 = require_forge();
-    module2.exports = forge2.md = forge2.md || {};
-    forge2.md.algorithms = forge2.md.algorithms || {};
+    var forge3 = require_forge();
+    module2.exports = forge3.md = forge3.md || {};
+    forge3.md.algorithms = forge3.md.algorithms || {};
   }
 });
 
 // node_modules/node-forge/lib/hmac.js
 var require_hmac = __commonJS({
   "node_modules/node-forge/lib/hmac.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_md();
     require_util();
-    var hmac = module2.exports = forge2.hmac = forge2.hmac || {};
+    var hmac = module2.exports = forge3.hmac = forge3.hmac || {};
     hmac.create = function() {
       var _key = null;
       var _md = null;
@@ -3503,8 +3503,8 @@ var require_hmac = __commonJS({
         if (md !== null) {
           if (typeof md === "string") {
             md = md.toLowerCase();
-            if (md in forge2.md.algorithms) {
-              _md = forge2.md.algorithms[md].create();
+            if (md in forge3.md.algorithms) {
+              _md = forge3.md.algorithms[md].create();
             } else {
               throw new Error('Unknown hash algorithm "' + md + '"');
             }
@@ -3516,10 +3516,10 @@ var require_hmac = __commonJS({
           key = _key;
         } else {
           if (typeof key === "string") {
-            key = forge2.util.createBuffer(key);
-          } else if (forge2.util.isArray(key)) {
+            key = forge3.util.createBuffer(key);
+          } else if (forge3.util.isArray(key)) {
             var tmp = key;
-            key = forge2.util.createBuffer();
+            key = forge3.util.createBuffer();
             for (var i = 0; i < tmp.length; ++i) {
               key.putByte(tmp[i]);
             }
@@ -3530,8 +3530,8 @@ var require_hmac = __commonJS({
             _md.update(key.bytes());
             key = _md.digest();
           }
-          _ipadding = forge2.util.createBuffer();
-          _opadding = forge2.util.createBuffer();
+          _ipadding = forge3.util.createBuffer();
+          _opadding = forge3.util.createBuffer();
           keylen = key.length();
           for (var i = 0; i < keylen; ++i) {
             var tmp = key.at(i);
@@ -3571,17 +3571,17 @@ var require_hmac = __commonJS({
 // node_modules/node-forge/lib/md5.js
 var require_md5 = __commonJS({
   "node_modules/node-forge/lib/md5.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_md();
     require_util();
-    var md5 = module2.exports = forge2.md5 = forge2.md5 || {};
-    forge2.md.md5 = forge2.md.algorithms.md5 = md5;
+    var md5 = module2.exports = forge3.md5 = forge3.md5 || {};
+    forge3.md.md5 = forge3.md.algorithms.md5 = md5;
     md5.create = function() {
       if (!_initialized) {
         _init();
       }
       var _state = null;
-      var _input = forge2.util.createBuffer();
+      var _input = forge3.util.createBuffer();
       var _w = new Array(16);
       var md = {
         algorithm: "md5",
@@ -3598,7 +3598,7 @@ var require_md5 = __commonJS({
         for (var i = 0; i < int32s; ++i) {
           md.fullMessageLength.push(0);
         }
-        _input = forge2.util.createBuffer();
+        _input = forge3.util.createBuffer();
         _state = {
           h0: 1732584193,
           h1: 4023233417,
@@ -3610,7 +3610,7 @@ var require_md5 = __commonJS({
       md.start();
       md.update = function(msg, encoding) {
         if (encoding === "utf8") {
-          msg = forge2.util.encodeUtf8(msg);
+          msg = forge3.util.encodeUtf8(msg);
         }
         var len = msg.length;
         md.messageLength += len;
@@ -3629,7 +3629,7 @@ var require_md5 = __commonJS({
         return md;
       };
       md.digest = function() {
-        var finalBlock = forge2.util.createBuffer();
+        var finalBlock = forge3.util.createBuffer();
         finalBlock.putBytes(_input.bytes());
         var remaining = md.fullMessageLength[md.fullMessageLength.length - 1] + md.messageLengthSize;
         var overflow = remaining & md.blockLength - 1;
@@ -3647,7 +3647,7 @@ var require_md5 = __commonJS({
           h3: _state.h3
         };
         _update(s2, _w, finalBlock);
-        var rval = forge2.util.createBuffer();
+        var rval = forge3.util.createBuffer();
         rval.putInt32Le(s2.h0);
         rval.putInt32Le(s2.h1);
         rval.putInt32Le(s2.h2);
@@ -3663,7 +3663,7 @@ var require_md5 = __commonJS({
     var _initialized = false;
     function _init() {
       _padding = String.fromCharCode(128);
-      _padding += forge2.util.fillString(String.fromCharCode(0), 64);
+      _padding += forge3.util.fillString(String.fromCharCode(0), 64);
       _g = [
         0,
         1,
@@ -3860,9 +3860,9 @@ var require_md5 = __commonJS({
 // node_modules/node-forge/lib/pem.js
 var require_pem = __commonJS({
   "node_modules/node-forge/lib/pem.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
-    var pem = module2.exports = forge2.pem = forge2.pem || {};
+    var pem = module2.exports = forge3.pem = forge3.pem || {};
     pem.encode = function(msg, options) {
       options = options || {};
       var rval = "-----BEGIN " + msg.type + "-----\r\n";
@@ -3893,7 +3893,7 @@ var require_pem = __commonJS({
       if (msg.procType) {
         rval += "\r\n";
       }
-      rval += forge2.util.encode64(msg.body, options.maxline || 64) + "\r\n";
+      rval += forge3.util.encode64(msg.body, options.maxline || 64) + "\r\n";
       rval += "-----END " + msg.type + "-----\r\n";
       return rval;
     };
@@ -3918,7 +3918,7 @@ var require_pem = __commonJS({
           contentDomain: null,
           dekInfo: null,
           headers: [],
-          body: forge2.util.decode64(match[3])
+          body: forge3.util.decode64(match[3])
         };
         rval.push(msg);
         if (!match[2]) {
@@ -4011,12 +4011,12 @@ var require_pem = __commonJS({
 // node_modules/node-forge/lib/des.js
 var require_des = __commonJS({
   "node_modules/node-forge/lib/des.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_cipher();
     require_cipherModes();
     require_util();
-    module2.exports = forge2.des = forge2.des || {};
-    forge2.des.startEncrypting = function(key, iv, output, mode) {
+    module2.exports = forge3.des = forge3.des || {};
+    forge3.des.startEncrypting = function(key, iv, output, mode) {
       var cipher = _createCipher({
         key,
         output,
@@ -4026,7 +4026,7 @@ var require_des = __commonJS({
       cipher.start(iv);
       return cipher;
     };
-    forge2.des.createEncryptionCipher = function(key, mode) {
+    forge3.des.createEncryptionCipher = function(key, mode) {
       return _createCipher({
         key,
         output: null,
@@ -4034,7 +4034,7 @@ var require_des = __commonJS({
         mode
       });
     };
-    forge2.des.startDecrypting = function(key, iv, output, mode) {
+    forge3.des.startDecrypting = function(key, iv, output, mode) {
       var cipher = _createCipher({
         key,
         output,
@@ -4044,7 +4044,7 @@ var require_des = __commonJS({
       cipher.start(iv);
       return cipher;
     };
-    forge2.des.createDecryptionCipher = function(key, mode) {
+    forge3.des.createDecryptionCipher = function(key, mode) {
       return _createCipher({
         key,
         output: null,
@@ -4052,7 +4052,7 @@ var require_des = __commonJS({
         mode
       });
     };
-    forge2.des.Algorithm = function(name, mode) {
+    forge3.des.Algorithm = function(name, mode) {
       var self2 = this;
       self2.name = name;
       self2.mode = new mode({
@@ -4068,11 +4068,11 @@ var require_des = __commonJS({
       });
       self2._init = false;
     };
-    forge2.des.Algorithm.prototype.initialize = function(options) {
+    forge3.des.Algorithm.prototype.initialize = function(options) {
       if (this._init) {
         return;
       }
-      var key = forge2.util.createBuffer(options.key);
+      var key = forge3.util.createBuffer(options.key);
       if (this.name.indexOf("3DES") === 0) {
         if (key.length() !== 24) {
           throw new Error("Invalid Triple-DES key size: " + key.length() * 8);
@@ -4081,21 +4081,21 @@ var require_des = __commonJS({
       this._keys = _createKeys(key);
       this._init = true;
     };
-    registerAlgorithm("DES-ECB", forge2.cipher.modes.ecb);
-    registerAlgorithm("DES-CBC", forge2.cipher.modes.cbc);
-    registerAlgorithm("DES-CFB", forge2.cipher.modes.cfb);
-    registerAlgorithm("DES-OFB", forge2.cipher.modes.ofb);
-    registerAlgorithm("DES-CTR", forge2.cipher.modes.ctr);
-    registerAlgorithm("3DES-ECB", forge2.cipher.modes.ecb);
-    registerAlgorithm("3DES-CBC", forge2.cipher.modes.cbc);
-    registerAlgorithm("3DES-CFB", forge2.cipher.modes.cfb);
-    registerAlgorithm("3DES-OFB", forge2.cipher.modes.ofb);
-    registerAlgorithm("3DES-CTR", forge2.cipher.modes.ctr);
+    registerAlgorithm("DES-ECB", forge3.cipher.modes.ecb);
+    registerAlgorithm("DES-CBC", forge3.cipher.modes.cbc);
+    registerAlgorithm("DES-CFB", forge3.cipher.modes.cfb);
+    registerAlgorithm("DES-OFB", forge3.cipher.modes.ofb);
+    registerAlgorithm("DES-CTR", forge3.cipher.modes.ctr);
+    registerAlgorithm("3DES-ECB", forge3.cipher.modes.ecb);
+    registerAlgorithm("3DES-CBC", forge3.cipher.modes.cbc);
+    registerAlgorithm("3DES-CFB", forge3.cipher.modes.cfb);
+    registerAlgorithm("3DES-OFB", forge3.cipher.modes.ofb);
+    registerAlgorithm("3DES-CTR", forge3.cipher.modes.ctr);
     function registerAlgorithm(name, mode) {
       var factory = function() {
-        return new forge2.des.Algorithm(name, mode);
+        return new forge3.des.Algorithm(name, mode);
       };
-      forge2.cipher.registerAlgorithm(name, factory);
+      forge3.cipher.registerAlgorithm(name, factory);
     }
     var spfunction1 = [16843776, 0, 65536, 16843780, 16842756, 66564, 4, 65536, 1024, 16843776, 16843780, 1024, 16778244, 16842756, 16777216, 4, 1028, 16778240, 16778240, 66560, 66560, 16842752, 16842752, 16778244, 65540, 16777220, 16777220, 65540, 0, 1028, 66564, 16777216, 65536, 16843780, 4, 16842752, 16843776, 16777216, 16777216, 1024, 16842756, 65536, 66560, 16777220, 1024, 4, 16778244, 66564, 16843780, 65540, 16842752, 16778244, 16777220, 1028, 66564, 16843776, 1028, 16778240, 16778240, 0, 65540, 66560, 0, 16842756];
     var spfunction2 = [-2146402272, -2147450880, 32768, 1081376, 1048576, 32, -2146435040, -2147450848, -2147483616, -2146402272, -2146402304, -2147483648, -2147450880, 1048576, 32, -2146435040, 1081344, 1048608, -2147450848, 0, -2147483648, 32768, 1081376, -2146435072, 1048608, -2147483616, 0, 1081344, 32800, -2146402304, -2146435072, 32800, 0, 1081376, -2146435040, 1048576, -2147450848, -2146435072, -2146402304, 32768, -2146435072, -2147450880, 32, -2146402272, 1081376, 32, 32768, -2147483648, 32800, -2146402304, 1048576, -2147483616, 1048608, -2147450848, -2147483616, 1048608, 1081344, 0, -2147450880, 32800, -2147483648, -2146435040, -2146402272, 1081344];
@@ -4225,14 +4225,14 @@ var require_des = __commonJS({
       var algorithm = "DES-" + mode;
       var cipher;
       if (options.decrypt) {
-        cipher = forge2.cipher.createDecipher(algorithm, options.key);
+        cipher = forge3.cipher.createDecipher(algorithm, options.key);
       } else {
-        cipher = forge2.cipher.createCipher(algorithm, options.key);
+        cipher = forge3.cipher.createCipher(algorithm, options.key);
       }
       var start = cipher.start;
       cipher.start = function(iv, options2) {
         var output = null;
-        if (options2 instanceof forge2.util.ByteBuffer) {
+        if (options2 instanceof forge3.util.ByteBuffer) {
           output = options2;
           options2 = {};
         }
@@ -4249,21 +4249,21 @@ var require_des = __commonJS({
 // node_modules/node-forge/lib/pbkdf2.js
 var require_pbkdf2 = __commonJS({
   "node_modules/node-forge/lib/pbkdf2.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_hmac();
     require_md();
     require_util();
-    var pkcs5 = forge2.pkcs5 = forge2.pkcs5 || {};
+    var pkcs5 = forge3.pkcs5 = forge3.pkcs5 || {};
     var crypto;
-    if (forge2.util.isNodejs && !forge2.options.usePureJavaScript) {
+    if (forge3.util.isNodejs && !forge3.options.usePureJavaScript) {
       crypto = require("crypto");
     }
-    module2.exports = forge2.pbkdf2 = pkcs5.pbkdf2 = function(p, s, c, dkLen, md, callback) {
+    module2.exports = forge3.pbkdf2 = pkcs5.pbkdf2 = function(p, s, c, dkLen, md, callback) {
       if (typeof md === "function") {
         callback = md;
         md = null;
       }
-      if (forge2.util.isNodejs && !forge2.options.usePureJavaScript && crypto.pbkdf2 && (md === null || typeof md !== "object") && (crypto.pbkdf2Sync.length > 4 || (!md || md === "sha1"))) {
+      if (forge3.util.isNodejs && !forge3.options.usePureJavaScript && crypto.pbkdf2 && (md === null || typeof md !== "object") && (crypto.pbkdf2Sync.length > 4 || (!md || md === "sha1"))) {
         if (typeof md !== "string") {
           md = "sha1";
         }
@@ -4294,10 +4294,10 @@ var require_pbkdf2 = __commonJS({
         md = "sha1";
       }
       if (typeof md === "string") {
-        if (!(md in forge2.md.algorithms)) {
+        if (!(md in forge3.md.algorithms)) {
           throw new Error("Unknown hash algorithm: " + md);
         }
-        md = forge2.md[md].create();
+        md = forge3.md[md].create();
       }
       var hLen = md.digestLength;
       if (dkLen > 4294967295 * hLen) {
@@ -4309,7 +4309,7 @@ var require_pbkdf2 = __commonJS({
       }
       var len = Math.ceil(dkLen / hLen);
       var r = dkLen - (len - 1) * hLen;
-      var prf = forge2.hmac.create();
+      var prf = forge3.hmac.create();
       prf.start(md, p);
       var dk = "";
       var xor, u_c, u_c1;
@@ -4317,13 +4317,13 @@ var require_pbkdf2 = __commonJS({
         for (var i = 1; i <= len; ++i) {
           prf.start(null, null);
           prf.update(s);
-          prf.update(forge2.util.int32ToBytes(i));
+          prf.update(forge3.util.int32ToBytes(i));
           xor = u_c1 = prf.digest().getBytes();
           for (var j = 2; j <= c; ++j) {
             prf.start(null, null);
             prf.update(u_c1);
             u_c = prf.digest().getBytes();
-            xor = forge2.util.xorBytes(xor, u_c, hLen);
+            xor = forge3.util.xorBytes(xor, u_c, hLen);
             u_c1 = u_c;
           }
           dk += i < len ? xor : xor.substr(0, r);
@@ -4337,7 +4337,7 @@ var require_pbkdf2 = __commonJS({
         }
         prf.start(null, null);
         prf.update(s);
-        prf.update(forge2.util.int32ToBytes(i));
+        prf.update(forge3.util.int32ToBytes(i));
         xor = u_c1 = prf.digest().getBytes();
         j = 2;
         inner();
@@ -4347,10 +4347,10 @@ var require_pbkdf2 = __commonJS({
           prf.start(null, null);
           prf.update(u_c1);
           u_c = prf.digest().getBytes();
-          xor = forge2.util.xorBytes(xor, u_c, hLen);
+          xor = forge3.util.xorBytes(xor, u_c, hLen);
           u_c1 = u_c;
           ++j;
-          return forge2.util.setImmediate(inner);
+          return forge3.util.setImmediate(inner);
         }
         dk += i < len ? xor : xor.substr(0, r);
         ++i;
@@ -4364,17 +4364,17 @@ var require_pbkdf2 = __commonJS({
 // node_modules/node-forge/lib/sha256.js
 var require_sha256 = __commonJS({
   "node_modules/node-forge/lib/sha256.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_md();
     require_util();
-    var sha256 = module2.exports = forge2.sha256 = forge2.sha256 || {};
-    forge2.md.sha256 = forge2.md.algorithms.sha256 = sha256;
+    var sha256 = module2.exports = forge3.sha256 = forge3.sha256 || {};
+    forge3.md.sha256 = forge3.md.algorithms.sha256 = sha256;
     sha256.create = function() {
       if (!_initialized) {
         _init();
       }
       var _state = null;
-      var _input = forge2.util.createBuffer();
+      var _input = forge3.util.createBuffer();
       var _w = new Array(64);
       var md = {
         algorithm: "sha256",
@@ -4391,7 +4391,7 @@ var require_sha256 = __commonJS({
         for (var i = 0; i < int32s; ++i) {
           md.fullMessageLength.push(0);
         }
-        _input = forge2.util.createBuffer();
+        _input = forge3.util.createBuffer();
         _state = {
           h0: 1779033703,
           h1: 3144134277,
@@ -4407,7 +4407,7 @@ var require_sha256 = __commonJS({
       md.start();
       md.update = function(msg, encoding) {
         if (encoding === "utf8") {
-          msg = forge2.util.encodeUtf8(msg);
+          msg = forge3.util.encodeUtf8(msg);
         }
         var len = msg.length;
         md.messageLength += len;
@@ -4426,7 +4426,7 @@ var require_sha256 = __commonJS({
         return md;
       };
       md.digest = function() {
-        var finalBlock = forge2.util.createBuffer();
+        var finalBlock = forge3.util.createBuffer();
         finalBlock.putBytes(_input.bytes());
         var remaining = md.fullMessageLength[md.fullMessageLength.length - 1] + md.messageLengthSize;
         var overflow = remaining & md.blockLength - 1;
@@ -4452,7 +4452,7 @@ var require_sha256 = __commonJS({
           h7: _state.h7
         };
         _update(s2, _w, finalBlock);
-        var rval = forge2.util.createBuffer();
+        var rval = forge3.util.createBuffer();
         rval.putInt32(s2.h0);
         rval.putInt32(s2.h1);
         rval.putInt32(s2.h2);
@@ -4470,7 +4470,7 @@ var require_sha256 = __commonJS({
     var _k = null;
     function _init() {
       _padding = String.fromCharCode(128);
-      _padding += forge2.util.fillString(String.fromCharCode(0), 64);
+      _padding += forge3.util.fillString(String.fromCharCode(0), 64);
       _k = [
         1116352408,
         1899447441,
@@ -4594,13 +4594,13 @@ var require_sha256 = __commonJS({
 // node_modules/node-forge/lib/prng.js
 var require_prng = __commonJS({
   "node_modules/node-forge/lib/prng.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
     var _crypto = null;
-    if (forge2.util.isNodejs && !forge2.options.usePureJavaScript && !process.versions["node-webkit"]) {
+    if (forge3.util.isNodejs && !forge3.options.usePureJavaScript && !process.versions["node-webkit"]) {
       _crypto = require("crypto");
     }
-    var prng = module2.exports = forge2.prng = forge2.prng || {};
+    var prng = module2.exports = forge3.prng = forge3.prng || {};
     prng.create = function(plugin) {
       var ctx = {
         plugin,
@@ -4626,7 +4626,7 @@ var require_prng = __commonJS({
         var increment = ctx.plugin.increment;
         var formatKey = ctx.plugin.formatKey;
         var formatSeed = ctx.plugin.formatSeed;
-        var b = forge2.util.createBuffer();
+        var b = forge3.util.createBuffer();
         ctx.key = null;
         generate();
         function generate(err) {
@@ -4640,7 +4640,7 @@ var require_prng = __commonJS({
             ctx.key = null;
           }
           if (ctx.key === null) {
-            return forge2.util.nextTick(function() {
+            return forge3.util.nextTick(function() {
               _reseed(generate);
             });
           }
@@ -4649,7 +4649,7 @@ var require_prng = __commonJS({
           b.putBytes(bytes);
           ctx.key = formatKey(cipher(ctx.key, increment(ctx.seed)));
           ctx.seed = formatSeed(cipher(ctx.key, ctx.seed));
-          forge2.util.setImmediate(generate);
+          forge3.util.setImmediate(generate);
         }
       };
       ctx.generateSync = function(count) {
@@ -4658,7 +4658,7 @@ var require_prng = __commonJS({
         var formatKey = ctx.plugin.formatKey;
         var formatSeed = ctx.plugin.formatSeed;
         ctx.key = null;
-        var b = forge2.util.createBuffer();
+        var b = forge3.util.createBuffer();
         while (b.length() < count) {
           if (ctx.generated > 1048575) {
             ctx.key = null;
@@ -4719,14 +4719,14 @@ var require_prng = __commonJS({
       }
       function defaultSeedFile(needed) {
         var getRandomValues = null;
-        var globalScope = forge2.util.globalScope;
+        var globalScope = forge3.util.globalScope;
         var _crypto2 = globalScope.crypto || globalScope.msCrypto;
         if (_crypto2 && _crypto2.getRandomValues) {
           getRandomValues = function(arr) {
             return _crypto2.getRandomValues(arr);
           };
         }
-        var b = forge2.util.createBuffer();
+        var b = forge3.util.createBuffer();
         if (getRandomValues) {
           while (b.length() < needed) {
             var count = Math.max(1, Math.min(needed - b.length(), 65536) / 4);
@@ -4831,31 +4831,31 @@ var require_prng = __commonJS({
 // node_modules/node-forge/lib/random.js
 var require_random = __commonJS({
   "node_modules/node-forge/lib/random.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_aes();
     require_sha256();
     require_prng();
     require_util();
     (function() {
-      if (forge2.random && forge2.random.getBytes) {
-        module2.exports = forge2.random;
+      if (forge3.random && forge3.random.getBytes) {
+        module2.exports = forge3.random;
         return;
       }
       (function(jQuery2) {
         var prng_aes = {};
         var _prng_aes_output = new Array(4);
-        var _prng_aes_buffer = forge2.util.createBuffer();
+        var _prng_aes_buffer = forge3.util.createBuffer();
         prng_aes.formatKey = function(key2) {
-          var tmp = forge2.util.createBuffer(key2);
+          var tmp = forge3.util.createBuffer(key2);
           key2 = new Array(4);
           key2[0] = tmp.getInt32();
           key2[1] = tmp.getInt32();
           key2[2] = tmp.getInt32();
           key2[3] = tmp.getInt32();
-          return forge2.aes._expandKey(key2, false);
+          return forge3.aes._expandKey(key2, false);
         };
         prng_aes.formatSeed = function(seed) {
-          var tmp = forge2.util.createBuffer(seed);
+          var tmp = forge3.util.createBuffer(seed);
           seed = new Array(4);
           seed[0] = tmp.getInt32();
           seed[1] = tmp.getInt32();
@@ -4864,7 +4864,7 @@ var require_random = __commonJS({
           return seed;
         };
         prng_aes.cipher = function(key2, seed) {
-          forge2.aes._updateBlock(key2, seed, _prng_aes_output, false);
+          forge3.aes._updateBlock(key2, seed, _prng_aes_output, false);
           _prng_aes_buffer.putInt32(_prng_aes_output[0]);
           _prng_aes_buffer.putInt32(_prng_aes_output[1]);
           _prng_aes_buffer.putInt32(_prng_aes_output[2]);
@@ -4875,9 +4875,9 @@ var require_random = __commonJS({
           ++seed[3];
           return seed;
         };
-        prng_aes.md = forge2.md.sha256;
+        prng_aes.md = forge3.md.sha256;
         function spawnPrng() {
-          var ctx = forge2.prng.create(prng_aes);
+          var ctx = forge3.prng.create(prng_aes);
           ctx.getBytes = function(count, callback) {
             return ctx.generate(count, callback);
           };
@@ -4888,14 +4888,14 @@ var require_random = __commonJS({
         }
         var _ctx = spawnPrng();
         var getRandomValues = null;
-        var globalScope = forge2.util.globalScope;
+        var globalScope = forge3.util.globalScope;
         var _crypto = globalScope.crypto || globalScope.msCrypto;
         if (_crypto && _crypto.getRandomValues) {
           getRandomValues = function(arr) {
             return _crypto.getRandomValues(arr);
           };
         }
-        if (forge2.options.usePureJavaScript || !forge2.util.isNodejs && !getRandomValues) {
+        if (forge3.options.usePureJavaScript || !forge3.util.isNodejs && !getRandomValues) {
           if (typeof window === "undefined" || window.document === void 0) {
           }
           _ctx.collectInt(+new Date(), 32);
@@ -4922,15 +4922,15 @@ var require_random = __commonJS({
             });
           }
         }
-        if (!forge2.random) {
-          forge2.random = _ctx;
+        if (!forge3.random) {
+          forge3.random = _ctx;
         } else {
           for (var key in _ctx) {
-            forge2.random[key] = _ctx[key];
+            forge3.random[key] = _ctx[key];
           }
         }
-        forge2.random.createInstance = spawnPrng;
-        module2.exports = forge2.random;
+        forge3.random.createInstance = spawnPrng;
+        module2.exports = forge3.random;
       })(typeof jQuery !== "undefined" ? jQuery : null);
     })();
   }
@@ -4939,7 +4939,7 @@ var require_random = __commonJS({
 // node_modules/node-forge/lib/rc2.js
 var require_rc2 = __commonJS({
   "node_modules/node-forge/lib/rc2.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
     var piTable = [
       217,
@@ -5206,10 +5206,10 @@ var require_rc2 = __commonJS({
     var ror = function(word, bits) {
       return (word & 65535) >> bits | word << 16 - bits & 65535;
     };
-    module2.exports = forge2.rc2 = forge2.rc2 || {};
-    forge2.rc2.expandKey = function(key, effKeyBits) {
+    module2.exports = forge3.rc2 = forge3.rc2 || {};
+    forge3.rc2.expandKey = function(key, effKeyBits) {
       if (typeof key === "string") {
-        key = forge2.util.createBuffer(key);
+        key = forge3.util.createBuffer(key);
       }
       effKeyBits = effKeyBits || 128;
       var L = key;
@@ -5231,7 +5231,7 @@ var require_rc2 = __commonJS({
       var _finish = false, _input = null, _output = null, _iv = null;
       var mixRound, mashRound;
       var i, j, K = [];
-      key = forge2.rc2.expandKey(key, bits);
+      key = forge3.rc2.expandKey(key, bits);
       for (i = 0; i < 64; i++) {
         K.push(key.getInt16Le());
       }
@@ -5297,12 +5297,12 @@ var require_rc2 = __commonJS({
         start: function(iv, output) {
           if (iv) {
             if (typeof iv === "string") {
-              iv = forge2.util.createBuffer(iv);
+              iv = forge3.util.createBuffer(iv);
             }
           }
           _finish = false;
-          _input = forge2.util.createBuffer();
-          _output = output || new forge2.util.createBuffer();
+          _input = forge3.util.createBuffer();
+          _output = output || new forge3.util.createBuffer();
           _iv = iv;
           cipher.output = _output;
         },
@@ -5355,20 +5355,20 @@ var require_rc2 = __commonJS({
       };
       return cipher;
     };
-    forge2.rc2.startEncrypting = function(key, iv, output) {
-      var cipher = forge2.rc2.createEncryptionCipher(key, 128);
+    forge3.rc2.startEncrypting = function(key, iv, output) {
+      var cipher = forge3.rc2.createEncryptionCipher(key, 128);
       cipher.start(iv, output);
       return cipher;
     };
-    forge2.rc2.createEncryptionCipher = function(key, bits) {
+    forge3.rc2.createEncryptionCipher = function(key, bits) {
       return createCipher(key, bits, true);
     };
-    forge2.rc2.startDecrypting = function(key, iv, output) {
-      var cipher = forge2.rc2.createDecryptionCipher(key, 128);
+    forge3.rc2.startDecrypting = function(key, iv, output) {
+      var cipher = forge3.rc2.createDecryptionCipher(key, 128);
       cipher.start(iv, output);
       return cipher;
     };
-    forge2.rc2.createDecryptionCipher = function(key, bits) {
+    forge3.rc2.createDecryptionCipher = function(key, bits) {
       return createCipher(key, bits, false);
     };
   }
@@ -5377,8 +5377,8 @@ var require_rc2 = __commonJS({
 // node_modules/node-forge/lib/jsbn.js
 var require_jsbn = __commonJS({
   "node_modules/node-forge/lib/jsbn.js"(exports2, module2) {
-    var forge2 = require_forge();
-    module2.exports = forge2.jsbn = forge2.jsbn || {};
+    var forge3 = require_forge();
+    module2.exports = forge3.jsbn = forge3.jsbn || {};
     var dbits;
     var canary = 244837814094590;
     var j_lm = (canary & 16777215) == 15715070;
@@ -5392,7 +5392,7 @@ var require_jsbn = __commonJS({
         else
           this.fromString(a, b);
     }
-    forge2.jsbn.BigInteger = BigInteger;
+    forge3.jsbn.BigInteger = BigInteger;
     function nbi() {
       return new BigInteger(null);
     }
@@ -6707,17 +6707,17 @@ var require_jsbn = __commonJS({
 // node_modules/node-forge/lib/sha1.js
 var require_sha1 = __commonJS({
   "node_modules/node-forge/lib/sha1.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_md();
     require_util();
-    var sha1 = module2.exports = forge2.sha1 = forge2.sha1 || {};
-    forge2.md.sha1 = forge2.md.algorithms.sha1 = sha1;
+    var sha1 = module2.exports = forge3.sha1 = forge3.sha1 || {};
+    forge3.md.sha1 = forge3.md.algorithms.sha1 = sha1;
     sha1.create = function() {
       if (!_initialized) {
         _init();
       }
       var _state = null;
-      var _input = forge2.util.createBuffer();
+      var _input = forge3.util.createBuffer();
       var _w = new Array(80);
       var md = {
         algorithm: "sha1",
@@ -6734,7 +6734,7 @@ var require_sha1 = __commonJS({
         for (var i = 0; i < int32s; ++i) {
           md.fullMessageLength.push(0);
         }
-        _input = forge2.util.createBuffer();
+        _input = forge3.util.createBuffer();
         _state = {
           h0: 1732584193,
           h1: 4023233417,
@@ -6747,7 +6747,7 @@ var require_sha1 = __commonJS({
       md.start();
       md.update = function(msg, encoding) {
         if (encoding === "utf8") {
-          msg = forge2.util.encodeUtf8(msg);
+          msg = forge3.util.encodeUtf8(msg);
         }
         var len = msg.length;
         md.messageLength += len;
@@ -6766,7 +6766,7 @@ var require_sha1 = __commonJS({
         return md;
       };
       md.digest = function() {
-        var finalBlock = forge2.util.createBuffer();
+        var finalBlock = forge3.util.createBuffer();
         finalBlock.putBytes(_input.bytes());
         var remaining = md.fullMessageLength[md.fullMessageLength.length - 1] + md.messageLengthSize;
         var overflow = remaining & md.blockLength - 1;
@@ -6789,7 +6789,7 @@ var require_sha1 = __commonJS({
           h4: _state.h4
         };
         _update(s2, _w, finalBlock);
-        var rval = forge2.util.createBuffer();
+        var rval = forge3.util.createBuffer();
         rval.putInt32(s2.h0);
         rval.putInt32(s2.h1);
         rval.putInt32(s2.h2);
@@ -6803,7 +6803,7 @@ var require_sha1 = __commonJS({
     var _initialized = false;
     function _init() {
       _padding = String.fromCharCode(128);
-      _padding += forge2.util.fillString(String.fromCharCode(0), 64);
+      _padding += forge3.util.fillString(String.fromCharCode(0), 64);
       _initialized = true;
     }
     function _update(s, w, bytes) {
@@ -6900,11 +6900,11 @@ var require_sha1 = __commonJS({
 // node_modules/node-forge/lib/pkcs1.js
 var require_pkcs1 = __commonJS({
   "node_modules/node-forge/lib/pkcs1.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
     require_random();
     require_sha1();
-    var pkcs1 = module2.exports = forge2.pkcs1 = forge2.pkcs1 || {};
+    var pkcs1 = module2.exports = forge3.pkcs1 = forge3.pkcs1 || {};
     pkcs1.encode_rsa_oaep = function(key, message2, options) {
       var label;
       var seed;
@@ -6923,7 +6923,7 @@ var require_pkcs1 = __commonJS({
         }
       }
       if (!md) {
-        md = forge2.md.sha1.create();
+        md = forge3.md.sha1.create();
       } else {
         md.start();
       }
@@ -6950,7 +6950,7 @@ var require_pkcs1 = __commonJS({
       }
       var DB = lHash.getBytes() + PS + "" + message2;
       if (!seed) {
-        seed = forge2.random.getBytes(md.digestLength);
+        seed = forge3.random.getBytes(md.digestLength);
       } else if (seed.length !== md.digestLength) {
         var error = new Error("Invalid RSAES-OAEP seed. The seed length must match the digest length.");
         error.seedLength = seed.length;
@@ -6958,9 +6958,9 @@ var require_pkcs1 = __commonJS({
         throw error;
       }
       var dbMask = rsa_mgf1(seed, keyLength - md.digestLength - 1, mgf1Md);
-      var maskedDB = forge2.util.xorBytes(DB, dbMask, DB.length);
+      var maskedDB = forge3.util.xorBytes(DB, dbMask, DB.length);
       var seedMask = rsa_mgf1(maskedDB, md.digestLength, mgf1Md);
-      var maskedSeed = forge2.util.xorBytes(seed, seedMask, seed.length);
+      var maskedSeed = forge3.util.xorBytes(seed, seedMask, seed.length);
       return "\0" + maskedSeed + maskedDB;
     };
     pkcs1.decode_rsa_oaep = function(key, em, options) {
@@ -6985,7 +6985,7 @@ var require_pkcs1 = __commonJS({
         throw error;
       }
       if (md === void 0) {
-        md = forge2.md.sha1.create();
+        md = forge3.md.sha1.create();
       } else {
         md.start();
       }
@@ -7004,9 +7004,9 @@ var require_pkcs1 = __commonJS({
       var maskedSeed = em.substring(1, md.digestLength + 1);
       var maskedDB = em.substring(1 + md.digestLength);
       var seedMask = rsa_mgf1(maskedDB, md.digestLength, mgf1Md);
-      var seed = forge2.util.xorBytes(maskedSeed, seedMask, maskedSeed.length);
+      var seed = forge3.util.xorBytes(maskedSeed, seedMask, maskedSeed.length);
       var dbMask = rsa_mgf1(seed, keyLength - md.digestLength - 1, mgf1Md);
-      var db = forge2.util.xorBytes(maskedDB, dbMask, maskedDB.length);
+      var db = forge3.util.xorBytes(maskedDB, dbMask, maskedDB.length);
       var lHashPrime = db.substring(0, md.digestLength);
       var error = y !== "\0";
       for (var i = 0; i < md.digestLength; ++i) {
@@ -7029,7 +7029,7 @@ var require_pkcs1 = __commonJS({
     };
     function rsa_mgf1(seed, maskLength, hash) {
       if (!hash) {
-        hash = forge2.md.sha1.create();
+        hash = forge3.md.sha1.create();
       }
       var t = "";
       var count = Math.ceil(maskLength / hash.digestLength);
@@ -7047,17 +7047,17 @@ var require_pkcs1 = __commonJS({
 // node_modules/node-forge/lib/prime.js
 var require_prime = __commonJS({
   "node_modules/node-forge/lib/prime.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
     require_jsbn();
     require_random();
     (function() {
-      if (forge2.prime) {
-        module2.exports = forge2.prime;
+      if (forge3.prime) {
+        module2.exports = forge3.prime;
         return;
       }
-      var prime = module2.exports = forge2.prime = forge2.prime || {};
-      var BigInteger = forge2.jsbn.BigInteger;
+      var prime = module2.exports = forge3.prime = forge3.prime || {};
+      var BigInteger = forge3.jsbn.BigInteger;
       var GCD_30_DELTA = [6, 4, 2, 4, 2, 4, 6, 2];
       var THIRTY = new BigInteger(null);
       THIRTY.fromInt(30);
@@ -7075,7 +7075,7 @@ var require_prime = __commonJS({
           algorithm = { name: algorithm };
         }
         algorithm.options = algorithm.options || {};
-        var prng = options.prng || forge2.random;
+        var prng = options.prng || forge3.random;
         var rng = {
           nextBytes: function(x) {
             var b = prng.getBytesSync(x.length);
@@ -7119,7 +7119,7 @@ var require_prime = __commonJS({
           }
           num.dAddOffset(GCD_30_DELTA[deltaIdx++ % 8], 0);
         } while (maxBlockTime < 0 || +new Date() - start < maxBlockTime);
-        forge2.util.setImmediate(function() {
+        forge3.util.setImmediate(function() {
           _primeinc(num, bits, rng, deltaIdx, mrTests, maxBlockTime, callback);
         });
       }
@@ -7133,7 +7133,7 @@ var require_prime = __commonJS({
         var range = workLoad * 30 / 8;
         var workerScript = options.workerScript || "forge/prime.worker.js";
         if (numWorkers === -1) {
-          return forge2.util.estimateCores(function(err, cores) {
+          return forge3.util.estimateCores(function(err, cores) {
             if (err) {
               cores = 2;
             }
@@ -7219,7 +7219,7 @@ var require_prime = __commonJS({
 // node_modules/node-forge/lib/rsa.js
 var require_rsa = __commonJS({
   "node_modules/node-forge/lib/rsa.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_asn1();
     require_jsbn();
     require_oids();
@@ -7228,15 +7228,15 @@ var require_rsa = __commonJS({
     require_random();
     require_util();
     if (typeof BigInteger === "undefined") {
-      BigInteger = forge2.jsbn.BigInteger;
+      BigInteger = forge3.jsbn.BigInteger;
     }
     var BigInteger;
-    var _crypto = forge2.util.isNodejs ? require("crypto") : null;
-    var asn1 = forge2.asn1;
-    var util = forge2.util;
-    forge2.pki = forge2.pki || {};
-    module2.exports = forge2.pki.rsa = forge2.rsa = forge2.rsa || {};
-    var pki2 = forge2.pki;
+    var _crypto = forge3.util.isNodejs ? require("crypto") : null;
+    var asn1 = forge3.asn1;
+    var util = forge3.util;
+    forge3.pki = forge3.pki || {};
+    module2.exports = forge3.pki.rsa = forge3.rsa = forge3.rsa || {};
+    var pki2 = forge3.pki;
     var GCD_30_DELTA = [6, 4, 2, 4, 2, 4, 6, 2];
     var privateKeyValidator = {
       name: "PrivateKeyInfo",
@@ -7349,7 +7349,7 @@ var require_rsa = __commonJS({
         capture: "publicKeyExponent"
       }]
     };
-    var publicKeyValidator = forge2.pki.rsa.publicKeyValidator = {
+    var publicKeyValidator = forge3.pki.rsa.publicKeyValidator = {
       name: "SubjectPublicKeyInfo",
       tagClass: asn1.Class.UNIVERSAL,
       type: asn1.Type.SEQUENCE,
@@ -7451,7 +7451,7 @@ var require_rsa = __commonJS({
       }
       var r;
       do {
-        r = new BigInteger(forge2.util.bytesToHex(forge2.random.getBytes(key.n.bitLength() / 8)), 16);
+        r = new BigInteger(forge3.util.bytesToHex(forge3.random.getBytes(key.n.bitLength() / 8)), 16);
       } while (r.compareTo(key.n) >= 0 || !r.gcd(key.n).equals(BigInteger.ONE));
       x = x.multiply(r.modPow(key.e, key.n)).mod(key.n);
       var xp = x.mod(key.p).modPow(key.dP, key.p);
@@ -7471,19 +7471,19 @@ var require_rsa = __commonJS({
         pub = bt === 2;
         eb = _encodePkcs1_v1_5(m, key, bt);
       } else {
-        eb = forge2.util.createBuffer();
+        eb = forge3.util.createBuffer();
         eb.putBytes(m);
       }
       var x = new BigInteger(eb.toHex(), 16);
       var y = _modPow(x, key, pub);
       var yhex = y.toString(16);
-      var ed = forge2.util.createBuffer();
+      var ed = forge3.util.createBuffer();
       var zeros = k - Math.ceil(yhex.length / 2);
       while (zeros > 0) {
         ed.putByte(0);
         --zeros;
       }
-      ed.putBytes(forge2.util.hexToBytes(yhex));
+      ed.putBytes(forge3.util.hexToBytes(yhex));
       return ed.getBytes();
     };
     pki2.rsa.decrypt = function(ed, key, pub, ml) {
@@ -7494,19 +7494,19 @@ var require_rsa = __commonJS({
         error.expected = k;
         throw error;
       }
-      var y = new BigInteger(forge2.util.createBuffer(ed).toHex(), 16);
+      var y = new BigInteger(forge3.util.createBuffer(ed).toHex(), 16);
       if (y.compareTo(key.n) >= 0) {
         throw new Error("Encrypted message is invalid.");
       }
       var x = _modPow(y, key, pub);
       var xhex = x.toString(16);
-      var eb = forge2.util.createBuffer();
+      var eb = forge3.util.createBuffer();
       var zeros = k - Math.ceil(xhex.length / 2);
       while (zeros > 0) {
         eb.putByte(0);
         --zeros;
       }
-      eb.putBytes(forge2.util.hexToBytes(xhex));
+      eb.putBytes(forge3.util.hexToBytes(xhex));
       if (ml !== false) {
         return _decodePkcs1_v1_5(eb.getBytes(), key, pub);
       }
@@ -7518,7 +7518,7 @@ var require_rsa = __commonJS({
       }
       bits = bits || 2048;
       options = options || {};
-      var prng = options.prng || forge2.random;
+      var prng = options.prng || forge3.random;
       var rng = {
         nextBytes: function(x) {
           var b = prng.getBytesSync(x.length);
@@ -7682,7 +7682,7 @@ var require_rsa = __commonJS({
       if (e === void 0) {
         e = options.e || 65537;
       }
-      if (!forge2.options.usePureJavaScript && !options.prng && bits >= 256 && bits <= 16384 && (e === 65537 || e === 3)) {
+      if (!forge3.options.usePureJavaScript && !options.prng && bits >= 256 && bits <= 16384 && (e === 65537 || e === 3)) {
         if (callback) {
           if (_detectNodeCrypto("generateKeyPair")) {
             return _crypto.generateKeyPair("rsa", {
@@ -7718,7 +7718,7 @@ var require_rsa = __commonJS({
               callback(err);
             }).then(function(pkcs8) {
               if (pkcs8) {
-                var privateKey = pki2.privateKeyFromAsn1(asn1.fromDer(forge2.util.createBuffer(pkcs8)));
+                var privateKey = pki2.privateKeyFromAsn1(asn1.fromDer(forge3.util.createBuffer(pkcs8)));
                 callback(null, {
                   privateKey,
                   publicKey: pki2.setRsaPublicKey(privateKey.n, privateKey.e)
@@ -7738,7 +7738,7 @@ var require_rsa = __commonJS({
               var exportOp = util.globalScope.msCrypto.subtle.exportKey("pkcs8", pair.privateKey);
               exportOp.oncomplete = function(e3) {
                 var pkcs8 = e3.target.result;
-                var privateKey = pki2.privateKeyFromAsn1(asn1.fromDer(forge2.util.createBuffer(pkcs8)));
+                var privateKey = pki2.privateKeyFromAsn1(asn1.fromDer(forge3.util.createBuffer(pkcs8)));
                 callback(null, {
                   privateKey,
                   publicKey: pki2.setRsaPublicKey(privateKey.n, privateKey.e)
@@ -7801,7 +7801,7 @@ var require_rsa = __commonJS({
         } else if (scheme === "RSA-OAEP" || scheme === "RSAES-OAEP") {
           scheme = {
             encode: function(m, key2) {
-              return forge2.pkcs1.encode_rsa_oaep(key2, m, schemeOptions);
+              return forge3.pkcs1.encode_rsa_oaep(key2, m, schemeOptions);
             }
           };
         } else if (["RAW", "NONE", "NULL", null].indexOf(scheme) !== -1) {
@@ -7843,12 +7843,12 @@ var require_rsa = __commonJS({
                 throw error;
               }
               var oid = asn1.derToOid(capture.algorithmIdentifier);
-              if (!(oid === forge2.oids.md2 || oid === forge2.oids.md5 || oid === forge2.oids.sha1 || oid === forge2.oids.sha224 || oid === forge2.oids.sha256 || oid === forge2.oids.sha384 || oid === forge2.oids.sha512 || oid === forge2.oids["sha512-224"] || oid === forge2.oids["sha512-256"])) {
+              if (!(oid === forge3.oids.md2 || oid === forge3.oids.md5 || oid === forge3.oids.sha1 || oid === forge3.oids.sha224 || oid === forge3.oids.sha256 || oid === forge3.oids.sha384 || oid === forge3.oids.sha512 || oid === forge3.oids["sha512-224"] || oid === forge3.oids["sha512-256"])) {
                 var error = new Error("Unknown RSASSA-PKCS1-v1_5 DigestAlgorithm identifier.");
                 error.oid = oid;
                 throw error;
               }
-              if (oid === forge2.oids.md2 || oid === forge2.oids.md5) {
+              if (oid === forge3.oids.md2 || oid === forge3.oids.md5) {
                 if (!("parameters" in capture)) {
                   throw new Error("ASN.1 object does not contain a valid RSASSA-PKCS1-v1_5 DigestInfo value. Missing algorithm identifer NULL parameters.");
                 }
@@ -7892,7 +7892,7 @@ var require_rsa = __commonJS({
         } else if (scheme === "RSA-OAEP" || scheme === "RSAES-OAEP") {
           scheme = {
             decode: function(d3, key2) {
-              return forge2.pkcs1.decode_rsa_oaep(key2, d3, schemeOptions);
+              return forge3.pkcs1.decode_rsa_oaep(key2, d3, schemeOptions);
             }
           };
         } else if (["RAW", "NONE", "NULL", null].indexOf(scheme) !== -1) {
@@ -7937,7 +7937,7 @@ var require_rsa = __commonJS({
       var capture = {};
       var errors = [];
       if (asn1.validate(obj, privateKeyValidator, capture, errors)) {
-        obj = asn1.fromDer(forge2.util.createBuffer(capture.privateKey));
+        obj = asn1.fromDer(forge3.util.createBuffer(capture.privateKey));
       }
       capture = {};
       errors = [];
@@ -7947,14 +7947,14 @@ var require_rsa = __commonJS({
         throw error;
       }
       var n, e, d, p, q, dP, dQ, qInv;
-      n = forge2.util.createBuffer(capture.privateKeyModulus).toHex();
-      e = forge2.util.createBuffer(capture.privateKeyPublicExponent).toHex();
-      d = forge2.util.createBuffer(capture.privateKeyPrivateExponent).toHex();
-      p = forge2.util.createBuffer(capture.privateKeyPrime1).toHex();
-      q = forge2.util.createBuffer(capture.privateKeyPrime2).toHex();
-      dP = forge2.util.createBuffer(capture.privateKeyExponent1).toHex();
-      dQ = forge2.util.createBuffer(capture.privateKeyExponent2).toHex();
-      qInv = forge2.util.createBuffer(capture.privateKeyCoefficient).toHex();
+      n = forge3.util.createBuffer(capture.privateKeyModulus).toHex();
+      e = forge3.util.createBuffer(capture.privateKeyPublicExponent).toHex();
+      d = forge3.util.createBuffer(capture.privateKeyPrivateExponent).toHex();
+      p = forge3.util.createBuffer(capture.privateKeyPrime1).toHex();
+      q = forge3.util.createBuffer(capture.privateKeyPrime2).toHex();
+      dP = forge3.util.createBuffer(capture.privateKeyExponent1).toHex();
+      dQ = forge3.util.createBuffer(capture.privateKeyExponent2).toHex();
+      qInv = forge3.util.createBuffer(capture.privateKeyCoefficient).toHex();
       return pki2.setRsaPrivateKey(new BigInteger(n, 16), new BigInteger(e, 16), new BigInteger(d, 16), new BigInteger(p, 16), new BigInteger(q, 16), new BigInteger(dP, 16), new BigInteger(dQ, 16), new BigInteger(qInv, 16));
     };
     pki2.privateKeyToAsn1 = pki2.privateKeyToRSAPrivateKey = function(key) {
@@ -7988,8 +7988,8 @@ var require_rsa = __commonJS({
         error.errors = errors;
         throw error;
       }
-      var n = forge2.util.createBuffer(capture.publicKeyModulus).toHex();
-      var e = forge2.util.createBuffer(capture.publicKeyExponent).toHex();
+      var n = forge3.util.createBuffer(capture.publicKeyModulus).toHex();
+      var e = forge3.util.createBuffer(capture.publicKeyExponent).toHex();
       return pki2.setRsaPublicKey(new BigInteger(n, 16), new BigInteger(e, 16));
     };
     pki2.publicKeyToAsn1 = pki2.publicKeyToSubjectPublicKeyInfo = function(key) {
@@ -8010,7 +8010,7 @@ var require_rsa = __commonJS({
       ]);
     };
     function _encodePkcs1_v1_5(m, key, bt) {
-      var eb = forge2.util.createBuffer();
+      var eb = forge3.util.createBuffer();
       var k = Math.ceil(key.n.bitLength() / 8);
       if (m.length > k - 11) {
         var error = new Error("Message is too long for PKCS#1 v1.5 padding.");
@@ -8030,7 +8030,7 @@ var require_rsa = __commonJS({
       } else {
         while (padNum > 0) {
           var numZeros = 0;
-          var padBytes = forge2.random.getBytes(padNum);
+          var padBytes = forge3.random.getBytes(padNum);
           for (var i = 0; i < padNum; ++i) {
             padByte = padBytes.charCodeAt(i);
             if (padByte === 0) {
@@ -8048,7 +8048,7 @@ var require_rsa = __commonJS({
     }
     function _decodePkcs1_v1_5(em, key, pub, ml) {
       var k = Math.ceil(key.n.bitLength() / 8);
-      var eb = forge2.util.createBuffer(em);
+      var eb = forge3.util.createBuffer(em);
       var first = eb.getByte();
       var bt = eb.getByte();
       if (first !== 0 || pub && bt !== 0 && bt !== 1 || !pub && bt != 2 || pub && bt === 0 && typeof ml === "undefined") {
@@ -8120,7 +8120,7 @@ var require_rsa = __commonJS({
         });
       }
       function getPrime(bits, callback2) {
-        forge2.prime.generateProbablePrime(bits, opts, callback2);
+        forge3.prime.generateProbablePrime(bits, opts, callback2);
       }
       function finish(err, num) {
         if (err) {
@@ -8169,7 +8169,7 @@ var require_rsa = __commonJS({
       if (hex[0] >= "8") {
         hex = "00" + hex;
       }
-      var bytes = forge2.util.hexToBytes(hex);
+      var bytes = forge3.util.hexToBytes(hex);
       if (bytes.length > 1 && (bytes.charCodeAt(0) === 0 && (bytes.charCodeAt(1) & 128) === 0 || bytes.charCodeAt(0) === 255 && (bytes.charCodeAt(1) & 128) === 128)) {
         return bytes.substr(1);
       }
@@ -8201,7 +8201,7 @@ var require_rsa = __commonJS({
       return 2;
     }
     function _detectNodeCrypto(fn2) {
-      return forge2.util.isNodejs && typeof _crypto[fn2] === "function";
+      return forge3.util.isNodejs && typeof _crypto[fn2] === "function";
     }
     function _detectSubtleCrypto(fn2) {
       return typeof util.globalScope !== "undefined" && typeof util.globalScope.crypto === "object" && typeof util.globalScope.crypto.subtle === "object" && typeof util.globalScope.crypto.subtle[fn2] === "function";
@@ -8210,7 +8210,7 @@ var require_rsa = __commonJS({
       return typeof util.globalScope !== "undefined" && typeof util.globalScope.msCrypto === "object" && typeof util.globalScope.msCrypto.subtle === "object" && typeof util.globalScope.msCrypto.subtle[fn2] === "function";
     }
     function _intToUint8Array(x) {
-      var bytes = forge2.util.hexToBytes(x.toString(16));
+      var bytes = forge3.util.hexToBytes(x.toString(16));
       var buffer = new Uint8Array(bytes.length);
       for (var i = 0; i < bytes.length; ++i) {
         buffer[i] = bytes.charCodeAt(i);
@@ -8223,7 +8223,7 @@ var require_rsa = __commonJS({
 // node_modules/node-forge/lib/pbe.js
 var require_pbe = __commonJS({
   "node_modules/node-forge/lib/pbe.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_aes();
     require_asn1();
     require_des();
@@ -8236,12 +8236,12 @@ var require_pbe = __commonJS({
     require_rsa();
     require_util();
     if (typeof BigInteger === "undefined") {
-      BigInteger = forge2.jsbn.BigInteger;
+      BigInteger = forge3.jsbn.BigInteger;
     }
     var BigInteger;
-    var asn1 = forge2.asn1;
-    var pki2 = forge2.pki = forge2.pki || {};
-    module2.exports = pki2.pbe = forge2.pbe = forge2.pbe || {};
+    var asn1 = forge3.asn1;
+    var pki2 = forge3.pki = forge3.pki || {};
+    module2.exports = pki2.pbe = forge3.pbe = forge3.pbe || {};
     var oids = pki2.oids;
     var encryptedPrivateKeyValidator = {
       name: "EncryptedPrivateKeyInfo",
@@ -8374,7 +8374,7 @@ var require_pbe = __commonJS({
       options.count = options.count || 2048;
       options.algorithm = options.algorithm || "aes128";
       options.prfAlgorithm = options.prfAlgorithm || "sha1";
-      var salt = forge2.random.getBytesSync(options.saltSize);
+      var salt = forge3.random.getBytesSync(options.saltSize);
       var count = options.count;
       var countBytes = asn1.integerToDer(count);
       var dkLen;
@@ -8387,25 +8387,25 @@ var require_pbe = __commonJS({
             dkLen = 16;
             ivLen = 16;
             encOid = oids["aes128-CBC"];
-            cipherFn = forge2.aes.createEncryptionCipher;
+            cipherFn = forge3.aes.createEncryptionCipher;
             break;
           case "aes192":
             dkLen = 24;
             ivLen = 16;
             encOid = oids["aes192-CBC"];
-            cipherFn = forge2.aes.createEncryptionCipher;
+            cipherFn = forge3.aes.createEncryptionCipher;
             break;
           case "aes256":
             dkLen = 32;
             ivLen = 16;
             encOid = oids["aes256-CBC"];
-            cipherFn = forge2.aes.createEncryptionCipher;
+            cipherFn = forge3.aes.createEncryptionCipher;
             break;
           case "des":
             dkLen = 8;
             ivLen = 8;
             encOid = oids["desCBC"];
-            cipherFn = forge2.des.createEncryptionCipher;
+            cipherFn = forge3.des.createEncryptionCipher;
             break;
           default:
             var error = new Error("Cannot encrypt private key. Unknown encryption algorithm.");
@@ -8414,8 +8414,8 @@ var require_pbe = __commonJS({
         }
         var prfAlgorithm = "hmacWith" + options.prfAlgorithm.toUpperCase();
         var md = prfAlgorithmToMessageDigest(prfAlgorithm);
-        var dk = forge2.pkcs5.pbkdf2(password, salt, count, dkLen, md);
-        var iv = forge2.random.getBytesSync(ivLen);
+        var dk = forge3.pkcs5.pbkdf2(password, salt, count, dkLen, md);
+        var iv = forge3.random.getBytesSync(ivLen);
         var cipher = cipherFn(dk);
         cipher.start(iv);
         cipher.update(asn1.toDer(obj));
@@ -8437,10 +8437,10 @@ var require_pbe = __commonJS({
         ]);
       } else if (options.algorithm === "3des") {
         dkLen = 24;
-        var saltBytes = new forge2.util.ByteBuffer(salt);
+        var saltBytes = new forge3.util.ByteBuffer(salt);
         var dk = pki2.pbe.generatePkcs12Key(password, saltBytes, 1, count, dkLen);
         var iv = pki2.pbe.generatePkcs12Key(password, saltBytes, 2, count, dkLen);
-        var cipher = forge2.des.createEncryptionCipher(dk);
+        var cipher = forge3.des.createEncryptionCipher(dk);
         cipher.start(iv);
         cipher.update(asn1.toDer(obj));
         cipher.finish();
@@ -8474,7 +8474,7 @@ var require_pbe = __commonJS({
       }
       var oid = asn1.derToOid(capture.encryptionOid);
       var cipher = pki2.pbe.getCipher(oid, capture.encryptionParams, password);
-      var encrypted = forge2.util.createBuffer(capture.encryptedData);
+      var encrypted = forge3.util.createBuffer(capture.encryptedData);
       cipher.update(encrypted);
       if (cipher.finish()) {
         rval = asn1.fromDer(cipher.output);
@@ -8486,10 +8486,10 @@ var require_pbe = __commonJS({
         type: "ENCRYPTED PRIVATE KEY",
         body: asn1.toDer(epki).getBytes()
       };
-      return forge2.pem.encode(msg, { maxline });
+      return forge3.pem.encode(msg, { maxline });
     };
     pki2.encryptedPrivateKeyFromPem = function(pem) {
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.type !== "ENCRYPTED PRIVATE KEY") {
         var error = new Error('Could not convert encrypted private key from PEM; PEM header type is "ENCRYPTED PRIVATE KEY".');
         error.headerType = msg.type;
@@ -8515,39 +8515,39 @@ var require_pbe = __commonJS({
         case "aes128":
           algorithm = "AES-128-CBC";
           dkLen = 16;
-          iv = forge2.random.getBytesSync(16);
-          cipherFn = forge2.aes.createEncryptionCipher;
+          iv = forge3.random.getBytesSync(16);
+          cipherFn = forge3.aes.createEncryptionCipher;
           break;
         case "aes192":
           algorithm = "AES-192-CBC";
           dkLen = 24;
-          iv = forge2.random.getBytesSync(16);
-          cipherFn = forge2.aes.createEncryptionCipher;
+          iv = forge3.random.getBytesSync(16);
+          cipherFn = forge3.aes.createEncryptionCipher;
           break;
         case "aes256":
           algorithm = "AES-256-CBC";
           dkLen = 32;
-          iv = forge2.random.getBytesSync(16);
-          cipherFn = forge2.aes.createEncryptionCipher;
+          iv = forge3.random.getBytesSync(16);
+          cipherFn = forge3.aes.createEncryptionCipher;
           break;
         case "3des":
           algorithm = "DES-EDE3-CBC";
           dkLen = 24;
-          iv = forge2.random.getBytesSync(8);
-          cipherFn = forge2.des.createEncryptionCipher;
+          iv = forge3.random.getBytesSync(8);
+          cipherFn = forge3.des.createEncryptionCipher;
           break;
         case "des":
           algorithm = "DES-CBC";
           dkLen = 8;
-          iv = forge2.random.getBytesSync(8);
-          cipherFn = forge2.des.createEncryptionCipher;
+          iv = forge3.random.getBytesSync(8);
+          cipherFn = forge3.des.createEncryptionCipher;
           break;
         default:
           var error = new Error('Could not encrypt RSA private key; unsupported encryption algorithm "' + options.algorithm + '".');
           error.algorithm = options.algorithm;
           throw error;
       }
-      var dk = forge2.pbe.opensslDeriveBytes(password, iv.substr(0, 8), dkLen);
+      var dk = forge3.pbe.opensslDeriveBytes(password, iv.substr(0, 8), dkLen);
       var cipher = cipherFn(dk);
       cipher.start(iv);
       cipher.update(asn1.toDer(pki2.privateKeyToAsn1(rsaKey)));
@@ -8560,15 +8560,15 @@ var require_pbe = __commonJS({
         },
         dekInfo: {
           algorithm,
-          parameters: forge2.util.bytesToHex(iv).toUpperCase()
+          parameters: forge3.util.bytesToHex(iv).toUpperCase()
         },
         body: cipher.output.getBytes()
       };
-      return forge2.pem.encode(msg);
+      return forge3.pem.encode(msg);
     };
     pki2.decryptRsaPrivateKey = function(pem, password) {
       var rval = null;
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.type !== "ENCRYPTED PRIVATE KEY" && msg.type !== "PRIVATE KEY" && msg.type !== "RSA PRIVATE KEY") {
         var error = new Error('Could not convert private key from PEM; PEM header type is not "ENCRYPTED PRIVATE KEY", "PRIVATE KEY", or "RSA PRIVATE KEY".');
         error.headerType = error;
@@ -8580,40 +8580,40 @@ var require_pbe = __commonJS({
         switch (msg.dekInfo.algorithm) {
           case "DES-CBC":
             dkLen = 8;
-            cipherFn = forge2.des.createDecryptionCipher;
+            cipherFn = forge3.des.createDecryptionCipher;
             break;
           case "DES-EDE3-CBC":
             dkLen = 24;
-            cipherFn = forge2.des.createDecryptionCipher;
+            cipherFn = forge3.des.createDecryptionCipher;
             break;
           case "AES-128-CBC":
             dkLen = 16;
-            cipherFn = forge2.aes.createDecryptionCipher;
+            cipherFn = forge3.aes.createDecryptionCipher;
             break;
           case "AES-192-CBC":
             dkLen = 24;
-            cipherFn = forge2.aes.createDecryptionCipher;
+            cipherFn = forge3.aes.createDecryptionCipher;
             break;
           case "AES-256-CBC":
             dkLen = 32;
-            cipherFn = forge2.aes.createDecryptionCipher;
+            cipherFn = forge3.aes.createDecryptionCipher;
             break;
           case "RC2-40-CBC":
             dkLen = 5;
             cipherFn = function(key) {
-              return forge2.rc2.createDecryptionCipher(key, 40);
+              return forge3.rc2.createDecryptionCipher(key, 40);
             };
             break;
           case "RC2-64-CBC":
             dkLen = 8;
             cipherFn = function(key) {
-              return forge2.rc2.createDecryptionCipher(key, 64);
+              return forge3.rc2.createDecryptionCipher(key, 64);
             };
             break;
           case "RC2-128-CBC":
             dkLen = 16;
             cipherFn = function(key) {
-              return forge2.rc2.createDecryptionCipher(key, 128);
+              return forge3.rc2.createDecryptionCipher(key, 128);
             };
             break;
           default:
@@ -8621,11 +8621,11 @@ var require_pbe = __commonJS({
             error.algorithm = msg.dekInfo.algorithm;
             throw error;
         }
-        var iv = forge2.util.hexToBytes(msg.dekInfo.parameters);
-        var dk = forge2.pbe.opensslDeriveBytes(password, iv.substr(0, 8), dkLen);
+        var iv = forge3.util.hexToBytes(msg.dekInfo.parameters);
+        var dk = forge3.pbe.opensslDeriveBytes(password, iv.substr(0, 8), dkLen);
         var cipher = cipherFn(dk);
         cipher.start(iv);
-        cipher.update(forge2.util.createBuffer(msg.body));
+        cipher.update(forge3.util.createBuffer(msg.body));
         if (cipher.finish()) {
           rval = cipher.output.getBytes();
         } else {
@@ -8647,15 +8647,15 @@ var require_pbe = __commonJS({
     pki2.pbe.generatePkcs12Key = function(password, salt, id, iter, n, md) {
       var j, l;
       if (typeof md === "undefined" || md === null) {
-        if (!("sha1" in forge2.md)) {
+        if (!("sha1" in forge3.md)) {
           throw new Error('"sha1" hash algorithm unavailable.');
         }
-        md = forge2.md.sha1.create();
+        md = forge3.md.sha1.create();
       }
       var u = md.digestLength;
       var v = md.blockLength;
-      var result = new forge2.util.ByteBuffer();
-      var passBuf = new forge2.util.ByteBuffer();
+      var result = new forge3.util.ByteBuffer();
+      var passBuf = new forge3.util.ByteBuffer();
       if (password !== null && password !== void 0) {
         for (l = 0; l < password.length; l++) {
           passBuf.putInt16(password.charCodeAt(l));
@@ -8664,15 +8664,15 @@ var require_pbe = __commonJS({
       }
       var p = passBuf.length();
       var s = salt.length();
-      var D = new forge2.util.ByteBuffer();
+      var D = new forge3.util.ByteBuffer();
       D.fillWithByte(id, v);
       var Slen = v * Math.ceil(s / v);
-      var S = new forge2.util.ByteBuffer();
+      var S = new forge3.util.ByteBuffer();
       for (l = 0; l < Slen; l++) {
         S.putByte(salt.at(l % s));
       }
       var Plen = v * Math.ceil(p / v);
-      var P = new forge2.util.ByteBuffer();
+      var P = new forge3.util.ByteBuffer();
       for (l = 0; l < Plen; l++) {
         P.putByte(passBuf.at(l % p));
       }
@@ -8680,7 +8680,7 @@ var require_pbe = __commonJS({
       I.putBuffer(P);
       var c = Math.ceil(n / u);
       for (var i = 1; i <= c; i++) {
-        var buf = new forge2.util.ByteBuffer();
+        var buf = new forge3.util.ByteBuffer();
         buf.putBytes(D.bytes());
         buf.putBytes(I.bytes());
         for (var round = 0; round < iter; round++) {
@@ -8688,14 +8688,14 @@ var require_pbe = __commonJS({
           md.update(buf.getBytes());
           buf = md.digest();
         }
-        var B = new forge2.util.ByteBuffer();
+        var B = new forge3.util.ByteBuffer();
         for (l = 0; l < v; l++) {
           B.putByte(buf.at(l % u));
         }
         var k = Math.ceil(s / v) + Math.ceil(p / v);
-        var Inew = new forge2.util.ByteBuffer();
+        var Inew = new forge3.util.ByteBuffer();
         for (j = 0; j < k; j++) {
-          var chunk = new forge2.util.ByteBuffer(I.getBytes(v));
+          var chunk = new forge3.util.ByteBuffer(I.getBytes(v));
           var x = 511;
           for (l = B.length() - 1; l >= 0; l--) {
             x = x >> 8;
@@ -8757,34 +8757,34 @@ var require_pbe = __commonJS({
         throw error;
       }
       var salt = capture.kdfSalt;
-      var count = forge2.util.createBuffer(capture.kdfIterationCount);
+      var count = forge3.util.createBuffer(capture.kdfIterationCount);
       count = count.getInt(count.length() << 3);
       var dkLen;
       var cipherFn;
       switch (pki2.oids[oid]) {
         case "aes128-CBC":
           dkLen = 16;
-          cipherFn = forge2.aes.createDecryptionCipher;
+          cipherFn = forge3.aes.createDecryptionCipher;
           break;
         case "aes192-CBC":
           dkLen = 24;
-          cipherFn = forge2.aes.createDecryptionCipher;
+          cipherFn = forge3.aes.createDecryptionCipher;
           break;
         case "aes256-CBC":
           dkLen = 32;
-          cipherFn = forge2.aes.createDecryptionCipher;
+          cipherFn = forge3.aes.createDecryptionCipher;
           break;
         case "des-EDE3-CBC":
           dkLen = 24;
-          cipherFn = forge2.des.createDecryptionCipher;
+          cipherFn = forge3.des.createDecryptionCipher;
           break;
         case "desCBC":
           dkLen = 8;
-          cipherFn = forge2.des.createDecryptionCipher;
+          cipherFn = forge3.des.createDecryptionCipher;
           break;
       }
       var md = prfOidToMessageDigest(capture.prfOid);
-      var dk = forge2.pkcs5.pbkdf2(password, salt, count, dkLen, md);
+      var dk = forge3.pkcs5.pbkdf2(password, salt, count, dkLen, md);
       var iv = capture.encIv;
       var cipher = cipherFn(dk);
       cipher.start(iv);
@@ -8798,21 +8798,21 @@ var require_pbe = __commonJS({
         error.errors = errors;
         throw error;
       }
-      var salt = forge2.util.createBuffer(capture.salt);
-      var count = forge2.util.createBuffer(capture.iterations);
+      var salt = forge3.util.createBuffer(capture.salt);
+      var count = forge3.util.createBuffer(capture.iterations);
       count = count.getInt(count.length() << 3);
       var dkLen, dIvLen, cipherFn;
       switch (oid) {
         case pki2.oids["pbeWithSHAAnd3-KeyTripleDES-CBC"]:
           dkLen = 24;
           dIvLen = 8;
-          cipherFn = forge2.des.startDecrypting;
+          cipherFn = forge3.des.startDecrypting;
           break;
         case pki2.oids["pbewithSHAAnd40BitRC2-CBC"]:
           dkLen = 5;
           dIvLen = 8;
           cipherFn = function(key2, iv2) {
-            var cipher = forge2.rc2.createDecryptionCipher(key2, 40);
+            var cipher = forge3.rc2.createDecryptionCipher(key2, 40);
             cipher.start(iv2, null);
             return cipher;
           };
@@ -8830,10 +8830,10 @@ var require_pbe = __commonJS({
     };
     pki2.pbe.opensslDeriveBytes = function(password, salt, dkLen, md) {
       if (typeof md === "undefined" || md === null) {
-        if (!("md5" in forge2.md)) {
+        if (!("md5" in forge3.md)) {
           throw new Error('"md5" hash algorithm unavailable.');
         }
-        md = forge2.md.md5.create();
+        md = forge3.md.md5.create();
       }
       if (salt === null) {
         salt = "";
@@ -8869,10 +8869,10 @@ var require_pbe = __commonJS({
       return prfAlgorithmToMessageDigest(prfAlgorithm);
     }
     function prfAlgorithmToMessageDigest(prfAlgorithm) {
-      var factory = forge2.md;
+      var factory = forge3.md;
       switch (prfAlgorithm) {
         case "hmacWithSHA224":
-          factory = forge2.md.sha512;
+          factory = forge3.md.sha512;
         case "hmacWithSHA1":
         case "hmacWithSHA256":
         case "hmacWithSHA384":
@@ -8902,7 +8902,7 @@ var require_pbe = __commonJS({
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, countBytes.getBytes())
       ]);
       if (prfAlgorithm !== "hmacWithSHA1") {
-        params.value.push(asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge2.util.hexToBytes(dkLen.toString(16))), asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
+        params.value.push(asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge3.util.hexToBytes(dkLen.toString(16))), asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
           asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(pki2.oids[prfAlgorithm]).getBytes()),
           asn1.create(asn1.Class.UNIVERSAL, asn1.Type.NULL, false, "")
         ]));
@@ -8915,13 +8915,13 @@ var require_pbe = __commonJS({
 // node_modules/node-forge/lib/pkcs7asn1.js
 var require_pkcs7asn1 = __commonJS({
   "node_modules/node-forge/lib/pkcs7asn1.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_asn1();
     require_util();
-    var asn1 = forge2.asn1;
-    var p7v = module2.exports = forge2.pkcs7asn1 = forge2.pkcs7asn1 || {};
-    forge2.pkcs7 = forge2.pkcs7 || {};
-    forge2.pkcs7.asn1 = p7v;
+    var asn1 = forge3.asn1;
+    var p7v = module2.exports = forge3.pkcs7asn1 = forge3.pkcs7asn1 || {};
+    forge3.pkcs7 = forge3.pkcs7 || {};
+    forge3.pkcs7.asn1 = p7v;
     var contentInfoValidator = {
       name: "ContentInfo",
       tagClass: asn1.Class.UNIVERSAL,
@@ -9190,17 +9190,17 @@ var require_pkcs7asn1 = __commonJS({
 // node_modules/node-forge/lib/mgf1.js
 var require_mgf1 = __commonJS({
   "node_modules/node-forge/lib/mgf1.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
-    forge2.mgf = forge2.mgf || {};
-    var mgf1 = module2.exports = forge2.mgf.mgf1 = forge2.mgf1 = forge2.mgf1 || {};
+    forge3.mgf = forge3.mgf || {};
+    var mgf1 = module2.exports = forge3.mgf.mgf1 = forge3.mgf1 = forge3.mgf1 || {};
     mgf1.create = function(md) {
       var mgf = {
         generate: function(seed, maskLen) {
-          var t = new forge2.util.ByteBuffer();
+          var t = new forge3.util.ByteBuffer();
           var len = Math.ceil(maskLen / md.digestLength);
           for (var i = 0; i < len; i++) {
-            var c = new forge2.util.ByteBuffer();
+            var c = new forge3.util.ByteBuffer();
             c.putInt32(i);
             md.start();
             md.update(seed + c.getBytes());
@@ -9218,20 +9218,20 @@ var require_mgf1 = __commonJS({
 // node_modules/node-forge/lib/mgf.js
 var require_mgf = __commonJS({
   "node_modules/node-forge/lib/mgf.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_mgf1();
-    module2.exports = forge2.mgf = forge2.mgf || {};
-    forge2.mgf.mgf1 = forge2.mgf1;
+    module2.exports = forge3.mgf = forge3.mgf || {};
+    forge3.mgf.mgf1 = forge3.mgf1;
   }
 });
 
 // node_modules/node-forge/lib/pss.js
 var require_pss = __commonJS({
   "node_modules/node-forge/lib/pss.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_random();
     require_util();
-    var pss = module2.exports = forge2.pss = forge2.pss || {};
+    var pss = module2.exports = forge3.pss = forge3.pss || {};
     pss.create = function(options) {
       if (arguments.length === 3) {
         options = {
@@ -9245,7 +9245,7 @@ var require_pss = __commonJS({
       var hLen = hash.digestLength;
       var salt_ = options.salt || null;
       if (typeof salt_ === "string") {
-        salt_ = forge2.util.createBuffer(salt_);
+        salt_ = forge3.util.createBuffer(salt_);
       }
       var sLen;
       if ("saltLength" in options) {
@@ -9258,7 +9258,7 @@ var require_pss = __commonJS({
       if (salt_ !== null && salt_.length() !== sLen) {
         throw new Error("Given salt length does not match length of given salt.");
       }
-      var prng = options.prng || forge2.random;
+      var prng = options.prng || forge3.random;
       var pssobj = {};
       pssobj.encode = function(md, modBits) {
         var i;
@@ -9274,14 +9274,14 @@ var require_pss = __commonJS({
         } else {
           salt = salt_.bytes();
         }
-        var m_ = new forge2.util.ByteBuffer();
+        var m_ = new forge3.util.ByteBuffer();
         m_.fillWithByte(0, 8);
         m_.putBytes(mHash);
         m_.putBytes(salt);
         hash.start();
         hash.update(m_.getBytes());
         var h = hash.digest().getBytes();
-        var ps = new forge2.util.ByteBuffer();
+        var ps = new forge3.util.ByteBuffer();
         ps.fillWithByte(0, emLen - sLen - hLen - 2);
         ps.putByte(1);
         ps.putBytes(salt);
@@ -9330,7 +9330,7 @@ var require_pss = __commonJS({
           throw new Error("Inconsistent PSS signature, 0x01 marker not found");
         }
         var salt = db.substr(-sLen);
-        var m_ = new forge2.util.ByteBuffer();
+        var m_ = new forge3.util.ByteBuffer();
         m_.fillWithByte(0, 8);
         m_.putBytes(mHash);
         m_.putBytes(salt);
@@ -9347,7 +9347,7 @@ var require_pss = __commonJS({
 // node_modules/node-forge/lib/x509.js
 var require_x509 = __commonJS({
   "node_modules/node-forge/lib/x509.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_aes();
     require_asn1();
     require_des();
@@ -9358,8 +9358,8 @@ var require_x509 = __commonJS({
     require_pss();
     require_rsa();
     require_util();
-    var asn1 = forge2.asn1;
-    var pki2 = module2.exports = forge2.pki = forge2.pki || {};
+    var asn1 = forge3.asn1;
+    var pki2 = module2.exports = forge3.pki = forge3.pki || {};
     var oids = pki2.oids;
     var _shortNames = {};
     _shortNames["CN"] = oids["commonName"];
@@ -9376,7 +9376,7 @@ var require_x509 = __commonJS({
     _shortNames["organizationalUnitName"] = "OU";
     _shortNames["E"] = oids["emailAddress"];
     _shortNames["emailAddress"] = "E";
-    var publicKeyValidator = forge2.pki.rsa.publicKeyValidator;
+    var publicKeyValidator = forge3.pki.rsa.publicKeyValidator;
     var x509CertificateValidator = {
       name: "Certificate",
       tagClass: asn1.Class.UNIVERSAL,
@@ -9822,17 +9822,17 @@ var require_x509 = __commonJS({
       switch (oids[options.signatureOid]) {
         case "sha1WithRSAEncryption":
         case "sha1WithRSASignature":
-          return forge2.md.sha1.create();
+          return forge3.md.sha1.create();
         case "md5WithRSAEncryption":
-          return forge2.md.md5.create();
+          return forge3.md.md5.create();
         case "sha256WithRSAEncryption":
-          return forge2.md.sha256.create();
+          return forge3.md.sha256.create();
         case "sha384WithRSAEncryption":
-          return forge2.md.sha384.create();
+          return forge3.md.sha384.create();
         case "sha512WithRSAEncryption":
-          return forge2.md.sha512.create();
+          return forge3.md.sha512.create();
         case "RSASSA-PSS":
-          return forge2.md.sha256.create();
+          return forge3.md.sha256.create();
         default:
           var error = new Error("Could not compute " + options.type + " digest. Unknown signature OID.");
           error.signatureOid = options.signatureOid;
@@ -9849,34 +9849,34 @@ var require_x509 = __commonJS({
         case oids["RSASSA-PSS"]:
           var hash, mgf;
           hash = oids[cert.signatureParameters.mgf.hash.algorithmOid];
-          if (hash === void 0 || forge2.md[hash] === void 0) {
+          if (hash === void 0 || forge3.md[hash] === void 0) {
             var error = new Error("Unsupported MGF hash function.");
             error.oid = cert.signatureParameters.mgf.hash.algorithmOid;
             error.name = hash;
             throw error;
           }
           mgf = oids[cert.signatureParameters.mgf.algorithmOid];
-          if (mgf === void 0 || forge2.mgf[mgf] === void 0) {
+          if (mgf === void 0 || forge3.mgf[mgf] === void 0) {
             var error = new Error("Unsupported MGF function.");
             error.oid = cert.signatureParameters.mgf.algorithmOid;
             error.name = mgf;
             throw error;
           }
-          mgf = forge2.mgf[mgf].create(forge2.md[hash].create());
+          mgf = forge3.mgf[mgf].create(forge3.md[hash].create());
           hash = oids[cert.signatureParameters.hash.algorithmOid];
-          if (hash === void 0 || forge2.md[hash] === void 0) {
+          if (hash === void 0 || forge3.md[hash] === void 0) {
             var error = new Error("Unsupported RSASSA-PSS hash function.");
             error.oid = cert.signatureParameters.hash.algorithmOid;
             error.name = hash;
             throw error;
           }
-          scheme = forge2.pss.create(forge2.md[hash].create(), mgf, cert.signatureParameters.saltLength);
+          scheme = forge3.pss.create(forge3.md[hash].create(), mgf, cert.signatureParameters.saltLength);
           break;
       }
       return cert.publicKey.verify(options.md.digest().getBytes(), options.signature, scheme);
     };
     pki2.certificateFromPem = function(pem, computeHash, strict) {
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.type !== "CERTIFICATE" && msg.type !== "X509 CERTIFICATE" && msg.type !== "TRUSTED CERTIFICATE") {
         var error = new Error('Could not convert certificate from PEM; PEM header type is not "CERTIFICATE", "X509 CERTIFICATE", or "TRUSTED CERTIFICATE".');
         error.headerType = msg.type;
@@ -9893,10 +9893,10 @@ var require_x509 = __commonJS({
         type: "CERTIFICATE",
         body: asn1.toDer(pki2.certificateToAsn1(cert)).getBytes()
       };
-      return forge2.pem.encode(msg, { maxline });
+      return forge3.pem.encode(msg, { maxline });
     };
     pki2.publicKeyFromPem = function(pem) {
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.type !== "PUBLIC KEY" && msg.type !== "RSA PUBLIC KEY") {
         var error = new Error('Could not convert public key from PEM; PEM header type is not "PUBLIC KEY" or "RSA PUBLIC KEY".');
         error.headerType = msg.type;
@@ -9913,18 +9913,18 @@ var require_x509 = __commonJS({
         type: "PUBLIC KEY",
         body: asn1.toDer(pki2.publicKeyToAsn1(key)).getBytes()
       };
-      return forge2.pem.encode(msg, { maxline });
+      return forge3.pem.encode(msg, { maxline });
     };
     pki2.publicKeyToRSAPublicKeyPem = function(key, maxline) {
       var msg = {
         type: "RSA PUBLIC KEY",
         body: asn1.toDer(pki2.publicKeyToRSAPublicKey(key)).getBytes()
       };
-      return forge2.pem.encode(msg, { maxline });
+      return forge3.pem.encode(msg, { maxline });
     };
     pki2.getPublicKeyFingerprint = function(key, options) {
       options = options || {};
-      var md = options.md || forge2.md.sha1.create();
+      var md = options.md || forge3.md.sha1.create();
       var type = options.type || "RSAPublicKey";
       var bytes;
       switch (type) {
@@ -9954,7 +9954,7 @@ var require_x509 = __commonJS({
       return digest;
     };
     pki2.certificationRequestFromPem = function(pem, computeHash, strict) {
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.type !== "CERTIFICATE REQUEST") {
         var error = new Error('Could not convert certification request from PEM; PEM header type is not "CERTIFICATE REQUEST".');
         error.headerType = msg.type;
@@ -9971,7 +9971,7 @@ var require_x509 = __commonJS({
         type: "CERTIFICATE REQUEST",
         body: asn1.toDer(pki2.certificationRequestToAsn1(csr)).getBytes()
       };
-      return forge2.pem.encode(msg, { maxline });
+      return forge3.pem.encode(msg, { maxline });
     };
     pki2.createCertificate = function() {
       var cert = {};
@@ -10048,7 +10048,7 @@ var require_x509 = __commonJS({
         return rval;
       };
       cert.sign = function(key, md) {
-        cert.md = md || forge2.md.sha1.create();
+        cert.md = md || forge3.md.sha1.create();
         var algorithmOid = oids[cert.md.algorithm + "WithRSAEncryption"];
         if (!algorithmOid) {
           var error = new Error("Could not compute certificate digest. Unknown message digest algorithm OID.");
@@ -10121,7 +10121,7 @@ var require_x509 = __commonJS({
           var ext = cert.extensions[i];
           if (ext.id === oid) {
             var ski = cert.generateSubjectKeyIdentifier().getBytes();
-            return forge2.util.hexToBytes(ext.subjectKeyIdentifier) === ski;
+            return forge3.util.hexToBytes(ext.subjectKeyIdentifier) === ski;
           }
         }
         return false;
@@ -10142,11 +10142,11 @@ var require_x509 = __commonJS({
       }
       var cert = pki2.createCertificate();
       cert.version = capture.certVersion ? capture.certVersion.charCodeAt(0) : 0;
-      var serial = forge2.util.createBuffer(capture.certSerialNumber);
+      var serial = forge3.util.createBuffer(capture.certSerialNumber);
       cert.serialNumber = serial.toHex();
-      cert.signatureOid = forge2.asn1.derToOid(capture.certSignatureOid);
+      cert.signatureOid = forge3.asn1.derToOid(capture.certSignatureOid);
       cert.signatureParameters = _readSignatureParameters(cert.signatureOid, capture.certSignatureParams, true);
-      cert.siginfo.algorithmOid = forge2.asn1.derToOid(capture.certinfoSignatureOid);
+      cert.siginfo.algorithmOid = forge3.asn1.derToOid(capture.certinfoSignatureOid);
       cert.siginfo.parameters = _readSignatureParameters(cert.siginfo.algorithmOid, capture.certinfoSignatureParams, false);
       cert.signature = capture.certSignature;
       var validity = [];
@@ -10179,7 +10179,7 @@ var require_x509 = __commonJS({
         var bytes = asn1.toDer(cert.tbsCertificate);
         cert.md.update(bytes.getBytes());
       }
-      var imd = forge2.md.sha1.create();
+      var imd = forge3.md.sha1.create();
       var ibytes = asn1.toDer(capture.certIssuer);
       imd.update(ibytes.getBytes());
       cert.issuer.getField = function(sn) {
@@ -10194,7 +10194,7 @@ var require_x509 = __commonJS({
         cert.issuer.uniqueId = capture.certIssuerUniqueId;
       }
       cert.issuer.hash = imd.digest().toHex();
-      var smd = forge2.md.sha1.create();
+      var smd = forge3.md.sha1.create();
       var sbytes = asn1.toDer(capture.certSubject);
       smd.update(sbytes.getBytes());
       cert.subject.getField = function(sn) {
@@ -10313,7 +10313,7 @@ var require_x509 = __commonJS({
               case 6:
                 break;
               case 7:
-                altName.ip = forge2.util.bytesToIP(gn.value);
+                altName.ip = forge3.util.bytesToIP(gn.value);
                 break;
               case 8:
                 altName.oid = asn1.derToOid(gn.value);
@@ -10323,7 +10323,7 @@ var require_x509 = __commonJS({
           }
         } else if (e.name === "subjectKeyIdentifier") {
           var ev = asn1.fromDer(e.value);
-          e.subjectKeyIdentifier = forge2.util.bytesToHex(ev.value);
+          e.subjectKeyIdentifier = forge3.util.bytesToHex(ev.value);
         }
       }
       return e;
@@ -10342,9 +10342,9 @@ var require_x509 = __commonJS({
       }
       var csr = pki2.createCertificationRequest();
       csr.version = capture.csrVersion ? capture.csrVersion.charCodeAt(0) : 0;
-      csr.signatureOid = forge2.asn1.derToOid(capture.csrSignatureOid);
+      csr.signatureOid = forge3.asn1.derToOid(capture.csrSignatureOid);
       csr.signatureParameters = _readSignatureParameters(csr.signatureOid, capture.csrSignatureParams, true);
-      csr.siginfo.algorithmOid = forge2.asn1.derToOid(capture.csrSignatureOid);
+      csr.siginfo.algorithmOid = forge3.asn1.derToOid(capture.csrSignatureOid);
       csr.siginfo.parameters = _readSignatureParameters(csr.siginfo.algorithmOid, capture.csrSignatureParams, false);
       csr.signature = capture.csrSignature;
       csr.certificationRequestInfo = capture.certificationRequestInfo;
@@ -10356,7 +10356,7 @@ var require_x509 = __commonJS({
         var bytes = asn1.toDer(csr.certificationRequestInfo);
         csr.md.update(bytes.getBytes());
       }
-      var smd = forge2.md.sha1.create();
+      var smd = forge3.md.sha1.create();
       csr.subject.getField = function(sn) {
         return _getAttribute(csr.subject, sn);
       };
@@ -10414,7 +10414,7 @@ var require_x509 = __commonJS({
         csr.attributes = attrs;
       };
       csr.sign = function(key, md) {
-        csr.md = md || forge2.md.sha1.create();
+        csr.md = md || forge3.md.sha1.create();
         var algorithmOid = oids[csr.md.algorithm + "WithRSAEncryption"];
         if (!algorithmOid) {
           var error = new Error("Could not compute certification request digest. Unknown message digest algorithm OID.");
@@ -10461,7 +10461,7 @@ var require_x509 = __commonJS({
         if ("valueTagClass" in attr) {
           valueTagClass = attr.valueTagClass;
           if (valueTagClass === asn1.Type.UTF8) {
-            value = forge2.util.encodeUtf8(value);
+            value = forge3.util.encodeUtf8(value);
           }
         }
         set = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SET, true, [
@@ -10650,7 +10650,7 @@ var require_x509 = __commonJS({
           altName = e.altNames[n];
           var value = altName.value;
           if (altName.type === 7 && altName.ip) {
-            value = forge2.util.bytesFromIP(altName.ip);
+            value = forge3.util.bytesFromIP(altName.ip);
             if (value === null) {
               var error = new Error('Extension "ip" value is not a valid IPv4 or IPv6 address.');
               error.extension = e;
@@ -10690,7 +10690,7 @@ var require_x509 = __commonJS({
           seq.push(asn1.create(asn1.Class.CONTEXT_SPECIFIC, 1, true, authorityCertIssuer));
         }
         if (e.serialNumber) {
-          var serialNumber = forge2.util.hexToBytes(e.serialNumber === true ? options.cert.serialNumber : e.serialNumber);
+          var serialNumber = forge3.util.hexToBytes(e.serialNumber === true ? options.cert.serialNumber : e.serialNumber);
           seq.push(asn1.create(asn1.Class.CONTEXT_SPECIFIC, 2, false, serialNumber));
         }
       } else if (e.name === "cRLDistributionPoints") {
@@ -10703,7 +10703,7 @@ var require_x509 = __commonJS({
           altName = e.altNames[n];
           var value = altName.value;
           if (altName.type === 7 && altName.ip) {
-            value = forge2.util.bytesFromIP(altName.ip);
+            value = forge3.util.bytesFromIP(altName.ip);
             if (value === null) {
               var error = new Error('Extension "ip" value is not a valid IPv4 or IPv6 address.');
               error.extension = e;
@@ -10775,7 +10775,7 @@ var require_x509 = __commonJS({
           valueTagClass = attr.valueTagClass;
         }
         if (valueTagClass === asn1.Type.UTF8) {
-          value = forge2.util.encodeUtf8(value);
+          value = forge3.util.encodeUtf8(value);
         }
         var valueConstructed = false;
         if ("valueConstructed" in attr) {
@@ -10807,7 +10807,7 @@ var require_x509 = __commonJS({
         asn1.create(asn1.Class.CONTEXT_SPECIFIC, 0, true, [
           asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, asn1.integerToDer(cert.version).getBytes())
         ]),
-        asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge2.util.hexToBytes(cert.serialNumber)),
+        asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge3.util.hexToBytes(cert.serialNumber)),
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
           asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(cert.siginfo.algorithmOid).getBytes()),
           _signatureParametersToAsn1(cert.siginfo.algorithmOid, cert.siginfo.parameters)
@@ -10901,13 +10901,13 @@ var require_x509 = __commonJS({
       };
       caStore.addCertificate = function(cert2) {
         if (typeof cert2 === "string") {
-          cert2 = forge2.pki.certificateFromPem(cert2);
+          cert2 = forge3.pki.certificateFromPem(cert2);
         }
         ensureSubjectHasHash(cert2.subject);
         if (!caStore.hasCertificate(cert2)) {
           if (cert2.subject.hash in caStore.certs) {
             var tmp = caStore.certs[cert2.subject.hash];
-            if (!forge2.util.isArray(tmp)) {
+            if (!forge3.util.isArray(tmp)) {
               tmp = [tmp];
             }
             tmp.push(cert2);
@@ -10919,13 +10919,13 @@ var require_x509 = __commonJS({
       };
       caStore.hasCertificate = function(cert2) {
         if (typeof cert2 === "string") {
-          cert2 = forge2.pki.certificateFromPem(cert2);
+          cert2 = forge3.pki.certificateFromPem(cert2);
         }
         var match = getBySubject(cert2.subject);
         if (!match) {
           return false;
         }
-        if (!forge2.util.isArray(match)) {
+        if (!forge3.util.isArray(match)) {
           match = [match];
         }
         var der1 = asn1.toDer(pki2.certificateToAsn1(cert2)).getBytes();
@@ -10942,7 +10942,7 @@ var require_x509 = __commonJS({
         for (var hash in caStore.certs) {
           if (caStore.certs.hasOwnProperty(hash)) {
             var value = caStore.certs[hash];
-            if (!forge2.util.isArray(value)) {
+            if (!forge3.util.isArray(value)) {
               certList.push(value);
             } else {
               for (var i2 = 0; i2 < value.length; ++i2) {
@@ -10956,14 +10956,14 @@ var require_x509 = __commonJS({
       caStore.removeCertificate = function(cert2) {
         var result;
         if (typeof cert2 === "string") {
-          cert2 = forge2.pki.certificateFromPem(cert2);
+          cert2 = forge3.pki.certificateFromPem(cert2);
         }
         ensureSubjectHasHash(cert2.subject);
         if (!caStore.hasCertificate(cert2)) {
           return null;
         }
         var match = getBySubject(cert2.subject);
-        if (!forge2.util.isArray(match)) {
+        if (!forge3.util.isArray(match)) {
           result = caStore.certs[cert2.subject.hash];
           delete caStore.certs[cert2.subject.hash];
           return result;
@@ -10987,7 +10987,7 @@ var require_x509 = __commonJS({
       }
       function ensureSubjectHasHash(subject) {
         if (!subject.hash) {
-          var md = forge2.md.sha1.create();
+          var md = forge3.md.sha1.create();
           subject.attributes = pki2.RDNAttributesAsArray(_dnToAsn1(subject), md);
           subject.hash = md.digest().toHex();
         }
@@ -11047,7 +11047,7 @@ var require_x509 = __commonJS({
           }
           if (parent) {
             var parents = parent;
-            if (!forge2.util.isArray(parents)) {
+            if (!forge3.util.isArray(parents)) {
               parents = [parents];
             }
             var verified = false;
@@ -11132,7 +11132,7 @@ var require_x509 = __commonJS({
             };
           }
           if (ret || ret === 0) {
-            if (typeof ret === "object" && !forge2.util.isArray(ret)) {
+            if (typeof ret === "object" && !forge3.util.isArray(ret)) {
               if (ret.message) {
                 error.message = ret.message;
               }
@@ -11156,7 +11156,7 @@ var require_x509 = __commonJS({
 // node_modules/node-forge/lib/pkcs12.js
 var require_pkcs12 = __commonJS({
   "node_modules/node-forge/lib/pkcs12.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_asn1();
     require_hmac();
     require_oids();
@@ -11167,9 +11167,9 @@ var require_pkcs12 = __commonJS({
     require_sha1();
     require_util();
     require_x509();
-    var asn1 = forge2.asn1;
-    var pki2 = forge2.pki;
-    var p12 = module2.exports = forge2.pkcs12 = forge2.pkcs12 || {};
+    var asn1 = forge3.asn1;
+    var pki2 = forge3.pki;
+    var p12 = module2.exports = forge3.pkcs12 = forge3.pkcs12 || {};
     var contentInfoValidator = {
       name: "ContentInfo",
       tagClass: asn1.Class.UNIVERSAL,
@@ -11364,7 +11364,7 @@ var require_pkcs12 = __commonJS({
           if ("localKeyId" in filter) {
             localKeyId = filter.localKeyId;
           } else if ("localKeyIdHex" in filter) {
-            localKeyId = forge2.util.hexToBytes(filter.localKeyIdHex);
+            localKeyId = forge3.util.hexToBytes(filter.localKeyIdHex);
           }
           if (localKeyId === void 0 && !("friendlyName" in filter) && "bagType" in filter) {
             rval[filter.bagType] = _getBagsByAttribute(pfx.safeContents, null, null, filter.bagType);
@@ -11405,33 +11405,33 @@ var require_pkcs12 = __commonJS({
         var macAlgorithm = asn1.derToOid(capture.macAlgorithm);
         switch (macAlgorithm) {
           case pki2.oids.sha1:
-            md = forge2.md.sha1.create();
+            md = forge3.md.sha1.create();
             macKeyBytes = 20;
             break;
           case pki2.oids.sha256:
-            md = forge2.md.sha256.create();
+            md = forge3.md.sha256.create();
             macKeyBytes = 32;
             break;
           case pki2.oids.sha384:
-            md = forge2.md.sha384.create();
+            md = forge3.md.sha384.create();
             macKeyBytes = 48;
             break;
           case pki2.oids.sha512:
-            md = forge2.md.sha512.create();
+            md = forge3.md.sha512.create();
             macKeyBytes = 64;
             break;
           case pki2.oids.md5:
-            md = forge2.md.md5.create();
+            md = forge3.md.md5.create();
             macKeyBytes = 16;
             break;
         }
         if (md === null) {
           throw new Error("PKCS#12 uses unsupported MAC algorithm: " + macAlgorithm);
         }
-        var macSalt = new forge2.util.ByteBuffer(capture.macSalt);
-        var macIterations = "macIterations" in capture ? parseInt(forge2.util.bytesToHex(capture.macIterations), 16) : 1;
+        var macSalt = new forge3.util.ByteBuffer(capture.macSalt);
+        var macIterations = "macIterations" in capture ? parseInt(forge3.util.bytesToHex(capture.macIterations), 16) : 1;
         var macKey = p12.generateKey(password, macSalt, 3, macIterations, macKeyBytes, md);
-        var mac = forge2.hmac.create();
+        var mac = forge3.hmac.create();
         mac.start(md, macKey);
         mac.update(data.value);
         var macValue = mac.getMac();
@@ -11444,7 +11444,7 @@ var require_pkcs12 = __commonJS({
     };
     function _decodePkcs7Data(data) {
       if (data.composed || data.constructed) {
-        var value = forge2.util.createBuffer();
+        var value = forge3.util.createBuffer();
         for (var i = 0; i < data.value.length; ++i) {
           value.putBytes(data.value[i].value);
         }
@@ -11495,7 +11495,7 @@ var require_pkcs12 = __commonJS({
     function _decryptSafeContents(data, password) {
       var capture = {};
       var errors = [];
-      if (!asn1.validate(data, forge2.pkcs7.asn1.encryptedDataValidator, capture, errors)) {
+      if (!asn1.validate(data, forge3.pkcs7.asn1.encryptedDataValidator, capture, errors)) {
         var error = new Error("Cannot read EncryptedContentInfo.");
         error.errors = errors;
         throw error;
@@ -11509,7 +11509,7 @@ var require_pkcs12 = __commonJS({
       oid = asn1.derToOid(capture.encAlgorithm);
       var cipher = pki2.pbe.getCipher(oid, capture.encParameter, password);
       var encryptedContentAsn1 = _decodePkcs7Data(capture.encryptedContentAsn1);
-      var encrypted = forge2.util.createBuffer(encryptedContentAsn1.value);
+      var encrypted = forge3.util.createBuffer(encryptedContentAsn1.value);
       cipher.update(encrypted);
       if (!cipher.finish()) {
         throw new Error("Failed to decrypt PKCS#12 SafeContents.");
@@ -11626,18 +11626,18 @@ var require_pkcs12 = __commonJS({
       var localKeyId = options.localKeyId;
       var bagAttrs;
       if (localKeyId !== null) {
-        localKeyId = forge2.util.hexToBytes(localKeyId);
+        localKeyId = forge3.util.hexToBytes(localKeyId);
       } else if (options.generateLocalKeyId) {
         if (cert) {
-          var pairedCert = forge2.util.isArray(cert) ? cert[0] : cert;
+          var pairedCert = forge3.util.isArray(cert) ? cert[0] : cert;
           if (typeof pairedCert === "string") {
             pairedCert = pki2.certificateFromPem(pairedCert);
           }
-          var sha1 = forge2.md.sha1.create();
+          var sha1 = forge3.md.sha1.create();
           sha1.update(asn1.toDer(pki2.certificateToAsn1(pairedCert)).getBytes());
           localKeyId = sha1.digest().getBytes();
         } else {
-          localKeyId = forge2.random.getBytes(20);
+          localKeyId = forge3.random.getBytes(20);
         }
       }
       var attrs = [];
@@ -11663,7 +11663,7 @@ var require_pkcs12 = __commonJS({
       var contents = [];
       var chain = [];
       if (cert !== null) {
-        if (forge2.util.isArray(cert)) {
+        if (forge3.util.isArray(cert)) {
           chain = cert;
         } else {
           chain = [cert];
@@ -11733,11 +11733,11 @@ var require_pkcs12 = __commonJS({
       var safe = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, contents);
       var macData;
       if (options.useMac) {
-        var sha1 = forge2.md.sha1.create();
-        var macSalt = new forge2.util.ByteBuffer(forge2.random.getBytes(options.saltSize));
+        var sha1 = forge3.md.sha1.create();
+        var macSalt = new forge3.util.ByteBuffer(forge3.random.getBytes(options.saltSize));
         var count = options.count;
         var key = p12.generateKey(password, macSalt, 3, count, 20);
-        var mac = forge2.hmac.create();
+        var mac = forge3.hmac.create();
         mac.start(sha1, key);
         mac.update(asn1.toDer(safe).getBytes());
         var macValue = mac.getMac();
@@ -11764,14 +11764,14 @@ var require_pkcs12 = __commonJS({
         macData
       ]);
     };
-    p12.generateKey = forge2.pbe.generatePkcs12Key;
+    p12.generateKey = forge3.pbe.generatePkcs12Key;
   }
 });
 
 // node_modules/node-forge/lib/pki.js
 var require_pki = __commonJS({
   "node_modules/node-forge/lib/pki.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_asn1();
     require_oids();
     require_pbe();
@@ -11782,17 +11782,17 @@ var require_pki = __commonJS({
     require_rsa();
     require_util();
     require_x509();
-    var asn1 = forge2.asn1;
-    var pki2 = module2.exports = forge2.pki = forge2.pki || {};
+    var asn1 = forge3.asn1;
+    var pki2 = module2.exports = forge3.pki = forge3.pki || {};
     pki2.pemToDer = function(pem) {
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.procType && msg.procType.type === "ENCRYPTED") {
         throw new Error("Could not convert PEM to DER; PEM is encrypted.");
       }
-      return forge2.util.createBuffer(msg.body);
+      return forge3.util.createBuffer(msg.body);
     };
     pki2.privateKeyFromPem = function(pem) {
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.type !== "PRIVATE KEY" && msg.type !== "RSA PRIVATE KEY") {
         var error = new Error('Could not convert private key from PEM; PEM header type is not "PRIVATE KEY" or "RSA PRIVATE KEY".');
         error.headerType = msg.type;
@@ -11809,14 +11809,14 @@ var require_pki = __commonJS({
         type: "RSA PRIVATE KEY",
         body: asn1.toDer(pki2.privateKeyToAsn1(key)).getBytes()
       };
-      return forge2.pem.encode(msg, { maxline });
+      return forge3.pem.encode(msg, { maxline });
     };
     pki2.privateKeyInfoToPem = function(pki3, maxline) {
       var msg = {
         type: "PRIVATE KEY",
         body: asn1.toDer(pki3).getBytes()
       };
-      return forge2.pem.encode(msg, { maxline });
+      return forge3.pem.encode(msg, { maxline });
     };
   }
 });
@@ -11824,7 +11824,7 @@ var require_pki = __commonJS({
 // node_modules/node-forge/lib/tls.js
 var require_tls = __commonJS({
   "node_modules/node-forge/lib/tls.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_asn1();
     require_hmac();
     require_md5();
@@ -11834,18 +11834,18 @@ var require_tls = __commonJS({
     require_sha1();
     require_util();
     var prf_TLS1 = function(secret, label, seed, length) {
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       var idx = secret.length >> 1;
       var slen = idx + (secret.length & 1);
       var s1 = secret.substr(0, slen);
       var s2 = secret.substr(idx, slen);
-      var ai = forge2.util.createBuffer();
-      var hmac = forge2.hmac.create();
+      var ai = forge3.util.createBuffer();
+      var hmac = forge3.hmac.create();
       seed = label + seed;
       var md5itr = Math.ceil(length / 16);
       var sha1itr = Math.ceil(length / 20);
       hmac.start("MD5", s1);
-      var md5bytes = forge2.util.createBuffer();
+      var md5bytes = forge3.util.createBuffer();
       ai.putBytes(seed);
       for (var i = 0; i < md5itr; ++i) {
         hmac.start(null, null);
@@ -11856,7 +11856,7 @@ var require_tls = __commonJS({
         md5bytes.putBuffer(hmac.digest());
       }
       hmac.start("SHA1", s2);
-      var sha1bytes = forge2.util.createBuffer();
+      var sha1bytes = forge3.util.createBuffer();
       ai.clear();
       ai.putBytes(seed);
       for (var i = 0; i < sha1itr; ++i) {
@@ -11867,13 +11867,13 @@ var require_tls = __commonJS({
         hmac.update(ai.bytes() + seed);
         sha1bytes.putBuffer(hmac.digest());
       }
-      rval.putBytes(forge2.util.xorBytes(md5bytes.getBytes(), sha1bytes.getBytes(), length));
+      rval.putBytes(forge3.util.xorBytes(md5bytes.getBytes(), sha1bytes.getBytes(), length));
       return rval;
     };
     var hmac_sha1 = function(key2, seqNum, record) {
-      var hmac = forge2.hmac.create();
+      var hmac = forge3.hmac.create();
       hmac.start("SHA1", key2);
-      var b = forge2.util.createBuffer();
+      var b = forge3.util.createBuffer();
       b.putInt32(seqNum[0]);
       b.putInt32(seqNum[1]);
       b.putByte(record.type);
@@ -11888,7 +11888,7 @@ var require_tls = __commonJS({
       var rval = false;
       try {
         var bytes = c.deflate(record.fragment.getBytes());
-        record.fragment = forge2.util.createBuffer(bytes);
+        record.fragment = forge3.util.createBuffer(bytes);
         record.length = bytes.length;
         rval = true;
       } catch (ex) {
@@ -11899,7 +11899,7 @@ var require_tls = __commonJS({
       var rval = false;
       try {
         var bytes = c.inflate(record.fragment.getBytes());
-        record.fragment = forge2.util.createBuffer(bytes);
+        record.fragment = forge3.util.createBuffer(bytes);
         record.length = bytes.length;
         rval = true;
       } catch (ex) {
@@ -11922,7 +11922,7 @@ var require_tls = __commonJS({
           len = b.getInt32();
           break;
       }
-      return forge2.util.createBuffer(b.getBytes(len));
+      return forge3.util.createBuffer(b.getBytes(len));
     };
     var writeVector = function(b, lenBytes, v) {
       b.putInt(v.length(), lenBytes << 3);
@@ -12078,7 +12078,7 @@ var require_tls = __commonJS({
             major: b.getByte(),
             minor: b.getByte()
           },
-          random: forge2.util.createBuffer(b.getBytes(32)),
+          random: forge3.util.createBuffer(b.getBytes(32)),
           session_id: readVector(b, 1),
           extensions: []
         };
@@ -12129,7 +12129,7 @@ var require_tls = __commonJS({
         if (client) {
           c.session.cipherSuite = tls.getCipherSuite(msg.cipher_suite);
         } else {
-          var tmp = forge2.util.createBuffer(msg.cipher_suites.bytes());
+          var tmp = forge3.util.createBuffer(msg.cipher_suites.bytes());
           while (tmp.length() > 0) {
             c.session.cipherSuite = tls.getCipherSuite(tmp.getBytes(2));
             if (c.session.cipherSuite !== null) {
@@ -12145,7 +12145,7 @@ var require_tls = __commonJS({
               level: tls.Alert.Level.fatal,
               description: tls.Alert.Description.handshake_failure
             },
-            cipherSuite: forge2.util.bytesToHex(msg.cipher_suite)
+            cipherSuite: forge3.util.bytesToHex(msg.cipher_suite)
           });
         }
         if (client) {
@@ -12228,7 +12228,7 @@ var require_tls = __commonJS({
         }
       }
       if (sessionId.length === 0) {
-        sessionId = forge2.random.getBytes(32);
+        sessionId = forge3.random.getBytes(32);
       }
       c.session.id = sessionId;
       c.session.clientHelloVersion = msg.version;
@@ -12317,8 +12317,8 @@ var require_tls = __commonJS({
       try {
         while (msg.certificate_list.length() > 0) {
           cert = readVector(msg.certificate_list, 3);
-          asn1 = forge2.asn1.fromDer(cert);
-          cert = forge2.pki.certificateFromAsn1(asn1, true);
+          asn1 = forge3.asn1.fromDer(cert);
+          cert = forge3.pki.certificateFromAsn1(asn1, true);
           certs.push(cert);
         }
       } catch (ex) {
@@ -12389,7 +12389,7 @@ var require_tls = __commonJS({
       if (c.getPrivateKey) {
         try {
           privateKey = c.getPrivateKey(c, c.session.serverCertificate);
-          privateKey = forge2.pki.privateKeyFromPem(privateKey);
+          privateKey = forge3.pki.privateKeyFromPem(privateKey);
         } catch (ex) {
           c.error(c, {
             message: "Could not get private key.",
@@ -12420,7 +12420,7 @@ var require_tls = __commonJS({
           throw new Error("TLS version rollback attack detected.");
         }
       } catch (ex) {
-        sp.pre_master_secret = forge2.random.getBytes(48);
+        sp.pre_master_secret = forge3.random.getBytes(48);
       }
       c.expect = CCC;
       if (c.session.clientCertificate !== null) {
@@ -12466,7 +12466,7 @@ var require_tls = __commonJS({
       var msg = {
         signature: readVector(b, 2).getBytes()
       };
-      var verify = forge2.util.createBuffer();
+      var verify = forge3.util.createBuffer();
       verify.putBuffer(c.session.md5.digest());
       verify.putBuffer(c.session.sha1.digest());
       verify = verify.getBytes();
@@ -12514,7 +12514,7 @@ var require_tls = __commonJS({
         var ret = c.verify(c, error.alert.description, depth, []);
         if (ret !== true) {
           if (ret || ret === 0) {
-            if (typeof ret === "object" && !forge2.util.isArray(ret)) {
+            if (typeof ret === "object" && !forge3.util.isArray(ret)) {
               if (ret.message) {
                 error.message = ret.message;
               }
@@ -12595,7 +12595,7 @@ var require_tls = __commonJS({
       var msgBytes = b.bytes();
       b.read += 4;
       var vd = record.fragment.getBytes();
-      b = forge2.util.createBuffer();
+      b = forge3.util.createBuffer();
       b.putBuffer(c.session.md5.digest());
       b.putBuffer(c.session.sha1.digest());
       var client = c.entity === tls.ConnectionEnd.client;
@@ -12735,7 +12735,7 @@ var require_tls = __commonJS({
       var length = b.getInt24();
       if (length > b.length()) {
         c.fragmented = record;
-        record.fragment = forge2.util.createBuffer();
+        record.fragment = forge3.util.createBuffer();
         b.read -= 4;
         return c.process();
       }
@@ -12757,8 +12757,8 @@ var require_tls = __commonJS({
             compressionMethod: null,
             serverCertificate: null,
             clientCertificate: null,
-            md5: forge2.md.md5.create(),
-            sha1: forge2.md.sha1.create()
+            md5: forge3.md.md5.create(),
+            sha1: forge3.md.sha1.create()
           };
         }
         if (type !== tls.HandshakeType.hello_request && type !== tls.HandshakeType.certificate_verify && type !== tls.HandshakeType.finished) {
@@ -12794,7 +12794,7 @@ var require_tls = __commonJS({
           return c.process();
         }
         if (c.heartbeatReceived) {
-          c.heartbeatReceived(c, forge2.util.createBuffer(payload));
+          c.heartbeatReceived(c, forge3.util.createBuffer(payload));
         }
       }
       c.process();
@@ -12999,9 +12999,9 @@ var require_tls = __commonJS({
     tls.createRandom = function() {
       var d = new Date();
       var utc = +d + d.getTimezoneOffset() * 6e4;
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putInt32(utc);
-      rval.putBytes(forge2.random.getBytes(28));
+      rval.putBytes(forge3.random.getBytes(28));
       return rval;
     };
     tls.createRecord = function(c, options) {
@@ -13020,7 +13020,7 @@ var require_tls = __commonJS({
       return record;
     };
     tls.createAlert = function(c, alert) {
-      var b = forge2.util.createBuffer();
+      var b = forge3.util.createBuffer();
       b.putByte(alert.level);
       b.putByte(alert.description);
       return tls.createRecord(c, {
@@ -13033,25 +13033,25 @@ var require_tls = __commonJS({
         major: c.version.major,
         minor: c.version.minor
       };
-      var cipherSuites = forge2.util.createBuffer();
+      var cipherSuites = forge3.util.createBuffer();
       for (var i = 0; i < c.cipherSuites.length; ++i) {
         var cs = c.cipherSuites[i];
         cipherSuites.putByte(cs.id[0]);
         cipherSuites.putByte(cs.id[1]);
       }
       var cSuites = cipherSuites.length();
-      var compressionMethods = forge2.util.createBuffer();
+      var compressionMethods = forge3.util.createBuffer();
       compressionMethods.putByte(tls.CompressionMethod.none);
       var cMethods = compressionMethods.length();
-      var extensions = forge2.util.createBuffer();
+      var extensions = forge3.util.createBuffer();
       if (c.virtualHost) {
-        var ext = forge2.util.createBuffer();
+        var ext = forge3.util.createBuffer();
         ext.putByte(0);
         ext.putByte(0);
-        var serverName = forge2.util.createBuffer();
+        var serverName = forge3.util.createBuffer();
         serverName.putByte(0);
-        writeVector(serverName, 2, forge2.util.createBuffer(c.virtualHost));
-        var snList = forge2.util.createBuffer();
+        writeVector(serverName, 2, forge3.util.createBuffer(c.virtualHost));
+        var snList = forge3.util.createBuffer();
         writeVector(snList, 2, serverName);
         writeVector(ext, 2, snList);
         extensions.putBuffer(ext);
@@ -13062,13 +13062,13 @@ var require_tls = __commonJS({
       }
       var sessionId = c.session.id;
       var length = sessionId.length + 1 + 2 + 4 + 28 + 2 + cSuites + 1 + cMethods + extLength;
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.client_hello);
       rval.putInt24(length);
       rval.putByte(c.version.major);
       rval.putByte(c.version.minor);
       rval.putBytes(c.session.sp.client_random);
-      writeVector(rval, 1, forge2.util.createBuffer(sessionId));
+      writeVector(rval, 1, forge3.util.createBuffer(sessionId));
       writeVector(rval, 2, cipherSuites);
       writeVector(rval, 1, compressionMethods);
       if (extLength > 0) {
@@ -13079,13 +13079,13 @@ var require_tls = __commonJS({
     tls.createServerHello = function(c) {
       var sessionId = c.session.id;
       var length = sessionId.length + 1 + 2 + 4 + 28 + 2 + 1;
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.server_hello);
       rval.putInt24(length);
       rval.putByte(c.version.major);
       rval.putByte(c.version.minor);
       rval.putBytes(c.session.sp.server_random);
-      writeVector(rval, 1, forge2.util.createBuffer(sessionId));
+      writeVector(rval, 1, forge3.util.createBuffer(sessionId));
       rval.putByte(c.session.cipherSuite.id[0]);
       rval.putByte(c.session.cipherSuite.id[1]);
       rval.putByte(c.session.compressionMethod);
@@ -13103,15 +13103,15 @@ var require_tls = __commonJS({
         }
         cert = c.getCertificate(c, hint);
       }
-      var certList = forge2.util.createBuffer();
+      var certList = forge3.util.createBuffer();
       if (cert !== null) {
         try {
-          if (!forge2.util.isArray(cert)) {
+          if (!forge3.util.isArray(cert)) {
             cert = [cert];
           }
           var asn1 = null;
           for (var i = 0; i < cert.length; ++i) {
-            var msg = forge2.pem.decode(cert[i])[0];
+            var msg = forge3.pem.decode(cert[i])[0];
             if (msg.type !== "CERTIFICATE" && msg.type !== "X509 CERTIFICATE" && msg.type !== "TRUSTED CERTIFICATE") {
               var error = new Error('Could not convert certificate from PEM; PEM header type is not "CERTIFICATE", "X509 CERTIFICATE", or "TRUSTED CERTIFICATE".');
               error.headerType = msg.type;
@@ -13120,15 +13120,15 @@ var require_tls = __commonJS({
             if (msg.procType && msg.procType.type === "ENCRYPTED") {
               throw new Error("Could not convert certificate from PEM; PEM is encrypted.");
             }
-            var der = forge2.util.createBuffer(msg.body);
+            var der = forge3.util.createBuffer(msg.body);
             if (asn1 === null) {
-              asn1 = forge2.asn1.fromDer(der.bytes(), false);
+              asn1 = forge3.asn1.fromDer(der.bytes(), false);
             }
-            var certBuffer = forge2.util.createBuffer();
+            var certBuffer = forge3.util.createBuffer();
             writeVector(certBuffer, 3, der);
             certList.putBuffer(certBuffer);
           }
-          cert = forge2.pki.certificateFromAsn1(asn1);
+          cert = forge3.pki.certificateFromAsn1(asn1);
           if (client) {
             c.session.clientCertificate = cert;
           } else {
@@ -13147,23 +13147,23 @@ var require_tls = __commonJS({
         }
       }
       var length = 3 + certList.length();
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.certificate);
       rval.putInt24(length);
       writeVector(rval, 3, certList);
       return rval;
     };
     tls.createClientKeyExchange = function(c) {
-      var b = forge2.util.createBuffer();
+      var b = forge3.util.createBuffer();
       b.putByte(c.session.clientHelloVersion.major);
       b.putByte(c.session.clientHelloVersion.minor);
-      b.putBytes(forge2.random.getBytes(46));
+      b.putBytes(forge3.random.getBytes(46));
       var sp = c.session.sp;
       sp.pre_master_secret = b.getBytes();
       var key2 = c.session.serverCertificate.publicKey;
       b = key2.encrypt(sp.pre_master_secret);
       var length = b.length + 2;
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.client_key_exchange);
       rval.putInt24(length);
       rval.putInt16(b.length);
@@ -13172,7 +13172,7 @@ var require_tls = __commonJS({
     };
     tls.createServerKeyExchange = function(c) {
       var length = 0;
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       if (length > 0) {
         rval.putByte(tls.HandshakeType.server_key_exchange);
         rval.putInt24(length);
@@ -13180,7 +13180,7 @@ var require_tls = __commonJS({
       return rval;
     };
     tls.getClientSignature = function(c, callback) {
-      var b = forge2.util.createBuffer();
+      var b = forge3.util.createBuffer();
       b.putBuffer(c.session.md5.digest());
       b.putBuffer(c.session.sha1.digest());
       b = b.getBytes();
@@ -13189,7 +13189,7 @@ var require_tls = __commonJS({
         if (c2.getPrivateKey) {
           try {
             privateKey = c2.getPrivateKey(c2, c2.session.clientCertificate);
-            privateKey = forge2.pki.privateKeyFromPem(privateKey);
+            privateKey = forge3.pki.privateKeyFromPem(privateKey);
           } catch (ex) {
             c2.error(c2, {
               message: "Could not get private key.",
@@ -13220,7 +13220,7 @@ var require_tls = __commonJS({
     };
     tls.createCertificateVerify = function(c, signature) {
       var length = signature.length + 2;
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.certificate_verify);
       rval.putInt24(length);
       rval.putInt16(signature.length);
@@ -13228,18 +13228,18 @@ var require_tls = __commonJS({
       return rval;
     };
     tls.createCertificateRequest = function(c) {
-      var certTypes = forge2.util.createBuffer();
+      var certTypes = forge3.util.createBuffer();
       certTypes.putByte(1);
-      var cAs = forge2.util.createBuffer();
+      var cAs = forge3.util.createBuffer();
       for (var key2 in c.caStore.certs) {
         var cert = c.caStore.certs[key2];
-        var dn = forge2.pki.distinguishedNameToAsn1(cert.subject);
-        var byteBuffer = forge2.asn1.toDer(dn);
+        var dn = forge3.pki.distinguishedNameToAsn1(cert.subject);
+        var byteBuffer = forge3.asn1.toDer(dn);
         cAs.putInt16(byteBuffer.length());
         cAs.putBuffer(byteBuffer);
       }
       var length = 1 + certTypes.length() + 2 + cAs.length();
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.certificate_request);
       rval.putInt24(length);
       writeVector(rval, 1, certTypes);
@@ -13247,18 +13247,18 @@ var require_tls = __commonJS({
       return rval;
     };
     tls.createServerHelloDone = function(c) {
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.server_hello_done);
       rval.putInt24(0);
       return rval;
     };
     tls.createChangeCipherSpec = function() {
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(1);
       return rval;
     };
     tls.createFinished = function(c) {
-      var b = forge2.util.createBuffer();
+      var b = forge3.util.createBuffer();
       b.putBuffer(c.session.md5.digest());
       b.putBuffer(c.session.sha1.digest());
       var client = c.entity === tls.ConnectionEnd.client;
@@ -13267,7 +13267,7 @@ var require_tls = __commonJS({
       var prf = prf_TLS1;
       var label = client ? "client finished" : "server finished";
       b = prf(sp.master_secret, label, b.getBytes(), vdl);
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(tls.HandshakeType.finished);
       rval.putInt24(b.length());
       rval.putBuffer(b);
@@ -13277,13 +13277,13 @@ var require_tls = __commonJS({
       if (typeof payloadLength === "undefined") {
         payloadLength = payload.length;
       }
-      var rval = forge2.util.createBuffer();
+      var rval = forge3.util.createBuffer();
       rval.putByte(type);
       rval.putInt16(payloadLength);
       rval.putBytes(payload);
       var plaintextLength = rval.length();
       var paddingLength = Math.max(16, plaintextLength - payloadLength - 3);
-      rval.putBytes(forge2.random.getBytes(paddingLength));
+      rval.putBytes(forge3.random.getBytes(paddingLength));
       return rval;
     };
     tls.queue = function(c, record) {
@@ -13310,14 +13310,14 @@ var require_tls = __commonJS({
         while (data.length > tls.MaxFragment) {
           records.push(tls.createRecord(c, {
             type: record.type,
-            data: forge2.util.createBuffer(data.slice(0, tls.MaxFragment))
+            data: forge3.util.createBuffer(data.slice(0, tls.MaxFragment))
           }));
           data = data.slice(tls.MaxFragment);
         }
         if (data.length > 0) {
           records.push(tls.createRecord(c, {
             type: record.type,
-            data: forge2.util.createBuffer(data)
+            data: forge3.util.createBuffer(data)
           }));
         }
       }
@@ -13345,17 +13345,17 @@ var require_tls = __commonJS({
       switch (error) {
         case true:
           return true;
-        case forge2.pki.certificateError.bad_certificate:
+        case forge3.pki.certificateError.bad_certificate:
           return tls.Alert.Description.bad_certificate;
-        case forge2.pki.certificateError.unsupported_certificate:
+        case forge3.pki.certificateError.unsupported_certificate:
           return tls.Alert.Description.unsupported_certificate;
-        case forge2.pki.certificateError.certificate_revoked:
+        case forge3.pki.certificateError.certificate_revoked:
           return tls.Alert.Description.certificate_revoked;
-        case forge2.pki.certificateError.certificate_expired:
+        case forge3.pki.certificateError.certificate_expired:
           return tls.Alert.Description.certificate_expired;
-        case forge2.pki.certificateError.certificate_unknown:
+        case forge3.pki.certificateError.certificate_unknown:
           return tls.Alert.Description.certificate_unknown;
-        case forge2.pki.certificateError.unknown_ca:
+        case forge3.pki.certificateError.unknown_ca:
           return tls.Alert.Description.unknown_ca;
         default:
           return tls.Alert.Description.bad_certificate;
@@ -13366,19 +13366,19 @@ var require_tls = __commonJS({
         case true:
           return true;
         case tls.Alert.Description.bad_certificate:
-          return forge2.pki.certificateError.bad_certificate;
+          return forge3.pki.certificateError.bad_certificate;
         case tls.Alert.Description.unsupported_certificate:
-          return forge2.pki.certificateError.unsupported_certificate;
+          return forge3.pki.certificateError.unsupported_certificate;
         case tls.Alert.Description.certificate_revoked:
-          return forge2.pki.certificateError.certificate_revoked;
+          return forge3.pki.certificateError.certificate_revoked;
         case tls.Alert.Description.certificate_expired:
-          return forge2.pki.certificateError.certificate_expired;
+          return forge3.pki.certificateError.certificate_expired;
         case tls.Alert.Description.certificate_unknown:
-          return forge2.pki.certificateError.certificate_unknown;
+          return forge3.pki.certificateError.certificate_unknown;
         case tls.Alert.Description.unknown_ca:
-          return forge2.pki.certificateError.unknown_ca;
+          return forge3.pki.certificateError.unknown_ca;
         default:
-          return forge2.pki.certificateError.bad_certificate;
+          return forge3.pki.certificateError.bad_certificate;
       }
     };
     tls.verifyCertificateChain = function(c, chain) {
@@ -13391,7 +13391,7 @@ var require_tls = __commonJS({
           var desc = _certErrorToAlertDesc(vfd);
           var ret = c.verify(c, vfd, depth, chain2);
           if (ret !== true) {
-            if (typeof ret === "object" && !forge2.util.isArray(ret)) {
+            if (typeof ret === "object" && !forge3.util.isArray(ret)) {
               var error = new Error("The application rejected the certificate.");
               error.send = true;
               error.alert = {
@@ -13412,10 +13412,10 @@ var require_tls = __commonJS({
           }
           return ret;
         };
-        forge2.pki.verifyCertificateChain(c.caStore, chain, options);
+        forge3.pki.verifyCertificateChain(c.caStore, chain, options);
       } catch (ex) {
         var err = ex;
-        if (typeof err !== "object" || forge2.util.isArray(err)) {
+        if (typeof err !== "object" || forge3.util.isArray(err)) {
           err = {
             send: true,
             alert: {
@@ -13457,7 +13457,7 @@ var require_tls = __commonJS({
           var session = null;
           var key3 = null;
           if (sessionId) {
-            key3 = forge2.util.bytesToHex(sessionId);
+            key3 = forge3.util.bytesToHex(sessionId);
           } else if (rval.order.length > 0) {
             key3 = rval.order[0];
           }
@@ -13478,7 +13478,7 @@ var require_tls = __commonJS({
             var key3 = rval.order.shift();
             delete rval.cache[key3];
           }
-          var key3 = forge2.util.bytesToHex(sessionId);
+          var key3 = forge3.util.bytesToHex(sessionId);
           rval.order.push(key3);
           rval.cache[key3] = session;
         };
@@ -13488,13 +13488,13 @@ var require_tls = __commonJS({
     tls.createConnection = function(options) {
       var caStore = null;
       if (options.caStore) {
-        if (forge2.util.isArray(options.caStore)) {
-          caStore = forge2.pki.createCaStore(options.caStore);
+        if (forge3.util.isArray(options.caStore)) {
+          caStore = forge3.pki.createCaStore(options.caStore);
         } else {
           caStore = options.caStore;
         }
       } else {
-        caStore = forge2.pki.createCaStore();
+        caStore = forge3.pki.createCaStore();
       }
       var cipherSuites = options.cipherSuites || null;
       if (cipherSuites === null) {
@@ -13522,9 +13522,9 @@ var require_tls = __commonJS({
         getCertificate: options.getCertificate || null,
         getPrivateKey: options.getPrivateKey || null,
         getSignature: options.getSignature || null,
-        input: forge2.util.createBuffer(),
-        tlsData: forge2.util.createBuffer(),
-        data: forge2.util.createBuffer(),
+        input: forge3.util.createBuffer(),
+        tlsData: forge3.util.createBuffer(),
+        data: forge3.util.createBuffer(),
         tlsDataReady: options.tlsDataReady,
         dataReady: options.dataReady,
         heartbeatReceived: options.heartbeatReceived,
@@ -13593,7 +13593,7 @@ var require_tls = __commonJS({
               minor: b.getByte()
             },
             length: b.getInt16(),
-            fragment: forge2.util.createBuffer(),
+            fragment: forge3.util.createBuffer(),
             ready: false
           };
           var compatibleVersion = c2.record.version.major === c2.version.major;
@@ -13685,8 +13685,8 @@ var require_tls = __commonJS({
             certificateRequest: null,
             clientCertificate: null,
             sp: {},
-            md5: forge2.md.md5.create(),
-            sha1: forge2.md.sha1.create()
+            md5: forge3.md.md5.create(),
+            sha1: forge3.md.sha1.create()
           };
           if (session) {
             c.version = session.version;
@@ -13725,12 +13725,12 @@ var require_tls = __commonJS({
       c.prepare = function(data) {
         tls.queue(c, tls.createRecord(c, {
           type: tls.ContentType.application_data,
-          data: forge2.util.createBuffer(data)
+          data: forge3.util.createBuffer(data)
         }));
         return tls.flush(c);
       };
       c.prepareHeartbeatRequest = function(payload, payloadLength) {
-        if (payload instanceof forge2.util.ByteBuffer) {
+        if (payload instanceof forge3.util.ByteBuffer) {
           payload = payload.bytes();
         }
         if (typeof payloadLength === "undefined") {
@@ -13770,27 +13770,27 @@ var require_tls = __commonJS({
       };
       return c;
     };
-    module2.exports = forge2.tls = forge2.tls || {};
+    module2.exports = forge3.tls = forge3.tls || {};
     for (key in tls) {
       if (typeof tls[key] !== "function") {
-        forge2.tls[key] = tls[key];
+        forge3.tls[key] = tls[key];
       }
     }
     var key;
-    forge2.tls.prf_tls1 = prf_TLS1;
-    forge2.tls.hmac_sha1 = hmac_sha1;
-    forge2.tls.createSessionCache = tls.createSessionCache;
-    forge2.tls.createConnection = tls.createConnection;
+    forge3.tls.prf_tls1 = prf_TLS1;
+    forge3.tls.hmac_sha1 = hmac_sha1;
+    forge3.tls.createSessionCache = tls.createSessionCache;
+    forge3.tls.createConnection = tls.createConnection;
   }
 });
 
 // node_modules/node-forge/lib/aesCipherSuites.js
 var require_aesCipherSuites = __commonJS({
   "node_modules/node-forge/lib/aesCipherSuites.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_aes();
     require_tls();
-    var tls = module2.exports = forge2.tls;
+    var tls = module2.exports = forge3.tls;
     tls.CipherSuites["TLS_RSA_WITH_AES_128_CBC_SHA"] = {
       id: [0, 47],
       name: "TLS_RSA_WITH_AES_128_CBC_SHA",
@@ -13824,15 +13824,15 @@ var require_aesCipherSuites = __commonJS({
       initConnectionState
     };
     function initConnectionState(state, c, sp) {
-      var client = c.entity === forge2.tls.ConnectionEnd.client;
+      var client = c.entity === forge3.tls.ConnectionEnd.client;
       state.read.cipherState = {
         init: false,
-        cipher: forge2.cipher.createDecipher("AES-CBC", client ? sp.keys.server_write_key : sp.keys.client_write_key),
+        cipher: forge3.cipher.createDecipher("AES-CBC", client ? sp.keys.server_write_key : sp.keys.client_write_key),
         iv: client ? sp.keys.server_write_IV : sp.keys.client_write_IV
       };
       state.write.cipherState = {
         init: false,
-        cipher: forge2.cipher.createCipher("AES-CBC", client ? sp.keys.client_write_key : sp.keys.server_write_key),
+        cipher: forge3.cipher.createCipher("AES-CBC", client ? sp.keys.client_write_key : sp.keys.server_write_key),
         iv: client ? sp.keys.client_write_IV : sp.keys.server_write_IV
       };
       state.read.cipherFunction = decrypt_aes_cbc_sha1;
@@ -13849,7 +13849,7 @@ var require_aesCipherSuites = __commonJS({
       if (record.version.minor === tls.Versions.TLS_1_0.minor) {
         iv = s.cipherState.init ? null : s.cipherState.iv;
       } else {
-        iv = forge2.random.getBytesSync(16);
+        iv = forge3.random.getBytesSync(16);
       }
       s.cipherState.init = true;
       var cipher = s.cipherState.cipher;
@@ -13900,7 +13900,7 @@ var require_aesCipherSuites = __commonJS({
       cipher.update(record.fragment);
       rval = cipher.finish(decrypt_aes_cbc_sha1_padding);
       var macLen = s.macLength;
-      var mac = forge2.random.getBytesSync(macLen);
+      var mac = forge3.random.getBytesSync(macLen);
       var len = cipher.output.length();
       if (len >= macLen) {
         record.fragment = cipher.output.getBytes(len - macLen);
@@ -13908,7 +13908,7 @@ var require_aesCipherSuites = __commonJS({
       } else {
         record.fragment = cipher.output.getBytes();
       }
-      record.fragment = forge2.util.createBuffer(record.fragment);
+      record.fragment = forge3.util.createBuffer(record.fragment);
       record.length = record.fragment.length();
       var mac2 = s.macFunction(s.macKey, s.sequenceNumber, record);
       s.updateSequenceNumber();
@@ -13916,7 +13916,7 @@ var require_aesCipherSuites = __commonJS({
       return rval;
     }
     function compareMacs(key, mac1, mac2) {
-      var hmac = forge2.hmac.create();
+      var hmac = forge3.hmac.create();
       hmac.start("SHA1", key);
       hmac.update(mac1);
       mac1 = hmac.digest().getBytes();
@@ -13931,28 +13931,28 @@ var require_aesCipherSuites = __commonJS({
 // node_modules/node-forge/lib/sha512.js
 var require_sha512 = __commonJS({
   "node_modules/node-forge/lib/sha512.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_md();
     require_util();
-    var sha512 = module2.exports = forge2.sha512 = forge2.sha512 || {};
-    forge2.md.sha512 = forge2.md.algorithms.sha512 = sha512;
-    var sha384 = forge2.sha384 = forge2.sha512.sha384 = forge2.sha512.sha384 || {};
+    var sha512 = module2.exports = forge3.sha512 = forge3.sha512 || {};
+    forge3.md.sha512 = forge3.md.algorithms.sha512 = sha512;
+    var sha384 = forge3.sha384 = forge3.sha512.sha384 = forge3.sha512.sha384 || {};
     sha384.create = function() {
       return sha512.create("SHA-384");
     };
-    forge2.md.sha384 = forge2.md.algorithms.sha384 = sha384;
-    forge2.sha512.sha256 = forge2.sha512.sha256 || {
+    forge3.md.sha384 = forge3.md.algorithms.sha384 = sha384;
+    forge3.sha512.sha256 = forge3.sha512.sha256 || {
       create: function() {
         return sha512.create("SHA-512/256");
       }
     };
-    forge2.md["sha512/256"] = forge2.md.algorithms["sha512/256"] = forge2.sha512.sha256;
-    forge2.sha512.sha224 = forge2.sha512.sha224 || {
+    forge3.md["sha512/256"] = forge3.md.algorithms["sha512/256"] = forge3.sha512.sha256;
+    forge3.sha512.sha224 = forge3.sha512.sha224 || {
       create: function() {
         return sha512.create("SHA-512/224");
       }
     };
-    forge2.md["sha512/224"] = forge2.md.algorithms["sha512/224"] = forge2.sha512.sha224;
+    forge3.md["sha512/224"] = forge3.md.algorithms["sha512/224"] = forge3.sha512.sha224;
     sha512.create = function(algorithm) {
       if (!_initialized) {
         _init();
@@ -13965,7 +13965,7 @@ var require_sha512 = __commonJS({
       }
       var _state = _states[algorithm];
       var _h = null;
-      var _input = forge2.util.createBuffer();
+      var _input = forge3.util.createBuffer();
       var _w = new Array(80);
       for (var wi = 0; wi < 80; ++wi) {
         _w[wi] = new Array(2);
@@ -13997,7 +13997,7 @@ var require_sha512 = __commonJS({
         for (var i = 0; i < int32s; ++i) {
           md.fullMessageLength.push(0);
         }
-        _input = forge2.util.createBuffer();
+        _input = forge3.util.createBuffer();
         _h = new Array(_state.length);
         for (var i = 0; i < _state.length; ++i) {
           _h[i] = _state[i].slice(0);
@@ -14007,7 +14007,7 @@ var require_sha512 = __commonJS({
       md.start();
       md.update = function(msg, encoding) {
         if (encoding === "utf8") {
-          msg = forge2.util.encodeUtf8(msg);
+          msg = forge3.util.encodeUtf8(msg);
         }
         var len = msg.length;
         md.messageLength += len;
@@ -14026,7 +14026,7 @@ var require_sha512 = __commonJS({
         return md;
       };
       md.digest = function() {
-        var finalBlock = forge2.util.createBuffer();
+        var finalBlock = forge3.util.createBuffer();
         finalBlock.putBytes(_input.bytes());
         var remaining = md.fullMessageLength[md.fullMessageLength.length - 1] + md.messageLengthSize;
         var overflow = remaining & md.blockLength - 1;
@@ -14046,7 +14046,7 @@ var require_sha512 = __commonJS({
           h[i] = _h[i].slice(0);
         }
         _update(h, _w, finalBlock);
-        var rval = forge2.util.createBuffer();
+        var rval = forge3.util.createBuffer();
         var hlen;
         if (algorithm === "SHA-512") {
           hlen = h.length;
@@ -14071,7 +14071,7 @@ var require_sha512 = __commonJS({
     var _states = null;
     function _init() {
       _padding = String.fromCharCode(128);
-      _padding += forge2.util.fillString(String.fromCharCode(0), 128);
+      _padding += forge3.util.fillString(String.fromCharCode(0), 128);
       _k = [
         [1116352408, 3609767458],
         [1899447441, 602891725],
@@ -14319,9 +14319,9 @@ var require_sha512 = __commonJS({
 // node_modules/node-forge/lib/asn1-validator.js
 var require_asn1_validator = __commonJS({
   "node_modules/node-forge/lib/asn1-validator.js"(exports2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_asn1();
-    var asn1 = forge2.asn1;
+    var asn1 = forge3.asn1;
     exports2.privateKeyValidator = {
       name: "PrivateKeyInfo",
       tagClass: asn1.Class.UNIVERSAL,
@@ -14388,7 +14388,7 @@ var require_asn1_validator = __commonJS({
 // node_modules/node-forge/lib/ed25519.js
 var require_ed25519 = __commonJS({
   "node_modules/node-forge/lib/ed25519.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_jsbn();
     require_random();
     require_sha512();
@@ -14397,14 +14397,14 @@ var require_ed25519 = __commonJS({
     var publicKeyValidator = asn1Validator.publicKeyValidator;
     var privateKeyValidator = asn1Validator.privateKeyValidator;
     if (typeof BigInteger === "undefined") {
-      BigInteger = forge2.jsbn.BigInteger;
+      BigInteger = forge3.jsbn.BigInteger;
     }
     var BigInteger;
-    var ByteBuffer = forge2.util.ByteBuffer;
+    var ByteBuffer = forge3.util.ByteBuffer;
     var NativeBuffer = typeof Buffer === "undefined" ? Uint8Array : Buffer;
-    forge2.pki = forge2.pki || {};
-    module2.exports = forge2.pki.ed25519 = forge2.ed25519 = forge2.ed25519 || {};
-    var ed25519 = forge2.ed25519;
+    forge3.pki = forge3.pki || {};
+    module2.exports = forge3.pki.ed25519 = forge3.ed25519 = forge3.ed25519 || {};
+    var ed25519 = forge3.ed25519;
     ed25519.constants = {};
     ed25519.constants.PUBLIC_KEY_BYTE_LENGTH = 32;
     ed25519.constants.PRIVATE_KEY_BYTE_LENGTH = 64;
@@ -14415,7 +14415,7 @@ var require_ed25519 = __commonJS({
       options = options || {};
       var seed = options.seed;
       if (seed === void 0) {
-        seed = forge2.random.getBytesSync(ed25519.constants.SEED_BYTE_LENGTH);
+        seed = forge3.random.getBytesSync(ed25519.constants.SEED_BYTE_LENGTH);
       } else if (typeof seed === "string") {
         if (seed.length !== ed25519.constants.SEED_BYTE_LENGTH) {
           throw new TypeError('"seed" must be ' + ed25519.constants.SEED_BYTE_LENGTH + " bytes in length.");
@@ -14435,20 +14435,20 @@ var require_ed25519 = __commonJS({
     ed25519.privateKeyFromAsn1 = function(obj) {
       var capture = {};
       var errors = [];
-      var valid = forge2.asn1.validate(obj, privateKeyValidator, capture, errors);
+      var valid = forge3.asn1.validate(obj, privateKeyValidator, capture, errors);
       if (!valid) {
         var error = new Error("Invalid Key.");
         error.errors = errors;
         throw error;
       }
-      var oid = forge2.asn1.derToOid(capture.privateKeyOid);
-      var ed25519Oid = forge2.oids.EdDSA25519;
+      var oid = forge3.asn1.derToOid(capture.privateKeyOid);
+      var ed25519Oid = forge3.oids.EdDSA25519;
       if (oid !== ed25519Oid) {
         throw new Error('Invalid OID "' + oid + '"; OID must be "' + ed25519Oid + '".');
       }
       var privateKey = capture.privateKey;
       var privateKeyBytes = messageToNativeBuffer({
-        message: forge2.asn1.fromDer(privateKey).value,
+        message: forge3.asn1.fromDer(privateKey).value,
         encoding: "binary"
       });
       return { privateKeyBytes };
@@ -14456,14 +14456,14 @@ var require_ed25519 = __commonJS({
     ed25519.publicKeyFromAsn1 = function(obj) {
       var capture = {};
       var errors = [];
-      var valid = forge2.asn1.validate(obj, publicKeyValidator, capture, errors);
+      var valid = forge3.asn1.validate(obj, publicKeyValidator, capture, errors);
       if (!valid) {
         var error = new Error("Invalid Key.");
         error.errors = errors;
         throw error;
       }
-      var oid = forge2.asn1.derToOid(capture.publicKeyOid);
-      var ed25519Oid = forge2.oids.EdDSA25519;
+      var oid = forge3.asn1.derToOid(capture.publicKeyOid);
+      var ed25519Oid = forge3.oids.EdDSA25519;
       if (oid !== ed25519Oid) {
         throw new Error('Invalid OID "' + oid + '"; OID must be "' + ed25519Oid + '".');
       }
@@ -14701,7 +14701,7 @@ var require_ed25519 = __commonJS({
       11139
     ]);
     function sha512(msg, msgLen) {
-      var md = forge2.md.sha512.create();
+      var md = forge3.md.sha512.create();
       var buffer = new ByteBuffer(msg);
       md.update(buffer.getBytes(msgLen), "binary");
       var hash = md.digest().getBytes();
@@ -15468,27 +15468,27 @@ var require_ed25519 = __commonJS({
 // node_modules/node-forge/lib/kem.js
 var require_kem = __commonJS({
   "node_modules/node-forge/lib/kem.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
     require_random();
     require_jsbn();
-    module2.exports = forge2.kem = forge2.kem || {};
-    var BigInteger = forge2.jsbn.BigInteger;
-    forge2.kem.rsa = {};
-    forge2.kem.rsa.create = function(kdf, options) {
+    module2.exports = forge3.kem = forge3.kem || {};
+    var BigInteger = forge3.jsbn.BigInteger;
+    forge3.kem.rsa = {};
+    forge3.kem.rsa.create = function(kdf, options) {
       options = options || {};
-      var prng = options.prng || forge2.random;
+      var prng = options.prng || forge3.random;
       var kem = {};
       kem.encrypt = function(publicKey, keyLength) {
         var byteLength = Math.ceil(publicKey.n.bitLength() / 8);
         var r;
         do {
-          r = new BigInteger(forge2.util.bytesToHex(prng.getBytesSync(byteLength)), 16).mod(publicKey.n);
+          r = new BigInteger(forge3.util.bytesToHex(prng.getBytesSync(byteLength)), 16).mod(publicKey.n);
         } while (r.compareTo(BigInteger.ONE) <= 0);
-        r = forge2.util.hexToBytes(r.toString(16));
+        r = forge3.util.hexToBytes(r.toString(16));
         var zeros = byteLength - r.length;
         if (zeros > 0) {
-          r = forge2.util.fillString(String.fromCharCode(0), zeros) + r;
+          r = forge3.util.fillString(String.fromCharCode(0), zeros) + r;
         }
         var encapsulation = publicKey.encrypt(r, "NONE");
         var key = kdf.generate(r, keyLength);
@@ -15500,17 +15500,17 @@ var require_kem = __commonJS({
       };
       return kem;
     };
-    forge2.kem.kdf1 = function(md, digestLength) {
+    forge3.kem.kdf1 = function(md, digestLength) {
       _createKDF(this, md, 0, digestLength || md.digestLength);
     };
-    forge2.kem.kdf2 = function(md, digestLength) {
+    forge3.kem.kdf2 = function(md, digestLength) {
       _createKDF(this, md, 1, digestLength || md.digestLength);
     };
     function _createKDF(kdf, md, counterStart, digestLength) {
       kdf.generate = function(x, length) {
-        var key = new forge2.util.ByteBuffer();
+        var key = new forge3.util.ByteBuffer();
         var k = Math.ceil(length / digestLength) + counterStart;
-        var c = new forge2.util.ByteBuffer();
+        var c = new forge3.util.ByteBuffer();
         for (var i = counterStart; i < k; ++i) {
           c.putInt32(i);
           md.start();
@@ -15528,10 +15528,10 @@ var require_kem = __commonJS({
 // node_modules/node-forge/lib/log.js
 var require_log = __commonJS({
   "node_modules/node-forge/lib/log.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_util();
-    module2.exports = forge2.log = forge2.log || {};
-    forge2.log.levels = [
+    module2.exports = forge3.log = forge3.log || {};
+    forge3.log.levels = [
       "none",
       "error",
       "warning",
@@ -15543,11 +15543,11 @@ var require_log = __commonJS({
     var sLevelInfo = {};
     var sLoggers = [];
     var sConsoleLogger = null;
-    forge2.log.LEVEL_LOCKED = 1 << 1;
-    forge2.log.NO_LEVEL_CHECK = 1 << 2;
-    forge2.log.INTERPOLATE = 1 << 3;
-    for (i = 0; i < forge2.log.levels.length; ++i) {
-      level = forge2.log.levels[i];
+    forge3.log.LEVEL_LOCKED = 1 << 1;
+    forge3.log.NO_LEVEL_CHECK = 1 << 2;
+    forge3.log.INTERPOLATE = 1 << 3;
+    for (i = 0; i < forge3.log.levels.length; ++i) {
+      level = forge3.log.levels[i];
       sLevelInfo[level] = {
         index: i,
         name: level.toUpperCase()
@@ -15555,11 +15555,11 @@ var require_log = __commonJS({
     }
     var level;
     var i;
-    forge2.log.logMessage = function(message2) {
+    forge3.log.logMessage = function(message2) {
       var messageLevelIndex = sLevelInfo[message2.level].index;
       for (var i2 = 0; i2 < sLoggers.length; ++i2) {
         var logger2 = sLoggers[i2];
-        if (logger2.flags & forge2.log.NO_LEVEL_CHECK) {
+        if (logger2.flags & forge3.log.NO_LEVEL_CHECK) {
           logger2.f(message2);
         } else {
           var loggerLevelIndex = sLevelInfo[logger2.level].index;
@@ -15569,21 +15569,21 @@ var require_log = __commonJS({
         }
       }
     };
-    forge2.log.prepareStandard = function(message2) {
+    forge3.log.prepareStandard = function(message2) {
       if (!("standard" in message2)) {
         message2.standard = sLevelInfo[message2.level].name + " [" + message2.category + "] " + message2.message;
       }
     };
-    forge2.log.prepareFull = function(message2) {
+    forge3.log.prepareFull = function(message2) {
       if (!("full" in message2)) {
         var args2 = [message2.message];
         args2 = args2.concat([]);
-        message2.full = forge2.util.format.apply(this, args2);
+        message2.full = forge3.util.format.apply(this, args2);
       }
     };
-    forge2.log.prepareStandardFull = function(message2) {
+    forge3.log.prepareStandardFull = function(message2) {
       if (!("standardFull" in message2)) {
-        forge2.log.prepareStandard(message2);
+        forge3.log.prepareStandard(message2);
         message2.standardFull = message2.standard;
       }
     };
@@ -15591,7 +15591,7 @@ var require_log = __commonJS({
       levels = ["error", "warning", "info", "debug", "verbose"];
       for (i = 0; i < levels.length; ++i) {
         (function(level2) {
-          forge2.log[level2] = function(category, message2) {
+          forge3.log[level2] = function(category, message2) {
             var args2 = Array.prototype.slice.call(arguments).slice(2);
             var msg = {
               timestamp: new Date(),
@@ -15600,26 +15600,26 @@ var require_log = __commonJS({
               message: message2,
               "arguments": args2
             };
-            forge2.log.logMessage(msg);
+            forge3.log.logMessage(msg);
           };
         })(levels[i]);
       }
     }
     var levels;
     var i;
-    forge2.log.makeLogger = function(logFunction) {
+    forge3.log.makeLogger = function(logFunction) {
       var logger2 = {
         flags: 0,
         f: logFunction
       };
-      forge2.log.setLevel(logger2, "none");
+      forge3.log.setLevel(logger2, "none");
       return logger2;
     };
-    forge2.log.setLevel = function(logger2, level2) {
+    forge3.log.setLevel = function(logger2, level2) {
       var rval = false;
-      if (logger2 && !(logger2.flags & forge2.log.LEVEL_LOCKED)) {
-        for (var i2 = 0; i2 < forge2.log.levels.length; ++i2) {
-          var aValidLevel = forge2.log.levels[i2];
+      if (logger2 && !(logger2.flags & forge3.log.LEVEL_LOCKED)) {
+        for (var i2 = 0; i2 < forge3.log.levels.length; ++i2) {
+          var aValidLevel = forge3.log.levels[i2];
           if (level2 == aValidLevel) {
             logger2.level = level2;
             rval = true;
@@ -15629,14 +15629,14 @@ var require_log = __commonJS({
       }
       return rval;
     };
-    forge2.log.lock = function(logger2, lock2) {
+    forge3.log.lock = function(logger2, lock2) {
       if (typeof lock2 === "undefined" || lock2) {
-        logger2.flags |= forge2.log.LEVEL_LOCKED;
+        logger2.flags |= forge3.log.LEVEL_LOCKED;
       } else {
-        logger2.flags &= ~forge2.log.LEVEL_LOCKED;
+        logger2.flags &= ~forge3.log.LEVEL_LOCKED;
       }
     };
-    forge2.log.addLogger = function(logger2) {
+    forge3.log.addLogger = function(logger2) {
       sLoggers.push(logger2);
     };
     if (typeof console !== "undefined" && "log" in console) {
@@ -15649,22 +15649,22 @@ var require_log = __commonJS({
           verbose: console.debug
         };
         f = function(logger2, message2) {
-          forge2.log.prepareStandard(message2);
+          forge3.log.prepareStandard(message2);
           var handler = levelHandlers[message2.level];
           var args2 = [message2.standard];
           args2 = args2.concat(message2["arguments"].slice());
           handler.apply(console, args2);
         };
-        logger = forge2.log.makeLogger(f);
+        logger = forge3.log.makeLogger(f);
       } else {
         f = function(logger2, message2) {
-          forge2.log.prepareStandardFull(message2);
+          forge3.log.prepareStandardFull(message2);
           console.log(message2.standardFull);
         };
-        logger = forge2.log.makeLogger(f);
+        logger = forge3.log.makeLogger(f);
       }
-      forge2.log.setLevel(logger, "debug");
-      forge2.log.addLogger(logger);
+      forge3.log.setLevel(logger, "debug");
+      forge3.log.addLogger(logger);
       sConsoleLogger = logger;
     } else {
       console = {
@@ -15678,18 +15678,18 @@ var require_log = __commonJS({
     if (sConsoleLogger !== null && typeof window !== "undefined" && window.location) {
       query = new URL(window.location.href).searchParams;
       if (query.has("console.level")) {
-        forge2.log.setLevel(sConsoleLogger, query.get("console.level").slice(-1)[0]);
+        forge3.log.setLevel(sConsoleLogger, query.get("console.level").slice(-1)[0]);
       }
       if (query.has("console.lock")) {
         lock = query.get("console.lock").slice(-1)[0];
         if (lock == "true") {
-          forge2.log.lock(sConsoleLogger);
+          forge3.log.lock(sConsoleLogger);
         }
       }
     }
     var query;
     var lock;
-    forge2.log.consoleLogger = sConsoleLogger;
+    forge3.log.consoleLogger = sConsoleLogger;
   }
 });
 
@@ -15707,7 +15707,7 @@ var require_md_all = __commonJS({
 // node_modules/node-forge/lib/pkcs7.js
 var require_pkcs7 = __commonJS({
   "node_modules/node-forge/lib/pkcs7.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_aes();
     require_asn1();
     require_des();
@@ -15717,10 +15717,10 @@ var require_pkcs7 = __commonJS({
     require_random();
     require_util();
     require_x509();
-    var asn1 = forge2.asn1;
-    var p7 = module2.exports = forge2.pkcs7 = forge2.pkcs7 || {};
+    var asn1 = forge3.asn1;
+    var p7 = module2.exports = forge3.pkcs7 = forge3.pkcs7 || {};
     p7.messageFromPem = function(pem) {
-      var msg = forge2.pem.decode(pem)[0];
+      var msg = forge3.pem.decode(pem)[0];
       if (msg.type !== "PKCS7") {
         var error = new Error('Could not convert PKCS#7 message from PEM; PEM header type is not "PKCS#7".');
         error.headerType = msg.type;
@@ -15737,7 +15737,7 @@ var require_pkcs7 = __commonJS({
         type: "PKCS7",
         body: asn1.toDer(msg.toAsn1()).getBytes()
       };
-      return forge2.pem.encode(pemObj, { maxline });
+      return forge3.pem.encode(pemObj, { maxline });
     };
     p7.messageFromAsn1 = function(obj) {
       var capture = {};
@@ -15750,13 +15750,13 @@ var require_pkcs7 = __commonJS({
       var contentType = asn1.derToOid(capture.contentType);
       var msg;
       switch (contentType) {
-        case forge2.pki.oids.envelopedData:
+        case forge3.pki.oids.envelopedData:
           msg = p7.createEnvelopedData();
           break;
-        case forge2.pki.oids.encryptedData:
+        case forge3.pki.oids.encryptedData:
           msg = p7.createEncryptedData();
           break;
-        case forge2.pki.oids.signedData:
+        case forge3.pki.oids.signedData:
           msg = p7.createSignedData();
           break;
         default:
@@ -15768,7 +15768,7 @@ var require_pkcs7 = __commonJS({
     p7.createSignedData = function() {
       var msg = null;
       msg = {
-        type: forge2.pki.oids.signedData,
+        type: forge3.pki.oids.signedData,
         version: 1,
         certificates: [],
         crls: [],
@@ -15786,7 +15786,7 @@ var require_pkcs7 = __commonJS({
           if (msg.rawCapture.certificates) {
             var certs = msg.rawCapture.certificates.value;
             for (var i = 0; i < certs.length; ++i) {
-              msg.certificates.push(forge2.pki.certificateFromAsn1(certs[i]));
+              msg.certificates.push(forge3.pki.certificateFromAsn1(certs[i]));
             }
           }
         },
@@ -15796,7 +15796,7 @@ var require_pkcs7 = __commonJS({
           }
           var certs = [];
           for (var i = 0; i < msg.certificates.length; ++i) {
-            certs.push(forge2.pki.certificateToAsn1(msg.certificates[i]));
+            certs.push(forge3.pki.certificateToAsn1(msg.certificates[i]));
           }
           var crls = [];
           var signedData = asn1.create(asn1.Class.CONTEXT_SPECIFIC, 0, true, [
@@ -15824,7 +15824,7 @@ var require_pkcs7 = __commonJS({
           if (signer.certificate) {
             var cert = signer.certificate;
             if (typeof cert === "string") {
-              cert = forge2.pki.certificateFromPem(cert);
+              cert = forge3.pki.certificateFromPem(cert);
             }
             issuer = cert.issuer.attributes;
             serialNumber = cert.serialNumber;
@@ -15834,15 +15834,15 @@ var require_pkcs7 = __commonJS({
             throw new Error("Could not add PKCS#7 signer; no private key specified.");
           }
           if (typeof key === "string") {
-            key = forge2.pki.privateKeyFromPem(key);
+            key = forge3.pki.privateKeyFromPem(key);
           }
-          var digestAlgorithm = signer.digestAlgorithm || forge2.pki.oids.sha1;
+          var digestAlgorithm = signer.digestAlgorithm || forge3.pki.oids.sha1;
           switch (digestAlgorithm) {
-            case forge2.pki.oids.sha1:
-            case forge2.pki.oids.sha256:
-            case forge2.pki.oids.sha384:
-            case forge2.pki.oids.sha512:
-            case forge2.pki.oids.md5:
+            case forge3.pki.oids.sha1:
+            case forge3.pki.oids.sha256:
+            case forge3.pki.oids.sha384:
+            case forge3.pki.oids.sha512:
+            case forge3.pki.oids.md5:
               break;
             default:
               throw new Error("Could not add PKCS#7 signer; unknown message digest algorithm: " + digestAlgorithm);
@@ -15853,14 +15853,14 @@ var require_pkcs7 = __commonJS({
             var messageDigest = false;
             for (var i = 0; i < authenticatedAttributes.length; ++i) {
               var attr = authenticatedAttributes[i];
-              if (!contentType && attr.type === forge2.pki.oids.contentType) {
+              if (!contentType && attr.type === forge3.pki.oids.contentType) {
                 contentType = true;
                 if (messageDigest) {
                   break;
                 }
                 continue;
               }
-              if (!messageDigest && attr.type === forge2.pki.oids.messageDigest) {
+              if (!messageDigest && attr.type === forge3.pki.oids.messageDigest) {
                 messageDigest = true;
                 if (contentType) {
                   break;
@@ -15878,7 +15878,7 @@ var require_pkcs7 = __commonJS({
             issuer,
             serialNumber,
             digestAlgorithm,
-            signatureAlgorithm: forge2.pki.oids.rsaEncryption,
+            signatureAlgorithm: forge3.pki.oids.rsaEncryption,
             signature: null,
             authenticatedAttributes,
             unauthenticatedAttributes: []
@@ -15888,14 +15888,14 @@ var require_pkcs7 = __commonJS({
           options = options || {};
           if (typeof msg.content !== "object" || msg.contentInfo === null) {
             msg.contentInfo = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
-              asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(forge2.pki.oids.data).getBytes())
+              asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(forge3.pki.oids.data).getBytes())
             ]);
             if ("content" in msg) {
               var content;
-              if (msg.content instanceof forge2.util.ByteBuffer) {
+              if (msg.content instanceof forge3.util.ByteBuffer) {
                 content = msg.content.bytes();
               } else if (typeof msg.content === "string") {
-                content = forge2.util.encodeUtf8(msg.content);
+                content = forge3.util.encodeUtf8(msg.content);
               }
               if (options.detached) {
                 msg.detachedContent = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OCTETSTRING, false, content);
@@ -15917,7 +15917,7 @@ var require_pkcs7 = __commonJS({
         },
         addCertificate: function(cert) {
           if (typeof cert === "string") {
-            cert = forge2.pki.certificateFromPem(cert);
+            cert = forge3.pki.certificateFromPem(cert);
           }
           msg.certificates.push(cert);
         },
@@ -15932,12 +15932,12 @@ var require_pkcs7 = __commonJS({
           var signer = msg.signers[i];
           var oid = signer.digestAlgorithm;
           if (!(oid in mds)) {
-            mds[oid] = forge2.md[forge2.pki.oids[oid]].create();
+            mds[oid] = forge3.md[forge3.pki.oids[oid]].create();
           }
           if (signer.authenticatedAttributes.length === 0) {
             signer.md = mds[oid];
           } else {
-            signer.md = forge2.md[forge2.pki.oids[oid]].create();
+            signer.md = forge3.md[forge3.pki.oids[oid]].create();
           }
         }
         msg.digestAlgorithmIdentifiers = [];
@@ -15972,7 +15972,7 @@ var require_pkcs7 = __commonJS({
         for (var i = 0; i < msg.signers.length; ++i) {
           var signer = msg.signers[i];
           if (signer.authenticatedAttributes.length === 0) {
-            if (contentType !== forge2.pki.oids.data) {
+            if (contentType !== forge3.pki.oids.data) {
               throw new Error("Invalid signer; authenticatedAttributes must be present when the ContentInfo content type is not PKCS#7 Data.");
             }
           } else {
@@ -15980,9 +15980,9 @@ var require_pkcs7 = __commonJS({
             var attrsAsn1 = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SET, true, []);
             for (var ai = 0; ai < signer.authenticatedAttributes.length; ++ai) {
               var attr = signer.authenticatedAttributes[ai];
-              if (attr.type === forge2.pki.oids.messageDigest) {
+              if (attr.type === forge3.pki.oids.messageDigest) {
                 attr.value = mds[signer.digestAlgorithm].digest();
-              } else if (attr.type === forge2.pki.oids.signingTime) {
+              } else if (attr.type === forge3.pki.oids.signingTime) {
                 if (!attr.value) {
                   attr.value = signingTime;
                 }
@@ -16001,10 +16001,10 @@ var require_pkcs7 = __commonJS({
     p7.createEncryptedData = function() {
       var msg = null;
       msg = {
-        type: forge2.pki.oids.encryptedData,
+        type: forge3.pki.oids.encryptedData,
         version: 0,
         encryptedContent: {
-          algorithm: forge2.pki.oids["aes256-CBC"]
+          algorithm: forge3.pki.oids["aes256-CBC"]
         },
         fromAsn1: function(obj) {
           _fromAsn1(msg, obj, p7.asn1.encryptedDataValidator);
@@ -16021,11 +16021,11 @@ var require_pkcs7 = __commonJS({
     p7.createEnvelopedData = function() {
       var msg = null;
       msg = {
-        type: forge2.pki.oids.envelopedData,
+        type: forge3.pki.oids.envelopedData,
         version: 0,
         recipients: [],
         encryptedContent: {
-          algorithm: forge2.pki.oids["aes256-CBC"]
+          algorithm: forge3.pki.oids["aes256-CBC"]
         },
         fromAsn1: function(obj) {
           var capture = _fromAsn1(msg, obj, p7.asn1.envelopedDataValidator);
@@ -16070,10 +16070,10 @@ var require_pkcs7 = __commonJS({
         decrypt: function(recipient, privKey) {
           if (msg.encryptedContent.key === void 0 && recipient !== void 0 && privKey !== void 0) {
             switch (recipient.encryptedContent.algorithm) {
-              case forge2.pki.oids.rsaEncryption:
-              case forge2.pki.oids.desCBC:
+              case forge3.pki.oids.rsaEncryption:
+              case forge3.pki.oids.desCBC:
                 var key = privKey.decrypt(recipient.encryptedContent.content);
-                msg.encryptedContent.key = forge2.util.createBuffer(key);
+                msg.encryptedContent.key = forge3.util.createBuffer(key);
                 break;
               default:
                 throw new Error("Unsupported asymmetric cipher, OID " + recipient.encryptedContent.algorithm);
@@ -16087,7 +16087,7 @@ var require_pkcs7 = __commonJS({
             issuer: cert.issuer.attributes,
             serialNumber: cert.serialNumber,
             encryptedContent: {
-              algorithm: forge2.pki.oids.rsaEncryption,
+              algorithm: forge3.pki.oids.rsaEncryption,
               key: cert.publicKey
             }
           });
@@ -16098,37 +16098,37 @@ var require_pkcs7 = __commonJS({
             key = key || msg.encryptedContent.key;
             var keyLen, ivLen, ciphFn;
             switch (cipher) {
-              case forge2.pki.oids["aes128-CBC"]:
+              case forge3.pki.oids["aes128-CBC"]:
                 keyLen = 16;
                 ivLen = 16;
-                ciphFn = forge2.aes.createEncryptionCipher;
+                ciphFn = forge3.aes.createEncryptionCipher;
                 break;
-              case forge2.pki.oids["aes192-CBC"]:
+              case forge3.pki.oids["aes192-CBC"]:
                 keyLen = 24;
                 ivLen = 16;
-                ciphFn = forge2.aes.createEncryptionCipher;
+                ciphFn = forge3.aes.createEncryptionCipher;
                 break;
-              case forge2.pki.oids["aes256-CBC"]:
+              case forge3.pki.oids["aes256-CBC"]:
                 keyLen = 32;
                 ivLen = 16;
-                ciphFn = forge2.aes.createEncryptionCipher;
+                ciphFn = forge3.aes.createEncryptionCipher;
                 break;
-              case forge2.pki.oids["des-EDE3-CBC"]:
+              case forge3.pki.oids["des-EDE3-CBC"]:
                 keyLen = 24;
                 ivLen = 8;
-                ciphFn = forge2.des.createEncryptionCipher;
+                ciphFn = forge3.des.createEncryptionCipher;
                 break;
               default:
                 throw new Error("Unsupported symmetric cipher, OID " + cipher);
             }
             if (key === void 0) {
-              key = forge2.util.createBuffer(forge2.random.getBytes(keyLen));
+              key = forge3.util.createBuffer(forge3.random.getBytes(keyLen));
             } else if (key.length() != keyLen) {
               throw new Error("Symmetric key has wrong length; got " + key.length() + " bytes, expected " + keyLen + ".");
             }
             msg.encryptedContent.algorithm = cipher;
             msg.encryptedContent.key = key;
-            msg.encryptedContent.parameter = forge2.util.createBuffer(forge2.random.getBytes(ivLen));
+            msg.encryptedContent.parameter = forge3.util.createBuffer(forge3.random.getBytes(ivLen));
             var ciph = ciphFn(key);
             ciph.start(msg.encryptedContent.parameter.copy());
             ciph.update(msg.content);
@@ -16143,7 +16143,7 @@ var require_pkcs7 = __commonJS({
               continue;
             }
             switch (recipient.encryptedContent.algorithm) {
-              case forge2.pki.oids.rsaEncryption:
+              case forge3.pki.oids.rsaEncryption:
                 recipient.encryptedContent.content = recipient.encryptedContent.key.encrypt(msg.encryptedContent.key.data);
                 break;
               default:
@@ -16164,8 +16164,8 @@ var require_pkcs7 = __commonJS({
       }
       return {
         version: capture.version.charCodeAt(0),
-        issuer: forge2.pki.RDNAttributesAsArray(capture.issuer),
-        serialNumber: forge2.util.createBuffer(capture.serial).toHex(),
+        issuer: forge3.pki.RDNAttributesAsArray(capture.issuer),
+        serialNumber: forge3.util.createBuffer(capture.serial).toHex(),
         encryptedContent: {
           algorithm: asn1.derToOid(capture.encAlgorithm),
           parameter: capture.encParameter ? capture.encParameter.value : void 0,
@@ -16177,8 +16177,8 @@ var require_pkcs7 = __commonJS({
       return asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, asn1.integerToDer(obj.version).getBytes()),
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
-          forge2.pki.distinguishedNameToAsn1({ attributes: obj.issuer }),
-          asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge2.util.hexToBytes(obj.serialNumber))
+          forge3.pki.distinguishedNameToAsn1({ attributes: obj.issuer }),
+          asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge3.util.hexToBytes(obj.serialNumber))
         ]),
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
           asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(obj.encryptedContent.algorithm).getBytes()),
@@ -16205,8 +16205,8 @@ var require_pkcs7 = __commonJS({
       var rval = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, asn1.integerToDer(obj.version).getBytes()),
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
-          forge2.pki.distinguishedNameToAsn1({ attributes: obj.issuer }),
-          asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge2.util.hexToBytes(obj.serialNumber))
+          forge3.pki.distinguishedNameToAsn1({ attributes: obj.issuer }),
+          asn1.create(asn1.Class.UNIVERSAL, asn1.Type.INTEGER, false, forge3.util.hexToBytes(obj.serialNumber))
         ]),
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
           asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(obj.digestAlgorithm).getBytes()),
@@ -16240,11 +16240,11 @@ var require_pkcs7 = __commonJS({
     }
     function _attributeToAsn1(attr) {
       var value;
-      if (attr.type === forge2.pki.oids.contentType) {
+      if (attr.type === forge3.pki.oids.contentType) {
         value = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(attr.value).getBytes());
-      } else if (attr.type === forge2.pki.oids.messageDigest) {
+      } else if (attr.type === forge3.pki.oids.messageDigest) {
         value = asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OCTETSTRING, false, attr.value.bytes());
-      } else if (attr.type === forge2.pki.oids.signingTime) {
+      } else if (attr.type === forge3.pki.oids.signingTime) {
         var jan_1_1950 = new Date("1950-01-01T00:00:00Z");
         var jan_1_2050 = new Date("2050-01-01T00:00:00Z");
         var date = attr.value;
@@ -16273,7 +16273,7 @@ var require_pkcs7 = __commonJS({
     }
     function _encryptedContentToAsn1(ec) {
       return [
-        asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(forge2.pki.oids.data).getBytes()),
+        asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(forge3.pki.oids.data).getBytes()),
         asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
           asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OID, false, asn1.oidToDer(ec.algorithm).getBytes()),
           !ec.parameter ? void 0 : asn1.create(asn1.Class.UNIVERSAL, asn1.Type.OCTETSTRING, false, ec.parameter.getBytes())
@@ -16292,12 +16292,12 @@ var require_pkcs7 = __commonJS({
         throw error;
       }
       var contentType = asn1.derToOid(capture.contentType);
-      if (contentType !== forge2.pki.oids.data) {
+      if (contentType !== forge3.pki.oids.data) {
         throw new Error("Unsupported PKCS#7 message. Only wrapped ContentType Data supported.");
       }
       if (capture.encryptedContent) {
         var content = "";
-        if (forge2.util.isArray(capture.encryptedContent)) {
+        if (forge3.util.isArray(capture.encryptedContent)) {
           for (var i = 0; i < capture.encryptedContent.length; ++i) {
             if (capture.encryptedContent[i].type !== asn1.Type.OCTETSTRING) {
               throw new Error("Malformed PKCS#7 message, expecting encrypted content constructed of only OCTET STRING objects.");
@@ -16309,13 +16309,13 @@ var require_pkcs7 = __commonJS({
         }
         msg.encryptedContent = {
           algorithm: asn1.derToOid(capture.encAlgorithm),
-          parameter: forge2.util.createBuffer(capture.encParameter.value),
-          content: forge2.util.createBuffer(content)
+          parameter: forge3.util.createBuffer(capture.encParameter.value),
+          content: forge3.util.createBuffer(content)
         };
       }
       if (capture.content) {
         var content = "";
-        if (forge2.util.isArray(capture.content)) {
+        if (forge3.util.isArray(capture.content)) {
           for (var i = 0; i < capture.content.length; ++i) {
             if (capture.content[i].type !== asn1.Type.OCTETSTRING) {
               throw new Error("Malformed PKCS#7 message, expecting content constructed of only OCTET STRING objects.");
@@ -16325,7 +16325,7 @@ var require_pkcs7 = __commonJS({
         } else {
           content = capture.content;
         }
-        msg.content = forge2.util.createBuffer(content);
+        msg.content = forge3.util.createBuffer(content);
       }
       msg.version = capture.version.charCodeAt(0);
       msg.rawCapture = capture;
@@ -16338,14 +16338,14 @@ var require_pkcs7 = __commonJS({
       if (msg.content === void 0) {
         var ciph;
         switch (msg.encryptedContent.algorithm) {
-          case forge2.pki.oids["aes128-CBC"]:
-          case forge2.pki.oids["aes192-CBC"]:
-          case forge2.pki.oids["aes256-CBC"]:
-            ciph = forge2.aes.createDecryptionCipher(msg.encryptedContent.key);
+          case forge3.pki.oids["aes128-CBC"]:
+          case forge3.pki.oids["aes192-CBC"]:
+          case forge3.pki.oids["aes256-CBC"]:
+            ciph = forge3.aes.createDecryptionCipher(msg.encryptedContent.key);
             break;
-          case forge2.pki.oids["desCBC"]:
-          case forge2.pki.oids["des-EDE3-CBC"]:
-            ciph = forge2.des.createDecryptionCipher(msg.encryptedContent.key);
+          case forge3.pki.oids["desCBC"]:
+          case forge3.pki.oids["des-EDE3-CBC"]:
+            ciph = forge3.des.createDecryptionCipher(msg.encryptedContent.key);
             break;
           default:
             throw new Error("Unsupported symmetric cipher, OID " + msg.encryptedContent.algorithm);
@@ -16364,13 +16364,13 @@ var require_pkcs7 = __commonJS({
 // node_modules/node-forge/lib/ssh.js
 var require_ssh = __commonJS({
   "node_modules/node-forge/lib/ssh.js"(exports2, module2) {
-    var forge2 = require_forge();
+    var forge3 = require_forge();
     require_aes();
     require_hmac();
     require_md5();
     require_sha1();
     require_util();
-    var ssh = module2.exports = forge2.ssh = forge2.ssh || {};
+    var ssh = module2.exports = forge3.ssh = forge3.ssh || {};
     ssh.privateKeyToPutty = function(privateKey, passphrase, comment) {
       comment = comment || "";
       passphrase = passphrase || "";
@@ -16379,44 +16379,44 @@ var require_ssh = __commonJS({
       var ppk = "PuTTY-User-Key-File-2: " + algorithm + "\r\n";
       ppk += "Encryption: " + encryptionAlgorithm + "\r\n";
       ppk += "Comment: " + comment + "\r\n";
-      var pubbuffer = forge2.util.createBuffer();
+      var pubbuffer = forge3.util.createBuffer();
       _addStringToBuffer(pubbuffer, algorithm);
       _addBigIntegerToBuffer(pubbuffer, privateKey.e);
       _addBigIntegerToBuffer(pubbuffer, privateKey.n);
-      var pub = forge2.util.encode64(pubbuffer.bytes(), 64);
+      var pub = forge3.util.encode64(pubbuffer.bytes(), 64);
       var length = Math.floor(pub.length / 66) + 1;
       ppk += "Public-Lines: " + length + "\r\n";
       ppk += pub;
-      var privbuffer = forge2.util.createBuffer();
+      var privbuffer = forge3.util.createBuffer();
       _addBigIntegerToBuffer(privbuffer, privateKey.d);
       _addBigIntegerToBuffer(privbuffer, privateKey.p);
       _addBigIntegerToBuffer(privbuffer, privateKey.q);
       _addBigIntegerToBuffer(privbuffer, privateKey.qInv);
       var priv;
       if (!passphrase) {
-        priv = forge2.util.encode64(privbuffer.bytes(), 64);
+        priv = forge3.util.encode64(privbuffer.bytes(), 64);
       } else {
         var encLen = privbuffer.length() + 16 - 1;
         encLen -= encLen % 16;
         var padding = _sha1(privbuffer.bytes());
         padding.truncate(padding.length() - encLen + privbuffer.length());
         privbuffer.putBuffer(padding);
-        var aeskey = forge2.util.createBuffer();
+        var aeskey = forge3.util.createBuffer();
         aeskey.putBuffer(_sha1("\0\0\0\0", passphrase));
         aeskey.putBuffer(_sha1("\0\0\0", passphrase));
-        var cipher = forge2.aes.createEncryptionCipher(aeskey.truncate(8), "CBC");
-        cipher.start(forge2.util.createBuffer().fillWithByte(0, 16));
+        var cipher = forge3.aes.createEncryptionCipher(aeskey.truncate(8), "CBC");
+        cipher.start(forge3.util.createBuffer().fillWithByte(0, 16));
         cipher.update(privbuffer.copy());
         cipher.finish();
         var encrypted = cipher.output;
         encrypted.truncate(16);
-        priv = forge2.util.encode64(encrypted.bytes(), 64);
+        priv = forge3.util.encode64(encrypted.bytes(), 64);
       }
       length = Math.floor(priv.length / 66) + 1;
       ppk += "\r\nPrivate-Lines: " + length + "\r\n";
       ppk += priv;
       var mackey = _sha1("putty-private-key-file-mac-key", passphrase);
-      var macbuffer = forge2.util.createBuffer();
+      var macbuffer = forge3.util.createBuffer();
       _addStringToBuffer(macbuffer, algorithm);
       _addStringToBuffer(macbuffer, encryptionAlgorithm);
       _addStringToBuffer(macbuffer, comment);
@@ -16424,7 +16424,7 @@ var require_ssh = __commonJS({
       macbuffer.putBuffer(pubbuffer);
       macbuffer.putInt32(privbuffer.length());
       macbuffer.putBuffer(privbuffer);
-      var hmac = forge2.hmac.create();
+      var hmac = forge3.hmac.create();
       hmac.start("sha1", mackey);
       hmac.update(macbuffer.bytes());
       ppk += "\r\nPrivate-MAC: " + hmac.digest().toHex() + "\r\n";
@@ -16433,23 +16433,23 @@ var require_ssh = __commonJS({
     ssh.publicKeyToOpenSSH = function(key, comment) {
       var type = "ssh-rsa";
       comment = comment || "";
-      var buffer = forge2.util.createBuffer();
+      var buffer = forge3.util.createBuffer();
       _addStringToBuffer(buffer, type);
       _addBigIntegerToBuffer(buffer, key.e);
       _addBigIntegerToBuffer(buffer, key.n);
-      return type + " " + forge2.util.encode64(buffer.bytes()) + " " + comment;
+      return type + " " + forge3.util.encode64(buffer.bytes()) + " " + comment;
     };
     ssh.privateKeyToOpenSSH = function(privateKey, passphrase) {
       if (!passphrase) {
-        return forge2.pki.privateKeyToPem(privateKey);
+        return forge3.pki.privateKeyToPem(privateKey);
       }
-      return forge2.pki.encryptRsaPrivateKey(privateKey, passphrase, { legacy: true, algorithm: "aes128" });
+      return forge3.pki.encryptRsaPrivateKey(privateKey, passphrase, { legacy: true, algorithm: "aes128" });
     };
     ssh.getPublicKeyFingerprint = function(key, options) {
       options = options || {};
-      var md = options.md || forge2.md.md5.create();
+      var md = options.md || forge3.md.md5.create();
       var type = "ssh-rsa";
-      var buffer = forge2.util.createBuffer();
+      var buffer = forge3.util.createBuffer();
       _addStringToBuffer(buffer, type);
       _addBigIntegerToBuffer(buffer, key.e);
       _addBigIntegerToBuffer(buffer, key.n);
@@ -16474,7 +16474,7 @@ var require_ssh = __commonJS({
       if (hexVal[0] >= "8") {
         hexVal = "00" + hexVal;
       }
-      var bytes = forge2.util.hexToBytes(hexVal);
+      var bytes = forge3.util.hexToBytes(hexVal);
       buffer.putInt32(bytes.length);
       buffer.putBytes(bytes);
     }
@@ -16483,7 +16483,7 @@ var require_ssh = __commonJS({
       buffer.putString(val);
     }
     function _sha1() {
-      var sha = forge2.md.sha1.create();
+      var sha = forge3.md.sha1.create();
       var num = arguments.length;
       for (var i = 0; i < num; ++i) {
         sha.update(arguments[i]);
@@ -17609,7 +17609,7 @@ var require_lib2 = __commonJS({
     function mapMonths(f) {
       const ms = [];
       for (let i = 1; i <= 12; i++) {
-        const dt = DateTime.utc(2016, i, 1);
+        const dt = DateTime.utc(2009, i, 1);
         ms.push(f(dt));
       }
       return ms;
@@ -17622,8 +17622,8 @@ var require_lib2 = __commonJS({
       }
       return ms;
     }
-    function listStuff(loc, length, defaultOK, englishFn, intlFn) {
-      const mode = loc.listingMode(defaultOK);
+    function listStuff(loc, length, englishFn, intlFn) {
+      const mode = loc.listingMode();
       if (mode === "error") {
         return null;
       } else if (mode === "en") {
@@ -17664,8 +17664,11 @@ var require_lib2 = __commonJS({
     var PolyDateFormatter = class {
       constructor(dt, intl, opts) {
         this.opts = opts;
+        this.originalZone = void 0;
         let z = void 0;
-        if (dt.zone.isUniversal) {
+        if (this.opts.timeZone) {
+          this.dt = dt;
+        } else if (dt.zone.type === "fixed") {
           const gmtOffset = -1 * (dt.offset / 60);
           const offsetZ = gmtOffset >= 0 ? `Etc/GMT+${gmtOffset}` : `Etc/GMT${gmtOffset}`;
           if (dt.offset !== 0 && IANAZone.create(offsetZ).valid) {
@@ -17673,27 +17676,47 @@ var require_lib2 = __commonJS({
             this.dt = dt;
           } else {
             z = "UTC";
-            if (opts.timeZoneName) {
-              this.dt = dt;
-            } else {
-              this.dt = dt.offset === 0 ? dt : DateTime.fromMillis(dt.ts + dt.offset * 60 * 1e3);
-            }
+            this.dt = dt.offset === 0 ? dt : dt.setZone("UTC").plus({ minutes: dt.offset });
+            this.originalZone = dt.zone;
           }
         } else if (dt.zone.type === "system") {
           this.dt = dt;
-        } else {
+        } else if (dt.zone.type === "iana") {
           this.dt = dt;
           z = dt.zone.name;
+        } else {
+          z = "UTC";
+          this.dt = dt.setZone("UTC").plus({ minutes: dt.offset });
+          this.originalZone = dt.zone;
         }
         const intlOpts = __spreadValues({}, this.opts);
         intlOpts.timeZone = intlOpts.timeZone || z;
         this.dtf = getCachedDTF(intl, intlOpts);
       }
       format() {
+        if (this.originalZone) {
+          return this.formatToParts().map(({ value }) => value).join("");
+        }
         return this.dtf.format(this.dt.toJSDate());
       }
       formatToParts() {
-        return this.dtf.formatToParts(this.dt.toJSDate());
+        const parts = this.dtf.formatToParts(this.dt.toJSDate());
+        if (this.originalZone) {
+          return parts.map((part) => {
+            if (part.type === "timeZoneName") {
+              const offsetName = this.originalZone.offsetName(this.dt.ts, {
+                locale: this.dt.locale,
+                format: this.opts.timeZoneName
+              });
+              return __spreadProps(__spreadValues({}, part), {
+                value: offsetName
+              });
+            } else {
+              return part;
+            }
+          });
+        }
+        return parts;
       }
       resolvedOptions() {
         return this.dtf.resolvedOptions();
@@ -17778,8 +17801,8 @@ var require_lib2 = __commonJS({
       redefaultToSystem(alts = {}) {
         return this.clone(__spreadProps(__spreadValues({}, alts), { defaultToEN: false }));
       }
-      months(length, format = false, defaultOK = true) {
-        return listStuff(this, length, defaultOK, months, () => {
+      months(length, format = false) {
+        return listStuff(this, length, months, () => {
           const intl = format ? { month: length, day: "numeric" } : { month: length }, formatStr = format ? "format" : "standalone";
           if (!this.monthsCache[formatStr][length]) {
             this.monthsCache[formatStr][length] = mapMonths((dt) => this.extract(dt, intl, "month"));
@@ -17787,8 +17810,8 @@ var require_lib2 = __commonJS({
           return this.monthsCache[formatStr][length];
         });
       }
-      weekdays(length, format = false, defaultOK = true) {
-        return listStuff(this, length, defaultOK, weekdays, () => {
+      weekdays(length, format = false) {
+        return listStuff(this, length, weekdays, () => {
           const intl = format ? { weekday: length, year: "numeric", month: "long", day: "numeric" } : { weekday: length }, formatStr = format ? "format" : "standalone";
           if (!this.weekdaysCache[formatStr][length]) {
             this.weekdaysCache[formatStr][length] = mapWeekdays((dt) => this.extract(dt, intl, "weekday"));
@@ -17796,8 +17819,8 @@ var require_lib2 = __commonJS({
           return this.weekdaysCache[formatStr][length];
         });
       }
-      meridiems(defaultOK = true) {
-        return listStuff(this, void 0, defaultOK, () => meridiems, () => {
+      meridiems() {
+        return listStuff(this, void 0, () => meridiems, () => {
           if (!this.meridiemCache) {
             const intl = { hour: "numeric", hourCycle: "h12" };
             this.meridiemCache = [DateTime.utc(2016, 11, 13, 9), DateTime.utc(2016, 11, 13, 19)].map((dt) => this.extract(dt, intl, "dayperiod"));
@@ -17805,8 +17828,8 @@ var require_lib2 = __commonJS({
           return this.meridiemCache;
         });
       }
-      eras(length, defaultOK = true) {
-        return listStuff(this, length, defaultOK, eras, () => {
+      eras(length) {
+        return listStuff(this, length, eras, () => {
           const intl = { era: length };
           if (!this.eraCache[length]) {
             this.eraCache[length] = [DateTime.utc(-40, 1, 1), DateTime.utc(2017, 1, 1)].map((dt) => this.extract(dt, intl, "era"));
@@ -17940,7 +17963,7 @@ var require_lib2 = __commonJS({
           return FixedOffsetZone.parseSpecifier(lowered) || IANAZone.create(input);
       } else if (isNumber(input)) {
         return FixedOffsetZone.instance(input);
-      } else if (typeof input === "object" && input.offset && typeof input.offset === "number") {
+      } else if (typeof input === "object" && "offset" in input && typeof input.offset === "function") {
         return input;
       } else {
         return new InvalidZone(input);
@@ -18110,7 +18133,7 @@ var require_lib2 = __commonJS({
       let d = Date.UTC(obj.year, obj.month - 1, obj.day, obj.hour, obj.minute, obj.second, obj.millisecond);
       if (obj.year < 100 && obj.year >= 0) {
         d = new Date(d);
-        d.setUTCFullYear(d.getUTCFullYear() - 1900);
+        d.setUTCFullYear(obj.year, obj.month - 1, obj.day);
       }
       return +d;
     }
@@ -18350,7 +18373,7 @@ var require_lib2 = __commonJS({
           const c = fmt.charAt(i);
           if (c === "'") {
             if (currentFull.length > 0) {
-              splits.push({ literal: bracketed, val: currentFull });
+              splits.push({ literal: bracketed || /^\s+$/.test(currentFull), val: currentFull });
             }
             current = null;
             currentFull = "";
@@ -18361,14 +18384,14 @@ var require_lib2 = __commonJS({
             currentFull += c;
           } else {
             if (currentFull.length > 0) {
-              splits.push({ literal: false, val: currentFull });
+              splits.push({ literal: /^\s+$/.test(currentFull), val: currentFull });
             }
             currentFull = c;
             current = c;
           }
         }
         if (currentFull.length > 0) {
-          splits.push({ literal: bracketed, val: currentFull });
+          splits.push({ literal: bracketed || /^\s+$/.test(currentFull), val: currentFull });
         }
         return splits;
       }
@@ -18387,21 +18410,21 @@ var require_lib2 = __commonJS({
         const df = this.systemLoc.dtFormatter(dt, __spreadValues(__spreadValues({}, this.opts), opts));
         return df.format();
       }
-      formatDateTime(dt, opts = {}) {
-        const df = this.loc.dtFormatter(dt, __spreadValues(__spreadValues({}, this.opts), opts));
-        return df.format();
+      dtFormatter(dt, opts = {}) {
+        return this.loc.dtFormatter(dt, __spreadValues(__spreadValues({}, this.opts), opts));
       }
-      formatDateTimeParts(dt, opts = {}) {
-        const df = this.loc.dtFormatter(dt, __spreadValues(__spreadValues({}, this.opts), opts));
-        return df.formatToParts();
+      formatDateTime(dt, opts) {
+        return this.dtFormatter(dt, opts).format();
       }
-      formatInterval(interval, opts = {}) {
-        const df = this.loc.dtFormatter(interval.start, __spreadValues(__spreadValues({}, this.opts), opts));
+      formatDateTimeParts(dt, opts) {
+        return this.dtFormatter(dt, opts).formatToParts();
+      }
+      formatInterval(interval, opts) {
+        const df = this.dtFormatter(interval.start, opts);
         return df.dtf.formatRange(interval.start.toJSDate(), interval.end.toJSDate());
       }
-      resolvedOptions(dt, opts = {}) {
-        const df = this.loc.dtFormatter(dt, __spreadValues(__spreadValues({}, this.opts), opts));
-        return df.resolvedOptions();
+      resolvedOptions(dt, opts) {
+        return this.dtFormatter(dt, opts).resolvedOptions();
       }
       num(n2, p = 0) {
         if (this.opts.forceSimple) {
@@ -18884,19 +18907,38 @@ var require_lib2 = __commonJS({
       };
       return new Duration(conf);
     }
-    function antiTrunc(n2) {
-      return n2 < 0 ? Math.floor(n2) : Math.ceil(n2);
-    }
-    function convert(matrix, fromMap, fromUnit, toMap, toUnit) {
-      const conv = matrix[toUnit][fromUnit], raw = fromMap[fromUnit] / conv, sameSign = Math.sign(raw) === Math.sign(toMap[toUnit]), added = !sameSign && toMap[toUnit] !== 0 && Math.abs(raw) <= 1 ? antiTrunc(raw) : Math.trunc(raw);
-      toMap[toUnit] += added;
-      fromMap[fromUnit] -= added * conv;
+    function durationToMillis(matrix, vals) {
+      var _a;
+      let sum = (_a = vals.milliseconds) != null ? _a : 0;
+      for (const unit of reverseUnits.slice(1)) {
+        if (vals[unit]) {
+          sum += vals[unit] * matrix[unit]["milliseconds"];
+        }
+      }
+      return sum;
     }
     function normalizeValues(matrix, vals) {
-      reverseUnits.reduce((previous, current) => {
+      const factor = durationToMillis(matrix, vals) < 0 ? -1 : 1;
+      orderedUnits$1.reduceRight((previous, current) => {
         if (!isUndefined(vals[current])) {
           if (previous) {
-            convert(matrix, vals, previous, vals, current);
+            const previousVal = vals[previous] * factor;
+            const conv = matrix[current][previous];
+            const rollUp = Math.floor(previousVal / conv);
+            vals[current] += rollUp * factor;
+            vals[previous] -= rollUp * conv * factor;
+          }
+          return current;
+        } else {
+          return previous;
+        }
+      }, null);
+      orderedUnits$1.reduce((previous, current) => {
+        if (!isUndefined(vals[current])) {
+          if (previous) {
+            const fraction = vals[previous] % 1;
+            vals[previous] -= fraction;
+            vals[current] += fraction * matrix[previous][current];
           }
           return current;
         } else {
@@ -19020,6 +19062,8 @@ var require_lib2 = __commonJS({
         return this.isValid ? Formatter.create(this.loc, fmtOpts).formatDurationFromString(this, fmt) : INVALID$2;
       }
       toHuman(opts = {}) {
+        if (!this.isValid)
+          return INVALID$2;
         const l2 = orderedUnits$1.map((unit) => {
           const val = this.values[unit];
           if (isUndefined(val)) {
@@ -19064,25 +19108,16 @@ var require_lib2 = __commonJS({
         const millis = this.toMillis();
         if (millis < 0 || millis >= 864e5)
           return null;
-        opts = __spreadValues({
+        opts = __spreadProps(__spreadValues({
           suppressMilliseconds: false,
           suppressSeconds: false,
           includePrefix: false,
           format: "extended"
-        }, opts);
-        const value = this.shiftTo("hours", "minutes", "seconds", "milliseconds");
-        let fmt = opts.format === "basic" ? "hhmm" : "hh:mm";
-        if (!opts.suppressSeconds || value.seconds !== 0 || value.milliseconds !== 0) {
-          fmt += opts.format === "basic" ? "ss" : ":ss";
-          if (!opts.suppressMilliseconds || value.milliseconds !== 0) {
-            fmt += ".SSS";
-          }
-        }
-        let str = value.toFormat(fmt);
-        if (opts.includePrefix) {
-          str = "T" + str;
-        }
-        return str;
+        }, opts), {
+          includeOffset: false
+        });
+        const dateTime = DateTime.fromMillis(millis, { zone: "UTC" });
+        return dateTime.toISOTime(opts);
       }
       toJSON() {
         return this.toISO();
@@ -19091,7 +19126,9 @@ var require_lib2 = __commonJS({
         return this.toISO();
       }
       toMillis() {
-        return this.as("milliseconds");
+        if (!this.isValid)
+          return NaN;
+        return durationToMillis(this.matrix, this.values);
       }
       valueOf() {
         return this.toMillis();
@@ -19175,11 +19212,6 @@ var require_lib2 = __commonJS({
             const i = Math.trunc(own);
             built[k] = i;
             accumulated[k] = (own * 1e3 - i * 1e3) / 1e3;
-            for (const down in vals) {
-              if (orderedUnits$1.indexOf(down) > orderedUnits$1.indexOf(k)) {
-                convert(this.matrix, vals, down, built, k);
-              }
-            }
           } else if (isNumber(vals[k])) {
             accumulated[k] = vals[k];
           }
@@ -19189,7 +19221,8 @@ var require_lib2 = __commonJS({
             built[lastUnit] += key === lastUnit ? accumulated[key] : accumulated[key] / this.matrix[lastUnit][key];
           }
         }
-        return clone$1(this, { values: built }, true).normalize();
+        normalizeValues(this.matrix, built);
+        return clone$1(this, { values: built }, true);
       }
       shiftToAll() {
         if (!this.isValid)
@@ -19370,7 +19403,7 @@ var require_lib2 = __commonJS({
         if (!this.isValid)
           return NaN;
         const start = this.start.startOf(unit), end = this.end.startOf(unit);
-        return Math.floor(end.diff(start, unit).get(unit)) + 1;
+        return Math.floor(end.diff(start, unit).get(unit)) + (end.valueOf() !== this.end.valueOf());
       }
       hasSame(unit) {
         return this.isValid ? this.isEmpty() || this.e.minus(1).hasSame(this.s, unit) : false;
@@ -19609,6 +19642,11 @@ var require_lib2 = __commonJS({
           if (highWater > later) {
             results[unit]--;
             cursor = earlier.plus(results);
+            if (cursor > later) {
+              highWater = cursor;
+              results[unit]--;
+              cursor = earlier.plus(results);
+            }
           } else {
             cursor = highWater;
           }
@@ -19744,9 +19782,9 @@ var require_lib2 = __commonJS({
         }
         switch (t.val) {
           case "G":
-            return oneOf(loc.eras("short", false), 0);
+            return oneOf(loc.eras("short"), 0);
           case "GG":
-            return oneOf(loc.eras("long", false), 0);
+            return oneOf(loc.eras("long"), 0);
           case "y":
             return intUnit(oneToSix);
           case "yy":
@@ -19762,17 +19800,17 @@ var require_lib2 = __commonJS({
           case "MM":
             return intUnit(two);
           case "MMM":
-            return oneOf(loc.months("short", true, false), 1);
+            return oneOf(loc.months("short", true), 1);
           case "MMMM":
-            return oneOf(loc.months("long", true, false), 1);
+            return oneOf(loc.months("long", true), 1);
           case "L":
             return intUnit(oneOrTwo);
           case "LL":
             return intUnit(two);
           case "LLL":
-            return oneOf(loc.months("short", false, false), 1);
+            return oneOf(loc.months("short", false), 1);
           case "LLLL":
-            return oneOf(loc.months("long", false, false), 1);
+            return oneOf(loc.months("long", false), 1);
           case "d":
             return intUnit(oneOrTwo);
           case "dd":
@@ -19825,13 +19863,13 @@ var require_lib2 = __commonJS({
           case "c":
             return intUnit(one);
           case "EEE":
-            return oneOf(loc.weekdays("short", false, false), 1);
+            return oneOf(loc.weekdays("short", false), 1);
           case "EEEE":
-            return oneOf(loc.weekdays("long", false, false), 1);
+            return oneOf(loc.weekdays("long", false), 1);
           case "ccc":
-            return oneOf(loc.weekdays("short", true, false), 1);
+            return oneOf(loc.weekdays("short", true), 1);
           case "cccc":
-            return oneOf(loc.weekdays("long", true, false), 1);
+            return oneOf(loc.weekdays("long", true), 1);
           case "Z":
           case "ZZ":
             return offset(new RegExp(`([+-]${oneOrTwo.source})(?::(${two.source}))?`), 2);
@@ -19839,6 +19877,8 @@ var require_lib2 = __commonJS({
             return offset(new RegExp(`([+-]${oneOrTwo.source})(${two.source})?`), 2);
           case "z":
             return simple(/[a-z_+-/]{1,256}?/i);
+          case " ":
+            return simple(/[^\S\n\r]/);
           default:
             return literal(t);
         }
@@ -19870,9 +19910,13 @@ var require_lib2 = __commonJS({
       },
       dayperiod: "a",
       dayPeriod: "a",
-      hour: {
+      hour12: {
         numeric: "h",
         "2-digit": "hh"
+      },
+      hour24: {
+        numeric: "H",
+        "2-digit": "HH"
       },
       minute: {
         numeric: "m",
@@ -19887,16 +19931,31 @@ var require_lib2 = __commonJS({
         short: "ZZZ"
       }
     };
-    function tokenForPart(part, formatOpts) {
+    function tokenForPart(part, formatOpts, resolvedOpts) {
       const { type, value } = part;
       if (type === "literal") {
+        const isSpace = /^\s+$/.test(value);
         return {
-          literal: true,
-          val: value
+          literal: !isSpace,
+          val: isSpace ? " " : value
         };
       }
       const style = formatOpts[type];
-      let val = partTypeStyleToTokenVal[type];
+      let actualType = type;
+      if (type === "hour") {
+        if (formatOpts.hour12 != null) {
+          actualType = formatOpts.hour12 ? "hour12" : "hour24";
+        } else if (formatOpts.hourCycle != null) {
+          if (formatOpts.hourCycle === "h11" || formatOpts.hourCycle === "h12") {
+            actualType = "hour12";
+          } else {
+            actualType = "hour24";
+          }
+        } else {
+          actualType = resolvedOpts.hour12 ? "hour12" : "hour24";
+        }
+      }
+      let val = partTypeStyleToTokenVal[actualType];
       if (typeof val === "object") {
         val = val[style];
       }
@@ -20043,8 +20102,10 @@ var require_lib2 = __commonJS({
         return null;
       }
       const formatter = Formatter.create(locale, formatOpts);
-      const parts = formatter.formatDateTimeParts(getDummyDateTime());
-      return parts.map((p) => tokenForPart(p, formatOpts));
+      const df = formatter.dtFormatter(getDummyDateTime());
+      const parts = df.formatToParts();
+      const resolvedOpts = df.resolvedOptions();
+      return parts.map((p) => tokenForPart(p, formatOpts, resolvedOpts));
     }
     var nonLeapLadder = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
     var leapLadder = [0, 31, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335];
@@ -20226,7 +20287,7 @@ var require_lib2 = __commonJS({
     }
     function parseDataToDateTime(parsed, parsedZone, opts, format, text, specificOffset) {
       const { setZone, zone } = opts;
-      if (parsed && Object.keys(parsed).length !== 0) {
+      if (parsed && Object.keys(parsed).length !== 0 || parsedZone) {
         const interpretationZone = parsedZone || zone, inst = DateTime.fromObject(parsed, __spreadProps(__spreadValues({}, opts), {
           zone: interpretationZone,
           specificOffset
@@ -20264,13 +20325,13 @@ var require_lib2 = __commonJS({
       if (extended) {
         c += ":";
         c += padStart(o.c.minute);
-        if (o.c.second !== 0 || !suppressSeconds) {
+        if (o.c.millisecond !== 0 || o.c.second !== 0 || !suppressSeconds) {
           c += ":";
         }
       } else {
         c += padStart(o.c.minute);
       }
-      if (o.c.second !== 0 || !suppressSeconds) {
+      if (o.c.millisecond !== 0 || o.c.second !== 0 || !suppressSeconds) {
         c += padStart(o.c.second);
         if (o.c.millisecond !== 0 || !suppressMilliseconds) {
           c += ".";
@@ -20712,6 +20773,29 @@ var require_lib2 = __commonJS({
           return this.offset > this.set({ month: 1, day: 1 }).offset || this.offset > this.set({ month: 5 }).offset;
         }
       }
+      getPossibleOffsets() {
+        if (!this.isValid || this.isOffsetFixed) {
+          return [this];
+        }
+        const dayMs = 864e5;
+        const minuteMs = 6e4;
+        const localTS = objToLocalTS(this.c);
+        const oEarlier = this.zone.offset(localTS - dayMs);
+        const oLater = this.zone.offset(localTS + dayMs);
+        const o1 = this.zone.offset(localTS - oEarlier * minuteMs);
+        const o2 = this.zone.offset(localTS - oLater * minuteMs);
+        if (o1 === o2) {
+          return [this];
+        }
+        const ts1 = localTS - o1 * minuteMs;
+        const ts2 = localTS - o2 * minuteMs;
+        const c1 = tsToObj(ts1, o1);
+        const c2 = tsToObj(ts2, o2);
+        if (c1.hour === c2.hour && c1.minute === c2.minute && c1.second === c2.second && c1.millisecond === c2.millisecond) {
+          return [clone(this, { ts: ts1 }), clone(this, { ts: ts2 })];
+        }
+        return [this];
+      }
       get isInLeapYear() {
         return isLeapYear(this.year);
       }
@@ -21119,6 +21203,7 @@ var require_lib2 = __commonJS({
       enableDataviewJs: false,
       enableInlineDataviewJs: false,
       prettyRenderInlineFields: true,
+      prettyRenderInlineFieldsInLivePreview: true,
       dataviewJsKeyword: "dataviewjs"
     });
     var Success = class {
@@ -21206,6 +21291,7 @@ var require_lib2 = __commonJS({
     })(Result || (Result = {}));
     var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
     var parsimmon_umd_min = { exports: {} };
+    parsimmon_umd_min.exports;
     (function(module3, exports3) {
       !function(n2, t) {
         module3.exports = t();
@@ -21828,9 +21914,10 @@ var require_lib2 = __commonJS({
           }) }, n2.exports = e;
         }]);
       });
-    })(parsimmon_umd_min);
+    })(parsimmon_umd_min, parsimmon_umd_min.exports);
+    var parsimmon_umd_minExports = parsimmon_umd_min.exports;
     var emojiRegex = () => {
-      return /(?:[#*0-9]\uFE0F?\u20E3|[\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u2328\u23CF\u23ED-\u23EF\u23F1\u23F2\u23F8-\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB\u25FC\u25FE\u2600-\u2604\u260E\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638-\u263A\u2640\u2642\u2648-\u2653\u265F\u2660\u2663\u2665\u2666\u2668\u267B\u267E\u267F\u2692\u2694-\u2697\u2699\u269B\u269C\u26A0\u26A7\u26AA\u26B0\u26B1\u26BD\u26BE\u26C4\u26C8\u26CF\u26D1\u26D3\u26E9\u26F0-\u26F5\u26F7\u26F8\u26FA\u2702\u2708\u2709\u270F\u2712\u2714\u2716\u271D\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u27A1\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B55\u3030\u303D\u3297\u3299]\uFE0F?|[\u261D\u270C\u270D](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\u270A\u270B](?:\uD83C[\uDFFB-\uDFFF])?|[\u23E9-\u23EC\u23F0\u23F3\u25FD\u2693\u26A1\u26AB\u26C5\u26CE\u26D4\u26EA\u26FD\u2705\u2728\u274C\u274E\u2753-\u2755\u2795-\u2797\u27B0\u27BF\u2B50]|\u26F9(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\u2764\uFE0F?(?:\u200D(?:\uD83D\uDD25|\uD83E\uDE79))?|\uD83C(?:[\uDC04\uDD70\uDD71\uDD7E\uDD7F\uDE02\uDE37\uDF21\uDF24-\uDF2C\uDF36\uDF7D\uDF96\uDF97\uDF99-\uDF9B\uDF9E\uDF9F\uDFCD\uDFCE\uDFD4-\uDFDF\uDFF5\uDFF7]\uFE0F?|[\uDF85\uDFC2\uDFC7](?:\uD83C[\uDFFB-\uDFFF])?|[\uDFC3\uDFC4\uDFCA](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDFCB\uDFCC](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDCCF\uDD8E\uDD91-\uDD9A\uDE01\uDE1A\uDE2F\uDE32-\uDE36\uDE38-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF2D-\uDF35\uDF37-\uDF7C\uDF7E-\uDF84\uDF86-\uDF93\uDFA0-\uDFC1\uDFC5\uDFC6\uDFC8\uDFC9\uDFCF-\uDFD3\uDFE0-\uDFF0\uDFF8-\uDFFF]|\uDDE6\uD83C[\uDDE8-\uDDEC\uDDEE\uDDF1\uDDF2\uDDF4\uDDF6-\uDDFA\uDDFC\uDDFD\uDDFF]|\uDDE7\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEF\uDDF1-\uDDF4\uDDF6-\uDDF9\uDDFB\uDDFC\uDDFE\uDDFF]|\uDDE8\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDEE\uDDF0-\uDDF5\uDDF7\uDDFA-\uDDFF]|\uDDE9\uD83C[\uDDEA\uDDEC\uDDEF\uDDF0\uDDF2\uDDF4\uDDFF]|\uDDEA\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDED\uDDF7-\uDDFA]|\uDDEB\uD83C[\uDDEE-\uDDF0\uDDF2\uDDF4\uDDF7]|\uDDEC\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEE\uDDF1-\uDDF3\uDDF5-\uDDFA\uDDFC\uDDFE]|\uDDED\uD83C[\uDDF0\uDDF2\uDDF3\uDDF7\uDDF9\uDDFA]|\uDDEE\uD83C[\uDDE8-\uDDEA\uDDF1-\uDDF4\uDDF6-\uDDF9]|\uDDEF\uD83C[\uDDEA\uDDF2\uDDF4\uDDF5]|\uDDF0\uD83C[\uDDEA\uDDEC-\uDDEE\uDDF2\uDDF3\uDDF5\uDDF7\uDDFC\uDDFE\uDDFF]|\uDDF1\uD83C[\uDDE6-\uDDE8\uDDEE\uDDF0\uDDF7-\uDDFB\uDDFE]|\uDDF2\uD83C[\uDDE6\uDDE8-\uDDED\uDDF0-\uDDFF]|\uDDF3\uD83C[\uDDE6\uDDE8\uDDEA-\uDDEC\uDDEE\uDDF1\uDDF4\uDDF5\uDDF7\uDDFA\uDDFF]|\uDDF4\uD83C\uDDF2|\uDDF5\uD83C[\uDDE6\uDDEA-\uDDED\uDDF0-\uDDF3\uDDF7-\uDDF9\uDDFC\uDDFE]|\uDDF6\uD83C\uDDE6|\uDDF7\uD83C[\uDDEA\uDDF4\uDDF8\uDDFA\uDDFC]|\uDDF8\uD83C[\uDDE6-\uDDEA\uDDEC-\uDDF4\uDDF7-\uDDF9\uDDFB\uDDFD-\uDDFF]|\uDDF9\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDED\uDDEF-\uDDF4\uDDF7\uDDF9\uDDFB\uDDFC\uDDFF]|\uDDFA\uD83C[\uDDE6\uDDEC\uDDF2\uDDF3\uDDF8\uDDFE\uDDFF]|\uDDFB\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDEE\uDDF3\uDDFA]|\uDDFC\uD83C[\uDDEB\uDDF8]|\uDDFD\uD83C\uDDF0|\uDDFE\uD83C[\uDDEA\uDDF9]|\uDDFF\uD83C[\uDDE6\uDDF2\uDDFC]|\uDFF3\uFE0F?(?:\u200D(?:\u26A7\uFE0F?|\uD83C\uDF08))?|\uDFF4(?:\u200D\u2620\uFE0F?|\uDB40\uDC67\uDB40\uDC62\uDB40(?:\uDC65\uDB40\uDC6E\uDB40\uDC67|\uDC73\uDB40\uDC63\uDB40\uDC74|\uDC77\uDB40\uDC6C\uDB40\uDC73)\uDB40\uDC7F)?)|\uD83D(?:[\uDC3F\uDCFD\uDD49\uDD4A\uDD6F\uDD70\uDD73\uDD76-\uDD79\uDD87\uDD8A-\uDD8D\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2-\uDDC4\uDDD1-\uDDD3\uDDDC-\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA\uDECB\uDECD-\uDECF\uDEE0-\uDEE5\uDEE9\uDEF0\uDEF3]\uFE0F?|[\uDC42\uDC43\uDC46-\uDC50\uDC66\uDC67\uDC6B-\uDC6D\uDC72\uDC74-\uDC76\uDC78\uDC7C\uDC83\uDC85\uDC8F\uDC91\uDCAA\uDD7A\uDD95\uDD96\uDE4C\uDE4F\uDEC0\uDECC](?:\uD83C[\uDFFB-\uDFFF])?|[\uDC6E\uDC70\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4-\uDEB6](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD74\uDD90](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\uDC00-\uDC07\uDC09-\uDC14\uDC16-\uDC3A\uDC3C-\uDC3E\uDC40\uDC44\uDC45\uDC51-\uDC65\uDC6A\uDC79-\uDC7B\uDC7D-\uDC80\uDC84\uDC88-\uDC8E\uDC90\uDC92-\uDCA9\uDCAB-\uDCFC\uDCFF-\uDD3D\uDD4B-\uDD4E\uDD50-\uDD67\uDDA4\uDDFB-\uDE2D\uDE2F-\uDE34\uDE37-\uDE44\uDE48-\uDE4A\uDE80-\uDEA2\uDEA4-\uDEB3\uDEB7-\uDEBF\uDEC1-\uDEC5\uDED0-\uDED2\uDED5-\uDED7\uDEDD-\uDEDF\uDEEB\uDEEC\uDEF4-\uDEFC\uDFE0-\uDFEB\uDFF0]|\uDC08(?:\u200D\u2B1B)?|\uDC15(?:\u200D\uD83E\uDDBA)?|\uDC3B(?:\u200D\u2744\uFE0F?)?|\uDC41\uFE0F?(?:\u200D\uD83D\uDDE8\uFE0F?)?|\uDC68(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDC68\uDC69]\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|\uD83E[\uDDAF-\uDDB3\uDDBC\uDDBD])|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFE])))?))?|\uDC69(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?[\uDC68\uDC69]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?|\uDC69\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?))|\uD83E[\uDDAF-\uDDB3\uDDBC\uDDBD])|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFE])))?))?|\uDC6F(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDD75(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDE2E(?:\u200D\uD83D\uDCA8)?|\uDE35(?:\u200D\uD83D\uDCAB)?|\uDE36(?:\u200D\uD83C\uDF2B\uFE0F?)?)|\uD83E(?:[\uDD0C\uDD0F\uDD18-\uDD1F\uDD30-\uDD34\uDD36\uDD77\uDDB5\uDDB6\uDDBB\uDDD2\uDDD3\uDDD5\uDEC3-\uDEC5\uDEF0\uDEF2-\uDEF6](?:\uD83C[\uDFFB-\uDFFF])?|[\uDD26\uDD35\uDD37-\uDD39\uDD3D\uDD3E\uDDB8\uDDB9\uDDCD-\uDDCF\uDDD4\uDDD6-\uDDDD](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDDDE\uDDDF](?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD0D\uDD0E\uDD10-\uDD17\uDD20-\uDD25\uDD27-\uDD2F\uDD3A\uDD3F-\uDD45\uDD47-\uDD76\uDD78-\uDDB4\uDDB7\uDDBA\uDDBC-\uDDCC\uDDD0\uDDE0-\uDDFF\uDE70-\uDE74\uDE78-\uDE7C\uDE80-\uDE86\uDE90-\uDEAC\uDEB0-\uDEBA\uDEC0-\uDEC2\uDED0-\uDED9\uDEE0-\uDEE7]|\uDD3C(?:\u200D[\u2640\u2642]\uFE0F?|\uD83C[\uDFFB-\uDFFF])?|\uDDD1(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFC-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFD-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFD\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFE]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?))?|\uDEF1(?:\uD83C(?:\uDFFB(?:\u200D\uD83E\uDEF2\uD83C[\uDFFC-\uDFFF])?|\uDFFC(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFD-\uDFFF])?|\uDFFD(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])?|\uDFFE(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFD\uDFFF])?|\uDFFF(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFE])?))?))/g;
+      return /[#*0-9]\uFE0F?\u20E3|[\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u2328\u23CF\u23ED-\u23EF\u23F1\u23F2\u23F8-\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB\u25FC\u25FE\u2600-\u2604\u260E\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638-\u263A\u2640\u2642\u2648-\u2653\u265F\u2660\u2663\u2665\u2666\u2668\u267B\u267E\u267F\u2692\u2694-\u2697\u2699\u269B\u269C\u26A0\u26A7\u26AA\u26B0\u26B1\u26BD\u26BE\u26C4\u26C8\u26CF\u26D1\u26D3\u26E9\u26F0-\u26F5\u26F7\u26F8\u26FA\u2702\u2708\u2709\u270F\u2712\u2714\u2716\u271D\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u27A1\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B55\u3030\u303D\u3297\u3299]\uFE0F?|[\u261D\u270C\u270D](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\u270A\u270B](?:\uD83C[\uDFFB-\uDFFF])?|[\u23E9-\u23EC\u23F0\u23F3\u25FD\u2693\u26A1\u26AB\u26C5\u26CE\u26D4\u26EA\u26FD\u2705\u2728\u274C\u274E\u2753-\u2755\u2795-\u2797\u27B0\u27BF\u2B50]|\u26F9(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\u2764\uFE0F?(?:\u200D(?:\uD83D\uDD25|\uD83E\uDE79))?|\uD83C(?:[\uDC04\uDD70\uDD71\uDD7E\uDD7F\uDE02\uDE37\uDF21\uDF24-\uDF2C\uDF36\uDF7D\uDF96\uDF97\uDF99-\uDF9B\uDF9E\uDF9F\uDFCD\uDFCE\uDFD4-\uDFDF\uDFF5\uDFF7]\uFE0F?|[\uDF85\uDFC2\uDFC7](?:\uD83C[\uDFFB-\uDFFF])?|[\uDFC3\uDFC4\uDFCA](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDFCB\uDFCC](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDCCF\uDD8E\uDD91-\uDD9A\uDE01\uDE1A\uDE2F\uDE32-\uDE36\uDE38-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF2D-\uDF35\uDF37-\uDF7C\uDF7E-\uDF84\uDF86-\uDF93\uDFA0-\uDFC1\uDFC5\uDFC6\uDFC8\uDFC9\uDFCF-\uDFD3\uDFE0-\uDFF0\uDFF8-\uDFFF]|\uDDE6\uD83C[\uDDE8-\uDDEC\uDDEE\uDDF1\uDDF2\uDDF4\uDDF6-\uDDFA\uDDFC\uDDFD\uDDFF]|\uDDE7\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEF\uDDF1-\uDDF4\uDDF6-\uDDF9\uDDFB\uDDFC\uDDFE\uDDFF]|\uDDE8\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDEE\uDDF0-\uDDF5\uDDF7\uDDFA-\uDDFF]|\uDDE9\uD83C[\uDDEA\uDDEC\uDDEF\uDDF0\uDDF2\uDDF4\uDDFF]|\uDDEA\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDED\uDDF7-\uDDFA]|\uDDEB\uD83C[\uDDEE-\uDDF0\uDDF2\uDDF4\uDDF7]|\uDDEC\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEE\uDDF1-\uDDF3\uDDF5-\uDDFA\uDDFC\uDDFE]|\uDDED\uD83C[\uDDF0\uDDF2\uDDF3\uDDF7\uDDF9\uDDFA]|\uDDEE\uD83C[\uDDE8-\uDDEA\uDDF1-\uDDF4\uDDF6-\uDDF9]|\uDDEF\uD83C[\uDDEA\uDDF2\uDDF4\uDDF5]|\uDDF0\uD83C[\uDDEA\uDDEC-\uDDEE\uDDF2\uDDF3\uDDF5\uDDF7\uDDFC\uDDFE\uDDFF]|\uDDF1\uD83C[\uDDE6-\uDDE8\uDDEE\uDDF0\uDDF7-\uDDFB\uDDFE]|\uDDF2\uD83C[\uDDE6\uDDE8-\uDDED\uDDF0-\uDDFF]|\uDDF3\uD83C[\uDDE6\uDDE8\uDDEA-\uDDEC\uDDEE\uDDF1\uDDF4\uDDF5\uDDF7\uDDFA\uDDFF]|\uDDF4\uD83C\uDDF2|\uDDF5\uD83C[\uDDE6\uDDEA-\uDDED\uDDF0-\uDDF3\uDDF7-\uDDF9\uDDFC\uDDFE]|\uDDF6\uD83C\uDDE6|\uDDF7\uD83C[\uDDEA\uDDF4\uDDF8\uDDFA\uDDFC]|\uDDF8\uD83C[\uDDE6-\uDDEA\uDDEC-\uDDF4\uDDF7-\uDDF9\uDDFB\uDDFD-\uDDFF]|\uDDF9\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDED\uDDEF-\uDDF4\uDDF7\uDDF9\uDDFB\uDDFC\uDDFF]|\uDDFA\uD83C[\uDDE6\uDDEC\uDDF2\uDDF3\uDDF8\uDDFE\uDDFF]|\uDDFB\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDEE\uDDF3\uDDFA]|\uDDFC\uD83C[\uDDEB\uDDF8]|\uDDFD\uD83C\uDDF0|\uDDFE\uD83C[\uDDEA\uDDF9]|\uDDFF\uD83C[\uDDE6\uDDF2\uDDFC]|\uDFF3\uFE0F?(?:\u200D(?:\u26A7\uFE0F?|\uD83C\uDF08))?|\uDFF4(?:\u200D\u2620\uFE0F?|\uDB40\uDC67\uDB40\uDC62\uDB40(?:\uDC65\uDB40\uDC6E\uDB40\uDC67|\uDC73\uDB40\uDC63\uDB40\uDC74|\uDC77\uDB40\uDC6C\uDB40\uDC73)\uDB40\uDC7F)?)|\uD83D(?:[\uDC08\uDC26](?:\u200D\u2B1B)?|[\uDC3F\uDCFD\uDD49\uDD4A\uDD6F\uDD70\uDD73\uDD76-\uDD79\uDD87\uDD8A-\uDD8D\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2-\uDDC4\uDDD1-\uDDD3\uDDDC-\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA\uDECB\uDECD-\uDECF\uDEE0-\uDEE5\uDEE9\uDEF0\uDEF3]\uFE0F?|[\uDC42\uDC43\uDC46-\uDC50\uDC66\uDC67\uDC6B-\uDC6D\uDC72\uDC74-\uDC76\uDC78\uDC7C\uDC83\uDC85\uDC8F\uDC91\uDCAA\uDD7A\uDD95\uDD96\uDE4C\uDE4F\uDEC0\uDECC](?:\uD83C[\uDFFB-\uDFFF])?|[\uDC6E\uDC70\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4-\uDEB6](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD74\uDD90](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\uDC00-\uDC07\uDC09-\uDC14\uDC16-\uDC25\uDC27-\uDC3A\uDC3C-\uDC3E\uDC40\uDC44\uDC45\uDC51-\uDC65\uDC6A\uDC79-\uDC7B\uDC7D-\uDC80\uDC84\uDC88-\uDC8E\uDC90\uDC92-\uDCA9\uDCAB-\uDCFC\uDCFF-\uDD3D\uDD4B-\uDD4E\uDD50-\uDD67\uDDA4\uDDFB-\uDE2D\uDE2F-\uDE34\uDE37-\uDE44\uDE48-\uDE4A\uDE80-\uDEA2\uDEA4-\uDEB3\uDEB7-\uDEBF\uDEC1-\uDEC5\uDED0-\uDED2\uDED5-\uDED7\uDEDC-\uDEDF\uDEEB\uDEEC\uDEF4-\uDEFC\uDFE0-\uDFEB\uDFF0]|\uDC15(?:\u200D\uD83E\uDDBA)?|\uDC3B(?:\u200D\u2744\uFE0F?)?|\uDC41\uFE0F?(?:\u200D\uD83D\uDDE8\uFE0F?)?|\uDC68(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDC68\uDC69]\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|\uD83E[\uDDAF-\uDDB3\uDDBC\uDDBD])|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFE])))?))?|\uDC69(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?[\uDC68\uDC69]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?|\uDC69\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?))|\uD83E[\uDDAF-\uDDB3\uDDBC\uDDBD])|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFE])))?))?|\uDC6F(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDD75(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDE2E(?:\u200D\uD83D\uDCA8)?|\uDE35(?:\u200D\uD83D\uDCAB)?|\uDE36(?:\u200D\uD83C\uDF2B\uFE0F?)?)|\uD83E(?:[\uDD0C\uDD0F\uDD18-\uDD1F\uDD30-\uDD34\uDD36\uDD77\uDDB5\uDDB6\uDDBB\uDDD2\uDDD3\uDDD5\uDEC3-\uDEC5\uDEF0\uDEF2-\uDEF8](?:\uD83C[\uDFFB-\uDFFF])?|[\uDD26\uDD35\uDD37-\uDD39\uDD3D\uDD3E\uDDB8\uDDB9\uDDCD-\uDDCF\uDDD4\uDDD6-\uDDDD](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDDDE\uDDDF](?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD0D\uDD0E\uDD10-\uDD17\uDD20-\uDD25\uDD27-\uDD2F\uDD3A\uDD3F-\uDD45\uDD47-\uDD76\uDD78-\uDDB4\uDDB7\uDDBA\uDDBC-\uDDCC\uDDD0\uDDE0-\uDDFF\uDE70-\uDE7C\uDE80-\uDE88\uDE90-\uDEBD\uDEBF-\uDEC2\uDECE-\uDEDB\uDEE0-\uDEE8]|\uDD3C(?:\u200D[\u2640\u2642]\uFE0F?|\uD83C[\uDFFB-\uDFFF])?|\uDDD1(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFC-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFD-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFD\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFE]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?))?|\uDEF1(?:\uD83C(?:\uDFFB(?:\u200D\uD83E\uDEF2\uD83C[\uDFFC-\uDFFF])?|\uDFFC(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFD-\uDFFF])?|\uDFFD(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])?|\uDFFE(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFD\uDFFF])?|\uDFFF(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFE])?))?)/g;
     };
     function normalizeDuration(dur) {
       if (dur === void 0 || dur === null)
@@ -21844,8 +21931,8 @@ var require_lib2 = __commonJS({
         path2 = path2.substring(0, path2.length - 3);
       return path2;
     }
-    parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_min.exports.regex(/[0-9\p{Letter}_-]+/u).map((str) => str.toLocaleLowerCase()), parsimmon_umd_min.exports.whitespace.map((_) => "-"), parsimmon_umd_min.exports.any.map((_) => "")).many().map((result) => result.join(""));
-    var HEADER_CANONICALIZER = parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_min.exports.regex(/[0-9\p{Letter}_-]+/u), parsimmon_umd_min.exports.whitespace.map((_) => " "), parsimmon_umd_min.exports.any.map((_) => " ")).many().map((result) => {
+    parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_minExports.regex(/[0-9\p{Letter}_-]+/u).map((str) => str.toLocaleLowerCase()), parsimmon_umd_minExports.whitespace.map((_) => "-"), parsimmon_umd_minExports.any.map((_) => "")).many().map((result) => result.join(""));
+    var HEADER_CANONICALIZER = parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_minExports.regex(/[0-9\p{Letter}_-]+/u), parsimmon_umd_minExports.whitespace.map((_) => " "), parsimmon_umd_minExports.any.map((_) => " ")).many().map((result) => {
       return result.join("").split(/\s+/).join(" ").trim();
     });
     function normalizeHeaderForLink(header) {
@@ -21853,7 +21940,7 @@ var require_lib2 = __commonJS({
     }
     function renderMinimalDuration(dur) {
       dur = normalizeDuration(dur);
-      dur = Duration.fromObject(Object.fromEntries(Object.entries(dur.toObject()).filter(([, quantity]) => quantity > 0)));
+      dur = Duration.fromObject(Object.fromEntries(Object.entries(dur.toObject()).filter(([, quantity]) => quantity != 0)));
       return dur.toHuman();
     }
     var Values;
@@ -22165,9 +22252,6 @@ var require_lib2 = __commonJS({
       Groupings2.count = count;
     })(Groupings || (Groupings = {}));
     var Link = class {
-      constructor(fields) {
-        Object.assign(this, fields);
-      }
       static file(path2, embed = false, display) {
         return new Link({
           path: path2,
@@ -22207,6 +22291,9 @@ var require_lib2 = __commonJS({
       }
       static fromObject(object) {
         return new Link(object);
+      }
+      constructor(fields) {
+        Object.assign(this, fields);
       }
       equals(other) {
         if (other == void 0 || other == null)
@@ -22483,7 +22570,7 @@ var require_lib2 = __commonJS({
       return Link.infer(link, false, display);
     }
     function createBinaryParser(child, sep, combine) {
-      return parsimmon_umd_min.exports.seqMap(child, parsimmon_umd_min.exports.seq(parsimmon_umd_min.exports.optWhitespace, sep, parsimmon_umd_min.exports.optWhitespace, child).many(), (first, rest) => {
+      return parsimmon_umd_minExports.seqMap(child, parsimmon_umd_minExports.seq(parsimmon_umd_minExports.optWhitespace, sep, parsimmon_umd_minExports.optWhitespace, child).many(), (first, rest) => {
         if (rest.length == 0)
           return first;
         let node = combine(first, rest[0][1], rest[0][3]);
@@ -22494,7 +22581,7 @@ var require_lib2 = __commonJS({
       });
     }
     function chainOpt(base, ...funcs) {
-      return parsimmon_umd_min.exports.custom((success, failure) => {
+      return parsimmon_umd_minExports.custom((success, failure) => {
         return (input, i) => {
           let result = base._(input, i);
           if (!result.status)
@@ -22509,10 +22596,10 @@ var require_lib2 = __commonJS({
         };
       });
     }
-    var EXPRESSION = parsimmon_umd_min.exports.createLanguage({
-      number: (q) => parsimmon_umd_min.exports.regexp(/-?[0-9]+(\.[0-9]+)?/).map((str) => Number.parseFloat(str)).desc("number"),
-      string: (q) => parsimmon_umd_min.exports.string('"').then(parsimmon_umd_min.exports.alt(q.escapeCharacter, parsimmon_umd_min.exports.noneOf('"\\')).atLeast(0).map((chars) => chars.join(""))).skip(parsimmon_umd_min.exports.string('"')).desc("string"),
-      escapeCharacter: (_) => parsimmon_umd_min.exports.string("\\").then(parsimmon_umd_min.exports.any).map((escaped) => {
+    var EXPRESSION = parsimmon_umd_minExports.createLanguage({
+      number: (q) => parsimmon_umd_minExports.regexp(/-?[0-9]+(\.[0-9]+)?/).map((str) => Number.parseFloat(str)).desc("number"),
+      string: (q) => parsimmon_umd_minExports.string('"').then(parsimmon_umd_minExports.alt(q.escapeCharacter, parsimmon_umd_minExports.noneOf('"\\')).atLeast(0).map((chars) => chars.join(""))).skip(parsimmon_umd_minExports.string('"')).desc("string"),
+      escapeCharacter: (_) => parsimmon_umd_minExports.string("\\").then(parsimmon_umd_minExports.any).map((escaped) => {
         if (escaped === '"')
           return '"';
         if (escaped === "\\")
@@ -22520,19 +22607,19 @@ var require_lib2 = __commonJS({
         else
           return "\\" + escaped;
       }),
-      bool: (_) => parsimmon_umd_min.exports.regexp(/true|false|True|False/).map((str) => str.toLowerCase() == "true").desc("boolean ('true' or 'false')"),
-      tag: (_) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("#"), parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regexp(/[^\u2000-\u206F\u2E00-\u2E7F'!"#$%&()*+,.:;<=>?@^`{|}~\[\]\\\s]/).desc("text")).many(), (start, rest) => start + rest.join("")).desc("tag ('#hello/stuff')"),
-      identifier: (_) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regexp(/\p{Letter}/u), parsimmon_umd_min.exports.regexp(EMOJI_REGEX).desc("text")), parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regexp(/[0-9\p{Letter}_-]/u), parsimmon_umd_min.exports.regexp(EMOJI_REGEX).desc("text")).many(), (first, rest) => first + rest.join("")).desc("variable identifier"),
-      link: (_) => parsimmon_umd_min.exports.regexp(/\[\[([^\[\]]*?)\]\]/u, 1).map((linkInner) => parseInnerLink(linkInner)).desc("file link"),
-      embedLink: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("!").atMost(1), q.link, (p, l2) => {
+      bool: (_) => parsimmon_umd_minExports.regexp(/true|false|True|False/).map((str) => str.toLowerCase() == "true").desc("boolean ('true' or 'false')"),
+      tag: (_) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("#"), parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regexp(/[^\u2000-\u206F\u2E00-\u2E7F'!"#$%&()*+,.:;<=>?@^`{|}~\[\]\\\s]/).desc("text")).many(), (start, rest) => start + rest.join("")).desc("tag ('#hello/stuff')"),
+      identifier: (_) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regexp(/\p{Letter}/u), parsimmon_umd_minExports.regexp(EMOJI_REGEX).desc("text")), parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regexp(/[0-9\p{Letter}_-]/u), parsimmon_umd_minExports.regexp(EMOJI_REGEX).desc("text")).many(), (first, rest) => first + rest.join("")).desc("variable identifier"),
+      link: (_) => parsimmon_umd_minExports.regexp(/\[\[([^\[\]]*?)\]\]/u, 1).map((linkInner) => parseInnerLink(linkInner)).desc("file link"),
+      embedLink: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("!").atMost(1), q.link, (p, l2) => {
         if (p.length > 0)
           l2.embed = true;
         return l2;
       }).desc("file link"),
-      binaryPlusMinus: (_) => parsimmon_umd_min.exports.regexp(/\+|-/).map((str) => str).desc("'+' or '-'"),
-      binaryMulDiv: (_) => parsimmon_umd_min.exports.regexp(/\*|\/|%/).map((str) => str).desc("'*' or '/' or '%'"),
-      binaryCompareOp: (_) => parsimmon_umd_min.exports.regexp(/>=|<=|!=|>|<|=/).map((str) => str).desc("'>=' or '<=' or '!=' or '=' or '>' or '<'"),
-      binaryBooleanOp: (_) => parsimmon_umd_min.exports.regexp(/and|or|&|\|/i).map((str) => {
+      binaryPlusMinus: (_) => parsimmon_umd_minExports.regexp(/\+|-/).map((str) => str).desc("'+' or '-'"),
+      binaryMulDiv: (_) => parsimmon_umd_minExports.regexp(/\*|\/|%/).map((str) => str).desc("'*' or '/' or '%'"),
+      binaryCompareOp: (_) => parsimmon_umd_minExports.regexp(/>=|<=|!=|>|<|=/).map((str) => str).desc("'>=' or '<=' or '!=' or '=' or '>' or '<'"),
+      binaryBooleanOp: (_) => parsimmon_umd_minExports.regexp(/and|or|&|\|/i).map((str) => {
         if (str.toLowerCase() == "and")
           return "&";
         else if (str.toLowerCase() == "or")
@@ -22540,53 +22627,53 @@ var require_lib2 = __commonJS({
         else
           return str;
       }).desc("'and' or 'or'"),
-      rootDate: (_) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/\d{4}/), parsimmon_umd_min.exports.string("-"), parsimmon_umd_min.exports.regexp(/\d{2}/), (year, _2, month) => {
+      rootDate: (_) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/\d{4}/), parsimmon_umd_minExports.string("-"), parsimmon_umd_minExports.regexp(/\d{2}/), (year, _2, month) => {
         return DateTime.fromObject({ year: Number.parseInt(year), month: Number.parseInt(month) });
       }).desc("date in format YYYY-MM[-DDTHH-MM-SS.MS]"),
-      dateShorthand: (_) => parsimmon_umd_min.exports.alt(...Object.keys(DATE_SHORTHANDS).sort((a, b) => b.length - a.length).map(parsimmon_umd_min.exports.string)),
-      date: (q) => chainOpt(q.rootDate, (ym) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("-"), parsimmon_umd_min.exports.regexp(/\d{2}/), (_, day) => ym.set({ day: Number.parseInt(day) })), (ymd) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("T"), parsimmon_umd_min.exports.regexp(/\d{2}/), (_, hour) => ymd.set({ hour: Number.parseInt(hour) })), (ymdh) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string(":"), parsimmon_umd_min.exports.regexp(/\d{2}/), (_, minute) => ymdh.set({ minute: Number.parseInt(minute) })), (ymdhm) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string(":"), parsimmon_umd_min.exports.regexp(/\d{2}/), (_, second) => ymdhm.set({ second: Number.parseInt(second) })), (ymdhms) => parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("."), parsimmon_umd_min.exports.regexp(/\d{3}/), (_, millisecond) => ymdhms.set({ millisecond: Number.parseInt(millisecond) })), parsimmon_umd_min.exports.succeed(ymdhms)), (dt) => parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("+").or(parsimmon_umd_min.exports.string("-")), parsimmon_umd_min.exports.regexp(/\d{1,2}(:\d{2})?/), (pm, hr) => dt.setZone("UTC" + pm + hr, { keepLocalTime: true })), parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("Z"), () => dt.setZone("utc", { keepLocalTime: true })), parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("["), parsimmon_umd_min.exports.regexp(/[0-9A-Za-z+-\/]+/u), parsimmon_umd_min.exports.string("]"), (_a, zone, _b) => dt.setZone(zone, { keepLocalTime: true })))).assert((dt) => dt.isValid, "valid date").desc("date in format YYYY-MM[-DDTHH-MM-SS.MS]"),
-      datePlus: (q) => parsimmon_umd_min.exports.alt(q.dateShorthand.map((d) => DATE_SHORTHANDS[d]()), q.date).desc("date in format YYYY-MM[-DDTHH-MM-SS.MS] or in shorthand"),
-      durationType: (_) => parsimmon_umd_min.exports.alt(...Object.keys(DURATION_TYPES).sort((a, b) => b.length - a.length).map(parsimmon_umd_min.exports.string)),
-      duration: (q) => parsimmon_umd_min.exports.seqMap(q.number, parsimmon_umd_min.exports.optWhitespace, q.durationType, (count, _, t) => DURATION_TYPES[t].mapUnits((x) => x * count)).sepBy1(parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace).or(parsimmon_umd_min.exports.optWhitespace)).map((durations) => durations.reduce((p, c) => p.plus(c))).desc("duration like 4hr2min"),
-      rawNull: (_) => parsimmon_umd_min.exports.string("null"),
+      dateShorthand: (_) => parsimmon_umd_minExports.alt(...Object.keys(DATE_SHORTHANDS).sort((a, b) => b.length - a.length).map(parsimmon_umd_minExports.string)),
+      date: (q) => chainOpt(q.rootDate, (ym) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("-"), parsimmon_umd_minExports.regexp(/\d{2}/), (_, day) => ym.set({ day: Number.parseInt(day) })), (ymd) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("T"), parsimmon_umd_minExports.regexp(/\d{2}/), (_, hour) => ymd.set({ hour: Number.parseInt(hour) })), (ymdh) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string(":"), parsimmon_umd_minExports.regexp(/\d{2}/), (_, minute) => ymdh.set({ minute: Number.parseInt(minute) })), (ymdhm) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string(":"), parsimmon_umd_minExports.regexp(/\d{2}/), (_, second) => ymdhm.set({ second: Number.parseInt(second) })), (ymdhms) => parsimmon_umd_minExports.alt(parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("."), parsimmon_umd_minExports.regexp(/\d{3}/), (_, millisecond) => ymdhms.set({ millisecond: Number.parseInt(millisecond) })), parsimmon_umd_minExports.succeed(ymdhms)), (dt) => parsimmon_umd_minExports.alt(parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("+").or(parsimmon_umd_minExports.string("-")), parsimmon_umd_minExports.regexp(/\d{1,2}(:\d{2})?/), (pm, hr) => dt.setZone("UTC" + pm + hr, { keepLocalTime: true })), parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("Z"), () => dt.setZone("utc", { keepLocalTime: true })), parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("["), parsimmon_umd_minExports.regexp(/[0-9A-Za-z+-\/]+/u), parsimmon_umd_minExports.string("]"), (_a, zone, _b) => dt.setZone(zone, { keepLocalTime: true })))).assert((dt) => dt.isValid, "valid date").desc("date in format YYYY-MM[-DDTHH-MM-SS.MS]"),
+      datePlus: (q) => parsimmon_umd_minExports.alt(q.dateShorthand.map((d) => DATE_SHORTHANDS[d]()), q.date).desc("date in format YYYY-MM[-DDTHH-MM-SS.MS] or in shorthand"),
+      durationType: (_) => parsimmon_umd_minExports.alt(...Object.keys(DURATION_TYPES).sort((a, b) => b.length - a.length).map(parsimmon_umd_minExports.string)),
+      duration: (q) => parsimmon_umd_minExports.seqMap(q.number, parsimmon_umd_minExports.optWhitespace, q.durationType, (count, _, t) => DURATION_TYPES[t].mapUnits((x) => x * count)).sepBy1(parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace).or(parsimmon_umd_minExports.optWhitespace)).map((durations) => durations.reduce((p, c) => p.plus(c))).desc("duration like 4hr2min"),
+      rawNull: (_) => parsimmon_umd_minExports.string("null"),
       tagSource: (q) => q.tag.map((tag) => Sources.tag(tag)),
-      csvSource: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("csv(").skip(parsimmon_umd_min.exports.optWhitespace), q.string, parsimmon_umd_min.exports.string(")"), (_1, path2, _2) => Sources.csv(path2)),
+      csvSource: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("csv(").skip(parsimmon_umd_minExports.optWhitespace), q.string, parsimmon_umd_minExports.string(")"), (_1, path2, _2) => Sources.csv(path2)),
       linkIncomingSource: (q) => q.link.map((link) => Sources.link(link.path, true)),
-      linkOutgoingSource: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("outgoing(").skip(parsimmon_umd_min.exports.optWhitespace), q.link, parsimmon_umd_min.exports.string(")"), (_1, link, _2) => Sources.link(link.path, false)),
+      linkOutgoingSource: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("outgoing(").skip(parsimmon_umd_minExports.optWhitespace), q.link, parsimmon_umd_minExports.string(")"), (_1, link, _2) => Sources.link(link.path, false)),
       folderSource: (q) => q.string.map((str) => Sources.folder(str)),
-      parensSource: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("("), parsimmon_umd_min.exports.optWhitespace, q.source, parsimmon_umd_min.exports.optWhitespace, parsimmon_umd_min.exports.string(")"), (_1, _2, field, _3, _4) => field),
-      negateSource: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.string("-"), parsimmon_umd_min.exports.string("!")), q.atomSource, (_, source) => Sources.negate(source)),
-      atomSource: (q) => parsimmon_umd_min.exports.alt(q.parensSource, q.negateSource, q.linkOutgoingSource, q.linkIncomingSource, q.folderSource, q.tagSource, q.csvSource),
+      parensSource: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("("), parsimmon_umd_minExports.optWhitespace, q.source, parsimmon_umd_minExports.optWhitespace, parsimmon_umd_minExports.string(")"), (_1, _2, field, _3, _4) => field),
+      negateSource: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.alt(parsimmon_umd_minExports.string("-"), parsimmon_umd_minExports.string("!")), q.atomSource, (_, source) => Sources.negate(source)),
+      atomSource: (q) => parsimmon_umd_minExports.alt(q.parensSource, q.negateSource, q.linkOutgoingSource, q.linkIncomingSource, q.folderSource, q.tagSource, q.csvSource),
       binaryOpSource: (q) => createBinaryParser(q.atomSource, q.binaryBooleanOp.map((s2) => s2), Sources.binaryOp),
       source: (q) => q.binaryOpSource,
       variableField: (q) => q.identifier.chain((r) => {
         if (KEYWORDS.includes(r.toUpperCase())) {
-          return parsimmon_umd_min.exports.fail("Variable fields cannot be a keyword (" + KEYWORDS.join(" or ") + ")");
+          return parsimmon_umd_minExports.fail("Variable fields cannot be a keyword (" + KEYWORDS.join(" or ") + ")");
         } else {
-          return parsimmon_umd_min.exports.succeed(Fields.variable(r));
+          return parsimmon_umd_minExports.succeed(Fields.variable(r));
         }
       }).desc("variable"),
       numberField: (q) => q.number.map((val) => Fields.literal(val)).desc("number"),
       stringField: (q) => q.string.map((val) => Fields.literal(val)).desc("string"),
       boolField: (q) => q.bool.map((val) => Fields.literal(val)).desc("boolean"),
-      dateField: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("date("), parsimmon_umd_min.exports.optWhitespace, q.datePlus, parsimmon_umd_min.exports.optWhitespace, parsimmon_umd_min.exports.string(")"), (prefix, _1, date, _2, postfix) => Fields.literal(date)).desc("date"),
-      durationField: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("dur("), parsimmon_umd_min.exports.optWhitespace, q.duration, parsimmon_umd_min.exports.optWhitespace, parsimmon_umd_min.exports.string(")"), (prefix, _1, dur, _2, postfix) => Fields.literal(dur)).desc("duration"),
+      dateField: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("date("), parsimmon_umd_minExports.optWhitespace, q.datePlus, parsimmon_umd_minExports.optWhitespace, parsimmon_umd_minExports.string(")"), (prefix, _1, date, _2, postfix) => Fields.literal(date)).desc("date"),
+      durationField: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("dur("), parsimmon_umd_minExports.optWhitespace, q.duration, parsimmon_umd_minExports.optWhitespace, parsimmon_umd_minExports.string(")"), (prefix, _1, dur, _2, postfix) => Fields.literal(dur)).desc("duration"),
       nullField: (q) => q.rawNull.map((_) => Fields.NULL),
       linkField: (q) => q.link.map((f) => Fields.literal(f)),
-      listField: (q) => q.field.sepBy(parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace)).wrap(parsimmon_umd_min.exports.string("[").skip(parsimmon_umd_min.exports.optWhitespace), parsimmon_umd_min.exports.optWhitespace.then(parsimmon_umd_min.exports.string("]"))).map((l2) => Fields.list(l2)).desc("list ('[1, 2, 3]')"),
-      objectField: (q) => parsimmon_umd_min.exports.seqMap(q.identifier.or(q.string), parsimmon_umd_min.exports.string(":").trim(parsimmon_umd_min.exports.optWhitespace), q.field, (name, _sep, value) => {
+      listField: (q) => q.field.sepBy(parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace)).wrap(parsimmon_umd_minExports.string("[").skip(parsimmon_umd_minExports.optWhitespace), parsimmon_umd_minExports.optWhitespace.then(parsimmon_umd_minExports.string("]"))).map((l2) => Fields.list(l2)).desc("list ('[1, 2, 3]')"),
+      objectField: (q) => parsimmon_umd_minExports.seqMap(q.identifier.or(q.string), parsimmon_umd_minExports.string(":").trim(parsimmon_umd_minExports.optWhitespace), q.field, (name, _sep, value) => {
         return { name, value };
-      }).sepBy(parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace)).wrap(parsimmon_umd_min.exports.string("{").skip(parsimmon_umd_min.exports.optWhitespace), parsimmon_umd_min.exports.optWhitespace.then(parsimmon_umd_min.exports.string("}"))).map((vals) => {
+      }).sepBy(parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace)).wrap(parsimmon_umd_minExports.string("{").skip(parsimmon_umd_minExports.optWhitespace), parsimmon_umd_minExports.optWhitespace.then(parsimmon_umd_minExports.string("}"))).map((vals) => {
         let res = {};
         for (let entry of vals)
           res[entry.name] = entry.value;
         return Fields.object(res);
       }).desc("object ('{ a: 1, b: 2 }')"),
-      atomInlineField: (q) => parsimmon_umd_min.exports.alt(q.date, q.duration.map((d) => normalizeDuration(d)), q.string, q.tag, q.embedLink, q.bool, q.number, q.rawNull),
-      inlineFieldList: (q) => q.atomInlineField.sepBy(parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace).lookahead(q.atomInlineField)),
-      inlineField: (q) => parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.seqMap(q.atomInlineField, parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace), q.inlineFieldList, (f, _s, l2) => [f].concat(l2)), q.atomInlineField),
-      atomField: (q) => parsimmon_umd_min.exports.alt(q.embedLink.map((l2) => Fields.literal(l2)), q.negatedField, q.linkField, q.listField, q.objectField, q.lambdaField, q.parensField, q.boolField, q.numberField, q.stringField, q.dateField, q.durationField, q.nullField, q.variableField),
-      indexField: (q) => parsimmon_umd_min.exports.seqMap(q.atomField, parsimmon_umd_min.exports.alt(q.dotPostfix, q.indexPostfix, q.functionPostfix).many(), (obj, postfixes) => {
+      atomInlineField: (q) => parsimmon_umd_minExports.alt(q.date, q.duration.map((d) => normalizeDuration(d)), q.string, q.tag, q.embedLink, q.bool, q.number, q.rawNull),
+      inlineFieldList: (q) => q.atomInlineField.sepBy(parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace).lookahead(q.atomInlineField)),
+      inlineField: (q) => parsimmon_umd_minExports.alt(parsimmon_umd_minExports.seqMap(q.atomInlineField, parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace), q.inlineFieldList, (f, _s, l2) => [f].concat(l2)), q.atomInlineField),
+      atomField: (q) => parsimmon_umd_minExports.alt(q.embedLink.map((l2) => Fields.literal(l2)), q.negatedField, q.linkField, q.listField, q.objectField, q.lambdaField, q.parensField, q.boolField, q.numberField, q.stringField, q.dateField, q.durationField, q.nullField, q.variableField),
+      indexField: (q) => parsimmon_umd_minExports.seqMap(q.atomField, parsimmon_umd_minExports.alt(q.dotPostfix, q.indexPostfix, q.functionPostfix).many(), (obj, postfixes) => {
         let result = obj;
         for (let post of postfixes) {
           switch (post.type) {
@@ -22603,18 +22690,18 @@ var require_lib2 = __commonJS({
         }
         return result;
       }),
-      negatedField: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("!"), q.indexField, (_, field) => Fields.negate(field)).desc("negated field"),
-      parensField: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("("), parsimmon_umd_min.exports.optWhitespace, q.field, parsimmon_umd_min.exports.optWhitespace, parsimmon_umd_min.exports.string(")"), (_1, _2, field, _3, _4) => field),
-      lambdaField: (q) => parsimmon_umd_min.exports.seqMap(q.identifier.sepBy(parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace)).wrap(parsimmon_umd_min.exports.string("(").trim(parsimmon_umd_min.exports.optWhitespace), parsimmon_umd_min.exports.string(")").trim(parsimmon_umd_min.exports.optWhitespace)), parsimmon_umd_min.exports.string("=>").trim(parsimmon_umd_min.exports.optWhitespace), q.field, (ident, _ignore, value) => {
+      negatedField: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("!"), q.indexField, (_, field) => Fields.negate(field)).desc("negated field"),
+      parensField: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("("), parsimmon_umd_minExports.optWhitespace, q.field, parsimmon_umd_minExports.optWhitespace, parsimmon_umd_minExports.string(")"), (_1, _2, field, _3, _4) => field),
+      lambdaField: (q) => parsimmon_umd_minExports.seqMap(q.identifier.sepBy(parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace)).wrap(parsimmon_umd_minExports.string("(").trim(parsimmon_umd_minExports.optWhitespace), parsimmon_umd_minExports.string(")").trim(parsimmon_umd_minExports.optWhitespace)), parsimmon_umd_minExports.string("=>").trim(parsimmon_umd_minExports.optWhitespace), q.field, (ident, _ignore, value) => {
         return { type: "lambda", arguments: ident, value };
       }),
-      dotPostfix: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("."), q.identifier, (_, field) => {
+      dotPostfix: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("."), q.identifier, (_, field) => {
         return { type: "dot", field };
       }),
-      indexPostfix: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("["), parsimmon_umd_min.exports.optWhitespace, q.field, parsimmon_umd_min.exports.optWhitespace, parsimmon_umd_min.exports.string("]"), (_, _2, field, _3, _4) => {
+      indexPostfix: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("["), parsimmon_umd_minExports.optWhitespace, q.field, parsimmon_umd_minExports.optWhitespace, parsimmon_umd_minExports.string("]"), (_, _2, field, _3, _4) => {
         return { type: "index", field };
       }),
-      functionPostfix: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("("), parsimmon_umd_min.exports.optWhitespace, q.field.sepBy(parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace)), parsimmon_umd_min.exports.optWhitespace, parsimmon_umd_min.exports.string(")"), (_, _1, fields, _2, _3) => {
+      functionPostfix: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("("), parsimmon_umd_minExports.optWhitespace, q.field.sepBy(parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace)), parsimmon_umd_minExports.optWhitespace, parsimmon_umd_minExports.string(")"), (_, _1, fields, _2, _3) => {
         return { type: "function", fields };
       }),
       binaryMulDivField: (q) => createBinaryParser(q.indexField, q.binaryMulDiv, Fields.binaryOp),
@@ -22643,7 +22730,7 @@ var require_lib2 = __commonJS({
       QueryFields2.sortBy = sortBy;
     })(QueryFields || (QueryFields = {}));
     function captureRaw(base) {
-      return parsimmon_umd_min.exports.custom((success, failure) => {
+      return parsimmon_umd_minExports.custom((success, failure) => {
         return (input, i) => {
           let result = base._(input, i);
           if (!result.status)
@@ -22655,11 +22742,14 @@ var require_lib2 = __commonJS({
     function stripNewlines(text) {
       return text.split(/[\r\n]+/).map((t) => t.trim()).join("");
     }
-    var QUERY_LANGUAGE = parsimmon_umd_min.exports.createLanguage({
-      queryType: (q) => parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regexp(/TABLE|LIST|TASK|CALENDAR/i)).map((str) => str.toLowerCase()).desc("query type ('TABLE', 'LIST', 'TASK', or 'CALENDAR')"),
-      explicitNamedField: (q) => parsimmon_umd_min.exports.seqMap(EXPRESSION.field.skip(parsimmon_umd_min.exports.whitespace), parsimmon_umd_min.exports.regexp(/AS/i).skip(parsimmon_umd_min.exports.whitespace), EXPRESSION.identifier.or(EXPRESSION.string), (field, _as, ident) => QueryFields.named(ident, field)),
-      namedField: (q) => parsimmon_umd_min.exports.alt(q.explicitNamedField, captureRaw(EXPRESSION.field).map(([value, text]) => QueryFields.named(stripNewlines(text), value))),
-      sortField: (q) => parsimmon_umd_min.exports.seqMap(EXPRESSION.field.skip(parsimmon_umd_min.exports.optWhitespace), parsimmon_umd_min.exports.regexp(/ASCENDING|DESCENDING|ASC|DESC/i).atMost(1), (field, dir) => {
+    function precededByWhitespaceIfNotEof(if_eof, parser) {
+      return parsimmon_umd_minExports.eof.map(if_eof).or(parsimmon_umd_minExports.whitespace.then(parser));
+    }
+    var QUERY_LANGUAGE = parsimmon_umd_minExports.createLanguage({
+      queryType: (q) => parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regexp(/TABLE|LIST|TASK|CALENDAR/i)).map((str) => str.toLowerCase()).desc("query type ('TABLE', 'LIST', 'TASK', or 'CALENDAR')"),
+      explicitNamedField: (q) => parsimmon_umd_minExports.seqMap(EXPRESSION.field.skip(parsimmon_umd_minExports.whitespace), parsimmon_umd_minExports.regexp(/AS/i).skip(parsimmon_umd_minExports.whitespace), EXPRESSION.identifier.or(EXPRESSION.string), (field, _as, ident) => QueryFields.named(ident, field)),
+      namedField: (q) => parsimmon_umd_minExports.alt(q.explicitNamedField, captureRaw(EXPRESSION.field).map(([value, text]) => QueryFields.named(stripNewlines(text), value))),
+      sortField: (q) => parsimmon_umd_minExports.seqMap(EXPRESSION.field.skip(parsimmon_umd_minExports.optWhitespace), parsimmon_umd_minExports.regexp(/ASCENDING|DESCENDING|ASC|DESC/i).atMost(1), (field, dir) => {
         let direction = dir.length == 0 ? "ascending" : dir[0].toLowerCase();
         if (direction == "desc")
           direction = "descending";
@@ -22670,52 +22760,53 @@ var require_lib2 = __commonJS({
           direction
         };
       }),
-      headerClause: (q) => q.queryType.skip(parsimmon_umd_min.exports.whitespace).chain((qtype) => {
-        switch (qtype) {
-          case "table":
-            return parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/WITHOUT\s+ID/i).skip(parsimmon_umd_min.exports.optWhitespace).atMost(1), parsimmon_umd_min.exports.sepBy(q.namedField, parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace)), (withoutId, fields) => {
-              return { type: "table", fields, showId: withoutId.length == 0 };
-            });
+      headerClause: (q) => q.queryType.chain((type) => {
+        switch (type) {
+          case "table": {
+            return precededByWhitespaceIfNotEof(() => ({ type, fields: [], showId: true }), parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/WITHOUT\s+ID/i).skip(parsimmon_umd_minExports.optWhitespace).atMost(1), parsimmon_umd_minExports.sepBy(q.namedField, parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace)), (withoutId, fields) => {
+              return { type, fields, showId: withoutId.length == 0 };
+            }));
+          }
           case "list":
-            return parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/WITHOUT\s+ID/i).skip(parsimmon_umd_min.exports.optWhitespace).atMost(1), EXPRESSION.field.atMost(1), (withoutId, format) => {
+            return precededByWhitespaceIfNotEof(() => ({ type, format: void 0, showId: true }), parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/WITHOUT\s+ID/i).skip(parsimmon_umd_minExports.optWhitespace).atMost(1), EXPRESSION.field.atMost(1), (withoutId, format) => {
               return {
-                type: "list",
+                type,
                 format: format.length == 1 ? format[0] : void 0,
                 showId: withoutId.length == 0
               };
-            });
+            }));
           case "task":
-            return parsimmon_umd_min.exports.succeed({ type: "task" });
+            return parsimmon_umd_minExports.succeed({ type });
           case "calendar":
-            return parsimmon_umd_min.exports.seqMap(q.namedField, (field) => {
+            return parsimmon_umd_minExports.whitespace.then(parsimmon_umd_minExports.seqMap(q.namedField, (field) => {
               return {
-                type: "calendar",
+                type,
                 showId: true,
                 field
               };
-            });
+            }));
           default:
-            return parsimmon_umd_min.exports.fail(`Unrecognized query type '${qtype}'`);
+            return parsimmon_umd_minExports.fail(`Unrecognized query type '${type}'`);
         }
       }).desc("TABLE or LIST or TASK or CALENDAR"),
-      fromClause: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/FROM/i), parsimmon_umd_min.exports.whitespace, EXPRESSION.source, (_1, _2, source) => source),
-      whereClause: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/WHERE/i), parsimmon_umd_min.exports.whitespace, EXPRESSION.field, (where, _, field) => {
+      fromClause: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/FROM/i), parsimmon_umd_minExports.whitespace, EXPRESSION.source, (_1, _2, source) => source),
+      whereClause: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/WHERE/i), parsimmon_umd_minExports.whitespace, EXPRESSION.field, (where, _, field) => {
         return { type: "where", clause: field };
       }).desc("WHERE <expression>"),
-      sortByClause: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/SORT/i), parsimmon_umd_min.exports.whitespace, q.sortField.sepBy1(parsimmon_umd_min.exports.string(",").trim(parsimmon_umd_min.exports.optWhitespace)), (sort, _1, fields) => {
+      sortByClause: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/SORT/i), parsimmon_umd_minExports.whitespace, q.sortField.sepBy1(parsimmon_umd_minExports.string(",").trim(parsimmon_umd_minExports.optWhitespace)), (sort, _1, fields) => {
         return { type: "sort", fields };
       }).desc("SORT field [ASC/DESC]"),
-      limitClause: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/LIMIT/i), parsimmon_umd_min.exports.whitespace, EXPRESSION.field, (limit, _1, field) => {
+      limitClause: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/LIMIT/i), parsimmon_umd_minExports.whitespace, EXPRESSION.field, (limit, _1, field) => {
         return { type: "limit", amount: field };
       }).desc("LIMIT <value>"),
-      flattenClause: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/FLATTEN/i).skip(parsimmon_umd_min.exports.whitespace), q.namedField, (_, field) => {
+      flattenClause: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/FLATTEN/i).skip(parsimmon_umd_minExports.whitespace), q.namedField, (_, field) => {
         return { type: "flatten", field };
       }).desc("FLATTEN <value> [AS <name>]"),
-      groupByClause: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.regexp(/GROUP BY/i).skip(parsimmon_umd_min.exports.whitespace), q.namedField, (_, field) => {
+      groupByClause: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.regexp(/GROUP BY/i).skip(parsimmon_umd_minExports.whitespace), q.namedField, (_, field) => {
         return { type: "group", field };
       }).desc("GROUP BY <value> [AS <name>]"),
-      clause: (q) => parsimmon_umd_min.exports.alt(q.fromClause, q.whereClause, q.sortByClause, q.limitClause, q.groupByClause, q.flattenClause),
-      query: (q) => parsimmon_umd_min.exports.seqMap(q.headerClause.trim(parsimmon_umd_min.exports.optWhitespace), q.fromClause.trim(parsimmon_umd_min.exports.optWhitespace).atMost(1), q.clause.trim(parsimmon_umd_min.exports.optWhitespace).many(), (header, from, clauses) => {
+      clause: (q) => parsimmon_umd_minExports.alt(q.fromClause, q.whereClause, q.sortByClause, q.limitClause, q.groupByClause, q.flattenClause),
+      query: (q) => parsimmon_umd_minExports.seqMap(q.headerClause.trim(parsimmon_umd_minExports.optWhitespace), q.fromClause.trim(parsimmon_umd_minExports.optWhitespace).atMost(1), q.clause.trim(parsimmon_umd_minExports.optWhitespace).many(), (header, from, clauses) => {
         return {
           header,
           source: from.length == 0 ? Sources.folder("") : from[0],
@@ -23744,9 +23835,9 @@ var require_http_errors = __commonJS({
   }
 });
 
-// node_modules/ms/index.js
+// node_modules/body-parser/node_modules/ms/index.js
 var require_ms = __commonJS({
-  "node_modules/ms/index.js"(exports2, module2) {
+  "node_modules/body-parser/node_modules/ms/index.js"(exports2, module2) {
     var s = 1e3;
     var m = s * 60;
     var h = m * 60;
@@ -38002,6 +38093,104 @@ var require_merge_descriptors = __commonJS({
   }
 });
 
+// node_modules/finalhandler/node_modules/ms/index.js
+var require_ms2 = __commonJS({
+  "node_modules/finalhandler/node_modules/ms/index.js"(exports2, module2) {
+    var s = 1e3;
+    var m = s * 60;
+    var h = m * 60;
+    var d = h * 24;
+    var y = d * 365.25;
+    module2.exports = function(val, options) {
+      options = options || {};
+      var type = typeof val;
+      if (type === "string" && val.length > 0) {
+        return parse(val);
+      } else if (type === "number" && isNaN(val) === false) {
+        return options.long ? fmtLong(val) : fmtShort(val);
+      }
+      throw new Error("val is not a non-empty string or a valid number. val=" + JSON.stringify(val));
+    };
+    function parse(str) {
+      str = String(str);
+      if (str.length > 100) {
+        return;
+      }
+      var match = /^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(str);
+      if (!match) {
+        return;
+      }
+      var n = parseFloat(match[1]);
+      var type = (match[2] || "ms").toLowerCase();
+      switch (type) {
+        case "years":
+        case "year":
+        case "yrs":
+        case "yr":
+        case "y":
+          return n * y;
+        case "days":
+        case "day":
+        case "d":
+          return n * d;
+        case "hours":
+        case "hour":
+        case "hrs":
+        case "hr":
+        case "h":
+          return n * h;
+        case "minutes":
+        case "minute":
+        case "mins":
+        case "min":
+        case "m":
+          return n * m;
+        case "seconds":
+        case "second":
+        case "secs":
+        case "sec":
+        case "s":
+          return n * s;
+        case "milliseconds":
+        case "millisecond":
+        case "msecs":
+        case "msec":
+        case "ms":
+          return n;
+        default:
+          return void 0;
+      }
+    }
+    function fmtShort(ms) {
+      if (ms >= d) {
+        return Math.round(ms / d) + "d";
+      }
+      if (ms >= h) {
+        return Math.round(ms / h) + "h";
+      }
+      if (ms >= m) {
+        return Math.round(ms / m) + "m";
+      }
+      if (ms >= s) {
+        return Math.round(ms / s) + "s";
+      }
+      return ms + "ms";
+    }
+    function fmtLong(ms) {
+      return plural(ms, d, "day") || plural(ms, h, "hour") || plural(ms, m, "minute") || plural(ms, s, "second") || ms + " ms";
+    }
+    function plural(ms, n, name) {
+      if (ms < n) {
+        return;
+      }
+      if (ms < n * 1.5) {
+        return Math.floor(ms / n) + " " + name;
+      }
+      return Math.ceil(ms / n) + " " + name + "s";
+    }
+  }
+});
+
 // node_modules/finalhandler/node_modules/debug/src/debug.js
 var require_debug2 = __commonJS({
   "node_modules/finalhandler/node_modules/debug/src/debug.js"(exports2, module2) {
@@ -38010,7 +38199,7 @@ var require_debug2 = __commonJS({
     exports2.disable = disable;
     exports2.enable = enable;
     exports2.enabled = enabled;
-    exports2.humanize = require_ms();
+    exports2.humanize = require_ms2();
     exports2.names = [];
     exports2.skips = [];
     exports2.formatters = {};
@@ -38656,15 +38845,113 @@ var require_methods = __commonJS({
   }
 });
 
-// node_modules/debug/src/debug.js
+// node_modules/express/node_modules/ms/index.js
+var require_ms3 = __commonJS({
+  "node_modules/express/node_modules/ms/index.js"(exports2, module2) {
+    var s = 1e3;
+    var m = s * 60;
+    var h = m * 60;
+    var d = h * 24;
+    var y = d * 365.25;
+    module2.exports = function(val, options) {
+      options = options || {};
+      var type = typeof val;
+      if (type === "string" && val.length > 0) {
+        return parse(val);
+      } else if (type === "number" && isNaN(val) === false) {
+        return options.long ? fmtLong(val) : fmtShort(val);
+      }
+      throw new Error("val is not a non-empty string or a valid number. val=" + JSON.stringify(val));
+    };
+    function parse(str) {
+      str = String(str);
+      if (str.length > 100) {
+        return;
+      }
+      var match = /^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(str);
+      if (!match) {
+        return;
+      }
+      var n = parseFloat(match[1]);
+      var type = (match[2] || "ms").toLowerCase();
+      switch (type) {
+        case "years":
+        case "year":
+        case "yrs":
+        case "yr":
+        case "y":
+          return n * y;
+        case "days":
+        case "day":
+        case "d":
+          return n * d;
+        case "hours":
+        case "hour":
+        case "hrs":
+        case "hr":
+        case "h":
+          return n * h;
+        case "minutes":
+        case "minute":
+        case "mins":
+        case "min":
+        case "m":
+          return n * m;
+        case "seconds":
+        case "second":
+        case "secs":
+        case "sec":
+        case "s":
+          return n * s;
+        case "milliseconds":
+        case "millisecond":
+        case "msecs":
+        case "msec":
+        case "ms":
+          return n;
+        default:
+          return void 0;
+      }
+    }
+    function fmtShort(ms) {
+      if (ms >= d) {
+        return Math.round(ms / d) + "d";
+      }
+      if (ms >= h) {
+        return Math.round(ms / h) + "h";
+      }
+      if (ms >= m) {
+        return Math.round(ms / m) + "m";
+      }
+      if (ms >= s) {
+        return Math.round(ms / s) + "s";
+      }
+      return ms + "ms";
+    }
+    function fmtLong(ms) {
+      return plural(ms, d, "day") || plural(ms, h, "hour") || plural(ms, m, "minute") || plural(ms, s, "second") || ms + " ms";
+    }
+    function plural(ms, n, name) {
+      if (ms < n) {
+        return;
+      }
+      if (ms < n * 1.5) {
+        return Math.floor(ms / n) + " " + name;
+      }
+      return Math.ceil(ms / n) + " " + name + "s";
+    }
+  }
+});
+
+// node_modules/express/node_modules/debug/src/debug.js
 var require_debug3 = __commonJS({
-  "node_modules/debug/src/debug.js"(exports2, module2) {
+  "node_modules/express/node_modules/debug/src/debug.js"(exports2, module2) {
     exports2 = module2.exports = createDebug.debug = createDebug["default"] = createDebug;
     exports2.coerce = coerce;
     exports2.disable = disable;
     exports2.enable = enable;
     exports2.enabled = enabled;
-    exports2.humanize = require_ms();
+    exports2.humanize = require_ms3();
     exports2.instances = [];
     exports2.names = [];
     exports2.skips = [];
@@ -38785,9 +39072,9 @@ var require_debug3 = __commonJS({
   }
 });
 
-// node_modules/debug/src/browser.js
+// node_modules/express/node_modules/debug/src/browser.js
 var require_browser3 = __commonJS({
-  "node_modules/debug/src/browser.js"(exports2, module2) {
+  "node_modules/express/node_modules/debug/src/browser.js"(exports2, module2) {
     exports2 = module2.exports = require_debug3();
     exports2.log = log2;
     exports2.formatArgs = formatArgs;
@@ -39057,9 +39344,9 @@ var require_supports_color = __commonJS({
   }
 });
 
-// node_modules/debug/src/node.js
+// node_modules/express/node_modules/debug/src/node.js
 var require_node3 = __commonJS({
-  "node_modules/debug/src/node.js"(exports2, module2) {
+  "node_modules/express/node_modules/debug/src/node.js"(exports2, module2) {
     var tty = require("tty");
     var util = require("util");
     exports2 = module2.exports = require_debug3();
@@ -39230,9 +39517,9 @@ var require_node3 = __commonJS({
   }
 });
 
-// node_modules/debug/src/index.js
+// node_modules/express/node_modules/debug/src/index.js
 var require_src3 = __commonJS({
-  "node_modules/debug/src/index.js"(exports2, module2) {
+  "node_modules/express/node_modules/debug/src/index.js"(exports2, module2) {
     if (typeof process === "undefined" || process.type === "renderer") {
       module2.exports = require_browser3();
     } else {
@@ -42744,6 +43031,574 @@ var require_cookie = __commonJS({
   }
 });
 
+// node_modules/send/node_modules/debug/node_modules/ms/index.js
+var require_ms4 = __commonJS({
+  "node_modules/send/node_modules/debug/node_modules/ms/index.js"(exports2, module2) {
+    var s = 1e3;
+    var m = s * 60;
+    var h = m * 60;
+    var d = h * 24;
+    var y = d * 365.25;
+    module2.exports = function(val, options) {
+      options = options || {};
+      var type = typeof val;
+      if (type === "string" && val.length > 0) {
+        return parse(val);
+      } else if (type === "number" && isNaN(val) === false) {
+        return options.long ? fmtLong(val) : fmtShort(val);
+      }
+      throw new Error("val is not a non-empty string or a valid number. val=" + JSON.stringify(val));
+    };
+    function parse(str) {
+      str = String(str);
+      if (str.length > 100) {
+        return;
+      }
+      var match = /^((?:\d+)?\.?\d+) *(milliseconds?|msecs?|ms|seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|years?|yrs?|y)?$/i.exec(str);
+      if (!match) {
+        return;
+      }
+      var n = parseFloat(match[1]);
+      var type = (match[2] || "ms").toLowerCase();
+      switch (type) {
+        case "years":
+        case "year":
+        case "yrs":
+        case "yr":
+        case "y":
+          return n * y;
+        case "days":
+        case "day":
+        case "d":
+          return n * d;
+        case "hours":
+        case "hour":
+        case "hrs":
+        case "hr":
+        case "h":
+          return n * h;
+        case "minutes":
+        case "minute":
+        case "mins":
+        case "min":
+        case "m":
+          return n * m;
+        case "seconds":
+        case "second":
+        case "secs":
+        case "sec":
+        case "s":
+          return n * s;
+        case "milliseconds":
+        case "millisecond":
+        case "msecs":
+        case "msec":
+        case "ms":
+          return n;
+        default:
+          return void 0;
+      }
+    }
+    function fmtShort(ms) {
+      if (ms >= d) {
+        return Math.round(ms / d) + "d";
+      }
+      if (ms >= h) {
+        return Math.round(ms / h) + "h";
+      }
+      if (ms >= m) {
+        return Math.round(ms / m) + "m";
+      }
+      if (ms >= s) {
+        return Math.round(ms / s) + "s";
+      }
+      return ms + "ms";
+    }
+    function fmtLong(ms) {
+      return plural(ms, d, "day") || plural(ms, h, "hour") || plural(ms, m, "minute") || plural(ms, s, "second") || ms + " ms";
+    }
+    function plural(ms, n, name) {
+      if (ms < n) {
+        return;
+      }
+      if (ms < n * 1.5) {
+        return Math.floor(ms / n) + " " + name;
+      }
+      return Math.ceil(ms / n) + " " + name + "s";
+    }
+  }
+});
+
+// node_modules/send/node_modules/debug/src/debug.js
+var require_debug4 = __commonJS({
+  "node_modules/send/node_modules/debug/src/debug.js"(exports2, module2) {
+    exports2 = module2.exports = createDebug.debug = createDebug["default"] = createDebug;
+    exports2.coerce = coerce;
+    exports2.disable = disable;
+    exports2.enable = enable;
+    exports2.enabled = enabled;
+    exports2.humanize = require_ms4();
+    exports2.instances = [];
+    exports2.names = [];
+    exports2.skips = [];
+    exports2.formatters = {};
+    function selectColor(namespace) {
+      var hash = 0, i;
+      for (i in namespace) {
+        hash = (hash << 5) - hash + namespace.charCodeAt(i);
+        hash |= 0;
+      }
+      return exports2.colors[Math.abs(hash) % exports2.colors.length];
+    }
+    function createDebug(namespace) {
+      var prevTime;
+      function debug() {
+        if (!debug.enabled)
+          return;
+        var self2 = debug;
+        var curr = +new Date();
+        var ms = curr - (prevTime || curr);
+        self2.diff = ms;
+        self2.prev = prevTime;
+        self2.curr = curr;
+        prevTime = curr;
+        var args2 = new Array(arguments.length);
+        for (var i = 0; i < args2.length; i++) {
+          args2[i] = arguments[i];
+        }
+        args2[0] = exports2.coerce(args2[0]);
+        if (typeof args2[0] !== "string") {
+          args2.unshift("%O");
+        }
+        var index = 0;
+        args2[0] = args2[0].replace(/%([a-zA-Z%])/g, function(match, format) {
+          if (match === "%%")
+            return match;
+          index++;
+          var formatter = exports2.formatters[format];
+          if (typeof formatter === "function") {
+            var val = args2[index];
+            match = formatter.call(self2, val);
+            args2.splice(index, 1);
+            index--;
+          }
+          return match;
+        });
+        exports2.formatArgs.call(self2, args2);
+        var logFn = debug.log || exports2.log || console.log.bind(console);
+        logFn.apply(self2, args2);
+      }
+      debug.namespace = namespace;
+      debug.enabled = exports2.enabled(namespace);
+      debug.useColors = exports2.useColors();
+      debug.color = selectColor(namespace);
+      debug.destroy = destroy;
+      if (typeof exports2.init === "function") {
+        exports2.init(debug);
+      }
+      exports2.instances.push(debug);
+      return debug;
+    }
+    function destroy() {
+      var index = exports2.instances.indexOf(this);
+      if (index !== -1) {
+        exports2.instances.splice(index, 1);
+        return true;
+      } else {
+        return false;
+      }
+    }
+    function enable(namespaces) {
+      exports2.save(namespaces);
+      exports2.names = [];
+      exports2.skips = [];
+      var i;
+      var split = (typeof namespaces === "string" ? namespaces : "").split(/[\s,]+/);
+      var len = split.length;
+      for (i = 0; i < len; i++) {
+        if (!split[i])
+          continue;
+        namespaces = split[i].replace(/\*/g, ".*?");
+        if (namespaces[0] === "-") {
+          exports2.skips.push(new RegExp("^" + namespaces.substr(1) + "$"));
+        } else {
+          exports2.names.push(new RegExp("^" + namespaces + "$"));
+        }
+      }
+      for (i = 0; i < exports2.instances.length; i++) {
+        var instance = exports2.instances[i];
+        instance.enabled = exports2.enabled(instance.namespace);
+      }
+    }
+    function disable() {
+      exports2.enable("");
+    }
+    function enabled(name) {
+      if (name[name.length - 1] === "*") {
+        return true;
+      }
+      var i, len;
+      for (i = 0, len = exports2.skips.length; i < len; i++) {
+        if (exports2.skips[i].test(name)) {
+          return false;
+        }
+      }
+      for (i = 0, len = exports2.names.length; i < len; i++) {
+        if (exports2.names[i].test(name)) {
+          return true;
+        }
+      }
+      return false;
+    }
+    function coerce(val) {
+      if (val instanceof Error)
+        return val.stack || val.message;
+      return val;
+    }
+  }
+});
+
+// node_modules/send/node_modules/debug/src/browser.js
+var require_browser4 = __commonJS({
+  "node_modules/send/node_modules/debug/src/browser.js"(exports2, module2) {
+    exports2 = module2.exports = require_debug4();
+    exports2.log = log2;
+    exports2.formatArgs = formatArgs;
+    exports2.save = save;
+    exports2.load = load;
+    exports2.useColors = useColors;
+    exports2.storage = typeof chrome != "undefined" && typeof chrome.storage != "undefined" ? chrome.storage.local : localstorage();
+    exports2.colors = [
+      "#0000CC",
+      "#0000FF",
+      "#0033CC",
+      "#0033FF",
+      "#0066CC",
+      "#0066FF",
+      "#0099CC",
+      "#0099FF",
+      "#00CC00",
+      "#00CC33",
+      "#00CC66",
+      "#00CC99",
+      "#00CCCC",
+      "#00CCFF",
+      "#3300CC",
+      "#3300FF",
+      "#3333CC",
+      "#3333FF",
+      "#3366CC",
+      "#3366FF",
+      "#3399CC",
+      "#3399FF",
+      "#33CC00",
+      "#33CC33",
+      "#33CC66",
+      "#33CC99",
+      "#33CCCC",
+      "#33CCFF",
+      "#6600CC",
+      "#6600FF",
+      "#6633CC",
+      "#6633FF",
+      "#66CC00",
+      "#66CC33",
+      "#9900CC",
+      "#9900FF",
+      "#9933CC",
+      "#9933FF",
+      "#99CC00",
+      "#99CC33",
+      "#CC0000",
+      "#CC0033",
+      "#CC0066",
+      "#CC0099",
+      "#CC00CC",
+      "#CC00FF",
+      "#CC3300",
+      "#CC3333",
+      "#CC3366",
+      "#CC3399",
+      "#CC33CC",
+      "#CC33FF",
+      "#CC6600",
+      "#CC6633",
+      "#CC9900",
+      "#CC9933",
+      "#CCCC00",
+      "#CCCC33",
+      "#FF0000",
+      "#FF0033",
+      "#FF0066",
+      "#FF0099",
+      "#FF00CC",
+      "#FF00FF",
+      "#FF3300",
+      "#FF3333",
+      "#FF3366",
+      "#FF3399",
+      "#FF33CC",
+      "#FF33FF",
+      "#FF6600",
+      "#FF6633",
+      "#FF9900",
+      "#FF9933",
+      "#FFCC00",
+      "#FFCC33"
+    ];
+    function useColors() {
+      if (typeof window !== "undefined" && window.process && window.process.type === "renderer") {
+        return true;
+      }
+      if (typeof navigator !== "undefined" && navigator.userAgent && navigator.userAgent.toLowerCase().match(/(edge|trident)\/(\d+)/)) {
+        return false;
+      }
+      return typeof document !== "undefined" && document.documentElement && document.documentElement.style && document.documentElement.style.WebkitAppearance || typeof window !== "undefined" && window.console && (window.console.firebug || window.console.exception && window.console.table) || typeof navigator !== "undefined" && navigator.userAgent && navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/) && parseInt(RegExp.$1, 10) >= 31 || typeof navigator !== "undefined" && navigator.userAgent && navigator.userAgent.toLowerCase().match(/applewebkit\/(\d+)/);
+    }
+    exports2.formatters.j = function(v) {
+      try {
+        return JSON.stringify(v);
+      } catch (err) {
+        return "[UnexpectedJSONParseError]: " + err.message;
+      }
+    };
+    function formatArgs(args2) {
+      var useColors2 = this.useColors;
+      args2[0] = (useColors2 ? "%c" : "") + this.namespace + (useColors2 ? " %c" : " ") + args2[0] + (useColors2 ? "%c " : " ") + "+" + exports2.humanize(this.diff);
+      if (!useColors2)
+        return;
+      var c = "color: " + this.color;
+      args2.splice(1, 0, c, "color: inherit");
+      var index = 0;
+      var lastC = 0;
+      args2[0].replace(/%[a-zA-Z%]/g, function(match) {
+        if (match === "%%")
+          return;
+        index++;
+        if (match === "%c") {
+          lastC = index;
+        }
+      });
+      args2.splice(lastC, 0, c);
+    }
+    function log2() {
+      return typeof console === "object" && console.log && Function.prototype.apply.call(console.log, console, arguments);
+    }
+    function save(namespaces) {
+      try {
+        if (namespaces == null) {
+          exports2.storage.removeItem("debug");
+        } else {
+          exports2.storage.debug = namespaces;
+        }
+      } catch (e) {
+      }
+    }
+    function load() {
+      var r;
+      try {
+        r = exports2.storage.debug;
+      } catch (e) {
+      }
+      if (!r && typeof process !== "undefined" && "env" in process) {
+        r = process.env.DEBUG;
+      }
+      return r;
+    }
+    exports2.enable(load());
+    function localstorage() {
+      try {
+        return window.localStorage;
+      } catch (e) {
+      }
+    }
+  }
+});
+
+// node_modules/send/node_modules/debug/src/node.js
+var require_node4 = __commonJS({
+  "node_modules/send/node_modules/debug/src/node.js"(exports2, module2) {
+    var tty = require("tty");
+    var util = require("util");
+    exports2 = module2.exports = require_debug4();
+    exports2.init = init;
+    exports2.log = log2;
+    exports2.formatArgs = formatArgs;
+    exports2.save = save;
+    exports2.load = load;
+    exports2.useColors = useColors;
+    exports2.colors = [6, 2, 3, 4, 5, 1];
+    try {
+      supportsColor = require_supports_color();
+      if (supportsColor && supportsColor.level >= 2) {
+        exports2.colors = [
+          20,
+          21,
+          26,
+          27,
+          32,
+          33,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          56,
+          57,
+          62,
+          63,
+          68,
+          69,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          92,
+          93,
+          98,
+          99,
+          112,
+          113,
+          128,
+          129,
+          134,
+          135,
+          148,
+          149,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          178,
+          179,
+          184,
+          185,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          214,
+          215,
+          220,
+          221
+        ];
+      }
+    } catch (err) {
+    }
+    var supportsColor;
+    exports2.inspectOpts = Object.keys(process.env).filter(function(key) {
+      return /^debug_/i.test(key);
+    }).reduce(function(obj, key) {
+      var prop = key.substring(6).toLowerCase().replace(/_([a-z])/g, function(_, k) {
+        return k.toUpperCase();
+      });
+      var val = process.env[key];
+      if (/^(yes|on|true|enabled)$/i.test(val))
+        val = true;
+      else if (/^(no|off|false|disabled)$/i.test(val))
+        val = false;
+      else if (val === "null")
+        val = null;
+      else
+        val = Number(val);
+      obj[prop] = val;
+      return obj;
+    }, {});
+    function useColors() {
+      return "colors" in exports2.inspectOpts ? Boolean(exports2.inspectOpts.colors) : tty.isatty(process.stderr.fd);
+    }
+    exports2.formatters.o = function(v) {
+      this.inspectOpts.colors = this.useColors;
+      return util.inspect(v, this.inspectOpts).split("\n").map(function(str) {
+        return str.trim();
+      }).join(" ");
+    };
+    exports2.formatters.O = function(v) {
+      this.inspectOpts.colors = this.useColors;
+      return util.inspect(v, this.inspectOpts);
+    };
+    function formatArgs(args2) {
+      var name = this.namespace;
+      var useColors2 = this.useColors;
+      if (useColors2) {
+        var c = this.color;
+        var colorCode = "[3" + (c < 8 ? c : "8;5;" + c);
+        var prefix = "  " + colorCode + ";1m" + name + " [0m";
+        args2[0] = prefix + args2[0].split("\n").join("\n" + prefix);
+        args2.push(colorCode + "m+" + exports2.humanize(this.diff) + "[0m");
+      } else {
+        args2[0] = getDate() + name + " " + args2[0];
+      }
+    }
+    function getDate() {
+      if (exports2.inspectOpts.hideDate) {
+        return "";
+      } else {
+        return new Date().toISOString() + " ";
+      }
+    }
+    function log2() {
+      return process.stderr.write(util.format.apply(util, arguments) + "\n");
+    }
+    function save(namespaces) {
+      if (namespaces == null) {
+        delete process.env.DEBUG;
+      } else {
+        process.env.DEBUG = namespaces;
+      }
+    }
+    function load() {
+      return process.env.DEBUG;
+    }
+    function init(debug) {
+      debug.inspectOpts = {};
+      var keys = Object.keys(exports2.inspectOpts);
+      for (var i = 0; i < keys.length; i++) {
+        debug.inspectOpts[keys[i]] = exports2.inspectOpts[keys[i]];
+      }
+    }
+    exports2.enable(load());
+  }
+});
+
+// node_modules/send/node_modules/debug/src/index.js
+var require_src4 = __commonJS({
+  "node_modules/send/node_modules/debug/src/index.js"(exports2, module2) {
+    if (typeof process === "undefined" || process.type === "renderer") {
+      module2.exports = require_browser4();
+    } else {
+      module2.exports = require_node4();
+    }
+  }
+});
+
 // node_modules/destroy/index.js
 var require_destroy = __commonJS({
   "node_modules/destroy/index.js"(exports2, module2) {
@@ -42779,7 +43634,7 @@ var require_destroy = __commonJS({
 });
 
 // node_modules/send/node_modules/ms/index.js
-var require_ms2 = __commonJS({
+var require_ms5 = __commonJS({
   "node_modules/send/node_modules/ms/index.js"(exports2, module2) {
     var s = 1e3;
     var m = s * 60;
@@ -42895,7 +43750,7 @@ var require_send = __commonJS({
   "node_modules/send/index.js"(exports2, module2) {
     "use strict";
     var createError = require_http_errors();
-    var debug = require_src3()("send");
+    var debug = require_src4()("send");
     var destroy = require_destroy();
     var encodeUrl = require_encodeurl();
     var escapeHtml = require_escape_html();
@@ -42903,7 +43758,7 @@ var require_send = __commonJS({
     var fresh = require_fresh();
     var fs = require("fs");
     var mime2 = require_mime_types();
-    var ms = require_ms2();
+    var ms = require_ms5();
     var onFinished = require_on_finished();
     var parseRange = require_range_parser();
     var path2 = require("path");
@@ -45379,12 +46234,13 @@ __export(exports, {
 var import_obsidian2 = __toModule(require("obsidian"));
 var https = __toModule(require("https"));
 var http2 = __toModule(require("http"));
-var import_node_forge = __toModule(require_lib());
+var import_node_forge2 = __toModule(require_lib());
 
 // src/requestHandler.ts
 var import_obsidian = __toModule(require("obsidian"));
 var import_obsidian_daily_notes_interface = __toModule(require_main());
 var import_obsidian_dataview = __toModule(require_lib2());
+var import_node_forge = __toModule(require_lib());
 var import_express = __toModule(require_express2());
 var import_http = __toModule(require("http"));
 var import_cors = __toModule(require_lib5());
@@ -45399,7 +46255,7 @@ var import_path = __toModule(require("path"));
 // src/types.ts
 var ErrorCode;
 (function(ErrorCode2) {
-  ErrorCode2[ErrorCode2["TextOrByteContentEncodingRequired"] = 40010] = "TextOrByteContentEncodingRequired";
+  ErrorCode2[ErrorCode2["TextContentEncodingRequired"] = 40010] = "TextContentEncodingRequired";
   ErrorCode2[ErrorCode2["ContentTypeSpecificationRequired"] = 40011] = "ContentTypeSpecificationRequired";
   ErrorCode2[ErrorCode2["InvalidContentForContentType"] = 40015] = "InvalidContentForContentType";
   ErrorCode2[ErrorCode2["InvalidContentInsertionPositionValue"] = 40050] = "InvalidContentInsertionPositionValue";
@@ -45453,6 +46309,34 @@ function getSplicePosition(fileLines, heading, insert, ignoreNewLines) {
   }
   return splicePosition;
 }
+function toArrayBuffer(arr) {
+  if (arr instanceof Uint8Array) {
+    return arr.buffer.slice(arr.byteOffset, arr.byteOffset + arr.byteLength);
+  }
+  if (arr instanceof DataView) {
+    return arr.buffer.slice(arr.byteOffset, arr.byteOffset + arr.byteLength);
+  }
+  if (arr instanceof ArrayBuffer) {
+    return arr;
+  }
+  const encoder = new TextEncoder();
+  return encoder.encode(JSON.stringify(arr)).buffer;
+}
+function getCertificateValidityDays(certificate) {
+  return (certificate.validity.notAfter.getTime() - new Date().getTime()) / (1e3 * 3600 * 24);
+}
+function getCertificateIsUptoStandards(certificate) {
+  const extension = certificate.getExtension("subjectAltName");
+  let hasStandardsFlaw = false;
+  if (extension && extension.altNames) {
+    extension.altNames.forEach((altName) => {
+      if (altName.type === 7 && altName.value === "\0\0\0\0") {
+        hasStandardsFlaw = true;
+      }
+    });
+  }
+  return !hasStandardsFlaw;
+}
 
 // src/constants.ts
 var CERT_NAME = "obsidian-local-rest-api.crt";
@@ -45472,7 +46356,7 @@ var ERROR_CODE_MESSAGES = {
   [ErrorCode.PeriodIsNotEnabled]: "Specified period is not enabled.",
   [ErrorCode.PeriodicNoteDoesNotExist]: "Periodic note does not exist for the specified period.",
   [ErrorCode.RequestMethodValidOnlyForFiles]: "Request method is valid only for file paths, not directories.",
-  [ErrorCode.TextOrByteContentEncodingRequired]: "Incoming content must be sent with a bytes or text content encoding.  Be sure to set a Content-type header matching application/* or text/*.",
+  [ErrorCode.TextContentEncodingRequired]: "Incoming content must be text data and have an appropriate text/* Content-type header set (e.g. text/markdown).",
   [ErrorCode.InvalidFilterQuery]: "The query you provided could not be processed."
 };
 var ContentTypes;
@@ -45486,6 +46370,7 @@ var ContentTypes;
 var DefaultBearerTokenHeaderName = "Authorization";
 var DefaultBindingHost = "127.0.0.1";
 var LicenseUrl = "https://raw.githubusercontent.com/coddingtonbear/obsidian-local-rest-api/main/LICENSE";
+var MaximumRequestSize = "1024mb";
 
 // src/requestHandler.ts
 var RequestHandler = class {
@@ -45538,7 +46423,7 @@ var RequestHandler = class {
       delete frontmatter.position;
       const directTags = (_c = ((_b = cache.tags) != null ? _b : []).map((tag) => tag.tag)) != null ? _c : [];
       const frontmatterTags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
-      const filteredTags = [...frontmatterTags, ...directTags].map((tag) => tag.replace(/^#/, "")).filter((value, index, self2) => self2.indexOf(value) === index);
+      const filteredTags = [...frontmatterTags, ...directTags].map((tag) => tag.toString().replace(/^#/, "")).filter((value, index, self2) => self2.indexOf(value) === index);
       return {
         tags: filteredTags,
         frontmatter,
@@ -45553,7 +46438,7 @@ var RequestHandler = class {
     message: message2,
     errorCode
   }) {
-    let errorMessages = [];
+    const errorMessages = [];
     if (errorCode) {
       errorMessages.push(ERROR_CODE_MESSAGES[errorCode]);
     } else {
@@ -45578,6 +46463,11 @@ var RequestHandler = class {
     res.status(this.getStatusCode({ statusCode, errorCode })).json(response);
   }
   root(req, res) {
+    let certificate;
+    try {
+      certificate = import_node_forge.default.pki.certificateFromPem(this.settings.crypto.cert);
+    } catch (e) {
+    }
     res.status(200).json({
       status: "OK",
       versions: {
@@ -45585,7 +46475,11 @@ var RequestHandler = class {
         self: this.manifest.version
       },
       service: "Obsidian Local REST API",
-      authenticated: this.requestIsAuthenticated(req)
+      authenticated: this.requestIsAuthenticated(req),
+      certificateInfo: this.requestIsAuthenticated(req) && certificate ? {
+        validityDays: getCertificateValidityDays(certificate),
+        regenerateRecommended: !getCertificateIsUptoStandards(certificate)
+      } : void 0
     });
   }
   _vaultGet(path2, req, res) {
@@ -45647,17 +46541,15 @@ var RequestHandler = class {
         });
         return;
       }
-      if (typeof req.body != "string") {
-        this.returnCannedResponse(res, {
-          errorCode: ErrorCode.TextOrByteContentEncodingRequired
-        });
-        return;
-      }
       try {
         yield this.app.vault.createFolder(import_path.default.dirname(filepath));
       } catch (e) {
       }
-      yield this.app.vault.adapter.write(filepath, req.body);
+      if (typeof req.body === "string") {
+        yield this.app.vault.adapter.write(filepath, req.body);
+      } else {
+        yield this.app.vault.adapter.writeBinary(filepath, toArrayBuffer(req.body));
+      }
       this.returnCannedResponse(res, { statusCode: 204 });
       return;
     });
@@ -45695,7 +46587,7 @@ var RequestHandler = class {
       }
       if (typeof req.body != "string") {
         this.returnCannedResponse(res, {
-          errorCode: ErrorCode.TextOrByteContentEncodingRequired
+          errorCode: ErrorCode.TextContentEncodingRequired
         });
         return;
       }
@@ -45748,7 +46640,7 @@ var RequestHandler = class {
       }
       if (typeof req.body != "string") {
         this.returnCannedResponse(res, {
-          errorCode: ErrorCode.TextOrByteContentEncodingRequired
+          errorCode: ErrorCode.TextContentEncodingRequired
         });
         return;
       }
@@ -45864,7 +46756,8 @@ var RequestHandler = class {
   }
   periodicGetOrCreateNote(periodName) {
     return __async(this, null, function* () {
-      let [file, err] = this.periodicGetNote(periodName);
+      const [gottenFile, err] = this.periodicGetNote(periodName);
+      let file = gottenFile;
       if (err === ErrorCode.PeriodicNoteDoesNotExist) {
         const [period] = this.periodicGetInterface(periodName);
         const now = window.moment(Date.now());
@@ -46035,47 +46928,6 @@ var RequestHandler = class {
       res.json(results);
     });
   }
-  searchGuiPost(req, res) {
-    return __async(this, null, function* () {
-      var _a;
-      const results = [];
-      const query = req.query.query;
-      const contextLength = (_a = parseInt(req.query.contextLength, 10)) != null ? _a : 100;
-      this.app.internalPlugins.getPluginById("global-search").instance.openGlobalSearch(query);
-      const searchDom = this.app.workspace.getLeavesOfType("search")[0].view.dom;
-      yield new Promise((resolve) => {
-        setTimeout(() => {
-          if (!searchDom.working) {
-            resolve();
-            return;
-          }
-          const interval = setInterval(() => {
-            if (!searchDom.working) {
-              clearInterval(interval);
-              resolve();
-            }
-          }, 2e3);
-        }, 100);
-      });
-      for (const result of searchDom.children) {
-        const matches = [];
-        for (const match of result.result.content) {
-          matches.push({
-            match: {
-              start: match[0],
-              end: match[1]
-            },
-            context: result.content.slice(Math.max(match[0] - contextLength, 0), match[1] + contextLength)
-          });
-        }
-        results.push({
-          filename: result.file.path,
-          matches
-        });
-      }
-      res.json(results);
-    });
-  }
   valueIsSaneTruthy(value) {
     if (value === void 0 || value === null) {
       return false;
@@ -46193,15 +47045,32 @@ var RequestHandler = class {
     });
   }
   setupRouter() {
+    this.api.use((req, res, next) => {
+      const originalSend = res.send;
+      res.send = function(body, ...args2) {
+        console.log(`[REST API] ${req.method} ${req.url} => ${res.statusCode}`);
+        return originalSend.apply(res, [body, ...args2]);
+      };
+      next();
+    });
     this.api.use((0, import_response_time.default)());
     this.api.use((0, import_cors.default)());
     this.api.use(this.authenticationMiddleware.bind(this));
-    this.api.use(import_body_parser.default.text({ type: "text/*" }));
-    this.api.use(import_body_parser.default.text({ type: ContentTypes.dataviewDql }));
-    this.api.use(import_body_parser.default.json({ type: ContentTypes.json }));
-    this.api.use(import_body_parser.default.json({ type: ContentTypes.olrapiNoteJson }));
-    this.api.use(import_body_parser.default.json({ type: ContentTypes.jsonLogic }));
-    this.api.use(import_body_parser.default.raw({ type: "application/*" }));
+    this.api.use(import_body_parser.default.text({ type: "text/*", limit: MaximumRequestSize }));
+    this.api.use(import_body_parser.default.text({
+      type: ContentTypes.dataviewDql,
+      limit: MaximumRequestSize
+    }));
+    this.api.use(import_body_parser.default.json({ type: ContentTypes.json, limit: MaximumRequestSize }));
+    this.api.use(import_body_parser.default.json({
+      type: ContentTypes.olrapiNoteJson,
+      limit: MaximumRequestSize
+    }));
+    this.api.use(import_body_parser.default.json({
+      type: ContentTypes.jsonLogic,
+      limit: MaximumRequestSize
+    }));
+    this.api.use(import_body_parser.default.raw({ type: "*/*", limit: MaximumRequestSize }));
     this.api.route("/active/").get(this.activeFileGet.bind(this)).put(this.activeFilePut.bind(this)).patch(this.activeFilePatch.bind(this)).post(this.activeFilePost.bind(this)).delete(this.activeFileDelete.bind(this));
     this.api.route("/vault/(.*)").get(this.vaultGet.bind(this)).put(this.vaultPut.bind(this)).patch(this.vaultPatch.bind(this)).post(this.vaultPost.bind(this)).delete(this.vaultDelete.bind(this));
     this.api.route("/periodic/:period/").get(this.periodicGet.bind(this)).put(this.periodicPut.bind(this)).patch(this.periodicPatch.bind(this)).post(this.periodicPost.bind(this)).delete(this.periodicDelete.bind(this));
@@ -46209,7 +47078,6 @@ var RequestHandler = class {
     this.api.route("/commands/:commandId/").post(this.commandPost.bind(this));
     this.api.route("/search/").post(this.searchQueryPost.bind(this));
     this.api.route("/search/simple/").post(this.searchSimplePost.bind(this));
-    this.api.route("/search/gui/").post(this.searchGuiPost.bind(this));
     this.api.route("/open/(.*)").post(this.openPost.bind(this));
     this.api.get(`/${CERT_NAME}`, this.certificateGet.bind(this));
     this.api.get("/", this.root.bind(this));
@@ -46227,36 +47095,64 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
   }
   onload() {
     return __async(this, null, function* () {
-      var _a;
       this.refreshServerState = this.debounce(this._refreshServerState.bind(this), 1e3);
       yield this.loadSettings();
       this.requestHandler = new RequestHandler(this.app, this.manifest, this.settings);
       this.requestHandler.setupRouter();
       if (!this.settings.apiKey) {
-        this.settings.apiKey = import_node_forge.default.md.sha256.create().update(import_node_forge.default.random.getBytesSync(128)).digest().toHex();
+        this.settings.apiKey = import_node_forge2.default.md.sha256.create().update(import_node_forge2.default.random.getBytesSync(128)).digest().toHex();
         this.saveSettings();
       }
       if (!this.settings.crypto) {
         const expiry = new Date();
         const today = new Date();
         expiry.setDate(today.getDate() + 365);
-        const keypair = import_node_forge.default.pki.rsa.generateKeyPair(2048);
-        const attrs = [{ name: "commonName", value: "Obsidian Local REST API" }];
-        const certificate = import_node_forge.default.pki.createCertificate();
+        const keypair = import_node_forge2.default.pki.rsa.generateKeyPair(2048);
+        const attrs = [
+          {
+            name: "commonName",
+            value: "Obsidian Local REST API"
+          }
+        ];
+        const certificate = import_node_forge2.default.pki.createCertificate();
         certificate.setIssuer(attrs);
         certificate.setSubject(attrs);
+        const subjectAltNames = [
+          {
+            type: 7,
+            ip: DefaultBindingHost
+          }
+        ];
+        if (this.settings.bindingHost && this.settings.bindingHost !== "0.0.0.0") {
+          subjectAltNames.push({
+            type: 7,
+            ip: this.settings.bindingHost
+          });
+        }
+        if (this.settings.subjectAltNames) {
+          for (const name of this.settings.subjectAltNames.split("\n")) {
+            if (name.trim()) {
+              subjectAltNames.push({
+                type: 2,
+                value: name.trim()
+              });
+            }
+          }
+        }
         certificate.setExtensions([
           {
             name: "basicConstraints",
-            cA: true
+            cA: true,
+            critical: true
           },
           {
             name: "keyUsage",
             keyCertSign: true,
             digitalSignature: true,
             nonRepudiation: true,
-            keyEncipherment: true,
-            dataEncipherment: true
+            keyEncipherment: false,
+            dataEncipherment: false,
+            critical: true
           },
           {
             name: "extKeyUsage",
@@ -46278,23 +47174,18 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
           },
           {
             name: "subjectAltName",
-            altNames: [
-              {
-                type: 7,
-                ip: (_a = this.settings.bindingHost) != null ? _a : DefaultBindingHost
-              }
-            ]
+            altNames: subjectAltNames
           }
         ]);
         certificate.serialNumber = "1";
         certificate.publicKey = keypair.publicKey;
         certificate.validity.notAfter = expiry;
         certificate.validity.notBefore = today;
-        certificate.sign(keypair.privateKey, import_node_forge.default.md.sha256.create());
+        certificate.sign(keypair.privateKey, import_node_forge2.default.md.sha256.create());
         this.settings.crypto = {
-          cert: import_node_forge.pki.certificateToPem(certificate),
-          privateKey: import_node_forge.pki.privateKeyToPem(keypair.privateKey),
-          publicKey: import_node_forge.pki.publicKeyToPem(keypair.publicKey)
+          cert: import_node_forge2.pki.certificateToPem(certificate),
+          privateKey: import_node_forge2.pki.privateKeyToPem(keypair.privateKey),
+          publicKey: import_node_forge2.pki.publicKeyToPem(keypair.publicKey)
         };
         this.saveSettings();
       }
@@ -46310,22 +47201,27 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
     };
   }
   _refreshServerState() {
-    var _a, _b, _c, _d;
+    var _a, _b, _c, _d, _e;
     if (this.secureServer) {
       this.secureServer.close();
       this.secureServer = null;
     }
-    this.secureServer = https.createServer({ key: this.settings.crypto.privateKey, cert: this.settings.crypto.cert }, this.requestHandler.api);
-    this.secureServer.listen(this.settings.port, (_a = this.settings.bindingHost) != null ? _a : DefaultBindingHost);
-    console.log(`REST API listening on https://${(_b = this.settings.bindingHost) != null ? _b : DefaultBindingHost}:${this.settings.port}/`);
+    if ((_a = this.settings.enableSecureServer) != null ? _a : true) {
+      this.secureServer = https.createServer({
+        key: this.settings.crypto.privateKey,
+        cert: this.settings.crypto.cert
+      }, this.requestHandler.api);
+      this.secureServer.listen(this.settings.port, (_b = this.settings.bindingHost) != null ? _b : DefaultBindingHost);
+      console.log(`[REST API] Listening on https://${(_c = this.settings.bindingHost) != null ? _c : DefaultBindingHost}:${this.settings.port}/`);
+    }
     if (this.insecureServer) {
       this.insecureServer.close();
       this.insecureServer = null;
     }
     if (this.settings.enableInsecureServer) {
       this.insecureServer = http2.createServer(this.requestHandler.api);
-      this.insecureServer.listen(this.settings.insecurePort, (_c = this.settings.bindingHost) != null ? _c : DefaultBindingHost);
-      console.log(`REST API listening on http://${(_d = this.settings.bindingHost) != null ? _d : DefaultBindingHost}:${this.settings.insecurePort}/`);
+      this.insecureServer.listen(this.settings.insecurePort, (_d = this.settings.bindingHost) != null ? _d : DefaultBindingHost);
+      console.log(`[REST API] Listening on http://${(_e = this.settings.bindingHost) != null ? _e : DefaultBindingHost}:${this.settings.insecurePort}/`);
     }
   }
   onunload() {
@@ -46356,6 +47252,9 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
   display() {
     var _a;
     const { containerEl } = this;
+    const parsedCertificate = import_node_forge2.default.pki.certificateFromPem(this.plugin.settings.crypto.cert);
+    const remainingCertificateValidityDays = getCertificateValidityDays(parsedCertificate);
+    const shouldRegenerateCertificate = !getCertificateIsUptoStandards(parsedCertificate);
     containerEl.empty();
     containerEl.classList.add("obsidian-local-rest-api-settings");
     const apiKeyDiv = containerEl.createEl("div");
@@ -46385,24 +47284,48 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
     importCert.createEl("span", {
       text: " to use it for validating your connection's security by adding it as a trusted certificate authority in the browser or tool you are using for interacting with this API."
     });
-    new import_obsidian2.Setting(containerEl).setName("Encrypted (HTTPS) Server Port").setDesc("This configures the port on which your REST API will listen for HTTPS connections.  It is recommended that you leave this port with its default setting as tools integrating with this API may expect the default port to be in use.  Under no circumstances is it recommended that you expose this service directly to the internet.").addText((cb) => cb.onChange((value) => {
-      this.plugin.settings.port = parseInt(value, 10);
-      this.plugin.saveSettings();
-      this.plugin.refreshServerState();
-    }).setValue(this.plugin.settings.port.toString()));
+    if (remainingCertificateValidityDays < 0) {
+      const expiredCertDiv = apiKeyDiv.createEl("div");
+      expiredCertDiv.classList.add("certificate-expired");
+      expiredCertDiv.innerHTML = `
+        <b>Your certificate has expired!</b>
+        You must re-generate your certificate below by pressing
+        the "Re-generate Certificates" button below in
+        order to connect securely to this API.
+      `;
+    } else if (remainingCertificateValidityDays < 30) {
+      const soonExpiringCertDiv = apiKeyDiv.createEl("div");
+      soonExpiringCertDiv.classList.add("certificate-expiring-soon");
+      soonExpiringCertDiv.innerHTML = `
+        <b>Your certificate will expire in ${Math.floor(remainingCertificateValidityDays)} day${Math.floor(remainingCertificateValidityDays) === 1 ? "" : "s"}s!</b>
+        You should re-generate your certificate below by pressing
+        the "Re-generate Certificates" button below in
+        order to continue to connect securely to this API.
+      `;
+    }
+    if (shouldRegenerateCertificate) {
+      const shouldRegenerateCertificateDiv = apiKeyDiv.createEl("div");
+      shouldRegenerateCertificateDiv.classList.add("certificate-regeneration-recommended");
+      shouldRegenerateCertificateDiv.innerHTML = `
+        <b>You should re-generate your certificate!</b>
+        Your certificate was generated using earlier standards than
+        are currently used by Obsidian Local REST API. Some systems
+        or tools may not accept your certificate with its current
+        configuration, and re-generating your certificate may
+        improve compatibility with such tools.  To re-generate your
+        certificate, press the "Re-generate Certificates" button
+        below.
+      `;
+    }
     new import_obsidian2.Setting(containerEl).setName("Enable Non-encrypted (HTTP) Server").setDesc("Enables a non-encrypted (HTTP) server on the port designated below.  By default this plugin requires a secure HTTPS connection, but in safe environments you may turn on the non-encrypted server to simplify interacting with the API. Interactions with the API will still require the API Key shown above.  Under no circumstances is it recommended that you expose this service to the internet, especially if you turn on this feature!").addToggle((cb) => cb.onChange((value) => {
       this.plugin.settings.enableInsecureServer = value;
       this.plugin.saveSettings();
       this.plugin.refreshServerState();
     }).setValue(this.plugin.settings.enableInsecureServer));
-    new import_obsidian2.Setting(containerEl).setName("Non-encrypted (HTTP) Server Port").addText((cb) => cb.onChange((value) => {
-      this.plugin.settings.insecurePort = parseInt(value, 10);
-      this.plugin.saveSettings();
-      this.plugin.refreshServerState();
-    }).setValue(this.plugin.settings.insecurePort.toString()));
-    new import_obsidian2.Setting(containerEl).setName("Reset Cryptography").setDesc(`Pressing this button will cause your certificate,
-        private and public keys, and API key to be regenerated.`).addButton((cb) => {
-      cb.setWarning().setButtonText("Reset Crypo").onClick(() => {
+    new import_obsidian2.Setting(containerEl).setName("Reset All Cryptography").setDesc(`Pressing this button will cause your certificate,
+        private key, public key, and API key to be regenerated.
+        This settings panel will be closed when you press this.`).addButton((cb) => {
+      cb.setWarning().setButtonText("Reset All Crypto").onClick(() => {
         delete this.plugin.settings.apiKey;
         delete this.plugin.settings.crypto;
         this.plugin.saveSettings();
@@ -46410,8 +47333,19 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
         this.plugin.load();
       });
     });
+    new import_obsidian2.Setting(containerEl).setName("Re-generate Certificates").setDesc(`Pressing this button will cause your certificate,
+        private key,  and public key to be re-generated, but your API key will remain unchanged. 
+        This settings panel will be closed when you press this.`).addButton((cb) => {
+      cb.setWarning().setButtonText("Re-generate Certificates").onClick(() => {
+        delete this.plugin.settings.crypto;
+        this.plugin.saveSettings();
+        this.plugin.unload();
+        this.plugin.load();
+      });
+    });
     new import_obsidian2.Setting(containerEl).setName("Restore Default Settings").setDesc(`Pressing this button will reset this plugin's
-        settings to defaults.`).addButton((cb) => {
+        settings to defaults.
+        This settings panel will be closed when you press this.`).addButton((cb) => {
       cb.setWarning().setButtonText("Restore Defaults").onClick(() => {
         this.plugin.settings = Object.assign({}, DEFAULT_SETTINGS);
         this.plugin.saveSettings();
@@ -46455,6 +47389,28 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
         text: LicenseUrl
       });
       noWarrantee.createEl("span", { text: "." });
+      new import_obsidian2.Setting(containerEl).setName("Enable Encrypted (HTTPs) Server").setDesc(`
+          This controls whether the HTTPs server is enabled.  You almost certainly want to leave this switch in its default state ('on'),
+          but may find it useful to turn this switch off for
+          troubleshooting.
+        `).addToggle((cb) => {
+        var _a2;
+        return cb.onChange((value) => {
+          this.plugin.settings.enableSecureServer = value;
+          this.plugin.saveSettings();
+          this.plugin.refreshServerState();
+        }).setValue((_a2 = this.plugin.settings.enableSecureServer) != null ? _a2 : true);
+      });
+      new import_obsidian2.Setting(containerEl).setName("Encrypted (HTTPS) Server Port").setDesc("This configures the port on which your REST API will listen for HTTPS connections.  It is recommended that you leave this port with its default setting as tools integrating with this API may expect the default port to be in use.  Under no circumstances is it recommended that you expose this service directly to the internet.").addText((cb) => cb.onChange((value) => {
+        this.plugin.settings.port = parseInt(value, 10);
+        this.plugin.saveSettings();
+        this.plugin.refreshServerState();
+      }).setValue(this.plugin.settings.port.toString()));
+      new import_obsidian2.Setting(containerEl).setName("Non-encrypted (HTTP) Server Port").addText((cb) => cb.onChange((value) => {
+        this.plugin.settings.insecurePort = parseInt(value, 10);
+        this.plugin.saveSettings();
+        this.plugin.refreshServerState();
+      }).setValue(this.plugin.settings.insecurePort.toString()));
       new import_obsidian2.Setting(containerEl).setName("API Key").addText((cb) => {
         cb.onChange((value) => {
           this.plugin.settings.apiKey = value;
@@ -46462,6 +47418,19 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
           this.plugin.refreshServerState();
         }).setValue(this.plugin.settings.apiKey);
       });
+      new import_obsidian2.Setting(containerEl).setName("Certificate Hostnames").setDesc(`
+          List of extra hostnames to add
+          to your certificate's \`subjectAltName\` field.
+          One hostname per line.
+          You must click the "Re-generate Certificates" button above after changing this value
+          for this to have an effect.  This is useful for
+          situations in which you are accessing Obsidian
+          from a hostname other than the host on which
+          it is running.
+      `).addTextArea((cb) => cb.onChange((value) => {
+        this.plugin.settings.subjectAltNames = value;
+        this.plugin.saveSettings();
+      }).setValue(this.plugin.settings.subjectAltNames));
       new import_obsidian2.Setting(containerEl).setName("Certificate").addTextArea((cb) => cb.onChange((value) => {
         this.plugin.settings.crypto.cert = value;
         this.plugin.saveSettings();

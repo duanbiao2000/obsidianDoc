@@ -4,7 +4,7 @@ date:
 url: https://www.bilibili.com/video/BV18a411C74j/?p=6&spm_id_from=pageDriver&vd_source=7038f96b6bb3b14743531b102b109c43
 page-title: 
 tags:
-  - "#设计模式"
+  - "#算法"
 established: 2023-10-22T12:01:00
 updated: 
 isFinished: false

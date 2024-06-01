@@ -6,7 +6,7 @@ aliases:
 links:
 title:
 origin:
-tags: #flashcards #todo #bookStatusOnreading 
+tags: #flashcards #todo #Current 
 
 只要熟悉原生 JavaScript 并了解重要概念后，就可以很容易上手 React 应用开发。
 

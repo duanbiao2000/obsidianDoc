@@ -6,7 +6,7 @@ page-title: Build and Deploy a Full Stack Realtime Chat Messaging App with NextJ
 tags:
   - flashcards
   - todo
-  - bookStatusOnreading
+  - Current
 ---
 ![(88) Build and Deploy a Full Stack Realtime Chat Messaging App with NextJS 13 - YouTube](https://www.youtube.com/watch?v=NlXfg5Pxxh8)
 

@@ -1,56 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "AI工具",
-      "path": "工具/AI工具.md"
+      "basename": "获取人工智能领域最新前沿资讯",
+      "path": "Writng/获取人工智能领域最新前沿资讯.md"
     },
     {
-      "basename": "每日新知0428",
-      "path": "周月总结/202404/每日新知0428.md"
+      "basename": "CS自学指南",
+      "path": "Writng/CS自学指南.md"
+    },
+    {
+      "basename": "图形思考",
+      "path": "影音读/书本通读/非技术类/图形思考.md"
+    },
+    {
+      "basename": "1分鐘超強記憶法",
+      "path": "影音读/书本通读/非技术类/1分鐘超強記憶法.md"
+    },
+    {
+      "basename": "分类记忆",
+      "path": "IELTS/生词理解/分类记忆.md"
+    },
+    {
+      "basename": "模型思维",
+      "path": "影音读/书本通读/非技术类/模型思维.md"
+    },
+    {
+      "basename": "拓展认知的方法",
+      "path": "Writng/认知科学/拓展认知的方法.md"
+    },
+    {
+      "basename": "themedatetagsstatus",
+      "path": "001-Template/Templater/themedatetagsstatus.md"
+    },
+    {
+      "basename": "影视后期特效制作理论与实践",
+      "path": "Writng/剪辑/影视后期特效制作理论与实践.md"
+    },
+    {
+      "basename": "Kimi生词助记G-O",
+      "path": "IELTS/生词理解/Kimi生词助记G-O.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Writng/剪辑/Untitled.md"
+    },
+    {
+      "basename": "Media Note - 每天一个电影镜头",
+      "path": "Writng/剪辑/Media Note - 每天一个电影镜头.md"
+    },
+    {
+      "basename": "2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客",
+      "path": "Writng/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md"
+    },
+    {
+      "basename": "设计色彩搭配",
+      "path": "Writng/剪辑/设计色彩搭配.md"
+    },
+    {
+      "basename": "计算机工程师必备工具",
+      "path": "AI/工具/计算机工程师必备工具.md"
+    },
+    {
+      "basename": "使用CSS、JavaScript和Python创建网站的指南",
+      "path": "AI/Python/使用CSS、JavaScript和Python创建网站的指南.md"
     },
     {
       "basename": "流行词",
-      "path": "ChatGPT/流行词.md"
+      "path": "AI/ChatGPT/流行词.md"
     },
     {
-      "basename": "每日新知0427",
-      "path": "周月总结/202404/每日新知0427.md"
+      "basename": "梳理",
+      "path": "AI/ChatGPT/梳理.md"
     },
     {
-      "basename": "4月月报",
-      "path": "周月总结/202404/4月月报.md"
+      "basename": "Tags Index",
+      "path": "000-index/Tags Index.md"
     },
     {
-      "basename": "每日新知0426",
-      "path": "周月总结/202404/每日新知0426.md"
+      "basename": "5%的改变",
+      "path": "影音读/得到听书/5%的改变.md"
     },
     {
-      "basename": "时间线设计",
-      "path": "周月总结/时间线设计.md"
+      "basename": "认知资源",
+      "path": "Writng/认知科学/认知资源.md"
     },
     {
-      "basename": "202312",
-      "path": "周月总结/202312.md"
+      "basename": "抽象思维",
+      "path": "Writng/认知科学/抽象思维.md"
     },
     {
-      "basename": "技术雷达",
-      "path": "社区/技术雷达.md"
+      "basename": "元认知",
+      "path": "Writng/认知科学/元认知.md"
     },
     {
-      "basename": "React设计模式与最佳实践 (米凯莱 贝尔托利 林昊) (Z-Library).pdf",
-      "path": "100-SlipBox/110-FleetingBox/React设计模式与最佳实践 (米凯莱 贝尔托利 林昊) (Z-Library).pdf.md"
+      "basename": "五维思考法",
+      "path": "Writng/认知科学/五维思考法.md"
     },
     {
-      "basename": "React设计模式与最佳实践",
-      "path": "100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md"
+      "basename": "试用报告",
+      "path": "Writng/杭州AI换衣/试用报告.md"
     },
     {
-      "basename": "API设计模式",
-      "path": "100-SlipBox/110-FleetingBox/API设计模式.md"
+      "basename": "Untitled",
+      "path": "Writng/杭州AI换衣/Untitled.md"
     },
     {
-      "basename": "Pasted image 20240222175333",
-      "path": "images/Pasted image 20240222175333.png"
+      "basename": "getIdeas",
+      "path": "textgenerator/prompts/default/getIdeas.md"
+    },
+    {
+      "basename": "SELECT子句顺序",
+      "path": "SQL/SELECT子句顺序.md"
+    },
+    {
+      "basename": "SELECT子句顺序",
+      "path": "BackEnd/SQL/SELECT子句顺序.md"
+    },
+    {
+      "basename": "Effective系列JS篇",
+      "path": "前端开发/JavaScript/Effective系列JS篇.md"
+    },
+    {
+      "basename": "CodeWithMosh",
+      "path": "影音读/CodeWithMosh.md"
+    },
+    {
+      "basename": "getEmailPos",
+      "path": "textgenerator/prompts/default/getEmailPos.md"
+    },
+    {
+      "basename": "论文专家",
+      "path": "AI/Coze/论文专家.md"
+    },
+    {
+      "basename": "大数据技术体系概览",
+      "path": "影音读/大数据技术体系概览.md"
+    },
+    {
+      "basename": "AI最新进展-LAPTOP-AAJ6HH4K",
+      "path": "AI/AI最新进展-LAPTOP-AAJ6HH4K.md"
+    },
+    {
+      "basename": "学术搜索引擎列表与Web of Science指南",
+      "path": "AI/Coze/学术搜索引擎列表与Web of Science指南.md"
+    },
+    {
+      "basename": "classify-bart-large-mnli",
+      "path": "textgenerator/prompts/huggingface/classify-bart-large-mnli.md"
+    },
+    {
+      "basename": "代码快赏析：分页查询",
+      "path": "前端开发/JavaScript/代码快赏析：分页查询.md"
+    },
+    {
+      "basename": "AI最新进展",
+      "path": "AI/AI最新进展.md"
+    },
+    {
+      "basename": "请停止无效社交",
+      "path": "影音读/书本通读/非技术类/请停止无效社交.md"
+    },
+    {
+      "basename": "哑巴英语逆袭方法论",
+      "path": "IELTS/哑巴英语逆袭方法论.md"
+    },
+    {
+      "basename": "completeTextBloom",
+      "path": "textgenerator/prompts/huggingface/completeTextBloom.md"
+    },
+    {
+      "basename": "getEmailNeg",
+      "path": "textgenerator/prompts/default/getEmailNeg.md"
+    },
+    {
+      "basename": "listenaminute.com",
+      "path": "IELTS/listenaminute.com.md"
+    },
+    {
+      "basename": "ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023)",
+      "path": "影音读/ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023).md"
+    },
+    {
+      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
+      "path": "影音读/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
+    },
+    {
+      "basename": "项目管理卡片",
+      "path": "001-Template/项目管理卡片.md"
+    },
+    {
+      "basename": "研究笔记卡片",
+      "path": "001-Template/研究笔记卡片.md"
+    },
+    {
+      "basename": "普通索引卡",
+      "path": "001-Template/普通索引卡.md"
+    },
+    {
+      "basename": "康奈尔笔记法",
+      "path": "001-Template/康奈尔笔记法.md"
     }
   ],
   "omittedPaths": [],

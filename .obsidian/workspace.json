@@ -4,23 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "e68007277d077560",
+        "id": "09a9bca9923499a1",
         "type": "tabs",
         "children": [
           {
-            "id": "ff0d8455ac6da4ff",
+            "id": "e1c2e52b423218fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周月总结/202404/每日新知0427.md",
+                "file": "影音读/书本通读/知识诚实.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a80cb5105e2b89ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "影音读/得到听书/5%的改变.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ec990d686bad87d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writng/认知科学/拓展认知的方法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "169e466b9c817344",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writng/CS自学指南.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "030c11efdac0215b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writng/获取人工智能领域最新前沿资讯.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -49,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "223910b017d00",
+                "query": "tag:#Quotes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 249.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -94,10 +147,11 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writng/获取人工智能领域最新前沿资讯.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -110,6 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Writng/获取人工智能领域最新前沿资讯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/常见面试题.md"
+                "file": "Writng/获取人工智能领域最新前沿资讯.md"
               }
             }
           },
@@ -154,12 +209,36 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Java/常见面试题.md"
+                "file": "Writng/获取人工智能领域最新前沿资讯.md"
               }
             }
           },
           {
-            "id": "de8c23ae9f4b5d90",
+            "id": "a21ab8354136a283",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "80e81cd477c13408",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "53d05dcf48c32b15",
+            "type": "leaf",
+            "state": {
+              "type": "note-preview",
+              "state": {}
+            }
+          },
+          {
+            "id": "7df08783c4ca7646",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -167,7 +246,7 @@
             }
           },
           {
-            "id": "874f460213eee164",
+            "id": "e3ecf2fbe09be403",
             "type": "leaf",
             "state": {
               "type": "BC-matrix",
@@ -175,7 +254,7 @@
             }
           },
           {
-            "id": "eb28b3c6e98e736e",
+            "id": "5122a5d151875480",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -183,16 +262,15 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 647.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -202,57 +280,66 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "media-extended:Open media": false,
+      "obsidian-memos:Thino": false,
+      "templater-obsidian:Templater": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "note-to-mp:复制到公众号": false
     }
   },
-  "active": "6a73026fe242f7bd",
+  "active": "030c11efdac0215b",
   "lastOpenFiles": [
-    "AI/Python/网友的小提问.md",
-    "前端开发/Full Stack Web Development Course.md",
-    "前端开发/Nodejs关键技术.md",
-    "前端开发/Express官网教程.md",
-    "BackEnd/RoadMap&Interview/面试虎狼之词(待续).md",
-    "BackEnd/RoadMap&Interview/面试答疑.md",
-    "BackEnd/RoadMap&Interview/面试答疑-LAPTOP-AAJ6HH4K.md",
-    "BackEnd/RoadMap&Interview/西安前后端面试.md",
-    "BackEnd/RoadMap&Interview/深度思考.md",
-    "BackEnd/RoadMap&Interview/开源模拟.md",
-    "BackEnd/RoadMap&Interview/全栈工程师学习路线(待续).md",
-    "BackEnd/RoadMap&Interview/Vue面试题.md",
-    "BackEnd/RoadMap&Interview/Boss简历迭代.md",
-    "BackEnd/RoadMap&Interview/Boss简历迭代-LAPTOP-AAJ6HH4K.md",
-    "BackEnd/RoadMap&Interview",
-    "BackEnd/Java/在线课/assets/img/黑马程序员/IMG-黑马程序员-20240320130728282.png",
-    "BackEnd/Java/Spring/assets/img/微服务架构/IMG-微服务架构-20240417133836404.png",
-    "BackEnd/Java/源码阅读/assets/img/Pasted image 20240301120444.png",
-    "BackEnd/Java/源码阅读/img/仿知乎/IMG-仿知乎-20240303001042365.png",
-    "BackEnd/Java/在线课/assets/img/黑马程序员",
-    "BackEnd/Java/Spring/assets/img/微服务架构",
-    "BackEnd/Java/Spring/assets/img/Pasted image 20240229191935.png",
-    "BackEnd/Java/Spring/assets/img/Pasted image 20240229190623.png",
-    "BackEnd/Java/Spring/assets/img/Pasted image 20240229181014.png",
-    "BackEnd/Java/Spring/assets/img/Pasted image 20240229180905.png",
-    "BackEnd/Java/Spring/assets/img/Pasted image 20240229161606.png",
-    "BackEnd/Java/Spring/assets/img/Pasted image 20240229160222.png",
-    "BackEnd/Java/源码阅读/assets/img",
-    "BackEnd/Java/源码阅读/img/仿知乎",
-    "BackEnd/Java/在线课/assets/img",
-    "BackEnd/Java/Spring/assets/img",
-    "BackEnd/Java/源码阅读/assets",
-    "BackEnd/Java/源码阅读/仿知乎.md",
-    "BackEnd/Java/源码阅读/仿知乎-MS-GKDVHLTHBXTL.md",
-    "BackEnd/Java/源码阅读/XiaoMiStore.md",
-    "BackEnd/Java/源码阅读/Untitled.md",
-    "BackEnd/Java/源码阅读/img",
-    "BackEnd/Java/源码阅读/Bookstore.md",
-    "BackEnd/Java/微服务/读书笔记-LAPTOP-AAJ6HH4K.md",
-    "BackEnd/Java/微服务/读书笔记.md",
-    "BackEnd/Java/在线课/黑马程序员.md",
-    "BackEnd/Java/在线课/百战程序员Java300集.md",
-    "BackEnd/Java/在线课/后续要跟的课程.md",
-    "BackEnd/Java/在线课/In28Minutes.md",
-    "BackEnd/Java/在线课/assets",
-    "BackEnd/Java/在线课/AMIGOSCODE.md",
+    "Writng/CS自学指南.md",
+    "Writng/获取人工智能领域最新前沿资讯.md",
+    "影音读/书本通读/非技术类/图形思考.md",
+    "影音读/书本通读/非技术类/1分鐘超強記憶法.md",
+    "IELTS/生词理解/分类记忆.md",
+    "影音读/书本通读/非技术类/模型思维.md",
+    "Writng/认知科学/拓展认知的方法.md",
+    "001-Template/Templater/themedatetagsstatus.md",
+    "Writng/剪辑/影视后期特效制作理论与实践.md",
+    "IELTS/生词理解/Kimi生词助记G-O.md",
+    "Writng/认知科学/逻辑框架法.md",
+    "Writng/剪辑/Untitled.md",
+    "Writng/剪辑/Media Note - 每天一个电影镜头.md",
+    "Writng/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md",
+    "Writng/剪辑/设计色彩搭配.md",
+    "AI/工具/计算机工程师必备工具.md",
+    "AI/Python/使用CSS、JavaScript和Python创建网站的指南.md",
+    "AI/ChatGPT/流行词.md",
+    "AI/ChatGPT/梳理.md",
+    "000-index/Tags Index.md",
+    "影音读/得到听书/5%的改变.md",
+    "Untitled.md",
+    "Writng/认知科学/认知资源.md",
+    "Writng/认知科学/抽象思维.md",
+    "Writng/认知科学/元认知.md",
+    "Writng/认知科学/五维思考法.md",
+    "影音读/得到听书",
+    "Writng/杭州AI换衣",
+    "Writng/剪辑/assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片",
+    "Writng/剪辑/assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片/IMG-Media Note - 青春电影怎么拍？《情书》摄影灯光拉片-20240519170437313.jpeg",
+    "assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片",
+    "assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片/IMG-Media Note - 青春电影怎么拍？《情书》摄影灯光拉片-20240519170335951.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 电影MV动画摄影灯光拉片/IMG-Media Note - 电影MV动画摄影灯光拉片-20240519170129973.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 电影MV动画摄影灯光拉片",
+    "Writng/剪辑/assets/img/Media Note - 电影MV动画摄影灯光拉片/IMG-Media Note - 电影MV动画摄影灯光拉片-20240519165956459.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头",
+    "Writng/剪辑/assets/img/Media Note - 跳切变焦/IMG-Media Note - 跳切变焦-20240519164744619.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165248342.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165248168.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165247963.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165247748.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165247292.jpeg",
+    "Writng/剪辑/assets/img/Media Note - 跳切变焦",
+    "Writng/剪辑/assets/img",
+    "Writng/剪辑/assets",
+    "assets/img/Media Note - 跳切变焦",
     "images/Untitled 1.canvas",
     "images/Untitled.canvas"
   ]

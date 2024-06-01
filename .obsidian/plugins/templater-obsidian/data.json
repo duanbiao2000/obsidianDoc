@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Template",
+  "templates_folder": "001-Template/Templater",
   "templates_pairs": [
     [
       "",
@@ -20,6 +20,7 @@
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     ""
   ],

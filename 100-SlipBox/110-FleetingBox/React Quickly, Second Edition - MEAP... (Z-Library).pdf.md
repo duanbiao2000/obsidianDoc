@@ -6,7 +6,7 @@ aliases: React Quickly, Second Edition - MEAP... (Z-Library).pdf
 links: 
 title: 
 origin: React Quickly, Second Edition - MEAP... (Z-Library).pdf
-tags: #flashcards #todo #bookStatusOnreading 
+tags: #flashcards #todo #Current 
 
 Arrow function箭头函数
 箭头函数嵌套写法是指在箭头函数中返回另一个箭头函数的写法。这种写法可以用于创建高阶函数或在函数定义中定义函数。

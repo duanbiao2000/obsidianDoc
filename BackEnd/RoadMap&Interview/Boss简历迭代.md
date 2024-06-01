@@ -986,7 +986,7 @@ It's also important to see evidence of continuous learning and staying up-to-dat
 >   
 >
 
-#VI. 翻译相关
+# VI. 翻译相关
 
 ## 技术介绍部分
 

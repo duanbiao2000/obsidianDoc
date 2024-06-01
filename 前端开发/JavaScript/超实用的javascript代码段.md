@@ -6,7 +6,7 @@ aliases:
 links:
 title:
 origin:
-tags: #flashcards #todo #bookStatusOnreading 
+tags: #flashcards #todo #Current 
 
 ## 30段简单趣味的代码
 #### 区分IE浏览器

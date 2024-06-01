@@ -6,8 +6,6 @@ page-title:
 tags:
   - todo
   - flashcards
-  - codeWithMosh
-  - Next
 modified date: 2023-09-29T20:55
 ---
 ![(186) Next.js Projects: Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma - YouTube](https://www.youtube.com/watch?v=J9sfR6HN6BY)

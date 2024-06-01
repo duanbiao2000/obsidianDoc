@@ -200,5 +200,24 @@
       ],
       "key": "]"
     }
+  ],
+  "Enhanced-editing:cuti-text": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "Enhanced-editing:add-lines": [],
+  "Enhanced-editing:add-Line0": [],
+  "obsidian-spaced-repetition:srs-review-flashcards-in-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

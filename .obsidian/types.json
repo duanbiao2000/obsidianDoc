@@ -10,6 +10,8 @@
     "established": "datetime",
     "updated": "datetime",
     "isFinished": "checkbox",
-    "create_date": "date"
+    "create_date": "date",
+    "created_date": "date",
+    "status": "checkbox"
   }
 }

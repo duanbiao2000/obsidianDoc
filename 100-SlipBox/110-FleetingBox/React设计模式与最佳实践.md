@@ -6,7 +6,7 @@ aliases:
 links:
 title:
 origin:
-tags: #bookStatusOnreading  #flashcards  #todo #设计模式
+tags: #Current  #flashcards  #todo #算法
 
 
 ESLint的extends属性非常强大,可以从Airbnb等第三方配置入手再添加自己特有的规则.
@@ -541,7 +541,7 @@ export default ParentComponent;
   当然，在某些情况下，你也可以在子组件中定义回调函数，并将其作为prop传递给父组件。这种情况通常是子组件中的操作需要在父组件中进行处理，但是父组件不需要更新自己的状态，而是需要执行其他的逻辑操作。
   总的来说，通常情况下，在父组件中定义回调函数来处理子组件的状态更新是最常见的做法。但根据具体的需求和业务逻辑，也可以在子组件中定义回调函数并传递给父组件。
 
-#资源
+#数据
 撰写本书时，Chrome和Firefox已经原生实现了获取函数。如果需要支持不同的浏览器，可
 以使用GitHub开发的获取腻子脚本（fetch polyfill)。
 我们还将使用GitHub的公共API来加载数据。向以下路径传递用户名会返回gist列表：

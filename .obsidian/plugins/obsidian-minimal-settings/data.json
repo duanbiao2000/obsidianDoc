@@ -1,9 +1,8 @@
 {
-  "theme": "obsidian",
   "lightStyle": "minimal-light",
   "darkStyle": "minimal-dark-tonal",
-  "lightScheme": "minimal-atom-light",
-  "darkScheme": "minimal-ayu-dark",
+  "lightScheme": "minimal-notion-light",
+  "darkScheme": "minimal-eink-dark",
   "editorFont": "宋体",
   "lineHeight": 1.5,
   "lineWidth": 50,
@@ -28,9 +27,10 @@
   "focusMode": false,
   "underlineInternal": true,
   "underlineExternal": true,
-  "useSystemTheme": false,
   "folding": true,
   "lineNumbers": true,
   "readableLineLength": true,
-  "devBlockWidth": false
+  "devBlockWidth": false,
+  "theme": "obsidian",
+  "useSystemTheme": false
 }

@@ -3,16 +3,7 @@ aliases:
 author: 
 url: https://listenaminute.com/
 page-title: 
-tags:
-  - passion
-  - demanding
-  - organized
-  - honest
-  - brave
-  - supportive
-  - truthful
-  - intense
-  - serious
+tags: []
 create_date: 2024-01-13
 updated: 
 isFinished: false

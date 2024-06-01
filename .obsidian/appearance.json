@@ -6,6 +6,14 @@
   "nativeMenus": true,
   "baseFontSize": 15,
   "monospaceFontFamily": "FiraCode Nerd Font Mono",
-  "textFontFamily": "Inter,仓耳今楷01-9128 W02,华文细黑",
-  "interfaceFontFamily": "Arial,仓耳今楷01-9128 W02,微软雅黑"
+  "textFontFamily": "京華老宋体,霞鹜尚智黑,霞鹜新晰黑,仓耳今楷01-9128 W02,Inter,华文细黑",
+  "interfaceFontFamily": "霞鹜新晰黑,霞鹜尚智黑,京華老宋体,Arial,仓耳今楷01-9128 W02,微软雅黑",
+  "enabledCssSnippets": [
+    "Side-Dock-Icon-Order",
+    "snippets",
+    "Split-Page-Callout",
+    "Paper-Index-Callout",
+    "Bullet-Journal"
+  ],
+  "baseFontSizeAction": true
 }

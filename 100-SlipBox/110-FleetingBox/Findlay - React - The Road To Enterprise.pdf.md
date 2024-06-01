@@ -6,7 +6,7 @@ aliases:
 links:
 title:
 origin: Findlay - React - The Road To Enterprise.pdf
-tags: #flashcards #todo #bookStatusOnreading 
+tags: #flashcards #todo #Current 
 
 当我们谈论将紧密耦合的逻辑保持在尽可能接近其使用位置的地方时，我们可以考虑一个表单组件示例。在这个示例中，我们将处理表单输入和验证逻辑与表单组件本身紧密耦合在一起。
 ```jsx
