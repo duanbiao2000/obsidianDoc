@@ -52,6 +52,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Writng/CS自学指南.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "030c11efdac0215b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Writng/获取人工智能领域最新前沿资讯.md",
                 "mode": "source",
                 "backlinks": true,
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,8 +127,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -280,17 +292,16 @@
       "note-to-mp:复制到公众号": false
     }
   },
-  "active": "169e466b9c817344",
+  "active": "030c11efdac0215b",
   "lastOpenFiles": [
-    "001-Template/Templater/themedatetagsstatus.md",
-    "Writng/获取人工智能领域最新前沿资讯.md",
     "Writng/CS自学指南.md",
-    "001-Template/Templater/公众号模板.md",
+    "Writng/获取人工智能领域最新前沿资讯.md",
     "影音读/书本通读/非技术类/图形思考.md",
     "影音读/书本通读/非技术类/1分鐘超強記憶法.md",
     "IELTS/生词理解/分类记忆.md",
     "影音读/书本通读/非技术类/模型思维.md",
     "Writng/认知科学/拓展认知的方法.md",
+    "001-Template/Templater/themedatetagsstatus.md",
     "Writng/剪辑/影视后期特效制作理论与实践.md",
     "IELTS/生词理解/Kimi生词助记G-O.md",
     "Writng/认知科学/逻辑框架法.md",
@@ -308,6 +319,7 @@
     "Writng/认知科学/认知资源.md",
     "Writng/认知科学/抽象思维.md",
     "Writng/认知科学/元认知.md",
+    "Writng/认知科学/五维思考法.md",
     "影音读/得到听书",
     "Writng/杭州AI换衣",
     "Writng/剪辑/assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片",
