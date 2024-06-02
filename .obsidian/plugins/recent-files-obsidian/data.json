@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Summary",
+      "path": "Summary.md"
+    },
+    {
+      "basename": "知识诚实",
+      "path": "影音读/书本通读/知识诚实.md"
+    },
+    {
       "basename": "获取人工智能领域最新前沿资讯",
       "path": "Writng/获取人工智能领域最新前沿资讯.md"
     },
     {
+      "basename": "themedatetagsstatus",
+      "path": "001-Template/Templater/themedatetagsstatus.md"
+    },
+    {
       "basename": "CS自学指南",
       "path": "Writng/CS自学指南.md"
+    },
+    {
+      "basename": "公众号模板",
+      "path": "001-Template/Templater/公众号模板.md"
     },
     {
       "basename": "图形思考",
@@ -27,10 +43,6 @@
     {
       "basename": "拓展认知的方法",
       "path": "Writng/认知科学/拓展认知的方法.md"
-    },
-    {
-      "basename": "themedatetagsstatus",
-      "path": "001-Template/Templater/themedatetagsstatus.md"
     },
     {
       "basename": "影视后期特效制作理论与实践",
@@ -187,18 +199,6 @@
     {
       "basename": "项目管理卡片",
       "path": "001-Template/项目管理卡片.md"
-    },
-    {
-      "basename": "研究笔记卡片",
-      "path": "001-Template/研究笔记卡片.md"
-    },
-    {
-      "basename": "普通索引卡",
-      "path": "001-Template/普通索引卡.md"
-    },
-    {
-      "basename": "康奈尔笔记法",
-      "path": "001-Template/康奈尔笔记法.md"
     }
   ],
   "omittedPaths": [],

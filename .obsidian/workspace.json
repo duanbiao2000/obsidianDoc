@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "影音读/书本通读/知识诚实.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,28 +39,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writng/认知科学/拓展认知的方法.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "169e466b9c817344",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writng/获取人工智能领域最新前沿资讯.md",
+                "file": "Summary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writng/获取人工智能领域最新前沿资讯.md",
+                "file": "Summary.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writng/获取人工智能领域最新前沿资讯.md",
+                "file": "Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writng/获取人工智能领域最新前沿资讯.md"
+                "file": "Summary.md"
               }
             }
           },
@@ -196,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Writng/获取人工智能领域最新前沿资讯.md"
+                "file": "Summary.md"
               }
             }
           },
@@ -249,11 +235,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 647.5
+    "width": 530.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,13 +265,14 @@
       "note-to-mp:复制到公众号": false
     }
   },
-  "active": "6a73026fe242f7bd",
+  "active": "e1c2e52b423218fe",
   "lastOpenFiles": [
+    "影音读/书本通读/知识诚实.md",
     "Summary.md",
+    "Writng/获取人工智能领域最新前沿资讯.md",
     "summary.py",
     "New Text Document.txt",
     "001-Template/Templater/themedatetagsstatus.md",
-    "Writng/获取人工智能领域最新前沿资讯.md",
     "Writng/CS自学指南.md",
     "001-Template/Templater/公众号模板.md",
     "影音读/书本通读/非技术类/图形思考.md",
@@ -308,7 +295,6 @@
     "影音读/得到听书/5%的改变.md",
     "Untitled.md",
     "Writng/认知科学/认知资源.md",
-    "Writng/认知科学/抽象思维.md",
     "影音读/得到听书",
     "Writng/杭州AI换衣",
     "Writng/剪辑/assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片",

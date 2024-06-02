@@ -6,7 +6,7 @@ directory = "./"
 output_file = "Summary.md"
 
 # 创建Markdown文件并写入基础内容
-with open(output_file, 'w') as md_file:
+with open(output_file, 'w',  encoding='utf-8') as md_file:
     md_file.write("# Summary\n\n")
     for chapter in os.listdir(directory):
         chapter_path = os.path.join(directory, chapter)
