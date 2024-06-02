@@ -32,19 +32,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8ec990d686bad87d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SUMMARY.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ]
       }
