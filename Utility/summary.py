@@ -3,7 +3,7 @@ import os
 # 设置你的Markdown文件所在的目录
 directory = "./"
 # 设置输出文件的路径
-output_file = "SUMMARY.md"
+output_file = "../SUMMARY.md"
 
 # 创建Markdown文件并写入基础内容
 with open(output_file, 'w',  encoding='utf-8') as md_file:

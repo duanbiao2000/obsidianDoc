@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "Utility/工具操作说明书.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "Utility/工具操作说明书.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "Utility/工具操作说明书.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SUMMARY.md"
+                "file": "Utility/工具操作说明书.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SUMMARY.md"
+                "file": "Utility/工具操作说明书.md"
               }
             }
           },
@@ -222,11 +222,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 713.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,15 +247,24 @@
       "media-extended:Open media": false,
       "obsidian-memos:Thino": false,
       "templater-obsidian:Templater": false,
+      "note-to-mp:复制到公众号": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "note-to-mp:复制到公众号": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e1c2e52b423218fe",
+  "active": "53d05dcf48c32b15",
   "lastOpenFiles": [
-    "影音读/书本通读/知识诚实.md",
+    "weekly/wordFreq/weekly_20240602_191324.md",
+    "Utility/工具操作说明书.md",
+    "影音读/得到听书/5%的改变.md",
+    "Utility/热词信息批量聚合脚本.py",
     "SUMMARY.md",
+    "Utility/summary.py",
+    "Utility/热词统计.py",
+    "Utility/爱好者周刊处理脚本.sh",
+    "Utility/热词信息检索脚本.py",
+    "Utility",
+    "影音读/书本通读/知识诚实.md",
     "Writng/获取人工智能领域最新前沿资讯.md",
     "summary.py",
     "New Text Document.txt",
@@ -279,27 +288,18 @@
     "AI/ChatGPT/流行词.md",
     "AI/ChatGPT/梳理.md",
     "000-index/Tags Index.md",
-    "影音读/得到听书/5%的改变.md",
-    "Untitled.md",
-    "Writng/认知科学/认知资源.md",
     "影音读/得到听书",
     "Writng/杭州AI换衣",
-    "Writng/剪辑/assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片",
     "Writng/剪辑/assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片/IMG-Media Note - 青春电影怎么拍？《情书》摄影灯光拉片-20240519170437313.jpeg",
-    "assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片",
     "assets/img/Media Note - 青春电影怎么拍？《情书》摄影灯光拉片/IMG-Media Note - 青春电影怎么拍？《情书》摄影灯光拉片-20240519170335951.jpeg",
     "Writng/剪辑/assets/img/Media Note - 电影MV动画摄影灯光拉片/IMG-Media Note - 电影MV动画摄影灯光拉片-20240519170129973.jpeg",
-    "Writng/剪辑/assets/img/Media Note - 电影MV动画摄影灯光拉片",
     "Writng/剪辑/assets/img/Media Note - 电影MV动画摄影灯光拉片/IMG-Media Note - 电影MV动画摄影灯光拉片-20240519165956459.jpeg",
-    "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头",
     "Writng/剪辑/assets/img/Media Note - 跳切变焦/IMG-Media Note - 跳切变焦-20240519164744619.jpeg",
     "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165248342.jpeg",
     "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165248168.jpeg",
     "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165247963.jpeg",
     "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165247748.jpeg",
     "Writng/剪辑/assets/img/Media Note - 每天一个电影镜头/IMG-Media Note - 每天一个电影镜头-20240519165247292.jpeg",
-    "Writng/剪辑/assets/img/Media Note - 跳切变焦",
-    "Writng/剪辑/assets/img",
     "images/Untitled 1.canvas",
     "images/Untitled.canvas"
   ]

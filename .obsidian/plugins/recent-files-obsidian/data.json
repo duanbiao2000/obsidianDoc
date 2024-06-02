@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "工具操作说明书",
+      "path": "Utility/工具操作说明书.md"
+    },
+    {
+      "basename": "weekly_20240602_191324",
+      "path": "weekly/wordFreq/weekly_20240602_191324.md"
+    },
+    {
+      "basename": "5%的改变",
+      "path": "影音读/得到听书/5%的改变.md"
+    },
+    {
       "basename": "SUMMARY",
       "path": "SUMMARY.md"
     },
@@ -87,10 +99,6 @@
     {
       "basename": "Tags Index",
       "path": "000-index/Tags Index.md"
-    },
-    {
-      "basename": "5%的改变",
-      "path": "影音读/得到听书/5%的改变.md"
     },
     {
       "basename": "认知资源",
@@ -191,14 +199,6 @@
     {
       "basename": "ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023)",
       "path": "影音读/ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023).md"
-    },
-    {
-      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
-      "path": "影音读/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
-    },
-    {
-      "basename": "项目管理卡片",
-      "path": "001-Template/项目管理卡片.md"
     }
   ],
   "omittedPaths": [],
