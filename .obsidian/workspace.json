@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
+                "file": "SUMMARY.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           },
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary.md",
+                "file": "SUMMARY.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summary.md",
+                "file": "SUMMARY.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summary.md",
+                "file": "SUMMARY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summary.md"
+                "file": "SUMMARY.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Summary.md"
+                "file": "SUMMARY.md"
               }
             }
           },
@@ -239,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 530.5
+    "width": 390.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,7 +268,7 @@
   "active": "e1c2e52b423218fe",
   "lastOpenFiles": [
     "影音读/书本通读/知识诚实.md",
-    "Summary.md",
+    "SUMMARY.md",
     "Writng/获取人工智能领域最新前沿资讯.md",
     "summary.py",
     "New Text Document.txt",
