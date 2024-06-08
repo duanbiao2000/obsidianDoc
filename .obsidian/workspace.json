@@ -11,13 +11,8 @@
             "id": "a80cb5105e2b89ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "weekly/weekly/docs/issue-295.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weekly/weekly/docs/issue-295.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "weekly/weekly/docs/issue-295.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "weekly/weekly/docs/issue-295.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "weekly/weekly/docs/issue-295.md"
-              }
+              "state": {}
             }
           },
           {
@@ -241,8 +230,9 @@
   },
   "active": "a80cb5105e2b89ec",
   "lastOpenFiles": [
-    "000-index/52）.md",
     "weekly/weekly/docs/issue-295.md",
+    "weekly/weekly/docs/issue-303.md",
+    "000-index/52）.md",
     "weekly/weekly/docs/issue-246.md",
     "weekly/weekly/docs/issue-243.md",
     "weekly/weekly/docs/issue-47.md",
@@ -286,7 +276,6 @@
     "SUMMARY.md",
     "Utility/summary.py",
     "影音读/书本通读/知识诚实.md",
-    "Writng/获取人工智能领域最新前沿资讯.md",
     "images/Untitled 1.canvas",
     "images/Untitled.canvas"
   ]
