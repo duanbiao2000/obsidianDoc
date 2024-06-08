@@ -360,13 +360,13 @@ Postman 的 Web 开源替代品，完全在浏览器里面使用，用来调试 
 
 ## 历史上的本周
 
-[低期望，多尝试](http://www.ruanyifeng.com/blog/2022/03/weekly-issue-200.html)（2022 #200）
+[低期望，多尝试](http://www.ruanyifeng.com/blog/2022/03/weekly-issue-200.html)（2022 - 200）
 
-[当音乐还是稀缺的时候](http://www.ruanyifeng.com/blog/2021/03/weekly-issue-150.html)（2021 #150）
+[当音乐还是稀缺的时候](http://www.ruanyifeng.com/blog/2021/03/weekly-issue-150.html)（2021 - 150）
 
-[怎样清晰地表达自己的观点？](http://www.ruanyifeng.com/blog/2020/03/weekly-issue-98.html)（2020 #98）
+[怎样清晰地表达自己的观点？](http://www.ruanyifeng.com/blog/2020/03/weekly-issue-98.html)（2020 - 98）
 
-[著名程序员 Bill Joy 的人生启示](http://www.ruanyifeng.com/blog/2019/03/weekly-issue-48.html)（2019 #48）
+[著名程序员 Bill Joy 的人生启示](http://www.ruanyifeng.com/blog/2019/03/weekly-issue-48.html)（2019 - 48）
 
 ## 鸣谢
 

@@ -357,13 +357,13 @@ LangChain 是目前最流行的生成式 AI 编程框架，作者用一张图讲
 
 ## 历史上的本周
 
-[如何防止帐号被黑](http://www.ruanyifeng.com/blog/2022/08/weekly-issue-219.html)（2022 #219）
+[如何防止帐号被黑](http://www.ruanyifeng.com/blog/2022/08/weekly-issue-219.html)（2022 - 219）
 
-[五菱汽车的产品设计](http://www.ruanyifeng.com/blog/2021/07/weekly-issue-169.html)（2021 #169）
+[五菱汽车的产品设计](http://www.ruanyifeng.com/blog/2021/07/weekly-issue-169.html)（2021 - 169）
 
-[降雨量和保险博弈](http://www.ruanyifeng.com/blog/2020/08/weekly-issue-119.html)（2020 #119）
+[降雨量和保险博弈](http://www.ruanyifeng.com/blog/2020/08/weekly-issue-119.html)（2020 - 119）
 
-[做得好 vs 做得快](http://www.ruanyifeng.com/blog/2019/08/weekly-issue-69.html)（2019 #69）
+[做得好 vs 做得快](http://www.ruanyifeng.com/blog/2019/08/weekly-issue-69.html)（2019 - 69）
 
 （完）
 

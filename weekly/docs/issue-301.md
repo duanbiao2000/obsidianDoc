@@ -423,13 +423,13 @@ Rust 语言的一个初学者教程，通过100个练习来学习这门语言。
 
 ## 往年回顾
 
-[人生是一个长板问题](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-254.html)（2023 #254）
+[人生是一个长板问题](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-254.html)（2023 - 254）
 
-[如何度过疫情、裁员、还有战争](https://www.ruanyifeng.com/blog/2022/04/weekly-issue-204.html)（2022 #204）
+[如何度过疫情、裁员、还有战争](https://www.ruanyifeng.com/blog/2022/04/weekly-issue-204.html)（2022 - 204）
 
-[1982年的信息社会预言](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-154.html)（2021 #154）
+[1982年的信息社会预言](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-154.html)（2021 - 154）
 
-[语音合成的用途](https://www.ruanyifeng.com/blog/2020/04/weekly-issue-104.html)（2020 #104）
+[语音合成的用途](https://www.ruanyifeng.com/blog/2020/04/weekly-issue-104.html)（2020 - 104）
 
 （完）
 

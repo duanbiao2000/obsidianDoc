@@ -397,13 +397,13 @@ ChatGPT 不理解任何材料，但可以利用这些材料，快速找到问题
 
 ## 往年回顾
 
-[摩天大楼是反人类的](https://www.ruanyifeng.com/blog/2023/03/weekly-issue-245.html)（2023 #245）
+[摩天大楼是反人类的](https://www.ruanyifeng.com/blog/2023/03/weekly-issue-245.html)（2023 - 245）
 
-[你做过不在乎结果的项目吗？](https://www.ruanyifeng.com/blog/2022/02/weekly-issue-195.html)（2022 #195）
+[你做过不在乎结果的项目吗？](https://www.ruanyifeng.com/blog/2022/02/weekly-issue-195.html)（2022 - 195）
 
-[大家不出门，经济怎么办？](https://www.ruanyifeng.com/blog/2021/02/weekly-issue-145.html)（2021 #145）
+[大家不出门，经济怎么办？](https://www.ruanyifeng.com/blog/2021/02/weekly-issue-145.html)（2021 - 145）
 
-[远程办公暴露冗余岗位](https://www.ruanyifeng.com/blog/2020/02/weekly-issue-95.html)（2020 #95）
+[远程办公暴露冗余岗位](https://www.ruanyifeng.com/blog/2020/02/weekly-issue-95.html)（2020 - 95）
 
 （完）
 

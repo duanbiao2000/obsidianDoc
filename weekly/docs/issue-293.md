@@ -382,13 +382,13 @@ Steve Jobs 凝视着镜头，眼神十分坚定，给人一种充满信念与智
 
 ## 往年回顾
 
-[永不丢失的网络身份](https://www.ruanyifeng.com/blog/2023/03/weekly-issue-246.html)（2023 #246）
+[永不丢失的网络身份](https://www.ruanyifeng.com/blog/2023/03/weekly-issue-246.html)（2023 - 246）
 
-[掌机的未来](https://www.ruanyifeng.com/blog/2022/02/weekly-issue-196.html)（2022 #196）
+[掌机的未来](https://www.ruanyifeng.com/blog/2022/02/weekly-issue-196.html)（2022 - 196）
 
-[网课应该怎么上](https://www.ruanyifeng.com/blog/2021/02/weekly-issue-146.html)（2021 #146）
+[网课应该怎么上](https://www.ruanyifeng.com/blog/2021/02/weekly-issue-146.html)（2021 - 146）
 
-[在线教育不等于录制视频](https://www.ruanyifeng.com/blog/2020/02/weekly-issue-96.html)（2020 #96）
+[在线教育不等于录制视频](https://www.ruanyifeng.com/blog/2020/02/weekly-issue-96.html)（2020 - 96）
 
 （完）
 

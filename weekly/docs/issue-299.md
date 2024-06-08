@@ -430,13 +430,13 @@ CodePen 的国产替代品，实时预览 HTML、CSS 和 JavaScript 代码的渲
 
 ## 往年回顾
 
-[互联网创业变难了](https://www.ruanyifeng.com/blog/2023/04/weekly-issue-252.html)（2023 #252）
+[互联网创业变难了](https://www.ruanyifeng.com/blog/2023/04/weekly-issue-252.html)（2023 - 252）
 
-[三个有启发的学习方法](https://www.ruanyifeng.com/blog/2022/04/weekly-issue-202.html)（2022 #202）
+[三个有启发的学习方法](https://www.ruanyifeng.com/blog/2022/04/weekly-issue-202.html)（2022 - 202）
 
-[从北大到技校](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-152.html)（2021 #152）
+[从北大到技校](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-152.html)（2021 - 152）
 
-[工作热情从何而来？](https://www.ruanyifeng.com/blog/2020/04/weekly-issue-102.html)（2020 #102）
+[工作热情从何而来？](https://www.ruanyifeng.com/blog/2020/04/weekly-issue-102.html)（2020 - 102）
 
 （完）
 

@@ -400,13 +400,13 @@ macOS 系统 PHP 和 Web 开发环境管理工具，方便各软件的启动/重
 
 ## 历史上的本周
 
-[俄罗斯的 HTTPS 证书问题](http://www.ruanyifeng.com/blog/2022/03/weekly-issue-199.html)（2022 #199）
+[俄罗斯的 HTTPS 证书问题](http://www.ruanyifeng.com/blog/2022/03/weekly-issue-199.html)（2022 - 199）
 
-[新能源汽车，谁会是赢家？](http://www.ruanyifeng.com/blog/2021/03/weekly-issue-149.html)（2021 #149）
+[新能源汽车，谁会是赢家？](http://www.ruanyifeng.com/blog/2021/03/weekly-issue-149.html)（2021 - 149）
 
-[那些为了考试拼搏的年轻人](http://www.ruanyifeng.com/blog/2020/03/weekly-issue-97.html)（2020 #97）
+[那些为了考试拼搏的年轻人](http://www.ruanyifeng.com/blog/2020/03/weekly-issue-97.html)（2020 - 97）
 
-[吃播算不算正式工作？](http://www.ruanyifeng.com/blog/2019/03/weekly-issue-47.html)（2019 #47）
+[吃播算不算正式工作？](http://www.ruanyifeng.com/blog/2019/03/weekly-issue-47.html)（2019 - 47）
 
 ## 鸣谢
 

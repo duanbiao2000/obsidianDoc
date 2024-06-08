@@ -358,13 +358,13 @@ ChatGPT 的用户总是与一个空白文本框进行对抗，通常是空白文
 
 ## 往年回顾
 
-[真实方位是如何暴露的？](https://www.ruanyifeng.com/blog/2022/12/weekly-issue-237.html)（2022 #237）
+[真实方位是如何暴露的？](https://www.ruanyifeng.com/blog/2022/12/weekly-issue-237.html)（2022 - 237）
 
-[元宇宙会成功吗](https://www.ruanyifeng.com/blog/2021/12/weekly-issue-187.html)（2021 #187）
+[元宇宙会成功吗](https://www.ruanyifeng.com/blog/2021/12/weekly-issue-187.html)（2021 - 187）
 
-[Slack 被收购，以及企业的技术选型](https://www.ruanyifeng.com/blog/2020/12/weekly-issue-136.html)（2020 #137）
+[Slack 被收购，以及企业的技术选型](https://www.ruanyifeng.com/blog/2020/12/weekly-issue-136.html)（2020 - 137）
 
-[新人要为团队写文档](https://www.ruanyifeng.com/blog/2019/12/weekly-issue-87.html)（2019 #87）
+[新人要为团队写文档](https://www.ruanyifeng.com/blog/2019/12/weekly-issue-87.html)（2019 - 87）
 
 （完）
 

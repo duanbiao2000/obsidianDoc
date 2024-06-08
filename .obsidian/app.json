@@ -3,7 +3,7 @@
   "attachmentFolderPath": "./assets/img/",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "promptDelete": false,
+  "promptDelete": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",

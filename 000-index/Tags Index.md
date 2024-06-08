@@ -37,7 +37,7 @@
 - Recent learnings  
 - Longterm vision
 - Past experiences
-#Current #Recent #Longterm #Past
+#Current #Longterm #Past
 ## By Priority
 - High priority 
 - Medium priority

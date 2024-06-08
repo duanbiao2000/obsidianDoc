@@ -394,13 +394,13 @@ Python 的 Web 框架 streamlit 的一个组件库。（[@ObservedObserver](http
 
 ## 往年回顾
 
-[生活就像一个鱼缸](https://www.ruanyifeng.com/blog/2022/12/weekly-issue-233.html)（2022 #233）
+[生活就像一个鱼缸](https://www.ruanyifeng.com/blog/2022/12/weekly-issue-233.html)（2022 - 233）
 
-[腾讯的员工退休福利](https://www.ruanyifeng.com/blog/2021/11/weekly-issue-183.html)（2021 #183）
+[腾讯的员工退休福利](https://www.ruanyifeng.com/blog/2021/11/weekly-issue-183.html)（2021 - 183）
 
-[贵州变瑞士，有没有可能？](https://www.ruanyifeng.com/blog/2020/11/weekly-issue-133.html)（2020 #133）
+[贵州变瑞士，有没有可能？](https://www.ruanyifeng.com/blog/2020/11/weekly-issue-133.html)（2020 - 133）
 
-[技术解决不了人类的对立](https://www.ruanyifeng.com/blog/2019/11/weekly-issue-83.html)（2019 #83）
+[技术解决不了人类的对立](https://www.ruanyifeng.com/blog/2019/11/weekly-issue-83.html)（2019 - 83）
 
 （完）
 

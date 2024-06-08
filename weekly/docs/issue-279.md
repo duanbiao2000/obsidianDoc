@@ -368,13 +368,13 @@ TMT 指的是科技（Technology）、媒体（Media）和电信（Telecom）这
 
 ## 往年回顾
 
-[好用的平面设计软件](http://www.ruanyifeng.com/blog/2022/11/weekly-issue-232.html)（2022 #232）
+[好用的平面设计软件](http://www.ruanyifeng.com/blog/2022/11/weekly-issue-232.html)（2022 - 232）
 
-[新人优惠的风险](http://www.ruanyifeng.com/blog/2021/11/weekly-issue-182.html)（2021 #182）
+[新人优惠的风险](http://www.ruanyifeng.com/blog/2021/11/weekly-issue-182.html)（2021 - 182）
 
-[快能力和慢能力](http://www.ruanyifeng.com/blog/2020/11/weekly-issue-132.html)（2020 #132）
+[快能力和慢能力](http://www.ruanyifeng.com/blog/2020/11/weekly-issue-132.html)（2020 - 132）
 
-[就业要选发展最快的行业](http://www.ruanyifeng.com/blog/2019/11/weekly-issue-81.html)（2019 #82）
+[就业要选发展最快的行业](http://www.ruanyifeng.com/blog/2019/11/weekly-issue-81.html)（2019 - 82）
 
 （完）
 

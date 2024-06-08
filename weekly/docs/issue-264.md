@@ -364,13 +364,13 @@ AI 辅助的 Python 学习网站，在线练习编码。（[@stanxing](https://g
 
 ## 历史上的本周
 
-[沙特的新未来城](http://www.ruanyifeng.com/blog/2022/08/weekly-issue-217.html)（2022 #217）
+[沙特的新未来城](http://www.ruanyifeng.com/blog/2022/08/weekly-issue-217.html)（2022 - 217）
 
-[广告拦截器太过分了](http://www.ruanyifeng.com/blog/2021/07/weekly-issue-167.html)（2021 #167）
+[广告拦截器太过分了](http://www.ruanyifeng.com/blog/2021/07/weekly-issue-167.html)（2021 - 167）
 
-[我不想让你记住我的脸](http://www.ruanyifeng.com/blog/2020/07/weekly-issue-117.html)（2020 #117）
+[我不想让你记住我的脸](http://www.ruanyifeng.com/blog/2020/07/weekly-issue-117.html)（2020 - 117）
 
-[复杂系统无法维护，侏罗纪公园必定失败](http://www.ruanyifeng.com/blog/2019/08/weekly-issue-67.html)（2019 #67）
+[复杂系统无法维护，侏罗纪公园必定失败](http://www.ruanyifeng.com/blog/2019/08/weekly-issue-67.html)（2019 - 67）
 
 （完）
 

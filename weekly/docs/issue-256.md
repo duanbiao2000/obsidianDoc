@@ -446,13 +446,13 @@
 
 ## 历史上的本周
 
-[程序员是怎样的人](http://www.ruanyifeng.com/blog/2022/06/weekly-issue-209.html)（2022 #209）
+[程序员是怎样的人](http://www.ruanyifeng.com/blog/2022/06/weekly-issue-209.html)（2022 - 209）
 
-[游戏开发者的年薪](http://www.ruanyifeng.com/blog/2021/05/weekly-issue-159.html)（2021 #159）
+[游戏开发者的年薪](http://www.ruanyifeng.com/blog/2021/05/weekly-issue-159.html)（2021 - 159）
 
-[播客的价值](http://www.ruanyifeng.com/blog/2020/05/weekly-issue-109.html)（2020 #109）
+[播客的价值](http://www.ruanyifeng.com/blog/2020/05/weekly-issue-109.html)（2020 - 109）
 
-[互联网时代很难交朋友](http://www.ruanyifeng.com/blog/2019/06/weekly-issue-59.html)（2019 #59）
+[互联网时代很难交朋友](http://www.ruanyifeng.com/blog/2019/06/weekly-issue-59.html)（2019 - 59）
 
 ## 鸣谢
 

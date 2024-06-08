@@ -398,13 +398,13 @@ W3C 规范的数量平均每年增长200个，约400万个单词。
 
 ## 往年回顾
 
-[大数据已死](https://www.ruanyifeng.com/blog/2023/03/weekly-issue-244.html)（2023 #244）
+[大数据已死](https://www.ruanyifeng.com/blog/2023/03/weekly-issue-244.html)（2023 - 244）
 
-[悲观者正确，乐观者成功](https://www.ruanyifeng.com/blog/2022/02/weekly-issue-194.html)（2022 #194）
+[悲观者正确，乐观者成功](https://www.ruanyifeng.com/blog/2022/02/weekly-issue-194.html)（2022 - 194）
 
-[提高收入的根本途径](https://www.ruanyifeng.com/blog/2021/01/weekly-issue-144.html)（2021 #144）
+[提高收入的根本途径](https://www.ruanyifeng.com/blog/2021/01/weekly-issue-144.html)（2021 - 144）
 
-[既懂得制造，又懂得销售](https://www.ruanyifeng.com/blog/2020/02/weekly-issue-94.html)（2020 #94）
+[既懂得制造，又懂得销售](https://www.ruanyifeng.com/blog/2020/02/weekly-issue-94.html)（2020 - 94）
 
 （完）
 

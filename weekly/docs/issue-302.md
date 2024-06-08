@@ -395,13 +395,13 @@ AI 将所有软件工程师变成了机器学习工程师。
 
 ## 往年回顾
 
-[对待 AI 的正确态度](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-255.html)（2023 #255）
+[对待 AI 的正确态度](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-255.html)（2023 - 255）
 
-[互联网风口过去了吗？](https://www.ruanyifeng.com/blog/2022/05/weekly-issue-205.html)（2022 #205）
+[互联网风口过去了吗？](https://www.ruanyifeng.com/blog/2022/05/weekly-issue-205.html)（2022 - 205）
 
-[数字货币是打破美元霸权的武器吗？](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-155.html)（2021 #155）
+[数字货币是打破美元霸权的武器吗？](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-155.html)（2021 - 155）
 
-[线上行业会赢](https://www.ruanyifeng.com/blog/2020/04/weekly-issue-105.html)（2020 #105）
+[线上行业会赢](https://www.ruanyifeng.com/blog/2020/04/weekly-issue-105.html)（2020 - 105）
 
 （完）
 

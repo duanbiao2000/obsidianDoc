@@ -376,13 +376,13 @@ Vue2 & Vue3 的拖拽组件。（[@Alfred-Skyblue](https://github.com/ruanyf/wee
 
 ## 往年回顾
 
-[AI 聊天有多强](http://www.ruanyifeng.com/blog/2022/12/weekly-issue-234.html)（2022 #234）
+[AI 聊天有多强](http://www.ruanyifeng.com/blog/2022/12/weekly-issue-234.html)（2022 - 234）
 
-[政府的存储需求有多大？](http://www.ruanyifeng.com/blog/2021/11/weekly-issue-184.html)（2021 #184）
+[政府的存储需求有多大？](http://www.ruanyifeng.com/blog/2021/11/weekly-issue-184.html)（2021 - 184）
 
-[未来的游戏业比现在大100倍](http://www.ruanyifeng.com/blog/2020/11/weekly-issue-134.html)（2020 #134）
+[未来的游戏业比现在大100倍](http://www.ruanyifeng.com/blog/2020/11/weekly-issue-134.html)（2020 - 134）
 
-[一次性工作招聘，用完你就丢](http://www.ruanyifeng.com/blog/2019/11/weekly-issue-84.html)（2019 #84）
+[一次性工作招聘，用完你就丢](http://www.ruanyifeng.com/blog/2019/11/weekly-issue-84.html)（2019 - 84）
 
 （完）
 

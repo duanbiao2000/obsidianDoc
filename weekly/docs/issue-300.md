@@ -406,13 +406,13 @@ Redis 的 JS 客户端，号称强大且快速。
 
 ## 往年回顾
 
-[训练材料用完之日](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-253.html)（2023 #253）
+[训练材料用完之日](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-253.html)（2023 - 253）
 
-[英国的名校签证，伯克利的计算机教育](https://www.ruanyifeng.com/blog/2022/04/weekly-issue-203.html)（2022 #203）
+[英国的名校签证，伯克利的计算机教育](https://www.ruanyifeng.com/blog/2022/04/weekly-issue-203.html)（2022 - 203）
 
-[机器翻译是对译者的侮辱吗？](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-153.html)（2021 #153）
+[机器翻译是对译者的侮辱吗？](https://www.ruanyifeng.com/blog/2021/04/weekly-issue-153.html)（2021 - 153）
 
-[信息的半衰期](http://www.ruanyifeng.com/blog/2020/04/weekly-issue-103.html)（2020 #103）
+[信息的半衰期](http://www.ruanyifeng.com/blog/2020/04/weekly-issue-103.html)（2020 - 103）
 
 （完）
 

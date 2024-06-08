@@ -380,13 +380,13 @@ Linux 官方宣布，长期版本的维护期从6年改为2年。一大原因是
 
 ## 往年回顾
 
-[游戏 NPC 也是一种职业](http://www.ruanyifeng.com/blog/2022/09/weekly-issue-225.html)（2022 #225）
+[游戏 NPC 也是一种职业](http://www.ruanyifeng.com/blog/2022/09/weekly-issue-225.html)（2022 - 225）
 
-[知识广度 vs 知识深度](http://www.ruanyifeng.com/blog/2021/09/weekly-issue-175.html)（2021 #175）
+[知识广度 vs 知识深度](http://www.ruanyifeng.com/blog/2021/09/weekly-issue-175.html)（2021 - 175）
 
-[数字人民币要取代谁](http://www.ruanyifeng.com/blog/2020/09/weekly-issue-125.html)（2020 #125）
+[数字人民币要取代谁](http://www.ruanyifeng.com/blog/2020/09/weekly-issue-125.html)（2020 - 125）
 
-[电子取代机械，对就业有何影响？](http://www.ruanyifeng.com/blog/2019/09/weekly-issue-75.html)（2019 #75）
+[电子取代机械，对就业有何影响？](http://www.ruanyifeng.com/blog/2019/09/weekly-issue-75.html)（2019 - 75）
 
 （完）
 

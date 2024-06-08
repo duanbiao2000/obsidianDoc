@@ -342,13 +342,13 @@ P2P（点对点）是一种节省带宽的下载方法。
 
 ## 历史上的本周
 
-[晋升制度的问题](http://www.ruanyifeng.com/blog/2022/05/weekly-issue-208.html)（2022 #208）
+[晋升制度的问题](http://www.ruanyifeng.com/blog/2022/05/weekly-issue-208.html)（2022 - 208）
 
-[内容渠道的贬值](http://www.ruanyifeng.com/blog/2021/05/weekly-issue-158.html)（2021 #158）
+[内容渠道的贬值](http://www.ruanyifeng.com/blog/2021/05/weekly-issue-158.html)（2021 - 158）
 
-[阵地战与奇袭战](http://www.ruanyifeng.com/blog/2020/05/weekly-issue-108.html)（2020 #108）
+[阵地战与奇袭战](http://www.ruanyifeng.com/blog/2020/05/weekly-issue-108.html)（2020 - 108）
 
-[软件推广可以像化妆品那样吗？](http://www.ruanyifeng.com/blog/2019/05/weekly-issue-58.html)（2019 #58）
+[软件推广可以像化妆品那样吗？](http://www.ruanyifeng.com/blog/2019/05/weekly-issue-58.html)（2019 - 58）
 
 ## 鸣谢
 

@@ -358,13 +358,13 @@ Emoji 搜索引擎，支持30种语言，[代码](https://github.com/rotick/sear
 
 ## 往年回顾
 
-[中国的阳光地带](http://www.ruanyifeng.com/blog/2022/12/weekly-issue-236.html)（2022 #236）
+[中国的阳光地带](http://www.ruanyifeng.com/blog/2022/12/weekly-issue-236.html)（2022 - 236）
 
-[低纬度，高海拔，气候优势](http://www.ruanyifeng.com/blog/2021/12/weekly-issue-186.html)（2021 #186）
+[低纬度，高海拔，气候优势](http://www.ruanyifeng.com/blog/2021/12/weekly-issue-186.html)（2021 - 186）
 
-[利特伍德奇迹定律](http://www.ruanyifeng.com/blog/2020/12/weekly-issue-136.html)（2020 #136）
+[利特伍德奇迹定律](http://www.ruanyifeng.com/blog/2020/12/weekly-issue-136.html)（2020 - 136）
 
-[千万不要当完美主义者](http://www.ruanyifeng.com/blog/2019/12/weekly-issue-86.html)（2019 #86）
+[千万不要当完美主义者](http://www.ruanyifeng.com/blog/2019/12/weekly-issue-86.html)（2019 - 86）
 
 （完）
 

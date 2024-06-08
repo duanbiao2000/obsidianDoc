@@ -394,13 +394,13 @@ Windows 系统的窗口管理器，自动在桌面编排多个应用程序窗口
 
 ## 历史上的本周
 
-[你的地图是错的](https://www.ruanyifeng.com/blog/2022/07/weekly-issue-214.html)（2022 #214）
+[你的地图是错的](https://www.ruanyifeng.com/blog/2022/07/weekly-issue-214.html)（2022 - 214）
 
-[培训班 vs 大学，求职成功率比较](https://www.ruanyifeng.com/blog/2021/06/weekly-issue-164.html)（2021 #164）
+[培训班 vs 大学，求职成功率比较](https://www.ruanyifeng.com/blog/2021/06/weekly-issue-164.html)（2021 - 164）
 
-[U 盘化生存和 Uber-job](https://www.ruanyifeng.com/blog/2020/07/weekly-issue-114.html)（2020 #114）
+[U 盘化生存和 Uber-job](https://www.ruanyifeng.com/blog/2020/07/weekly-issue-114.html)（2020 - 114）
 
-[新人如何进入互联网行业？](https://www.ruanyifeng.com/blog/2019/07/weekly-issue-64.html)（2019 #64）
+[新人如何进入互联网行业？](https://www.ruanyifeng.com/blog/2019/07/weekly-issue-64.html)（2019 - 64）
 
 ## 鸣谢
 

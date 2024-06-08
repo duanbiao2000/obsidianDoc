@@ -362,13 +362,13 @@ VSCode 插件，用户可以使用快捷键，跳转到指定目录，类似于 
 
 ## 历史上的本周
 
-[四十年编程感想](http://www.ruanyifeng.com/blog/2022/09/weekly-issue-222.html)（2022 #222）
+[四十年编程感想](http://www.ruanyifeng.com/blog/2022/09/weekly-issue-222.html)（2022 - 222）
 
-[我们会死于气候灾难吗？](http://www.ruanyifeng.com/blog/2021/08/weekly-issue-172.html)（2021 #172）
+[我们会死于气候灾难吗？](http://www.ruanyifeng.com/blog/2021/08/weekly-issue-172.html)（2021 - 172）
 
-[谈谈互联网公司的高估值](http://www.ruanyifeng.com/blog/2020/08/weekly-issue-122.html)（2020 #122）
+[谈谈互联网公司的高估值](http://www.ruanyifeng.com/blog/2020/08/weekly-issue-122.html)（2020 - 122）
 
-[当代人不再有手稿](http://www.ruanyifeng.com/blog/2019/09/weekly-issue-72.html)（2019 #72）
+[当代人不再有手稿](http://www.ruanyifeng.com/blog/2019/09/weekly-issue-72.html)（2019 - 72）
 
 （完）
 

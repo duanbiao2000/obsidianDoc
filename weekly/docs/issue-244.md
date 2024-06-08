@@ -370,13 +370,13 @@ K-219 是苏联海军的一艘核潜艇，可以携带16枚导弹，这些导弹
 
 ## 历史上的本周
 
-[如果这个世界有快乐机](http://www.ruanyifeng.com/blog/2022/03/weekly-issue-197.html)（2022 #197）
+[如果这个世界有快乐机](http://www.ruanyifeng.com/blog/2022/03/weekly-issue-197.html)（2022 - 197）
 
-[寻找你愿意忍受的痛苦](http://www.ruanyifeng.com/blog/2021/02/weekly-issue-147.html)（2021 #147）
+[寻找你愿意忍受的痛苦](http://www.ruanyifeng.com/blog/2021/02/weekly-issue-147.html)（2021 - 147）
 
-[远程办公暴露冗余岗位](http://www.ruanyifeng.com/blog/2020/02/weekly-issue-95.html)（2020 #95）
+[远程办公暴露冗余岗位](http://www.ruanyifeng.com/blog/2020/02/weekly-issue-95.html)（2020 - 95）
 
-[阿西莫夫回忆录《人生舞台》](http://www.ruanyifeng.com/blog/2019/03/weekly-issue-45.html)（2019 #45）
+[阿西莫夫回忆录《人生舞台》](http://www.ruanyifeng.com/blog/2019/03/weekly-issue-45.html)（2019 - 45）
 
 ## 鸣谢
 

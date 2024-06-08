@@ -1,16 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "issue-295",
+      "path": "weekly/weekly/docs/issue-295.md"
+    },
+    {
+      "basename": "issue-246",
+      "path": "weekly/weekly/docs/issue-246.md"
+    },
+    {
+      "basename": "issue-243",
+      "path": "weekly/weekly/docs/issue-243.md"
+    },
+    {
+      "basename": "issue-47",
+      "path": "weekly/weekly/docs/issue-47.md"
+    },
+    {
+      "basename": "新建序列",
+      "path": "Writng/剪辑/新建序列.md"
+    },
+    {
+      "basename": "5%的改变",
+      "path": "影音读/得到听书/5%的改变.md"
+    },
+    {
+      "basename": "Tags Index",
+      "path": "000-index/Tags Index.md"
+    },
+    {
+      "basename": "issue-255",
+      "path": "weekly/docs/issue-255.md"
+    },
+    {
+      "basename": "weekly",
+      "path": "weekly/weekly.md"
+    },
+    {
+      "basename": "weekly_20240602_191324",
+      "path": "weekly/weekly_20240602_191324.md"
+    },
+    {
+      "basename": "问题",
+      "path": "weekly/hWordComb/问题.md"
+    },
+    {
+      "basename": "issue-255",
+      "path": "weekly/weekly/docs/issue-255.md"
+    },
+    {
+      "basename": "字幕制作",
+      "path": "Writng/剪辑/字幕制作.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Writng/剪辑/Untitled.md"
+    },
+    {
+      "basename": "COZE资料收集(原始稿)",
+      "path": "AI/Coze/COZE资料收集(原始稿).md"
+    },
+    {
+      "basename": "COZE扣子功能概述",
+      "path": "AI/Coze/COZE扣子功能概述.md"
+    },
+    {
+      "basename": "技巧",
+      "path": "AI/ChatGPT/技巧.md"
+    },
+    {
+      "basename": "了解扣子：如何用 CozeIDE 制作一个插件 - 掘金",
+      "path": "AI/Coze/了解扣子：如何用 CozeIDE 制作一个插件 - 掘金.md"
+    },
+    {
+      "basename": "先汇总",
+      "path": "影音读/得到听书/先汇总.md"
+    },
+    {
       "basename": "工具操作说明书",
       "path": "Utility/工具操作说明书.md"
     },
     {
       "basename": "weekly_20240602_191324",
       "path": "weekly/wordFreq/weekly_20240602_191324.md"
-    },
-    {
-      "basename": "5%的改变",
-      "path": "影音读/得到听书/5%的改变.md"
     },
     {
       "basename": "SUMMARY",
@@ -65,10 +137,6 @@
       "path": "IELTS/生词理解/Kimi生词助记G-O.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Writng/剪辑/Untitled.md"
-    },
-    {
       "basename": "Media Note - 每天一个电影镜头",
       "path": "Writng/剪辑/Media Note - 每天一个电影镜头.md"
     },
@@ -95,10 +163,6 @@
     {
       "basename": "梳理",
       "path": "AI/ChatGPT/梳理.md"
-    },
-    {
-      "basename": "Tags Index",
-      "path": "000-index/Tags Index.md"
     },
     {
       "basename": "认知资源",
@@ -131,74 +195,6 @@
     {
       "basename": "SELECT子句顺序",
       "path": "SQL/SELECT子句顺序.md"
-    },
-    {
-      "basename": "SELECT子句顺序",
-      "path": "BackEnd/SQL/SELECT子句顺序.md"
-    },
-    {
-      "basename": "Effective系列JS篇",
-      "path": "前端开发/JavaScript/Effective系列JS篇.md"
-    },
-    {
-      "basename": "CodeWithMosh",
-      "path": "影音读/CodeWithMosh.md"
-    },
-    {
-      "basename": "getEmailPos",
-      "path": "textgenerator/prompts/default/getEmailPos.md"
-    },
-    {
-      "basename": "论文专家",
-      "path": "AI/Coze/论文专家.md"
-    },
-    {
-      "basename": "大数据技术体系概览",
-      "path": "影音读/大数据技术体系概览.md"
-    },
-    {
-      "basename": "AI最新进展-LAPTOP-AAJ6HH4K",
-      "path": "AI/AI最新进展-LAPTOP-AAJ6HH4K.md"
-    },
-    {
-      "basename": "学术搜索引擎列表与Web of Science指南",
-      "path": "AI/Coze/学术搜索引擎列表与Web of Science指南.md"
-    },
-    {
-      "basename": "classify-bart-large-mnli",
-      "path": "textgenerator/prompts/huggingface/classify-bart-large-mnli.md"
-    },
-    {
-      "basename": "代码快赏析：分页查询",
-      "path": "前端开发/JavaScript/代码快赏析：分页查询.md"
-    },
-    {
-      "basename": "AI最新进展",
-      "path": "AI/AI最新进展.md"
-    },
-    {
-      "basename": "请停止无效社交",
-      "path": "影音读/书本通读/非技术类/请停止无效社交.md"
-    },
-    {
-      "basename": "哑巴英语逆袭方法论",
-      "path": "IELTS/哑巴英语逆袭方法论.md"
-    },
-    {
-      "basename": "completeTextBloom",
-      "path": "textgenerator/prompts/huggingface/completeTextBloom.md"
-    },
-    {
-      "basename": "getEmailNeg",
-      "path": "textgenerator/prompts/default/getEmailNeg.md"
-    },
-    {
-      "basename": "listenaminute.com",
-      "path": "IELTS/listenaminute.com.md"
-    },
-    {
-      "basename": "ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023)",
-      "path": "影音读/ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023).md"
     }
   ],
   "omittedPaths": [],

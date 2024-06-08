@@ -396,13 +396,13 @@ WordStar 是上个世纪80年度最流行的文字编辑器，只有终端界面
 
 ## 往年回顾
 
-[手机充电问题的解决](http://www.ruanyifeng.com/blog/2022/11/weekly-issue-229.html)（2022 #229）
+[手机充电问题的解决](http://www.ruanyifeng.com/blog/2022/11/weekly-issue-229.html)（2022 - 229）
 
-[AR 技术的打开方式](http://www.ruanyifeng.com/blog/2021/10/weekly-issue-179.html)（2021 #179）
+[AR 技术的打开方式](http://www.ruanyifeng.com/blog/2021/10/weekly-issue-179.html)（2021 - 179）
 
-[创业的凸函数与凹函数](http://www.ruanyifeng.com/blog/2020/10/weekly-issue-129.html)（2020 #129）
+[创业的凸函数与凹函数](http://www.ruanyifeng.com/blog/2020/10/weekly-issue-129.html)（2020 - 129）
 
-[我们的生活越来越依赖机器](http://www.ruanyifeng.com/blog/2019/10/weekly-issue-79.html)（2019 #79）
+[我们的生活越来越依赖机器](http://www.ruanyifeng.com/blog/2019/10/weekly-issue-79.html)（2019 - 79）
 
 （完）
 

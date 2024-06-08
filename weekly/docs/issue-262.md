@@ -368,13 +368,13 @@ Linux 系统日志 Syslog 的图形操作工具。
 
 ## 历史上的本周
 
-[互联网最喜欢的行为模式](http://www.ruanyifeng.com/blog/2022/07/weekly-issue-215.html)（2022 #215）
+[互联网最喜欢的行为模式](http://www.ruanyifeng.com/blog/2022/07/weekly-issue-215.html)（2022 - 215）
 
-[全端 App 的时代](http://www.ruanyifeng.com/blog/2021/07/weekly-issue-165.html)（2021 #165）
+[全端 App 的时代](http://www.ruanyifeng.com/blog/2021/07/weekly-issue-165.html)（2021 - 165）
 
-[保护你的 DNA，不要泄漏](http://www.ruanyifeng.com/blog/2020/07/weekly-issue-115.html)（2020 #115）
+[保护你的 DNA，不要泄漏](http://www.ruanyifeng.com/blog/2020/07/weekly-issue-115.html)（2020 - 115）
 
-[周刊开设“谁在招人”的招聘服务](http://www.ruanyifeng.com/blog/2019/07/weekly-issue-65.html)（2019 #65）
+[周刊开设“谁在招人”的招聘服务](http://www.ruanyifeng.com/blog/2019/07/weekly-issue-65.html)（2019 - 65）
 
 ## 赞助商广告位
 

@@ -464,13 +464,13 @@ VS Code 插件，为主流的前端框架提供代码提示（intellisense）。
 
 ## 往年回顾
 
-[未来两种人会增加](http://www.ruanyifeng.com/blog/2023/01/weekly-issue-239.html)（2023 #239）
+[未来两种人会增加](http://www.ruanyifeng.com/blog/2023/01/weekly-issue-239.html)（2023 - 239）
 
-[下一个内卷的行业](http://www.ruanyifeng.com/blog/2021/12/weekly-issue-189.html)（2021 #189）
+[下一个内卷的行业](http://www.ruanyifeng.com/blog/2021/12/weekly-issue-189.html)（2021 - 189）
 
-[生物学的可怕进展](http://www.ruanyifeng.com/blog/2020/12/weekly-issue-139.html)（2020 #139）
+[生物学的可怕进展](http://www.ruanyifeng.com/blog/2020/12/weekly-issue-139.html)（2020 - 139）
 
-[不下雨的地方，不要去卖伞](http://www.ruanyifeng.com/blog/2020/01/weekly-issue-89.html)（2020 #89）
+[不下雨的地方，不要去卖伞](http://www.ruanyifeng.com/blog/2020/01/weekly-issue-89.html)（2020 - 89）
 
 （完）
 

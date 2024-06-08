@@ -382,13 +382,13 @@ Udemy 高分付费课程的中文字幕版。（[@lyf61](https://github.com/ruan
 
 ## 历史上的本周
 
-[如何走出失望和怀疑](http://www.ruanyifeng.com/blog/2022/05/weekly-issue-206.html)（2022 #206）
+[如何走出失望和怀疑](http://www.ruanyifeng.com/blog/2022/05/weekly-issue-206.html)（2022 - 206）
 
-[显卡缺货与异业竞争](http://www.ruanyifeng.com/blog/2021/04/weekly-issue-156.html)（2021 #156）
+[显卡缺货与异业竞争](http://www.ruanyifeng.com/blog/2021/04/weekly-issue-156.html)（2021 - 156）
 
-[数字游民](http://www.ruanyifeng.com/blog/2020/05/weekly-issue-106.html)（2020 #106）
+[数字游民](http://www.ruanyifeng.com/blog/2020/05/weekly-issue-106.html)（2020 - 106）
 
-[文科生为什么不容易就业？](http://www.ruanyifeng.com/blog/2019/05/weekly-issue-56.html)（2019 #56）
+[文科生为什么不容易就业？](http://www.ruanyifeng.com/blog/2019/05/weekly-issue-56.html)（2019 - 56）
 
 ## 鸣谢
 

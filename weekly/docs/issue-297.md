@@ -386,13 +386,13 @@ Chrome 浏览器截图 + 美化插件。（[@AydenGen](https://github.com/ruanyf
 
 ## 往年回顾
 
-[新技术的最大风险](https://www.ruanyifeng.com/blog/2023/04/weekly-issue-250.html)（2023 #250）
+[新技术的最大风险](https://www.ruanyifeng.com/blog/2023/04/weekly-issue-250.html)（2023 - 250）
 
-[低期望，多尝试](https://www.ruanyifeng.com/blog/2022/03/weekly-issue-200.html)（2022 #200）
+[低期望，多尝试](https://www.ruanyifeng.com/blog/2022/03/weekly-issue-200.html)（2022 - 200）
 
-[当音乐还是稀缺的时候](https://www.ruanyifeng.com/blog/2021/03/weekly-issue-150.html)（2021 #150）
+[当音乐还是稀缺的时候](https://www.ruanyifeng.com/blog/2021/03/weekly-issue-150.html)（2021 - 150）
 
-[零利率时代](https://www.ruanyifeng.com/blog/2020/03/weekly-issue-100.html)（2020 #100）
+[零利率时代](https://www.ruanyifeng.com/blog/2020/03/weekly-issue-100.html)（2020 - 100）
 
 （完）
 

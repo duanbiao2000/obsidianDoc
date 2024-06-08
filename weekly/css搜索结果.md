@@ -1644,7 +1644,7 @@
   1644	docs/issue-281.md:214:6、[IP 工具箱](https://github.com/jason5ng32/MyIP/blob/main/README_CN.md)
   1645	docs/issue-281.md:232:9、[Ai Cute Wallpapers](https://aicutewallpapers.com/)
   1646	docs/issue-281.md:236:免费生成/下载 AI 壁纸。（[@huhan-123](https://github.com/ruanyf/weekly/issues/3686) 投稿）
-  1647	docs/issue-281.md:379:[AI 聊天有多强](http://www.ruanyifeng.com/blog/2022/12/weekly-issue-234.html)（2022 #234）
+  1647	docs/issue-281.md:379:[AI 聊天有多强](http://www.ruanyifeng.com/blog/2022/12/weekly-issue-234.html)（2022 - 234）
   1648	docs/issue-282.md:5:本杂志[开源](https://github.com/ruanyf/weekly)，欢迎[投稿](https://github.com/ruanyf/weekly/issues)。另有[《谁在招人》](https://github.com/ruanyf/weekly/issues/3684)服务，发布程序员招聘信息。合作请[邮件联系](mailto:yifeng.ruan@gmail.com)（yifeng.ruan@gmail.com）。
   1649	docs/issue-282.md:73:AI 是眼下的行业热点，也是投资和招聘最多的领域。
   1650	docs/issue-282.md:75:掘金社区，作为国内著名的开发者社区，将于**本周日在深圳举办一次线下活动**，为大家创造一个相聚结识的机会，共同探讨 AI。
@@ -1755,7 +1755,7 @@
   1755	docs/issue-290.md:221:Mac 桌面应用，用来清理系统的垃圾文件，以及监控系统指标（网络、CPU、RAM 和电池等），参见[介绍文章](https://medium.com/@hi_caicai/easydevo-the-developer-tool-you-might-need-a70dfd6ee3e1)。（[@hi-caicai](https://github.com/ruanyf/weekly/issues/4018) 投稿）
   1756	docs/issue-290.md:243:去除图片背景的免费网站，使用最新的删除图片背景的 AI 模型 RMBG-v1.4，所有计算都在本地完成，不用上传图片。（[@janily](https://github.com/ruanyf/weekly/issues/4040) 投稿）
   1757	docs/issue-290.md:269:OpenAI 推出了“文生视频”模型 Sora，只要输入文字，就能生成一段60秒的视频，效果惊人。
-  1758	docs/issue-290.md:393:[与孔子 AI 聊天](https://www.ruanyifeng.com/blog/2023/02/weekly-issue-243.html)（2023 #243）
+  1758	docs/issue-290.md:393:[与孔子 AI 聊天](https://www.ruanyifeng.com/blog/2023/02/weekly-issue-243.html)（2023 - 243）
   1759	docs/issue-291.md:1:# 科技爱好者周刊（第 291 期）：AI 没有护城河
   1760	docs/issue-291.md:5:本杂志[开源](https://github.com/ruanyf/weekly)，欢迎[投稿](https://github.com/ruanyf/weekly/issues)。另有[《谁在招人》](https://github.com/ruanyf/weekly/issues/4075)服务，发布程序员招聘信息。合作请[邮件联系](mailto:yifeng.ruan@gmail.com)（yifeng.ruan@gmail.com）。
   1761	docs/issue-291.md:13:## AI 没有护城河
@@ -2009,7 +2009,7 @@
   2009	docs/issue-302.md:374:AI 最好被理解为一种新的数字物种。我预测我们将把它视为数字伴侣，它是我们一生旅程中的新伙伴。
   2010	docs/issue-302.md:376:-- [Mustafa Suleyman](https://futurism.com/microsoft-executive-ai-digital-species)，微软人工智能首席执行官
   2011	docs/issue-302.md:380:AI 将所有软件工程师变成了机器学习工程师。
-  2012	docs/issue-302.md:398:[对待 AI 的正确态度](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-255.html)（2023 #255）
+  2012	docs/issue-302.md:398:[对待 AI 的正确态度](https://www.ruanyifeng.com/blog/2023/05/weekly-issue-255.html)（2023 - 255）
   2013	docs/issue-31.md:83:7、[AI 主播](https://www.inkstonenews.com/tech/xinhua-and-sogou-show-news-anchors-powered-artificial-intelligence/article/2172460)
   2014	docs/issue-31.md:87:新华社与搜狗合作，在乌镇的第五届世界互联网大会上，发布了 AI 主播。该系统首先对真人的脸部建模，然后提取语音、表情、嘴唇动作，重构一个 AI 分身模型。以后，只要输入文本，该分身就会像真人一样播报新闻。[这里](https://www.weibo.com/tv/v/H21eIubGE)是一段 AI 主播播报英语新闻的视频。
   2015	docs/issue-31.md:118:1、[等待时间悖论](http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/)（英文）

@@ -416,13 +416,13 @@ Vercel 公司架设的 AI 实验页面，用户可以方便地选择不同的模
 
 ## 历史上的本周
 
-[如何度过疫情、裁员、还有战争](http://www.ruanyifeng.com/blog/2022/04/weekly-issue-204.html)（2022 #204）
+[如何度过疫情、裁员、还有战争](http://www.ruanyifeng.com/blog/2022/04/weekly-issue-204.html)（2022 - 204）
 
-[1982年的信息社会预言](http://www.ruanyifeng.com/blog/2021/04/weekly-issue-154.html)（2021 #154）
+[1982年的信息社会预言](http://www.ruanyifeng.com/blog/2021/04/weekly-issue-154.html)（2021 - 154）
 
-[语音合成的用途](http://www.ruanyifeng.com/blog/2020/04/weekly-issue-104.html)（2020 #104）
+[语音合成的用途](http://www.ruanyifeng.com/blog/2020/04/weekly-issue-104.html)（2020 - 104）
 
-[可扩展性最好的活动](http://www.ruanyifeng.com/blog/2019/05/weekly-issue-54.html)（2019 #54）
+[可扩展性最好的活动](http://www.ruanyifeng.com/blog/2019/05/weekly-issue-54.html)（2019 - 54）
 
 ## 鸣谢
 

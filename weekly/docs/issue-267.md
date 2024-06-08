@@ -366,12 +366,12 @@ Windows 命令行包管理器 Winget 的 非官方 UI 界面。
 
 ## 历史上的本周
 
-[人工智能的机会在哪里](https://www.ruanyifeng.com/blog/2022/08/weekly-issue-220.html)（2022 #220）
+[人工智能的机会在哪里](https://www.ruanyifeng.com/blog/2022/08/weekly-issue-220.html)（2022 - 220）
 
-[软件订阅制的胜利](https://www.ruanyifeng.com/blog/2021/08/weekly-issue-170.html)（2021 #170）
+[软件订阅制的胜利](https://www.ruanyifeng.com/blog/2021/08/weekly-issue-170.html)（2021 - 170）
 
-[只有开放才能打败封锁](https://www.ruanyifeng.com/blog/2020/08/weekly-issue-120.html)（2020 #120）
+[只有开放才能打败封锁](https://www.ruanyifeng.com/blog/2020/08/weekly-issue-120.html)（2020 - 120）
 
-[世界进入负利率时代，这意味什么](https://www.ruanyifeng.com/blog/2019/08/weekly-issue-70.html)（2019 #70）
+[世界进入负利率时代，这意味什么](https://www.ruanyifeng.com/blog/2019/08/weekly-issue-70.html)（2019 - 70）
 
 （完）

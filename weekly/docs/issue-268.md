@@ -376,13 +376,13 @@ JavaScript 之所以流行，只是因为它在浏览器中具有垄断地位，
 
 ## 历史上的本周
 
-[全世界最繁荣的行业](http://www.ruanyifeng.com/blog/2022/09/weekly-issue-221.html)（2022 #221）
+[全世界最繁荣的行业](http://www.ruanyifeng.com/blog/2022/09/weekly-issue-221.html)（2022 - 221）
 
-[云服务流量有多贵？](http://www.ruanyifeng.com/blog/2021/08/weekly-issue-171.html)（2021 #171）
+[云服务流量有多贵？](http://www.ruanyifeng.com/blog/2021/08/weekly-issue-171.html)（2021 - 171）
 
-[为什么人类没有越来越闲？](http://www.ruanyifeng.com/blog/2020/08/weekly-issue-121.html)（2020 #121）
+[为什么人类没有越来越闲？](http://www.ruanyifeng.com/blog/2020/08/weekly-issue-121.html)（2020 - 121）
 
-[名校毕业，不容易创业](http://www.ruanyifeng.com/blog/2019/08/weekly-issue-71.html)（2019 #71）
+[名校毕业，不容易创业](http://www.ruanyifeng.com/blog/2019/08/weekly-issue-71.html)（2019 - 71）
 
 （完）
 
