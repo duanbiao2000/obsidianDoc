@@ -23,7 +23,7 @@ List.defaultProps = {
 
 List.proptypes = {
   items: PropTypes.arrray.isrequired,
-  items: PropTypes.string.isrequired,
+  item: PropTypes.string.isrequired,
   background: PropTypes.oneOf([
     'primary',
     'secondary'

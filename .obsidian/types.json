@@ -12,6 +12,9 @@
     "isFinished": "checkbox",
     "create_date": "date",
     "created_date": "date",
-    "status": "checkbox"
+    "status": "checkbox",
+    "type": "multitext",
+    "theme": "multitext",
+    "priority": "checkbox"
   }
 }

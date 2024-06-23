@@ -12,7 +12,15 @@
     "downscalePercent": 100
   },
   "trashOption": "local",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "vimMode": false,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "strictLineBreaks": true,
+  "autoPairMarkdown": true,
+  "smartIndentList": true,
+  "userIgnoreFilters": [
+    "001-Template/",
+    "textgenerator/prompts/",
+    "textgenerator/templates/"
+  ]
 }

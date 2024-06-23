@@ -219,5 +219,23 @@
       ],
       "key": "R"
     }
+  ],
+  "table-editor-obsidian:table-control-bar": [],
+  "obsidian-hover-editor:open-link-in-new-popover": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "random-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

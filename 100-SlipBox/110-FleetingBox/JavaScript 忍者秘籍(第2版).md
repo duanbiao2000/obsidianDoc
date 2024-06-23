@@ -2,11 +2,6 @@
 aliases:
 
 ---
-20230816 1317
-links:
-title:
-origin:
-tags: #flashcards #todo 
 
 ![[Pasted image 20230816131911.png]]
 

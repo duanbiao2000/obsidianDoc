@@ -4,18 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "09a9bca9923499a1",
+        "id": "7aad0b66e0d28afa",
         "type": "tabs",
         "children": [
           {
-            "id": "a80cb5105e2b89ec",
+            "id": "25970b76b472e787",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Writng/早班车/0621大改版.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac94c3bfe094565e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writng/早班车/0621大改版.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efc40b1b6e7592e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-SlipBox/20240623101652.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#52）",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 399.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -89,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100-SlipBox/20240623101652.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100-SlipBox/20240623101652.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +151,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
@@ -126,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100-SlipBox/20240623101652.md"
+              }
             }
           },
           {
@@ -146,7 +182,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "100-SlipBox/20240623101652.md"
+              }
             }
           },
           {
@@ -196,17 +234,25 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "778da3df0b758c88",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 583.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,45 +262,65 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "media-extended:Open media": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "templater-obsidian:Templater": false,
+      "extract-highlights-plugin:Extract Highlights": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "note-to-mp:复制到公众号": false,
+      "obsidian-omnivore:Omnivore": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "markdown-importer:Open format converter": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
-      "media-extended:Open media": false,
-      "obsidian-memos:Thino": false,
-      "templater-obsidian:Templater": false,
-      "note-to-mp:复制到公众号": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a80cb5105e2b89ec",
+  "active": "efc40b1b6e7592e5",
   "lastOpenFiles": [
-    "weekly/weekly/docs/issue-295.md",
-    "weekly/weekly/docs/issue-303.md",
-    "000-index/52）.md",
-    "weekly/weekly/docs/issue-246.md",
-    "weekly/weekly/docs/issue-243.md",
-    "weekly/weekly/docs/issue-47.md",
-    "Writng/剪辑/新建序列.md",
-    "影音读/得到听书/5%的改变.md",
-    "000-index/Tags Index.md",
-    "weekly/docs/issue-255.md",
-    "weekly/weekly.md",
-    "weekly/weekly_20240602_191324.md",
-    "weekly/hWordComb/问题.md",
-    "weekly/weekly/docs/issue-255.md",
-    "Writng/剪辑/字幕制作.md",
-    "Writng/剪辑/Untitled.md",
-    "AI/Coze/COZE资料收集(原始稿).md",
-    "AI/Coze/COZE扣子功能概述.md",
-    "AI/ChatGPT/技巧.md",
-    "AI/Coze/了解扣子：如何用 CozeIDE 制作一个插件 - 掘金.md",
-    "影音读/得到听书/先汇总.md",
-    "AI/ChatGPT 1/对话提示词.md",
-    "AI/ChatGPT 1/assets/img/Key Insight",
-    "AI/ChatGPT 1/assets/img",
-    "AI/ChatGPT 1/assets",
+    "IELTS/系统编程0609.md",
+    "100-SlipBox/20240623101652.md",
+    "IELTS/闪亮词汇收集器.md",
+    "IELTS/大作文.md",
+    "IELTS/Aboobo精听.md",
+    "IELTS/分类记忆.md",
+    "IELTS/Kimi生词助记P-T.md",
+    "IELTS/Kimi生词助记A-F.md",
+    "IELTS/Kimi生词助记G-O.md",
+    "IELTS/Kimi生词助记T-T.md",
+    "IELTS/前端开发常见的问题讨论中英-MS-GKDVHLTHBXTL.md",
+    "IELTS/listenaminute.com.md",
+    "IELTS/listenaminute.com-LAPTOP-AAJ6HH4K.md",
+    "IELTS/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K.md",
+    "IELTS/英语例句0609.md",
+    "IELTS/前端开发常见的问题讨论中英.md",
+    "IELTS/每日听力材料  (至少听四遍).md",
+    "影音读/书本通读/Generative AI Business Applications.md",
+    "IELTS/assets/img/每日听力材料  (至少听四遍)",
+    "IELTS/assets/img",
+    "IELTS/assets",
+    "Utility/工具操作说明书.md",
+    "BackEnd/SQL/SELECT子句顺序-LAPTOP-AAJ6HH4K.md",
+    "SQL/SELECT子句顺序.md",
+    "BackEnd/SQL/数据库概述.md",
+    "SQL/数据库概述.md",
+    "100-SlipBox/20240622234224-Notebooklm打造第二大脑.md",
+    "100-SlipBox/20240622203402- Learn high stake content on Youtube.md",
+    "Omnivore/2024-06-22/如何突破英文口语（7年海外工作实践经验）.md",
+    "Omnivore/2024-06-22",
+    "images/Pasted image 20230903164905.png",
+    "textgenerator/configs/llm",
+    "textgenerator/configs",
+    "Omnivore/2024-06-21",
+    "images/Pasted image 20230802121346.png",
+    "textgenerator/templates/dalle",
+    "textgenerator/templates/default",
+    "textgenerator/generations",
     "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143751051.png",
     "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143745431.png",
     "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143734708.png",
@@ -263,19 +329,6 @@
     "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143809131.png",
     "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143807670.png",
     "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143805948.png",
-    "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143803545.png",
-    "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143802257.png",
-    "AI/ChatGPT/assets/img/绘图提示词",
-    "AI/ChatGPT/assets/img/Key Insight",
-    "AI/ChatGPT/assets/img",
-    "AI/ChatGPT/assets",
-    "AI/ChatGPT 1/assets/img/绘图提示词",
-    "Utility/工具操作说明书.md",
-    "weekly/wordFreq/weekly_20240602_191324.md",
-    "Utility/热词信息批量聚合脚本.py",
-    "SUMMARY.md",
-    "Utility/summary.py",
-    "影音读/书本通读/知识诚实.md",
     "images/Untitled 1.canvas",
     "images/Untitled.canvas"
   ]

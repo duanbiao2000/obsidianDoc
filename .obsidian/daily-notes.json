@@ -1,6 +1,6 @@
 {
-  "folder": "100-SlipBox/110-FleetingBox",
-  "template": "Template/zkDefaultTemplate",
-  "format": "YYYY-MM-DD",
-  "autorun": false
+  "folder": "100-SlipBox",
+  "template": "001-Template/Templater/themedatetagsstatus",
+  "format": "YYYYMMDDHHmmss",
+  "autorun": true
 }

@@ -2,7 +2,7 @@
 aliases:
 
 ---
-20230716 0953
+0230716 0953
 links:
 title:
 origin:

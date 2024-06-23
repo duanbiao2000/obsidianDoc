@@ -1,5 +1,5 @@
 {
-  "folder": "100-SlipBox/101-Diary",
-  "template": "Template/zkDefaultTemplate",
-  "format": "YYYYMMDDHHMM"
+  "folder": "100-SlipBox",
+  "template": "001-Template/Templater/themedatetagsstatus",
+  "format": "YYYYMMDDHHmmss-"
 }
