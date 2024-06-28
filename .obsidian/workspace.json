@@ -8,38 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25970b76b472e787",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writng/早班车/0621大改版.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac94c3bfe094565e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writng/早班车/0621大改版.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "efc40b1b6e7592e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-SlipBox/20240623101652.md",
+                "file": "100-SlipBox/20240626161857-ChatGPT2VBA2PPT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72b68abc7717b9e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100-SlipBox/20240627110101-roadmap.sh.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,11 +88,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 243.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -121,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-SlipBox/20240623101652.md",
+                "file": "100-SlipBox/20240627110101-roadmap.sh.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-SlipBox/20240623101652.md",
+                "file": "100-SlipBox/20240627110101-roadmap.sh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-SlipBox/20240623101652.md"
+                "file": "100-SlipBox/20240627110101-roadmap.sh.md"
               }
             }
           },
@@ -183,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-SlipBox/20240623101652.md"
+                "file": "100-SlipBox/20240627110101-roadmap.sh.md"
               }
             }
           },
@@ -281,37 +269,38 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "efc40b1b6e7592e5",
+  "active": "72b68abc7717b9e7",
   "lastOpenFiles": [
-    "IELTS/系统编程0609.md",
-    "100-SlipBox/20240623101652.md",
-    "IELTS/闪亮词汇收集器.md",
-    "IELTS/大作文.md",
-    "IELTS/Aboobo精听.md",
-    "IELTS/分类记忆.md",
-    "IELTS/Kimi生词助记P-T.md",
-    "IELTS/Kimi生词助记A-F.md",
-    "IELTS/Kimi生词助记G-O.md",
-    "IELTS/Kimi生词助记T-T.md",
-    "IELTS/前端开发常见的问题讨论中英-MS-GKDVHLTHBXTL.md",
-    "IELTS/listenaminute.com.md",
-    "IELTS/listenaminute.com-LAPTOP-AAJ6HH4K.md",
-    "IELTS/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K.md",
-    "IELTS/英语例句0609.md",
-    "IELTS/前端开发常见的问题讨论中英.md",
-    "IELTS/每日听力材料  (至少听四遍).md",
-    "影音读/书本通读/Generative AI Business Applications.md",
+    "100-SlipBox/20240626221449-markdown转为微信公众号.md",
+    "100-SlipBox/20240627110101-roadmap.sh.md",
+    "100-SlipBox/20240626161857-ChatGPT2VBA2PPT.md",
+    "AI/动手学深度学习复习回顾.md",
+    "textgenerator/prompts/awesomePrompts/educationalcontentcreatorAwesome.md",
+    "100-SlipBox/20240626180524.md",
+    "weekly/docs/issue-277.md",
+    "weekly/hWordComb/本周.md",
+    "weekly/docs/issue-67.md",
+    "AI/Python/python数据分析三件套.md",
+    "weekly/docs/issue-3.md",
+    "周月总结/202405/顶尖团队特质.md",
+    "前端开发/React/useEffect.md",
+    "weekly/weekly_20240602_191324.md",
+    "weekly/docs/issue-100.md",
+    "Omnivore/2024-06-10/增长黑客.md",
+    "textgenerator/prompts/awesomePrompts/datascientistAwesome.md",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Usages/How-to-Use-Templater-Script.md",
+    "weekly/hWordComb/或者.md",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Templater/Generate-Tweet-Card.md",
+    "100-SlipBox/20240626150626-.md",
+    "BackEnd/RoadMap&Interview/Boss简历迭代-LAPTOP-AAJ6HH4K.md",
+    "textgenerator/templates/dalle/ligFlare.md",
+    "weekly/docs/issue-108.md",
+    "BackEnd/Java/在线课/In28Minutes.md",
+    "AI/深度学习/DIVE INTO DEEP LEARNING上册.md",
+    "Omnivore/2024-06-25",
     "IELTS/assets/img/每日听力材料  (至少听四遍)",
     "IELTS/assets/img",
     "IELTS/assets",
-    "Utility/工具操作说明书.md",
-    "BackEnd/SQL/SELECT子句顺序-LAPTOP-AAJ6HH4K.md",
-    "SQL/SELECT子句顺序.md",
-    "BackEnd/SQL/数据库概述.md",
-    "SQL/数据库概述.md",
-    "100-SlipBox/20240622234224-Notebooklm打造第二大脑.md",
-    "100-SlipBox/20240622203402- Learn high stake content on Youtube.md",
-    "Omnivore/2024-06-22/如何突破英文口语（7年海外工作实践经验）.md",
     "Omnivore/2024-06-22",
     "images/Pasted image 20230903164905.png",
     "textgenerator/configs/llm",
@@ -320,7 +309,6 @@
     "images/Pasted image 20230802121346.png",
     "textgenerator/templates/dalle",
     "textgenerator/templates/default",
-    "textgenerator/generations",
     "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143751051.png",
     "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143745431.png",
     "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143734708.png",

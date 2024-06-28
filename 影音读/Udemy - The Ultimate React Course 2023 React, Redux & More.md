@@ -5,7 +5,6 @@ url: https://www.bilibili.com/video/BV1M14y1D7bV?p=7&vd_source=7038f96b6bb3b1474
 page-title: 
 tags:
   - todo
-  - flashcards
   - downloaded
 modified date: 2023-10-06T00:15:00
 ---

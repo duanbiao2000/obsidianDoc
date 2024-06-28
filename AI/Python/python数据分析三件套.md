@@ -74,16 +74,6 @@ print(df)
 ```
 
 > [!NOTE]
->  在这个 Pandas 示例中，我们首先创建了一个日期范围，然后将其设置为 DataFrame 的索引，以便进行时间序列分析。这里是详细的步骤：
-> 
-> 1. `df['Date'] = pd.date_range('20230101', periods=3)`：
->    这行代码使用 `pd.date_range` 函数创建了一个日期范围，起始日期为 '2023-01-01'，总共有 3 个日期。这个日期范围被赋值给 DataFrame `df` 的 `'Date'` 列。
-> 
-> 2. `df.set_index('Date', inplace=True)`：
->    这行代码将 `'Date'` 列设置为 DataFrame 的索引。`inplace=True` 参数表示直接在原 DataFrame 上进行修改，而不是创建一个新的 DataFrame。这样，DataFrame 的行将按照日期顺序排列，并且可以通过日期进行索引。
-> 
-> 3. `print(df)`：
->    这行代码打印出修改后的 DataFrame，其中日期作为索引。
 > 
 > 执行这段代码后，你将得到类似以下的输出：
 > 

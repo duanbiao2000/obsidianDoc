@@ -4,40 +4,6 @@
 
 ****
 
-`To tick all the boxes = to meet all the requirements`
-
-## 1. Indoor activities
-
-
-
-## 2. Outdoor activities
-
-
-
-## 3. Collecting things
-
-**Stamps**
-<!--SR:!2023-07-17,1,230-->
-
-**Coins**
-<!--SR:!2023-07-17,1,230-->
-
-**NFTs = Non-fungible token(a unique digital item)**
-
-``
-
-## 4. Creative activities
-
-**Playing a music instrument**
-<!--SR:!2023-07-17,1,230-->
-
-**Painting**
-
-**Knitting**
-
-**Taking photos**
-
-
 
 ***WHAT DO YOU DO IN YOUR FREE TIME ?***
 
@@ -112,9 +78,7 @@ It's great stress buster
 
 ***What's your family like?***
 
-```c++
-- KEITH SPEAKING ACADEMY
-FAMILY SIZE
+```c
 I come from a big/small family
 I was the only child 
 I was one of {5} siblings = brother and sisters

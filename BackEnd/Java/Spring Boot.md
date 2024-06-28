@@ -1,10 +1,6 @@
 2024-02-21 16:41
 # Boot是spring的微服务版本?
- Spring Boot 是 Spring 框架的一个扩展，它提供了快速开发、配置简单、易于部署的特性，非常适合构建微服务架构。以下是几个原因说明为什么 Spring Boot 被认为是 Spring 的微服务版本：
 
-1. **快速启动和开发**：Spring Boot 提供了自动配置（auto-configuration）和起步依赖（starter dependencies），使得开发者可以快速搭建和启动应用程序，而无需进行复杂的配置。
-
-2. **简化配置**：Spring Boot 通过提供默认配置和约定优于配置的原则，减少了开发者在配置上的负担。这使得开发者可以专注于业务逻辑，而不是配置细节。
 
 3. **微服务支持**：Spring Boot 与 Spring Cloud（Spring 云）紧密集成，Spring Cloud 提供了一系列工具和模式来支持微服务架构，如服务发现（Eureka）、配置管理（Spring Cloud Config）、负载均衡（Spring Cloud Load Balancer）、API 网关（Spring Cloud Gateway）等。
 
@@ -12,9 +8,6 @@
 
 5. **易于测试和监控**：Spring Boot 提供了丰富的监控和度量（metrics）功能，以及与日志聚合工具（如 ELK Stack）的集成，帮助开发者更好地监控和维护微服务。
 
-6. **社区支持**：Spring Boot 有一个活跃的社区，提供了大量的文档、教程和插件，帮助开发者快速上手和解决问题。
-
-7. **持续更新和改进**：Spring Boot 持续更新，引入新特性和改进，以适应微服务架构的发展和变化。
 # 过时技术
 以下是一些Spring全家桶中各个组件可能替代的过时技术：
 
@@ -38,20 +31,7 @@
 
 10. **Spring Cloud Data Flow**：用于数据流处理，可能替代了传统的批处理和流处理框架，如Apache Spark。
 
-这些替代并不是说旧技术完全被淘汰，而是Spring全家桶提供了更加现代化、集成化和简化的开发体验。在某些情况下，旧技术可能因为特定的需求或遗留系统而仍然被使用。
 
-[[[[闭环代码框架]]]]
-
-
-# 技术演进
-
- 在Java生产级别的业务开发中，随着技术的发展和演进，许多新技术逐渐取代了过时的技术，以提供更好的性能、更高的开发效率和更好的可维护性。以下是一些典型的替换事例：
-
-1. **Java虚拟机（JVM）的优化**：
-   - **GraalVM**：GraalVM是一个高性能的JVM，它提供了一个多语言运行时环境，并且通过其Just-In-Time（JIT）编译器和Ahead-Of-Time（AOT）编译器，如Graal编译器，来提高Java应用的性能。GraalVM的Fast JVM Startup特性可以显著减少应用启动时间。
-
-2. **并发编程**：
-   - **Project Loom**：这是Java的一个长期项目，旨在改进Java的并发模型，通过引入轻量级的线程（Fibers）来简化并发编程。虽然Project Loom尚未成为Java标准的一部分，但它展示了Java在并发编程方面的发展方向。
 
 3. **Web框架**：
    - **Spring框架**：Spring框架，特别是Spring Boot和Spring MVC，已经取代了许多早期的Web开发框架，如Struts和JSF。Spring提供了更简洁的配置和更强大的功能，使得Web应用开发更加高效。
@@ -77,9 +57,7 @@
 10. **数据库连接池**：
     - **HikariCP**：这是一个高性能的数据库连接池，它提供了比传统连接池如Apache DBCP和C3P0更好的性能和资源利用率。
 
-这些替换事例展示了Java生态系统的持续进化，开发者需要不断学习和适应新技术，以保持竞争力。同时，这也意味着遗留系统的维护和升级可能会涉及到技术栈的迁移。
 
-[[[[闭环代码框架]]
 
 spring boot中的类
  在Java和Spring框架中，配置类（Configuration Class）和工具类（Utility Class）是两种常见的类类型，它们各自有不同的用途和设计目的。

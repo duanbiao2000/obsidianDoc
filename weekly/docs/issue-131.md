@@ -30,7 +30,7 @@
 
 但是，逻辑学还存在另一种[三值逻辑](https://baike.baidu.com/item/%E4%B8%89%E5%80%BC%E9%80%BB%E8%BE%91%E5%85%B3%E7%B3%BB)， **认为任何一个判断有三种可能，除了真伪，还有一种中间状态，即非真非伪。** 
 
-如果你采用三值逻辑的思维模式，看待世界的心态会完全不一样。遇到陌生人的时候，二值逻辑只有好人和坏人两种结果，这必然导致“党同伐异”（结交同类，反对异类的意思）。但是，三值逻辑认为可能有第三种结果，对方算不是好人，但也不是坏人，可以中性对待。所以，三值逻辑就会导致一种比较温和包容的世界观。
+如果你采用三值逻辑的思维模式，看待世界的心态会完全不一样。遇到陌生人的时候，二值逻辑只有好人和坏人两种结果，这必然导致“党同伐异”（结交同类，反对异类的意思）。但是，三值逻辑认为可能有第三种结果，对方算不是好人，但也不是坏人，可以中性对待。所以，<span style="background:#40a9ff">三值逻辑就会导致一种比较温和包容的世界观。</span>
 
 一个哲学家说过，中国哲学与西方哲学的最大区别，就在于西方哲学是二值逻辑，追求事物的真伪，一定要搞清楚真理和谬误； **中国哲学是三值逻辑，不追求真理和谬误，而提倡恪守中间道路，也就是中庸。**
 
@@ -222,9 +222,9 @@ React 的时间轴组件。
 
 一个命令行的视频处理工具，属于 FFmpeg 的包装库，提供简单易用的语法格式。
 
-8、[Diode](https://support.diode.io/article/ss32engxlq)
+<span style="background:#40a9ff">8、[Diode](https://support.diode.io/article/ss32engxlq)</span>
 
-Diode 可以将本机（localhost）的网站公开到互联网上，提供一个二级域名，使得外部用户可以访问。
+<span style="background:#40a9ff">Diode 可以将本机（localhost）的网站公开到互联网上，提供一个二级域名，使得外部用户可以访问。</span>
 
 9、[HIPA](https://hipacloud.com/)（黑帕云）
 
@@ -360,7 +360,7 @@ Django REST framework 中文教程。（[@521xueweihan](https://github.com/ruany
 
 3、
 
-伊朗人无法访问 GitLab、GitHub、Docker、NPM、Google Developer、Android、AWS、Go、Kubernetes。根据美国政府的要求，那些网站全部屏蔽了伊朗的 IP 地址。
+<span style="background:#40a9ff">伊朗人无法访问 GitLab、GitHub、Docker、NPM、Google Developer、Android、AWS、Go、Kubernetes。根据美国政府的要求，那些网站全部屏蔽了伊朗的 IP 地址。</span>
 
 -- [《GitLab 阻止了伊朗人的访问》](https://ahmadhaghighi.com/blog/2020/gitlab/)
 

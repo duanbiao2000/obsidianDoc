@@ -120,6 +120,3 @@ JHipster的目标是提供一个高效、现代化的开发环境，让开发者
 
 15. **RESTful支持**：Spring MVC支持RESTful风格的Web服务，可以通过`@RestController`注解创建RESTful控制器。
 
-Spring MVC的这些特性使得它成为Java Web开发中非常受欢迎的框架之一。它不仅简化了Web应用的开发，还提供了丰富的功能来满足不同场景下的需求。通过Spring Boot，开发者可以更加便捷地创建和部署Spring MVC应用。
-![[Pasted image 20240222170801.png]]
-

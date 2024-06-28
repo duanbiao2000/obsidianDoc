@@ -74,7 +74,7 @@ button {
 
 1. 全局作用域
 
-Vue.js 中的全局作用域是指在应用程序中定义的所有变量和方法都可以在任何组件中访问。这种方式定义的数据和方法可以被该Vue应用程序内任意组件调用，但会引起单一状态树(state tree)难以维护的问题。因此，建议使用 Vuex 等全局管理状态工具来更好地处理全局数据。
+Vue.js 中的全局作用域是指在应用程序中定义的所有变量和方法都可以在任何组件中访问。这种方式定义的数据和方法可以被该Vue应用程序内任意组件调用，但会引起🤡单一状态树(state tree)难以维护的问题。因此，建议使用 Vuex 等全局管理状态工具来更好地处理全局数据。
 
 2. 组件作用域
 
@@ -99,7 +99,7 @@ export default{
 
 3. 插槽作用域
 
-插槽是 Vue.js 很强大的特性之一，在许多场景下可以很方便地解决复杂的布局或交互需求，而插槽作用域则允许将插槽内部的内容传递到组件之外。
+插槽是 Vue.js 很强大的特性之一，在许多场景下可以很方便地解决复杂的布局或交互需求，而<font color="#ff0000">插槽作用域则允许将插槽内部的内容传递到组件之外</font>。
 
 在组件中，可以使用 `v-bind` 指令来将数据或方法传入插槽中，在插槽模板中使用 `$props` 对象访问到这些数据。
 
@@ -108,7 +108,7 @@ export default{
   <div>
     <h1>Parent Component</h1>
     <child-component v-slot="slotProps" :name="parentName">
-      {{ slotProps.message }} - {{ slotProps.slotData }}
+      {{ slotProps.message }} - {{ slotProps.slotData }} 🤣
     </child-component>
   </div>
 </template>

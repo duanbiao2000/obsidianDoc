@@ -8,6 +8,10 @@ id: 849184a7-06f2-4ed6-a38c-96495d170a95
 [Read on Omnivore](https://omnivore.app/me/a-coder-considers-the-waning-days-of-the-craft-the-new-yorker-1900ac3639c)
 [Read Original](https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft)
 
+## Highlights
+
+> <mark class="omni omni-yellow">themselves. We were to think of these advances as a tide coming in, nipping at our bare feet.</mark> [⤴️](https://omnivore.app/me/a-coder-considers-the-waning-days-of-the-craft-the-new-yorker-1900ac3639c#92d4d666-9105-408f-93ba-cacca39da43c)  ^92d4d666
+
 
 ---
 # 一位编码员思考工艺的衰落|纽约客 --- A Coder Considers the Waning Days of the Craft | The New Yorker
@@ -65,7 +69,7 @@ From the beginning, I had the sense that there was something wrongheaded in all 
 
 Cartoon by Hartley Lin
 
-The response from the programmer community to these developments was just, Yeah, you have to keep levelling up your skills. Learn difficult, obscure things. Software engineers, as a species, love automation. Inevitably, the best of them build tools that make other kinds of work obsolete. This very instinct explained why we were so well taken care of: code had immense leverage. One piece of software could affect the work of millions of people. Naturally, this sometimes displaced programmers themselves. We were to think of these advances as a tide coming in, nipping at our bare feet. So long as we kept learning we would stay dry. Sound advice—until there’s a tsunami.
+The response from the programmer community to these developments was just, Yeah, you have to keep levelling up your skills. Learn difficult, obscure things. Software engineers, as a species, love automation. Inevitably, the best of them build tools that make other kinds of work obsolete. This very instinct explained why we were so well taken care of: code had immense leverage. One piece of software could affect the work of millions of people. Naturally, this sometimes displaced programmers ==themselves. We were to think of these advances as a tide coming in, nipping at our bare feet.== So long as we kept learning we would stay dry. Sound advice—until there’s a tsunami.
 
 When we were first allowed to use A.I. chatbots at work, for programming assistance, I studiously avoided them. I expected that my colleagues would, too. But soon I started seeing the telltale colors of an A.I. chat session—the zebra pattern of call-and-response—on programmers’ screens as I walked to my desk. A common refrain was that these tools made you more productive; in some cases, they helped you solve problems ten times faster.
 

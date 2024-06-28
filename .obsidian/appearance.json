@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Minimal",
   "theme": "moonstone",
   "translucency": false,
   "nativeMenus": true,
@@ -13,7 +13,8 @@
     "snippets",
     "Split-Page-Callout",
     "Paper-Index-Callout",
-    "Bullet-Journal"
+    "Bullet-Journal",
+    "Stop-Callout"
   ],
   "baseFontSizeAction": true
 }
