@@ -4,37 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "7aad0b66e0d28afa",
-        "type": "tabs",
+        "id": "8603a0df217712e2",
+        "type": "split",
         "children": [
           {
-            "id": "efc40b1b6e7592e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-SlipBox/20240626161857-ChatGPT2VBA2PPT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+            "id": "a93b447b240210ea",
+            "type": "tabs",
+            "dimension": 74.03100775193799,
+            "children": [
+              {
+                "id": "39ea1a464770c450",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "001-Template/研究笔记卡片.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                },
+                "group": "f1faed15c9e793fd"
+              },
+              {
+                "id": "b1ad5de60278749a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "周月总结/202405/每周书单0506.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "fd7b866947bac6c9",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2024-07-04 17.46.47.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "e00f3c64b849c86e",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "images/Untitled 4.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": -192.28125,
+                      "zoom": 0
+                    }
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 2
           },
           {
-            "id": "72b68abc7717b9e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100-SlipBox/20240627110101-roadmap.sh.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+            "id": "8c4a2fa8848f1ee0",
+            "type": "split",
+            "dimension": 25.968992248062012,
+            "children": [
+              {
+                "id": "df53cf8c4693a612",
+                "type": "tabs",
+                "dimension": 79.18622848200313,
+                "children": [
+                  {
+                    "id": "271867833aa2e531",
+                    "type": "leaf",
+                    "state": {
+                      "type": "mindmap",
+                      "state": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f2e12f804de64992",
+                "type": "tabs",
+                "dimension": 20.81377151799687,
+                "children": [
+                  {
+                    "id": "47482b1b69ed5e28",
+                    "type": "leaf",
+                    "state": {
+                      "type": "localgraph",
+                      "state": {
+                        "file": "001-Template/研究笔记卡片.md",
+                        "options": {
+                          "collapse-filter": true,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": false,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": true,
+                          "colorGroups": [],
+                          "collapse-display": true,
+                          "showArrow": false,
+                          "textFadeMultiplier": 0,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 250,
+                          "scale": 0.2588386562181627,
+                          "close": true
+                        }
+                      }
+                    },
+                    "group": "f1faed15c9e793fd"
+                  }
+                ]
               }
-            }
+            ],
+            "direction": "vertical"
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -53,7 +153,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -88,12 +188,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -109,11 +209,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-SlipBox/20240627110101-roadmap.sh.md",
+                "file": "Excalidraw/Drawing 2024-07-04 17.46.47.excalidraw.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -126,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-SlipBox/20240627110101-roadmap.sh.md",
+                "file": "Excalidraw/Drawing 2024-07-04 17.46.47.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-SlipBox/20240627110101-roadmap.sh.md"
+                "file": "Excalidraw/Drawing 2024-07-04 17.46.47.excalidraw.md"
               }
             }
           },
@@ -171,36 +271,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "100-SlipBox/20240627110101-roadmap.sh.md"
+                "file": "Excalidraw/Drawing 2024-07-04 17.46.47.excalidraw.md"
               }
             }
           },
           {
-            "id": "a21ab8354136a283",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "80e81cd477c13408",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "53d05dcf48c32b15",
-            "type": "leaf",
-            "state": {
-              "type": "note-preview",
-              "state": {}
-            }
-          },
-          {
-            "id": "7df08783c4ca7646",
+            "id": "de8c23ae9f4b5d90",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -208,7 +284,7 @@
             }
           },
           {
-            "id": "e3ecf2fbe09be403",
+            "id": "0e45a3303bea862a",
             "type": "leaf",
             "state": {
               "type": "BC-matrix",
@@ -216,7 +292,7 @@
             }
           },
           {
-            "id": "5122a5d151875480",
+            "id": "5ebcfbc1905fd4d6",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -224,10 +300,10 @@
             }
           },
           {
-            "id": "778da3df0b758c88",
+            "id": "04c23bcc1e8ed064",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "smart-connections-view",
               "state": {}
             }
           }
@@ -236,87 +312,88 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 535.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "media-extended:Open media": false,
+      "templater-obsidian:Templater": true,
+      "extract-highlights-plugin:Extract Highlights": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian-omnivore:Omnivore": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "markdown-importer:Open format converter": true,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
+      "command-palette:Open command palette": true,
+      "zk-prefixer:Create new unique note": true,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "media-extended:Open media": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
-      "templater-obsidian:Templater": false,
-      "extract-highlights-plugin:Extract Highlights": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "note-to-mp:复制到公众号": false,
-      "obsidian-omnivore:Omnivore": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "72b68abc7717b9e7",
+  "active": "fd7b866947bac6c9",
   "lastOpenFiles": [
-    "100-SlipBox/20240626221449-markdown转为微信公众号.md",
-    "100-SlipBox/20240627110101-roadmap.sh.md",
-    "100-SlipBox/20240626161857-ChatGPT2VBA2PPT.md",
-    "AI/动手学深度学习复习回顾.md",
-    "textgenerator/prompts/awesomePrompts/educationalcontentcreatorAwesome.md",
-    "100-SlipBox/20240626180524.md",
-    "weekly/docs/issue-277.md",
-    "weekly/hWordComb/本周.md",
-    "weekly/docs/issue-67.md",
-    "AI/Python/python数据分析三件套.md",
-    "weekly/docs/issue-3.md",
-    "周月总结/202405/顶尖团队特质.md",
-    "前端开发/React/useEffect.md",
-    "weekly/weekly_20240602_191324.md",
-    "weekly/docs/issue-100.md",
-    "Omnivore/2024-06-10/增长黑客.md",
-    "textgenerator/prompts/awesomePrompts/datascientistAwesome.md",
-    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Usages/How-to-Use-Templater-Script.md",
-    "weekly/hWordComb/或者.md",
+    "images/Untitled 4.canvas",
+    "Excalidraw/Drawing 2024-07-04 17.46.47.excalidraw.md",
+    "Excalidraw/assets/img/Pasted Image 20240704182719_286.png",
+    "Excalidraw/assets/img/Pasted Image 20240704181134_070.png",
+    "Excalidraw/assets/img/Pasted Image 20240704180919_061.png",
+    "Excalidraw/assets/img/Pasted Image 20240704180634_039.png",
+    "Excalidraw/assets/img/Pasted Image 20240704180134_010.png",
+    "Excalidraw/assets/img/Pasted Image 20240704180104_008.png",
+    "Excalidraw/assets/img/Pasted Image 20240704180034_006.png",
+    "Excalidraw/assets/img/Pasted Image 20240704175900_907.png",
+    "Excalidraw/assets/img/Pasted Image 20240704175748_991.png",
+    "Excalidraw/assets/img/Pasted Image 20240704175733_990.png",
+    "周月总结/202405/每周书单0506.md",
+    "前端开发/React/React实现轮播图.md",
+    "textgenerator/prompts/awesomePrompts/unconstrainedaimodeldanAwesome.md",
     "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Templater/Generate-Tweet-Card.md",
-    "100-SlipBox/20240626150626-.md",
-    "BackEnd/RoadMap&Interview/Boss简历迭代-LAPTOP-AAJ6HH4K.md",
-    "textgenerator/templates/dalle/ligFlare.md",
-    "weekly/docs/issue-108.md",
-    "BackEnd/Java/在线课/In28Minutes.md",
-    "AI/深度学习/DIVE INTO DEEP LEARNING上册.md",
+    "textgenerator/templates/dalle/ligStudio.md",
+    "textgenerator/prompts/awesomePrompts/socratAwesome.md",
+    "周月总结/java中间件.md",
+    "001-Template/普通索引卡.md",
+    "100-SlipBox/20240626161857-ChatGPT2VBA2PPT.md",
+    "100-SlipBox/Flask开发部署.md",
+    "BackEnd/RoadMap&Interview/Boss简历迭代.md",
+    "textgenerator/templates/dalle/qua35mm.md",
+    "前端开发/Full Stack Web Development Course.md",
+    "textgenerator/prompts/awesomePrompts/startupideageneratorAwesome.md",
+    "001-Template/常用研究方法和技术.md",
+    "001-Template/研究笔记卡片.md",
+    "000-index/经典卡片标准格式(索引).md",
+    "textgenerator/prompts/awesomePrompts/debaterAwesome.md",
+    "textgenerator/templates/dalle/qua4K.md",
+    "textgenerator/prompts/awesomePrompts/biblicaltranslatorAwesome.md",
+    "前端开发/React/以Diff追踪代码修改.md",
+    "textgenerator/templates/dalle/artNormanRockwell.md",
+    "Writng/早班车/早班车0609.md",
+    "Omnivore/2024-06-10/增长黑客.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw/assets/img",
+    "Excalidraw/assets",
+    "Omnivore/2024-07-03",
+    "001-Template/AdvancedSlides",
     "Omnivore/2024-06-25",
     "IELTS/assets/img/每日听力材料  (至少听四遍)",
     "IELTS/assets/img",
     "IELTS/assets",
-    "Omnivore/2024-06-22",
-    "images/Pasted image 20230903164905.png",
-    "textgenerator/configs/llm",
-    "textgenerator/configs",
-    "Omnivore/2024-06-21",
-    "images/Pasted image 20230802121346.png",
-    "textgenerator/templates/dalle",
-    "textgenerator/templates/default",
-    "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143751051.png",
-    "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143745431.png",
-    "AI/ChatGPT/assets/img/绘图提示词/IMG-绘图提示词-20240603143734708.png",
-    "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143813409.png",
-    "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143811438.png",
-    "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143809131.png",
-    "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143807670.png",
-    "AI/ChatGPT/assets/img/Key Insight/IMG-Key Insight-20240603143805948.png",
     "images/Untitled 1.canvas",
     "images/Untitled.canvas"
   ]

@@ -2,5 +2,5 @@
   "folder": "100-SlipBox",
   "template": "001-Template/Templater/themedatetagsstatus",
   "format": "YYYYMMDDHHmmss",
-  "autorun": true
+  "autorun": false
 }

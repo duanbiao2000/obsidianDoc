@@ -1,14 +1,6 @@
 {
   "note-refactor-obsidian:app:extract-selection-first-line": [],
   "obsidian-advanced-slides:reload-advanced-slides-preview": [],
-  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "E"
-    }
-  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -17,7 +9,14 @@
       "key": "B"
     }
   ],
-  "editor:toggle-bold": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
   "theme:use-dark": [
     {
       "modifiers": [
@@ -246,5 +245,52 @@
       ],
       "key": "D"
     }
-  ]
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-auto-link-title:enhance-url-with-title": [],
+  "obsidian-auto-link-title:auto-link-title-normal-paste": [],
+  "editing-toolbar:header0-text": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "obsidian-linter:lint-file": [],
+  "markdown-prettifier:markdown-prettifier-run": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "note-refactor-obsidian:app:extract-selection-content-only": [],
+  "app:open-help": [],
+  "editor:open-link-in-new-window": [],
+  "editor:open-link-in-new-split": [],
+  "Enhanced-editing:xiahua-text": [],
+  "Enhanced-editing:del-lines": []
 }

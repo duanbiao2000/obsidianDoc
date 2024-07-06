@@ -39,18 +39,6 @@ modified date: 2023-09-29T20:55
 
 ![[Pasted image 20231017172112.png]]
 
-![[Pasted image 20231017174215.png]]
-
-![[Pasted image 20231017174918.png]]
-![[Pasted image 20231017174311.png]]
-![[Pasted image 20231017175440.png]]
-
-# the-ultimate-html5-css3-series
-![【CodeWithMosh】终极HTML5和CSS3课程系列： 第1部分 | The Ultimate HTML5 & CSS3 Series: Part 1-devCamb-稍后再看-哔哩哔哩视频 (bilibili.com)](https://www.bilibili.com/list/watchlater?oid=443998872&bvid=BV1KL411z7wW&spm_id_from=333.788.top_right_bar_window_view_later.content.click&p=18)
-
-![[Pasted image 20231018143210.png]]
-![[Pasted image 20231018143339.png]]
-
 # # Animated Portfolio Website with React & Framer Motion | React Project for Beginners
 ![(189) Animated Portfolio Website with React & Framer Motion | React Project for Beginners - YouTube](https://www.youtube.com/watch?v=CHGHuF24Cjw)
 ![[Pasted image 20231018183351.png]]

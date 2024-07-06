@@ -93,7 +93,7 @@
   "devMode": false,
   "templateFolderPath": "001-Template",
   "announceUpdates": true,
-  "version": "1.8.1",
+  "version": "1.9.2",
   "disableOnlineFeatures": true,
   "ai": {
     "defaultModel": "Ask me",

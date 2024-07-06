@@ -1,6 +1,6 @@
 [【全150集】目前B站最全雅思口语Keith合集！雅思口语的神！油管百万播放的雅思口语网课视频！超清中文字幕版本！！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Bx4y1T7mT/?vd_source=7038f96b6bb3b14743531b102b109c43)
 
-# p1 1.1.1.1. 30Phrases Talk about your hobby
+# p1 1.1.1.1. 30 Phrases Talk about your hobby
 
 ****
 
@@ -45,7 +45,7 @@ often / regularly / frequently / whenever I can / as often as I can /
 
 -   use different tense
 
-    ```
+    ```C
     - I paint
     - I recently took up painting
     - I am new to it

@@ -2,23 +2,16 @@
 
 # 第1章 Spring 5.0
 
-	重要模块
-	5.0新增功能
-	简化了单元测试--依赖注入DI (在持续集成模式下运行)
-	减少了衔接代码 (获取数据库连接,异常处理,事务管理,日志记录等)
+> [!NOTE]
+> 重要模块
+> 
+> 5.0新增功能
+> 
+> 简化了单元测试--依赖注入DI (在持续集成模式下运行)
+> 
+> 减少了衔接代码 (获取数据库连接,异常处理,事务管理,日志记录等)
 
 
-```java
-jbdcTemplate.update(INSERT_TODO_QUERY,bean.getDescription(),bean.isDone());
-```
-集中进行异常处理,使用AOP完成注入
-架构灵活性:
-	Web层 Spring MVC
-	Spring Beans可以较少代码实现业务逻辑
-	数据层: Spring JDBC ,  JPA, Hibernate 或 Mybatis
-	Spring AOP实现横切关注点, AspectJ
-Spring Cloud可以帮助简化微服务开发和部署。
-Spring Cloud Data Flow为微服务应用程序提供了业务流程。
 
 ## Spring模块
 
@@ -61,7 +54,7 @@ public class DataServiceImpl implements DataService
 @Service
 public class BussinessServiceImpl implements BuinessService
 ```
-装配: 将DataService类的bean注入BusinessSerciceImpl类的bean中 (@Autowired)
+装配: 将DataService类的bean注入BusinessServiceImpl类的bean中 (@Autowired)
 ```java
 public class BusinessServiceImpl{
 	@Autowired 

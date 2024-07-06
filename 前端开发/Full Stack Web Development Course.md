@@ -6,7 +6,7 @@
 
 ![[Pasted image 20230909193621.png]]
 ![[Pasted image 20230909194356.png]]
- MVC是Model-View-Controller的缩写,是一种软件架构模式,用于分离表示层(View)、业务逻辑层(Model)和控制层(Controller)。
+MVC是Model-View-Controller的缩写,是一种软件架构模式,用于分离表示层(View)、业务逻辑层(Model)和控制层(Controller)。
 Model:
 - 业务数据模型,用于处理应用程序的数据逻辑和状态。
 - 包含实体类、数据访问对象等。
@@ -167,8 +167,7 @@ module.exports = router
 
 app.set VS  app.use
 ![[Pasted image 20230909214203.png]]
-
- - app.set(name, value):
+- app.set(name, value):
 设置应用程序的设置值。
 - app.use(function): 
 加载中间件函数,对每个请求执行。
