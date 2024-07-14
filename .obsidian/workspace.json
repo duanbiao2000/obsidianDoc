@@ -4,20 +4,98 @@
     "type": "split",
     "children": [
       {
-        "id": "e68007277d077560",
-        "type": "tabs",
+        "id": "8603a0df217712e2",
+        "type": "split",
         "children": [
           {
-            "id": "39ea1a464770c450",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/打造第二大脑.md"
+            "id": "e68007277d077560",
+            "type": "tabs",
+            "dimension": 80.62015503875969,
+            "children": [
+              {
+                "id": "39ea1a464770c450",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Extras/Template/Templater/themedatetagsstatus.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                },
+                "group": "f1faed15c9e793fd"
               }
-            }
+            ]
+          },
+          {
+            "id": "8c4a2fa8848f1ee0",
+            "type": "split",
+            "dimension": 19.379844961240313,
+            "children": [
+              {
+                "id": "df53cf8c4693a612",
+                "type": "tabs",
+                "dimension": 79.18622848200313,
+                "children": [
+                  {
+                    "id": "271867833aa2e531",
+                    "type": "leaf",
+                    "state": {
+                      "type": "mindmap",
+                      "state": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f2e12f804de64992",
+                "type": "tabs",
+                "dimension": 20.81377151799687,
+                "children": [
+                  {
+                    "id": "47482b1b69ed5e28",
+                    "type": "leaf",
+                    "state": {
+                      "type": "localgraph",
+                      "state": {
+                        "file": "Extras/Template/Templater/themedatetagsstatus.md",
+                        "options": {
+                          "collapse-filter": true,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": false,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": true,
+                          "colorGroups": [],
+                          "collapse-display": true,
+                          "showArrow": false,
+                          "textFadeMultiplier": 0,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 250,
+                          "scale": 0.2588386562181627,
+                          "close": true
+                        }
+                      }
+                    },
+                    "group": "f1faed15c9e793fd"
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -75,7 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 312.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -91,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/打造第二大脑.md",
+                "file": "Extras/Template/Templater/themedatetagsstatus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/打造第二大脑.md",
+                "file": "Extras/Template/Templater/themedatetagsstatus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/打造第二大脑.md"
+                "file": "Extras/Template/Templater/themedatetagsstatus.md"
               }
             }
           },
@@ -153,7 +231,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/打造第二大脑.md"
+                "file": "Extras/Template/Templater/themedatetagsstatus.md"
               }
             }
           },
@@ -230,54 +308,54 @@
   },
   "active": "39ea1a464770c450",
   "lastOpenFiles": [
-    "Excalidraw/assets/img/Pasted Image 20240708195653_847.png",
-    "Excalidraw/assets/img/打造第二大脑",
-    "Excalidraw/Drawing 2024-07-03 17.25.20.excalidraw.md",
-    "前端开发/Vue/Vue3中的变化.md",
-    "Writng/考上就靠心智图/图式交流-考上就靠心智图.md",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124121708.png",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124119511.png",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图",
-    "Writng/考上就靠心智图/assets/img",
-    "Writng/考上就靠心智图/assets",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124120953.png",
-    "Writng/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 8.png",
-    "Writng/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 7.png",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124120776.png",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124120601.png",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124120360.png",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124120173.png",
-    "Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240708124119960.png",
-    "Writng/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568",
-    "Writng/考上就靠心智图",
-    "Omnivore/2024-07-04/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md",
-    "Omnivore/2024-07-04",
-    "Excalidraw/打造第二大脑.md",
-    "images/Untitled 4.canvas",
-    "周月总结/202405/每周书单0506.md",
-    "前端开发/React/React实现轮播图.md",
-    "textgenerator/prompts/awesomePrompts/unconstrainedaimodeldanAwesome.md",
-    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Templater/Generate-Tweet-Card.md",
-    "textgenerator/templates/dalle/ligStudio.md",
-    "textgenerator/prompts/awesomePrompts/socratAwesome.md",
-    "周月总结/java中间件.md",
-    "001-Template/普通索引卡.md",
-    "100-SlipBox/20240626161857-ChatGPT2VBA2PPT.md",
-    "100-SlipBox/Flask开发部署.md",
-    "BackEnd/RoadMap&Interview/Boss简历迭代.md",
-    "textgenerator/templates/dalle/qua35mm.md",
-    "前端开发/Full Stack Web Development Course.md",
-    "textgenerator/prompts/awesomePrompts/startupideageneratorAwesome.md",
-    "001-Template/常用研究方法和技术.md",
-    "001-Template/研究笔记卡片.md",
-    "000-index/经典卡片标准格式(索引).md",
-    "textgenerator/prompts/awesomePrompts/debaterAwesome.md",
-    "textgenerator/templates/dalle/qua4K.md",
-    "textgenerator/prompts/awesomePrompts/biblicaltranslatorAwesome.md",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw/assets/img",
-    "images/Untitled 1.canvas",
-    "images/Untitled.canvas"
+    "2. Areas/BackEnd/Java/Spring/微服务架构-MS-GKDVHLTHBXTL.md",
+    "2. Areas/AI/动手学深度学习 (一刷)笔记-MS-GKDVHLTHBXTL.md",
+    "2. Areas/AI/深度学习/动手学深度学习 (一刷)笔记-MS-GKDVHLTHBXTL.md",
+    "2. Areas/IELTS/前端开发常见的问题讨论中英-MS-GKDVHLTHBXTL.md",
+    "2. Areas/BackEnd/Java/源码阅读/仿知乎-MS-GKDVHLTHBXTL.md",
+    "2. Areas/BackEnd/Java/Spring/Spring 进阶-MS-GKDVHLTHBXTL.md",
+    "2. Areas/前端开发/JavaScript/30 Seconds of Code-MS-GKDVHLTHBXTL.md",
+    "2. Areas/Writng/末班车/Condense , filter and ditstil.md",
+    "3. Resources/textgenerator/templates/dalle/artSalvadorDali.md",
+    "2. Areas/前端开发/Vue/Vue Route.md",
+    "2. Areas/Writng/末班车/临时稿件(风格改为与统一,只是内容更为深刻).md",
+    "dailyNotes/100-SlipBox/110-FleetingBox/JavaScript 忍者秘籍(第2版).md",
+    "3. Resources/textgenerator/prompts/awesomePrompts/financialanalystAwesome.md",
+    "3. Resources/textgenerator/prompts/awesomePrompts/poetAwesome.md",
+    "3. Resources/textgenerator/templates/dalle/artWatercolor.md",
+    "3. Resources/textgenerator/templates/dalle/getPhotos.md",
+    "3. Resources/textgenerator/templates/dalle/artLowPoly.md",
+    "Extras/Obsidian-Templates-main/Docs/Templater/Generate-Tweet-Card.md",
+    "3. Resources/textgenerator/prompts/awesomePrompts/foodcriticAwesome.md",
+    "2. Areas/BackEnd/SQL/SELECT子句顺序.md",
+    "2. Areas/IELTS/动词短语.md",
+    "2. Areas/AI/社区/技术雷达.md",
+    "3. Resources/textgenerator/prompts/default/getEmailPos.md",
+    "3. Resources/textgenerator/prompts/awesomePrompts/stackoverflowpostAwesome.md",
+    "2. Areas/前端开发/React代码解读0605.md",
+    "2. Areas/影音读/书本通读/非技术类/阅读变现(商务书曼陀罗).md",
+    "Extras/Obsidian-Templates-main/Dataview/Heatmap/Untitled",
+    "dailyNotes/100-SlipBox/120-公众号Copy/assets/img/202405171526-kimi智能体提问词设计",
+    "dailyNotes/100-SlipBox/120-公众号Copy/assets/img",
+    "dailyNotes/100-SlipBox/120-公众号Copy/assets",
+    "dailyNotes/100-SlipBox/110-FleetingBox/assets/img/深入浅出React技术栈",
+    "dailyNotes/100-SlipBox/110-FleetingBox/assets/img/模板引擎",
+    "dailyNotes/100-SlipBox/110-FleetingBox/assets/img/运动健身",
+    "dailyNotes/100-SlipBox/110-FleetingBox/assets/img/覆盖全端业务的大前端技术",
+    "dailyNotes/100-SlipBox/110-FleetingBox/assets/img/同构",
+    "dailyNotes/100-SlipBox/110-FleetingBox/assets/img/vim笔记",
+    "Extras/Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Snippets/assets/img/Stop-Callout/IMG-Stop-Callout-20240714124639958.png",
+    "2. Areas/AI/assets/img/AI最新进展/IMG-AI最新进展-20240714124700200.png",
+    "2. Areas/影音读/assets/img/Next.js & React - The Complete Guide/IMG-Next.js & React - The Complete Guide-20240714124913273.png",
+    "Cards/Excalidraw/assets/img/打造第二大脑/IMG-打造第二大脑-20240714124503345.png",
+    "2. Areas/Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240714124825076.png",
+    "2. Areas/Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240714124822301.png",
+    "2. Areas/Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240714124824718.png",
+    "2. Areas/Writng/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 8.png",
+    "2. Areas/Writng/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 7.png",
+    "2. Areas/Writng/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240714124824578.png",
+    "Extras/images/Untitled 4.canvas",
+    "Extras/images/Untitled 1.canvas",
+    "Extras/images/Untitled.canvas"
   ]
 }

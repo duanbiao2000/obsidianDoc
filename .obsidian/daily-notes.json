@@ -1,6 +1,6 @@
 {
-  "folder": "100-SlipBox",
-  "template": "001-Template/Templater/themedatetagsstatus",
+  "folder": "dailyNotes",
+  "template": "Extras/Template/Templater/themedatetagsstatus",
   "format": "YYYYMMDDHHmmss",
   "autorun": false
 }

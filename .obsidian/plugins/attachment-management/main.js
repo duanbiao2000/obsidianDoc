@@ -465,19 +465,6 @@ function isAttachment(settings, filePath) {
   }
   return !matchExtension(file.extension, settings.excludeExtensionPattern);
 }
-function attachRenameType(setting) {
-  let ret = "BOTH" /* BOTH */;
-  if (setting.attachFormat.includes(SETTINGS_VARIABLES_NOTENAME)) {
-    if (setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTENAME) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPATH) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPARENT)) {
-      ret = "BOTH" /* BOTH */;
-    } else {
-      ret = "FILE" /* FILE */;
-    }
-  } else if (setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTENAME) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPATH) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPARENT)) {
-    ret = "FOLDER" /* FOLDER */;
-  }
-  return ret;
-}
 async function MD5(adapter, file) {
   const md5 = new Md5();
   if (!adapter.exists(file.path, true)) {
@@ -768,10 +755,7 @@ var SettingTab = class extends import_obsidian3.PluginSettingTab {
           });
         }).addButton((btn) => {
           btn.setIcon("check").setTooltip("Save extension override").onClick(async () => {
-            const wrongIndex = validateExtensionEntry(
-              this.plugin.settings.attachPath,
-              this.plugin.settings
-            );
+            const wrongIndex = validateExtensionEntry(this.plugin.settings.attachPath, this.plugin.settings);
             if (wrongIndex.length > 0) {
               for (const i of wrongIndex) {
                 const resIndex = i.index < 0 ? 0 : i.index;
@@ -805,9 +789,7 @@ var SettingTab = class extends import_obsidian3.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian3.Setting(containerEl).setName("Exclude subpaths").setDesc(
-      "Turn on this option if you want to also exclude all subfolders of the folder paths provided above."
-    ).addToggle(
+    new import_obsidian3.Setting(containerEl).setName("Exclude subpaths").setDesc("Turn on this option if you want to also exclude all subfolders of the folder paths provided above.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.excludeSubpaths).onChange(async (value) => {
         debugLog("setting - excluded subpaths:" + value);
         this.plugin.settings.excludeSubpaths = value;
@@ -1468,10 +1450,16 @@ var ArrangeHandler = class {
         continue;
       }
       const { setting } = getOverrideSetting(this.settings, innerFile);
-      const type2 = attachRenameType(setting);
-      if (type2 === "NULL" /* NULL */) {
-        debugLog("rearrangeAttachment - no variable use, skipped");
-        return;
+      const md = getMetadata(obNote);
+      const attachPath = md.getAttachmentPath(setting, this.settings.dateFormat);
+      if (!await this.app.vault.adapter.exists(attachPath, true)) {
+        if (oldPath != void 0 && await this.app.vault.adapter.exists(attachPath, false)) {
+          const mdOld = getMetadata(oldPath);
+          const attachPathOld = mdOld.getAttachmentPath(setting, this.settings.dateFormat);
+          this.app.vault.adapter.rename(attachPathOld, attachPath);
+        } else {
+          await this.app.vault.adapter.mkdir(attachPath);
+        }
       }
       for (let link of attachments[obNote]) {
         try {
@@ -1487,7 +1475,6 @@ var ArrangeHandler = class {
           continue;
         }
         const metadata = getMetadata(obNote, linkFile);
-        const attachPath = metadata.getAttachmentPath(setting, this.settings.dateFormat);
         const md5 = await MD5(this.app.vault.adapter, linkFile);
         const originalName = loadOriginalName(this.settings, setting, linkFile.extension, md5);
         debugLog("rearrangeAttachment - original name:", originalName);
@@ -1511,9 +1498,6 @@ var ArrangeHandler = class {
         if (attachPath == path.dirname(link) && attachName === path.basename(link, path.extname(link))) {
           continue;
         }
-        if (!await this.app.vault.adapter.exists(attachPath)) {
-          await this.app.vault.adapter.mkdir(attachPath);
-        }
         const attachPathFile = this.app.vault.getAbstractFileByPath(attachPath);
         if (attachPathFile === null || !(attachPathFile instanceof import_obsidian8.TFolder)) {
           debugLog(`${attachPath} not exists, skipped`);
@@ -1532,7 +1516,7 @@ var ArrangeHandler = class {
    * @param {AttachmentManagementPluginSettings} settings - The settings for the attachment management plugin.
    * @param {"active" | "links" | "file"} type - The type of attachments to retrieve.
    * @param {TFile} [file] - The file to filter attachments by. Optional.
-   * @return {Promise<Record<string, Set<string>>>} - A promise that resolves to a record of attachments, where each key is a file name and each value is a set of attachment names.
+   * @return {Promise<Record<string, Set<string>>>} - A promise that resolves to a record of attachments, where each key is a file name and each value is a set of associated attachment names.
    */
   async getAttachmentsInVault(settings, type, file, oldPath) {
     let attachmentsRecord = {};
@@ -2009,7 +1993,7 @@ var AttachmentManagementPlugin = class extends import_obsidian11.Plugin {
             await this.saveSettings();
             const oldMetadata = getMetadata(oldPath);
             const oldAttachPath = oldMetadata.getAttachmentPath(setting, this.settings.dateFormat);
-            this.app.vault.adapter.exists(oldAttachPath).then((exists) => {
+            this.app.vault.adapter.exists(oldAttachPath, true).then((exists) => {
               if (exists) {
                 checkEmptyFolder(this.app.vault.adapter, oldAttachPath).then((empty) => {
                   if (empty) {

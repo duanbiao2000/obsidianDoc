@@ -4,7 +4,7 @@
     "flashcardGoodText": "Good",
     "flashcardHardText": "Hard",
     "flashcardTags": [
-      "#flashcards"
+      ""
     ],
     "convertFoldersToDecks": true,
     "cardCommentOnSameLine": false,
@@ -14,7 +14,7 @@
     "flashcardWidthPercentage": 50,
     "randomizeCardOrder": true,
     "convertHighlightsToClozes": true,
-    "convertBoldTextToClozes": false,
+    "convertBoldTextToClozes": true,
     "convertCurlyBracketsToClozes": true,
     "singleLineCardSeparator": "::",
     "singleLineReversedCardSeparator": ":::",
@@ -38,7 +38,7 @@
     "maxLinkFactor": 1,
     "showDebugMessages": false
   },
-  "buryDate": "2024-06-07",
+  "buryDate": "2024-07-14",
   "buryList": [],
   "historyDeck": "剪辑"
 }
