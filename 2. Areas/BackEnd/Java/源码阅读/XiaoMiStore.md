@@ -64,18 +64,7 @@
 
 ```
 
-/* 这个文件是一个Node.js项目的`package.json`文件，它定义了项目的元数据、依赖关系和脚本命令。这个特定的文件是为一个使用Vue.js框架的前端项目配置的。下面是对这个`package.json`文件的详细解释：
 
-  
-
-1. `name`: 项目的名称，这里是`xiaomi-vue-store`。
-2. `version`: 项目的当前版本号，这里是`0.1.0`。
-3. `private`: 设置为`true`表示这个包是私有的，不应该被发布到npm上。
-4. `scripts`: 定义了可以通过`npm run`命令执行的脚本。
-
-   - `serve`: 启动开发服务器，通常用于本地开发和测试。
-   - `build`: 构建生产环境的代码，这会触发Vue CLI的构建流程。
-   - `lint`: 运行ESLint来检查项目中的JavaScript代码质量。
    
 5. `dependencies`: 项目运行时所需的依赖库。
    - `axios`: 用于浏览器和node.js的HTTP客户端。
@@ -110,7 +99,6 @@
    - 组件可以通过`<component>`标签或者`Vue.component()`全局注册，然后在父组件的模板中使用。
 
 2. **路由（Router）**：
-   - Vue Router是Vue.js的官方路由器，它与Vue.js核心深度集成，让构建单页应用变得简单。
    - 路由定义了应用的导航结构，包括不同URL路径对应的组件。在Vue项目中，你通常会在`src`目录下创建一个名为`router`的文件夹，并在其中定义路由配置。
 
 3. **状态管理（Store）**：

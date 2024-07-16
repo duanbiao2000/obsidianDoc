@@ -1,8 +1,124 @@
 {
   "recentFiles": [
     {
+      "basename": "AMIGOSCODE",
+      "path": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
+    },
+    {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
+    },
+    {
+      "basename": "全栈工程师学习路线(待续)",
+      "path": "Atlas/全栈工程师学习路线(待续).md"
+    },
+    {
+      "basename": "开源项目集锦",
+      "path": "2. Areas/AI/社区/开源项目集锦.md"
+    },
+    {
+      "basename": "DIVE INTO DEEP LEARNING上册",
+      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册.md"
+    },
+    {
+      "basename": "Spring Boot",
+      "path": "2. Areas/BackEnd/Java/Spring/Spring Boot.md"
+    },
+    {
+      "basename": "哑巴英语逆袭方法论",
+      "path": "2. Areas/IELTS/哑巴英语逆袭方法论.md"
+    },
+    {
+      "basename": "XiaoMiStore",
+      "path": "2. Areas/BackEnd/Java/源码阅读/XiaoMiStore.md"
+    },
+    {
+      "basename": "7个高质量润色论文和文章的指令",
+      "path": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+    },
+    {
+      "basename": "打造第二大脑",
+      "path": "Cards/Excalidraw/打造第二大脑.md"
+    },
+    {
+      "basename": "朋友与敌人",
+      "path": "4. Archives/朋友与敌人.md"
+    },
+    {
+      "basename": "异常处理",
+      "path": "2. Areas/BackEnd/Java/异常处理.md"
+    },
+    {
+      "basename": "知识炼金术",
+      "path": "2. Areas/01认知科学/知识炼金术.md"
+    },
+    {
+      "basename": "20240630130436-象高手一样解决问题",
+      "path": "2. Areas/01认知科学/20240630130436-象高手一样解决问题.md"
+    },
+    {
+      "basename": "20240622130546-策展",
+      "path": "2. Areas/01认知科学/20240622130546-策展.md"
+    },
+    {
+      "basename": "像高手一样解决问题",
+      "path": "2. Areas/01认知科学/像高手一样解决问题.md"
+    },
+    {
+      "basename": "20240621-AI在PKM中扮演的角色",
+      "path": "2. Areas/Writing/早班车/20240621-AI在PKM中扮演的角色.md"
+    },
+    {
+      "basename": "Vue过滤器",
+      "path": "2. Areas/前端开发/Vue/Vue过滤器.md"
+    },
+    {
+      "basename": "流行词",
+      "path": "2. Areas/01认知科学/流行词.md"
+    },
+    {
+      "basename": "python数据分析三件套",
+      "path": "2. Areas/AI/Python/python数据分析三件套.md"
+    },
+    {
+      "basename": "API网关",
+      "path": "2. Areas/前端开发/React/API网关.md"
+    },
+    {
+      "basename": "英语例句0609 1",
+      "path": "2. Areas/IELTS/英语例句0609 1.md"
+    },
+    {
+      "basename": "动手学深度学习复习回顾",
+      "path": "2. Areas/AI/动手学深度学习复习回顾.md"
+    },
+    {
+      "basename": "图式交流-考上就靠心智图",
+      "path": "2. Areas/01认知科学/图式交流-考上就靠心智图.md"
+    },
+    {
+      "basename": "元认知",
+      "path": "2. Areas/01认知科学/元认知.md"
+    },
+    {
+      "basename": "影视后期特效制作理论与实践",
+      "path": "4. Archives/剪辑/影视后期特效制作理论与实践.md"
+    },
+    {
+      "basename": "UML基础",
+      "path": "2. Areas/前端开发/Vue/UML基础.md"
+    },
+    {
+      "basename": "languageliterarycriticAwesome",
+      "path": "Extras/textgenerator/prompts/awesomePrompts/languageliterarycriticAwesome.md"
+    },
+    {
+      "basename": "黄金信息",
+      "path": "2. Areas/Writing/末班车/黄金信息.md"
+    },
+    {
+      "basename": "词网-信息检索与学术研究-抽象与钻研",
+      "path": "2. Areas/Writing/词网-信息检索与学术研究-抽象与钻研.md"
     },
     {
       "basename": "时间线设计",
@@ -10,11 +126,11 @@
     },
     {
       "basename": "合理归类",
-      "path": "3. Resources/合理归类.md"
+      "path": "2. Areas/01认知科学/合理归类.md"
     },
     {
       "basename": "每日新知0506",
-      "path": "3. Resources/每日新知0506.md"
+      "path": "2. Areas/01认知科学/每日新知0506.md"
     },
     {
       "basename": "React设计模式与最佳实践",
@@ -37,10 +153,6 @@
       "path": "2. Areas/AI/ChatGPT/Mastering ChatGPT.md"
     },
     {
-      "basename": "20240622130546-策展",
-      "path": "3. Resources/20240622130546-策展.md"
-    },
-    {
       "basename": "7天刷爆LeetCode",
       "path": "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md"
     },
@@ -54,11 +166,11 @@
     },
     {
       "basename": "20240622234224-Notebooklm打造第二大脑",
-      "path": "3. Resources/20240622234224-Notebooklm打造第二大脑.md"
+      "path": "2. Areas/01认知科学/20240622234224-Notebooklm打造第二大脑.md"
     },
     {
       "basename": "The War of Art",
-      "path": "3. Resources/The War of Art.md"
+      "path": "2. Areas/01认知科学/The War of Art.md"
     },
     {
       "basename": "202308291942-react18通用后台管理系统",
@@ -77,12 +189,8 @@
       "path": "2. Areas/24种算法模式.md"
     },
     {
-      "basename": "像高手一样解决问题",
-      "path": "3. Resources/像高手一样解决问题.md"
-    },
-    {
       "basename": "20240627110101-roadmap.sh",
-      "path": "3. Resources/20240627110101-roadmap.sh.md"
+      "path": "2. Areas/01认知科学/20240627110101-roadmap.sh.md"
     },
     {
       "basename": "从零构建知识图谱",
@@ -91,110 +199,6 @@
     {
       "basename": "20240702184735-SmartStudyBuddy",
       "path": "2. Areas/AI/20240702184735-SmartStudyBuddy.md"
-    },
-    {
-      "basename": "20240630133441-Think in UML",
-      "path": "2. Areas/BackEnd/20240630133441-Think in UML.md"
-    },
-    {
-      "basename": "20240630130436-象高手一样解决问题",
-      "path": "3. Resources/20240630130436-象高手一样解决问题.md"
-    },
-    {
-      "basename": "20240704122808-15年商业和人生教训的40条简短建议",
-      "path": "3. Resources/20240704122808-15年商业和人生教训的40条简短建议.md"
-    },
-    {
-      "basename": "20240704130202-数字营销",
-      "path": "2. Areas/20240704130202-数字营销.md"
-    },
-    {
-      "basename": "阿里云服务",
-      "path": "2. Areas/BackEnd/阿里云服务.md"
-    },
-    {
-      "basename": "20240626161857-ChatGPT2VBA2PPT",
-      "path": "2. Areas/AI/20240626161857-ChatGPT2VBA2PPT.md"
-    },
-    {
-      "basename": "20240626221449-markdown转为微信公众号",
-      "path": "2. Areas/AI/20240626221449-markdown转为微信公众号.md"
-    },
-    {
-      "basename": "20240625095452-弹幕单词记忆Claude开发",
-      "path": "2. Areas/AI/20240625095452-弹幕单词记忆Claude开发.md"
-    },
-    {
-      "basename": "20240628193802-脱稿与即兴",
-      "path": "2. Areas/Writing/20240628193802-脱稿与即兴.md"
-    },
-    {
-      "basename": "API网关",
-      "path": "2. Areas/前端开发/React/API网关.md"
-    },
-    {
-      "basename": "敏捷和精益方法",
-      "path": "2. Areas/前端开发/React/敏捷和精益方法.md"
-    },
-    {
-      "basename": "创业初期的收入流尝试",
-      "path": "2. Areas/前端开发/React/创业初期的收入流尝试.md"
-    },
-    {
-      "basename": "GitHub Actions",
-      "path": "2. Areas/前端开发/React/GitHub Actions.md"
-    },
-    {
-      "basename": "API设计模式",
-      "path": "2. Areas/前端开发/React/API设计模式.md"
-    },
-    {
-      "basename": "Build and Deploy a Full Stack Next.js 13 Application",
-      "path": "2. Areas/前端开发/React/Build and Deploy a Full Stack Next.js 13 Application.md"
-    },
-    {
-      "basename": "Findlay - React - The Road To Enterprise.pdf",
-      "path": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
-    },
-    {
-      "basename": "Home",
-      "path": "2. Areas/前端开发/React/Home.md"
-    },
-    {
-      "basename": "JavaScript 忍者秘籍(第2版)",
-      "path": "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md"
-    },
-    {
-      "basename": "nodejs",
-      "path": "2. Areas/前端开发/React/nodejs.md"
-    },
-    {
-      "basename": "Serverless",
-      "path": "2. Areas/前端开发/React/Serverless.md"
-    },
-    {
-      "basename": "vim笔记",
-      "path": "2. Areas/前端开发/React/vim笔记.md"
-    },
-    {
-      "basename": "深入浅出React技术栈",
-      "path": "2. Areas/前端开发/React/深入浅出React技术栈.md"
-    },
-    {
-      "basename": "运动健身",
-      "path": "1. Projects/运动健身.md"
-    },
-    {
-      "basename": "Feel-good Productivity",
-      "path": "2. Areas/影音读/书本通读/非技术类/Feel-good Productivity.md"
-    },
-    {
-      "basename": "哈佛决策课",
-      "path": "2. Areas/影音读/书本通读/非技术类/哈佛决策课.md"
-    },
-    {
-      "basename": "python深度学习第二版",
-      "path": "2. Areas/AI/深度学习/python深度学习第二版.md"
     }
   ],
   "omittedPaths": [

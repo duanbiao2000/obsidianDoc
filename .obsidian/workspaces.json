@@ -19,7 +19,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Atlas/dataview/dataviews.md",
+                        "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
                         "mode": "source",
                         "backlinks": true,
                         "source": false
@@ -132,8 +132,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 288.5,
-        "collapsed": true
+        "width": 288.5
       },
       "right": {
         "id": "719d766977cb2fea",
@@ -149,6 +148,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -165,6 +165,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -186,7 +187,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                  }
                 }
               },
               {
@@ -206,7 +209,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "file-properties",
-                  "state": {}
+                  "state": {
+                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                  }
                 }
               },
               {
@@ -216,14 +221,29 @@
                   "type": "review-queue-list-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "9ee365e81554bd97",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {}
+                }
+              },
+              {
+                "id": "712b4cbc6b7f2273",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-tree",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
-        "width": 200,
-        "collapsed": true
+        "width": 318.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -242,8 +262,6 @@
           "homepage:Open homepage": false,
           "obsidian-advanced-slides:Show Slide Preview": false,
           "breadcrumbs:Breadcrumbs Visualisation": false,
-          "smart-connections:Open: View Smart Connections": false,
-          "smart-connections:Open: Smart Chat Conversation": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
@@ -253,11 +271,13 @@
           "zk-prefixer:Create new unique note": false,
           "random-note:Open random note": false,
           "workspaces:Manage workspace layouts": false,
-          "obsidian-spaced-repetition:Review flashcards": false
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "smart-connections:Open: View Smart Connections": false,
+          "smart-connections:Open: Smart Chat Conversation": false
         }
       },
-      "active": "b6c5fa0c5bef5f0f",
-      "mtime": "2024-07-16T23:09:22+08:00"
+      "active": "74a7bc996dfa0756",
+      "mtime": "2024-07-17T00:14:03+08:00"
     },
     "单篇笔记": {
       "main": {

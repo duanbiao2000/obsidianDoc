@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/dataview/dataviews.md",
+                    "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -126,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/dataview/dataviews.md",
+                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/dataview/dataviews.md",
+                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/dataview/dataviews.md"
+                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
               }
             }
           },
@@ -208,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/dataview/dataviews.md"
+                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
               }
             }
           },
@@ -237,12 +238,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,54 +275,54 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "6a73026fe242f7bd",
+  "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
-    "4. Archives/attachments/BeautifulSoup 懂车帝爬取",
-    "4. Archives/attachments/2024-05-02",
-    "4. Archives/attachments",
-    "1. Projects/周月总结/202405/学霸眼中的常识0504.md",
     "Atlas/dataview/dataviews.md",
-    "Atlas/时间线设计.md",
-    "Atlas/attachments/时间线设计",
-    "Atlas/attachments",
-    "3. Resources/合理归类.md",
-    "3. Resources/attachments/合理归类",
-    "1. Projects/周月总结/202405/attachments/合理归类",
-    "1. Projects/周月总结/202405/attachments",
-    "3. Resources/每日新知0506.md",
-    "3. Resources/attachments/每日新知0506",
-    "3. Resources/attachments",
-    "dailyNotes/100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md",
-    "dailyNotes/100-SlipBox/110-FleetingBox",
-    "2. Areas/前端开发/React/React设计模式与最佳实践.md",
-    "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md",
-    "Atlas/dataview/dataviewjs.md",
-    "Cards/Excalidraw/Drawing 2024-07-03 17.25.20.excalidraw.md",
-    "2. Areas/AI/ChatGPT/Mastering ChatGPT.md",
-    "3. Resources/20240622130546-策展.md",
-    "Extras/Template/Templater/themedatetagsstatus.md",
-    "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md",
-    "Extras/Template/Templater/Add-PS-and-Time.md",
-    "Extras/Obsidian-Templates-main/Docs/Usages/Dynamic-Insert-Code.md",
-    "Extras/Obsidian-Templates-main/Docs/Usages/How-to-Use-Templater-Script.md",
-    "Extras/Obsidian-Templates-main/Docs/Usages/Dataview-Custom-View.md",
-    "2. Areas/BackEnd/RoadMap&Interview/面试虎狼之词(待续).md",
-    "2. Areas/AI/Python/最新Python的web开发全家桶.md",
-    "2. Areas/BackEnd/LeetCode/7天刷爆LeetCode.md",
-    "2. Areas/BackEnd/LeetCode/Dive into Algorithms A Pythonic Adventure.md",
-    "2. Areas/BackEnd/SQL/SELECT子句顺序-.md",
-    "3. Resources/20240622234224-Notebooklm打造第二大脑.md",
-    "3. Resources/The War of Art.md",
-    "Extras/Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Snippets/assets/img/Stop-Callout/IMG-Stop-Callout-20240714124639958.png",
-    "2. Areas/AI/assets/img/AI最新进展/IMG-AI最新进展-20240714124700200.png",
-    "2. Areas/影音读/assets/img/Next.js & React - The Complete Guide/IMG-Next.js & React - The Complete Guide-20240714124913273.png",
-    "Cards/Excalidraw/assets/img/打造第二大脑/IMG-打造第二大脑-20240714124503345.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648323.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202647468.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202647968.png",
+    "Atlas/全栈工程师学习路线(待续).md",
+    "Atlas/attachments/全栈工程师学习路线(待续)",
+    "2. Areas/AI/社区/开源项目集锦.md",
+    "2. Areas/AI/AIGC发展趋势报告2023 (腾讯研究院).md",
+    "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册.md",
+    "2. Areas/BackEnd/Java/Spring/Spring Boot-LAPTOP-AAJ6HH4K.md",
+    "2. Areas/BackEnd/Java/Spring/Spring Boot.md",
+    "2. Areas/IELTS/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K.md",
+    "2. Areas/IELTS/哑巴英语逆袭方法论.md",
+    "2. Areas/BackEnd/Java/源码阅读/XiaoMiStore.md",
+    "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+    "Cards/Excalidraw/打造第二大脑.md",
+    "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
+    "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
+    "Cards/Excalidraw/attachments",
+    "4. Archives/朋友与敌人.md",
+    "4. Archives/attachments/朋友与敌人",
+    "2. Areas/BackEnd/Java/异常处理.md",
+    "2. Areas/01认知科学/知识炼金术.md",
+    "2. Areas/01认知科学/20240630130436-象高手一样解决问题.md",
+    "2. Areas/01认知科学/20240622130546-策展.md",
+    "2. Areas/01认知科学/attachments/合理归类",
+    "2. Areas/01认知科学/attachments/像高手一样解决问题",
+    "2. Areas/01认知科学/attachments/The War of Art",
+    "2. Areas/01认知科学/attachments/20240704122808-15年商业和人生教训的40条简短建议",
+    "2. Areas/01认知科学/attachments/20240630130436-象高手一样解决问题",
+    "2. Areas/01认知科学/attachments/20240627110101-roadmap.sh",
+    "2. Areas/01认知科学/attachments/20240622234224-Notebooklm打造第二大脑",
+    "2. Areas/01认知科学/像高手一样解决问题.md",
+    "2. Areas/Writing/早班车/20240621-AI在PKM中扮演的角色.md",
+    "2. Areas/前端开发/Vue/Vue过滤器.md",
+    "2. Areas/01认知科学/流行词.md",
+    "2. Areas/AI/Python/python数据分析三件套.md",
+    "2. Areas/前端开发/React/API网关.md",
+    "2. Areas/IELTS/英语例句0609 1.md",
+    "2. Areas/AI/动手学深度学习复习回顾.md",
+    "2. Areas/01认知科学/图式交流-考上就靠心智图.md",
     "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 8.png",
     "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 7.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202647903.png",
+    "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 1.png",
+    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648496.png",
+    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648435.png",
+    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648323.png",
+    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648097.png",
+    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202647968.png",
     "Extras/images/Untitled 4.canvas",
     "Extras/images/Untitled 1.canvas",
     "Extras/images/Untitled.canvas"

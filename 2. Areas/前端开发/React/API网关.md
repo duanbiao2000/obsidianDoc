@@ -31,4 +31,3 @@ app.listen(3000, () => {
   console.log('API Gateway server started on port 3000');
 });
 ```
-在上述示例中，我们创建了一个基本的Express应用，并设置了API网关的路由。根据请求的URL和方法，我们可以在每个路由处理函数中执行相应的操作，例如处理用户列表请求、创建用户请求、更新用户请求和删除用户请求。

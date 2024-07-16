@@ -14,12 +14,13 @@ dv.paragraph(
 ## 最新10个7日内修改笔记(非archive)
 ```dataview
 
-TABLE  file.mtime AS 修改日期, file.mtime AS 修改日期
-from !"Archive"
+// TABLE  file.mtime AS 修改日期, file.mtime AS 修改日期
+TABLE date(today)-(file.mday) AS 迄今天数
+from -"4. Archives" and -"Extras"
 // WHERE (date(today)-(file.mtime)).day<7 
 WHERE file.mtime >= date(today) - dur(7 day)
-sort file.mtime DESC
-
+// sort file.mtime DESC
+sort file.mtime
 LIMIT 10
 ```
 
@@ -101,7 +102,7 @@ LIMIT 10
 ## Archive List
 ```dataview
 LIST
-FROM "Archive"
+FROM "4. Archives"
 sort (date(now)-(file.mtime)) DESC
 LIMIT 10
 ```
