@@ -292,5 +292,14 @@
   "editor:open-link-in-new-window": [],
   "editor:open-link-in-new-split": [],
   "Enhanced-editing:xiahua-text": [],
-  "Enhanced-editing:del-lines": []
+  "Enhanced-editing:del-lines": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
 }

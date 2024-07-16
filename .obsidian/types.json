@@ -11,7 +11,7 @@
     "updated": "datetime",
     "isFinished": "checkbox",
     "create_date": "date",
-    "created_date": "date",
+    "created_date": "text",
     "status": "checkbox",
     "type": "multitext",
     "theme": "multitext",

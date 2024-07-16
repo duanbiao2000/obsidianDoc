@@ -42,7 +42,7 @@
    doThrow(new RuntimeException()).when(mockedList).clear();
    ```
 
-Mockito的这些功能使得单元测试更加灵活，可以帮助开发者专注于测试逻辑的正确性，而不是外部依赖的实现细节。这对于提高代码的可测试性和维护性是非常有帮助的。在使用Mockito时，需要注意的是，它不能模拟静态方法、私有方法或final类。此外，Mockito通常与JUnit或TestNG等测试框架一起使用，以便于编写和执行测试用例。
+Mockito的这些功能使得单元测试更加灵活，可以帮助开发者专注于测试逻辑的正确性，而不是外部依赖的实现细节。这对于提高代码的可测试性和维护性是非常有帮助的。在使用Mockito时，需要注意的是，==它不能模拟静态方法、私有方法或final类。==此外，Mockito通常与JUnit或TestNG等测试框架一起使用，以便于编写和执行测试用例。
 
  JHipster是一个开源的、基于Spring Boot和Spring Cloud的全栈开发平台，它旨在帮助开发者快速创建和部署现代Web应用程序。JHipster提供了一个生成器，可以自动生成包含前端和后端代码的项目结构，支持多种前端框架（如Angular, React, Vue.js）和后端技术（如Spring Boot, Spring Data JPA, Spring Security等）。
 
@@ -84,7 +84,6 @@ JHipster的目标是提供一个高效、现代化的开发环境，让开发者
 
 7. **CodeFirst**：CodeFirst是一个基于Spring Boot的代码生成器，它允许开发者通过定义数据模型来自动生成RESTful API。它提供了一种快速创建后端服务的方法，但可能不如JHipster那样提供全面的前端支持。
 
-选择替代技术时，开发者应考虑项目的具体需求、团队的技术栈熟悉度以及对特定特性的需求。JHipster提供了一个全面的解决方案，但其他框架可能在某些方面提供了更轻量级或更专注的解决方案。
 
  Spring MVC（Spring Web MVC）是Spring框架的一个模块，它实现了MVC（Model-View-Controller）设计模式，用于构建Web应用程序。Spring MVC提供了一个灵活、可扩展的Web框架，允许开发者创建高性能的Web应用，并且与Spring的其他模块（如Spring Boot、Spring Data JPA等）无缝集成。
 

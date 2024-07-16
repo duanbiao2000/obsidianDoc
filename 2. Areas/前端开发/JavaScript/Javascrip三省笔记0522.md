@@ -84,7 +84,7 @@ function myFunction(a, b) {
 // 使用箭头函数：
 const myArrowFunc = (a, b) => a + b;
 ```
-[[../../../dailyNotes/100-SlipBox/110-FleetingBox/React Quickly, Second Edition - MEAP... (Z-Library).pdf]]
+[[../React/React Quickly, Second Edition - MEAP... (Z-Library).pdf]]
 
 3. Template literals模板字面量:
 ```javascript

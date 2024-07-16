@@ -1,6 +1,18 @@
+---
+aliases: null
+theme: null
+original: null
+url: null
+author: null
+created_date: 2023-07-16 21:25
+date updated: 2024-07-16 21:25
+type: null
+high priority: false
+---
+
 # 83.删除排序链表中的重复元素
 
-给定一个已排序的链表的头 `head` ， *删除所有重复的元素，使每个元素只出现一次* 。返回 *已排序的链表* 。
+给定一个已排序的链表的头 `head` ， _删除所有重复的元素，使每个元素只出现一次_ 。返回 _已排序的链表_ 。
 
 ![img](https://assets.leetcode.com/uploads/2021/01/04/list1.jpg)
 
@@ -18,9 +30,9 @@
 
 **提示：**
 
--   链表中节点数目在范围 `[0, 300]` 内
--   `-100 <= Node.val <= 100`
--   题目数据保证链表已经按升序 **排列**
+- 链表中节点数目在范围 `[0, 300]` 内
+- `-100 <= Node.val <= 100`
+- 题目数据保证链表已经按升序 **排列**
 
 ```java
 /**
@@ -58,9 +70,7 @@ class Solution {
 
 如果链表中有某个节点，可以通过连续跟踪 `next` 指针再次到达，则链表中存在环。 为了表示给定链表中的环，评测系统内部使用整数 `pos` 来表示链表尾连接到链表中的位置（索引从 0 开始）。**注意：pos 不作为参数进行传递 **。仅仅是为了标识链表的实际情况。
 
-*如果链表中存在环* ，则返回 `true` 。 否则，返回 `false` 。
-
- 
+_如果链表中存在环_ ，则返回 `true` 。 否则，返回 `false` 。
 
 **示例 1：**
 
@@ -178,8 +188,6 @@ public class Solution {
 
 ![img](https://assets.leetcode.com/uploads/2021/02/19/rev1ex1.jpg)
 
- 
-
 **示例 1：**
 
 ```
@@ -221,8 +229,6 @@ class Solution {
 
 给你一个单链表的头节点 `head` ，请你判断该链表是否为回文链表。如果是，返回 `true` ；否则，返回 `false` 。
 
- 
-
 **示例 1：**
 
 ![img](https://assets.leetcode.com/uploads/2021/03/03/pal1linked-list.jpg)
@@ -234,8 +240,8 @@ class Solution {
 
 **提示：**
 
--   链表中节点数目在范围`[1, 105]` 内
--   `0 <= Node.val <= 9`
+- 链表中节点数目在范围`[1, 105]` 内
+- `0 <= Node.val <= 9`
 
 ```java
 /**
@@ -284,4 +290,3 @@ class Solution {
     }
 }
 ```
-

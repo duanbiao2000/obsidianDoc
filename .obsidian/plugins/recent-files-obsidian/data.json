@@ -1,176 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "Condense , filter and ditstil",
-      "path": "2. Areas/Writng/末班车/Condense , filter and ditstil.md"
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
     },
     {
-      "basename": "artSalvadorDali",
-      "path": "3. Resources/textgenerator/templates/dalle/artSalvadorDali.md"
+      "basename": "React设计模式与最佳实践",
+      "path": "2. Areas/前端开发/React/React设计模式与最佳实践.md"
     },
     {
-      "basename": "Vue Route",
-      "path": "2. Areas/前端开发/Vue/Vue Route.md"
+      "basename": "React Quickly, Second Edition - MEAP... (Z-Library).pdf",
+      "path": "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md"
     },
     {
-      "basename": "临时稿件(风格改为与统一,只是内容更为深刻)",
-      "path": "2. Areas/Writng/末班车/临时稿件(风格改为与统一,只是内容更为深刻).md"
+      "basename": "dataviewjs",
+      "path": "Atlas/dataview/dataviewjs.md"
+    },
+    {
+      "basename": "Drawing 2024-07-03 17.25.20.excalidraw",
+      "path": "Cards/Excalidraw/Drawing 2024-07-03 17.25.20.excalidraw.md"
+    },
+    {
+      "basename": "Mastering ChatGPT",
+      "path": "2. Areas/AI/ChatGPT/Mastering ChatGPT.md"
+    },
+    {
+      "basename": "20240622130546-策展",
+      "path": "3. Resources/20240622130546-策展.md"
+    },
+    {
+      "basename": "7天刷爆LeetCode",
+      "path": "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md"
+    },
+    {
+      "basename": "面试虎狼之词(待续)",
+      "path": "2. Areas/BackEnd/RoadMap&Interview/面试虎狼之词(待续).md"
+    },
+    {
+      "basename": "7天刷爆LeetCode",
+      "path": "2. Areas/BackEnd/LeetCode/7天刷爆LeetCode.md"
+    },
+    {
+      "basename": "20240622234224-Notebooklm打造第二大脑",
+      "path": "3. Resources/20240622234224-Notebooklm打造第二大脑.md"
+    },
+    {
+      "basename": "The War of Art",
+      "path": "3. Resources/The War of Art.md"
+    },
+    {
+      "basename": "202308291942-react18通用后台管理系统",
+      "path": "2. Areas/前端开发/202308291942-react18通用后台管理系统.md"
+    },
+    {
+      "basename": "202308291418-MVC模型",
+      "path": "2. Areas/前端开发/202308291418-MVC模型.md"
+    },
+    {
+      "basename": "202307231201-React admin",
+      "path": "2. Areas/前端开发/202307231201-React admin.md"
+    },
+    {
+      "basename": "24种算法模式",
+      "path": "2. Areas/24种算法模式.md"
+    },
+    {
+      "basename": "像高手一样解决问题",
+      "path": "3. Resources/像高手一样解决问题.md"
+    },
+    {
+      "basename": "20240627110101-roadmap.sh",
+      "path": "3. Resources/20240627110101-roadmap.sh.md"
+    },
+    {
+      "basename": "从零构建知识图谱",
+      "path": "2. Areas/从零构建知识图谱.md"
+    },
+    {
+      "basename": "20240702184735-SmartStudyBuddy",
+      "path": "2. Areas/AI/20240702184735-SmartStudyBuddy.md"
+    },
+    {
+      "basename": "20240630133441-Think in UML",
+      "path": "2. Areas/BackEnd/20240630133441-Think in UML.md"
+    },
+    {
+      "basename": "20240630130436-象高手一样解决问题",
+      "path": "3. Resources/20240630130436-象高手一样解决问题.md"
+    },
+    {
+      "basename": "20240704122808-15年商业和人生教训的40条简短建议",
+      "path": "3. Resources/20240704122808-15年商业和人生教训的40条简短建议.md"
+    },
+    {
+      "basename": "20240704130202-数字营销",
+      "path": "2. Areas/20240704130202-数字营销.md"
+    },
+    {
+      "basename": "阿里云服务",
+      "path": "2. Areas/BackEnd/阿里云服务.md"
+    },
+    {
+      "basename": "20240626161857-ChatGPT2VBA2PPT",
+      "path": "2. Areas/AI/20240626161857-ChatGPT2VBA2PPT.md"
+    },
+    {
+      "basename": "20240626221449-markdown转为微信公众号",
+      "path": "2. Areas/AI/20240626221449-markdown转为微信公众号.md"
+    },
+    {
+      "basename": "20240625095452-弹幕单词记忆Claude开发",
+      "path": "2. Areas/AI/20240625095452-弹幕单词记忆Claude开发.md"
+    },
+    {
+      "basename": "20240628193802-脱稿与即兴",
+      "path": "2. Areas/Writing/20240628193802-脱稿与即兴.md"
+    },
+    {
+      "basename": "API网关",
+      "path": "2. Areas/前端开发/React/API网关.md"
+    },
+    {
+      "basename": "敏捷和精益方法",
+      "path": "2. Areas/前端开发/React/敏捷和精益方法.md"
+    },
+    {
+      "basename": "创业初期的收入流尝试",
+      "path": "2. Areas/前端开发/React/创业初期的收入流尝试.md"
+    },
+    {
+      "basename": "GitHub Actions",
+      "path": "2. Areas/前端开发/React/GitHub Actions.md"
+    },
+    {
+      "basename": "API设计模式",
+      "path": "2. Areas/前端开发/React/API设计模式.md"
+    },
+    {
+      "basename": "Build and Deploy a Full Stack Next.js 13 Application",
+      "path": "2. Areas/前端开发/React/Build and Deploy a Full Stack Next.js 13 Application.md"
+    },
+    {
+      "basename": "Findlay - React - The Road To Enterprise.pdf",
+      "path": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
+    },
+    {
+      "basename": "Home",
+      "path": "2. Areas/前端开发/React/Home.md"
     },
     {
       "basename": "JavaScript 忍者秘籍(第2版)",
-      "path": "dailyNotes/100-SlipBox/110-FleetingBox/JavaScript 忍者秘籍(第2版).md"
+      "path": "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md"
     },
     {
-      "basename": "financialanalystAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/financialanalystAwesome.md"
+      "basename": "nodejs",
+      "path": "2. Areas/前端开发/React/nodejs.md"
     },
     {
-      "basename": "poetAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/poetAwesome.md"
+      "basename": "Serverless",
+      "path": "2. Areas/前端开发/React/Serverless.md"
     },
     {
-      "basename": "artWatercolor",
-      "path": "3. Resources/textgenerator/templates/dalle/artWatercolor.md"
+      "basename": "vim笔记",
+      "path": "2. Areas/前端开发/React/vim笔记.md"
     },
     {
-      "basename": "getPhotos",
-      "path": "3. Resources/textgenerator/templates/dalle/getPhotos.md"
+      "basename": "深入浅出React技术栈",
+      "path": "2. Areas/前端开发/React/深入浅出React技术栈.md"
     },
     {
-      "basename": "artLowPoly",
-      "path": "3. Resources/textgenerator/templates/dalle/artLowPoly.md"
+      "basename": "运动健身",
+      "path": "1. Projects/运动健身.md"
     },
     {
-      "basename": "foodcriticAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/foodcriticAwesome.md"
+      "basename": "Feel-good Productivity",
+      "path": "2. Areas/影音读/书本通读/非技术类/Feel-good Productivity.md"
     },
     {
-      "basename": "SELECT子句顺序",
-      "path": "2. Areas/BackEnd/SQL/SELECT子句顺序.md"
+      "basename": "哈佛决策课",
+      "path": "2. Areas/影音读/书本通读/非技术类/哈佛决策课.md"
     },
     {
-      "basename": "动词短语",
-      "path": "2. Areas/IELTS/动词短语.md"
+      "basename": "python深度学习第二版",
+      "path": "2. Areas/AI/深度学习/python深度学习第二版.md"
     },
     {
-      "basename": "getEmailPos",
-      "path": "3. Resources/textgenerator/prompts/default/getEmailPos.md"
+      "basename": "Linkedin learning",
+      "path": "2. Areas/AI/社区/Linkedin learning.md"
     },
     {
-      "basename": "stackoverflowpostAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/stackoverflowpostAwesome.md"
+      "basename": "publicspeakingcoachAwesome",
+      "path": "3. Resources/textgenerator/prompts/awesomePrompts/publicspeakingcoachAwesome.md"
     },
     {
-      "basename": "React代码解读0605",
-      "path": "2. Areas/前端开发/React代码解读0605.md"
-    },
-    {
-      "basename": "阅读变现(商务书曼陀罗)",
-      "path": "2. Areas/影音读/书本通读/非技术类/阅读变现(商务书曼陀罗).md"
-    },
-    {
-      "basename": "fallacyfinderAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/fallacyfinderAwesome.md"
-    },
-    {
-      "basename": "优秀到不能被忽视系列套装5册",
-      "path": "2. Areas/影音读/书本通读/非技术类/优秀到不能被忽视系列套装5册.md"
-    },
-    {
-      "basename": "modArtStation",
-      "path": "3. Resources/textgenerator/templates/dalle/modArtStation.md"
-    },
-    {
-      "basename": "logisticianAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/logisticianAwesome.md"
-    },
-    {
-      "basename": "getOutline",
-      "path": "3. Resources/textgenerator/prompts/default/getOutline.md"
-    },
-    {
-      "basename": "Self-purple样式重构高阶运营-从小编到新媒体操盘手",
-      "path": "2. Areas/Writng/Self-purple样式重构高阶运营-从小编到新媒体操盘手.md"
-    },
-    {
-      "basename": "信息差知乎",
-      "path": "2. Areas/AI/信息差/信息差知乎.md"
-    },
-    {
-      "basename": "AI最新进展-LAPTOP-AAJ6HH4K",
-      "path": "2. Areas/AI/AI最新进展-LAPTOP-AAJ6HH4K.md"
-    },
-    {
-      "basename": "Vue3中的变化",
-      "path": "2. Areas/前端开发/Vue/Vue3中的变化.md"
-    },
-    {
-      "basename": "Spring Boot",
-      "path": "2. Areas/BackEnd/Java/Spring Boot.md"
-    },
-    {
-      "basename": "artCartoon",
-      "path": "3. Resources/textgenerator/templates/dalle/artCartoon.md"
-    },
-    {
-      "basename": "passwordgeneratorAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/passwordgeneratorAwesome.md"
-    },
-    {
-      "basename": "20240626145134- Mermaid图标模板",
-      "path": "3. Resources/Utility/20240626145134- Mermaid图标模板.md"
-    },
-    {
-      "basename": "react-bootstrap Components",
-      "path": "2. Areas/前端开发/React/react-bootstrap Components.md"
-    },
-    {
-      "basename": "qua35mm",
-      "path": "3. Resources/textgenerator/templates/dalle/qua35mm.md"
-    },
-    {
-      "basename": "深入浅出React",
-      "path": "2. Areas/影音读/书本通读/深入浅出React.md"
-    },
-    {
-      "basename": "朋友与敌人",
-      "path": "2. Areas/影音读/书本通读/非技术类/朋友与敌人.md"
-    },
-    {
-      "basename": "异常处理",
-      "path": "2. Areas/BackEnd/Java/异常处理.md"
-    },
-    {
-      "basename": "工具操作说明书",
-      "path": "3. Resources/Utility/工具操作说明书.md"
-    },
-    {
-      "basename": "知识炼金术",
-      "path": "3. Resources/Utility/知识炼金术.md"
-    },
-    {
-      "basename": "学霸眼中的常识0504",
-      "path": "1. Projects/周月总结/202405/学霸眼中的常识0504.md"
-    },
-    {
-      "basename": "notetakingassistantAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/notetakingassistantAwesome.md"
-    },
-    {
-      "basename": "webdesignconsultantAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/webdesignconsultantAwesome.md"
-    },
-    {
-      "basename": "企业资源规划系统ERP",
-      "path": "2. Areas/BackEnd/Java/Spring/企业资源规划系统ERP.md"
-    },
-    {
-      "basename": "artDigital",
-      "path": "3. Resources/textgenerator/templates/dalle/artDigital.md"
-    },
-    {
-      "basename": "artChildrenDrawing",
-      "path": "3. Resources/textgenerator/templates/dalle/artChildrenDrawing.md"
+      "basename": "函数声明和函数表达式",
+      "path": "2. Areas/前端开发/JavaScript/函数声明和函数表达式.md"
     }
   ],
   "omittedPaths": [

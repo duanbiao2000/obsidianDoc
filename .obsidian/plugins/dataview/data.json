@@ -1,7 +1,7 @@
 {
   "renderNullAs": "\\-",
-  "taskCompletionTracking": false,
-  "taskCompletionUseEmojiShorthand": false,
+  "taskCompletionTracking": true,
+  "taskCompletionUseEmojiShorthand": true,
   "taskCompletionText": "completion",
   "taskCompletionDateFormat": "yyyy-MM-dd",
   "recursiveSubTaskCompletion": false,
@@ -22,5 +22,6 @@
   "enableDataviewJs": true,
   "enableInlineDataviewJs": false,
   "prettyRenderInlineFields": true,
+  "prettyRenderInlineFieldsInLivePreview": true,
   "dataviewJsKeyword": "dataviewjs"
 }

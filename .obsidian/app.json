@@ -1,6 +1,6 @@
 {
   "showLineNumber": true,
-  "attachmentFolderPath": "./assets/img/",
+  "attachmentFolderPath": "./attachments",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "promptDelete": false,
@@ -19,8 +19,11 @@
   "autoPairMarkdown": true,
   "smartIndentList": true,
   "userIgnoreFilters": [
-    "001-Template/",
-    "textgenerator/prompts/",
-    "textgenerator/templates/"
-  ]
+    "Extras/",
+    "3. Resources/",
+    "4. Archives/"
+  ],
+  "tabSize": 2,
+  "propertiesInDocument": "hidden",
+  "livePreview": true
 }

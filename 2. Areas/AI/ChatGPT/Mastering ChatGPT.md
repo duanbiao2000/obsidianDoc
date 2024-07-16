@@ -1,3 +1,18 @@
+---
+aliases: 
+tags:
+  - todo
+theme: 
+original: 
+url: 
+author: 
+created_date: 
+date updated: 2024-07-14 17:02
+type: 
+high priority: false
+---
+
+
 # Examples:
 
 ```javascript
@@ -259,4 +274,3 @@ Prompt: I want you to translate the sentences I wrote into emojis. I will write 
 ```
 Prompt: I want you to act as a Senior Frontend developer. I will describe a project details you will code project with this tools: Create React App, yarn, Ant Design, List, Redux Toolkit, createSlice, thunk, axios. You should merge files in single index.js file and nothing else. Do not write explanations. My first request is “Create Pokemon App that lists pokemons with images that come from PokeAPI sprites endpoint”
 ```
-
