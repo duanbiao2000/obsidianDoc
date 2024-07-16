@@ -23,10 +23,22 @@ sort file.mtime DESC
 LIMIT 10
 ```
 
-## 主题为微信阅读
+## 项目(全部)
 ```dataview
 TABLE  file.ctime AS 创作日期
-WHERE theme = "微信阅读"
+FROM "1. Projects"
+// WHERE theme = "微信阅读"
+sort file.mtime DESC
+LIMIT 10
+```
+
+## 具体领域(AI)
+```dataview
+TABLE  file.ctime AS 创作日期
+FROM "2. Areas/AI"
+// WHERE theme = "微信阅读"
+sort file.mtime DESC
+LIMIT 10
 ```
 
 ## 15日内新建的笔记(非archive)

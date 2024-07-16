@@ -101,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "函数式组件与状态",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,9 +219,25 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "9ee365e81554bd97",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "712b4cbc6b7f2273",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -245,8 +261,6 @@
       "homepage:Open homepage": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "breadcrumbs:Breadcrumbs Visualisation": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -256,19 +270,33 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "6a73026fe242f7bd",
   "lastOpenFiles": [
-    "dailyNotes/100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md",
+    "4. Archives/attachments/BeautifulSoup 懂车帝爬取",
+    "4. Archives/attachments/2024-05-02",
+    "4. Archives/attachments",
+    "1. Projects/周月总结/202405/学霸眼中的常识0504.md",
     "Atlas/dataview/dataviews.md",
+    "Atlas/时间线设计.md",
+    "Atlas/attachments/时间线设计",
+    "Atlas/attachments",
+    "3. Resources/合理归类.md",
+    "3. Resources/attachments/合理归类",
+    "1. Projects/周月总结/202405/attachments/合理归类",
+    "1. Projects/周月总结/202405/attachments",
+    "3. Resources/每日新知0506.md",
+    "3. Resources/attachments/每日新知0506",
+    "3. Resources/attachments",
+    "dailyNotes/100-SlipBox/110-FleetingBox/React设计模式与最佳实践.md",
     "dailyNotes/100-SlipBox/110-FleetingBox",
-    "dailyNotes/100-SlipBox",
     "2. Areas/前端开发/React/React设计模式与最佳实践.md",
     "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md",
     "Atlas/dataview/dataviewjs.md",
-    "Atlas/dataview/assets/img/dataviewjs",
     "Cards/Excalidraw/Drawing 2024-07-03 17.25.20.excalidraw.md",
     "2. Areas/AI/ChatGPT/Mastering ChatGPT.md",
     "3. Resources/20240622130546-策展.md",
@@ -283,19 +311,8 @@
     "2. Areas/BackEnd/LeetCode/7天刷爆LeetCode.md",
     "2. Areas/BackEnd/LeetCode/Dive into Algorithms A Pythonic Adventure.md",
     "2. Areas/BackEnd/SQL/SELECT子句顺序-.md",
-    "2. Areas/BackEnd/SQL/assets/img/SELECT子句顺序-",
-    "Cards/Canvas/assets/img/精美视频",
-    "Cards/Canvas/assets/img/obsidian提升",
-    "3. Resources/assets/img/20240622234224-Notebooklm打造第二大脑",
-    "3. Resources/assets/img/20240622130546-策展",
     "3. Resources/20240622234224-Notebooklm打造第二大脑.md",
     "3. Resources/The War of Art.md",
-    "3. Resources/assets/img/The War of Art",
-    "2. Areas/前端开发/202308291942-react18通用后台管理系统.md",
-    "dailyNotes/20240622203402- Learn high stake content on Youtube.md",
-    "2. Areas/前端开发/assets/img/202308291942-react18通用后台管理系统",
-    "2. Areas/前端开发/202308291418-MVC模型.md",
-    "2. Areas/前端开发/202307231201-React admin.md",
     "Extras/Template/Obsidian-Templates/Obsidian-Templates-main/Docs/Snippets/assets/img/Stop-Callout/IMG-Stop-Callout-20240714124639958.png",
     "2. Areas/AI/assets/img/AI最新进展/IMG-AI最新进展-20240714124700200.png",
     "2. Areas/影音读/assets/img/Next.js & React - The Complete Guide/IMG-Next.js & React - The Complete Guide-20240714124913273.png",

@@ -5,6 +5,18 @@
       "path": "Atlas/dataview/dataviews.md"
     },
     {
+      "basename": "时间线设计",
+      "path": "Atlas/时间线设计.md"
+    },
+    {
+      "basename": "合理归类",
+      "path": "3. Resources/合理归类.md"
+    },
+    {
+      "basename": "每日新知0506",
+      "path": "3. Resources/每日新知0506.md"
+    },
+    {
       "basename": "React设计模式与最佳实践",
       "path": "2. Areas/前端开发/React/React设计模式与最佳实践.md"
     },
@@ -183,18 +195,6 @@
     {
       "basename": "python深度学习第二版",
       "path": "2. Areas/AI/深度学习/python深度学习第二版.md"
-    },
-    {
-      "basename": "Linkedin learning",
-      "path": "2. Areas/AI/社区/Linkedin learning.md"
-    },
-    {
-      "basename": "publicspeakingcoachAwesome",
-      "path": "3. Resources/textgenerator/prompts/awesomePrompts/publicspeakingcoachAwesome.md"
-    },
-    {
-      "basename": "函数声明和函数表达式",
-      "path": "2. Areas/前端开发/JavaScript/函数声明和函数表达式.md"
     }
   ],
   "omittedPaths": [
