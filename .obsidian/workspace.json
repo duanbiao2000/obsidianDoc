@@ -57,7 +57,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/影音读/书本通读/书单推荐0506.md",
+                    "file": "2. Areas/影音读/书本通读/高效推荐0506.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/影音读/书本通读/书单推荐0506.md",
+                "file": "2. Areas/影音读/书本通读/高效推荐0506.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/影音读/书本通读/书单推荐0506.md",
+                "file": "2. Areas/影音读/书本通读/高效推荐0506.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/影音读/书本通读/书单推荐0506.md"
+                "file": "2. Areas/影音读/书本通读/高效推荐0506.md"
               }
             }
           },
@@ -219,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/影音读/书本通读/书单推荐0506.md"
+                "file": "2. Areas/影音读/书本通读/高效推荐0506.md"
               }
             }
           },
@@ -252,7 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 523.5
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -288,6 +288,8 @@
   },
   "active": "5bd4b88eab27b5c9",
   "lastOpenFiles": [
+    "2. Areas/影音读/书本通读/高效推荐0506.md",
+    "5. Misc/Attachments/高效推荐0506",
     "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md",
     "5. Misc/Attachments/图灵前端核心知识进阶系列（套装全10册）",
     "2. Areas/前端开发/深入浅出React.md",
@@ -303,7 +305,6 @@
     "5. Misc/Attachments/Road to React",
     "2. Areas/前端开发/Nodejs关键技术.md",
     "5. Misc/Attachments/Nodejs关键技术",
-    "5. Misc/Attachments/Express官网教程",
     "2. Areas/前端开发/Express官网教程.md",
     "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md",
     "2. Areas/01认知科学/@盖洛普测试.md",
@@ -322,8 +323,6 @@
     "2. Areas/AI/深度学习/任务模型.md",
     "1. Projects/20240702184735-SmartStudyBuddy.md",
     "1. Projects/20240626221449-markdown转为微信公众号.md",
-    "1. Projects/ChatGPT2VBA2PPT.md",
-    "1. Projects/20240625095452-弹幕单词记忆Claude开发.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
