@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md",
+                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -126,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md",
+                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md",
+                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
+                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
               }
             }
           },
@@ -209,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
+                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
               }
             }
           },
@@ -246,6 +245,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "media-extended:Open media": false,
       "templater-obsidian:Templater": false,
       "extract-highlights-plugin:Extract Highlights": false,
@@ -270,51 +270,50 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "74a7bc996dfa0756",
   "lastOpenFiles": [
-    "Atlas/dataview/dataviews.md",
-    "Atlas/全栈工程师学习路线(待续).md",
-    "Atlas/attachments/全栈工程师学习路线(待续)",
-    "2. Areas/AI/社区/开源项目集锦.md",
-    "2. Areas/AI/AIGC发展趋势报告2023 (腾讯研究院).md",
-    "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册.md",
-    "2. Areas/BackEnd/Java/Spring/Spring Boot-LAPTOP-AAJ6HH4K.md",
-    "2. Areas/BackEnd/Java/Spring/Spring Boot.md",
-    "2. Areas/IELTS/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K.md",
-    "2. Areas/IELTS/哑巴英语逆袭方法论.md",
-    "2. Areas/BackEnd/Java/源码阅读/XiaoMiStore.md",
+    "2. Areas/前端开发/JavaScript/分页查询.md",
+    "2. Areas/前端开发/JavaScript/attachments/分页查询",
+    "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md",
+    "2. Areas/前端开发/JavaScript/Promise-LAPTOP-AAJ6HH4K.md",
+    "2. Areas/前端开发/JavaScript/PromiseState.md",
+    "2. Areas/前端开发/JavaScript/SCSS Versus CSS.md",
+    "2. Areas/前端开发/JavaScript/attachments/PromiseState",
+    "2. Areas/前端开发/JavaScript/attachments",
+    "2. Areas/前端开发/JavaScript/最长公共子序列.md",
+    "2. Areas/前端开发/JavaScript/attachments/@千问随机20问",
+    "2. Areas/前端开发/JavaScript/@千问随机20问.md",
+    "2. Areas/前端开发/JavaScript/深度优先搜索遍历树结构.md",
+    "2. Areas/前端开发/JavaScript/构造函数.md",
+    "2. Areas/前端开发/JavaScript/attachments/全屏轮播图",
+    "2. Areas/前端开发/JavaScript/全屏轮播图.md",
+    "2. Areas/前端开发/JavaScript/函数声明和函数表达式.md",
+    "2. Areas/前端开发/JavaScript/原型.md",
+    "2. Areas/前端开发/JavaScript/LRU缓存机制.md",
+    "2. Areas/影音读/书本通读/非技术类/哈佛决策课.md",
+    "2. Areas/前端开发/JavaScript/事件发布+订阅模式.md",
+    "事件发布/订阅模式.md",
+    "事件发布",
+    "2. Areas/前端开发/JavaScript/节流函数.md",
+    "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md",
+    "使用async/await处理并发请求.md",
+    "使用async",
+    "2. Areas/前端开发/JavaScript/通用的深拷贝函数.md",
+    "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md",
+    "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md",
+    "2. Areas/前端开发/JavaScript/attachments/`replacer` 和 `reviver` 函数",
+    "2. Areas/前端开发/JavaScript/attachments/Generator函数",
+    "2. Areas/前端开发/JavaScript/attachments/JSON.parse(JSON.stringify(obj))",
+    "2. Areas/前端开发/CSS/响应式设计.md",
+    "2. Areas/前端开发/JavaScript/Generator函数.md",
     "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
-    "Cards/Excalidraw/打造第二大脑.md",
+    "2. Areas/前端开发/JavaScript/Javascrip高级技术.md",
+    "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
-    "Cards/Excalidraw/attachments",
-    "4. Archives/朋友与敌人.md",
-    "4. Archives/attachments/朋友与敌人",
-    "2. Areas/BackEnd/Java/异常处理.md",
-    "2. Areas/01认知科学/知识炼金术.md",
-    "2. Areas/01认知科学/20240630130436-象高手一样解决问题.md",
-    "2. Areas/01认知科学/20240622130546-策展.md",
-    "2. Areas/01认知科学/attachments/合理归类",
-    "2. Areas/01认知科学/attachments/像高手一样解决问题",
-    "2. Areas/01认知科学/attachments/The War of Art",
-    "2. Areas/01认知科学/attachments/20240704122808-15年商业和人生教训的40条简短建议",
-    "2. Areas/01认知科学/attachments/20240630130436-象高手一样解决问题",
-    "2. Areas/01认知科学/attachments/20240627110101-roadmap.sh",
-    "2. Areas/01认知科学/attachments/20240622234224-Notebooklm打造第二大脑",
-    "2. Areas/01认知科学/像高手一样解决问题.md",
-    "2. Areas/Writing/早班车/20240621-AI在PKM中扮演的角色.md",
-    "2. Areas/前端开发/Vue/Vue过滤器.md",
-    "2. Areas/01认知科学/流行词.md",
-    "2. Areas/AI/Python/python数据分析三件套.md",
-    "2. Areas/前端开发/React/API网关.md",
-    "2. Areas/IELTS/英语例句0609 1.md",
-    "2. Areas/AI/动手学深度学习复习回顾.md",
-    "2. Areas/01认知科学/图式交流-考上就靠心智图.md",
     "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 8.png",
     "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 7.png",
     "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 1.png",
@@ -322,7 +321,6 @@
     "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648435.png",
     "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648323.png",
     "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648097.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202647968.png",
     "Extras/images/Untitled 4.canvas",
     "Extras/images/Untitled 1.canvas",
     "Extras/images/Untitled.canvas"

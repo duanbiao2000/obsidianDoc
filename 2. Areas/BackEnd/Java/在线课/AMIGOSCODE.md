@@ -243,66 +243,7 @@ LocalDateTime parsedDateTime = LocalDateTime.parse("2023-03-15T15:30:45", format
 
 这些类提供了丰富的方法来处理日期和时间，使得在Java 8中处理日期和时间变得更加简单和直观。
 
-## Big Decimal
- 在Java中，`double` 类型的问题主要与精度丢失有关。`double` 是一种IEEE 754标准的64位双精度浮点数，它在内存中以科学计数法的形式存储数值，包括符号位、指数位和尾数位。由于尾数位的长度有限（52位），某些十进制小数无法被精确表示为二进制浮点数，这导致了在进行浮点运算时可能出现精度丢失。
 
-以下是一些关于`double`类型精度问题的例子和解释：
-
-1. **加法运算**：
-   ```java
-   double a = 0.1;
-   double b = 0.2;
-   double c = a + b; // c 的值可能是 0.30000000000000004 而不是精确的 0.3
-   ```
-   在这个例子中，`0.1` 和 `0.2` 在二进制中的表示不是精确的，所以它们的和也不是精确的 `0.3`。
-
-2. **减法运算**：
-   ```java
-   double d = 2.11;
-   double e = 2.10;
-   double f = d - e; // f 的值可能是 0.0099999999999905 而不是精确的 0.01
-   ```
-   同样，由于浮点数的表示问题，`0.11` 和 `0.10` 的差值不是精确的 `0.01`。
-
-3. **乘法和除法运算**：
-   ```java
-   double g = 4.015;
-   double h = 100;
-   double i = g * h; // i 的值可能是 401.49999999999994 而不是精确的 401.5
-   ```
-   在乘法和除法运算中，同样可能出现精度丢失。
-
-为了解决这些问题，Java提供了`BigDecimal`类，它允许进行任意精度的十进制数运算。`BigDecimal`通过使用字符串构造函数来避免直接从`double`转换时的精度问题。例如：
-
-```java
-BigDecimal bd1 = new BigDecimal("0.1");
-BigDecimal bd2 = new BigDecimal("0.2");
-BigDecimal sum = bd1.add(bd2); // sum 的值将是精确的 "0.3"
-```
-
-在进行需要高精度计算的场景（如金融计算）时，建议使用`BigDecimal`类。
-
- 是的，从Java 9开始，`java.util.Scanner`类被标记为过时（deprecated），这意味着它不再被推荐用于新的开发，并且可能会在未来的Java版本中被移除。为了替代`Scanner`类，你可以使用以下几种方法：
-
-1. **使用`java.util.stream.Stream` API**：
-   `Stream` API提供了一种强大的数据处理方式，可以用来处理集合、数组等数据源。你可以使用`Stream` API来读取文件、处理数据流等。
-
-2. **使用`java.nio.file.Files`**：
-   对于文件操作，你可以使用`java.nio.file.Files`类来读取文件内容。这个类提供了`readAllLines()`方法，可以用来读取整个文件的内容，或者`readLines()`方法来逐行读取。
-
-3. **使用`java.io.BufferedReader`**：
-   如果你需要逐行读取文本输入，可以使用`java.io.BufferedReader`。这个类提供了`readLine()`方法，可以方便地读取文本文件的每一行。
-
-4. **使用`java.util.Properties`**：
-   对于简单的键值对配置文件，你可以使用`java.util.Properties`类来读取和写入属性。
-
-5. **使用第三方库**：
-   有许多第三方库提供了更现代的输入处理方式，例如Apache Commons IO、Google Guava等。这些库通常提供了更简洁的API和更好的性能。
-
-6. **使用`java.util.concurrent.Flow` API**：
-   对于需要处理流式数据的场景，你可以使用Java 9引入的`java.util.concurrent.Flow` API，它提供了一种声明式的流处理模型。
-
-在迁移到新的输入处理方法时，你应该考虑你的具体需求，选择最适合你应用场景的替代方案。同时，确保在迁移过程中处理好任何潜在的兼容性问题。
 ## 流式数据处理
  在Java中，流式数据处理（Stream Processing）是一种编程范式，它允许开发者以声明式的方式处理数据流，而不是使用传统的命令式编程。这种范式在Java 8中得到了显著增强，引入了Stream API，它提供了一种高效、简洁的方式来处理集合（如List、Set、Map等）以及数组。
 
@@ -352,6 +293,8 @@ public class StreamExample {
 ```
 
 在这个例子中，我们首先从列表创建了一个流，然后通过链式调用进行了过滤和映射操作，最后通过`collect`方法收集结果。这种流式处理方式使得代码更加简洁和易于理解。
+
+## Spring框架代码组织
 [Java Master Class | Amigoscode](https://www.amigoscode.com/courses/java-master-class)
 ![[assets/img/AMIGOSCODE/IMG-AMIGOSCODE-20240714124704203.png]]
 
@@ -435,9 +378,10 @@ public class UserController {
 ```
 
 在这个例子中，`UserService`依赖于`UserRepository`，但通过接口进行交互。这样，如果需要更换DAO的实现，只需在Spring配置中注入新的实现即可。同时，`UserController`通过`UserService`与数据库交互，实现了业务逻辑与表示层的分离。
+### 依赖注入 Dependency Injection
+ Dependency Injection (DI) 是一种设计模式，它允许你将组件之间的依赖关系通过外部注入的方式进行管理，而不是在组件内部创建依赖。这样做的好处包括提高代码的可测试性、可维护性和可扩展性。以下是关于DI的一些关键概念和实践：
 ![[assets/img/AMIGOSCODE/IMG-AMIGOSCODE-20240714124704974.png]]
 
- Dependency Injection (DI) 是一种设计模式，它允许你将组件之间的依赖关系通过外部注入的方式进行管理，而不是在组件内部创建依赖。这样做的好处包括提高代码的可测试性、可维护性和可扩展性。以下是关于DI的一些关键概念和实践：
 
 1. **Don't Do This (避免这样做)**：
    - 避免在组件内部直接创建依赖对象。例如，不要在类中直接实例化其他类，这会导致紧耦合。

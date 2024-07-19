@@ -7,7 +7,7 @@
 [[CSS/CSS学习笔记0624]]
 
 
-[[JavaScript/Promise]]
+[[PromiseState]]
 
 [[JavaScript/语法糖]]
 

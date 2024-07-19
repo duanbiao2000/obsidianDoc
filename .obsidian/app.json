@@ -14,7 +14,7 @@
   "trashOption": "local",
   "useMarkdownLinks": false,
   "vimMode": false,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "strictLineBreaks": true,
   "autoPairMarkdown": true,
   "smartIndentList": true,

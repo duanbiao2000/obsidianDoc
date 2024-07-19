@@ -37,5 +37,7 @@
   "obsidian-excalidraw-plugin",
   "homepage",
   "smart-connections",
-  "obsidian-regex-replace"
+  "obsidian-regex-replace",
+  "nldates-obsidian",
+  "obsidian-git"
 ]

@@ -10,7 +10,7 @@
     "established": "datetime",
     "updated": "datetime",
     "isFinished": "checkbox",
-    "create_date": "date",
+    "create_date": "text",
     "created_date": "text",
     "status": "checkbox",
     "type": "multitext",

@@ -20,11 +20,7 @@ function sayHello(firstName, lastName) {
 Reflect.apply(sayHello, null, ["Alice", "Smith"]); // Output: Hello, Alice Smith!
 ```
 
-在这个例子中，使用 `Reflect.apply()` 调用 `sayHello` 函数，并使用 `null` 作为新的 `this` 上下文，同时将 `"Alice"` 和 `"Smith"` 作为参数传递给 `sayHello()` 方法。因此，我们可以看到 `"Hello, Alice Smith!"` 的输出结果。
 
-需要注意的是，与 `Function.prototype.apply()` 不同，`Reflect.apply()` 不会把它接收到的非整数下标数组作为参数列表拆分。因此，如果你使用了类似 `[...someSet]` 这样的语句转换 set 为数组，那么你需要使用 `Array.from()` 或者 `Array.prototype.slice.call(someSet)` 等方法来将数组或者可迭代对象显式地转换为数组。
-
-另外，`Reflect.apply()` 返回值是函数调用的结果。如果函数调用引发了异常，则异常对象被反射到调用上下文中，就像在直接函数调用时一样。
 
 ### effect()函数
 

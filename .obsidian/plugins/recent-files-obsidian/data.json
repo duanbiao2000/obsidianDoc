@@ -1,40 +1,140 @@
 {
   "recentFiles": [
     {
-      "basename": "AMIGOSCODE",
-      "path": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
+      "basename": "7个高质量润色论文和文章的指令",
+      "path": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+    },
+    {
+      "basename": "分页查询",
+      "path": "2. Areas/前端开发/JavaScript/分页查询.md"
+    },
+    {
+      "basename": "Promise.race模拟函数",
+      "path": "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md"
+    },
+    {
+      "basename": "PromiseState",
+      "path": "2. Areas/前端开发/JavaScript/PromiseState.md"
+    },
+    {
+      "basename": "最长公共子序列",
+      "path": "2. Areas/前端开发/JavaScript/最长公共子序列.md"
+    },
+    {
+      "basename": "@千问随机20问",
+      "path": "2. Areas/前端开发/JavaScript/@千问随机20问.md"
+    },
+    {
+      "basename": "深度优先搜索遍历树结构",
+      "path": "2. Areas/前端开发/JavaScript/深度优先搜索遍历树结构.md"
+    },
+    {
+      "basename": "构造函数",
+      "path": "2. Areas/前端开发/JavaScript/构造函数.md"
+    },
+    {
+      "basename": "全屏轮播图",
+      "path": "2. Areas/前端开发/JavaScript/全屏轮播图.md"
+    },
+    {
+      "basename": "LRU缓存机制",
+      "path": "2. Areas/前端开发/JavaScript/LRU缓存机制.md"
+    },
+    {
+      "basename": "哈佛决策课",
+      "path": "2. Areas/影音读/书本通读/非技术类/哈佛决策课.md"
+    },
+    {
+      "basename": "事件发布+订阅模式",
+      "path": "2. Areas/前端开发/JavaScript/事件发布+订阅模式.md"
+    },
+    {
+      "basename": "订阅模式",
+      "path": "事件发布/订阅模式.md"
+    },
+    {
+      "basename": "节流函数",
+      "path": "2. Areas/前端开发/JavaScript/节流函数.md"
+    },
+    {
+      "basename": "使用async,await处理并发请求",
+      "path": "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md"
+    },
+    {
+      "basename": "await处理并发请求",
+      "path": "使用async/await处理并发请求.md"
+    },
+    {
+      "basename": "通用的深拷贝函数",
+      "path": "2. Areas/前端开发/JavaScript/通用的深拷贝函数.md"
+    },
+    {
+      "basename": "`replacer` 和 `reviver` 函数",
+      "path": "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md"
+    },
+    {
+      "basename": "JSON.parse(JSON.stringify(obj))",
+      "path": "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md"
+    },
+    {
+      "basename": "响应式设计",
+      "path": "2. Areas/前端开发/CSS/响应式设计.md"
+    },
+    {
+      "basename": "Generator函数",
+      "path": "2. Areas/前端开发/JavaScript/Generator函数.md"
+    },
+    {
+      "basename": "Javascrip高级技术",
+      "path": "2. Areas/前端开发/JavaScript/Javascrip高级技术.md"
     },
     {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
     },
     {
-      "basename": "全栈工程师学习路线(待续)",
-      "path": "Atlas/全栈工程师学习路线(待续).md"
-    },
-    {
-      "basename": "开源项目集锦",
-      "path": "2. Areas/AI/社区/开源项目集锦.md"
-    },
-    {
-      "basename": "DIVE INTO DEEP LEARNING上册",
-      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册.md"
+      "basename": "JS基础",
+      "path": "2. Areas/前端开发/JavaScript/JS基础.md"
     },
     {
       "basename": "Spring Boot",
       "path": "2. Areas/BackEnd/Java/Spring/Spring Boot.md"
     },
     {
+      "basename": "升级复盘",
+      "path": "2. Areas/Writing/升级复盘.md"
+    },
+    {
+      "basename": "AMIGOSCODE",
+      "path": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
+    },
+    {
+      "basename": "Spring Data JPA",
+      "path": "2. Areas/BackEnd/Java/Spring/Spring Data JPA.md"
+    },
+    {
       "basename": "哑巴英语逆袭方法论",
       "path": "2. Areas/IELTS/哑巴英语逆袭方法论.md"
     },
     {
-      "basename": "XiaoMiStore",
-      "path": "2. Areas/BackEnd/Java/源码阅读/XiaoMiStore.md"
+      "basename": "IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616",
+      "path": "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png"
     },
     {
-      "basename": "7个高质量润色论文和文章的指令",
-      "path": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+      "basename": "lifecycle methods of Vue",
+      "path": "2. Areas/BackEnd/RoadMap&Interview/lifecycle methods of Vue.md"
+    },
+    {
+      "basename": "全栈工程师学习路线(待续)",
+      "path": "Atlas/全栈工程师学习路线(待续).md"
+    },
+    {
+      "basename": "DIVE INTO DEEP LEARNING上册",
+      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册.md"
+    },
+    {
+      "basename": "XiaoMiStore",
+      "path": "2. Areas/BackEnd/Java/源码阅读/XiaoMiStore.md"
     },
     {
       "basename": "打造第二大脑",
@@ -95,110 +195,6 @@
     {
       "basename": "图式交流-考上就靠心智图",
       "path": "2. Areas/01认知科学/图式交流-考上就靠心智图.md"
-    },
-    {
-      "basename": "元认知",
-      "path": "2. Areas/01认知科学/元认知.md"
-    },
-    {
-      "basename": "影视后期特效制作理论与实践",
-      "path": "4. Archives/剪辑/影视后期特效制作理论与实践.md"
-    },
-    {
-      "basename": "UML基础",
-      "path": "2. Areas/前端开发/Vue/UML基础.md"
-    },
-    {
-      "basename": "languageliterarycriticAwesome",
-      "path": "Extras/textgenerator/prompts/awesomePrompts/languageliterarycriticAwesome.md"
-    },
-    {
-      "basename": "黄金信息",
-      "path": "2. Areas/Writing/末班车/黄金信息.md"
-    },
-    {
-      "basename": "词网-信息检索与学术研究-抽象与钻研",
-      "path": "2. Areas/Writing/词网-信息检索与学术研究-抽象与钻研.md"
-    },
-    {
-      "basename": "时间线设计",
-      "path": "Atlas/时间线设计.md"
-    },
-    {
-      "basename": "合理归类",
-      "path": "2. Areas/01认知科学/合理归类.md"
-    },
-    {
-      "basename": "每日新知0506",
-      "path": "2. Areas/01认知科学/每日新知0506.md"
-    },
-    {
-      "basename": "React设计模式与最佳实践",
-      "path": "2. Areas/前端开发/React/React设计模式与最佳实践.md"
-    },
-    {
-      "basename": "React Quickly, Second Edition - MEAP... (Z-Library).pdf",
-      "path": "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md"
-    },
-    {
-      "basename": "dataviewjs",
-      "path": "Atlas/dataview/dataviewjs.md"
-    },
-    {
-      "basename": "Drawing 2024-07-03 17.25.20.excalidraw",
-      "path": "Cards/Excalidraw/Drawing 2024-07-03 17.25.20.excalidraw.md"
-    },
-    {
-      "basename": "Mastering ChatGPT",
-      "path": "2. Areas/AI/ChatGPT/Mastering ChatGPT.md"
-    },
-    {
-      "basename": "7天刷爆LeetCode",
-      "path": "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md"
-    },
-    {
-      "basename": "面试虎狼之词(待续)",
-      "path": "2. Areas/BackEnd/RoadMap&Interview/面试虎狼之词(待续).md"
-    },
-    {
-      "basename": "7天刷爆LeetCode",
-      "path": "2. Areas/BackEnd/LeetCode/7天刷爆LeetCode.md"
-    },
-    {
-      "basename": "20240622234224-Notebooklm打造第二大脑",
-      "path": "2. Areas/01认知科学/20240622234224-Notebooklm打造第二大脑.md"
-    },
-    {
-      "basename": "The War of Art",
-      "path": "2. Areas/01认知科学/The War of Art.md"
-    },
-    {
-      "basename": "202308291942-react18通用后台管理系统",
-      "path": "2. Areas/前端开发/202308291942-react18通用后台管理系统.md"
-    },
-    {
-      "basename": "202308291418-MVC模型",
-      "path": "2. Areas/前端开发/202308291418-MVC模型.md"
-    },
-    {
-      "basename": "202307231201-React admin",
-      "path": "2. Areas/前端开发/202307231201-React admin.md"
-    },
-    {
-      "basename": "24种算法模式",
-      "path": "2. Areas/24种算法模式.md"
-    },
-    {
-      "basename": "20240627110101-roadmap.sh",
-      "path": "2. Areas/01认知科学/20240627110101-roadmap.sh.md"
-    },
-    {
-      "basename": "从零构建知识图谱",
-      "path": "2. Areas/从零构建知识图谱.md"
-    },
-    {
-      "basename": "20240702184735-SmartStudyBuddy",
-      "path": "2. Areas/AI/20240702184735-SmartStudyBuddy.md"
     }
   ],
   "omittedPaths": [
