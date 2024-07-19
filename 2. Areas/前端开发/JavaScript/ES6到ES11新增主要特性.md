@@ -59,6 +59,7 @@ let name = user?.name;
 ```js
 let name = user ?? 'Anonymous';
 ```
+ 
  这里给出几个实用的 ES6 - ES11 的代码示例:
 **1. 数组去重**
 
@@ -105,9 +106,7 @@ async function fetchData() {
   return data; 
 }
 ```
-这些新特性可以让我们编写更简洁、灵活和安全的JavaScript代码。
 
- 好的,这里给出更多ES6到ES11新特性的示例代码:
 **默认参数**
 
 ```js
@@ -150,4 +149,3 @@ const bigint = 1234567890123456789012345678901234567890n;
 ```js
 let name = user?.profile?.name;
 ```
-这些特性极大地扩展了JavaScript的表达能力,使代码更简洁高效。

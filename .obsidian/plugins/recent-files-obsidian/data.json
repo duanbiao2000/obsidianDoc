@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "ES6到ES11新增主要特性",
+      "path": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
+    },
+    {
+      "basename": "Effective系列JS篇",
+      "path": "2. Areas/前端开发/JavaScript/Effective系列JS篇.md"
+    },
+    {
       "basename": "7个高质量润色论文和文章的指令",
       "path": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "动手学深度学习复习回顾",
       "path": "2. Areas/AI/动手学深度学习复习回顾.md"
-    },
-    {
-      "basename": "图式交流-考上就靠心智图",
-      "path": "2. Areas/01认知科学/图式交流-考上就靠心智图.md"
     }
   ],
   "omittedPaths": [

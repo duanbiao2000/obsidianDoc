@@ -10,26 +10,19 @@
           {
             "id": "e68007277d077560",
             "type": "tabs",
+            "dimension": 76.62192393736018,
             "children": [
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
               {
                 "id": "11d50cbc9c8d95b3",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
                 }
               }
             ]
@@ -37,6 +30,7 @@
           {
             "id": "f0b4034db6dd2f1f",
             "type": "split",
+            "dimension": 23.37807606263982,
             "children": [
               {
                 "id": "3c719f923dad6376",
@@ -146,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
               }
             }
           },
@@ -208,7 +202,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
               }
             }
           },
@@ -241,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,11 +264,16 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "11d50cbc9c8d95b3",
   "lastOpenFiles": [
+    "2. Areas/前端开发/JavaScript/Effective系列JS篇.md",
+    "2. Areas/前端开发/JavaScript/DOM操作.md",
+    "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
     "2. Areas/前端开发/JavaScript/分页查询.md",
     "2. Areas/前端开发/JavaScript/attachments/分页查询",
     "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md",
@@ -308,9 +307,6 @@
     "2. Areas/前端开发/JavaScript/attachments/Generator函数",
     "2. Areas/前端开发/JavaScript/attachments/JSON.parse(JSON.stringify(obj))",
     "2. Areas/前端开发/CSS/响应式设计.md",
-    "2. Areas/前端开发/JavaScript/Generator函数.md",
-    "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
-    "2. Areas/前端开发/JavaScript/Javascrip高级技术.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
