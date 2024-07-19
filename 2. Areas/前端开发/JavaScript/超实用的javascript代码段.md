@@ -2,134 +2,6 @@
 aliases:
 
 ---
-20230722 1518
-links:
-title:
-origin:
-tags: #flashcards #todo #Current 
-
-## 30段简单趣味的代码
-#### 区分IE浏览器
-```js
-if(!+[1,]){     //IE 11不支持 
-alert("这是IE浏览器"); 
-}else{   
-   alert("这不是IE浏览器"); 
-}
-```
-
-#### 将日期直接转换为数值
-```js
-+new Date();
-```
-
-#### 非IE暇将类数组对象"arguments"转为数组
-```js
-Array.propotype.slice.call(arguments);
-```
-arguments不是Array的实例，因此不是真正的数组，也就没有slice()，那为什么使用“Array.prototype.slice”而不是“Array().slice”或“[].slice”呢？因为这两种方法效率比较低，故使用代码中的写法访问Array的内置函数。
-#### 最简单的选择运算符
-```js
-var a = 0 || 3; 
-console.log(a);    //结果3
-```
-#### 单链式运算
-```js
-var a=10;
-console.log(a++1);
-```
-
-先执行a-1,再执行a=a+1.
-#### 有趣的void操作符
-```js
-<a href="javascript:void(0)">我是一个死链接</a>
-```
-void用来计算一个表达式但不返回值.
-#### 跳转至新页面,并且保证浏览器不会再回退:
-```js
-location.replace('http://www.runnoob.com');
-```
-该方法会覆盖History对象中的记录
-#### 几秒钟之后返回上一页
-```js
-<meta http-equiv="refresh" content="3; url=javascript:window.history.go(-1);">
-```
-#### 验证是否为负数的正则表达式
-```js
-/^-\d+$/.test(str);
-```
-#### 用js打印页面
-```js
-window.print()
-```
-#### 显示/隐藏一个DOM元素
-```js
-el.style.display="";
-el.style.display="none";
-```
-#### 实现alert中的文本换行
-```js
-alter("p\np");//\n表示换行
-```
-[省略:附件](D:\迅雷下载\#编程\#源码剖析\超实用的JavaScript代码段_代码逆袭_席新亮_Z_Library.azw3)
-
-#### 15.理解JS中的闭包
-#### 22.判断浏览器是否支持HTML5
-```js
-!!navigator.geolocation;
-```
-#### 23.判断是否支持Canvas:
-```js
-function isCanvas(){
-  return !!document.createElement('canvas').getContext;
-}
-```
-
-#### 25.声明变量的缩略写法与复杂写法:
-```js
-//缩略写法
-var x,y,z=3;
-```
-#### 26. 采取惰性载入的方案提高函数代码的性能
-所谓惰性载入就是在第一次执行代码后，用函数代码内部的方法覆盖原有代码，代码如下：
-
-```js
-var addEvents = (function () { 
-    if (document.addEventListener) { 
-        return function (type, element, fun) { 
-            element.addEventListener(type, fun, false); 
-        } 
-    } 
-    else if (document.attachEvent) { 
-        return function (type, element, fun) { 
-            element.attachEvent('on' + type, fun); 
-        } 
-    } 
-    else { 
-        return function (type, element, fun) { 
-            element['on' + type] = fun; 
-        } 
-    } 
-})();
-```
- 这个代码实现了一个惰性载入的 addEvents 函数。
-关键点是使用了立即执行的匿名函数,内部定义了 addEvents 函数。
-addEvents 函数的实现会根据浏览器的支持,使用 addEventListener、attachEvent 或者直接赋值来绑定事件。
-但由于是惰性载入,所以只有在第一次调用 addEvents 时,才会执行这个匿名函数,判断浏览器支持,返回真正的 addEvents 函数。
-这样可以避免加载时执行代码,只有当需要绑定事件的时候,才会运行代码判断浏览器类型。
-优点是:
-- 惰性载入,提高加载性能
-- 只运行必要的代码,减少不需要的判断
-- 根据浏览器优雅降级处理事件绑定
-调用时:
-```js
-var addClick = addEvents('click', button, handleClick) 
-```
-这里才会初始化并执行内部的匿名函数,返回真正的addEvents函数,进行事件绑定。
-这是一个很好的惰性载入与优雅降级的设计模式。
-
-
-
 ## 30个题目
 
  对于以下代码:
@@ -143,10 +15,6 @@ var addClick = addEvents('click', button, handleClick)
 解析:
 - typeof null会返回"object",这是一个JavaScript的怪异点,由最初JavaScript将null表示为空对象指针导致的。
 - null instanceof Object会返回false,因为null并不是一个对象,instanceof用于判断一个实例是否属于某个类,null不属于任何类,所以返回false。
-所以最终结果是:
-["object", false]
-这是一个常见的JavaScript面试题,用于检测面试者对JavaScript底层运行机制的理解。
-需要注意的是,对于其他常见类型的值,typeof和instanceof的结果就符合预期了:
 ```js
 [typeof 1, 1 instanceof Object] // ["number", false] 
 [typeof '1', '1' instanceof Object] // ["string", false]
@@ -163,73 +31,11 @@ var addClick = addEvents('click', button, handleClick)
 ```js
 [ 9, TypeError ]
 ```
-解析:
-- [3,2,1].reduce(Math.pow) 对数组调用 reduce,传入 Math.pow 作为回调函数。这相当于计算 3的2次方 再求2的1次方,也就是 3 ^ 2 ^ 1 = 9。所以结果为 9。
-- [].reduce(Math.pow) 对空数组调用 reduce 会直接报错,因为 reduce 需要从第二个元素开始遍历数组累积结果,空数组没有第二个元素,所以会抛出 TypeError。
-- 最后结果是 [9, TypeError]。
-这是一个典型的错误用例区分:
-- 正常数组调用 reduce 执行累积
-- 空数组调用 reduce 报错 
-的例子,可以检测对 reduce 和空数组边界情况的理解。
 
- 对于以下代码:
-```js
-var name = 'World!';
-(function () {
-  if (typeof name === 'undefined') {
-    var name = 'Jack';
-    console.log('Goodbye ' + name);
-  } else {
-    console.log('Hello ' + name); 
-  }
-})();
-```
-其输出结果是:
-```
-Hello World!
-```
-解析:
-1. 在外部定义了name为'World!'
-2. 然后是一个自执行的匿名函数
-3. 在函数内部,使用typeof检查name是否被定义
-4. 这里需要注意函数内部的name变量使用var声明,所以会变量提升,值为undefined
-5. 而外部的name不会被内部的name变量遮蔽
-6. 所以typeof name 不会是undefined
-7. 进入else分支,打印'Hello World!'
-8. 如果删除var name,则内部的name就会遮蔽外部的name,从而打印'Goodbye Jack'
-考点:
-1. 变量提升和函数内外部变量的关系
-2. typeof的使用
-3. 自执行匿名函数的语法
-这是典型的闭包面试题,需要考察对变量作用域和提升的理解。
 
- 对于以下代码:
-```js
-var END = Math.pow(2, 53);
-var START = END - 100;  
-var count = 0;
-for (var i = START; i <= END; i++) {
-  count++; 
-}
-console.log(count);
-```
-运行结果是:
-```
-100
-```
-分析:
-1. END 常量表示 2 的 53 次方,约等于 9007199254740992
-2. START 常量表示 END - 100,约等于 9007199254741892
-3. count 变量用于累加循环次数,初始值为 0
-4. for 循环从 START 到 END,每次 i 加 1,并将 count 加 1
-5. 因为 START 和 END 相差刚好 100,所以循环执行了 100 次
-6. 最后 count 的值是 100,所以打印出 100
-考点:
-1. Math.pow 求幂运算
-2. 循环遍历累加
-3. 常量的定义和使用
-这是典型的算法题,需要同时考察候选人的JavaScript基础知识,以及编程能力。
 
+
+ 
  对于以下代码:
 ```js
 var ary = [0,1,2];
@@ -369,19 +175,8 @@ if ([0]) {
 ```
 wut
 ```
-分析:
- 您提出了一个非常好的问题!我来重新解释一下这个例子的执行流程:
-1. 变量 a 被赋值为数组 [0]
-2. if条件判断中,[0] 作为数组会隐式转换为 true
-3. 所以if条件成立,执行到if代码块内部
-4. 在if代码块内,进行了a == true的判断 
-5. 这里a仍然是数组[0],没有进行隐式转换
-6. 数组[0]和布尔值true直接比较,结果为false
-7. if内部的条件判断为false
-8. if内部条件为false时,不会执行if代码块
-9. 程序会跳出本层if语句,转到外层的else代码块
-10. 所以打印输出的是else块内的"wut"
-您提醒我注意if内外的条件判断非常正确。主要的误区在于if内部条件为false时,并不会执行if代码块,程序会跳到外层else去执行。
+
+
 
  对于表达式:
 ```js
@@ -448,35 +243,7 @@ false
 这个表达式利用了JavaScript中一些特殊的语法,如果不了解运算顺序和正负号的处理,可能会得到错误的结果。
 这是个可以检测候选人对运算顺序和语言细节理解的好题。
 
- 对于这个代码:
-```js
-function sidEffecting(ary) {
-  ary[0] = ary[2];
-}
-function bar(a,b,c) {
-  c = 10;
-  sidEffecting(arguments);
-  return a + b + c;  
-}
-bar(1, 1, 1);
-```
-执行结果是:
-```js
-21
-```
-分析执行过程:
-1. 调用bar函数,传参(1, 1, 1)
-2. bar函数内部先执行c = 10,修改c为10
-3. 调用sidEffecting,传入arguments,也就是(1, 1, 1)
-4. sidEffecting修改arguments[0] = arguments[2],所以arguments变为(10, 1, 10)
-5. 返回a + b + c,因为arguments改变了,此时等于 10 + 1 + 10 = 12
-6. 所以最终结果为21
-考点:
-1. arguments对象和函数参数的关系
-2. arguments可以在函数内部被修改
-3. 函数内部修改arguments会反映到函数参数上
-这是一道典型的面试题,需要考察对arguments对象的深入理解。
-
+ 
 ![[assets/img/超实用的javascript代码段/IMG-超实用的javascript代码段-20240714124833206.png]]
 
  您完全正确!我再次检查了这个例子的代码:

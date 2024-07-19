@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "NodeJS基础",
+      "path": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
+    },
+    {
+      "basename": "Koa学习笔记",
+      "path": "2. Areas/前端开发/Nodejs/Koa学习笔记.md"
+    },
+    {
+      "basename": "Next.js",
+      "path": "2. Areas/前端开发/NextJS/Next.js.md"
+    },
+    {
+      "basename": "202307231201-React admin",
+      "path": "2. Areas/前端开发/202307231201-React admin.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "2. Areas/前端开发/NextJS/GraphQL.md"
+    },
+    {
+      "basename": "Tailwind",
+      "path": "2. Areas/前端开发/CSS/Tailwind.md"
+    },
+    {
+      "basename": "CSS学习笔记0624",
+      "path": "2. Areas/前端开发/CSS/CSS学习笔记0624.md"
+    },
+    {
+      "basename": "CSS预处理",
+      "path": "2. Areas/前端开发/CSS/CSS预处理.md"
+    },
+    {
+      "basename": "访问器属性",
+      "path": "2. Areas/前端开发/JavaScript/访问器属性.md"
+    },
+    {
+      "basename": "超实用的javascript代码段",
+      "path": "2. Areas/前端开发/JavaScript/超实用的javascript代码段.md"
+    },
+    {
       "basename": "arguments和展开运算符(...)",
       "path": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
     },
@@ -61,20 +101,12 @@
       "path": "2. Areas/前端开发/JavaScript/事件发布+订阅模式.md"
     },
     {
-      "basename": "订阅模式",
-      "path": "事件发布/订阅模式.md"
-    },
-    {
       "basename": "节流函数",
       "path": "2. Areas/前端开发/JavaScript/节流函数.md"
     },
     {
       "basename": "使用async,await处理并发请求",
       "path": "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md"
-    },
-    {
-      "basename": "await处理并发请求",
-      "path": "使用async/await处理并发请求.md"
     },
     {
       "basename": "通用的深拷贝函数",
@@ -167,38 +199,6 @@
     {
       "basename": "20240630130436-象高手一样解决问题",
       "path": "2. Areas/01认知科学/20240630130436-象高手一样解决问题.md"
-    },
-    {
-      "basename": "20240622130546-策展",
-      "path": "2. Areas/01认知科学/20240622130546-策展.md"
-    },
-    {
-      "basename": "像高手一样解决问题",
-      "path": "2. Areas/01认知科学/像高手一样解决问题.md"
-    },
-    {
-      "basename": "20240621-AI在PKM中扮演的角色",
-      "path": "2. Areas/Writing/早班车/20240621-AI在PKM中扮演的角色.md"
-    },
-    {
-      "basename": "Vue过滤器",
-      "path": "2. Areas/前端开发/Vue/Vue过滤器.md"
-    },
-    {
-      "basename": "流行词",
-      "path": "2. Areas/01认知科学/流行词.md"
-    },
-    {
-      "basename": "python数据分析三件套",
-      "path": "2. Areas/AI/Python/python数据分析三件套.md"
-    },
-    {
-      "basename": "API网关",
-      "path": "2. Areas/前端开发/React/API网关.md"
-    },
-    {
-      "basename": "英语例句0609 1",
-      "path": "2. Areas/IELTS/英语例句0609 1.md"
     }
   ],
   "omittedPaths": [

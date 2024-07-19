@@ -60,16 +60,6 @@ app.listen(3000); // 启动应用程序并监听 3000 端口。
 
 注释分为块注释和行注释两种。在代码中，使用了两种不同类型的注释方式对每行需要解释的内容进行标注，清晰理解代码含义。其中行注释以 " //" 开始，块注释以 "/* */" 开始和结束。
 
-
-
-1. `const os = require('os')`：导入 Node.js 标准库之一 os 模块，用于获取操作系统相关的信息。
-
-2. `const path = require('path')`：导入 Node.js 标准库之一 path 模块，用于处理文件路径等相关操作。
-
-3. `const Koa = require('koa')`：导入 Koa.js 库，创建 Web 服务器。
-
-4. `const fs = require('fs')`：导入 Node.js 标准库之一 fs 模块，用于处理文件输入输出的相关操作。
-
 5. `const koaBody = require('koa-body')`：导入 koa-body 中间件库，用于处理提交的数据。
 
 6. `const app = new Koa()`：创建一个 Koa 应用程序的实例。
@@ -101,7 +91,4 @@ app.listen(3000); // 启动应用程序并监听 3000 端口。
 13. `app.use(koaBody({ multipart: true }))`：在请求处理过程中使用 koa-body 中间件，指定上传的模式为多文件上传，即 multipart/form-data。
 
 14. `app.use(main)`：把主要处理函数 main 注册为 Koa.js 应用程序的中间件。
-
-15. `app.listen(3000)`：启动应用程序并监听 3000 端口。
-
 综上所述，这段代码实现了来自前端上传多个文件的功能，具体实现方法是：前端通过HTTP直接向服务器发送POST请求，并在请求内构造multipart/form-data数据格式中携带上传的内容。Koa-body会把请求的正文解析成js对象, 它将 content-type 和 POST 数据的字节数组作为参数传递给一个库来处理 multipart parsing。Koa 服务器将正确地处理由 content-type 声明的格式，并允许您更方便地对其进行访问和使用。

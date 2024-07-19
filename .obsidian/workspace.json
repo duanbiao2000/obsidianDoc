@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
+                    "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
+                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
+                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
+                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
               }
             }
           },
@@ -202,7 +202,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
+                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
               }
             }
           },
@@ -271,6 +271,21 @@
   },
   "active": "11d50cbc9c8d95b3",
   "lastOpenFiles": [
+    "2. Areas/前端开发/Nodejs/Koa学习笔记.md",
+    "2. Areas/前端开发/NextJS/Next.js.md",
+    "2. Areas/前端开发/202307231201-React admin.md",
+    "2. Areas/前端开发/NextJS/GraphQL.md",
+    "2. Areas/前端开发/CSS/Tailwind.md",
+    "2. Areas/前端开发/CSS/CSS学习笔记0624.md",
+    "2. Areas/前端开发/CSS/CSS-TRICKS.md",
+    "2. Areas/前端开发/CSS/CSS预处理.md",
+    "2. Areas/前端开发/CSS/HTML容器.md",
+    "2. Areas/前端开发/JavaScript/访问器属性.md",
+    "2. Areas/前端开发/JavaScript/超实用的javascript代码段.md",
+    "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
+    "2. Areas/前端开发/JavaScript/语法糖.md",
+    "使用async/await处理并发请求.md",
+    "事件发布/订阅模式.md",
     "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
     "2. Areas/前端开发/JavaScript/ES6笔记汇总.md",
     "2. Areas/前端开发/JavaScript/Effective系列JS篇.md",
@@ -286,24 +301,9 @@
     "2. Areas/前端开发/JavaScript/attachments",
     "2. Areas/前端开发/JavaScript/最长公共子序列.md",
     "2. Areas/前端开发/JavaScript/attachments/@千问随机20问",
-    "2. Areas/前端开发/JavaScript/@千问随机20问.md",
-    "2. Areas/前端开发/JavaScript/深度优先搜索遍历树结构.md",
-    "2. Areas/前端开发/JavaScript/构造函数.md",
     "2. Areas/前端开发/JavaScript/attachments/全屏轮播图",
-    "2. Areas/前端开发/JavaScript/全屏轮播图.md",
-    "2. Areas/前端开发/JavaScript/函数声明和函数表达式.md",
-    "2. Areas/前端开发/JavaScript/原型.md",
-    "2. Areas/前端开发/JavaScript/LRU缓存机制.md",
-    "2. Areas/影音读/书本通读/非技术类/哈佛决策课.md",
-    "2. Areas/前端开发/JavaScript/事件发布+订阅模式.md",
-    "事件发布/订阅模式.md",
     "事件发布",
-    "2. Areas/前端开发/JavaScript/节流函数.md",
-    "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md",
-    "使用async/await处理并发请求.md",
     "使用async",
-    "2. Areas/前端开发/JavaScript/通用的深拷贝函数.md",
-    "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md",
     "2. Areas/前端开发/JavaScript/attachments/`replacer` 和 `reviver` 函数",
     "2. Areas/前端开发/JavaScript/attachments/Generator函数",
     "2. Areas/前端开发/JavaScript/attachments/JSON.parse(JSON.stringify(obj))",

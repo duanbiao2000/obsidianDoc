@@ -92,23 +92,3 @@ heroDText: '
 ```
 完整注释了标题和文字样式的含义。
 
-
-![(88) Build and Deploy a Modern Next 13 Website With Framer Motion & Tailwind CSS - YouTube](https://www.youtube.com/watch?v=ugCN_gynFYw)
-源码地址: [project_metaverse/components/Navbar.jsx at main · adrianhajdin/project_metaverse (github.com)](https://github.com/adrianhajdin/project_metaverse/blob/main/components/Navbar.jsx#L3)
-Next.js会自动将public文件夹中的静态资源映射到根路径下。
-也就是说,public文件夹中的文件可以直接通过根路径访问,不需要任何前缀。
-例如:
-- public/image.png 可以通过 /image.png 访问
-- public/js/script.js 可以通过 /js/script.js 访问
-这是因为Next.js会在构建时将public文件夹中的所有文件copy到输出目录下。
-所以在页面中引用public文件夹中的图片/文件时,可以直接使用相对路径:
-```jsx
-<img src="/image.png"/>
-<script src="/js/script.js"></script> 
-```
-Next.js会自动匹配到public文件夹中的文件。
-这一特性带来的好处是:
-- 可以很方便地引用静态资源
-- 无需关心资源路径
-- 部署后也可以直接通过根路径访问
-所以我们通常会把一些小图片/icon放在public文件夹中。
