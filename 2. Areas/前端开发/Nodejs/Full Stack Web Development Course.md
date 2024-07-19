@@ -6,7 +6,7 @@
 
 ![[IMG-Full Stack Web Development Course-20240719191749499.png]]
 ![[IMG-Full Stack Web Development Course-20240719191749845.png]]
- MVC是Model-View-Controller的缩写,是一种软件架构模式,用于分离表示层(View)、业务逻辑层(Model)和控制层(Controller)。
+MVC是Model-View-Controller的缩写,是一种软件架构模式,用于分离表示层(View)、业务逻辑层(Model)和控制层(Controller)。
 Model:
 - 业务数据模型,用于处理应用程序的数据逻辑和状态。
 - 包含实体类、数据访问对象等。
@@ -162,13 +162,11 @@ router.get('/list', (req, res) => {
 // 导出路由
 module.exports = router
 ```
-主要区别在于请求方法的不同,GET用于获取,POST用于提交。
-通过给router绑定不同方法可以实现不同功能的路由处理。
+
 
 app.set VS  app.use
 ![[IMG-Full Stack Web Development Course-20240719191750110.png]]
-
- - app.set(name, value):
+- app.set(name, value):
 设置应用程序的设置值。
 - app.use(function): 
 加载中间件函数,对每个请求执行。

@@ -4,69 +4,86 @@
     "type": "split",
     "children": [
       {
-        "id": "9f83635cac6155a3",
+        "id": "f0b4034db6dd2f1f",
         "type": "split",
         "children": [
           {
-            "id": "e68007277d077560",
+            "id": "3c719f923dad6376",
             "type": "tabs",
-            "dimension": 76.62192393736018,
+            "dimension": 80.62015503875969,
             "children": [
               {
-                "id": "11d50cbc9c8d95b3",
+                "id": "b6c5fa0c5bef5f0f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md",
+                    "file": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册 1.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "36b5da08c1c2acde",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册 1.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2f8a302d7fbaa265",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Areas/前端开发/Express官网教程.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5bd4b88eab27b5c9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Areas/影音读/书本通读/书单推荐0506.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
-            "id": "f0b4034db6dd2f1f",
-            "type": "split",
-            "dimension": 23.37807606263982,
+            "id": "af96cf2ae69ef399",
+            "type": "tabs",
+            "dimension": 19.379844961240313,
             "children": [
               {
-                "id": "3c719f923dad6376",
-                "type": "tabs",
-                "dimension": 66.56976744186046,
-                "children": [
-                  {
-                    "id": "b6c5fa0c5bef5f0f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "graph",
-                      "state": {}
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "af96cf2ae69ef399",
-                "type": "tabs",
-                "dimension": 33.43023255813954,
-                "children": [
-                  {
-                    "id": "ced13bdc9999bec1",
-                    "type": "leaf",
-                    "state": {
-                      "type": "mindmap",
-                      "state": {}
-                    }
-                  }
-                ]
+                "id": "ced13bdc9999bec1",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
               }
-            ],
-            "direction": "horizontal"
+            ]
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -124,7 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 462.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -140,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md",
+                "file": "2. Areas/影音读/书本通读/书单推荐0506.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md",
+                "file": "2. Areas/影音读/书本通读/书单推荐0506.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
+                "file": "2. Areas/影音读/书本通读/书单推荐0506.md"
               }
             }
           },
@@ -202,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
+                "file": "2. Areas/影音读/书本通读/书单推荐0506.md"
               }
             }
           },
@@ -231,11 +248,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 523.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,44 +286,44 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "11d50cbc9c8d95b3",
+  "active": "5bd4b88eab27b5c9",
   "lastOpenFiles": [
-    "2. Areas/前端开发/Nodejs/Koa学习笔记.md",
-    "2. Areas/前端开发/NextJS/Next.js.md",
-    "2. Areas/前端开发/202307231201-React admin.md",
-    "2. Areas/前端开发/NextJS/GraphQL.md",
-    "2. Areas/前端开发/CSS/Tailwind.md",
-    "2. Areas/前端开发/CSS/CSS学习笔记0624.md",
-    "2. Areas/前端开发/CSS/CSS-TRICKS.md",
-    "2. Areas/前端开发/CSS/CSS预处理.md",
-    "2. Areas/前端开发/CSS/HTML容器.md",
-    "2. Areas/前端开发/JavaScript/访问器属性.md",
-    "2. Areas/前端开发/JavaScript/超实用的javascript代码段.md",
-    "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
-    "2. Areas/前端开发/JavaScript/语法糖.md",
-    "使用async/await处理并发请求.md",
-    "事件发布/订阅模式.md",
-    "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
-    "2. Areas/前端开发/JavaScript/ES6笔记汇总.md",
-    "2. Areas/前端开发/JavaScript/Effective系列JS篇.md",
-    "2. Areas/前端开发/JavaScript/DOM操作.md",
-    "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
-    "2. Areas/前端开发/JavaScript/分页查询.md",
-    "2. Areas/前端开发/JavaScript/attachments/分页查询",
-    "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md",
-    "2. Areas/前端开发/JavaScript/Promise-LAPTOP-AAJ6HH4K.md",
-    "2. Areas/前端开发/JavaScript/PromiseState.md",
-    "2. Areas/前端开发/JavaScript/SCSS Versus CSS.md",
-    "2. Areas/前端开发/JavaScript/attachments/PromiseState",
-    "2. Areas/前端开发/JavaScript/attachments",
-    "2. Areas/前端开发/JavaScript/最长公共子序列.md",
-    "2. Areas/前端开发/JavaScript/attachments/@千问随机20问",
-    "2. Areas/前端开发/JavaScript/attachments/全屏轮播图",
-    "事件发布",
-    "使用async",
-    "2. Areas/前端开发/JavaScript/attachments/`replacer` 和 `reviver` 函数",
-    "2. Areas/前端开发/JavaScript/attachments/Generator函数",
-    "2. Areas/前端开发/JavaScript/attachments/JSON.parse(JSON.stringify(obj))",
+    "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md",
+    "5. Misc/Attachments/图灵前端核心知识进阶系列（套装全10册）",
+    "2. Areas/前端开发/深入浅出React.md",
+    "5. Misc/Attachments/深入浅出React",
+    "5. Misc/Attachments/深入浅出React技术栈",
+    "2. Areas/影音读/书本通读/知识诚实.md",
+    "2. Areas/AI/Generative AI Business Applications.md",
+    "5. Misc/Attachments/Generative AI Business Applications",
+    "2. Areas/前端开发/Road to React.md",
+    "5. Misc/Attachments/React Quickly-LAPTOP-AAJ6HH4K",
+    "5. Misc/Attachments/React Quickly",
+    "5. Misc/Attachments/JavaScript深度学习",
+    "5. Misc/Attachments/Road to React",
+    "2. Areas/前端开发/Nodejs关键技术.md",
+    "5. Misc/Attachments/Nodejs关键技术",
+    "5. Misc/Attachments/Express官网教程",
+    "2. Areas/前端开发/Express官网教程.md",
+    "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md",
+    "2. Areas/01认知科学/@盖洛普测试.md",
+    "2. Areas/AI/提示词/绘画艺术形式.md",
+    "2. Areas/AI/提示词/结构化提示词.md",
+    "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册 1.md",
+    "2. Areas/AI/社区/Github/Express迁移到Spring boot.md",
+    "2. Areas/AI/社区/Github/项目实践总纲.md",
+    "2. Areas/AI/社区/bytebytego.md",
+    "2. Areas/AI/深度学习/文字生成视频技术.md",
+    "2. Areas/AI/社区/掘金.md",
+    "2. Areas/AI/算法/机器学习十大算法.md",
+    "2. Areas/AI/深度学习/教育学理论框架.md",
+    "2. Areas/AI/深度学习/大语言模型高阶课程设计 1.md",
+    "2. Areas/AI/深度学习/动手学深度学习复习回顾 1.md",
+    "2. Areas/AI/深度学习/任务模型.md",
+    "1. Projects/20240702184735-SmartStudyBuddy.md",
+    "1. Projects/20240626221449-markdown转为微信公众号.md",
+    "1. Projects/ChatGPT2VBA2PPT.md",
+    "1. Projects/20240625095452-弹幕单词记忆Claude开发.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",

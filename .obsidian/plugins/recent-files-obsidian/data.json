@@ -1,6 +1,190 @@
 {
   "recentFiles": [
     {
+      "basename": "书单推荐0506",
+      "path": "2. Areas/影音读/书本通读/书单推荐0506.md"
+    },
+    {
+      "basename": "图灵前端核心知识进阶系列（套装全10册）",
+      "path": "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md"
+    },
+    {
+      "basename": "深入浅出React",
+      "path": "2. Areas/前端开发/深入浅出React.md"
+    },
+    {
+      "basename": "知识诚实",
+      "path": "2. Areas/影音读/书本通读/知识诚实.md"
+    },
+    {
+      "basename": "Generative AI Business Applications",
+      "path": "2. Areas/AI/Generative AI Business Applications.md"
+    },
+    {
+      "basename": "Road to React",
+      "path": "2. Areas/前端开发/Road to React.md"
+    },
+    {
+      "basename": "Nodejs关键技术",
+      "path": "2. Areas/前端开发/Nodejs关键技术.md"
+    },
+    {
+      "basename": "Express官网教程",
+      "path": "2. Areas/前端开发/Express官网教程.md"
+    },
+    {
+      "basename": "@熟练的AI专业人员需要具备的能力",
+      "path": "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md"
+    },
+    {
+      "basename": "@盖洛普测试",
+      "path": "2. Areas/01认知科学/@盖洛普测试.md"
+    },
+    {
+      "basename": "绘画艺术形式",
+      "path": "2. Areas/AI/提示词/绘画艺术形式.md"
+    },
+    {
+      "basename": "结构化提示词",
+      "path": "2. Areas/AI/提示词/结构化提示词.md"
+    },
+    {
+      "basename": "DIVE INTO DEEP LEARNING上册 1",
+      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册 1.md"
+    },
+    {
+      "basename": "Express迁移到Spring boot",
+      "path": "2. Areas/AI/社区/Github/Express迁移到Spring boot.md"
+    },
+    {
+      "basename": "项目实践总纲",
+      "path": "2. Areas/AI/社区/Github/项目实践总纲.md"
+    },
+    {
+      "basename": "bytebytego",
+      "path": "2. Areas/AI/社区/bytebytego.md"
+    },
+    {
+      "basename": "文字生成视频技术",
+      "path": "2. Areas/AI/深度学习/文字生成视频技术.md"
+    },
+    {
+      "basename": "机器学习十大算法",
+      "path": "2. Areas/AI/算法/机器学习十大算法.md"
+    },
+    {
+      "basename": "教育学理论框架",
+      "path": "2. Areas/AI/深度学习/教育学理论框架.md"
+    },
+    {
+      "basename": "大语言模型高阶课程设计 1",
+      "path": "2. Areas/AI/深度学习/大语言模型高阶课程设计 1.md"
+    },
+    {
+      "basename": "动手学深度学习复习回顾 1",
+      "path": "2. Areas/AI/深度学习/动手学深度学习复习回顾 1.md"
+    },
+    {
+      "basename": "任务模型",
+      "path": "2. Areas/AI/深度学习/任务模型.md"
+    },
+    {
+      "basename": "20240702184735-SmartStudyBuddy",
+      "path": "1. Projects/20240702184735-SmartStudyBuddy.md"
+    },
+    {
+      "basename": "20240626221449-markdown转为微信公众号",
+      "path": "1. Projects/20240626221449-markdown转为微信公众号.md"
+    },
+    {
+      "basename": "ChatGPT2VBA2PPT",
+      "path": "1. Projects/ChatGPT2VBA2PPT.md"
+    },
+    {
+      "basename": "20240625095452-弹幕单词记忆Claude开发",
+      "path": "1. Projects/20240625095452-弹幕单词记忆Claude开发.md"
+    },
+    {
+      "basename": "计算机工程师必备工具",
+      "path": "3. Resources/Utility/计算机工程师必备工具.md"
+    },
+    {
+      "basename": "Git",
+      "path": "3. Resources/Utility/Git.md"
+    },
+    {
+      "basename": "AI工具",
+      "path": "3. Resources/Utility/AI工具.md"
+    },
+    {
+      "basename": "DIVE INTO DEEP LEARNING下册",
+      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING下册.md"
+    },
+    {
+      "basename": "python深度学习第二版 1",
+      "path": "2. Areas/AI/深度学习/python深度学习第二版 1.md"
+    },
+    {
+      "basename": "动手学深度学习 (一刷)笔记 1",
+      "path": "2. Areas/AI/深度学习/动手学深度学习 (一刷)笔记 1.md"
+    },
+    {
+      "basename": "24种算法模式",
+      "path": "2. Areas/AI/算法/24种算法模式.md"
+    },
+    {
+      "basename": "2023 完整Web开发训练营 - HTML, CSS, Javascript, Node, React",
+      "path": "2. Areas/前端开发/2023 完整Web开发训练营 - HTML, CSS, Javascript, Node, React.md"
+    },
+    {
+      "basename": "CodeWithMosh",
+      "path": "2. Areas/前端开发/CodeWithMosh.md"
+    },
+    {
+      "basename": "ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023)",
+      "path": "2. Areas/前端开发/ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023).md"
+    },
+    {
+      "basename": "大前端知识图谱AI问答",
+      "path": "2. Areas/前端开发/大前端知识图谱AI问答.md"
+    },
+    {
+      "basename": "Gihub协作指南",
+      "path": "3. Resources/Utility/Gihub协作指南.md"
+    },
+    {
+      "basename": "Full Stack Web Development Course",
+      "path": "2. Areas/前端开发/Nodejs/Full Stack Web Development Course.md"
+    },
+    {
+      "basename": "Nodejs关键技术",
+      "path": "2. Areas/前端开发/Nodejs/Nodejs关键技术.md"
+    },
+    {
+      "basename": "Express官网教程",
+      "path": "2. Areas/前端开发/Nodejs/Express官网教程.md"
+    },
+    {
+      "basename": "MVC模型",
+      "path": "2. Areas/前端开发/React/MVC模型.md"
+    },
+    {
+      "basename": "react18通用后台管理系统",
+      "path": "2. Areas/前端开发/React/react18通用后台管理系统.md"
+    },
+    {
+      "basename": "React代码解读0605 2",
+      "path": "2. Areas/前端开发/React/React代码解读0605 2.md"
+    },
+    {
+      "basename": "React代码解读0516 2",
+      "path": "2. Areas/前端开发/React/React代码解读0516 2.md"
+    },
+    {
+      "basename": "React admin",
+      "path": "2. Areas/前端开发/React/React admin.md"
+    },
+    {
       "basename": "NodeJS基础",
       "path": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
     },
@@ -13,192 +197,8 @@
       "path": "2. Areas/前端开发/NextJS/Next.js.md"
     },
     {
-      "basename": "202307231201-React admin",
-      "path": "2. Areas/前端开发/202307231201-React admin.md"
-    },
-    {
       "basename": "GraphQL",
       "path": "2. Areas/前端开发/NextJS/GraphQL.md"
-    },
-    {
-      "basename": "Tailwind",
-      "path": "2. Areas/前端开发/CSS/Tailwind.md"
-    },
-    {
-      "basename": "CSS学习笔记0624",
-      "path": "2. Areas/前端开发/CSS/CSS学习笔记0624.md"
-    },
-    {
-      "basename": "CSS预处理",
-      "path": "2. Areas/前端开发/CSS/CSS预处理.md"
-    },
-    {
-      "basename": "访问器属性",
-      "path": "2. Areas/前端开发/JavaScript/访问器属性.md"
-    },
-    {
-      "basename": "超实用的javascript代码段",
-      "path": "2. Areas/前端开发/JavaScript/超实用的javascript代码段.md"
-    },
-    {
-      "basename": "arguments和展开运算符(...)",
-      "path": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
-    },
-    {
-      "basename": "ES6到ES11新增主要特性",
-      "path": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
-    },
-    {
-      "basename": "Effective系列JS篇",
-      "path": "2. Areas/前端开发/JavaScript/Effective系列JS篇.md"
-    },
-    {
-      "basename": "7个高质量润色论文和文章的指令",
-      "path": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
-    },
-    {
-      "basename": "分页查询",
-      "path": "2. Areas/前端开发/JavaScript/分页查询.md"
-    },
-    {
-      "basename": "Promise.race模拟函数",
-      "path": "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md"
-    },
-    {
-      "basename": "PromiseState",
-      "path": "2. Areas/前端开发/JavaScript/PromiseState.md"
-    },
-    {
-      "basename": "最长公共子序列",
-      "path": "2. Areas/前端开发/JavaScript/最长公共子序列.md"
-    },
-    {
-      "basename": "@千问随机20问",
-      "path": "2. Areas/前端开发/JavaScript/@千问随机20问.md"
-    },
-    {
-      "basename": "深度优先搜索遍历树结构",
-      "path": "2. Areas/前端开发/JavaScript/深度优先搜索遍历树结构.md"
-    },
-    {
-      "basename": "构造函数",
-      "path": "2. Areas/前端开发/JavaScript/构造函数.md"
-    },
-    {
-      "basename": "全屏轮播图",
-      "path": "2. Areas/前端开发/JavaScript/全屏轮播图.md"
-    },
-    {
-      "basename": "LRU缓存机制",
-      "path": "2. Areas/前端开发/JavaScript/LRU缓存机制.md"
-    },
-    {
-      "basename": "哈佛决策课",
-      "path": "2. Areas/影音读/书本通读/非技术类/哈佛决策课.md"
-    },
-    {
-      "basename": "事件发布+订阅模式",
-      "path": "2. Areas/前端开发/JavaScript/事件发布+订阅模式.md"
-    },
-    {
-      "basename": "节流函数",
-      "path": "2. Areas/前端开发/JavaScript/节流函数.md"
-    },
-    {
-      "basename": "使用async,await处理并发请求",
-      "path": "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md"
-    },
-    {
-      "basename": "通用的深拷贝函数",
-      "path": "2. Areas/前端开发/JavaScript/通用的深拷贝函数.md"
-    },
-    {
-      "basename": "`replacer` 和 `reviver` 函数",
-      "path": "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md"
-    },
-    {
-      "basename": "JSON.parse(JSON.stringify(obj))",
-      "path": "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md"
-    },
-    {
-      "basename": "响应式设计",
-      "path": "2. Areas/前端开发/CSS/响应式设计.md"
-    },
-    {
-      "basename": "Generator函数",
-      "path": "2. Areas/前端开发/JavaScript/Generator函数.md"
-    },
-    {
-      "basename": "Javascrip高级技术",
-      "path": "2. Areas/前端开发/JavaScript/Javascrip高级技术.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
-    },
-    {
-      "basename": "JS基础",
-      "path": "2. Areas/前端开发/JavaScript/JS基础.md"
-    },
-    {
-      "basename": "Spring Boot",
-      "path": "2. Areas/BackEnd/Java/Spring/Spring Boot.md"
-    },
-    {
-      "basename": "升级复盘",
-      "path": "2. Areas/Writing/升级复盘.md"
-    },
-    {
-      "basename": "AMIGOSCODE",
-      "path": "2. Areas/BackEnd/Java/在线课/AMIGOSCODE.md"
-    },
-    {
-      "basename": "Spring Data JPA",
-      "path": "2. Areas/BackEnd/Java/Spring/Spring Data JPA.md"
-    },
-    {
-      "basename": "哑巴英语逆袭方法论",
-      "path": "2. Areas/IELTS/哑巴英语逆袭方法论.md"
-    },
-    {
-      "basename": "IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616",
-      "path": "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png"
-    },
-    {
-      "basename": "lifecycle methods of Vue",
-      "path": "2. Areas/BackEnd/RoadMap&Interview/lifecycle methods of Vue.md"
-    },
-    {
-      "basename": "全栈工程师学习路线(待续)",
-      "path": "Atlas/全栈工程师学习路线(待续).md"
-    },
-    {
-      "basename": "DIVE INTO DEEP LEARNING上册",
-      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册.md"
-    },
-    {
-      "basename": "XiaoMiStore",
-      "path": "2. Areas/BackEnd/Java/源码阅读/XiaoMiStore.md"
-    },
-    {
-      "basename": "打造第二大脑",
-      "path": "Cards/Excalidraw/打造第二大脑.md"
-    },
-    {
-      "basename": "朋友与敌人",
-      "path": "4. Archives/朋友与敌人.md"
-    },
-    {
-      "basename": "异常处理",
-      "path": "2. Areas/BackEnd/Java/异常处理.md"
-    },
-    {
-      "basename": "知识炼金术",
-      "path": "2. Areas/01认知科学/知识炼金术.md"
-    },
-    {
-      "basename": "20240630130436-象高手一样解决问题",
-      "path": "2. Areas/01认知科学/20240630130436-象高手一样解决问题.md"
     }
   ],
   "omittedPaths": [

@@ -152,7 +152,7 @@ GPU
 束搜索
 
 后面另有10-16章
-[[../DIVE INTO DEEP LEARNING下册]]
+[[DIVE INTO DEEP LEARNING下册]]
 
 
 

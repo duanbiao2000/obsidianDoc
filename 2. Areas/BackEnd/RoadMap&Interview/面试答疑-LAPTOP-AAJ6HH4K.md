@@ -172,7 +172,7 @@ hello()  # 输出装饰器添加的信息和原始函数的输出
 
 以上代码展示了闭包、回调和装饰器在JavaScript、Java和Python中的应用及区别。
 
-[[../../前端开发/Nodejs关键技术]]
+[[2. Areas/前端开发/Nodejs/Nodejs关键技术]]
 
 
 ### React Router

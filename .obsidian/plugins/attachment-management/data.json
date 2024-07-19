@@ -9,13 +9,11 @@
   "dateFormat": "YYYYMMDDHHmmssSSS",
   "excludeExtensionPattern": "pdf|docx?|xlsx?|pptx?|zip|rar",
   "autoRenameAttachment": true,
-  "excludedPaths": "5. Misc;Altas;Extras",
+  "excludedPaths": "",
   "excludePathsArray": [
-    "5. Misc",
-    "Altas",
-    "Extras"
+    ""
   ],
-  "excludeSubpaths": true,
+  "excludeSubpaths": false,
   "originalNameStorage": [],
   "overridePath": {},
   "disableNotification": false
