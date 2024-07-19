@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "arguments和展开运算符(...)",
+      "path": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
+    },
+    {
       "basename": "ES6到ES11新增主要特性",
       "path": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "英语例句0609 1",
       "path": "2. Areas/IELTS/英语例句0609 1.md"
-    },
-    {
-      "basename": "动手学深度学习复习回顾",
-      "path": "2. Areas/AI/动手学深度学习复习回顾.md"
     }
   ],
   "omittedPaths": [

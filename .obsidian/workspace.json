@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
+                    "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
+                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
+                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
+                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
               }
             }
           },
@@ -202,7 +202,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
+                "file": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
               }
             }
           },
@@ -271,6 +271,8 @@
   },
   "active": "11d50cbc9c8d95b3",
   "lastOpenFiles": [
+    "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
+    "2. Areas/前端开发/JavaScript/ES6笔记汇总.md",
     "2. Areas/前端开发/JavaScript/Effective系列JS篇.md",
     "2. Areas/前端开发/JavaScript/DOM操作.md",
     "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
@@ -302,11 +304,9 @@
     "使用async",
     "2. Areas/前端开发/JavaScript/通用的深拷贝函数.md",
     "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md",
-    "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md",
     "2. Areas/前端开发/JavaScript/attachments/`replacer` 和 `reviver` 函数",
     "2. Areas/前端开发/JavaScript/attachments/Generator函数",
     "2. Areas/前端开发/JavaScript/attachments/JSON.parse(JSON.stringify(obj))",
-    "2. Areas/前端开发/CSS/响应式设计.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",

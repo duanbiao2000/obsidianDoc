@@ -1,29 +1,13 @@
 ## ES6到ES11新增主要特性:
 
-**ES6**
+##  **ES6**
 
-- let和const
-```js
-let name = 'John';
-const age = 20;
-```
-- 箭头函数
-```js 
-let func = (a, b) => a + b;
 ```
 - 模板字符串
 ```js
 let str = `Hello ${name}`; 
 ```
-- 扩展运算符
-```js
-let arr2 = [...arr1, 4, 5, 6];
-```
-- Promise
-```js
-let promise = new Promise((resolve, reject) => {
-  // ...
-});
+
 ```
 **ES7** 
 - includes()
@@ -50,10 +34,7 @@ let obj2 = { b: 2, ...obj1 };
 ```js
 [1, [2, 3]].flat(); // [1, 2, 3]
 ```
-**ES11** 
-- 可选链操作符
-```js
-let name = user?.name; 
+
 ```
 - 空值合并运算符
 ```js
@@ -73,22 +54,8 @@ function unique(arr) {
   return [...new Set(arr)];
 }
 ```
-**2. 动态属性名**
-```js
-// ES6
-let prop = 'name';
-let obj = {
-  [prop]: 'John'
-};
-// ES11
-let obj = {
-  name
-};
-```
-**3. 可选链调用**
-```js
-// ES11
-let name = user?.profile?.name;
+
+
 ```
 **4. 合并对象**
 ```js 
@@ -107,21 +74,7 @@ async function fetchData() {
 }
 ```
 
-**默认参数**
 
-```js
-function foo(x = 2) {
-  return x; 
-}
-foo(); // 2
-```
-**rest参数**
-```js 
-function sum(...numbers) {
-  return numbers.reduce((a, b) => a + b);
-}
-sum(1, 2, 3); // 6
-```
 **for...of循环**
 ```js
 for (let num of [1, 2, 3]) {
@@ -145,7 +98,4 @@ match.groups.month; // '01'
 ```js
 const bigint = 1234567890123456789012345678901234567890n; 
 ```
-**可选链操作符**
-```js
-let name = user?.profile?.name;
-```
+
