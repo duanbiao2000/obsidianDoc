@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extras/textgenerator/templates/local/getIdeas.md",
+                "file": "4. Archives/2024-05-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extras/textgenerator/templates/local/getIdeas.md",
+                "file": "4. Archives/2024-05-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extras/textgenerator/templates/local/getIdeas.md"
+                "file": "4. Archives/2024-05-02.md"
               }
             }
           },
@@ -209,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Extras/textgenerator/templates/local/getIdeas.md"
+                "file": "4. Archives/2024-05-02.md"
               }
             }
           },
@@ -293,11 +293,16 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "ffcab0893e9b16ca",
+  "active": "6a73026fe242f7bd",
   "lastOpenFiles": [
-    "4. Archives/2024-05-02.md",
+    "5. Misc/Attachments/目标",
+    "5. Misc/Attachments/经典卡片标准格式(索引)",
+    "5. Misc/Attachments/搜索效率与效率有关",
+    "5. Misc/Attachments/Tags Index",
+    "5. Misc/Attachments",
     "Extras/textgenerator/templates/local/getIdeas.md",
-    "Atlas/000-index/Tags Index.md",
+    "4. Archives/2024-05-02.md",
+    "Atlas/Index/Tags Index.md",
     "2. Areas/Creative/7个高质量润色论文和文章的指令.md",
     "5. Misc/Attachments/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客",
     "5. Misc/Attachments/黄金信息",
@@ -305,10 +310,6 @@
     "5. Misc/Attachments/定制化知识和私有大模型",
     "5. Misc/Attachments/末班车0608",
     "5. Misc/Attachments/临时稿件(风格改为与统一,只是内容更为深刻)",
-    "5. Misc/Attachments/末班车0609 (改为为咨询口播风格)",
-    "5. Misc/Attachments/早班车0610",
-    "5. Misc/Attachments/Condense , filter and ditstil",
-    "5. Misc/Attachments/早班车0611",
     "2. Areas/影音读/书本通读/高效推荐0506.md",
     "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md",
     "2. Areas/前端开发/深入浅出React.md",
@@ -330,7 +331,6 @@
     "2. Areas/AI/算法/机器学习十大算法.md",
     "2. Areas/AI/深度学习/教育学理论框架.md",
     "2. Areas/AI/深度学习/大语言模型高阶课程设计 1.md",
-    "2. Areas/AI/深度学习/动手学深度学习复习回顾 1.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
