@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-05-02",
+      "path": "4. Archives/2024-05-02.md"
+    },
+    {
+      "basename": "Tags Index",
+      "path": "Atlas/000-index/Tags Index.md"
+    },
+    {
       "basename": "7个高质量润色论文和文章的指令",
-      "path": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+      "path": "2. Areas/Creative/7个高质量润色论文和文章的指令.md"
     },
     {
       "basename": "高效推荐0506",
@@ -191,14 +199,6 @@
     {
       "basename": "NodeJS基础",
       "path": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
-    },
-    {
-      "basename": "Koa学习笔记",
-      "path": "2. Areas/前端开发/Nodejs/Koa学习笔记.md"
-    },
-    {
-      "basename": "Next.js",
-      "path": "2. Areas/前端开发/NextJS/Next.js.md"
     }
   ],
   "omittedPaths": [

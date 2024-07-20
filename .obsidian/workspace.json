@@ -12,12 +12,12 @@
             "type": "tabs",
             "children": [
               {
-                "id": "5546ff7fb1c275e6",
+                "id": "11d50cbc9c8d95b3",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                    "file": "4. Archives/2024-05-02.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -25,14 +25,15 @@
                 }
               },
               {
-                "id": "11d50cbc9c8d95b3",
+                "id": "ffcab0893e9b16ca",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
+                  "type": "thino_view",
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "f0b4034db6dd2f1f",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                "file": "Extras/textgenerator/templates/local/getIdeas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                "file": "Extras/textgenerator/templates/local/getIdeas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                "file": "Extras/textgenerator/templates/local/getIdeas.md"
               }
             }
           },
@@ -208,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                "file": "Extras/textgenerator/templates/local/getIdeas.md"
               }
             }
           },
@@ -235,13 +236,29 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "9f35aefac2d18ba4",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea1743944e258358",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 462.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,28 +287,35 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "ffcab0893e9b16ca",
   "lastOpenFiles": [
+    "4. Archives/2024-05-02.md",
+    "Extras/textgenerator/templates/local/getIdeas.md",
+    "Atlas/000-index/Tags Index.md",
+    "2. Areas/Creative/7个高质量润色论文和文章的指令.md",
+    "5. Misc/Attachments/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客",
+    "5. Misc/Attachments/黄金信息",
+    "5. Misc/Attachments/Untitled",
+    "5. Misc/Attachments/定制化知识和私有大模型",
+    "5. Misc/Attachments/末班车0608",
+    "5. Misc/Attachments/临时稿件(风格改为与统一,只是内容更为深刻)",
+    "5. Misc/Attachments/末班车0609 (改为为咨询口播风格)",
+    "5. Misc/Attachments/早班车0610",
+    "5. Misc/Attachments/Condense , filter and ditstil",
+    "5. Misc/Attachments/早班车0611",
     "2. Areas/影音读/书本通读/高效推荐0506.md",
-    "5. Misc/Attachments/高效推荐0506",
     "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md",
-    "5. Misc/Attachments/图灵前端核心知识进阶系列（套装全10册）",
     "2. Areas/前端开发/深入浅出React.md",
-    "5. Misc/Attachments/深入浅出React",
-    "5. Misc/Attachments/深入浅出React技术栈",
     "2. Areas/影音读/书本通读/知识诚实.md",
     "2. Areas/AI/Generative AI Business Applications.md",
-    "5. Misc/Attachments/Generative AI Business Applications",
     "2. Areas/前端开发/Road to React.md",
-    "5. Misc/Attachments/React Quickly-LAPTOP-AAJ6HH4K",
-    "5. Misc/Attachments/React Quickly",
-    "5. Misc/Attachments/JavaScript深度学习",
-    "5. Misc/Attachments/Road to React",
     "2. Areas/前端开发/Nodejs关键技术.md",
-    "5. Misc/Attachments/Nodejs关键技术",
     "2. Areas/前端开发/Express官网教程.md",
     "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md",
     "2. Areas/01认知科学/@盖洛普测试.md",
@@ -307,9 +331,6 @@
     "2. Areas/AI/深度学习/教育学理论框架.md",
     "2. Areas/AI/深度学习/大语言模型高阶课程设计 1.md",
     "2. Areas/AI/深度学习/动手学深度学习复习回顾 1.md",
-    "2. Areas/AI/深度学习/任务模型.md",
-    "1. Projects/20240702184735-SmartStudyBuddy.md",
-    "1. Projects/20240626221449-markdown转为微信公众号.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
