@@ -10,21 +10,21 @@ id: a0ba83bb-1d2e-427b-a0fa-7d3dd58de8ac
 
 ## Highlights
 
-> <mark class="omni omni-yellow">All tools agent 于 2023 年 11 月 Dev day 发布，集成了 web searching, code interpreter, DALLE-3 这三个 tools，除此之外还隐式地集成了 web browsing，本地 RAG 这两个功能。使得用户在使用时不用再手动配置自己的 tools，配置tools和选择 tools 的成本转嫁到模型，客观上确实提升了体验。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#8d452b0a-2265-4c4e-8b0b-76e735000eab)  ^8d452b0a
+> <mark class="hltr-yellow">All tools agent 于 2023 年 11 月 Dev day 发布，集成了 web searching, code interpreter, DALLE-3 这三个 tools，除此之外还隐式地集成了 web browsing，本地 RAG 这两个功能。使得用户在使用时不用再手动配置自己的 tools，配置tools和选择 tools 的成本转嫁到模型，客观上确实提升了体验。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#8d452b0a-2265-4c4e-8b0b-76e735000eab)  ^8d452b0a
 
-> <mark class="omni omni-yellow">这可能意味着“每次回答都用 search”（AI 搜索引擎）的产品形态和“每次回答都不用 search”（ChatBot）的产品形态的定位确实存在差异化的空间。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#c2aee87e-0c71-4e15-9018-a6f3eaeb887a)  ^c2aee87e
+> <mark class="hltr-yellow">这可能意味着“每次回答都用 search”（AI 搜索引擎）的产品形态和“每次回答都不用 search”（ChatBot）的产品形态的定位确实存在差异化的空间。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#c2aee87e-0c71-4e15-9018-a6f3eaeb887a)  ^c2aee87e
 
-> <mark class="omni omni-blue">于 2023 年 7 月初发布，主打 ChatGPT 写完代码后可以自动运行，如果代码报错，那么可以自动根据错误来生成新的代码，再尝试运行。如果 ChatGPT 尝试次数达到 3 次或以上，那么会输出“无法完成任务”的回复。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#85f99edd-c22f-4c07-9b85-7005a054933d)  ^85f99edd
+> <mark class="hltr-blue">于 2023 年 7 月初发布，主打 ChatGPT 写完代码后可以自动运行，如果代码报错，那么可以自动根据错误来生成新的代码，再尝试运行。如果 ChatGPT 尝试次数达到 3 次或以上，那么会输出“无法完成任务”的回复。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#85f99edd-c22f-4c07-9b85-7005a054933d)  ^85f99edd
 
-> <mark class="omni omni-red">后续 code interpreter改名为 data analysis，并且围绕着数据分析 场景做了很多用户体验上的优化，比如数据处理时生成的图片可以进行放大居中，聊天栏变为侧边栏，使得用户可以 chat with figure等。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#593a3274-6896-4da5-bb15-da1c10c417e0)  ^593a3274
+> <mark class="hltr-red">后续 code interpreter改名为 data analysis，并且围绕着数据分析 场景做了很多用户体验上的优化，比如数据处理时生成的图片可以进行放大居中，聊天栏变为侧边栏，使得用户可以 chat with figure等。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#593a3274-6896-4da5-bb15-da1c10c417e0)  ^593a3274
 
-> <mark class="omni omni-yellow">反而是围绕着代码和数据处理的 code interpreter，和 all-tools agent 具有一定的实用性。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#76e52912-a51c-49bb-a9cc-ec391f644afb)  ^76e52912
+> <mark class="hltr-yellow">反而是围绕着代码和数据处理的 code interpreter，和 all-tools agent 具有一定的实用性。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#76e52912-a51c-49bb-a9cc-ec391f644afb)  ^76e52912
 
-> <mark class="omni omni-red">一个在使用工具时 work的 agent，必然要在模型层有足够多的关于这个 tool 的语料才行</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#1043b942-a01e-4106-8d4b-4168e690fef0)  ^1043b942
+> <mark class="hltr-red">一个在使用工具时 work的 agent，必然要在模型层有足够多的关于这个 tool 的语料才行</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#1043b942-a01e-4106-8d4b-4168e690fef0)  ^1043b942
 
-> <mark class="omni omni-green">一个实用的 agent，开发必然不能仅仅限于 prompt层面的开发，要做很多判断的机制，而且很多机制是用 code 来硬编码的，而不是用自然语言 prompt 来表达的。很讽刺的一点是：用 OpenAI 提供的 agent 开发平台（Assistant）来做写 prompt层面的开发，那么无论如何也做不出来code interpreter 这样的 agent。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#3c0258ae-5b83-4c84-b184-af8a991fd6aa)  ^3c0258ae
+> <mark class="hltr-green">一个实用的 agent，开发必然不能仅仅限于 prompt层面的开发，要做很多判断的机制，而且很多机制是用 code 来硬编码的，而不是用自然语言 prompt 来表达的。很讽刺的一点是：用 OpenAI 提供的 agent 开发平台（Assistant）来做写 prompt层面的开发，那么无论如何也做不出来code interpreter 这样的 agent。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#3c0258ae-5b83-4c84-b184-af8a991fd6aa)  ^3c0258ae
 
-> <mark class="omni omni-yellow">这同时也解释了为什么 agent应用落地场景的 50%以上都是 RAG 问答，以及 CRUD 的简单任务（因为这些场景老板不会遇到上面那个致命问题）。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#b42c6ca0-9f81-4a35-a7f2-ffd2daff4a6d)  ^b42c6ca0
+> <mark class="hltr-yellow">这同时也解释了为什么 agent应用落地场景的 50%以上都是 RAG 问答，以及 CRUD 的简单任务（因为这些场景老板不会遇到上面那个致命问题）。</mark> [⤴️](https://omnivore.app/me/agent-rag-6-15-1901744caa9#b42c6ca0-9f81-4a35-a7f2-ffd2daff4a6d)  ^b42c6ca0
 
 当涉及到B端智能助理的实例时，以下是两个相关的实际应用案例：
 
