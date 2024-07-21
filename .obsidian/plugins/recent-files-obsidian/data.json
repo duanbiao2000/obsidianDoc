@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "bytebytego",
+      "path": "3. Resources/社区/bytebytego.md"
+    },
+    {
+      "basename": "小野森森前端",
+      "path": "3. Resources/社区/小野森森前端.md"
+    },
+    {
+      "basename": "Mock interview",
+      "path": "2. Areas/System design/Mock interview.md"
+    },
+    {
+      "basename": "Common patterns",
+      "path": "2. Areas/System design/Common patterns.md"
+    },
+    {
       "basename": "我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20)",
       "path": "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md"
     },
@@ -78,15 +94,11 @@
     },
     {
       "basename": "Express迁移到Spring boot",
-      "path": "2. Areas/AI/社区/Github/Express迁移到Spring boot.md"
+      "path": "3. Resources/社区/Github/Express迁移到Spring boot.md"
     },
     {
       "basename": "项目实践总纲",
-      "path": "2. Areas/AI/社区/Github/项目实践总纲.md"
-    },
-    {
-      "basename": "bytebytego",
-      "path": "2. Areas/AI/社区/bytebytego.md"
+      "path": "3. Resources/社区/Github/项目实践总纲.md"
     },
     {
       "basename": "文字生成视频技术",
@@ -187,18 +199,6 @@
     {
       "basename": "Express官网教程",
       "path": "2. Areas/前端开发/Nodejs/Express官网教程.md"
-    },
-    {
-      "basename": "MVC模型",
-      "path": "2. Areas/前端开发/React/MVC模型.md"
-    },
-    {
-      "basename": "react18通用后台管理系统",
-      "path": "2. Areas/前端开发/React/react18通用后台管理系统.md"
-    },
-    {
-      "basename": "React代码解读0605 2",
-      "path": "2. Areas/前端开发/React/React代码解读0605 2.md"
     }
   ],
   "omittedPaths": [

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
+                "file": "3. Resources/社区/bytebytego.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bytebyte",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
+                "file": "3. Resources/社区/bytebytego.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
+                "file": "3. Resources/社区/bytebytego.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md"
+                "file": "3. Resources/社区/bytebytego.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md"
+                "file": "3. Resources/社区/bytebytego.md"
               }
             }
           },
@@ -234,9 +234,21 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "5. Misc/Attachments/小野森森前端",
+    "3. Resources/社区/小野森森前端.md",
+    "3. Resources/社区/bytebytego.md",
+    "5. Misc/Attachments/Express迁移到Spring boot",
+    "5. Misc/Attachments/Github高分代码段",
+    "5. Misc/Attachments/项目实践总纲",
+    "5. Misc/Attachments/bytebytego",
+    "2. Areas/System design/Mock interview.md",
+    "2. Areas/System design/Common patterns.md",
+    "5. Misc/Attachments/Mock interview",
+    "5. Misc/Attachments/Common patterns",
+    "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
+    "2. Areas/System design",
     "Omnivore/Becoming a Full-Time Creator as a Software Engineer- Controversial Advice - The Pragmatic Engineer.md",
     "Omnivore/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md",
-    "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
     "Omnivore/收集下各位 Linux 下所使用的那些好用的工具 - V2EX.md",
     "Omnivore/个人生产力系统的工作流程：收集、整理、创作、分享(视频重置)_哔哩哔哩_bilibili.md",
     "Omnivore/做开发十年，我总结出了这些开发经验-腾讯云开发者社区-腾讯云.md",
@@ -256,20 +268,8 @@
     "Extras/Template/普通索引卡.md",
     "4. Archives/2024-05-02.md",
     "3. Resources/Omnivore/2024-07-04/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md",
-    "Resources/Omnivore/2024-07-20/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
     "Resources/Omnivore/2024-07-20",
     "Resources/Omnivore",
-    "Resources",
-    "Extras/textgenerator/templates/local/getIdeas.md",
-    "5. Misc/Attachments/目标",
-    "5. Misc/Attachments/经典卡片标准格式(索引)",
-    "5. Misc/Attachments/搜索效率与效率有关",
-    "5. Misc/Attachments/Tags Index",
-    "5. Misc/Attachments",
-    "Atlas/Index/Tags Index.md",
-    "2. Areas/Creative/7个高质量润色论文和文章的指令.md",
-    "5. Misc/Attachments/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客",
-    "2. Areas/影音读/书本通读/高效推荐0506.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
