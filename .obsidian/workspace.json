@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/AI/算法/24种算法模式.md",
+                "file": "3. Resources/社区/Github/free-programming-books-subjects.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ea9af9bbdbbed25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/社区/Github/free-programming-books-subjects.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -169,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/AI/算法/24种算法模式.md",
+                "file": "3. Resources/社区/Github/free-programming-books-subjects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/AI/算法/24种算法模式.md",
+                "file": "3. Resources/社区/Github/free-programming-books-subjects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/AI/算法/24种算法模式.md"
+                "file": "3. Resources/社区/Github/free-programming-books-subjects.md"
               }
             }
           },
@@ -239,7 +251,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/AI/算法/24种算法模式.md"
+                "file": "3. Resources/社区/Github/free-programming-books-subjects.md"
               }
             }
           },
@@ -272,7 +284,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,10 +320,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5c03f4e1f44e0684",
+  "active": "6ea9af9bbdbbed25",
   "lastOpenFiles": [
-    "2. Areas/AI/算法/动态规划（Dynamic Programming）.md",
     "2. Areas/AI/算法/24种算法模式.md",
+    "3. Resources/社区/Github/free-programming-books-subjects.md",
+    "2. Areas/AI/算法/动态规划（Dynamic Programming）.md",
     "2. Areas/AI/算法/回溯算法.md",
     "2. Areas/AI/算法/分治算法.md",
     "2. Areas/AI/算法/算法问题.md",
@@ -342,7 +356,6 @@
     "Omnivore/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md",
     "Omnivore/收集下各位 Linux 下所使用的那些好用的工具 - V2EX.md",
     "Omnivore/个人生产力系统的工作流程：收集、整理、创作、分享(视频重置)_哔哩哔哩_bilibili.md",
-    "Omnivore/做开发十年，我总结出了这些开发经验-腾讯云开发者社区-腾讯云.md",
     "Omnivore",
     "Resources/Omnivore/2024-07-20",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",

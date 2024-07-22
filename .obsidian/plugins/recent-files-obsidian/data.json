@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "free-programming-books-subjects",
+      "path": "3. Resources/社区/Github/free-programming-books-subjects.md"
+    },
+    {
       "basename": "24种算法模式",
       "path": "2. Areas/AI/算法/24种算法模式.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "AI工具",
       "path": "3. Resources/Utility/AI工具.md"
-    },
-    {
-      "basename": "DIVE INTO DEEP LEARNING下册",
-      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING下册.md"
     }
   ],
   "omittedPaths": [
