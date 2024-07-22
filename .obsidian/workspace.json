@@ -4,77 +4,97 @@
     "type": "split",
     "children": [
       {
-        "id": "9f83635cac6155a3",
-        "type": "split",
+        "id": "e68007277d077560",
+        "type": "tabs",
         "children": [
           {
-            "id": "e68007277d077560",
-            "type": "tabs",
-            "dimension": 61.52980877390326,
-            "children": [
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. Areas/AI/算法/数据结构与算法.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "11d50cbc9c8d95b3",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
+            "id": "5546ff7fb1c275e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/算法/数据结构与算法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ]
+            }
           },
           {
-            "id": "f0b4034db6dd2f1f",
-            "type": "split",
-            "dimension": 38.47019122609674,
-            "children": [
-              {
-                "id": "3c719f923dad6376",
-                "type": "tabs",
-                "dimension": 61.3564668769716,
-                "children": [
-                  {
-                    "id": "b6c5fa0c5bef5f0f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "graph",
-                      "state": {}
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "af96cf2ae69ef399",
-                "type": "tabs",
-                "dimension": 38.64353312302839,
-                "children": [
-                  {
-                    "id": "ced13bdc9999bec1",
-                    "type": "leaf",
-                    "state": {
-                      "type": "mindmap",
-                      "state": {}
-                    }
-                  }
-                ]
+            "id": "5c03f4e1f44e0684",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/算法/24种算法模式.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ],
-            "direction": "horizontal"
+            }
+          },
+          {
+            "id": "6e7682a1c2b76f5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/算法/动态规划（Dynamic Programming）.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "645658ed73efa9f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/算法/回溯算法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d55a2c8aab53daec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/算法/分治算法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c262f42eff1bb10f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/算法/[哈希集合.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11d50cbc9c8d95b3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "direction": "vertical"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -148,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/AI/算法/数据结构与算法.md",
+                "file": "2. Areas/AI/算法/24种算法模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/AI/算法/数据结构与算法.md",
+                "file": "2. Areas/AI/算法/24种算法模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,12 +204,20 @@
             }
           },
           {
+            "id": "64444d39ea2777f2",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {}
+            }
+          },
+          {
             "id": "43d90e2fd0cc20b1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/AI/算法/数据结构与算法.md"
+                "file": "2. Areas/AI/算法/24种算法模式.md"
               }
             }
           },
@@ -210,7 +239,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/AI/算法/数据结构与算法.md"
+                "file": "2. Areas/AI/算法/24种算法模式.md"
               }
             }
           },
@@ -239,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -278,14 +307,23 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "5c03f4e1f44e0684",
   "lastOpenFiles": [
+    "2. Areas/AI/算法/动态规划（Dynamic Programming）.md",
+    "2. Areas/AI/算法/24种算法模式.md",
+    "2. Areas/AI/算法/回溯算法.md",
+    "2. Areas/AI/算法/分治算法.md",
+    "2. Areas/AI/算法/算法问题.md",
+    "2. Areas/AI/算法/数据结构与算法.md",
+    "2. Areas/AI/算法/树（Tree）.md",
+    "2. Areas/AI/算法/图（Graph）.md",
+    "Omnivore/秘塔AI搜索.md",
+    "2. Areas/AI/算法/[哈希集合.md",
+    "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md",
+    "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md",
     "2. Areas/AI/算法/程序员数学.md",
     "2. Areas/AI/算法/机器学习十大算法.md",
-    "2. Areas/AI/算法/数据结构与算法.md",
     "2. Areas/AI/算法/Leetcode题解0708.md",
-    "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md",
-    "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md",
     "Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
     "3. Resources/社区/bytebytego.md",
     "5. Misc/Attachments/小野森森前端",
@@ -305,15 +343,6 @@
     "Omnivore/收集下各位 Linux 下所使用的那些好用的工具 - V2EX.md",
     "Omnivore/个人生产力系统的工作流程：收集、整理、创作、分享(视频重置)_哔哩哔哩_bilibili.md",
     "Omnivore/做开发十年，我总结出了这些开发经验-腾讯云开发者社区-腾讯云.md",
-    "Omnivore/如何突破英文口语（7年海外工作实践经验）.md",
-    "Omnivore/如何阅读别人的代码.md",
-    "Omnivore/秘塔AI搜索.md",
-    "Omnivore/Google Colab替代品们及排名，免费VPS与GPU等白嫖 - nb.ID.md",
-    "Omnivore/‬‬‬‬‬聊聊Agent、RAG主流开发技术和未来应用【闭门活动报名中 6月15日】 - 飞书云文档.md",
-    "Omnivore/一位编码员思考工艺的衰落-纽约客 --- A Coder Considers the Waning Days of the Craft - The New Yorker.md",
-    "Omnivore/扣子(Coze)实战教程 - AI应用教程.md",
-    "Omnivore/omnivore-app-obsidian-omnivore- Obsidian plugin to fetch articles and highlights from Omnivore.md",
-    "Omnivore/寻找称职的增长黑客 - 数据驱动 - 营销能力.md",
     "Omnivore",
     "Resources/Omnivore/2024-07-20",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",

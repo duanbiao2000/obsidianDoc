@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "24种算法模式",
+      "path": "2. Areas/AI/算法/24种算法模式.md"
+    },
+    {
+      "basename": "动态规划（Dynamic Programming）",
+      "path": "2. Areas/AI/算法/动态规划（Dynamic Programming）.md"
+    },
+    {
+      "basename": "回溯算法",
+      "path": "2. Areas/AI/算法/回溯算法.md"
+    },
+    {
+      "basename": "分治算法",
+      "path": "2. Areas/AI/算法/分治算法.md"
+    },
+    {
       "basename": "数据结构与算法",
       "path": "2. Areas/AI/算法/数据结构与算法.md"
+    },
+    {
+      "basename": "秘塔AI搜索",
+      "path": "Omnivore/秘塔AI搜索.md"
+    },
+    {
+      "basename": "[哈希集合",
+      "path": "2. Areas/AI/算法/[哈希集合.md"
+    },
+    {
+      "basename": "7天刷爆LeetCode",
+      "path": "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md"
+    },
+    {
+      "basename": "Dive into Algorithms A Pythonic Adventure",
+      "path": "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md"
     },
     {
       "basename": "程序员数学",
@@ -15,14 +47,6 @@
     {
       "basename": "Leetcode题解0708",
       "path": "2. Areas/AI/算法/Leetcode题解0708.md"
-    },
-    {
-      "basename": "Dive into Algorithms A Pythonic Adventure",
-      "path": "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md"
-    },
-    {
-      "basename": "7天刷爆LeetCode",
-      "path": "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md"
     },
     {
       "basename": "bytebytego",
@@ -175,30 +199,6 @@
     {
       "basename": "DIVE INTO DEEP LEARNING下册",
       "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING下册.md"
-    },
-    {
-      "basename": "python深度学习第二版 1",
-      "path": "2. Areas/AI/深度学习/python深度学习第二版 1.md"
-    },
-    {
-      "basename": "动手学深度学习 (一刷)笔记 1",
-      "path": "2. Areas/AI/深度学习/动手学深度学习 (一刷)笔记 1.md"
-    },
-    {
-      "basename": "24种算法模式",
-      "path": "2. Areas/AI/算法/24种算法模式.md"
-    },
-    {
-      "basename": "2023 完整Web开发训练营 - HTML, CSS, Javascript, Node, React",
-      "path": "2. Areas/前端开发/2023 完整Web开发训练营 - HTML, CSS, Javascript, Node, React.md"
-    },
-    {
-      "basename": "CodeWithMosh",
-      "path": "2. Areas/前端开发/CodeWithMosh.md"
-    },
-    {
-      "basename": "ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023)",
-      "path": "2. Areas/前端开发/ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023).md"
     }
   ],
   "omittedPaths": [
