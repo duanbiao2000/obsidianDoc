@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "数据结构与算法",
+      "path": "2. Areas/AI/算法/数据结构与算法.md"
+    },
+    {
+      "basename": "程序员数学",
+      "path": "2. Areas/AI/算法/程序员数学.md"
+    },
+    {
+      "basename": "机器学习十大算法",
+      "path": "2. Areas/AI/算法/机器学习十大算法.md"
+    },
+    {
+      "basename": "Leetcode题解0708",
+      "path": "2. Areas/AI/算法/Leetcode题解0708.md"
+    },
+    {
+      "basename": "Dive into Algorithms A Pythonic Adventure",
+      "path": "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md"
+    },
+    {
+      "basename": "7天刷爆LeetCode",
+      "path": "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md"
+    },
+    {
       "basename": "bytebytego",
       "path": "3. Resources/社区/bytebytego.md"
     },
@@ -105,10 +129,6 @@
       "path": "2. Areas/AI/深度学习/文字生成视频技术.md"
     },
     {
-      "basename": "机器学习十大算法",
-      "path": "2. Areas/AI/算法/机器学习十大算法.md"
-    },
-    {
       "basename": "教育学理论框架",
       "path": "2. Areas/AI/深度学习/教育学理论框架.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023)",
       "path": "2. Areas/前端开发/ZeroToMastery-The Complete Junior to Senior Web Developer Roadmap (2023).md"
-    },
-    {
-      "basename": "大前端知识图谱AI问答",
-      "path": "2. Areas/前端开发/大前端知识图谱AI问答.md"
-    },
-    {
-      "basename": "Gihub协作指南",
-      "path": "3. Resources/Utility/Gihub协作指南.md"
-    },
-    {
-      "basename": "Full Stack Web Development Course",
-      "path": "2. Areas/前端开发/Nodejs/Full Stack Web Development Course.md"
-    },
-    {
-      "basename": "Nodejs关键技术",
-      "path": "2. Areas/前端开发/Nodejs/Nodejs关键技术.md"
-    },
-    {
-      "basename": "Express官网教程",
-      "path": "2. Areas/前端开发/Nodejs/Express官网教程.md"
     }
   ],
   "omittedPaths": [

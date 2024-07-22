@@ -10,13 +10,19 @@
           {
             "id": "e68007277d077560",
             "type": "tabs",
+            "dimension": 61.52980877390326,
             "children": [
               {
                 "id": "5546ff7fb1c275e6",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Areas/AI/算法/数据结构与算法.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
                 }
               },
               {
@@ -32,11 +38,12 @@
           {
             "id": "f0b4034db6dd2f1f",
             "type": "split",
+            "dimension": 38.47019122609674,
             "children": [
               {
                 "id": "3c719f923dad6376",
                 "type": "tabs",
-                "dimension": 66.56976744186046,
+                "dimension": 61.3564668769716,
                 "children": [
                   {
                     "id": "b6c5fa0c5bef5f0f",
@@ -51,7 +58,7 @@
               {
                 "id": "af96cf2ae69ef399",
                 "type": "tabs",
-                "dimension": 33.43023255813954,
+                "dimension": 38.64353312302839,
                 "children": [
                   {
                     "id": "ced13bdc9999bec1",
@@ -141,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. Areas/AI/算法/数据结构与算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2. Areas/AI/算法/数据结构与算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +187,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2. Areas/AI/算法/数据结构与算法.md"
+              }
             }
           },
           {
@@ -198,7 +209,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2. Areas/AI/算法/数据结构与算法.md"
+              }
             }
           },
           {
@@ -226,7 +239,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -265,8 +278,14 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "2. Areas/AI/算法/程序员数学.md",
+    "2. Areas/AI/算法/机器学习十大算法.md",
+    "2. Areas/AI/算法/数据结构与算法.md",
+    "2. Areas/AI/算法/Leetcode题解0708.md",
+    "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md",
+    "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md",
     "Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
     "3. Resources/社区/bytebytego.md",
     "5. Misc/Attachments/小野森森前端",
@@ -295,13 +314,7 @@
     "Omnivore/扣子(Coze)实战教程 - AI应用教程.md",
     "Omnivore/omnivore-app-obsidian-omnivore- Obsidian plugin to fetch articles and highlights from Omnivore.md",
     "Omnivore/寻找称职的增长黑客 - 数据驱动 - 营销能力.md",
-    "Omnivore/The Secret Power of ‘Read It Later’ Apps.md",
-    "Omnivore/Getting Started with Omnivore.md",
-    "Omnivore/Organize your Omnivore library with labels.md",
     "Omnivore",
-    "Extras/Template/普通索引卡.md",
-    "4. Archives/2024-05-02.md",
-    "3. Resources/Omnivore/2024-07-04/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md",
     "Resources/Omnivore/2024-07-20",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",

@@ -40,5 +40,8 @@
   "obsidian-regex-replace",
   "nldates-obsidian",
   "obsidian-git",
-  "obsidian-memos"
+  "obsidian-memos",
+  "mousewheel-image-zoom",
+  "obsidian-image-toolkit",
+  "oz-clear-unused-images"
 ]
