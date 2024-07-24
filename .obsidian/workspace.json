@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
+                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,12 +51,12 @@
         "currentTab": 1
       },
       {
-        "id": "a95f65801ac6934d",
+        "id": "4b07f6e563e12fae",
         "type": "tabs",
         "dimension": 50,
         "children": [
           {
-            "id": "176d7b7b04e862ca",
+            "id": "07a35fcc446c963e",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
+                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
+                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
+                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
               }
             }
           },
@@ -199,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
+                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
               }
             }
           },
@@ -269,14 +269,25 @@
   },
   "active": "b3c30f278336d090",
   "lastOpenFiles": [
-    "2. Areas/01认知科学/知识炼金术.md",
-    "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
+    "2. Areas/IELTS/动词短语.md",
+    "2. Areas/IELTS/分类记忆.md",
+    "2. Areas/IELTS/前端开发常见的问题讨论中英.md",
+    "2. Areas/IELTS/what do you do in your free time.md",
+    "2. Areas/01认知科学/拓展认知的方法.md",
     "2. Areas/01认知科学/流行词.md",
+    "2. Areas/01认知科学/知识炼金术.md",
+    "2. Areas/01认知科学/策展-Curation.md",
+    "2. Areas/01认知科学/认知资源.md",
     "2. Areas/01认知科学/象高手一样解决问题.md",
+    "2. Areas/01认知科学/合理归类.md",
+    "2. Areas/01认知科学/个人才干Top10.md",
+    "5. Misc/Attachments/个人才干Top10",
+    "5. Misc/Attachments/个人才干",
+    "2. Areas/01认知科学/抽象思维.md",
+    "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
     "5. Misc/Attachments/象高手一样解决问题",
     "2. Areas/01认知科学/五维思考法.md",
     "2. Areas/01认知科学/The War of Art.md",
-    "2. Areas/01认知科学/策展-Curation.md",
     "2. Areas/01认知科学/20240627110101-roadmap.sh.md",
     "5. Misc/Attachments/策展-Curation",
     "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
@@ -290,21 +301,10 @@
     "2. Areas/01认知科学/信息差/信息差知乎.md",
     "Extras/Template/学习卡片闪卡.md",
     "Extras/Template/Templater/add poem.md",
-    "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
-    "Extras/Template/Templater/themedatetagsstatus.md",
-    "Cards/PPT/11.md",
     "5. Misc/Attachments/11",
     "5. Misc/Attachments/Go语言中的线程、进程、并行与并发",
-    "3. Resources/社区/Github/free-programming-books-subjects.md",
-    "2. Areas/AI/算法/24种算法模式.md",
-    "2. Areas/AI/算法/动态规划（Dynamic Programming）.md",
-    "2. Areas/AI/算法/回溯算法.md",
-    "2. Areas/AI/算法/分治算法.md",
-    "2. Areas/AI/算法/算法问题.md",
     "5. Misc/Attachments/小野森森前端",
     "5. Misc/Attachments/Express迁移到Spring boot",
-    "5. Misc/Attachments/Github高分代码段",
-    "5. Misc/Attachments/项目实践总纲",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",

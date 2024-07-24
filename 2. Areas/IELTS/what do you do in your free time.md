@@ -85,6 +85,3 @@ I was one of {5} siblings = brother and sisters
 There are 4 members in my family
 {EXTENDED FAMILY = siblings, parents, grandparents, uncles ,aunts, cousins}  vs  {NUCLEAR FAMILY = parents and their children}?
 ```
-
-
-

@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "影响行动的潜在能力的知识",
-      "path": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
+      "basename": "每日听力材料  (至少听四遍)",
+      "path": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
     },
     {
-      "basename": "知识炼金术",
-      "path": "2. Areas/01认知科学/知识炼金术.md"
+      "basename": "动词短语",
+      "path": "2. Areas/IELTS/动词短语.md"
+    },
+    {
+      "basename": "分类记忆",
+      "path": "2. Areas/IELTS/分类记忆.md"
+    },
+    {
+      "basename": "what do you do in your free time",
+      "path": "2. Areas/IELTS/what do you do in your free time.md"
+    },
+    {
+      "basename": "拓展认知的方法",
+      "path": "2. Areas/01认知科学/拓展认知的方法.md"
     },
     {
       "basename": "流行词",
       "path": "2. Areas/01认知科学/流行词.md"
     },
     {
+      "basename": "知识炼金术",
+      "path": "2. Areas/01认知科学/知识炼金术.md"
+    },
+    {
+      "basename": "策展-Curation",
+      "path": "2. Areas/01认知科学/策展-Curation.md"
+    },
+    {
       "basename": "象高手一样解决问题",
       "path": "2. Areas/01认知科学/象高手一样解决问题.md"
+    },
+    {
+      "basename": "合理归类",
+      "path": "2. Areas/01认知科学/合理归类.md"
+    },
+    {
+      "basename": "个人才干Top10",
+      "path": "2. Areas/01认知科学/个人才干Top10.md"
+    },
+    {
+      "basename": "抽象思维",
+      "path": "2. Areas/01认知科学/抽象思维.md"
+    },
+    {
+      "basename": "影响行动的潜在能力的知识",
+      "path": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
     },
     {
       "basename": "五维思考法",
@@ -23,10 +59,6 @@
     {
       "basename": "The War of Art",
       "path": "2. Areas/01认知科学/The War of Art.md"
-    },
-    {
-      "basename": "策展-Curation",
-      "path": "2. Areas/01认知科学/策展-Curation.md"
     },
     {
       "basename": "15年商业和人生教训的40条简短建议",
@@ -167,38 +199,6 @@
     {
       "basename": "知识诚实",
       "path": "2. Areas/影音读/书本通读/知识诚实.md"
-    },
-    {
-      "basename": "Generative AI Business Applications",
-      "path": "2. Areas/AI/Generative AI Business Applications.md"
-    },
-    {
-      "basename": "Road to React",
-      "path": "2. Areas/前端开发/Road to React.md"
-    },
-    {
-      "basename": "Nodejs关键技术",
-      "path": "2. Areas/前端开发/Nodejs关键技术.md"
-    },
-    {
-      "basename": "Express官网教程",
-      "path": "2. Areas/前端开发/Express官网教程.md"
-    },
-    {
-      "basename": "绘画艺术形式",
-      "path": "2. Areas/AI/提示词/绘画艺术形式.md"
-    },
-    {
-      "basename": "结构化提示词",
-      "path": "2. Areas/AI/提示词/结构化提示词.md"
-    },
-    {
-      "basename": "DIVE INTO DEEP LEARNING上册 1",
-      "path": "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册 1.md"
-    },
-    {
-      "basename": "Express迁移到Spring boot",
-      "path": "3. Resources/社区/Github/Express迁移到Spring boot.md"
     }
   ],
   "omittedPaths": [
