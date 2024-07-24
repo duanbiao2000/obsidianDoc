@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e68007277d077560",
+        "id": "fb065b3906a93167",
         "type": "tabs",
         "children": [
           {
-            "id": "5546ff7fb1c275e6",
+            "id": "7bed90e04e0dc41e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,11 +23,11 @@
         ]
       },
       {
-        "id": "646e1d286dae134c",
+        "id": "11d3ba34605cf1ec",
         "type": "tabs",
         "children": [
           {
-            "id": "0698d089c9ea8c03",
+            "id": "f1c308cfe190b587",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250
+    "width": 250,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,9 +239,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "7bed90e04e0dc41e",
   "lastOpenFiles": [
+    "Extras/Template/Templater/themedatetagsstatus.md",
     "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
+    "Cards/PPT/11.md",
+    "5. Misc/Attachments/11",
     "5. Misc/Attachments/Go语言中的线程、进程、并行与并发",
     "3. Resources/社区/Github/free-programming-books-subjects.md",
     "2. Areas/AI/算法/24种算法模式.md",
@@ -274,8 +277,6 @@
     "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
     "2. Areas/System design",
     "Omnivore/Becoming a Full-Time Creator as a Software Engineer- Controversial Advice - The Pragmatic Engineer.md",
-    "Omnivore/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md",
-    "Omnivore",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",

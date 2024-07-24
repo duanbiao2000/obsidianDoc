@@ -1,12 +1,11 @@
 ---
-aliases: 
-tags: 
-theme: 
-original: 
-url: 
-author: 
-created_date: 
-date updated: 2024-07-14 17:02
-type: 
+aliases: null
+theme: null
+original: null
+url: null
+author: null
+created_date: null
+date updated: 2024-07-24 13:48
+type: null
 high priority: false
 ---

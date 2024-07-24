@@ -14,7 +14,7 @@
     "created_date": "text",
     "status": "checkbox",
     "type": "multitext",
-    "theme": "multitext",
+    "theme": "text",
     "priority": "checkbox",
     "excalidraw-export-transparent": "checkbox",
     "excalidraw-mask": "checkbox",

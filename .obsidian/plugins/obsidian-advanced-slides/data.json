@@ -7,8 +7,8 @@
   "enableMenu": true,
   "enablePointer": true,
   "enableTimeBar": true,
-  "theme": "black",
-  "highlightTheme": "zenburn",
+  "theme": "moon",
+  "highlightTheme": "",
   "transition": "slide",
   "transitionSpeed": "default",
   "controls": true,
@@ -17,5 +17,5 @@
   "showGrid": false,
   "autoComplete": "inPreview",
   "paneMode": "split",
-  "motm": "2024-07-24T05:23:08.946Z"
+  "motm": "2024-07-24T05:36:30.205Z"
 }

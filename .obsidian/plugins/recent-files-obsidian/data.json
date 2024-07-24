@@ -195,10 +195,6 @@
     {
       "basename": "计算机工程师必备工具",
       "path": "3. Resources/Utility/计算机工程师必备工具.md"
-    },
-    {
-      "basename": "Git",
-      "path": "3. Resources/Utility/Git.md"
     }
   ],
   "omittedPaths": [
