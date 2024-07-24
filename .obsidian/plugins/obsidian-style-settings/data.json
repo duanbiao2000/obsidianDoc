@@ -86,5 +86,6 @@
   "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border",
   "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-vanilla-normal",
   "anuppuccin-theme-settings@@anp-custom-vault-toggle": false,
-  "anuppuccin-theme-settings@@anp-decoration-toggle": true
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true,
+  "anuppuccin-theme-settings@@anp-header-color-toggle": true
 }

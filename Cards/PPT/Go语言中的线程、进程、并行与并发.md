@@ -147,3 +147,84 @@ func main() {
 1. 简洁易用：Go 语言提供了丰富的并发工具，例如 goroutine 和 channel。
 2. 高性能：Go 语言的并发模型能够充分利用多核CPU的性能。
 3. 安全可靠：Go 语言的内存管理机制可以有效避免数据竞争问题。
+---
+# **Goroutine**
+
+* 轻量级协程：
+* 并发执行：多个 goroutine 可以同时运行
+* 简易创建：使用 `go` 关键字
+
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func sayHello(name string) {
+	for i := 0; i < 5; i++ {
+		fmt.Println(name, ":", i)
+		time.Sleep(100 * time.Millisecond)
+	}
+}
+
+func main() {
+	go sayHello("Alice") // 启动一个 goroutine 执行 sayHello 函数
+	sayHello("Bob")       // 主 goroutine 继续执行
+	time.Sleep(2 * time.Second)
+	fmt.Println("Main goroutine exiting.")
+}
+```
+
+
+---
+
+# **Channel**
+
+- `jobs` 通道用于发送任务给工作者 goroutine
+- `results` 通道用于接收结果
+- 主 goroutine 可以安全地将任务发送给多个 worker goroutine
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func worker(id int, jobs <-chan int, results chan<- int) {
+	for j := range jobs {
+		fmt.Println("Worker", id, "processing job", j)
+		results <- j * 2
+	}
+}
+
+func main() {
+	jobs := make(chan int, 100)
+	results := make(chan int, 100)
+
+	// 创建多个 goroutine
+	for w := 1; w <= 3; w++ {
+		go worker(w, jobs, results)
+	}
+
+	// 发送任务到channel
+	for j := 1; j <= 5; j++ {
+		jobs <- j
+	}
+	close(jobs)
+
+	// 从channel接收结果
+	for a := 1; a <= 5; a++ {
+		<-results
+	}
+}
+```
+
+
+
+
+
+
+

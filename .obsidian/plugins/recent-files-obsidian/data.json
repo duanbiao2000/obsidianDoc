@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "The War of Art",
+      "path": "2. Areas/01认知科学/The War of Art.md"
+    },
+    {
+      "basename": "策展-Curation",
+      "path": "2. Areas/01认知科学/策展-Curation.md"
+    },
+    {
+      "basename": "15年商业和人生教训的40条简短建议",
+      "path": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md"
+    },
+    {
+      "basename": "Notebooklm打造第二大脑",
+      "path": "2. Areas/01认知科学/Notebooklm打造第二大脑.md"
+    },
+    {
+      "basename": "@熟练的AI专业人员需要具备的能力",
+      "path": "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md"
+    },
+    {
+      "basename": "@盖洛普测试",
+      "path": "2. Areas/01认知科学/@盖洛普测试.md"
+    },
+    {
+      "basename": "究竟如何获取信息",
+      "path": "2. Areas/01认知科学/信息差/究竟如何获取信息.md"
+    },
+    {
+      "basename": "日语",
+      "path": "2. Areas/01认知科学/信息差/日语.md"
+    },
+    {
+      "basename": "信息差知乎",
+      "path": "2. Areas/01认知科学/信息差/信息差知乎.md"
+    },
+    {
       "basename": "Go语言中的线程、进程、并行与并发",
       "path": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
     },
@@ -129,14 +165,6 @@
       "path": "2. Areas/前端开发/Express官网教程.md"
     },
     {
-      "basename": "@熟练的AI专业人员需要具备的能力",
-      "path": "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md"
-    },
-    {
-      "basename": "@盖洛普测试",
-      "path": "2. Areas/01认知科学/@盖洛普测试.md"
-    },
-    {
       "basename": "绘画艺术形式",
       "path": "2. Areas/AI/提示词/绘画艺术形式.md"
     },
@@ -171,30 +199,6 @@
     {
       "basename": "动手学深度学习复习回顾 1",
       "path": "2. Areas/AI/深度学习/动手学深度学习复习回顾 1.md"
-    },
-    {
-      "basename": "任务模型",
-      "path": "2. Areas/AI/深度学习/任务模型.md"
-    },
-    {
-      "basename": "20240702184735-SmartStudyBuddy",
-      "path": "1. Projects/20240702184735-SmartStudyBuddy.md"
-    },
-    {
-      "basename": "20240626221449-markdown转为微信公众号",
-      "path": "1. Projects/20240626221449-markdown转为微信公众号.md"
-    },
-    {
-      "basename": "ChatGPT2VBA2PPT",
-      "path": "1. Projects/ChatGPT2VBA2PPT.md"
-    },
-    {
-      "basename": "20240625095452-弹幕单词记忆Claude开发",
-      "path": "1. Projects/20240625095452-弹幕单词记忆Claude开发.md"
-    },
-    {
-      "basename": "计算机工程师必备工具",
-      "path": "3. Resources/Utility/计算机工程师必备工具.md"
     }
   ],
   "omittedPaths": [

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
+                "file": "2. Areas/01认知科学/The War of Art.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,11 +23,11 @@
         ]
       },
       {
-        "id": "11d3ba34605cf1ec",
+        "id": "73c8bc3a7f50a022",
         "type": "tabs",
         "children": [
           {
-            "id": "f1c308cfe190b587",
+            "id": "1287306706122b49",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
+                "file": "2. Areas/01认知科学/The War of Art.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
+                "file": "2. Areas/01认知科学/The War of Art.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
+                "file": "2. Areas/01认知科学/The War of Art.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
+                "file": "2. Areas/01认知科学/The War of Art.md"
               }
             }
           },
@@ -203,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250,
-    "collapsed": true
+    "width": 298
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,8 +240,22 @@
   },
   "active": "7bed90e04e0dc41e",
   "lastOpenFiles": [
-    "Extras/Template/Templater/themedatetagsstatus.md",
+    "2. Areas/01认知科学/策展-Curation.md",
+    "2. Areas/01认知科学/20240627110101-roadmap.sh.md",
+    "5. Misc/Attachments/策展-Curation",
+    "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
+    "5. Misc/Attachments/15年商业和人生教训的40条简短建议",
+    "2. Areas/01认知科学/Notebooklm打造第二大脑.md",
+    "5. Misc/Attachments/Notebooklm打造第二大脑",
+    "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md",
+    "2. Areas/01认知科学/@盖洛普测试.md",
+    "2. Areas/01认知科学/信息差/究竟如何获取信息.md",
+    "2. Areas/01认知科学/信息差/日语.md",
+    "2. Areas/01认知科学/信息差/信息差知乎.md",
+    "Extras/Template/学习卡片闪卡.md",
+    "Extras/Template/Templater/add poem.md",
     "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
+    "Extras/Template/Templater/themedatetagsstatus.md",
     "Cards/PPT/11.md",
     "5. Misc/Attachments/11",
     "5. Misc/Attachments/Go语言中的线程、进程、并行与并发",
@@ -257,26 +270,11 @@
     "2. Areas/AI/算法/图（Graph）.md",
     "Omnivore/秘塔AI搜索.md",
     "2. Areas/AI/算法/[哈希集合.md",
-    "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md",
-    "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md",
-    "2. Areas/AI/算法/程序员数学.md",
-    "2. Areas/AI/算法/机器学习十大算法.md",
-    "2. Areas/AI/算法/Leetcode题解0708.md",
-    "Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
-    "3. Resources/社区/bytebytego.md",
     "5. Misc/Attachments/小野森森前端",
-    "3. Resources/社区/小野森森前端.md",
     "5. Misc/Attachments/Express迁移到Spring boot",
     "5. Misc/Attachments/Github高分代码段",
     "5. Misc/Attachments/项目实践总纲",
     "5. Misc/Attachments/bytebytego",
-    "2. Areas/System design/Mock interview.md",
-    "2. Areas/System design/Common patterns.md",
-    "5. Misc/Attachments/Mock interview",
-    "5. Misc/Attachments/Common patterns",
-    "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md",
-    "2. Areas/System design",
-    "Omnivore/Becoming a Full-Time Creator as a Software Engineer- Controversial Advice - The Pragmatic Engineer.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
