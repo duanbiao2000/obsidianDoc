@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "影响行动的潜在能力的知识",
+      "path": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
+    },
+    {
+      "basename": "知识炼金术",
+      "path": "2. Areas/01认知科学/知识炼金术.md"
+    },
+    {
+      "basename": "流行词",
+      "path": "2. Areas/01认知科学/流行词.md"
+    },
+    {
+      "basename": "象高手一样解决问题",
+      "path": "2. Areas/01认知科学/象高手一样解决问题.md"
+    },
+    {
+      "basename": "五维思考法",
+      "path": "2. Areas/01认知科学/五维思考法.md"
+    },
+    {
       "basename": "The War of Art",
       "path": "2. Areas/01认知科学/The War of Art.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Express迁移到Spring boot",
       "path": "3. Resources/社区/Github/Express迁移到Spring boot.md"
-    },
-    {
-      "basename": "项目实践总纲",
-      "path": "3. Resources/社区/Github/项目实践总纲.md"
-    },
-    {
-      "basename": "文字生成视频技术",
-      "path": "2. Areas/AI/深度学习/文字生成视频技术.md"
-    },
-    {
-      "basename": "教育学理论框架",
-      "path": "2. Areas/AI/深度学习/教育学理论框架.md"
-    },
-    {
-      "basename": "大语言模型高阶课程设计 1",
-      "path": "2. Areas/AI/深度学习/大语言模型高阶课程设计 1.md"
-    },
-    {
-      "basename": "动手学深度学习复习回顾 1",
-      "path": "2. Areas/AI/深度学习/动手学深度学习复习回顾 1.md"
     }
   ],
   "omittedPaths": [

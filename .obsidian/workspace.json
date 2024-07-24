@@ -6,6 +6,7 @@
       {
         "id": "fb065b3906a93167",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "7bed90e04e0dc41e",
@@ -13,21 +14,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/01认知科学/The War of Art.md",
+                "file": "2. Areas/01认知科学/知识炼金术.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3c30f278336d090",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33461bb6fbae1471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "73c8bc3a7f50a022",
+        "id": "a95f65801ac6934d",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "1287306706122b49",
+            "id": "176d7b7b04e862ca",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -108,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/01认知科学/The War of Art.md",
+                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/01认知科学/The War of Art.md",
+                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/01认知科学/The War of Art.md"
+                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
               }
             }
           },
@@ -170,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/01认知科学/The War of Art.md"
+                "file": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
               }
             }
           },
@@ -238,8 +267,15 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "7bed90e04e0dc41e",
+  "active": "b3c30f278336d090",
   "lastOpenFiles": [
+    "2. Areas/01认知科学/知识炼金术.md",
+    "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
+    "2. Areas/01认知科学/流行词.md",
+    "2. Areas/01认知科学/象高手一样解决问题.md",
+    "5. Misc/Attachments/象高手一样解决问题",
+    "2. Areas/01认知科学/五维思考法.md",
+    "2. Areas/01认知科学/The War of Art.md",
     "2. Areas/01认知科学/策展-Curation.md",
     "2. Areas/01认知科学/20240627110101-roadmap.sh.md",
     "5. Misc/Attachments/策展-Curation",
@@ -265,16 +301,10 @@
     "2. Areas/AI/算法/回溯算法.md",
     "2. Areas/AI/算法/分治算法.md",
     "2. Areas/AI/算法/算法问题.md",
-    "2. Areas/AI/算法/数据结构与算法.md",
-    "2. Areas/AI/算法/树（Tree）.md",
-    "2. Areas/AI/算法/图（Graph）.md",
-    "Omnivore/秘塔AI搜索.md",
-    "2. Areas/AI/算法/[哈希集合.md",
     "5. Misc/Attachments/小野森森前端",
     "5. Misc/Attachments/Express迁移到Spring boot",
     "5. Misc/Attachments/Github高分代码段",
     "5. Misc/Attachments/项目实践总纲",
-    "5. Misc/Attachments/bytebytego",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
