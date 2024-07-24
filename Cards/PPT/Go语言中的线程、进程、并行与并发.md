@@ -9,7 +9,7 @@ created_date:
 date updated: 2024-07-14 17:02
 type: 
 high priority: false
-revealjs-rtl: "false"
+revealjs-rtl: "true"
 ---
 # 目录
 ## CONTENT 
