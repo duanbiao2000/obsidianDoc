@@ -6,7 +6,6 @@
       {
         "id": "fb065b3906a93167",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "7bed90e04e0dc41e",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/01认知科学/知识炼金术.md",
+                "file": "2. Areas/前端开发/Express官网教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -22,12 +21,25 @@
             }
           },
           {
-            "id": "b3c30f278336d090",
+            "id": "444a85bd354b6d9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
+                "file": "2. Areas/Creative/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7280783a740e21a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -48,22 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "4b07f6e563e12fae",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "07a35fcc446c963e",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
+                "file": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
+                "file": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
+                "file": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md"
               }
             }
           },
@@ -199,7 +196,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
+                "file": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md"
               }
             }
           },
@@ -228,7 +225,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -267,44 +264,44 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "b3c30f278336d090",
+  "active": "7280783a740e21a8",
   "lastOpenFiles": [
+    "5. Misc/Attachments/Stable diffusion操作流程",
+    "2. Areas/前端开发/CSS/CSS教程.md",
+    "5. Misc/Attachments/CSS教程",
+    "2. Areas/Creative/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md",
+    "2. Areas/前端开发/Express官网教程.md",
+    "2. Areas/01认知科学/知识炼金术.md",
+    "2. Areas/前端开发/CodeWithMosh.md",
+    "2. Areas/前端开发/CodeWithMosh-LAPTOP-AAJ6HH4K.md",
+    "2. Areas/IELTS/雅思例句0709.md",
+    "2. Areas/前端开发/20240704130202-数字营销.md",
+    "2. Areas/前端开发/2023 完整Web开发训练营 - HTML, CSS, Javascript, Node, React.md",
+    "2. Areas/IELTS/阅读理解.md",
+    "2. Areas/IELTS/闪亮词汇收集器.md",
+    "2. Areas/IELTS/英语例句0608.md",
+    "2. Areas/IELTS/英语例句0605.md",
+    "2. Areas/IELTS/英语例句0609.md",
+    "2. Areas/IELTS/英语例句0609 1.md",
+    "2. Areas/IELTS/生词助记.md",
+    "2. Areas/IELTS/程序员场景对话示例.md",
+    "2. Areas/IELTS/片语和固定搭配.md",
+    "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
     "2. Areas/IELTS/动词短语.md",
     "2. Areas/IELTS/分类记忆.md",
     "2. Areas/IELTS/前端开发常见的问题讨论中英.md",
     "2. Areas/IELTS/what do you do in your free time.md",
     "2. Areas/01认知科学/拓展认知的方法.md",
     "2. Areas/01认知科学/流行词.md",
-    "2. Areas/01认知科学/知识炼金术.md",
-    "2. Areas/01认知科学/策展-Curation.md",
-    "2. Areas/01认知科学/认知资源.md",
-    "2. Areas/01认知科学/象高手一样解决问题.md",
-    "2. Areas/01认知科学/合理归类.md",
-    "2. Areas/01认知科学/个人才干Top10.md",
     "5. Misc/Attachments/个人才干Top10",
     "5. Misc/Attachments/个人才干",
-    "2. Areas/01认知科学/抽象思维.md",
-    "2. Areas/01认知科学/影响行动的潜在能力的知识.md",
     "5. Misc/Attachments/象高手一样解决问题",
-    "2. Areas/01认知科学/五维思考法.md",
-    "2. Areas/01认知科学/The War of Art.md",
-    "2. Areas/01认知科学/20240627110101-roadmap.sh.md",
     "5. Misc/Attachments/策展-Curation",
-    "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
     "5. Misc/Attachments/15年商业和人生教训的40条简短建议",
-    "2. Areas/01认知科学/Notebooklm打造第二大脑.md",
     "5. Misc/Attachments/Notebooklm打造第二大脑",
-    "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md",
-    "2. Areas/01认知科学/@盖洛普测试.md",
-    "2. Areas/01认知科学/信息差/究竟如何获取信息.md",
-    "2. Areas/01认知科学/信息差/日语.md",
-    "2. Areas/01认知科学/信息差/信息差知乎.md",
-    "Extras/Template/学习卡片闪卡.md",
-    "Extras/Template/Templater/add poem.md",
     "5. Misc/Attachments/11",
     "5. Misc/Attachments/Go语言中的线程、进程、并行与并发",
     "5. Misc/Attachments/小野森森前端",
-    "5. Misc/Attachments/Express迁移到Spring boot",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",

@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Stable diffusion操作流程",
+      "path": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md"
+    },
+    {
+      "basename": "CSS教程",
+      "path": "2. Areas/前端开发/CSS/CSS教程.md"
+    },
+    {
+      "basename": "2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客",
+      "path": "2. Areas/Creative/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md"
+    },
+    {
+      "basename": "Express官网教程",
+      "path": "2. Areas/前端开发/Express官网教程.md"
+    },
+    {
+      "basename": "知识炼金术",
+      "path": "2. Areas/01认知科学/知识炼金术.md"
+    },
+    {
+      "basename": "雅思例句0709",
+      "path": "2. Areas/IELTS/雅思例句0709.md"
+    },
+    {
+      "basename": "阅读理解",
+      "path": "2. Areas/IELTS/阅读理解.md"
+    },
+    {
+      "basename": "闪亮词汇收集器",
+      "path": "2. Areas/IELTS/闪亮词汇收集器.md"
+    },
+    {
+      "basename": "英语例句0608",
+      "path": "2. Areas/IELTS/英语例句0608.md"
+    },
+    {
+      "basename": "英语例句0605",
+      "path": "2. Areas/IELTS/英语例句0605.md"
+    },
+    {
+      "basename": "英语例句0609",
+      "path": "2. Areas/IELTS/英语例句0609.md"
+    },
+    {
+      "basename": "生词助记",
+      "path": "2. Areas/IELTS/生词助记.md"
+    },
+    {
+      "basename": "片语和固定搭配",
+      "path": "2. Areas/IELTS/片语和固定搭配.md"
+    },
+    {
       "basename": "每日听力材料  (至少听四遍)",
       "path": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
     },
@@ -23,10 +75,6 @@
     {
       "basename": "流行词",
       "path": "2. Areas/01认知科学/流行词.md"
-    },
-    {
-      "basename": "知识炼金术",
-      "path": "2. Areas/01认知科学/知识炼金术.md"
     },
     {
       "basename": "策展-Curation",
@@ -151,54 +199,6 @@
     {
       "basename": "小野森森前端",
       "path": "3. Resources/社区/小野森森前端.md"
-    },
-    {
-      "basename": "Mock interview",
-      "path": "2. Areas/System design/Mock interview.md"
-    },
-    {
-      "basename": "Common patterns",
-      "path": "2. Areas/System design/Common patterns.md"
-    },
-    {
-      "basename": "我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20)",
-      "path": "Omnivore/我在 40 岁时知道的 40 个人生教训（我希望我在 20 岁时知道） --- 40 Life Lessons I Know at 40 (That I Wish I Knew at 20).md"
-    },
-    {
-      "basename": "Becoming a Full-Time Creator as a Software Engineer- Controversial Advice - The Pragmatic Engineer",
-      "path": "Omnivore/Becoming a Full-Time Creator as a Software Engineer- Controversial Advice - The Pragmatic Engineer.md"
-    },
-    {
-      "basename": "4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！",
-      "path": "Omnivore/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md"
-    },
-    {
-      "basename": "2024-05-02",
-      "path": "4. Archives/2024-05-02.md"
-    },
-    {
-      "basename": "Tags Index",
-      "path": "Atlas/Index/Tags Index.md"
-    },
-    {
-      "basename": "7个高质量润色论文和文章的指令",
-      "path": "2. Areas/Creative/7个高质量润色论文和文章的指令.md"
-    },
-    {
-      "basename": "高效推荐0506",
-      "path": "2. Areas/影音读/书本通读/高效推荐0506.md"
-    },
-    {
-      "basename": "图灵前端核心知识进阶系列（套装全10册）",
-      "path": "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md"
-    },
-    {
-      "basename": "深入浅出React",
-      "path": "2. Areas/前端开发/深入浅出React.md"
-    },
-    {
-      "basename": "知识诚实",
-      "path": "2. Areas/影音读/书本通读/知识诚实.md"
     }
   ],
   "omittedPaths": [
