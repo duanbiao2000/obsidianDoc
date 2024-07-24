@@ -30,7 +30,6 @@
   "pdf-plus",
   "Enhanced-editing",
   "obsidian-style-settings",
-  "obsidian-advanced-slides",
   "obsidian-emoji-toolbar",
   "markdown-prettifier",
   "obsidian-icon-folder",
@@ -43,5 +42,6 @@
   "obsidian-memos",
   "mousewheel-image-zoom",
   "obsidian-image-toolkit",
-  "oz-clear-unused-images"
+  "oz-clear-unused-images",
+  "obsidian-advanced-slides"
 ]

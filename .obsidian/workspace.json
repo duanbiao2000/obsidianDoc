@@ -4,70 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9f83635cac6155a3",
-        "type": "split",
+        "id": "e68007277d077560",
+        "type": "tabs",
         "children": [
           {
-            "id": "e68007277d077560",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              },
-              {
-                "id": "11d50cbc9c8d95b3",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
+            "id": "5546ff7fb1c275e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "f0b4034db6dd2f1f",
-            "type": "split",
-            "children": [
-              {
-                "id": "3c719f923dad6376",
-                "type": "tabs",
-                "dimension": 66.56976744186046,
-                "children": [
-                  {
-                    "id": "b6c5fa0c5bef5f0f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "graph",
-                      "state": {}
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "af96cf2ae69ef399",
-                "type": "tabs",
-                "dimension": 33.43023255813954,
-                "children": [
-                  {
-                    "id": "ced13bdc9999bec1",
-                    "type": "leaf",
-                    "state": {
-                      "type": "mindmap",
-                      "state": {}
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "horizontal"
+            }
           }
-        ],
-        "direction": "vertical"
+        ]
+      },
+      {
+        "id": "646e1d286dae134c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0698d089c9ea8c03",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -141,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
+              }
             }
           },
           {
@@ -198,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
+              }
             }
           },
           {
@@ -230,27 +204,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 250
   },
   "left-ribbon": {
     "hiddenItems": {
       "publish:Publish changes...": false,
-      "obsidian-memos:Thino": false,
-      "media-extended:Open media": false,
-      "templater-obsidian:Templater": false,
-      "extract-highlights-plugin:Extract Highlights": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-omnivore:Omnivore": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -260,10 +219,27 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "media-extended:Open media": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "templater-obsidian:Templater": false,
+      "extract-highlights-plugin:Extract Highlights": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-omnivore:Omnivore": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
     "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
     "5. Misc/Attachments/Go语言中的线程、进程、并行与并发",
