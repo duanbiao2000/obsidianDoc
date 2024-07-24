@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Go语言中的线程、进程、并行与并发",
+      "path": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
+    },
+    {
       "basename": "free-programming-books-subjects",
       "path": "3. Resources/社区/Github/free-programming-books-subjects.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Git",
       "path": "3. Resources/Utility/Git.md"
-    },
-    {
-      "basename": "AI工具",
-      "path": "3. Resources/Utility/AI工具.md"
     }
   ],
   "omittedPaths": [

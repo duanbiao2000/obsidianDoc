@@ -7,7 +7,7 @@ split {
   display: flex;
   gap: unset;
   flex-flow: row wrap;
-  align-content: center;
+  align-content: left;
 }
 split[even] > * {
   flex: 1;

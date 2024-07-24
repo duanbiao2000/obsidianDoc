@@ -15,8 +15,13 @@
                 "id": "5546ff7fb1c275e6",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
                 }
               },
               {
@@ -45,8 +50,17 @@
                       "type": "graph",
                       "state": {}
                     }
+                  },
+                  {
+                    "id": "49dcb8b1b253cee8",
+                    "type": "leaf",
+                    "state": {
+                      "type": "reveal-preview-view",
+                      "state": {}
+                    }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "af96cf2ae69ef399",
@@ -141,6 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +194,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
+              }
             }
           },
           {
@@ -198,7 +216,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
+              }
             }
           },
           {
@@ -260,11 +280,15 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "49dcb8b1b253cee8",
   "lastOpenFiles": [
+    "5. Misc/Attachments/Go语言中的线程、进程、并行与并发",
+    "Cards/PPT/Go语言中的线程、进程、并行与并发.md",
     "3. Resources/社区/Github/free-programming-books-subjects.md",
     "2. Areas/AI/算法/24种算法模式.md",
     "2. Areas/AI/算法/动态规划（Dynamic Programming）.md",
@@ -297,8 +321,6 @@
     "2. Areas/System design",
     "Omnivore/Becoming a Full-Time Creator as a Software Engineer- Controversial Advice - The Pragmatic Engineer.md",
     "Omnivore/4张定制版22G 2080TI 自建AI服务器全过程 - 这个坑我先替你踩！- 哪天翻车了我再发视频告诉大家！.md",
-    "Omnivore/收集下各位 Linux 下所使用的那些好用的工具 - V2EX.md",
-    "Omnivore/个人生产力系统的工作流程：收集、整理、创作、分享(视频重置)_哔哩哔哩_bilibili.md",
     "Omnivore",
     "Resources/Omnivore/2024-07-20",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
