@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "An Astronaut's Guide to Life on",
+      "path": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
+    },
+    {
+      "basename": "Extract Wisdom",
+      "path": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
+    },
+    {
       "basename": "15年商业和人生教训的40条简短建议",
       "path": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Leetcode题解0708",
       "path": "2. Areas/AI/算法/Leetcode题解0708.md"
-    },
-    {
-      "basename": "bytebytego",
-      "path": "3. Resources/社区/bytebytego.md"
-    },
-    {
-      "basename": "小野森森前端",
-      "path": "3. Resources/社区/小野森森前端.md"
     }
   ],
   "omittedPaths": [

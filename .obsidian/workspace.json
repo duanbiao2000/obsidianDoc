@@ -10,6 +10,7 @@
           {
             "id": "e68007277d077560",
             "type": "tabs",
+            "dimension": 72.14206437291898,
             "children": [
               {
                 "id": "5546ff7fb1c275e6",
@@ -17,7 +18,20 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
+                    "file": "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8fc6a9726307d0d9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -32,11 +46,13 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "f0b4034db6dd2f1f",
             "type": "split",
+            "dimension": 27.85793562708102,
             "children": [
               {
                 "id": "3c719f923dad6376",
@@ -146,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
+                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
+                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md"
+                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
               }
             }
           },
@@ -208,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md"
+                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
               }
             }
           },
@@ -241,7 +257,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,8 +293,18 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "8fc6a9726307d0d9",
   "lastOpenFiles": [
+    "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
+    "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
+    "5. Misc/Attachments/An Astronaut's Guide to Life on",
+    "5. Misc/Attachments/Extract Wisdom",
+    "5. Misc/Attachments/ExtractWisdom",
+    "2. Areas/01认知科学/Fabric/Wisdom",
+    "2. Areas/01认知科学/Fabric",
+    "5. Misc/Attachments/extract_wisdom",
+    "5. Misc/Attachments/extract wise",
+    "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
     "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
     "5. Misc/Attachments/Stable diffusion操作流程",
     "2. Areas/前端开发/CSS/CSS教程.md",
@@ -302,18 +329,7 @@
     "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
     "2. Areas/IELTS/动词短语.md",
     "2. Areas/IELTS/分类记忆.md",
-    "2. Areas/IELTS/前端开发常见的问题讨论中英.md",
-    "2. Areas/IELTS/what do you do in your free time.md",
-    "2. Areas/01认知科学/拓展认知的方法.md",
-    "2. Areas/01认知科学/流行词.md",
     "5. Misc/Attachments/个人才干Top10",
-    "5. Misc/Attachments/个人才干",
-    "5. Misc/Attachments/象高手一样解决问题",
-    "5. Misc/Attachments/策展-Curation",
-    "5. Misc/Attachments/15年商业和人生教训的40条简短建议",
-    "5. Misc/Attachments/Notebooklm打造第二大脑",
-    "5. Misc/Attachments/11",
-    "5. Misc/Attachments/Go语言中的线程、进程、并行与并发",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
