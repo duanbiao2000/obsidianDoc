@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "精英的傲慢",
+      "path": "2. Areas/01认知科学/Fabric/Wisdom/精英的傲慢.md"
+    },
+    {
       "basename": "Extract Wisdom",
       "path": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "程序员数学",
       "path": "2. Areas/AI/算法/程序员数学.md"
-    },
-    {
-      "basename": "机器学习十大算法",
-      "path": "2. Areas/AI/算法/机器学习十大算法.md"
     }
   ],
   "omittedPaths": [
