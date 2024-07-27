@@ -183,7 +183,7 @@ const port = config.server.port ?? 8888;
 const keepAlive = config.server.keepAlive ?? true;
 ```
 
-**Note:** Keep in mind that both features are quite new, so their support might not be great just yet (around 80% at the time of writing [[1\]](https://caniuse.com/#feat=mdn-javascript_operators_optional_chaining)[[2\]](https://caniuse.com/#feat=mdn-javascript_operators_nullish_coalescing)).
+**Note:** Keep in mind that both features are quite new, so their support might not be great just yet (around 80% at the time of writing [[Analyzes the impact of AI on jobs]](https://caniuse.com/#feat=mdn-javascript_operators_optional_chaining)[[2\]](https://caniuse.com/#feat=mdn-javascript_operators_nullish_coalescing)).
 
 First of all, any falsy values should be considered blank. These include `null`, `undefined`, `0`, `false`, `''`, and `NaN`.
 

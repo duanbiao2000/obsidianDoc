@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "An Astronaut's Guide to Life on",
-      "path": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
-    },
-    {
       "basename": "Extract Wisdom",
       "path": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
+    },
+    {
+      "basename": "Analyzes the impact of AI on jobs",
+      "path": "2. Areas/01认知科学/Fabric/Wisdom/Analyzes the impact of AI on jobs.md"
+    },
+    {
+      "basename": "An Astronaut's Guide to Life on",
+      "path": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
     },
     {
       "basename": "15年商业和人生教训的40条简短建议",
@@ -195,10 +199,6 @@
     {
       "basename": "机器学习十大算法",
       "path": "2. Areas/AI/算法/机器学习十大算法.md"
-    },
-    {
-      "basename": "Leetcode题解0708",
-      "path": "2. Areas/AI/算法/Leetcode题解0708.md"
     }
   ],
   "omittedPaths": [

@@ -31,7 +31,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
+                    "file": "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
+                "file": "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
+                "file": "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
+                "file": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
               }
             }
           },
@@ -224,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
+                "file": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
               }
             }
           },
@@ -295,8 +295,11 @@
   },
   "active": "8fc6a9726307d0d9",
   "lastOpenFiles": [
-    "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
+    "2. Areas/01认知科学/Fabric/Wisdom/Analyzes the impact of AI on jobs.md",
+    "5. Misc/Attachments/Analyzes the impact of AI on jobs",
+    "5. Misc/Attachments/1",
     "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
+    "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
     "5. Misc/Attachments/An Astronaut's Guide to Life on",
     "5. Misc/Attachments/Extract Wisdom",
     "5. Misc/Attachments/ExtractWisdom",
@@ -308,7 +311,6 @@
     "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
     "5. Misc/Attachments/Stable diffusion操作流程",
     "2. Areas/前端开发/CSS/CSS教程.md",
-    "5. Misc/Attachments/CSS教程",
     "2. Areas/Creative/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md",
     "2. Areas/前端开发/Express官网教程.md",
     "2. Areas/01认知科学/知识炼金术.md",
@@ -328,8 +330,6 @@
     "2. Areas/IELTS/片语和固定搭配.md",
     "2. Areas/IELTS/每日听力材料  (至少听四遍).md",
     "2. Areas/IELTS/动词短语.md",
-    "2. Areas/IELTS/分类记忆.md",
-    "5. Misc/Attachments/个人才干Top10",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
