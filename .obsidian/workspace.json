@@ -4,91 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "9f83635cac6155a3",
-        "type": "split",
+        "id": "e68007277d077560",
+        "type": "tabs",
         "children": [
           {
-            "id": "e68007277d077560",
-            "type": "tabs",
-            "dimension": 72.14206437291898,
-            "children": [
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8fc6a9726307d0d9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "11d50cbc9c8d95b3",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 1
+            "id": "5546ff7fb1c275e6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           },
           {
-            "id": "f0b4034db6dd2f1f",
-            "type": "split",
-            "dimension": 27.85793562708102,
-            "children": [
-              {
-                "id": "3c719f923dad6376",
-                "type": "tabs",
-                "dimension": 66.56976744186046,
-                "children": [
-                  {
-                    "id": "b6c5fa0c5bef5f0f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "graph",
-                      "state": {}
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "af96cf2ae69ef399",
-                "type": "tabs",
-                "dimension": 33.43023255813954,
-                "children": [
-                  {
-                    "id": "ced13bdc9999bec1",
-                    "type": "leaf",
-                    "state": {
-                      "type": "mindmap",
-                      "state": {}
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "horizontal"
+            "id": "11d50cbc9c8d95b3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ],
-        "direction": "vertical"
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md"
-              }
+              "state": {}
             }
           },
           {
@@ -223,9 +154,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md"
-              }
+              "state": {}
             }
           },
           {
@@ -257,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,11 +221,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "8fc6a9726307d0d9",
+  "active": "74a7bc996dfa0756",
   "lastOpenFiles": [
+    "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md",
     "5. Misc/Attachments/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public",
     "2. Areas/01认知科学/Fabric/Wisdom/精英的傲慢.md",
-    "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md",
     "5. Misc/Attachments/精英的傲慢",
     "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
     "2. Areas/01认知科学/Fabric/Wisdom/Analyzes the impact of AI on jobs.md",
@@ -310,7 +238,6 @@
     "2. Areas/01认知科学/Fabric/Wisdom",
     "2. Areas/01认知科学/Fabric",
     "5. Misc/Attachments/extract_wisdom",
-    "5. Misc/Attachments/extract wise",
     "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
     "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
     "2. Areas/前端开发/CSS/CSS教程.md",
