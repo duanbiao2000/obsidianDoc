@@ -4,23 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "f7f5c2e5c81f3c03",
-        "type": "tabs",
+        "id": "9f83635cac6155a3",
+        "type": "split",
         "children": [
           {
-            "id": "91105d5d857708aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+            "id": "e68007277d077560",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5546ff7fb1c275e6",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "11d50cbc9c8d95b3",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "f0b4034db6dd2f1f",
+            "type": "split",
+            "children": [
+              {
+                "id": "3c719f923dad6376",
+                "type": "tabs",
+                "dimension": 66.56976744186046,
+                "children": [
+                  {
+                    "id": "b6c5fa0c5bef5f0f",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "af96cf2ae69ef399",
+                "type": "tabs",
+                "dimension": 33.43023255813954,
+                "children": [
+                  {
+                    "id": "ced13bdc9999bec1",
+                    "type": "leaf",
+                    "state": {
+                      "type": "mindmap",
+                      "state": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
           }
-        ]
+        ],
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -49,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: react",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +141,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +157,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +178,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,9 +198,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,11 +226,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 216
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,15 +260,13 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "91105d5d857708aa",
+  "active": "74a7bc996dfa0756",
   "lastOpenFiles": [
-    "Extras/Template/Templater/themedatetagsstatus.md",
     "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+    "Extras/Template/Templater/themedatetagsstatus.md",
     "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md",
     "Omnivore/Organize your Omnivore library with labels.md",
     "Extras/Obsidian-Templates-main/Docs/Usages/Install-CSS-Snippets.md",
