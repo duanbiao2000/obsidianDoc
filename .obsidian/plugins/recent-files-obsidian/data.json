@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "指数型组织",
+      "path": "1. Projects/周月总结/202405/指数型组织.md"
+    },
+    {
       "basename": "Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public",
       "path": "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "[哈希集合",
       "path": "2. Areas/AI/算法/[哈希集合.md"
-    },
-    {
-      "basename": "7天刷爆LeetCode",
-      "path": "2. Areas/AI/算法/LeetCode/7天刷爆LeetCode.md"
-    },
-    {
-      "basename": "Dive into Algorithms A Pythonic Adventure",
-      "path": "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md"
     }
   ],
   "omittedPaths": [

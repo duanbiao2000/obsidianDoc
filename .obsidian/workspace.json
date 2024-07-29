@@ -11,8 +11,13 @@
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -81,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -97,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md"
+              }
             }
           },
           {
@@ -154,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md"
+              }
             }
           },
           {
@@ -182,11 +194,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 216
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,8 +233,16 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "Extras/Obsidian-Templates-main/Docs/Usages/How-to-Use-Templater-Script.md",
+    "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
+    "Extras/textgenerator/prompts/awesomePrompts/motivationalspeakerAwesome.md",
+    "Extras/textgenerator/prompts/awesomePrompts/emojitranslatorAwesome.md",
+    "2. Areas/BackEnd/Java/源码阅读/Bookstore.md",
+    "1. Projects/周月总结/202405/指数型组织.md",
+    "5. Misc/Attachments/指数型组织",
+    "Extras/Template/常用研究方法和技术.md",
     "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md",
     "5. Misc/Attachments/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public",
     "2. Areas/01认知科学/Fabric/Wisdom/精英的傲慢.md",
@@ -237,7 +257,6 @@
     "5. Misc/Attachments/ExtractWisdom",
     "2. Areas/01认知科学/Fabric/Wisdom",
     "2. Areas/01认知科学/Fabric",
-    "5. Misc/Attachments/extract_wisdom",
     "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
     "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
     "2. Areas/前端开发/CSS/CSS教程.md",
@@ -252,12 +271,6 @@
     "2. Areas/IELTS/阅读理解.md",
     "2. Areas/IELTS/闪亮词汇收集器.md",
     "2. Areas/IELTS/英语例句0608.md",
-    "2. Areas/IELTS/英语例句0605.md",
-    "2. Areas/IELTS/英语例句0609.md",
-    "2. Areas/IELTS/英语例句0609 1.md",
-    "2. Areas/IELTS/生词助记.md",
-    "2. Areas/IELTS/程序员场景对话示例.md",
-    "2. Areas/IELTS/片语和固定搭配.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
