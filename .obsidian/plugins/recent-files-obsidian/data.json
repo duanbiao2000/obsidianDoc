@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
+      "path": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
+    },
+    {
+      "basename": "如何打造个人知识库 - PKB",
+      "path": "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md"
+    },
+    {
       "basename": "指数型组织",
       "path": "1. Projects/周月总结/202405/指数型组织.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "秘塔AI搜索",
       "path": "Omnivore/秘塔AI搜索.md"
-    },
-    {
-      "basename": "[哈希集合",
-      "path": "2. Areas/AI/算法/[哈希集合.md"
     }
   ],
   "omittedPaths": [

@@ -8,24 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5546ff7fb1c275e6",
+            "id": "11d50cbc9c8d95b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "11d50cbc9c8d95b3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -86,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -103,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md"
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
               }
             }
           },
@@ -165,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md"
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
               }
             }
           },
@@ -233,9 +224,22 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "11d50cbc9c8d95b3",
   "lastOpenFiles": [
+    "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md",
+    "Omnivore/Organize your Omnivore library with labels.md",
+    "Extras/Obsidian-Templates-main/Docs/Usages/Install-CSS-Snippets.md",
     "Extras/Obsidian-Templates-main/Docs/Usages/How-to-Use-Templater-Script.md",
+    "Extras/Obsidian-Templates-main/Docs/Usages/Dynamic-Insert-Code.md",
+    "Extras/Obsidian-Templates-main/Docs/Usages/Dataview-Custom-View.md",
+    "Extras/Obsidian-Templates-main/Docs/Snippets/Strong-Strong.md",
+    "Extras/Obsidian-Templates-main/Docs/Snippets/Split-Page-Callout.md",
+    "Extras/Obsidian-Templates-main/Docs/Snippets/Paper-Index-Callout.md",
+    "Extras/Obsidian-Templates-main/Docs/QuickAdd/Open-Home-Page.md",
+    "Extras/Obsidian-Templates-main/Docs/images/To-Big-Chars.png",
+    "Extras/Obsidian-Templates-main/Docs/images/Task-Progress.png",
+    "Extras/Obsidian-Templates-main/Docs/Dataview/Habits.md",
+    "Extras/Obsidian-Templates-main/Docs/Dataview/Day-Line.md",
     "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
     "Extras/textgenerator/prompts/awesomePrompts/motivationalspeakerAwesome.md",
     "Extras/textgenerator/prompts/awesomePrompts/emojitranslatorAwesome.md",
@@ -260,17 +264,6 @@
     "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
     "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
     "2. Areas/前端开发/CSS/CSS教程.md",
-    "2. Areas/Creative/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md",
-    "2. Areas/前端开发/Express官网教程.md",
-    "2. Areas/01认知科学/知识炼金术.md",
-    "2. Areas/前端开发/CodeWithMosh.md",
-    "2. Areas/前端开发/CodeWithMosh-LAPTOP-AAJ6HH4K.md",
-    "2. Areas/IELTS/雅思例句0709.md",
-    "2. Areas/前端开发/20240704130202-数字营销.md",
-    "2. Areas/前端开发/2023 完整Web开发训练营 - HTML, CSS, Javascript, Node, React.md",
-    "2. Areas/IELTS/阅读理解.md",
-    "2. Areas/IELTS/闪亮词汇收集器.md",
-    "2. Areas/IELTS/英语例句0608.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
@@ -279,8 +272,6 @@
     "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 1.png",
     "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648496.png",
     "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648435.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648323.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648097.png",
     "Extras/images/Untitled 4.canvas",
     "Extras/images/Untitled 1.canvas",
     "Extras/images/Untitled.canvas"
