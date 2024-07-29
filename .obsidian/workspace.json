@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e68007277d077560",
+        "id": "f7f5c2e5c81f3c03",
         "type": "tabs",
         "children": [
           {
-            "id": "11d50cbc9c8d95b3",
+            "id": "91105d5d857708aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file: react",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -224,8 +225,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "11d50cbc9c8d95b3",
+  "active": "91105d5d857708aa",
   "lastOpenFiles": [
+    "Extras/Template/Templater/themedatetagsstatus.md",
+    "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
     "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md",
     "Omnivore/Organize your Omnivore library with labels.md",
     "Extras/Obsidian-Templates-main/Docs/Usages/Install-CSS-Snippets.md",
@@ -262,8 +265,6 @@
     "2. Areas/01认知科学/Fabric/Wisdom",
     "2. Areas/01认知科学/Fabric",
     "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
-    "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md",
-    "2. Areas/前端开发/CSS/CSS教程.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
