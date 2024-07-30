@@ -19,7 +19,6 @@
   "autoPairMarkdown": true,
   "smartIndentList": true,
   "userIgnoreFilters": [
-    "Extras/",
     "3. Resources/",
     "4. Archives/"
   ],

@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
       "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
       "path": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
     },
     {
       "basename": "如何打造个人知识库 - PKB",
@@ -191,14 +199,6 @@
     {
       "basename": "分治算法",
       "path": "2. Areas/AI/算法/分治算法.md"
-    },
-    {
-      "basename": "数据结构与算法",
-      "path": "2. Areas/AI/算法/数据结构与算法.md"
-    },
-    {
-      "basename": "秘塔AI搜索",
-      "path": "Omnivore/秘塔AI搜索.md"
     }
   ],
   "omittedPaths": [

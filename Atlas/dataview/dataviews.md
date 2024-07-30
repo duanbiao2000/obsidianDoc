@@ -11,6 +11,14 @@ dv.paragraph(
 	totalDays + totalMd + "、" + totalTag + "、" + totalTask
 )
 ```
+## 高优先级
+```dataview
+TABLE  high_priority, file.ctime AS 创作日期
+from -"4. Archives" and -"Extras" and #todo
+WHERE  high_priority = true
+sort file.mtime DESC
+LIMIT 10
+```
 ## 最新10个7日内修改笔记(非archive)
 ```dataview
 

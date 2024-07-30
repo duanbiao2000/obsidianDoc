@@ -19,7 +19,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                        "file": "Atlas/dataview/dataviews.md",
                         "mode": "source",
                         "backlinks": true,
                         "source": false
@@ -148,7 +148,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                    "file": "Atlas/dataview/dataviews.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md",
+                    "file": "Atlas/dataview/dataviews.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -188,7 +188,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                    "file": "Atlas/dataview/dataviews.md"
                   }
                 }
               },
@@ -210,7 +210,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "2. Areas/Writing/7个高质量润色论文和文章的指令.md"
+                    "file": "Atlas/dataview/dataviews.md"
                   }
                 }
               },
@@ -247,6 +247,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "publish:Publish changes...": false,
+          "obsidian-memos:Thino": false,
           "media-extended:Open media": false,
           "templater-obsidian:Templater": false,
           "extract-highlights-plugin:Extract Highlights": false,
@@ -276,8 +278,8 @@
           "smart-connections:Open: Smart Chat Conversation": false
         }
       },
-      "active": "74a7bc996dfa0756",
-      "mtime": "2024-07-17T00:14:03+08:00"
+      "active": "5546ff7fb1c275e6",
+      "mtime": "2024-07-30T00:17:24+08:00"
     },
     "单篇笔记": {
       "main": {

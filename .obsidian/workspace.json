@@ -15,8 +15,13 @@
                 "id": "5546ff7fb1c275e6",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/dataview/dataviews.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
                 }
               },
               {
@@ -141,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Atlas/dataview/dataviews.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Atlas/dataview/dataviews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +185,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Atlas/dataview/dataviews.md"
+              }
             }
           },
           {
@@ -198,7 +207,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Atlas/dataview/dataviews.md"
+              }
             }
           },
           {
@@ -263,10 +274,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
     "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+    "Atlas/dataview/dataviews.md",
     "Extras/Template/Templater/themedatetagsstatus.md",
+    "Untitled.md",
     "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md",
     "Omnivore/Organize your Omnivore library with labels.md",
     "Extras/Obsidian-Templates-main/Docs/Usages/Install-CSS-Snippets.md",
@@ -296,13 +309,11 @@
     "2. Areas/01认知科学/Fabric/Wisdom/Analyzes the impact of AI on jobs.md",
     "5. Misc/Attachments/Analyzes the impact of AI on jobs",
     "5. Misc/Attachments/1",
-    "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
     "5. Misc/Attachments/An Astronaut's Guide to Life on",
     "5. Misc/Attachments/Extract Wisdom",
     "5. Misc/Attachments/ExtractWisdom",
     "2. Areas/01认知科学/Fabric/Wisdom",
     "2. Areas/01认知科学/Fabric",
-    "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
