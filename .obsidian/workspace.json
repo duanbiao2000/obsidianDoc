@@ -25,6 +25,19 @@
                 }
               },
               {
+                "id": "0b54db04d28c3667",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "11d50cbc9c8d95b3",
                 "type": "leaf",
                 "state": {
@@ -32,7 +45,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "f0b4034db6dd2f1f",
@@ -146,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/dataview/dataviews.md",
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/dataview/dataviews.md",
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/dataview/dataviews.md"
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
               }
             }
           },
@@ -208,7 +222,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/dataview/dataviews.md"
+                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
               }
             }
           },
@@ -271,13 +285,15 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "0b54db04d28c3667",
   "lastOpenFiles": [
-    "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
     "Atlas/dataview/dataviews.md",
+    "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
     "Extras/Template/Templater/themedatetagsstatus.md",
     "Untitled.md",
     "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md",
