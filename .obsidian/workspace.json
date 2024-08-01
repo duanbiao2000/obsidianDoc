@@ -30,7 +30,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+                    "file": "dailyNotes/beginning MERN Stack Development.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+                "file": "dailyNotes/beginning MERN Stack Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+                "file": "dailyNotes/beginning MERN Stack Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
+                "file": "dailyNotes/beginning MERN Stack Development.md"
               }
             }
           },
@@ -222,7 +222,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
+                "file": "dailyNotes/beginning MERN Stack Development.md"
               }
             }
           },
@@ -292,8 +292,10 @@
   },
   "active": "0b54db04d28c3667",
   "lastOpenFiles": [
-    "Atlas/dataview/dataviews.md",
+    "5. Misc/Attachments/beginning MERN Stack Development",
     "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+    "dailyNotes/beginning MERN Stack Development.md",
+    "Atlas/dataview/dataviews.md",
     "Extras/Template/Templater/themedatetagsstatus.md",
     "Untitled.md",
     "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md",
@@ -321,8 +323,6 @@
     "5. Misc/Attachments/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public",
     "2. Areas/01认知科学/Fabric/Wisdom/精英的傲慢.md",
     "5. Misc/Attachments/精英的傲慢",
-    "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
-    "2. Areas/01认知科学/Fabric/Wisdom/Analyzes the impact of AI on jobs.md",
     "5. Misc/Attachments/Analyzes the impact of AI on jobs",
     "5. Misc/Attachments/1",
     "5. Misc/Attachments/An Astronaut's Guide to Life on",

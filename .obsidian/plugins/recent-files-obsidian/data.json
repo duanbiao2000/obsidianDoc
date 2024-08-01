@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "beginning MERN Stack Development",
+      "path": "dailyNotes/beginning MERN Stack Development.md"
+    },
+    {
       "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
       "path": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "回溯算法",
       "path": "2. Areas/AI/算法/回溯算法.md"
-    },
-    {
-      "basename": "分治算法",
-      "path": "2. Areas/AI/算法/分治算法.md"
     }
   ],
   "omittedPaths": [
