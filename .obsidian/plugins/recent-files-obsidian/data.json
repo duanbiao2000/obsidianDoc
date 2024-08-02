@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "21 Lessons for the 21st Century",
+      "path": "dailyNotes/21 Lessons for the 21st Century.md"
+    },
+    {
       "basename": "beginning MERN Stack Development",
       "path": "dailyNotes/beginning MERN Stack Development.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "动态规划（Dynamic Programming）",
       "path": "2. Areas/AI/算法/动态规划（Dynamic Programming）.md"
-    },
-    {
-      "basename": "回溯算法",
-      "path": "2. Areas/AI/算法/回溯算法.md"
     }
   ],
   "omittedPaths": [

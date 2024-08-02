@@ -10,6 +10,7 @@
           {
             "id": "e68007277d077560",
             "type": "tabs",
+            "dimension": 65.76819407008087,
             "children": [
               {
                 "id": "5546ff7fb1c275e6",
@@ -30,7 +31,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "dailyNotes/beginning MERN Stack Development.md",
+                    "file": "dailyNotes/21 Lessons for the 21st Century.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -51,6 +52,7 @@
           {
             "id": "f0b4034db6dd2f1f",
             "type": "split",
+            "dimension": 34.23180592991914,
             "children": [
               {
                 "id": "3c719f923dad6376",
@@ -160,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/beginning MERN Stack Development.md",
+                "file": "dailyNotes/21 Lessons for the 21st Century.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/beginning MERN Stack Development.md",
+                "file": "dailyNotes/21 Lessons for the 21st Century.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/beginning MERN Stack Development.md"
+                "file": "dailyNotes/21 Lessons for the 21st Century.md"
               }
             }
           },
@@ -222,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/beginning MERN Stack Development.md"
+                "file": "dailyNotes/21 Lessons for the 21st Century.md"
               }
             }
           },
@@ -292,9 +294,11 @@
   },
   "active": "0b54db04d28c3667",
   "lastOpenFiles": [
+    "5. Misc/Attachments/21 Lessons for the 21st Century",
+    "dailyNotes/beginning MERN Stack Development.md",
+    "dailyNotes/21 Lessons for the 21st Century.md",
     "5. Misc/Attachments/beginning MERN Stack Development",
     "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
-    "dailyNotes/beginning MERN Stack Development.md",
     "Atlas/dataview/dataviews.md",
     "Extras/Template/Templater/themedatetagsstatus.md",
     "Untitled.md",
@@ -321,7 +325,6 @@
     "Extras/Template/常用研究方法和技术.md",
     "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md",
     "5. Misc/Attachments/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public",
-    "2. Areas/01认知科学/Fabric/Wisdom/精英的傲慢.md",
     "5. Misc/Attachments/精英的傲慢",
     "5. Misc/Attachments/Analyzes the impact of AI on jobs",
     "5. Misc/Attachments/1",
@@ -329,7 +332,6 @@
     "5. Misc/Attachments/Extract Wisdom",
     "5. Misc/Attachments/ExtractWisdom",
     "2. Areas/01认知科学/Fabric/Wisdom",
-    "2. Areas/01认知科学/Fabric",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
