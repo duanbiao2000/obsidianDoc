@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Thinking, Fast and Slow",
+      "path": "dailyNotes/Thinking, Fast and Slow.md"
+    },
+    {
       "basename": "21 Lessons for the 21st Century",
       "path": "dailyNotes/21 Lessons for the 21st Century.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "24种算法模式",
       "path": "2. Areas/AI/算法/24种算法模式.md"
-    },
-    {
-      "basename": "动态规划（Dynamic Programming）",
-      "path": "2. Areas/AI/算法/动态规划（Dynamic Programming）.md"
     }
   ],
   "omittedPaths": [
