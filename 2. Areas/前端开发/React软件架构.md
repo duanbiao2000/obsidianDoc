@@ -12,12 +12,6 @@ isFinished: false
 
 ![[assets/img/React 软件架构/IMG-React 软件架构-20240714124854083.png]]
 
-![[IMG-React 软件架构-20240719192334760.png]]
-
-![[IMG-React 软件架构-20240719192335098.png]]
-
-![[IMG-React 软件架构-20240719192335336.png]]
-
 ![State management tool : Context](https://www.bilibili.com/video/BV1MS4y167Bz/?p=15&spm_id_from=pageDriver&vd_source=7038f96b6bb3b14743531b102b109c43)
 
 当使用React Context进行状态管理时，通常会在不同的组件和文件之间进行数据共享。下面是一个更复杂的实际示例，将展示如何创建、提供和消费上下文数据，同时将不同组件分开到不同的JavaScript文件中。

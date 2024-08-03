@@ -45,7 +45,7 @@ date created: 2024-08-03 09:17
 | 中文                         | 英文                   | 关键代码                | 主要库                        |
 | -------------------------- | -------------------- | ------------------- | -------------------------- |
 | 默认首页(Dashboard)            | Default dashboard    | useState, useEffect | React, Chart.js            |
-| 分析首页(Analytics dashboard)  | Analytics dashboard  | useState, useEffect | React, [[分析首页_apexcharts]]            |
+| 分析首页(Analytics dashboard)  | Analytics dashboard  | useState, useEffect | React, [[apexcharts]]            |
 | 电商首页(E-commerce Dashboard) | E-commerce Dashboard | useState, useEffect | React, React-table         |
 | 登录页(Sign In page)          | Sign In page         | useState, useRef    | React, Formik              |
 | 注册页(Sign Up page)          | Sign Up page         | useState, useRef    | React, Formik              |

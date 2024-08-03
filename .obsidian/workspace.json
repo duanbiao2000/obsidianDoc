@@ -4,83 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9f83635cac6155a3",
-        "type": "split",
+        "id": "e68007277d077560",
+        "type": "tabs",
         "children": [
           {
-            "id": "e68007277d077560",
-            "type": "tabs",
-            "dimension": 65.76819407008087,
-            "children": [
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/dataview/dataviews.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0b54db04d28c3667",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2. Areas/前端开发/Redux.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
+            "id": "5546ff7fb1c275e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/dataview/dataviews.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ],
-            "currentTab": 1
+            }
           },
           {
-            "id": "f0b4034db6dd2f1f",
-            "type": "split",
-            "dimension": 34.23180592991914,
-            "children": [
-              {
-                "id": "3c719f923dad6376",
-                "type": "tabs",
-                "dimension": 66.56976744186046,
-                "children": [
-                  {
-                    "id": "b6c5fa0c5bef5f0f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "graph",
-                      "state": {}
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "af96cf2ae69ef399",
-                "type": "tabs",
-                "dimension": 33.43023255813954,
-                "children": [
-                  {
-                    "id": "ced13bdc9999bec1",
-                    "type": "leaf",
-                    "state": {
-                      "type": "mindmap",
-                      "state": {}
-                    }
-                  }
-                ]
+            "id": "0b54db04d28c3667",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/前端开发/React/GitHub Actions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ],
-            "direction": "horizontal"
+            }
           }
         ],
-        "direction": "vertical"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 517
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -154,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/Redux.md",
+                "file": "2. Areas/前端开发/React/GitHub Actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/Redux.md",
+                "file": "2. Areas/前端开发/React/GitHub Actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/Redux.md"
+                "file": "2. Areas/前端开发/React/GitHub Actions.md"
               }
             }
           },
@@ -216,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/Redux.md"
+                "file": "2. Areas/前端开发/React/GitHub Actions.md"
               }
             }
           },
@@ -284,54 +238,54 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0b54db04d28c3667",
+  "active": "6a73026fe242f7bd",
   "lastOpenFiles": [
-    "5. Misc/Attachments/Redux",
-    "2. Areas/前端开发/深入浅出React技术栈.md",
-    "2. Areas/前端开发/Redux.md",
-    "2. Areas/前端开发/知识图谱.md",
-    "5. Misc/Attachments/知识图谱",
-    "Extras/Template/Templater/Add-PS-and-Time.md",
-    "Extras/Template/Templater/Update-Date-and-Time.md",
-    "Extras/Template/Templater/themedatetagsstatus.md",
-    "Extras/Template/Templater/Save-selection-content.md",
-    "Extras/Template/Templater/Hexo模版.md",
-    "Extras/Template/Templater/add poem.md",
-    "Extras/Template/Templater/Add-Big-Chars-Date.md",
-    "Extras/Template/Templater/Add-Big-Chars-Time.md",
-    "Extras/Template/Templater/Add-Gradient-Header.md",
-    "Extras/Template/Templater/zkDefaultTemplate.md",
+    "2. Areas/前端开发/React/Flask开发部署.md",
+    "2. Areas/前端开发/React/Serverless.md",
+    "2. Areas/前端开发/React/Babel.md",
+    "3. Resources/Utility/vim笔记.md",
+    "5. Misc/Attachments/vim笔记",
+    "2. Areas/前端开发/React/useEffect.md",
+    "2. Areas/前端开发/React/新手React项目.md",
+    "2. Areas/前端开发/React/apexcharts.md",
+    "5. Misc/Attachments/apexcharts",
+    "2. Areas/01认知科学/创业初期的收入流尝试.md",
+    "5. Misc/Attachments/敏捷和精益方法",
+    "5. Misc/Attachments/创业初期的收入流尝试",
+    "2. Areas/01认知科学/敏捷和精益方法.md",
+    "2. Areas/前端开发/React/深入浅出React技术栈.md",
+    "2. Areas/前端开发/React/React项目实战.md",
+    "2. Areas/前端开发/React/进阶react项目.md",
     "2. Areas/前端开发/React/Redis 常用命令.md",
-    "2. Areas/前端开发/Florin Pop.md",
-    "Atlas/dataview/dataviews.md",
-    "2. Areas/前端开发/React/nodejs.md",
+    "2. Areas/前端开发/TypeScript/Typesciprt扩展.md",
+    "2. Areas/前端开发/React/组件作用域.md",
+    "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
+    "2. Areas/前端开发/TypeScript/Typescript泛型.md",
+    "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
+    "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
+    "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124836823.png",
+    "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124836002.png",
+    "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124833384.png",
+    "2. Areas/前端开发/Express官网教程.md",
+    "2. Areas/前端开发/JavaScript深度学习.md",
+    "2. Areas/前端开发/React Quickly.md",
+    "2. Areas/前端开发/React软件架构.md",
+    "5. Misc/Attachments/React Quickly",
+    "2. Areas/前端开发/大数据技术体系概览.md",
+    "2. Areas/前端开发/Nodejs关键技术.md",
+    "2. Areas/前端开发/Next.js & React - The Complete Guide.md",
+    "2. Areas/前端开发/Road to React.md",
+    "2. Areas/前端开发/Udemy想要的课.md",
+    "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+    "5. Misc/Attachments/React软件架构",
+    "5. Misc/Attachments/Redux",
+    "5. Misc/Attachments/知识图谱",
     "5. Misc/Attachments/Untitled 4",
     "5. Misc/Attachments/Untitled 3",
-    "5. Misc/Attachments/Untitled",
-    "5. Misc/Attachments/Untitled 2",
-    "2. Areas/01认知科学/Fabric/Extract Wisdom.md",
-    "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md",
-    "2. Areas/IELTS/阅读理解.md",
-    "2. Areas/前端开发/React/MVC模型.md",
-    "2. Areas/前端开发/React/Material-UI.md",
-    "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md",
-    "2. Areas/前端开发/React/Home.md",
-    "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md",
-    "5. Misc/Attachments/Github Gist JavaScript 的精彩代码片段",
-    "5. Misc/Attachments/Github Gist",
-    "5. Misc/Attachments/分析首页_apexcharts",
-    "5. Misc/Attachments/分析首页_Apex",
-    "5. Misc/Attachments/React admin",
     "Extras/Obsidian-Templates-main/Docs/images/To-Big-Chars.png",
     "Extras/Obsidian-Templates-main/Docs/images/Task-Progress.png",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
-    "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
-    "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 8.png",
-    "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 7.png",
-    "2. Areas/Writing/考上就靠心智图/图式交流-考上就靠心智图 64b518f6d97b45a395902e438c8a5568/Untitled 1.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648496.png",
-    "2. Areas/Writing/考上就靠心智图/assets/img/图式交流-考上就靠心智图/IMG-图式交流-考上就靠心智图-20240716202648435.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",
     "5. Misc/Attachments/images/Untitled.canvas"

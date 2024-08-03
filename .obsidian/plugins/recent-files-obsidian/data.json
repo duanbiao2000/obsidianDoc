@@ -1,16 +1,108 @@
 {
   "recentFiles": [
     {
+      "basename": "GitHub Actions",
+      "path": "2. Areas/前端开发/React/GitHub Actions.md"
+    },
+    {
+      "basename": "Flask开发部署",
+      "path": "2. Areas/前端开发/React/Flask开发部署.md"
+    },
+    {
+      "basename": "Serverless",
+      "path": "2. Areas/前端开发/React/Serverless.md"
+    },
+    {
+      "basename": "vim笔记",
+      "path": "3. Resources/Utility/vim笔记.md"
+    },
+    {
+      "basename": "useEffect",
+      "path": "2. Areas/前端开发/React/useEffect.md"
+    },
+    {
+      "basename": "新手React项目",
+      "path": "2. Areas/前端开发/React/新手React项目.md"
+    },
+    {
+      "basename": "apexcharts",
+      "path": "2. Areas/前端开发/React/apexcharts.md"
+    },
+    {
+      "basename": "创业初期的收入流尝试",
+      "path": "2. Areas/01认知科学/创业初期的收入流尝试.md"
+    },
+    {
+      "basename": "敏捷和精益方法",
+      "path": "2. Areas/01认知科学/敏捷和精益方法.md"
+    },
+    {
+      "basename": "深入浅出React技术栈",
+      "path": "2. Areas/前端开发/React/深入浅出React技术栈.md"
+    },
+    {
+      "basename": "React项目实战",
+      "path": "2. Areas/前端开发/React/React项目实战.md"
+    },
+    {
+      "basename": "Redis 常用命令",
+      "path": "2. Areas/前端开发/React/Redis 常用命令.md"
+    },
+    {
+      "basename": "Typesciprt扩展",
+      "path": "2. Areas/前端开发/TypeScript/Typesciprt扩展.md"
+    },
+    {
+      "basename": "IMG-Vue基础-20240714124833410",
+      "path": "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png"
+    },
+    {
+      "basename": "Typescript泛型",
+      "path": "2. Areas/前端开发/TypeScript/Typescript泛型.md"
+    },
+    {
+      "basename": "Express官网教程",
+      "path": "2. Areas/前端开发/Express官网教程.md"
+    },
+    {
+      "basename": "JavaScript深度学习",
+      "path": "2. Areas/前端开发/JavaScript深度学习.md"
+    },
+    {
+      "basename": "React Quickly",
+      "path": "2. Areas/前端开发/React Quickly.md"
+    },
+    {
+      "basename": "React软件架构",
+      "path": "2. Areas/前端开发/React软件架构.md"
+    },
+    {
+      "basename": "Nodejs关键技术",
+      "path": "2. Areas/前端开发/Nodejs关键技术.md"
+    },
+    {
+      "basename": "Road to React",
+      "path": "2. Areas/前端开发/Road to React.md"
+    },
+    {
+      "basename": "Udemy想要的课",
+      "path": "2. Areas/前端开发/Udemy想要的课.md"
+    },
+    {
+      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
+      "path": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
+    },
+    {
+      "basename": "React设计模式",
+      "path": "2. Areas/前端开发/React设计模式.md"
+    },
+    {
       "basename": "Redux",
       "path": "2. Areas/前端开发/Redux.md"
     },
     {
       "basename": "知识图谱",
       "path": "2. Areas/前端开发/知识图谱.md"
-    },
-    {
-      "basename": "Redis 常用命令",
-      "path": "2. Areas/前端开发/React/Redis 常用命令.md"
     },
     {
       "basename": "dataviews",
@@ -61,10 +153,6 @@
       "path": "2. Areas/前端开发/React/React Bootstrap.md"
     },
     {
-      "basename": "分析首页_apexcharts",
-      "path": "2. Areas/前端开发/React/分析首页_apexcharts.md"
-    },
-    {
       "basename": "React admin",
       "path": "2. Areas/前端开发/React/React admin.md"
     },
@@ -79,10 +167,6 @@
     {
       "basename": "beginning MERN Stack Development",
       "path": "dailyNotes/beginning MERN Stack Development.md"
-    },
-    {
-      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
-      "path": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
     },
     {
       "basename": "Untitled",
@@ -115,86 +199,6 @@
     {
       "basename": "Stable diffusion操作流程",
       "path": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md"
-    },
-    {
-      "basename": "CSS教程",
-      "path": "2. Areas/前端开发/CSS/CSS教程.md"
-    },
-    {
-      "basename": "2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客",
-      "path": "2. Areas/Creative/杭州AI换衣/2023最新外贸建站：WordPress搭建外贸独立站零基础小白保姆级教程_wordpress外贸独立站-CSDN博客.md"
-    },
-    {
-      "basename": "Express官网教程",
-      "path": "2. Areas/前端开发/Express官网教程.md"
-    },
-    {
-      "basename": "知识炼金术",
-      "path": "2. Areas/01认知科学/知识炼金术.md"
-    },
-    {
-      "basename": "雅思例句0709",
-      "path": "2. Areas/IELTS/雅思例句0709.md"
-    },
-    {
-      "basename": "闪亮词汇收集器",
-      "path": "2. Areas/IELTS/闪亮词汇收集器.md"
-    },
-    {
-      "basename": "英语例句0608",
-      "path": "2. Areas/IELTS/英语例句0608.md"
-    },
-    {
-      "basename": "英语例句0605",
-      "path": "2. Areas/IELTS/英语例句0605.md"
-    },
-    {
-      "basename": "英语例句0609",
-      "path": "2. Areas/IELTS/英语例句0609.md"
-    },
-    {
-      "basename": "生词助记",
-      "path": "2. Areas/IELTS/生词助记.md"
-    },
-    {
-      "basename": "片语和固定搭配",
-      "path": "2. Areas/IELTS/片语和固定搭配.md"
-    },
-    {
-      "basename": "每日听力材料  (至少听四遍)",
-      "path": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
-    },
-    {
-      "basename": "动词短语",
-      "path": "2. Areas/IELTS/动词短语.md"
-    },
-    {
-      "basename": "分类记忆",
-      "path": "2. Areas/IELTS/分类记忆.md"
-    },
-    {
-      "basename": "what do you do in your free time",
-      "path": "2. Areas/IELTS/what do you do in your free time.md"
-    },
-    {
-      "basename": "拓展认知的方法",
-      "path": "2. Areas/01认知科学/拓展认知的方法.md"
-    },
-    {
-      "basename": "流行词",
-      "path": "2. Areas/01认知科学/流行词.md"
-    },
-    {
-      "basename": "策展-Curation",
-      "path": "2. Areas/01认知科学/策展-Curation.md"
-    },
-    {
-      "basename": "象高手一样解决问题",
-      "path": "2. Areas/01认知科学/象高手一样解决问题.md"
-    },
-    {
-      "basename": "合理归类",
-      "path": "2. Areas/01认知科学/合理归类.md"
     }
   ],
   "omittedPaths": [

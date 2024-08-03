@@ -10,7 +10,7 @@ type:
 high_priority: false
 tags:
 ---
- Redis支持的主要命令包括:
+
 ### String
 - SET - 设置一个key-value对
 - GET - 获取指定key的值 

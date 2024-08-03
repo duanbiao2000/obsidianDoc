@@ -57,7 +57,6 @@
 ### InstanceType
 `InstanceType`用于从类类型中提取实例类型。
 以上这些类型在日常开发中使用频率最高。其中`Partial`、`Required`、`Pick`、`Omit`、`Record`用得最广泛,解决对象属性转换的需求。`Extract`和`Exclude`也很常见,用于处理联合类型。
-所以如果要选择熟悉几个类型,我推荐先了解这些类型。掌握了它们,基本可以解决大多数类型转换和提取的需求。
 
 
 ## CRUD
