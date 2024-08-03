@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
+      "basename": "React设计模式与最佳实践",
+      "path": "2. Areas/前端开发/React/React设计模式与最佳实践.md"
+    },
+    {
       "basename": "React组件间通信代码示例",
       "path": "2. Areas/前端开发/React/React组件间通信代码示例.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "useEffect",
       "path": "2. Areas/前端开发/React/useEffect.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
     },
     {
       "basename": "React代码解读0605",
@@ -195,10 +199,6 @@
     {
       "basename": "Material-UI",
       "path": "2. Areas/前端开发/React/Material-UI.md"
-    },
-    {
-      "basename": "Github Gist JavaScript 的精彩代码片段",
-      "path": "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md"
     }
   ],
   "omittedPaths": [
