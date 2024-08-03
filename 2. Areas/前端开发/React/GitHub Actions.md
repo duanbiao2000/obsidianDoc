@@ -1,11 +1,18 @@
 ---
-theme: 
-tags: 
-status: false
-created_date:
+aliases: null
+theme: null
+original: null
+url: null
+author: null
+date_created: 2024-08-03 13:38
+date_updated: null
+type: null
+high_priority: false
+tags: null
 ---
 
 ## 订阅Hacker News
+
 订阅Hacker News（HN）每日排名最高的10条新闻，并通过GitHub Actions设置定时任务，将结果记录在项目的issue中，可以通过以下步骤实现：
 
 1. **创建GitHub仓库**：
@@ -81,12 +88,10 @@ jobs:
 
 请注意，这只是一个示例，你需要根据实际情况编写获取Hacker News数据的脚本和更新issue的逻辑。此外，确保在项目的`Settings > Secrets`中添加`GITHUB_TOKEN`的secret。
 
-
-
-   
 ```tg
  卡片盒笔记法的原则, 不需要解释,直接列出要点并按有序列表展示
 ```
+
 - 明确笔记的目的和主题
 - 保持笔记的简洁性和可读性
 - 使用标准化格式记录信息
@@ -95,6 +100,4 @@ jobs:
 - 鼓励思考和创造性联想
 - 保持笔记系统的开放性和灵活性
 - 重视笔记的实用性和可操作性
-- 培养持续记录和更新笔记的习惯  
-      
-
+- 培养持续记录和更新笔记的习惯

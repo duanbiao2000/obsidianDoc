@@ -69,13 +69,3 @@ https://www.youtube.com/watch?v=gpqoZQ8GNK8
 ```
 在这种情况下，最终的内边距将是 1.5rem，前面的设置被后面的设置覆盖。
 
-![[IMG-Youtube-React-extract-20240719192335991.png]]
-`ul>li*5`
-
-![[IMG-Youtube-React-extract-20240719192336288.png]]
-![[IMG-Youtube-React-extract-20240719192336926.png]]
-![[IMG-Youtube-React-extract-20240719192337246.png]]
-![[IMG-Youtube-React-extract-20240719192337431.png]]
-![[IMG-Youtube-React-extract-20240719192337592.png]]
-![[IMG-Youtube-React-extract-20240719192337775.png]]
-

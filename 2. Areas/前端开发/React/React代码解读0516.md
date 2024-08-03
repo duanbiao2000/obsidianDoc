@@ -1064,7 +1064,7 @@ const PRODUCTS: Product[] = [
 
 可以的，这里是使用 React Hook 重构后的代码：
 
-```react
+```js
 import React, { useState } from "react";
 
 interface Product {

@@ -1,6 +1,86 @@
 {
   "recentFiles": [
     {
+      "basename": "React历史",
+      "path": "2. Areas/前端开发/React/React历史.md"
+    },
+    {
+      "basename": "新手React项目",
+      "path": "2. Areas/前端开发/React/新手React项目.md"
+    },
+    {
+      "basename": "useEffect",
+      "path": "2. Areas/前端开发/React/useEffect.md"
+    },
+    {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
+      "basename": "React代码解读0605",
+      "path": "2. Areas/前端开发/React/React代码解读0605.md"
+    },
+    {
+      "basename": "React代码解读0516",
+      "path": "2. Areas/前端开发/React/React代码解读0516.md"
+    },
+    {
+      "basename": "react18通用后台管理系统",
+      "path": "2. Areas/前端开发/React/react18通用后台管理系统.md"
+    },
+    {
+      "basename": "react-bootstrap Components",
+      "path": "2. Areas/前端开发/React/react-bootstrap Components.md"
+    },
+    {
+      "basename": "React Quickly, Second Edition - MEAP... (Z-Library).pdf",
+      "path": "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md"
+    },
+    {
+      "basename": "React Hooks",
+      "path": "2. Areas/前端开发/React/React Hooks.md"
+    },
+    {
+      "basename": "Home",
+      "path": "2. Areas/前端开发/React/Home.md"
+    },
+    {
+      "basename": "JavaScript 忍者秘籍(第2版)",
+      "path": "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md"
+    },
+    {
+      "basename": "apexcharts",
+      "path": "2. Areas/前端开发/React/apexcharts.md"
+    },
+    {
+      "basename": "知识图谱",
+      "path": "2. Areas/前端开发/知识图谱.md"
+    },
+    {
+      "basename": "梗直哥丶 专治好奇",
+      "path": "2. Areas/前端开发/梗直哥丶 专治好奇.md"
+    },
+    {
+      "basename": "图灵前端核心知识进阶系列（套装全10册）",
+      "path": "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md"
+    },
+    {
+      "basename": "Youtube-React-extract",
+      "path": "2. Areas/前端开发/Youtube-React-extract.md"
+    },
+    {
+      "basename": "React进阶实战",
+      "path": "2. Areas/前端开发/React进阶实战.md"
+    },
+    {
+      "basename": "Nodejs关键技术",
+      "path": "2. Areas/前端开发/Nodejs关键技术.md"
+    },
+    {
+      "basename": "JavaScript深度学习",
+      "path": "2. Areas/前端开发/JavaScript深度学习.md"
+    },
+    {
       "basename": "GitHub Actions",
       "path": "2. Areas/前端开发/React/GitHub Actions.md"
     },
@@ -15,18 +95,6 @@
     {
       "basename": "vim笔记",
       "path": "3. Resources/Utility/vim笔记.md"
-    },
-    {
-      "basename": "useEffect",
-      "path": "2. Areas/前端开发/React/useEffect.md"
-    },
-    {
-      "basename": "新手React项目",
-      "path": "2. Areas/前端开发/React/新手React项目.md"
-    },
-    {
-      "basename": "apexcharts",
-      "path": "2. Areas/前端开发/React/apexcharts.md"
     },
     {
       "basename": "创业初期的收入流尝试",
@@ -61,24 +129,8 @@
       "path": "2. Areas/前端开发/TypeScript/Typescript泛型.md"
     },
     {
-      "basename": "Express官网教程",
-      "path": "2. Areas/前端开发/Express官网教程.md"
-    },
-    {
-      "basename": "JavaScript深度学习",
-      "path": "2. Areas/前端开发/JavaScript深度学习.md"
-    },
-    {
-      "basename": "React Quickly",
-      "path": "2. Areas/前端开发/React Quickly.md"
-    },
-    {
       "basename": "React软件架构",
       "path": "2. Areas/前端开发/React软件架构.md"
-    },
-    {
-      "basename": "Nodejs关键技术",
-      "path": "2. Areas/前端开发/Nodejs关键技术.md"
     },
     {
       "basename": "Road to React",
@@ -99,14 +151,6 @@
     {
       "basename": "Redux",
       "path": "2. Areas/前端开发/Redux.md"
-    },
-    {
-      "basename": "知识图谱",
-      "path": "2. Areas/前端开发/知识图谱.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
     },
     {
       "basename": "nodejs",
@@ -133,20 +177,8 @@
       "path": "2. Areas/前端开发/React/Material-UI.md"
     },
     {
-      "basename": "JavaScript 忍者秘籍(第2版)",
-      "path": "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md"
-    },
-    {
-      "basename": "Home",
-      "path": "2. Areas/前端开发/React/Home.md"
-    },
-    {
       "basename": "Github Gist JavaScript 的精彩代码片段",
       "path": "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md"
-    },
-    {
-      "basename": "React Hooks",
-      "path": "2. Areas/前端开发/React/React Hooks.md"
     },
     {
       "basename": "React Bootstrap",
@@ -163,42 +195,6 @@
     {
       "basename": "21 Lessons for the 21st Century",
       "path": "dailyNotes/21 Lessons for the 21st Century.md"
-    },
-    {
-      "basename": "beginning MERN Stack Development",
-      "path": "dailyNotes/beginning MERN Stack Development.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
-      "basename": "如何打造个人知识库 - PKB",
-      "path": "2. Areas/Creative/早班车/如何打造个人知识库 - PKB.md"
-    },
-    {
-      "basename": "指数型组织",
-      "path": "1. Projects/周月总结/202405/指数型组织.md"
-    },
-    {
-      "basename": "Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public",
-      "path": "2. Areas/01认知科学/Fabric/Wisdom/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public.md"
-    },
-    {
-      "basename": "精英的傲慢",
-      "path": "2. Areas/01认知科学/Fabric/Wisdom/精英的傲慢.md"
-    },
-    {
-      "basename": "Analyzes the impact of AI on jobs",
-      "path": "2. Areas/01认知科学/Fabric/Wisdom/Analyzes the impact of AI on jobs.md"
-    },
-    {
-      "basename": "15年商业和人生教训的40条简短建议",
-      "path": "2. Areas/01认知科学/15年商业和人生教训的40条简短建议.md"
-    },
-    {
-      "basename": "Stable diffusion操作流程",
-      "path": "2. Areas/Creative/杭州AI换衣/Stable diffusion操作流程.md"
     }
   ],
   "omittedPaths": [
