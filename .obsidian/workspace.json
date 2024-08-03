@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/前端开发/React/React历史.md",
+                "file": "2. Areas/前端开发/React/React组件间通信代码示例.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/React/React历史.md",
+                "file": "2. Areas/前端开发/React/React组件间通信代码示例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/React/React历史.md",
+                "file": "2. Areas/前端开发/React/React组件间通信代码示例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/React/React历史.md"
+                "file": "2. Areas/前端开发/React/React组件间通信代码示例.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/React/React历史.md"
+                "file": "2. Areas/前端开发/React/React组件间通信代码示例.md"
               }
             }
           },
@@ -226,6 +226,12 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "2. Areas/前端开发/React/React生命周期方法.md",
+    "2. Areas/前端开发/React/React状态管理Redux.md",
+    "2. Areas/前端开发/React/React测试.md",
+    "2. Areas/前端开发/React/React插件.md",
+    "2. Areas/前端开发/React/Redux Toolkit.md",
+    "2. Areas/前端开发/React/React历史.md",
     "2. Areas/前端开发/React/新手React项目.md",
     "2. Areas/前端开发/React/useEffect.md",
     "Atlas/dataview/dataviews.md",
@@ -246,12 +252,6 @@
     "2. Areas/前端开发/React/React-Query.md",
     "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md",
     "2. Areas/前端开发/React/React Hooks.md",
-    "2. Areas/前端开发/React/Home.md",
-    "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md",
-    "2. Areas/前端开发/React/apexcharts.md",
-    "2. Areas/前端开发/知识图谱.md",
-    "2. Areas/前端开发/梗直哥丶 专治好奇.md",
-    "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md",
     "5. Misc/Attachments/React进阶实战",
     "5. Misc/Attachments/vim笔记",
     "5. Misc/Attachments/apexcharts",

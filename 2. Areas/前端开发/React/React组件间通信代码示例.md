@@ -1,6 +1,5 @@
 #### React组件间通信代码示例
 
-好的，以下是逐行注释后的完整React组件间通信示例代码：
 
 ```jsx
 import React, { createContext, useContext, useState } from 'react';

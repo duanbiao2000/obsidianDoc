@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "React组件间通信代码示例",
+      "path": "2. Areas/前端开发/React/React组件间通信代码示例.md"
+    },
+    {
+      "basename": "React生命周期方法",
+      "path": "2. Areas/前端开发/React/React生命周期方法.md"
+    },
+    {
+      "basename": "React状态管理Redux",
+      "path": "2. Areas/前端开发/React/React状态管理Redux.md"
+    },
+    {
+      "basename": "React测试",
+      "path": "2. Areas/前端开发/React/React测试.md"
+    },
+    {
+      "basename": "React插件",
+      "path": "2. Areas/前端开发/React/React插件.md"
+    },
+    {
       "basename": "React历史",
       "path": "2. Areas/前端开发/React/React历史.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "Github Gist JavaScript 的精彩代码片段",
       "path": "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md"
-    },
-    {
-      "basename": "React Bootstrap",
-      "path": "2. Areas/前端开发/React/React Bootstrap.md"
-    },
-    {
-      "basename": "React admin",
-      "path": "2. Areas/前端开发/React/React admin.md"
-    },
-    {
-      "basename": "Thinking, Fast and Slow",
-      "path": "dailyNotes/Thinking, Fast and Slow.md"
-    },
-    {
-      "basename": "21 Lessons for the 21st Century",
-      "path": "dailyNotes/21 Lessons for the 21st Century.md"
     }
   ],
   "omittedPaths": [
