@@ -93,7 +93,7 @@ function App() {
 }
 export default App;
 ```
-以上示例代码只是演示了如何使用一些常见的 Material-UI 组件，你可以根据自己的需求进行进一步的自定义和调整。记得先安装 Material-UI 库并导入所需的组件。
+
 
 在 Material-UI 中，可以使用 `Formik` 和 `Yup` 这两个库来实现表单验证。`Formik` 是一个用于处理表单状态和表单提交的库，而 `Yup` 是一个用于数据验证的库。下面是一个示例代码，演示了如何使用 `Formik` 和 `Yup` 实现表单验证：
 

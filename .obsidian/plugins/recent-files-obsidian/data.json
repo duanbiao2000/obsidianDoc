@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "nodejs",
+      "path": "2. Areas/前端开发/React/nodejs.md"
+    },
+    {
+      "basename": "MVC模型",
+      "path": "2. Areas/前端开发/React/MVC模型.md"
+    },
+    {
+      "basename": "Material-UI",
+      "path": "2. Areas/前端开发/React/Material-UI.md"
+    },
+    {
+      "basename": "JavaScript 忍者秘籍(第2版)",
+      "path": "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md"
+    },
+    {
+      "basename": "Home",
+      "path": "2. Areas/前端开发/React/Home.md"
+    },
+    {
+      "basename": "Github Gist JavaScript 的精彩代码片段",
+      "path": "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md"
+    },
+    {
+      "basename": "React Hooks",
+      "path": "2. Areas/前端开发/React/React Hooks.md"
+    },
+    {
+      "basename": "React Bootstrap",
+      "path": "2. Areas/前端开发/React/React Bootstrap.md"
+    },
+    {
+      "basename": "分析首页_apexcharts",
+      "path": "2. Areas/前端开发/React/分析首页_apexcharts.md"
+    },
+    {
+      "basename": "React admin",
+      "path": "2. Areas/前端开发/React/React admin.md"
+    },
+    {
       "basename": "Thinking, Fast and Slow",
       "path": "dailyNotes/Thinking, Fast and Slow.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "五维思考法",
       "path": "2. Areas/01认知科学/五维思考法.md"
-    },
-    {
-      "basename": "The War of Art",
-      "path": "2. Areas/01认知科学/The War of Art.md"
-    },
-    {
-      "basename": "Notebooklm打造第二大脑",
-      "path": "2. Areas/01认知科学/Notebooklm打造第二大脑.md"
-    },
-    {
-      "basename": "@熟练的AI专业人员需要具备的能力",
-      "path": "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md"
-    },
-    {
-      "basename": "@盖洛普测试",
-      "path": "2. Areas/01认知科学/@盖洛普测试.md"
-    },
-    {
-      "basename": "究竟如何获取信息",
-      "path": "2. Areas/01认知科学/信息差/究竟如何获取信息.md"
-    },
-    {
-      "basename": "日语",
-      "path": "2. Areas/01认知科学/信息差/日语.md"
-    },
-    {
-      "basename": "信息差知乎",
-      "path": "2. Areas/01认知科学/信息差/信息差知乎.md"
-    },
-    {
-      "basename": "Go语言中的线程、进程、并行与并发",
-      "path": "Cards/PPT/Go语言中的线程、进程、并行与并发.md"
-    },
-    {
-      "basename": "free-programming-books-subjects",
-      "path": "3. Resources/社区/Github/free-programming-books-subjects.md"
-    },
-    {
-      "basename": "24种算法模式",
-      "path": "2. Areas/AI/算法/24种算法模式.md"
     }
   ],
   "omittedPaths": [

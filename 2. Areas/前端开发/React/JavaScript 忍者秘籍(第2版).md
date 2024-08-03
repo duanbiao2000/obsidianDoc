@@ -2,10 +2,6 @@
 aliases:
 
 ---
-
-![[assets/img 1/JavaScript 忍者秘籍(第2版)/IMG-JavaScript 忍者秘籍(第2版)-20240714145113571.png]]
-
-以下是经过格式化和注释的代码：
 ```javascript
 function* NinjaGenerator(action) {
   const imposter = yield ("Hattori " + action);
@@ -27,7 +23,7 @@ const result2 = ninjaIterator.next("Hanzo");
 assert(result2.value === "Yoshi (Hanzo) skulk", "We have an imposter!");
 ```
 
-<font color="#d831a8">在生成器函数中，`yield` 语句的右侧是生成器的输出值，而左侧是生成器的输入值。通过 `yield` 语句，生成器函数能够与外部世界进行双向通信。</font>
+
 
 
 

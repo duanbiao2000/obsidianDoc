@@ -1,13 +1,3 @@
----
-aliases:
-
----
-20230717 2222
-links:
-title:
-origin:  React Quickly, Second Edition - MEAP... (Z-Library)
-tags: #flashcards #todo 
-
 
 
 ### P220
@@ -31,19 +21,7 @@ tags: #flashcards #todo
 
 
 
-   - `useReducer`: Provides a more powerful state management solution for complex state updates.
-   - `useRef`: Allows components to hold a mutable value that persists across renders.
-2. Effect Hooks:
-   - `useEffect`: Runs side effects after rendering, such as fetching data or subscribing to events.
-   - `useLayoutEffect`: Similar to `useEffect`, but runs synchronously after rendering, which can be useful for measuring elements or performing DOM manipulations.
-3. Memorization Hooks:
-   - `useMemo`: Memorizes a value, recalculating it only if its dependencies change.
-   - `useCallback`: Memorizes a callback function, preventing unnecessary re-renders if the dependencies haven't changed.
-4. Library Hooks:
-   - `useDebugValue`: Displays a label for custom hooks in React DevTools.
-   - `useImperativeHandle`: Allows a parent component to access functions or properties of a child component's instance.
-   - `useInsertionEffect`: Runs an effect only when a component is inserted into the DOM.
-   - `useSyncExternalStore`: Synchronizes a component's state with an external data source.
+   
 
 
 1. State Hooks:
@@ -123,74 +101,6 @@ tags: #flashcards #todo
   export default Parent;
   ```
 
-
-1. `useReducer`:
-   - Use `useReducer` when you have complex state updates that require multiple actions.
-   - Separate the reducer function from the component to keep the code organized and maintainable.
-2. `useRef`:
-   - Use `useRef` when you need to store mutable values that persist across renders.
-   - Avoid using `useRef` as a replacement for state unless you specifically need the persistence across renders.
-3. Effect Hooks (`useEffect` and `useLayoutEffect`):
-   - Use `useEffect` for most cases of running side effects after rendering.
-   - Use `useLayoutEffect` when you need to perform measurements or DOM manipulations that require synchronous updates.
-4. Memoization Hooks (`useMemo` and `useCallback`):
-   - Use `useMemo` to memoize a value that is expensive to compute and only needs to be recalculated when dependencies change.
-   - Use `useCallback` to memoize a callback function to prevent unnecessary re-renders of child components.
-5. Library Hooks:
-   - Use `useDebugValue` to provide a custom label for your custom hooks, improving the debugging experience in React DevTools.
-   - Use `useImperativeHandle` sparingly, as it breaks encapsulation and can make components harder to understand and maintain.
-   - Use `useInsertionEffect` when you need to run an effect only when a component is inserted into the DOM.
-   - Use `useSyncExternalStore` when you want to synchronize a component's state with an external data source.
-
-1. `useReducer`:
-```jsx
-import React, { useReducer } from 'react';
-const initialState = { count: 0 };
-function reducer(state, action) {
-  switch (action.type) {
-    case 'increment':
-      return { count: state.count + 1 };
-    case 'decrement':
-      return { count: state.count - 1 };
-    default:
-      throw new Error();
-  }
-}
-function Counter() {
-  const [state, dispatch] = useReducer(reducer, initialState);
-  const increment = () => {
-    dispatch({ type: 'increment' });
-  };
-  const decrement = () => {
-    dispatch({ type: 'decrement' });
-  };
-  return (
-    <div>
-      <p>Count: {state.count}</p>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
-    </div>
-  );
-}
-export default Counter;
-```
-2. `useRef`:
-```jsx
-import React, { useRef } from 'react';
-function ExampleComponent() {
-  const inputRef = useRef();
-  const handleButtonClick = () => {
-    inputRef.current.focus();
-  };
-  return (
-    <div>
-      <input type="text" ref={inputRef} />
-      <button onClick={handleButtonClick}>Focus Input</button>
-    </div>
-  );
-}
-export default ExampleComponent;
-```
 3. Effect Hooks (`useEffect` and `useLayoutEffect`):
 ```jsx
 import React, { useEffect, useLayoutEffect, useState } from 'react';
@@ -323,4 +233,3 @@ function ExampleComponent() {
 }
 export default ExampleComponent;
 ```
-

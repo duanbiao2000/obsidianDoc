@@ -31,10 +31,10 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "dailyNotes/Thinking, Fast and Slow.md",
+                    "file": "2. Areas/前端开发/React/nodejs.md",
                     "mode": "source",
                     "backlinks": true,
-                    "source": false
+                    "source": true
                   }
                 }
               },
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/Thinking, Fast and Slow.md",
+                "file": "2. Areas/前端开发/React/nodejs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/Thinking, Fast and Slow.md",
+                "file": "2. Areas/前端开发/React/nodejs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/Thinking, Fast and Slow.md"
+                "file": "2. Areas/前端开发/React/nodejs.md"
               }
             }
           },
@@ -224,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/Thinking, Fast and Slow.md"
+                "file": "2. Areas/前端开发/React/nodejs.md"
               }
             }
           },
@@ -253,7 +253,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -294,9 +294,25 @@
   },
   "active": "0b54db04d28c3667",
   "lastOpenFiles": [
+    "2. Areas/前端开发/React/MVC模型.md",
+    "2. Areas/前端开发/React/Material-UI.md",
+    "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md",
+    "2. Areas/前端开发/React/Home.md",
+    "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md",
+    "5. Misc/Attachments/Github Gist JavaScript 的精彩代码片段",
+    "5. Misc/Attachments/Github Gist",
+    "2. Areas/前端开发/React/React Hooks.md",
+    "2. Areas/前端开发/React/React Bootstrap.md",
+    "2. Areas/前端开发/React/分析首页_apexcharts.md",
+    "5. Misc/Attachments/分析首页_apexcharts",
+    "5. Misc/Attachments/分析首页_Apex",
+    "2. Areas/前端开发/React/React admin.md",
+    "2. Areas/前端开发/React/React API.md",
+    "5. Misc/Attachments/React admin",
+    "5. Misc/Attachments/React admin1",
+    "dailyNotes/Thinking, Fast and Slow.md",
     "5. Misc/Attachments/Thinking, Fast and Slow",
     "dailyNotes/21 Lessons for the 21st Century.md",
-    "dailyNotes/Thinking, Fast and Slow.md",
     "5. Misc/Attachments/21 Lessons for the 21st Century",
     "dailyNotes/beginning MERN Stack Development.md",
     "5. Misc/Attachments/beginning MERN Stack Development",
@@ -313,25 +329,9 @@
     "Extras/Obsidian-Templates-main/Docs/Snippets/Strong-Strong.md",
     "Extras/Obsidian-Templates-main/Docs/Snippets/Split-Page-Callout.md",
     "Extras/Obsidian-Templates-main/Docs/Snippets/Paper-Index-Callout.md",
-    "Extras/Obsidian-Templates-main/Docs/QuickAdd/Open-Home-Page.md",
     "Extras/Obsidian-Templates-main/Docs/images/To-Big-Chars.png",
     "Extras/Obsidian-Templates-main/Docs/images/Task-Progress.png",
-    "Extras/Obsidian-Templates-main/Docs/Dataview/Habits.md",
-    "Extras/Obsidian-Templates-main/Docs/Dataview/Day-Line.md",
-    "Extras/Obsidian-Templates-main/Docs/Templater/Add-Gradient-Header.md",
-    "Extras/textgenerator/prompts/awesomePrompts/motivationalspeakerAwesome.md",
-    "Extras/textgenerator/prompts/awesomePrompts/emojitranslatorAwesome.md",
-    "2. Areas/BackEnd/Java/源码阅读/Bookstore.md",
-    "1. Projects/周月总结/202405/指数型组织.md",
     "5. Misc/Attachments/指数型组织",
-    "Extras/Template/常用研究方法和技术.md",
-    "5. Misc/Attachments/Communication Skills Training A Practical Guide to Improving Your Social Intelligence, Presentation, Persuasion and Public",
-    "5. Misc/Attachments/精英的傲慢",
-    "5. Misc/Attachments/Analyzes the impact of AI on jobs",
-    "5. Misc/Attachments/1",
-    "5. Misc/Attachments/An Astronaut's Guide to Life on",
-    "5. Misc/Attachments/Extract Wisdom",
-    "5. Misc/Attachments/ExtractWisdom",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
     "Cards/Excalidraw/attachments/Pasted Image 20240717013359_519.png",
