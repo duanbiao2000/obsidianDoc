@@ -79,15 +79,6 @@ const store = createStore(reducer)
 store.dispatch(action)
 ```
 
----
-
-![[assets/img/深入浅出React/IMG-深入浅出React-20240714124859496.png]]
-
----
-
-总结: 知识点覆盖面大,跨度大,因此对这两节内容应抱着梳理"知识地图"的目的去学习以构建知识体系为第一要务.
-
----
 
 函数组件与类组件的对比:无关"优劣",只谈"不同"
 
