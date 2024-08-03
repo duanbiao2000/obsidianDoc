@@ -4,8 +4,8 @@ theme:
 original: 
 url: 
 author: 
-created_date: 
-date_updated: 2024-07-24 13:48
+date created: 
+date updated: 
 type: 
 high_priority: false
 tags:

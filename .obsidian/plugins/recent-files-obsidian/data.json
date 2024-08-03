@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Redux",
+      "path": "2. Areas/前端开发/Redux.md"
+    },
+    {
+      "basename": "知识图谱",
+      "path": "2. Areas/前端开发/知识图谱.md"
+    },
+    {
+      "basename": "Redis 常用命令",
+      "path": "2. Areas/前端开发/React/Redis 常用命令.md"
+    },
+    {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
       "basename": "nodejs",
       "path": "2. Areas/前端开发/React/nodejs.md"
+    },
+    {
+      "basename": "Extract Wisdom",
+      "path": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
+    },
+    {
+      "basename": "An Astronaut's Guide to Life on",
+      "path": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
+    },
+    {
+      "basename": "阅读理解",
+      "path": "2. Areas/IELTS/阅读理解.md"
     },
     {
       "basename": "MVC模型",
@@ -57,10 +85,6 @@
       "path": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
     },
     {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
-    },
-    {
       "basename": "Untitled",
       "path": "Untitled.md"
     },
@@ -81,16 +105,8 @@
       "path": "2. Areas/01认知科学/Fabric/Wisdom/精英的傲慢.md"
     },
     {
-      "basename": "Extract Wisdom",
-      "path": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
-    },
-    {
       "basename": "Analyzes the impact of AI on jobs",
       "path": "2. Areas/01认知科学/Fabric/Wisdom/Analyzes the impact of AI on jobs.md"
-    },
-    {
-      "basename": "An Astronaut's Guide to Life on",
-      "path": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
     },
     {
       "basename": "15年商业和人生教训的40条简短建议",
@@ -119,10 +135,6 @@
     {
       "basename": "雅思例句0709",
       "path": "2. Areas/IELTS/雅思例句0709.md"
-    },
-    {
-      "basename": "阅读理解",
-      "path": "2. Areas/IELTS/阅读理解.md"
     },
     {
       "basename": "闪亮词汇收集器",
@@ -183,22 +195,6 @@
     {
       "basename": "合理归类",
       "path": "2. Areas/01认知科学/合理归类.md"
-    },
-    {
-      "basename": "个人才干Top10",
-      "path": "2. Areas/01认知科学/个人才干Top10.md"
-    },
-    {
-      "basename": "抽象思维",
-      "path": "2. Areas/01认知科学/抽象思维.md"
-    },
-    {
-      "basename": "影响行动的潜在能力的知识",
-      "path": "2. Areas/01认知科学/影响行动的潜在能力的知识.md"
-    },
-    {
-      "basename": "五维思考法",
-      "path": "2. Areas/01认知科学/五维思考法.md"
     }
   ],
   "omittedPaths": [

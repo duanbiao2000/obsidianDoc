@@ -1,3 +1,15 @@
+---
+aliases: 
+theme: 
+original: 
+url: 
+author: 
+date created: "{{date:YYYY-MM-DD HH:mm}}" 
+date updated:  "{{date:YYYY-MM-DD HH:mm}}" 
+type: 
+high_priority: false
+tags:
+---
  Redis支持的主要命令包括:
 ### String
 - SET - 设置一个key-value对
