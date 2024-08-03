@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240804021056",
+      "path": "dailyNotes/20240804021056.md"
+    },
+    {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MVC模型",
       "path": "2. Areas/前端开发/React/MVC模型.md"
-    },
-    {
-      "basename": "Material-UI",
-      "path": "2. Areas/前端开发/React/Material-UI.md"
     }
   ],
   "omittedPaths": [
