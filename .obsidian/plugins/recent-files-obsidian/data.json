@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "模块模式的实现原理_闭包",
+      "path": "dailyNotes/模块模式的实现原理_闭包.md"
+    },
+    {
       "basename": "大型 React 应用架构",
       "path": "dailyNotes/大型 React 应用架构.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "React设计模式",
       "path": "2. Areas/前端开发/React设计模式.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "2. Areas/前端开发/Redux.md"
     }
   ],
   "omittedPaths": [

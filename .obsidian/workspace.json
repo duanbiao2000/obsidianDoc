@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/大型 React 应用架构.md",
+                "file": "dailyNotes/模块模式的实现原理_闭包.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/大型 React 应用架构.md",
+                "file": "dailyNotes/模块模式的实现原理_闭包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/大型 React 应用架构.md",
+                "file": "dailyNotes/模块模式的实现原理_闭包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/大型 React 应用架构.md"
+                "file": "dailyNotes/模块模式的实现原理_闭包.md"
               }
             }
           },
@@ -218,7 +218,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/大型 React 应用架构.md"
+                "file": "dailyNotes/模块模式的实现原理_闭包.md"
               }
             }
           },
@@ -289,8 +289,10 @@
   },
   "active": "b0bb9a615e6567c2",
   "lastOpenFiles": [
-    "dailyNotes/React 软目标.md",
+    "5. Misc/Attachments/模块模式的实现原理_闭包",
     "dailyNotes/大型 React 应用架构.md",
+    "dailyNotes/模块模式的实现原理_闭包.md",
+    "dailyNotes/React 软目标.md",
     "dailyNotes/知识蒸馏或经验回放.md",
     "dailyNotes/Pre-emptive decision-making.md",
     "dailyNotes/Efficiency as a Superpower.md",
@@ -314,8 +316,6 @@
     "2. Areas/前端开发/React/React代码解读0608 1.md",
     "2. Areas/前端开发/React/React代码解读0607 1.md",
     "2. Areas/前端开发/React/React代码解读0606 1.md",
-    "2. Areas/前端开发/React/React代码解读0605 1.md",
-    "2. Areas/前端开发/React/React代码解读0605 2.md",
     "5. Misc/Attachments/React进阶实战",
     "5. Misc/Attachments/vim笔记",
     "5. Misc/Attachments/apexcharts",
