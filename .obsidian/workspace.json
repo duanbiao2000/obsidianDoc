@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "dailyNotes/20240804021056.md",
+                    "file": "Atlas/dataview/dataviews.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -28,11 +28,17 @@
                 "id": "11d50cbc9c8d95b3",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "dailyNotes/20240804223930.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "f0b4034db6dd2f1f",
@@ -146,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240804021056.md",
+                "file": "dailyNotes/20240804223930.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240804021056.md",
+                "file": "dailyNotes/20240804223930.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240804021056.md"
+                "file": "dailyNotes/20240804223930.md"
               }
             }
           },
@@ -208,7 +214,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240804021056.md"
+                "file": "dailyNotes/20240804223930.md"
               }
             }
           },
@@ -276,10 +282,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5546ff7fb1c275e6",
+  "active": "11d50cbc9c8d95b3",
   "lastOpenFiles": [
-    "Atlas/dataview/dataviews.md",
     "dailyNotes/20240804021056.md",
+    "Atlas/dataview/dataviews.md",
+    "dailyNotes/20240804223930.md",
     "2. Areas/前端开发/React/React设计模式与最佳实践.md",
     "2. Areas/前端开发/React/React组件间通信代码示例.md",
     "2. Areas/前端开发/React/React生命周期方法.md",
@@ -303,7 +310,6 @@
     "2. Areas/前端开发/React/React代码解读0516 2.md",
     "2. Areas/前端开发/React/React代码解读0516 1.md",
     "2. Areas/前端开发/React/react18通用后台管理系统.md",
-    "2. Areas/前端开发/React/react-bootstrap Components.md",
     "5. Misc/Attachments/React进阶实战",
     "5. Misc/Attachments/vim笔记",
     "5. Misc/Attachments/apexcharts",

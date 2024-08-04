@@ -7,5 +7,5 @@
   "createNewFile": false,
   "explodeIntoNotes": false,
   "openExplodedNotes": false,
-  "createContextualQuotes": false
+  "createContextualQuotes": true
 }

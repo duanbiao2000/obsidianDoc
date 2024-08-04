@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240804223930",
+      "path": "dailyNotes/20240804223930.md"
+    },
+    {
       "basename": "20240804021056",
       "path": "dailyNotes/20240804021056.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "阅读理解",
       "path": "2. Areas/IELTS/阅读理解.md"
-    },
-    {
-      "basename": "MVC模型",
-      "path": "2. Areas/前端开发/React/MVC模型.md"
     }
   ],
   "omittedPaths": [
