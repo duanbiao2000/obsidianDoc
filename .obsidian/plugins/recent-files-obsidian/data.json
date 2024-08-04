@@ -5,6 +5,10 @@
       "path": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md"
     },
     {
+      "basename": "Creating Modular Notes",
+      "path": "dailyNotes/Creating Modular Notes.md"
+    },
+    {
       "basename": "Machine Learning Engineer at Meta",
       "path": "dailyNotes/Machine Learning Engineer at Meta.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Road to React",
       "path": "2. Areas/前端开发/Road to React.md"
-    },
-    {
-      "basename": "Udemy想要的课",
-      "path": "2. Areas/前端开发/Udemy想要的课.md"
     }
   ],
   "omittedPaths": [
