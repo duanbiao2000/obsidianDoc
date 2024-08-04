@@ -1,11 +1,11 @@
 {
   "headlineText": "",
-  "addFootnotes": true,
+  "addFootnotes": false,
   "useBoldForHighlights": true,
-  "createLinks": true,
-  "autoCapitalize": true,
+  "createLinks": false,
+  "autoCapitalize": false,
   "createNewFile": false,
   "explodeIntoNotes": false,
   "openExplodedNotes": false,
-  "createContextualQuotes": true
+  "createContextualQuotes": false
 }

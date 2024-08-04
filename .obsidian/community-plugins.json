@@ -19,7 +19,6 @@
   "quickadd",
   "tag-wrangler",
   "file-explorer-note-count",
-  "extract-highlights-plugin",
   "obsidian-enhancing-export",
   "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
@@ -43,5 +42,6 @@
   "mousewheel-image-zoom",
   "obsidian-image-toolkit",
   "oz-clear-unused-images",
-  "obsidian-advanced-slides"
+  "obsidian-advanced-slides",
+  "extract-highlights-plugin"
 ]

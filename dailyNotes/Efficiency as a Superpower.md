@@ -11,6 +11,24 @@ high_priority: false
 tags:
 ---
 ![Efficiency Tips for Engin...](https://www.youtube.com/watch?v=b33vqX74EcA&t=1219s)
+- operations
+- Reuse existing solutions instead of redoing work.
+- Use technology to aid focus and productivity.
+- align tasks with life goals
+- Breaks
+- Start tasks with low perceived effort
+- Goals and values should guide task prioritization
+- Pre-emptive decision-making
+- "Reuse don't redo — leverage existing frameworks and tools."
+- "Motivation follows action, not the other way around."
+- Lower the activation energy
+- Prioritize the most important and urgent tasks.
+- Schedule breaks to prevent burnout.
+- time blocking
+- Smartphone usage can lead to anxiety and reduced focus.
+- The Eisenhower Matrix for task categorization.
+- Align work with life goals, use strategic planning, and employ operational tactics to enhance personal productivity and efficiency.
+- Engage in social accountability to stay committed to tasks.
 
 
 

@@ -11,5 +11,6 @@
   "enabledCssSnippets": [
     "snippets"
   ],
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "showViewHeader": true
 }

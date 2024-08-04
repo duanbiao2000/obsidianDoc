@@ -24,5 +24,6 @@
   ],
   "tabSize": 2,
   "propertiesInDocument": "visible",
-  "livePreview": true
+  "livePreview": true,
+  "showRibbon": true
 }
