@@ -47,6 +47,32 @@
             }
           },
           {
+            "id": "b0bb9a615e6567c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/大型 React 应用架构.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db81068aa376abde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/大型 React 应用架构.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "11d50cbc9c8d95b3",
             "type": "leaf",
             "state": {
@@ -55,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/React 软目标.md",
+                "file": "dailyNotes/大型 React 应用架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/React 软目标.md",
+                "file": "dailyNotes/大型 React 应用架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/React 软目标.md"
+                "file": "dailyNotes/大型 React 应用架构.md"
               }
             }
           },
@@ -192,7 +218,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/React 软目标.md"
+                "file": "dailyNotes/大型 React 应用架构.md"
               }
             }
           },
@@ -225,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,10 +287,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "566f2703b3c69cc7",
+  "active": "b0bb9a615e6567c2",
   "lastOpenFiles": [
-    "dailyNotes/知识蒸馏或经验回放.md",
     "dailyNotes/React 软目标.md",
+    "dailyNotes/大型 React 应用架构.md",
+    "dailyNotes/知识蒸馏或经验回放.md",
     "dailyNotes/Pre-emptive decision-making.md",
     "dailyNotes/Efficiency as a Superpower.md",
     "dailyNotes/Engage in social accountability to stay committed to tasks..md",
@@ -288,7 +316,6 @@
     "2. Areas/前端开发/React/React代码解读0606 1.md",
     "2. Areas/前端开发/React/React代码解读0605 1.md",
     "2. Areas/前端开发/React/React代码解读0605 2.md",
-    "2. Areas/前端开发/React/React代码解读0605.md",
     "5. Misc/Attachments/React进阶实战",
     "5. Misc/Attachments/vim笔记",
     "5. Misc/Attachments/apexcharts",

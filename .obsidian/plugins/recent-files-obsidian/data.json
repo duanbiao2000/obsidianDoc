@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "大型 React 应用架构",
+      "path": "dailyNotes/大型 React 应用架构.md"
+    },
+    {
       "basename": "React 软目标",
       "path": "dailyNotes/React 软目标.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Redux",
       "path": "2. Areas/前端开发/Redux.md"
-    },
-    {
-      "basename": "nodejs",
-      "path": "2. Areas/前端开发/React/nodejs.md"
     }
   ],
   "omittedPaths": [
