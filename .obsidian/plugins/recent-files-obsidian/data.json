@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "React 软目标",
+      "path": "dailyNotes/React 软目标.md"
+    },
+    {
+      "basename": "知识蒸馏或经验回放",
+      "path": "dailyNotes/知识蒸馏或经验回放.md"
+    },
+    {
+      "basename": "Pre-emptive decision-making",
+      "path": "dailyNotes/Pre-emptive decision-making.md"
+    },
+    {
       "basename": "Efficiency as a Superpower",
       "path": "dailyNotes/Efficiency as a Superpower.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "nodejs",
       "path": "2. Areas/前端开发/React/nodejs.md"
-    },
-    {
-      "basename": "Extract Wisdom",
-      "path": "2. Areas/01认知科学/Fabric/Extract Wisdom.md"
-    },
-    {
-      "basename": "An Astronaut's Guide to Life on",
-      "path": "2. Areas/01认知科学/Fabric/Wisdom/An Astronaut's Guide to Life on.md"
     }
   ],
   "omittedPaths": [

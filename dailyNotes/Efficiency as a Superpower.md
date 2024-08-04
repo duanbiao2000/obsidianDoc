@@ -49,7 +49,7 @@ IDEAS:
 INSIGHTS:
 - **Goals and values should guide task prioritization**.
 - Efficiency can be achieved by leveraging existing tools and knowledge.
-- **Pre-emptive decision-making** reduces bias and emotion in choices.
+- **[[Pre-emptive decision-making]]** reduces bias and emotion in choices.
 - Understanding the nature of the task at hand informs the approach to problem-solving.
 - Motivation often follows the initiation of action, not the other way around.
 - Small, achievable starts can lead to sustained effort.
