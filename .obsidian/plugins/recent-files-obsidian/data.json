@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Everything Starts with a Note-taking System",
+      "path": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md"
+    },
+    {
+      "basename": "Machine Learning Engineer at Meta",
+      "path": "dailyNotes/Machine Learning Engineer at Meta.md"
+    },
+    {
       "basename": "模块模式的实现原理_闭包",
       "path": "dailyNotes/模块模式的实现原理_闭包.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Udemy想要的课",
       "path": "2. Areas/前端开发/Udemy想要的课.md"
-    },
-    {
-      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
-      "path": "2. Areas/前端开发/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
-    },
-    {
-      "basename": "React设计模式",
-      "path": "2. Areas/前端开发/React设计模式.md"
     }
   ],
   "omittedPaths": [

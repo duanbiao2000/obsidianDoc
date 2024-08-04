@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/模块模式的实现原理_闭包.md",
+                "file": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/模块模式的实现原理_闭包.md",
+                "file": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/模块模式的实现原理_闭包.md",
+                "file": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/模块模式的实现原理_闭包.md"
+                "file": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md"
               }
             }
           },
@@ -218,7 +218,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/模块模式的实现原理_闭包.md"
+                "file": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md"
               }
             }
           },
@@ -289,9 +289,13 @@
   },
   "active": "b0bb9a615e6567c2",
   "lastOpenFiles": [
+    "5. Misc/Attachments/Everything Starts with a Note-taking System",
+    "dailyNotes/Machine Learning Engineer at Meta.md",
+    "2. Areas/01认知科学/Everything Starts with a Note-taking System.md",
+    "5. Misc/Attachments/Machine Learning Engineer at Meta",
+    "dailyNotes/模块模式的实现原理_闭包.md",
     "5. Misc/Attachments/模块模式的实现原理_闭包",
     "dailyNotes/大型 React 应用架构.md",
-    "dailyNotes/模块模式的实现原理_闭包.md",
     "dailyNotes/React 软目标.md",
     "dailyNotes/知识蒸馏或经验回放.md",
     "dailyNotes/Pre-emptive decision-making.md",
@@ -314,8 +318,6 @@
     "2. Areas/前端开发/React/React代码解读0609 1.md",
     "2. Areas/前端开发/React/React代码解读0608 2.md",
     "2. Areas/前端开发/React/React代码解读0608 1.md",
-    "2. Areas/前端开发/React/React代码解读0607 1.md",
-    "2. Areas/前端开发/React/React代码解读0606 1.md",
     "5. Misc/Attachments/React进阶实战",
     "5. Misc/Attachments/vim笔记",
     "5. Misc/Attachments/apexcharts",
@@ -329,8 +331,6 @@
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124833384.png",
     "5. Misc/Attachments/React Quickly",
     "5. Misc/Attachments/React软件架构",
-    "5. Misc/Attachments/Redux",
-    "5. Misc/Attachments/知识图谱",
     "Extras/Obsidian-Templates-main/Docs/images/To-Big-Chars.png",
     "Extras/Obsidian-Templates-main/Docs/images/Task-Progress.png",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
