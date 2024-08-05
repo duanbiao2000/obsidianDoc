@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "20240806011044",
+      "path": "dailyNotes/20240806011044.md"
+    },
+    {
+      "basename": "20240805043645",
+      "path": "dailyNotes/20240805043645.md"
+    },
+    {
       "basename": "20240805204838_ES2016-19",
       "path": "dailyNotes/20240805204838_ES2016-19.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "20240805113602_this的指向",
       "path": "dailyNotes/20240805113602_this的指向.md"
-    },
-    {
-      "basename": "20240805043645",
-      "path": "dailyNotes/20240805043645.md"
     },
     {
       "basename": "JavaScript 中的原型和对象创建",
@@ -195,10 +199,6 @@
     {
       "basename": "创业初期的收入流尝试",
       "path": "2. Areas/01认知科学/创业初期的收入流尝试.md"
-    },
-    {
-      "basename": "敏捷和精益方法",
-      "path": "2. Areas/01认知科学/敏捷和精益方法.md"
     }
   ],
   "omittedPaths": [

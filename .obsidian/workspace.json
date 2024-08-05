@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240805204838_ES2016-19.md",
+                "file": "dailyNotes/20240806011044.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240805204838_ES2016-19.md",
+                "file": "dailyNotes/20240806011044.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240805204838_ES2016-19.md",
+                "file": "dailyNotes/20240806011044.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240805204838_ES2016-19.md"
+                "file": "dailyNotes/20240806011044.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240805204838_ES2016-19.md"
+                "file": "dailyNotes/20240806011044.md"
               }
             }
           },
@@ -236,9 +236,14 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "dailyNotes/20240805043645.md",
+    "dailyNotes/20240806011044.md",
+    "5. Misc/Attachments/20240806011044",
+    "5. Misc/Attachments/20240806011044_12",
+    "5. Misc/Attachments/20240806011044_理解 Object.create(null)",
+    "dailyNotes/20240805204838_ES2016-19.md",
     "5. Misc/Attachments/20240805204838_ES2016-19",
     "dailyNotes/20240805203340-JS中的Proxy.md",
-    "dailyNotes/20240805204838_ES2016-19.md",
     "5. Misc/Attachments/20240805203340-JS中的Proxy",
     "dailyNotes/异步操作.md",
     "5. Misc/Attachments/异步操作",
@@ -246,19 +251,14 @@
     "5. Misc/Attachments/20240805144814_Promise与事件循环特性的关系",
     "dailyNotes/20240805113602_this的指向.md",
     "5. Misc/Attachments/20240805113602_this的指向",
-    "dailyNotes/20240805043645.md",
     "dailyNotes/JavaScript 中的原型和对象创建.md",
     "5. Misc/Attachments/JavaScript 中的原型和对象创建",
     "dailyNotes/闭包在设计模式中的应用.md",
     "5. Misc/Attachments/闭包在设计模式中的应用",
-    "5. Misc/Attachments/闭包",
     "Atlas/dataview/dataviews.md",
     "2. Areas/01认知科学/Everything Starts with a Note-taking System.md",
     "dailyNotes/Creating Modular Notes.md",
-    "5. Misc/Attachments/Creating Modular Notes",
-    "5. Misc/Attachments/Everything Starts with a Note-taking System",
     "dailyNotes/Machine Learning Engineer at Meta.md",
-    "5. Misc/Attachments/Machine Learning Engineer at Meta",
     "dailyNotes/模块模式的实现原理_闭包.md",
     "dailyNotes/大型 React 应用架构.md",
     "dailyNotes/React 软目标.md",
@@ -271,7 +271,6 @@
     "2. Areas/前端开发/React/React组件间通信代码示例.md",
     "2. Areas/前端开发/React/React生命周期方法.md",
     "2. Areas/前端开发/React/React状态管理Redux.md",
-    "2. Areas/前端开发/React/React测试.md",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
