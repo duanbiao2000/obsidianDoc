@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240805144814_Promise与事件循环特性的关系.md",
+                "file": "dailyNotes/异步操作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240805144814_Promise与事件循环特性的关系.md",
+                "file": "dailyNotes/异步操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240805144814_Promise与事件循环特性的关系.md",
+                "file": "dailyNotes/异步操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240805144814_Promise与事件循环特性的关系.md"
+                "file": "dailyNotes/异步操作.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240805144814_Promise与事件循环特性的关系.md"
+                "file": "dailyNotes/异步操作.md"
               }
             }
           },
@@ -236,9 +236,11 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "5. Misc/Attachments/异步操作",
+    "dailyNotes/20240805144814_Promise与事件循环特性的关系.md",
+    "dailyNotes/异步操作.md",
     "5. Misc/Attachments/20240805144814_Promise与事件循环特性的关系",
     "dailyNotes/20240805113602_this的指向.md",
-    "dailyNotes/20240805144814_Promise与事件循环特性的关系.md",
     "5. Misc/Attachments/20240805113602_this的指向",
     "dailyNotes/20240805043645.md",
     "dailyNotes/JavaScript 中的原型和对象创建.md",
@@ -270,8 +272,6 @@
     "2. Areas/前端开发/React/React测试.md",
     "2. Areas/前端开发/React/React插件.md",
     "2. Areas/前端开发/React/Redux Toolkit.md",
-    "2. Areas/前端开发/React/React历史.md",
-    "5. Misc/Attachments/React进阶实战",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
