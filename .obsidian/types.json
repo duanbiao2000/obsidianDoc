@@ -37,6 +37,7 @@
     "excalidraw-open-md": "checkbox",
     "excalidraw-embeddable-theme": "text",
     "minScale": "text",
-    "date_created": "datetime"
+    "date_created": "datetime",
+    "date_updated": "datetime"
   }
 }
