@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240805144814_Promise与事件循环特性的关系",
+      "path": "dailyNotes/20240805144814_Promise与事件循环特性的关系.md"
+    },
+    {
       "basename": "20240805113602_this的指向",
       "path": "dailyNotes/20240805113602_this的指向.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Redis 常用命令",
       "path": "2. Areas/前端开发/React/Redis 常用命令.md"
-    },
-    {
-      "basename": "Typesciprt扩展",
-      "path": "2. Areas/前端开发/TypeScript/Typesciprt扩展.md"
     }
   ],
   "omittedPaths": [
