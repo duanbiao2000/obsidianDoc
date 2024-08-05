@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
+      "basename": "20240805043645",
+      "path": "dailyNotes/20240805043645.md"
+    },
+    {
       "basename": "Everything Starts with a Note-taking System",
       "path": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Efficiency as a Superpower",
       "path": "dailyNotes/Efficiency as a Superpower.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
     },
     {
       "basename": "20240804021056",
@@ -195,10 +199,6 @@
     {
       "basename": "React软件架构",
       "path": "2. Areas/前端开发/React软件架构.md"
-    },
-    {
-      "basename": "Road to React",
-      "path": "2. Areas/前端开发/Road to React.md"
     }
   ],
   "omittedPaths": [
