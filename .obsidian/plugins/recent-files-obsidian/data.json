@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
+      "basename": "20240805113602",
+      "path": "dailyNotes/20240805113602.md"
     },
     {
       "basename": "20240805043645",
       "path": "dailyNotes/20240805043645.md"
+    },
+    {
+      "basename": "JavaScript 中的原型和对象创建",
+      "path": "dailyNotes/JavaScript 中的原型和对象创建.md"
+    },
+    {
+      "basename": "闭包在设计模式中的应用",
+      "path": "dailyNotes/闭包在设计模式中的应用.md"
+    },
+    {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
     },
     {
       "basename": "Everything Starts with a Note-taking System",
@@ -187,18 +199,6 @@
     {
       "basename": "Typesciprt扩展",
       "path": "2. Areas/前端开发/TypeScript/Typesciprt扩展.md"
-    },
-    {
-      "basename": "IMG-Vue基础-20240714124833410",
-      "path": "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png"
-    },
-    {
-      "basename": "Typescript泛型",
-      "path": "2. Areas/前端开发/TypeScript/Typescript泛型.md"
-    },
-    {
-      "basename": "React软件架构",
-      "path": "2. Areas/前端开发/React软件架构.md"
     }
   ],
   "omittedPaths": [
