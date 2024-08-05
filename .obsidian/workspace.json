@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/异步操作.md",
+                "file": "dailyNotes/20240805204838_ES2016-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/异步操作.md",
+                "file": "dailyNotes/20240805204838_ES2016-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/异步操作.md",
+                "file": "dailyNotes/20240805204838_ES2016-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/异步操作.md"
+                "file": "dailyNotes/20240805204838_ES2016-19.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/异步操作.md"
+                "file": "dailyNotes/20240805204838_ES2016-19.md"
               }
             }
           },
@@ -236,9 +236,13 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "5. Misc/Attachments/20240805204838_ES2016-19",
+    "dailyNotes/20240805203340-JS中的Proxy.md",
+    "dailyNotes/20240805204838_ES2016-19.md",
+    "5. Misc/Attachments/20240805203340-JS中的Proxy",
+    "dailyNotes/异步操作.md",
     "5. Misc/Attachments/异步操作",
     "dailyNotes/20240805144814_Promise与事件循环特性的关系.md",
-    "dailyNotes/异步操作.md",
     "5. Misc/Attachments/20240805144814_Promise与事件循环特性的关系",
     "dailyNotes/20240805113602_this的指向.md",
     "5. Misc/Attachments/20240805113602_this的指向",
@@ -256,22 +260,18 @@
     "dailyNotes/Machine Learning Engineer at Meta.md",
     "5. Misc/Attachments/Machine Learning Engineer at Meta",
     "dailyNotes/模块模式的实现原理_闭包.md",
-    "5. Misc/Attachments/模块模式的实现原理_闭包",
     "dailyNotes/大型 React 应用架构.md",
     "dailyNotes/React 软目标.md",
     "dailyNotes/知识蒸馏或经验回放.md",
     "dailyNotes/Pre-emptive decision-making.md",
     "dailyNotes/Efficiency as a Superpower.md",
     "dailyNotes/Engage in social accountability to stay committed to tasks..md",
-    "5. Misc/Attachments/Efficiency as a Superpower",
     "dailyNotes/20240804021056.md",
     "2. Areas/前端开发/React/React设计模式与最佳实践.md",
     "2. Areas/前端开发/React/React组件间通信代码示例.md",
     "2. Areas/前端开发/React/React生命周期方法.md",
     "2. Areas/前端开发/React/React状态管理Redux.md",
     "2. Areas/前端开发/React/React测试.md",
-    "2. Areas/前端开发/React/React插件.md",
-    "2. Areas/前端开发/React/Redux Toolkit.md",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
