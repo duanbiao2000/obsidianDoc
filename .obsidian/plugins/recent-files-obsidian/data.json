@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240806132908",
+      "path": "dailyNotes/20240806132908.md"
+    },
+    {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "vim笔记",
       "path": "3. Resources/Utility/vim笔记.md"
-    },
-    {
-      "basename": "创业初期的收入流尝试",
-      "path": "2. Areas/01认知科学/创业初期的收入流尝试.md"
     }
   ],
   "omittedPaths": [
