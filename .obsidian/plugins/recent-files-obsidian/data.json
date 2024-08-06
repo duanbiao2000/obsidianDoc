@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
       "basename": "20240806011044",
       "path": "dailyNotes/20240806011044.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "闭包在设计模式中的应用",
       "path": "dailyNotes/闭包在设计模式中的应用.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
     },
     {
       "basename": "Everything Starts with a Note-taking System",
