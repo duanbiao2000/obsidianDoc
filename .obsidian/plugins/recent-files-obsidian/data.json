@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "高级语法",
+      "path": "2. Areas/IELTS/高级语法.md"
+    },
+    {
       "basename": "20240806132908",
       "path": "dailyNotes/20240806132908.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Serverless",
       "path": "2. Areas/前端开发/React/Serverless.md"
-    },
-    {
-      "basename": "vim笔记",
-      "path": "3. Resources/Utility/vim笔记.md"
     }
   ],
   "omittedPaths": [

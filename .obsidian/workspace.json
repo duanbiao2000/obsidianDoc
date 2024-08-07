@@ -13,19 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240806132908.md",
+                "file": "2. Areas/IELTS/高级语法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "11d50cbc9c8d95b3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -86,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -103,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240806132908.md",
+                "file": "2. Areas/IELTS/高级语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240806132908.md",
+                "file": "2. Areas/IELTS/高级语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240806132908.md"
+                "file": "2. Areas/IELTS/高级语法.md"
               }
             }
           },
@@ -165,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240806132908.md"
+                "file": "2. Areas/IELTS/高级语法.md"
               }
             }
           },
@@ -236,8 +227,10 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
-    "Atlas/dataview/dataviews.md",
+    "5. Misc/Attachments/高级语法",
     "dailyNotes/20240806132908.md",
+    "2. Areas/IELTS/高级语法.md",
+    "Atlas/dataview/dataviews.md",
     "dailyNotes/20240806011044.md",
     "dailyNotes/20240805043645.md",
     "5. Misc/Attachments/20240806011044",
@@ -270,8 +263,6 @@
     "dailyNotes/20240804021056.md",
     "2. Areas/前端开发/React/React设计模式与最佳实践.md",
     "2. Areas/前端开发/React/React组件间通信代码示例.md",
-    "2. Areas/前端开发/React/React生命周期方法.md",
-    "2. Areas/前端开发/React/React状态管理Redux.md",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
