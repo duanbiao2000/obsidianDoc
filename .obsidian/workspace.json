@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/IELTS/高级语法.md",
+                "file": "2. Areas/01认知科学/知识炼金术.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "知识炼金术",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/IELTS/高级语法.md",
+                "file": "2. Areas/01认知科学/知识炼金术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/IELTS/高级语法.md",
+                "file": "2. Areas/01认知科学/知识炼金术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/IELTS/高级语法.md"
+                "file": "2. Areas/01认知科学/知识炼金术.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/IELTS/高级语法.md"
+                "file": "2. Areas/01认知科学/知识炼金术.md"
               }
             }
           },
@@ -228,9 +228,9 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "2. Areas/IELTS/高级语法.md",
     "5. Misc/Attachments/高级语法",
     "dailyNotes/20240806132908.md",
-    "2. Areas/IELTS/高级语法.md",
     "Atlas/dataview/dataviews.md",
     "dailyNotes/20240806011044.md",
     "dailyNotes/20240805043645.md",
@@ -250,7 +250,6 @@
     "dailyNotes/JavaScript 中的原型和对象创建.md",
     "5. Misc/Attachments/JavaScript 中的原型和对象创建",
     "dailyNotes/闭包在设计模式中的应用.md",
-    "5. Misc/Attachments/闭包在设计模式中的应用",
     "2. Areas/01认知科学/Everything Starts with a Note-taking System.md",
     "dailyNotes/Creating Modular Notes.md",
     "dailyNotes/Machine Learning Engineer at Meta.md",

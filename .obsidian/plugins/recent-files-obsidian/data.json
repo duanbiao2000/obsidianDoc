@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "知识炼金术",
+      "path": "2. Areas/01认知科学/知识炼金术.md"
+    },
+    {
       "basename": "高级语法",
       "path": "2. Areas/IELTS/高级语法.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Flask开发部署",
       "path": "2. Areas/前端开发/React/Flask开发部署.md"
-    },
-    {
-      "basename": "Serverless",
-      "path": "2. Areas/前端开发/React/Serverless.md"
     }
   ],
   "omittedPaths": [
