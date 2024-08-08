@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240809012901",
+      "path": "dailyNotes/20240809012901.md"
+    },
+    {
       "basename": "20240808131344",
       "path": "dailyNotes/20240808131344.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Nodejs关键技术",
       "path": "2. Areas/前端开发/Nodejs关键技术.md"
-    },
-    {
-      "basename": "JavaScript深度学习",
-      "path": "2. Areas/前端开发/JavaScript深度学习.md"
     }
   ],
   "omittedPaths": [
