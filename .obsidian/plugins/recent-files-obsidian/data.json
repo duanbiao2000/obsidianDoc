@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "知识炼金术",
+      "path": "2. Areas/01认知科学/知识炼金术.md"
+    },
+    {
+      "basename": "20240809145242",
+      "path": "dailyNotes/20240809145242.md"
+    },
+    {
+      "basename": "20240809145225",
+      "path": "dailyNotes/20240809145225.md"
+    },
+    {
       "basename": "20240809012901",
       "path": "dailyNotes/20240809012901.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
-    },
-    {
-      "basename": "知识炼金术",
-      "path": "2. Areas/01认知科学/知识炼金术.md"
     },
     {
       "basename": "高级语法",
@@ -191,14 +199,6 @@
     {
       "basename": "Youtube-React-extract",
       "path": "2. Areas/前端开发/Youtube-React-extract.md"
-    },
-    {
-      "basename": "React进阶实战",
-      "path": "2. Areas/前端开发/React进阶实战.md"
-    },
-    {
-      "basename": "Nodejs关键技术",
-      "path": "2. Areas/前端开发/Nodejs关键技术.md"
     }
   ],
   "omittedPaths": [

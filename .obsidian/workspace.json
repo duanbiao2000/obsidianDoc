@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240809012901.md",
+                "file": "2. Areas/01认知科学/知识炼金术.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "炼金",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240809012901.md",
+                "file": "2. Areas/01认知科学/知识炼金术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240809012901.md",
+                "file": "2. Areas/01认知科学/知识炼金术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240809012901.md"
+                "file": "2. Areas/01认知科学/知识炼金术.md"
               }
             }
           },
@@ -164,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240809012901.md"
+                "file": "2. Areas/01认知科学/知识炼金术.md"
               }
             }
           },
@@ -235,8 +236,10 @@
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
-    "dailyNotes/20240808131344.md",
+    "dailyNotes/20240809145242.md",
+    "dailyNotes/20240809145225.md",
     "dailyNotes/20240809012901.md",
+    "dailyNotes/20240808131344.md",
     "dailyNotes/20240808125725.md",
     "Atlas/dataview/dataviews.md",
     "2. Areas/01认知科学/知识炼金术.md",
@@ -269,8 +272,6 @@
     "dailyNotes/React 软目标.md",
     "dailyNotes/知识蒸馏或经验回放.md",
     "dailyNotes/Pre-emptive decision-making.md",
-    "dailyNotes/Efficiency as a Superpower.md",
-    "dailyNotes/Engage in social accountability to stay committed to tasks..md",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
