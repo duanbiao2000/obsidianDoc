@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240810204903",
+      "path": "dailyNotes/20240810204903.md"
+    },
+    {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "apexcharts",
       "path": "2. Areas/前端开发/React/apexcharts.md"
-    },
-    {
-      "basename": "知识图谱",
-      "path": "2. Areas/前端开发/知识图谱.md"
     }
   ],
   "omittedPaths": [
