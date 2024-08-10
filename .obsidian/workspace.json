@@ -4,75 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "9f83635cac6155a3",
-        "type": "split",
+        "id": "e68007277d077560",
+        "type": "tabs",
         "children": [
           {
-            "id": "e68007277d077560",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/dataview/dataviews.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "11d50cbc9c8d95b3",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
+            "id": "5546ff7fb1c275e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240810124404.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ]
+            }
           },
           {
-            "id": "f0b4034db6dd2f1f",
-            "type": "split",
-            "children": [
-              {
-                "id": "3c719f923dad6376",
-                "type": "tabs",
-                "dimension": 66.56976744186046,
-                "children": [
-                  {
-                    "id": "b6c5fa0c5bef5f0f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "graph",
-                      "state": {}
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "af96cf2ae69ef399",
-                "type": "tabs",
-                "dimension": 33.43023255813954,
-                "children": [
-                  {
-                    "id": "ced13bdc9999bec1",
-                    "type": "leaf",
-                    "state": {
-                      "type": "mindmap",
-                      "state": {}
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "horizontal"
+            "id": "11d50cbc9c8d95b3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ],
-        "direction": "vertical"
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -146,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/dataview/dataviews.md",
+                "file": "dailyNotes/20240810124404.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/dataview/dataviews.md",
+                "file": "dailyNotes/20240810124404.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/dataview/dataviews.md"
+                "file": "dailyNotes/20240810124404.md"
               }
             }
           },
@@ -208,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/dataview/dataviews.md"
+                "file": "dailyNotes/20240810124404.md"
               }
             }
           },
@@ -237,11 +194,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,18 +229,23 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "5546ff7fb1c275e6",
   "lastOpenFiles": [
+    "dailyNotes/20240810124408.md",
+    "dailyNotes/20240810124404.md",
+    "Atlas/dataview/dataviews.md",
+    "Omnivore/-学莫便乎近其人。-全诗赏析_古诗文网.md",
     "2. Areas/01认知科学/知识炼金术.md",
     "dailyNotes/20240809145242.md",
     "dailyNotes/20240809145225.md",
     "dailyNotes/20240809012901.md",
     "dailyNotes/20240808131344.md",
     "dailyNotes/20240808125725.md",
-    "Atlas/dataview/dataviews.md",
     "2. Areas/IELTS/高级语法.md",
     "5. Misc/Attachments/高级语法",
     "dailyNotes/20240806132908.md",
@@ -309,9 +272,6 @@
     "dailyNotes/Machine Learning Engineer at Meta.md",
     "dailyNotes/模块模式的实现原理_闭包.md",
     "dailyNotes/大型 React 应用架构.md",
-    "dailyNotes/React 软目标.md",
-    "dailyNotes/知识蒸馏或经验回放.md",
-    "dailyNotes/Pre-emptive decision-making.md",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",

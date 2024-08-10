@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "20240810124404",
+      "path": "dailyNotes/20240810124404.md"
+    },
+    {
+      "basename": "20240810124408",
+      "path": "dailyNotes/20240810124408.md"
+    },
+    {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "梗直哥丶 专治好奇",
       "path": "2. Areas/前端开发/梗直哥丶 专治好奇.md"
-    },
-    {
-      "basename": "图灵前端核心知识进阶系列（套装全10册）",
-      "path": "2. Areas/前端开发/图灵前端核心知识进阶系列（套装全10册）.md"
-    },
-    {
-      "basename": "Youtube-React-extract",
-      "path": "2. Areas/前端开发/Youtube-React-extract.md"
     }
   ],
   "omittedPaths": [
