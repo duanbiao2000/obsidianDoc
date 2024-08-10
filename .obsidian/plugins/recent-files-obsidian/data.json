@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
       "basename": "知识炼金术",
       "path": "2. Areas/01认知科学/知识炼金术.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "20240808125725",
       "path": "dailyNotes/20240808125725.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
     },
     {
       "basename": "高级语法",
