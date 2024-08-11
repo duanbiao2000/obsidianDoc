@@ -36,7 +36,6 @@
           {
             "id": "8fd1f6da4d0da158",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -44,8 +43,7 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -256,9 +254,9 @@
   },
   "active": "8fd1f6da4d0da158",
   "lastOpenFiles": [
+    "Atlas/dataview/dataviews.md",
     "dailyNotes/20240810204903.md",
     "dailyNotes/20240811000000.md",
-    "Atlas/dataview/dataviews.md",
     "dailyNotes/20240810201111.md",
     "dailyNotes/20240810124404.md",
     "dailyNotes/20240810124408.md",
