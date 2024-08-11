@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240811154638",
+      "path": "dailyNotes/20240811154638.md"
+    },
+    {
       "basename": "20240811144939",
       "path": "dailyNotes/20240811144939.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "React Hooks",
       "path": "2. Areas/前端开发/React/React Hooks.md"
-    },
-    {
-      "basename": "Home",
-      "path": "2. Areas/前端开发/React/Home.md"
     }
   ],
   "omittedPaths": [
