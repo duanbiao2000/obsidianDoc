@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240811144939",
+      "path": "dailyNotes/20240811144939.md"
+    },
+    {
       "basename": "20240811000000",
       "path": "dailyNotes/20240811000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Home",
       "path": "2. Areas/前端开发/React/Home.md"
-    },
-    {
-      "basename": "JavaScript 忍者秘籍(第2版)",
-      "path": "2. Areas/前端开发/React/JavaScript 忍者秘籍(第2版).md"
     }
   ],
   "omittedPaths": [
