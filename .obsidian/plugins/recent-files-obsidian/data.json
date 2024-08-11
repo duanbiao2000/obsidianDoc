@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "20240811201819",
+      "path": "dailyNotes/20240811201819.md"
+    },
+    {
+      "basename": "20240811201626",
+      "path": "dailyNotes/20240811201626.md"
+    },
+    {
+      "basename": "20240811201622",
+      "path": "dailyNotes/20240811201622.md"
+    },
+    {
       "basename": "20240811154638",
       "path": "dailyNotes/20240811154638.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "react18通用后台管理系统",
       "path": "2. Areas/前端开发/React/react18通用后台管理系统.md"
-    },
-    {
-      "basename": "react-bootstrap Components",
-      "path": "2. Areas/前端开发/React/react-bootstrap Components.md"
-    },
-    {
-      "basename": "React Quickly, Second Edition - MEAP... (Z-Library).pdf",
-      "path": "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md"
-    },
-    {
-      "basename": "React Hooks",
-      "path": "2. Areas/前端开发/React/React Hooks.md"
     }
   ],
   "omittedPaths": [
