@@ -32,9 +32,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8fd1f6da4d0da158",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240811000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240810204903.md",
+                "file": "dailyNotes/20240811000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240810204903.md",
+                "file": "dailyNotes/20240811000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240810204903.md"
+                "file": "dailyNotes/20240811000000.md"
               }
             }
           },
@@ -170,7 +185,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240810204903.md"
+                "file": "dailyNotes/20240811000000.md"
               }
             }
           },
@@ -239,9 +254,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "11d50cbc9c8d95b3",
+  "active": "8fd1f6da4d0da158",
   "lastOpenFiles": [
     "dailyNotes/20240810204903.md",
+    "dailyNotes/20240811000000.md",
     "Atlas/dataview/dataviews.md",
     "dailyNotes/20240810201111.md",
     "dailyNotes/20240810124404.md",
@@ -276,7 +292,6 @@
     "dailyNotes/闭包在设计模式中的应用.md",
     "2. Areas/01认知科学/Everything Starts with a Note-taking System.md",
     "dailyNotes/Creating Modular Notes.md",
-    "dailyNotes/Machine Learning Engineer at Meta.md",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
