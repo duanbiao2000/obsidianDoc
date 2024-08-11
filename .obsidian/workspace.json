@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240811201819.md",
+                "file": "dailyNotes/20240811215217.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240811201819.md",
+                "file": "dailyNotes/20240811215217.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240811201819.md",
+                "file": "dailyNotes/20240811215217.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240811201819.md"
+                "file": "dailyNotes/20240811215217.md"
               }
             }
           },
@@ -183,7 +184,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240811201819.md"
+                "file": "dailyNotes/20240811215217.md"
               }
             }
           },
@@ -254,8 +255,9 @@
   },
   "active": "8fd1f6da4d0da158",
   "lastOpenFiles": [
-    "dailyNotes/20240811201626.md",
     "dailyNotes/20240811201819.md",
+    "dailyNotes/20240811215217.md",
+    "dailyNotes/20240811201626.md",
     "dailyNotes/20240811201622.md",
     "dailyNotes/20240811154638.md",
     "dailyNotes/20240811144939.md",
@@ -286,7 +288,6 @@
     "5. Misc/Attachments/20240805203340-JS中的Proxy",
     "dailyNotes/异步操作.md",
     "5. Misc/Attachments/异步操作",
-    "dailyNotes/20240805144814_Promise与事件循环特性的关系.md",
     "5. Misc/Attachments/20240805144814_Promise与事件循环特性的关系",
     "5. Misc/Attachments/20240805113602_this的指向",
     "5. Misc/Attachments/JavaScript 中的原型和对象创建",
