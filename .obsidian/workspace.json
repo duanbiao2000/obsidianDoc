@@ -60,9 +60,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "cde61d7f45eb6aa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240812120857.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -137,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240812000000.md",
+                "file": "dailyNotes/20240812120857.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240812000000.md",
+                "file": "dailyNotes/20240812120857.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240812000000.md"
+                "file": "dailyNotes/20240812120857.md"
               }
             }
           },
@@ -199,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240812000000.md"
+                "file": "dailyNotes/20240812120857.md"
               }
             }
           },
@@ -268,10 +281,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "f999531e92fa6fbe",
+  "active": "cde61d7f45eb6aa3",
   "lastOpenFiles": [
-    "dailyNotes/20240811215217.md",
     "dailyNotes/20240812000000.md",
+    "dailyNotes/20240812120857.md",
+    "dailyNotes/20240811215217.md",
     "dailyNotes/20240811232731.md",
     "dailyNotes/20240811201819.md",
     "dailyNotes/20240811201626.md",
@@ -299,7 +313,6 @@
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
     "5. Misc/Attachments/20240806011044_理解 Object.create(null)",
-    "dailyNotes/20240805204838_ES2016-19.md",
     "5. Misc/Attachments/20240805204838_ES2016-19",
     "5. Misc/Attachments/20240805203340-JS中的Proxy",
     "5. Misc/Attachments/异步操作",
