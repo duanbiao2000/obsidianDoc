@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "20240812000000",
+      "path": "dailyNotes/20240812000000.md"
+    },
+    {
       "basename": "20240811215217",
       "path": "dailyNotes/20240811215217.md"
+    },
+    {
+      "basename": "20240811232731",
+      "path": "dailyNotes/20240811232731.md"
     },
     {
       "basename": "20240811201819",
@@ -191,14 +199,6 @@
     {
       "basename": "useEffect",
       "path": "2. Areas/前端开发/React/useEffect.md"
-    },
-    {
-      "basename": "React代码解读0605",
-      "path": "2. Areas/前端开发/React/React代码解读0605.md"
-    },
-    {
-      "basename": "React代码解读0516",
-      "path": "2. Areas/前端开发/React/React代码解读0516.md"
     }
   ],
   "omittedPaths": [
