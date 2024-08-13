@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "20240813103627",
+      "path": "dailyNotes/20240813103627.md"
+    },
+    {
       "basename": "20240813000000",
       "path": "dailyNotes/20240813000000.md"
     },
     {
-      "basename": "20240812120857",
-      "path": "dailyNotes/20240812120857.md"
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
+      "basename": "20240810204903",
+      "path": "dailyNotes/20240810204903.md"
+    },
+    {
+      "basename": "20240811215217",
+      "path": "dailyNotes/20240811215217.md"
     },
     {
       "basename": "20240812000000",
       "path": "dailyNotes/20240812000000.md"
     },
     {
-      "basename": "20240811215217",
-      "path": "dailyNotes/20240811215217.md"
+      "basename": "20240812120857",
+      "path": "dailyNotes/20240812120857.md"
     },
     {
       "basename": "20240811232731",
@@ -43,14 +55,6 @@
     {
       "basename": "20240811000000",
       "path": "dailyNotes/20240811000000.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
-    },
-    {
-      "basename": "20240810204903",
-      "path": "dailyNotes/20240810204903.md"
     },
     {
       "basename": "20240810201111",
@@ -195,10 +199,6 @@
     {
       "basename": "React插件",
       "path": "2. Areas/前端开发/React/React插件.md"
-    },
-    {
-      "basename": "React历史",
-      "path": "2. Areas/前端开发/React/React历史.md"
     }
   ],
   "omittedPaths": [
