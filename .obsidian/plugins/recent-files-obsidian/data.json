@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240813000000",
+      "path": "dailyNotes/20240813000000.md"
+    },
+    {
       "basename": "20240812120857",
       "path": "dailyNotes/20240812120857.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "React历史",
       "path": "2. Areas/前端开发/React/React历史.md"
-    },
-    {
-      "basename": "新手React项目",
-      "path": "2. Areas/前端开发/React/新手React项目.md"
     }
   ],
   "omittedPaths": [

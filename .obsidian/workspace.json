@@ -73,9 +73,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2d1a1e7aa9e5615c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240813000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -150,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240812120857.md",
+                "file": "dailyNotes/20240813000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240812120857.md",
+                "file": "dailyNotes/20240813000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240812120857.md"
+                "file": "dailyNotes/20240813000000.md"
               }
             }
           },
@@ -212,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240812120857.md"
+                "file": "dailyNotes/20240813000000.md"
               }
             }
           },
@@ -281,10 +296,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "cde61d7f45eb6aa3",
+  "active": "2d1a1e7aa9e5615c",
   "lastOpenFiles": [
-    "dailyNotes/20240812000000.md",
     "dailyNotes/20240812120857.md",
+    "dailyNotes/20240813000000.md",
+    "dailyNotes/20240812000000.md",
     "dailyNotes/20240811215217.md",
     "dailyNotes/20240811232731.md",
     "dailyNotes/20240811201819.md",
@@ -309,7 +325,6 @@
     "5. Misc/Attachments/高级语法",
     "dailyNotes/20240806132908.md",
     "dailyNotes/20240806011044.md",
-    "dailyNotes/20240805043645.md",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
     "5. Misc/Attachments/20240806011044_理解 Object.create(null)",
