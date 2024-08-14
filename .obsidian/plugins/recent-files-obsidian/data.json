@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240814125947",
+      "path": "dailyNotes/20240814125947.md"
+    },
+    {
       "basename": "20240814000000",
       "path": "dailyNotes/20240814000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "React状态管理Redux",
       "path": "2. Areas/前端开发/React/React状态管理Redux.md"
-    },
-    {
-      "basename": "React测试",
-      "path": "2. Areas/前端开发/React/React测试.md"
     }
   ],
   "omittedPaths": [

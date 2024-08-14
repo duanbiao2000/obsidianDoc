@@ -64,9 +64,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "0f2791db1e4dc0d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240814125947.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -141,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240814000000.md",
+                "file": "dailyNotes/20240814125947.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240814000000.md",
+                "file": "dailyNotes/20240814125947.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240814000000.md"
+                "file": "dailyNotes/20240814125947.md"
               }
             }
           },
@@ -203,7 +216,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240814000000.md"
+                "file": "dailyNotes/20240814125947.md"
               }
             }
           },
@@ -272,10 +285,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9548c52a864494d5",
+  "active": "0f2791db1e4dc0d0",
   "lastOpenFiles": [
-    "dailyNotes/20240813103627.md",
     "dailyNotes/20240814000000.md",
+    "dailyNotes/20240814125947.md",
+    "dailyNotes/20240813103627.md",
     "dailyNotes/20240813000000.md",
     "Atlas/dataview/dataviews.md",
     "dailyNotes/20240810204903.md",
@@ -299,7 +313,6 @@
     "dailyNotes/20240809012901.md",
     "dailyNotes/20240808131344.md",
     "dailyNotes/20240808125725.md",
-    "2. Areas/IELTS/高级语法.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
