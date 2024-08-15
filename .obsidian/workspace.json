@@ -77,9 +77,39 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09803a44f1f2a00e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240815000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "270c366395c65a6c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240816000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240814125947.md",
+                "file": "dailyNotes/20240816000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240814125947.md",
+                "file": "dailyNotes/20240816000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240814125947.md"
+                "file": "dailyNotes/20240816000000.md"
               }
             }
           },
@@ -216,7 +246,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240814125947.md"
+                "file": "dailyNotes/20240816000000.md"
               }
             }
           },
@@ -285,10 +315,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0f2791db1e4dc0d0",
+  "active": "270c366395c65a6c",
   "lastOpenFiles": [
-    "dailyNotes/20240814000000.md",
+    "dailyNotes/20240815000000.md",
+    "dailyNotes/20240816000000.md",
     "dailyNotes/20240814125947.md",
+    "dailyNotes/20240814000000.md",
     "dailyNotes/20240813103627.md",
     "dailyNotes/20240813000000.md",
     "Atlas/dataview/dataviews.md",
@@ -311,8 +343,6 @@
     "dailyNotes/20240809145242.md",
     "dailyNotes/20240809145225.md",
     "dailyNotes/20240809012901.md",
-    "dailyNotes/20240808131344.md",
-    "dailyNotes/20240808125725.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",

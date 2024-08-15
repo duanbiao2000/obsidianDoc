@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "20240816000000",
+      "path": "dailyNotes/20240816000000.md"
+    },
+    {
+      "basename": "20240815000000",
+      "path": "dailyNotes/20240815000000.md"
+    },
+    {
       "basename": "20240814125947",
       "path": "dailyNotes/20240814125947.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "React组件间通信代码示例",
       "path": "2. Areas/前端开发/React/React组件间通信代码示例.md"
-    },
-    {
-      "basename": "React生命周期方法",
-      "path": "2. Areas/前端开发/React/React生命周期方法.md"
-    },
-    {
-      "basename": "React状态管理Redux",
-      "path": "2. Areas/前端开发/React/React状态管理Redux.md"
     }
   ],
   "omittedPaths": [
