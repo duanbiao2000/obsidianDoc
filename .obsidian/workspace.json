@@ -36,9 +36,24 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e9a3684c13a3058c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240816184544.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240816104223.md",
+                "file": "dailyNotes/20240816184544.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240816104223.md",
+                "file": "dailyNotes/20240816184544.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240816104223.md"
+                "file": "dailyNotes/20240816184544.md"
               }
             }
           },
@@ -175,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240816104223.md"
+                "file": "dailyNotes/20240816184544.md"
               }
             }
           },
@@ -244,10 +259,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "75997ec77f607342",
+  "active": "e9a3684c13a3058c",
   "lastOpenFiles": [
-    "dailyNotes/20240816172635.md",
     "dailyNotes/20240816104223.md",
+    "dailyNotes/20240816184544.md",
+    "dailyNotes/20240816172635.md",
     "dailyNotes/20240816160627.md",
     "dailyNotes/20240816000000.md",
     "dailyNotes/20240815000000.md",
@@ -271,7 +287,6 @@
     "dailyNotes/20240810124404.md",
     "dailyNotes/20240810124408.md",
     "Omnivore/-学莫便乎近其人。-全诗赏析_古诗文网.md",
-    "2. Areas/01认知科学/知识炼金术.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
