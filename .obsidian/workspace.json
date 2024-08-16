@@ -31,27 +31,14 @@
               "state": {
                 "file": "dailyNotes/20240816104223.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "fd45e1000825b073",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyNotes/20240816172635.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240816172635.md",
+                "file": "dailyNotes/20240816104223.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240816172635.md",
+                "file": "dailyNotes/20240816104223.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240816172635.md"
+                "file": "dailyNotes/20240816104223.md"
               }
             }
           },
@@ -188,7 +175,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240816172635.md"
+                "file": "dailyNotes/20240816104223.md"
               }
             }
           },
@@ -257,11 +244,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "fd45e1000825b073",
+  "active": "75997ec77f607342",
   "lastOpenFiles": [
-    "dailyNotes/20240816160627.md",
     "dailyNotes/20240816172635.md",
     "dailyNotes/20240816104223.md",
+    "dailyNotes/20240816160627.md",
     "dailyNotes/20240816000000.md",
     "dailyNotes/20240815000000.md",
     "dailyNotes/20240814125947.md",
