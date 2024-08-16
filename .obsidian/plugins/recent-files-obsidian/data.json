@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240816104223",
+      "path": "dailyNotes/20240816104223.md"
+    },
+    {
       "basename": "20240816000000",
       "path": "dailyNotes/20240816000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "React设计模式与最佳实践",
       "path": "2. Areas/前端开发/React/React设计模式与最佳实践.md"
-    },
-    {
-      "basename": "React组件间通信代码示例",
-      "path": "2. Areas/前端开发/React/React组件间通信代码示例.md"
     }
   ],
   "omittedPaths": [
