@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240816160627",
+      "path": "dailyNotes/20240816160627.md"
+    },
+    {
       "basename": "20240816104223",
       "path": "dailyNotes/20240816104223.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240804021056",
       "path": "dailyNotes/20240804021056.md"
-    },
-    {
-      "basename": "React设计模式与最佳实践",
-      "path": "2. Areas/前端开发/React/React设计模式与最佳实践.md"
     }
   ],
   "omittedPaths": [
