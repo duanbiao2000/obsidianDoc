@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "20240817000000",
-      "path": "dailyNotes/20240817000000.md"
+      "basename": "20240817174906",
+      "path": "dailyNotes/20240817174906.md"
     },
     {
       "basename": "20240816212343",
       "path": "dailyNotes/20240816212343.md"
+    },
+    {
+      "basename": "20240817000000",
+      "path": "dailyNotes/20240817000000.md"
     },
     {
       "basename": "20240816184544",
@@ -195,10 +199,6 @@
     {
       "basename": "大型 React 应用架构",
       "path": "dailyNotes/大型 React 应用架构.md"
-    },
-    {
-      "basename": "React 软目标",
-      "path": "dailyNotes/React 软目标.md"
     }
   ],
   "omittedPaths": [
