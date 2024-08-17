@@ -77,9 +77,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a7f6ea7fe92717f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240817000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240817174906.md",
+                "file": "dailyNotes/20240817000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240817174906.md",
+                "file": "dailyNotes/20240817000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240817174906.md"
+                "file": "dailyNotes/20240817000000.md"
               }
             }
           },
@@ -216,7 +229,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240817174906.md"
+                "file": "dailyNotes/20240817000000.md"
               }
             }
           },
@@ -285,10 +298,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "4a8d49a092b75bdf",
+  "active": "1a7f6ea7fe92717f",
   "lastOpenFiles": [
-    "dailyNotes/20240816212343.md",
     "dailyNotes/20240817174906.md",
+    "dailyNotes/20240816212343.md",
     "dailyNotes/20240817000000.md",
     "Omnivore/Vimium - Chrome 应用商店.md",
     "Omnivore/Vimium - Chrome Web Store.md",
