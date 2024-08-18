@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240818000000",
+      "path": "dailyNotes/20240818000000.md"
+    },
+    {
       "basename": "20240817230307",
       "path": "dailyNotes/20240817230307.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Creating Modular Notes",
       "path": "dailyNotes/Creating Modular Notes.md"
-    },
-    {
-      "basename": "Machine Learning Engineer at Meta",
-      "path": "dailyNotes/Machine Learning Engineer at Meta.md"
     }
   ],
   "omittedPaths": [
