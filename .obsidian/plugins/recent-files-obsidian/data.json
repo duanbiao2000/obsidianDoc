@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240818154622",
+      "path": "dailyNotes/20240818154622.md"
+    },
+    {
       "basename": "20240818120843",
       "path": "dailyNotes/20240818120843.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "闭包在设计模式中的应用",
       "path": "dailyNotes/闭包在设计模式中的应用.md"
-    },
-    {
-      "basename": "Everything Starts with a Note-taking System",
-      "path": "2. Areas/01认知科学/Everything Starts with a Note-taking System.md"
     }
   ],
   "omittedPaths": [
