@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240819000000",
+      "path": "dailyNotes/20240819000000.md"
+    },
+    {
       "basename": "20240818154622",
       "path": "dailyNotes/20240818154622.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "JavaScript 中的原型和对象创建",
       "path": "dailyNotes/JavaScript 中的原型和对象创建.md"
-    },
-    {
-      "basename": "闭包在设计模式中的应用",
-      "path": "dailyNotes/闭包在设计模式中的应用.md"
     }
   ],
   "omittedPaths": [
