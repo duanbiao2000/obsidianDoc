@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240819155946",
+      "path": "dailyNotes/20240819155946.md"
+    },
+    {
       "basename": "20240819114155",
       "path": "dailyNotes/20240819114155.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240805204838_ES2016-19",
       "path": "dailyNotes/20240805204838_ES2016-19.md"
-    },
-    {
-      "basename": "20240805203340-JS中的Proxy",
-      "path": "dailyNotes/20240805203340-JS中的Proxy.md"
     }
   ],
   "omittedPaths": [
