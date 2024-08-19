@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "20240819111046",
+      "path": "dailyNotes/20240819111046.md"
+    },
+    {
+      "basename": "20240819110810",
+      "path": "dailyNotes/20240819110810.md"
+    },
+    {
       "basename": "20240819072428",
       "path": "dailyNotes/20240819072428.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "异步操作",
       "path": "dailyNotes/异步操作.md"
-    },
-    {
-      "basename": "20240805144814_Promise与事件循环特性的关系",
-      "path": "dailyNotes/20240805144814_Promise与事件循环特性的关系.md"
-    },
-    {
-      "basename": "20240805113602_this的指向",
-      "path": "dailyNotes/20240805113602_this的指向.md"
     }
   ],
   "omittedPaths": [
