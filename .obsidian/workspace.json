@@ -136,7 +136,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240821202226.md",
+                "file": "2. Areas/IELTS/片语和固定搭配.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -173,7 +173,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "PATH: \"2. Areas/IELTS\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,12 +198,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -219,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240821202226.md",
+                "file": "2. Areas/IELTS/片语和固定搭配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240821202226.md",
+                "file": "2. Areas/IELTS/片语和固定搭配.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240821202226.md"
+                "file": "2. Areas/IELTS/片语和固定搭配.md"
               }
             }
           },
@@ -281,7 +281,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240821202226.md"
+                "file": "2. Areas/IELTS/片语和固定搭配.md"
               }
             }
           },
@@ -352,8 +352,8 @@
   },
   "active": "54ad215cbb8c2aaa",
   "lastOpenFiles": [
-    "dailyNotes/20240821154423.md",
     "dailyNotes/20240821202226.md",
+    "dailyNotes/20240821154423.md",
     "dailyNotes/20240821142038.md",
     "dailyNotes/20240821000000.md",
     "dailyNotes/20240820212948.md",
