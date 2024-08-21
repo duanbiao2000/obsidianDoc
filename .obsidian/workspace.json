@@ -53,85 +53,7 @@
             }
           },
           {
-            "id": "2f4d654b95d542aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyNotes/20240816212343.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a8d49a092b75bdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyNotes/20240817174906.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a7f6ea7fe92717f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyNotes/20240817230307.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f24d97008c241dcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyNotes/20240818154622.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a35fda92083a6b5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyNotes/20240819155946.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f99ba60c3e027f61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyNotes/20240820212948.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54ad215cbb8c2aaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -350,34 +272,34 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "54ad215cbb8c2aaa",
+  "active": "f99ba60c3e027f61",
   "lastOpenFiles": [
-    "dailyNotes/20240821202226.md",
-    "dailyNotes/20240821154423.md",
-    "dailyNotes/20240821142038.md",
+    "dailyNotes/20240816184544.md",
+    "dailyNotes/20240816212343.md",
+    "dailyNotes/20240817174906.md",
+    "dailyNotes/20240817230307.md",
+    "dailyNotes/20240818154622.md",
+    "dailyNotes/20240819155946.md",
+    "2. Areas/IELTS/片语和固定搭配.md",
     "dailyNotes/20240821000000.md",
+    "dailyNotes/20240821154423.md",
+    "dailyNotes/20240821202226.md",
+    "dailyNotes/20240821142038.md",
     "dailyNotes/20240820212948.md",
     "dailyNotes/20240820000000.md",
-    "dailyNotes/20240819155946.md",
+    "Extras/textgenerator/prompts/awesomePrompts/phpinterpreterAwesome.md",
+    "Atlas/Index/Tags Index.md",
     "dailyNotes/20240819114155.md",
     "dailyNotes/20240819111046.md",
     "dailyNotes/20240819110810.md",
     "dailyNotes/20240819072428.md",
     "dailyNotes/20240819000000.md",
-    "dailyNotes/20240818154622.md",
     "dailyNotes/20240818120843.md",
     "dailyNotes/20240818000000.md",
-    "dailyNotes/20240817230307.md",
     "dailyNotes/20240817230311.md",
-    "dailyNotes/20240817174906.md",
     "dailyNotes/20240817000000.md",
-    "dailyNotes/20240816212343.md",
     "Omnivore/Vimium - Chrome 应用商店.md",
     "Omnivore/Vimium - Chrome Web Store.md",
-    "dailyNotes/20240816184544.md",
-    "dailyNotes/20240816104223.md",
-    "dailyNotes/20240816172635.md",
-    "dailyNotes/20240816160627.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
