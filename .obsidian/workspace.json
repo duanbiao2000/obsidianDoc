@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240822000000.md",
+                "file": "2. Areas/IELTS/片语和固定搭配.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240822000000.md",
+                "file": "2. Areas/IELTS/片语和固定搭配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240822000000.md",
+                "file": "2. Areas/IELTS/片语和固定搭配.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240822000000.md"
+                "file": "2. Areas/IELTS/片语和固定搭配.md"
               }
             }
           },
@@ -216,7 +217,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240822000000.md"
+                "file": "2. Areas/IELTS/片语和固定搭配.md"
               }
             }
           },
@@ -287,8 +288,8 @@
   },
   "active": "259d602038630c9d",
   "lastOpenFiles": [
-    "2. Areas/IELTS/片语和固定搭配.md",
     "dailyNotes/20240822000000.md",
+    "2. Areas/IELTS/片语和固定搭配.md",
     "dailyNotes/20240816184544.md",
     "dailyNotes/20240816212343.md",
     "dailyNotes/20240817174906.md",
