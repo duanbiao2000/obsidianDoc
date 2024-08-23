@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/IELTS/片语和固定搭配.md",
+                "file": "dailyNotes/20240823151648.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -168,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/IELTS/片语和固定搭配.md",
+                "file": "dailyNotes/20240823151648.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/IELTS/片语和固定搭配.md",
+                "file": "dailyNotes/20240823151648.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/IELTS/片语和固定搭配.md"
+                "file": "dailyNotes/20240823151648.md"
               }
             }
           },
@@ -230,7 +229,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/IELTS/片语和固定搭配.md"
+                "file": "dailyNotes/20240823151648.md"
               }
             }
           },
@@ -301,32 +300,32 @@
   },
   "active": "259d602038630c9d",
   "lastOpenFiles": [
-    "dailyNotes/20240823000000.md",
-    "2. Areas/IELTS/片语和固定搭配.md",
-    "dailyNotes/20240822000000.md",
-    "dailyNotes/20240816184544.md",
-    "dailyNotes/20240816212343.md",
-    "dailyNotes/20240817174906.md",
-    "dailyNotes/20240817230307.md",
-    "dailyNotes/20240818154622.md",
-    "dailyNotes/20240819155946.md",
-    "dailyNotes/20240821000000.md",
-    "dailyNotes/20240821154423.md",
     "dailyNotes/20240821202226.md",
+    "dailyNotes/20240823151648.md",
+    "dailyNotes/20240822000000.md",
+    "dailyNotes/20240823000000.md",
+    "dailyNotes/20240821154423.md",
     "dailyNotes/20240821142038.md",
+    "dailyNotes/20240821000000.md",
     "dailyNotes/20240820212948.md",
     "dailyNotes/20240820000000.md",
-    "Extras/textgenerator/prompts/awesomePrompts/phpinterpreterAwesome.md",
-    "Atlas/Index/Tags Index.md",
+    "dailyNotes/20240819155946.md",
     "dailyNotes/20240819114155.md",
     "dailyNotes/20240819111046.md",
     "dailyNotes/20240819110810.md",
     "dailyNotes/20240819072428.md",
     "dailyNotes/20240819000000.md",
+    "dailyNotes/20240818154622.md",
     "dailyNotes/20240818120843.md",
     "dailyNotes/20240818000000.md",
     "dailyNotes/20240817230311.md",
+    "dailyNotes/20240817230307.md",
+    "dailyNotes/20240817174906.md",
     "dailyNotes/20240817000000.md",
+    "dailyNotes/20240816212343.md",
+    "dailyNotes/20240816184544.md",
+    "dailyNotes/20240816160627.md",
+    "dailyNotes/20240816104223.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
