@@ -22842,7 +22842,7 @@ var require_lib2 = __commonJS({
       })
     });
     var optionalWhitespaceOrComment = parsimmon_umd_minExports.alt(parsimmon_umd_minExports.whitespace, QUERY_LANGUAGE.comment).many().map((arr) => arr.join(""));
-    var getAPI = (app) => {
+    var getAPI2 = (app) => {
       var _a;
       if (app)
         return (_a = app.plugins.plugins.dataview) == null ? void 0 : _a.api;
@@ -22855,7 +22855,7 @@ var require_lib2 = __commonJS({
     exports2.EXPRESSION = EXPRESSION;
     exports2.KEYWORDS = KEYWORDS;
     exports2.QUERY_LANGUAGE = QUERY_LANGUAGE;
-    exports2.getAPI = getAPI;
+    exports2.getAPI = getAPI2;
     exports2.isPluginEnabled = isPluginEnabled;
     exports2.parseField = parseField;
   }
@@ -38692,7 +38692,7 @@ var require_object_inspect = __commonJS({
       if (typeof window !== "undefined" && obj === window) {
         return "{ [object Window] }";
       }
-      if (obj === global) {
+      if (typeof globalThis !== "undefined" && obj === globalThis || typeof global !== "undefined" && obj === global) {
         return "{ [object globalThis] }";
       }
       if (!isDate(obj) && !isRegExp(obj)) {
@@ -47289,7 +47289,7 @@ var require_logic = __commonJS({
         } else if (op === "reduce") {
           scopedData = jsonLogic2.apply(values[0], data);
           scopedLogic = values[1];
-          initial = typeof values[2] !== "undefined" ? values[2] : null;
+          initial = typeof values[2] !== "undefined" ? jsonLogic2.apply(values[2], data) : null;
           if (!Array.isArray(scopedData)) {
             return initial;
           }
@@ -48516,7 +48516,8 @@ var require_glob_to_regexp = __commonJS({
 
 // src/main.ts
 __export(exports, {
-  default: () => LocalRestApi
+  default: () => LocalRestApi,
+  getAPI: () => getAPI
 });
 var import_obsidian2 = __toModule(require("obsidian"));
 var https = __toModule(require("https"));
@@ -48659,13 +48660,35 @@ var DefaultBindingHost = "127.0.0.1";
 var LicenseUrl = "https://raw.githubusercontent.com/coddingtonbear/obsidian-local-rest-api/main/LICENSE";
 var MaximumRequestSize = "1024mb";
 
+// src/api.ts
+var LocalRestApiPublicApi = class {
+  constructor(router, onUnregister) {
+    this.unregistered = false;
+    this.router = router;
+    this.onUnregister = onUnregister;
+    this.unregistered = false;
+  }
+  addRoute(path2) {
+    if (this.unregistered) {
+      throw new Error("Routes cannot be added after API extension has been unregistered.");
+    }
+    return this.router.route(path2);
+  }
+  unregister() {
+    this.onUnregister();
+    this.unregistered = true;
+  }
+};
+
 // src/requestHandler.ts
 var RequestHandler = class {
   constructor(app, manifest, settings) {
+    this.apiExtensions = [];
     this.app = app;
     this.manifest = manifest;
     this.api = (0, import_express.default)();
     this.settings = settings;
+    this.apiExtensionRouter = import_express.default.Router();
     this.api.set("json spaces", 2);
     import_json_logic_js.default.add_operation("glob", (pattern, field) => {
       if (typeof field === "string" && typeof pattern === "string") {
@@ -48681,6 +48704,31 @@ var RequestHandler = class {
       }
       return false;
     });
+  }
+  registerApiExtension(manifest) {
+    let api = void 0;
+    for (const { manifest: existingManifest, api: existingApi } of this.apiExtensions) {
+      if (JSON.stringify(existingManifest) === JSON.stringify(manifest)) {
+        api = existingApi;
+        break;
+      }
+    }
+    if (!api) {
+      const router = import_express.default.Router();
+      this.apiExtensionRouter.use(router);
+      api = new LocalRestApiPublicApi(router, () => {
+        const idx = this.apiExtensions.findIndex(({ manifest: storedManifest }) => JSON.stringify(manifest) === JSON.stringify(storedManifest));
+        if (idx !== -1) {
+          this.apiExtensions.splice(idx, 1);
+          this.apiExtensionRouter.stack.splice(idx, 1);
+        }
+      });
+      this.apiExtensions.push({
+        manifest,
+        api
+      });
+    }
+    return api;
   }
   requestIsAuthenticated(req) {
     var _a;
@@ -48757,6 +48805,7 @@ var RequestHandler = class {
     }
     res.status(200).json({
       status: "OK",
+      manifest: this.manifest,
       versions: {
         obsidian: import_obsidian.apiVersion,
         self: this.manifest.version
@@ -48766,7 +48815,8 @@ var RequestHandler = class {
       certificateInfo: this.requestIsAuthenticated(req) && certificate ? {
         validityDays: getCertificateValidityDays(certificate),
         regenerateRecommended: !getCertificateIsUptoStandards(certificate)
-      } : void 0
+      } : void 0,
+      apiExtensions: this.requestIsAuthenticated(req) ? this.apiExtensions.map(({ manifest }) => manifest) : void 0
     });
   }
   _vaultGet(path2, req, res) {
@@ -49368,6 +49418,7 @@ var RequestHandler = class {
     this.api.route("/open/(.*)").post(this.openPost.bind(this));
     this.api.get(`/${CERT_NAME}`, this.certificateGet.bind(this));
     this.api.get("/", this.root.bind(this));
+    this.api.use(this.apiExtensionRouter);
     this.api.use(this.notFoundHandler.bind(this));
     this.api.use(this.errorHandler.bind(this));
   }
@@ -49478,7 +49529,15 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
       }
       this.addSettingTab(new LocalRestApiSettingTab(this.app, this));
       this.refreshServerState();
+      this.app.workspace.trigger("obsidian-local-rest-api:loaded");
     });
+  }
+  getPublicApi(pluginManifest) {
+    if (!pluginManifest.id || !pluginManifest.name || !pluginManifest.version) {
+      throw new Error("PluginManifest instance must include a defined id, name, and version to be accempted.");
+    }
+    console.log("[REST API] Added new API extension", pluginManifest);
+    return this.requestHandler.registerApiExtension(pluginManifest);
   }
   debounce(func, delay) {
     let debounceTimer;
@@ -49611,7 +49670,7 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
     if (this.plugin.settings.subjectAltNames) {
       for (const name of this.plugin.settings.subjectAltNames.split("\n")) {
         if (name.trim()) {
-          const altSecureUrl = `https://${name.trim()}:${this.plugin.settings.insecurePort}/`;
+          const altSecureUrl = `http://${name.trim()}:${this.plugin.settings.insecurePort}/`;
           insecureUrlsTd.innerHTML += `
             ${altSecureUrl} <a href="javascript:navigator.clipboard.writeText('${altSecureUrl}')">(copy)</a><br />
           `;
@@ -49835,8 +49894,16 @@ ${(_a = this.plugin.settings.authorizationHeaderName) != null ? _a : "Authorizat
     }
   }
 };
+var getAPI = (app, manifest) => {
+  const plugin = app.plugins.plugins["obsidian-local-rest-api"];
+  if (plugin) {
+    return plugin.getPublicApi(manifest);
+  }
+};
 // Annotate the CommonJS export names for ESM import in node:
-0 && (module.exports = {});
+0 && (module.exports = {
+  getAPI
+});
 /*
 object-assign
 (c) Sindre Sorhus
