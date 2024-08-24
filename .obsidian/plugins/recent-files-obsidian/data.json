@@ -1,8 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "what do you do in your free time",
-      "path": "2. Areas/IELTS/what do you do in your free time.md"
+      "basename": "Next.js",
+      "path": "2. Areas/前端开发/NextJS/Next.js.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "2. Areas/前端开发/NextJS/GraphQL.md"
+    },
+    {
+      "basename": "节流函数",
+      "path": "2. Areas/前端开发/JavaScript/节流函数.md"
+    },
+    {
+      "basename": "构造函数",
+      "path": "2. Areas/前端开发/JavaScript/构造函数.md"
+    },
+    {
+      "basename": "最长公共子序列",
+      "path": "2. Areas/前端开发/JavaScript/最长公共子序列.md"
+    },
+    {
+      "basename": "分页查询",
+      "path": "2. Areas/前端开发/JavaScript/分页查询.md"
+    },
+    {
+      "basename": "全屏轮播图",
+      "path": "2. Areas/前端开发/JavaScript/全屏轮播图.md"
+    },
+    {
+      "basename": "使用async,await处理并发请求",
+      "path": "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md"
+    },
+    {
+      "basename": "Promise.race模拟函数",
+      "path": "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md"
+    },
+    {
+      "basename": "LRU缓存机制",
+      "path": "2. Areas/前端开发/JavaScript/LRU缓存机制.md"
+    },
+    {
+      "basename": "JS笔记汇总",
+      "path": "2. Areas/前端开发/JavaScript/JS笔记汇总.md"
+    },
+    {
+      "basename": "JS基础",
+      "path": "2. Areas/前端开发/JavaScript/JS基础.md"
+    },
+    {
+      "basename": "JSON.parse(JSON.stringify(obj))",
+      "path": "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md"
+    },
+    {
+      "basename": "Javascrip高级技术",
+      "path": "2. Areas/前端开发/JavaScript/Javascrip高级技术.md"
+    },
+    {
+      "basename": "Javascrip三省笔记0522",
+      "path": "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md"
+    },
+    {
+      "basename": "Generator函数",
+      "path": "2. Areas/前端开发/JavaScript/Generator函数.md"
+    },
+    {
+      "basename": "ES6到ES11新增主要特性",
+      "path": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
+    },
+    {
+      "basename": "Effective系列JS篇",
+      "path": "2. Areas/前端开发/JavaScript/Effective系列JS篇.md"
+    },
+    {
+      "basename": "arguments和展开运算符(...)",
+      "path": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
+    },
+    {
+      "basename": "`replacer` 和 `reviver` 函数",
+      "path": "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md"
+    },
+    {
+      "basename": "@千问随机20问",
+      "path": "2. Areas/前端开发/JavaScript/@千问随机20问.md"
+    },
+    {
+      "basename": "响应式设计",
+      "path": "2. Areas/前端开发/CSS/响应式设计.md"
+    },
+    {
+      "basename": "Tailwind",
+      "path": "2. Areas/前端开发/CSS/Tailwind.md"
+    },
+    {
+      "basename": "CSS预处理",
+      "path": "2. Areas/前端开发/CSS/CSS预处理.md"
+    },
+    {
+      "basename": "CSS学习笔记0624",
+      "path": "2. Areas/前端开发/CSS/CSS学习笔记0624.md"
+    },
+    {
+      "basename": "高级语法解析",
+      "path": "2. Areas/IELTS/高级语法解析.md"
+    },
+    {
+      "basename": "雅思笔记",
+      "path": "2. Areas/IELTS/雅思笔记.md"
+    },
+    {
+      "basename": "阅读理解分析",
+      "path": "2. Areas/IELTS/阅读理解分析.md"
+    },
+    {
+      "basename": "口语化转述",
+      "path": "2. Areas/IELTS/口语化转述.md"
+    },
+    {
+      "basename": "英语例句0605",
+      "path": "2. Areas/IELTS/英语例句0605.md"
+    },
+    {
+      "basename": "关键例句",
+      "path": "2. Areas/IELTS/关键例句.md"
+    },
+    {
+      "basename": "宣言Manifesto",
+      "path": "2. Areas/IELTS/宣言Manifesto.md"
+    },
+    {
+      "basename": "场景英语",
+      "path": "2. Areas/IELTS/场景英语.md"
+    },
+    {
+      "basename": "Phrases",
+      "path": "2. Areas/IELTS/Phrases.md"
+    },
+    {
+      "basename": "每日听力材料  (至少听四遍)",
+      "path": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
+    },
+    {
+      "basename": "大作文十种类型",
+      "path": "2. Areas/IELTS/大作文十种类型.md"
+    },
+    {
+      "basename": "动词短语",
+      "path": "2. Areas/IELTS/动词短语.md"
     },
     {
       "basename": "分类记忆",
@@ -55,150 +199,6 @@
     {
       "basename": "20240819114155",
       "path": "dailyNotes/20240819114155.md"
-    },
-    {
-      "basename": "20240819111046",
-      "path": "dailyNotes/20240819111046.md"
-    },
-    {
-      "basename": "20240819110810",
-      "path": "dailyNotes/20240819110810.md"
-    },
-    {
-      "basename": "20240819072428",
-      "path": "dailyNotes/20240819072428.md"
-    },
-    {
-      "basename": "20240819000000",
-      "path": "dailyNotes/20240819000000.md"
-    },
-    {
-      "basename": "20240818154622",
-      "path": "dailyNotes/20240818154622.md"
-    },
-    {
-      "basename": "20240818120843",
-      "path": "dailyNotes/20240818120843.md"
-    },
-    {
-      "basename": "20240818000000",
-      "path": "dailyNotes/20240818000000.md"
-    },
-    {
-      "basename": "20240817230311",
-      "path": "dailyNotes/20240817230311.md"
-    },
-    {
-      "basename": "20240817230307",
-      "path": "dailyNotes/20240817230307.md"
-    },
-    {
-      "basename": "20240817174906",
-      "path": "dailyNotes/20240817174906.md"
-    },
-    {
-      "basename": "20240817000000",
-      "path": "dailyNotes/20240817000000.md"
-    },
-    {
-      "basename": "20240816212343",
-      "path": "dailyNotes/20240816212343.md"
-    },
-    {
-      "basename": "20240816184544",
-      "path": "dailyNotes/20240816184544.md"
-    },
-    {
-      "basename": "20240816160627",
-      "path": "dailyNotes/20240816160627.md"
-    },
-    {
-      "basename": "20240816104223",
-      "path": "dailyNotes/20240816104223.md"
-    },
-    {
-      "basename": "20240816172635",
-      "path": "dailyNotes/20240816172635.md"
-    },
-    {
-      "basename": "片语和固定搭配",
-      "path": "2. Areas/IELTS/片语和固定搭配.md"
-    },
-    {
-      "basename": "Tags Index",
-      "path": "Atlas/Index/Tags Index.md"
-    },
-    {
-      "basename": "20240816000000",
-      "path": "dailyNotes/20240816000000.md"
-    },
-    {
-      "basename": "20240815000000",
-      "path": "dailyNotes/20240815000000.md"
-    },
-    {
-      "basename": "20240814125947",
-      "path": "dailyNotes/20240814125947.md"
-    },
-    {
-      "basename": "20240814000000",
-      "path": "dailyNotes/20240814000000.md"
-    },
-    {
-      "basename": "20240813103627",
-      "path": "dailyNotes/20240813103627.md"
-    },
-    {
-      "basename": "20240813000000",
-      "path": "dailyNotes/20240813000000.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
-    },
-    {
-      "basename": "20240810204903",
-      "path": "dailyNotes/20240810204903.md"
-    },
-    {
-      "basename": "20240811215217",
-      "path": "dailyNotes/20240811215217.md"
-    },
-    {
-      "basename": "20240812000000",
-      "path": "dailyNotes/20240812000000.md"
-    },
-    {
-      "basename": "20240812120857",
-      "path": "dailyNotes/20240812120857.md"
-    },
-    {
-      "basename": "20240811232731",
-      "path": "dailyNotes/20240811232731.md"
-    },
-    {
-      "basename": "20240811201819",
-      "path": "dailyNotes/20240811201819.md"
-    },
-    {
-      "basename": "20240811201626",
-      "path": "dailyNotes/20240811201626.md"
-    },
-    {
-      "basename": "20240811201622",
-      "path": "dailyNotes/20240811201622.md"
-    },
-    {
-      "basename": "20240811154638",
-      "path": "dailyNotes/20240811154638.md"
-    },
-    {
-      "basename": "20240811144939",
-      "path": "dailyNotes/20240811144939.md"
-    },
-    {
-      "basename": "20240811000000",
-      "path": "dailyNotes/20240811000000.md"
     }
   ],
   "omittedPaths": [

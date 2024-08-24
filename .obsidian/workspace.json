@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/IELTS/片语和固定搭配.md",
+                "file": "2. Areas/IELTS/雅思笔记.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/IELTS/what do you do in your free time.md",
+                "file": "2. Areas/前端开发/NextJS/Next.js.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/IELTS/what do you do in your free time.md",
+                "file": "2. Areas/前端开发/NextJS/Next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/IELTS/what do you do in your free time.md",
+                "file": "2. Areas/前端开发/NextJS/Next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/IELTS/what do you do in your free time.md"
+                "file": "2. Areas/前端开发/NextJS/Next.js.md"
               }
             }
           },
@@ -241,7 +241,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/IELTS/what do you do in your free time.md"
+                "file": "2. Areas/前端开发/NextJS/Next.js.md"
               }
             }
           },
@@ -312,32 +312,32 @@
   },
   "active": "40d9e7cef1d9329e",
   "lastOpenFiles": [
-    "2. Areas/IELTS/分类记忆.md",
-    "dailyNotes/20240824000000.md",
-    "dailyNotes/20240821202226.md",
-    "dailyNotes/20240823151648.md",
-    "dailyNotes/20240822000000.md",
-    "dailyNotes/20240823000000.md",
-    "dailyNotes/20240821154423.md",
-    "dailyNotes/20240821142038.md",
-    "dailyNotes/20240821000000.md",
-    "dailyNotes/20240820212948.md",
-    "dailyNotes/20240820000000.md",
-    "dailyNotes/20240819155946.md",
-    "dailyNotes/20240819114155.md",
-    "dailyNotes/20240819111046.md",
-    "dailyNotes/20240819110810.md",
-    "dailyNotes/20240819072428.md",
-    "dailyNotes/20240819000000.md",
-    "dailyNotes/20240818154622.md",
-    "dailyNotes/20240818120843.md",
-    "dailyNotes/20240818000000.md",
-    "dailyNotes/20240817230311.md",
-    "dailyNotes/20240817230307.md",
-    "dailyNotes/20240817174906.md",
-    "dailyNotes/20240817000000.md",
-    "dailyNotes/20240816212343.md",
-    "dailyNotes/20240816184544.md",
+    "2. Areas/前端开发/NextJS/GraphQL.md",
+    "2. Areas/前端开发/JavaScript/节流函数.md",
+    "2. Areas/前端开发/JavaScript/构造函数.md",
+    "2. Areas/前端开发/JavaScript/超实用的javascript代码段.md",
+    "2. Areas/前端开发/JavaScript/最长公共子序列.md",
+    "2. Areas/前端开发/JavaScript/分页查询.md",
+    "2. Areas/前端开发/JavaScript/全屏轮播图.md",
+    "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md",
+    "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md",
+    "2. Areas/前端开发/JavaScript/LRU缓存机制.md",
+    "2. Areas/前端开发/JavaScript/JS笔记汇总.md",
+    "2. Areas/前端开发/JavaScript/JS基础.md",
+    "2. Areas/前端开发/JavaScript/Js源码阅读.md",
+    "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md",
+    "2. Areas/前端开发/JavaScript/Javascrip高级技术.md",
+    "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md",
+    "2. Areas/前端开发/JavaScript/Generator函数.md",
+    "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
+    "2. Areas/前端开发/JavaScript/Effective系列JS篇.md",
+    "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
+    "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md",
+    "2. Areas/前端开发/JavaScript/30 Seconds of Code.md",
+    "2. Areas/前端开发/JavaScript/@千问随机20问.md",
+    "2. Areas/前端开发/CSS/响应式设计.md",
+    "2. Areas/前端开发/CSS/Tailwind.md",
+    "2. Areas/前端开发/CSS/CSS预处理.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",

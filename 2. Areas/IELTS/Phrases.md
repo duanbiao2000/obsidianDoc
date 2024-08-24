@@ -1,6 +1,6 @@
 [【全150集】目前B站最全雅思口语Keith合集！雅思口语的神！油管百万播放的雅思口语网课视频！超清中文字幕版本！！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Bx4y1T7mT/?vd_source=7038f96b6bb3b14743531b102b109c43)
 
-# p1 1.1.1.1. 30 Phrases Talk about your hobby
+# Phrases
 
 ****
 
@@ -26,7 +26,6 @@ often / regularly / frequently / whenever I can / as often as I can /
   
 ```
 
-# Phrase:
 
 >   **To dabble in = to do something casually, less seriously**
 >
@@ -37,7 +36,6 @@ often / regularly / frequently / whenever I can / as often as I can /
 >   **To take up a hobby = to start a hobby**
 >
 >   **To try my hand at something = to try something new**
-<!--SR:!2023-07-17,1,230!2023-07-17,1,230-->
 
   
 
@@ -85,3 +83,23 @@ I was one of {5} siblings = brother and sisters
 There are 4 members in my family
 {EXTENDED FAMILY = siblings, parents, grandparents, uncles ,aunts, cousins}  vs  {NUCLEAR FAMILY = parents and their children}?
 ```
+
+
+- [ ] "I'm in a pickle." This means that you are in a difficult situation.
+- [x] "I'm at my wit's end." This means that you are at your wit's end.
+- [ ] <font color="#00b050">"I'm up the creek without a paddle."</font> This means that you are in a difficult situation and you don't know what to do.
+- [ ] "I'm on the fence." This means that you are undecided about something.
+- [ ] "I'm in over my head." This means that you are doing something that is too difficult for you.
+- [ ] "I'm in the doghouse." This means that you are in trouble.
+- [ ] "I'm out of my league." This means that you are not good enough for something.
+- [ ] "It's all Greek to me." This means that I don't understand something.
+- [ ] <font color="#00b050">"It's raining on my parade."</font> This means that something is ruining my plans.
+- [ ] "It's not rocket science." This means that something is not very difficult to do.
+- [x] "It's a matter of opinion." This means that there is no right or wrong answer.
+- [ ] "It's a no-brainer." This means that something is very obvious.
+- [ ] "It's a done deal." This means that something has already been decided.
+- [ ] "It's a dog- eat- dog world." This means that the world is a competitive place.
+- [ ] "It's a jungle out there." This means that the world is a difficult place to survive.
+- [ ] "It's a matter of life and death." This means that something is very important.
+- [ ] "It's a matter of time." This means that something will eventually happen.
+- [ ] "It's a matter of opinion." This means that there is no right or wrong answer.

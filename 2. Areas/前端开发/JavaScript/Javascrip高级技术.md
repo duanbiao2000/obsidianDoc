@@ -472,11 +472,6 @@ export default {
 1. 原始数据类型：Undefined、Null、Boolean、Number和String
 2. 引用数据类型：Object、Array、Function等
 
-在JavaScript中，变量在声明时并不需要像其他编程语言一样明确地指定其数据类型，而是根据所赋的值自动确定其数据类型。因此一个变量可以在不同的时间内存储不同类型的值。
-
-当使用typeof运算符时，会返回一个字符串表示变量的数据类型，其中Symbol类型会返回"symbol"，其余类型都会返回对应的字符串形式（例如："undefined"、"object"、"function"等）。
-
-
 
 Symbol对象是一种新的原始数据类型，它可以通过全局函数Symbol()来创建。每个通过Symbol()创建的Symbol对象都是唯一的，并且不能与其他任何值相等，包括其他的Symbol对象。
 
@@ -546,26 +541,7 @@ console.log(keys); // ["a", Symbol(b), Symbol(c)]
 ```
 在上述示例中，我们定义了一个obj对象，它包含了一个普通属性'a'和两个 Symbol 属性。通过 Object.keys() 和 Object.getOwnPropertySymbols() 分别无法获取到完整的属性列表，但是通过使用 `Reflect.ownKeys()` 方法，我们可以获取到包含所有属性键的数组 ['a', Symbol(b), Symbol(c)]。
 
-#### 模板字符串
 
-这段代码使用了模板字符串来输出一个对象的属性键和值。其中`${key}`和`${arry[key]}`分别表示将变量key和arry[key]的值插入到输出字符串中。
-
-这段代码通常用在遍历一个对象的属性时，可以清晰地输出每个属性的名字和对应的值。例如：
-```javascript
-const obj = {
-  a: 1,
-  b: "hello",
-  c: true
-};
-for (let key in obj) {
-  console.log(`key:${key},value=${obj[key]}`);
-}
-// 输出：
-// key:a,value=1
-// key:b,value=hello
-// key:c,value=true
-```
-在上面的示例中，我们通过for...in循环遍历了对象obj的所有属性，并使用模板字符串将属性名和属性值依次输出。输出结果为每个属性的名字和对应的值。
 
 
 

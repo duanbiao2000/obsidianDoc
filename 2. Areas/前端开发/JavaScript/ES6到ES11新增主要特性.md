@@ -2,13 +2,13 @@
 
 ##  **ES6**
 
-```
+
 - 模板字符串
 ```js
 let str = `Hello ${name}`; 
 ```
 
-```
+
 **ES7** 
 - includes()
 ```js
@@ -35,7 +35,7 @@ let obj2 = { b: 2, ...obj1 };
 [1, [2, 3]].flat(); // [1, 2, 3]
 ```
 
-```
+
 - 空值合并运算符
 ```js
 let name = user ?? 'Anonymous';
@@ -56,7 +56,7 @@ function unique(arr) {
 ```
 
 
-```
+
 **4. 合并对象**
 ```js 
 // ES6
