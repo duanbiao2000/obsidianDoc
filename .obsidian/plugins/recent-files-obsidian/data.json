@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240826000000",
+      "path": "dailyNotes/20240826000000.md"
+    },
+    {
       "basename": "Next.js",
       "path": "2. Areas/前端开发/NextJS/Next.js.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240819155946",
       "path": "dailyNotes/20240819155946.md"
-    },
-    {
-      "basename": "20240819114155",
-      "path": "dailyNotes/20240819114155.md"
     }
   ],
   "omittedPaths": [
