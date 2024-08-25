@@ -1,14 +1,5 @@
----
-aliases:
 
----
-20230815 2218
-links:
-title:
-origin: Findlay - React - The Road To Enterprise.pdf
-tags: #flashcards #todo 
 
-当我们谈论将紧密耦合的逻辑保持在尽可能接近其使用位置的地方时，我们可以考虑一个表单组件示例。在这个示例中，我们将处理表单输入和验证逻辑与表单组件本身紧密耦合在一起。
 ```jsx
 import React, { useState } from "react";
 function Form() {
@@ -52,9 +43,7 @@ function Form() {
 }
 export default Form;
 ```
-在这个示例中，我们定义了一个名为 `Form` 的函数组件。它包含了 `name`、`email` 和 `errorMessage` 这些与表单相关的状态。
-表单提交的逻辑被紧密耦合在 `handleSubmit` 函数中，该函数检查表单字段是否为空，并根据需要设置 `errorMessage`。
-通过将表单输入和验证逻辑与表单组件紧密耦合，我们可以将相关的逻辑和状态放在一起，使代码更具可读性和可维护性。
+
 
 
 以下是一个简单的 React 组件示例，演示了如何创建一个具有真实布局的组件：

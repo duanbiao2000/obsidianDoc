@@ -1,4 +1,3 @@
-是的，TypeScript 在 JavaScript 的基础上引入了一些新的类型系统特性，其中包括枚举和字面量类型。
 
 ### 1. 枚举（Enum）：
 
@@ -47,5 +46,4 @@ const weekend: "Saturday" | "Sunday" = "Saturday";
 let today: "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" = "Friday";
 ```
 
-这些类型系统的特性使得 TypeScript 在静态类型检查的同时提供了更多的表达能力和可读性。枚举和字面量类型是 TypeScript 强大而灵活的类型工具之一。
 

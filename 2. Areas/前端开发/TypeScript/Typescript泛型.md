@@ -13,8 +13,7 @@
 - A - 第一个类型参数
 - B - 第二个类型参数
 - C - 第三个类型参数
-# 泛型
- TypeScript提供了很多有用的类型定义和工具来帮助我们开发更好的代码:
+
 
 - `Generic<T>`:定义泛型类型,可以在函数、类、接口中使用,让代码更通用和类型安全
 ## 工具类型
@@ -93,14 +92,7 @@ console.log(employees);
 const employee = service.getEmployeeById(1);
 console.log(employee);
 ```
-此代码使用TypeScript中的一些最佳实践:
-- 定义Employee接口描述对象结构
-- EmployeeService类提供CRUD方法
-- 使用泛型和类型断言保证类型安全
-- 添加注释说明代码结构和用途
-- 使用严格的tsconfig.json进行编译
-- 注重代码结构和逻辑的清晰性
-整体实现了一个简单的增删改查操作,展示了TypeScript在面向对象开发中的一些最佳用法。
+
 
 
 ## 三种泛型
@@ -133,51 +125,9 @@ interface GenericArray<T> {
   list: T[];
 }
 ```
-这三种泛型的区别:
-- 函数泛型用于定义函数的类型参数
-- 类泛型用于定义类的类型参数
-- 接口泛型用于定义接口的类型参数
-它们都可以为代码元素(函数、类、接口)引入类型参数,从而支持多种类型,提高代码的灵活性和复用性。
-通过泛型,我们可以定义出通用的代码结构,这在TypeScript中是一项非常重要的特性。
 
-## 泛型
 
- TypeScript 中泛型(Generics)的作用是在定义函数、接口或类的时候,不预先指定具体的类型,而在使用的时候再指定类型的一种特性。主要的目的是提高复用性和灵活性。
-常见的泛型语法包括:
-1. 定义泛型函数或接口:
-```ts
-function identity<T>(arg: T): T {
-  return arg;
-}
 
-interface GenericIdentityFn<T> {
-  (arg: T): T;
-}
-```
-使用T、U等字母来定义类型参数。
-2. 调用泛型函数时传入实际类型:
-```ts
-let output = identity<string>("myString"); 
-```
-3. 泛型类型中的类型约束:
-```ts
-function loggingIdentity<T>(arg: T): T {
-    console.log(arg.length); 
-    return arg;
-}
-```
-这里由于需要使用arg的length属性,需要对T加上约束`extends { length: number }`。
-4. 泛型接口与泛型类:
-```ts
-interface GenericIdentityFn<T> {
-  (arg: T): T;
-}
-class GenericNumber<T> {
-  zeroValue: T;
-  add: (x: T, y: T) => T;
-}
-```
-总结来说,泛型可以帮助我们灵活地重用类型逻辑,提高代码复用性,是TypeScript类型系统的重要组成部分。
 
 ### 泛型的限制和约束
 
@@ -213,7 +163,6 @@ let a: A = new Generic<{foo: string}>();
 4. 泛型不能约束具体内置类型如 string、number等。
 5. 对于泛型的类型参数不能部分约束,只能全约束或不约束。
 6. 不能同时使用泛型和全局类型声明为同一个类型起多个名字。
-总之,正确使用泛型可以提高复用性,但也需要注意泛型的这些限制,避免出现难以定位的错误。
 
 
 在代码 `import { FC } from 'react'` 中，`FC` 是指 React 的函数组件类型，它是 React TypeScript 类型定义的一部分。
@@ -249,7 +198,7 @@ export default MyComponent;
 2. 兼容性：在大多数情况下，`interface` 和 `type` 是可以互换使用的，可以用来定义对象、函数、联合类型、交叉类型等。
 3. 扩展：`interface` 和 `type` 都支持扩展，可以添加新的属性或重新定义已有的属性。
 4. 可读性：`interface` 更常用于描述对象的结构，因为它有更好的可读性和可维护性。而 `type` 更常用于定义复杂的类型别名，或者对已有类型进行重命名。
-总的来说，`interface` 和 `type` 在功能和使用方式上有一些差异，但在大多数情况下可以互换使用。选择使用哪个取决于具体的需求和个人偏好，以及与团队的约定和代码风格的一致性。
+
 
 这段代码定义了一个名为 `NewDocButtonProps` 的接口，并通过 `extends` 关键字继承了 `React.HTMLAttributes<HTMLButtonElement>` 接口。它是一个用于描述 `NewDocButton` 组件属性的类型声明。
 具体来说，`NewDocButtonProps` 继承了 `React.HTMLAttributes<HTMLButtonElement>`，这意味着它包含了 `HTMLButtonElement` 元素的所有标准属性和事件回调。通过继承这个接口，`NewDocButtonProps` 可以接受所有适用于 `<button>` 元素的属性，并且保持了与原生按钮元素一致的类型定义。
@@ -264,101 +213,7 @@ const NewDocButton: React.FC<NewDocButtonProps> = (props) => {
 export default NewDocButton;
 ```
 
-在上面的示例中，`NewDocButton` 组件接受 `NewDocButtonProps` 作为属性类型声明，并将传递给组件的所有属性应用到 `<button>` 元素上。通过 `...props`，可以将所有属性传递给按钮元素，使得可以在使用 `NewDocButton` 组件时传递任意有效的按钮属性，并保持类型检查的一致性。
----
-aliases:
 
----
-20230806 1004
-links: https://www.bilibili.com/video/BV1HF41197bN/?vd_source=7038f96b6bb3b14743531b102b109c43
-title:
-origin:
-tags: #flashcards #todo 
-
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240714124833384.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240714124836002.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240714124836823.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png]]
-![[assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png]]
-
-
-### TypeScript和Flow代码示例
-
-下面是TypeScript和Flow的代码示例和注释：
-
-```typescript
-// TypeScript示例
-interface Person {
-  name: string;
-  age: number;
-}
-function greet(person: Person): string {
-  return `Hello, ${person.name}! You are ${person.age} years old.`;
-}
-const alice: Person = { name: 'Alice', age: 20 };
-console.log(greet(alice));
-// Flow示例
-type Person = {
-  name: string,
-  age: number,
-};
-function greet(person: Person): string {
-  return `Hello, ${person.name}! You are ${person.age} years old.`;
-}
-const alice: Person = { name: 'Alice', age: 20 };
-console.log(greet(alice));
-```
-TypeScript和Flow都是用于静态类型检查的工具，它们可以在JavaScript代码中添加类型注释，并在编译或运行之前进行类型检查。以上示例中，我们定义了一个Person接口（TypeScript）或类型（Flow），并使用它来指定参数和变量的类型。在函数中，我们使用模板字符串来拼接字符串，并返回相应的问候语。最后，我们创建了一个名为alice的Person对象，并将其传递给greet函数进行打印。
-
-TypeScript和Flow都是用于在JavaScript中添加静态类型检查的工具，它们的目标是提供更可靠和健壮的代码。以下是TypeScript和Flow之间的几个主要区别：
-
-1. 语言类型：TypeScript是一种完整的编程语言，它在JavaScript的基础上添加了类型注解和其他语言特性，以创建类型安全的代码。Flow是一个静态类型检查工具，使用了类型推断和类型注释来分析代码中的类型信息，但它本身不是一种独立的编程语言。
-2. 发展历史：TypeScript由微软开发并于2012年发布，它在JavaScript社区中得到了广泛的应用和支持。Flow由Facebook开发，并于2014年发布，主要用于Facebook内部的JavaScript代码。
-3. 类型注解：在TypeScript中，类型注解是必需的，用于指定变量、函数参数、函数返回值等的类型。在Flow中，类型注解是可选的，可以根据需要选择性地添加类型注解。
-4. 类型系统：TypeScript的类型系统相对更严格和复杂，支持接口、类、枚举等高级类型。Flow的类型系统相对较简单，但仍可以满足大多数需求。
-5. 生态系统和工具支持：TypeScript拥有更大的生态系统和更广泛的工具支持，包括编辑器插件（如VS Code）、构建工具（如Webpack）和第三方库。Flow的生态系统相对较小，但在一些大型项目和Facebook内部仍有广泛应用。
-  总体而言，TypeScript更成熟、更广泛地应用于生产环境，并且拥有更丰富的工具和社区支持。Flow则更轻量、更简单，并适合于小型项目或对类型系统需求不太严格的场景。选择使用哪个工具取决于个人偏好、项目需求和团队情况。
-
-#### TypeScript高级类型
-
-TypeScript提供了许多高级类型特性，可以帮助开发人员更好地管理和操作类型。以下是一些常见的高级类型示例和使用场景：
-
-1. 泛型（Generics）：允许在函数、类和接口中使用类型参数，以提供灵活的类型定义。
-```typescript
-function identity<T>(arg: T): T {
-  return arg;
-}
-const result = identity<string>('Hello');
-```
-使用场景：当需要编写可重用的函数或类，但不确定要使用的具体类型时，可以使用泛型。
-2. 联合类型（Union Types）和交叉类型（Intersection Types）：联合类型允许一个值具有多个可能的类型，交叉类型将多个类型合并为一个新的类型。
-```typescript
-type NumberOrString = number | string;
-function printId(id: NumberOrString): void {
-  console.log(id);
-}
-type User = {
-  name: string;
-};
-type Admin = {
-  role: string;
-};
-type AdminUser = User & Admin;
-```
-使用场景：联合类型可用于处理多种类型的参数或变量，交叉类型可用于合并多个类型的属性和方法。
-3. 类型别名（Type Aliases）和字面量类型（Literal Types）：类型别名允许为现有类型创建一个新名称，字面量类型允许指定具体的值作为类型。
-```typescript
-type Color = 'Red' | 'Blue' | 'Green';
-type Point = {
-  x: number;
-  y: number;
-};
-type Rectangle = {
-  topLeft: Point;
-  bottomRight: Point;
-};
-```
-使用场景：类型别名可用于简化复杂类型的使用，字面量类型可用于限制变量或参数的取值范围。
 4. 映射类型（Mapped Types）：允许以一种简洁的方式转换和操作现有类型的属性。
 ```typescript
 type Person = {
@@ -375,8 +230,3 @@ type IsArray<T> = T extends Array<any> ? true : false;
 type Result = IsArray<number[]>;
 ```
 使用场景：条件类型可用于根据类型的条件判断执行不同的类型逻辑。
-这些高级类型示例展示了TypeScript的一些强大功能，可以帮助开发人员更好地管理和操作类型。根据不同的需求和场景，可以灵活使用这些特性来提高代码的可读性和健壮性。
-
-[[../CSS/CSS预处理]]
-
-[[../React/React关键技术]]

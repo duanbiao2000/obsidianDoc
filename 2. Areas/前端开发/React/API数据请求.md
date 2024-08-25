@@ -92,7 +92,6 @@ export default MyComponent;
 在这个示例中，我们使用 `async` 关键字将 `fetchData` 函数定义为异步函数。在函数体内，我们使用 `await` 关键字等待 axios 的 GET 请求完成，并使用返回的数据更新 `data` 状态。
 3. 使用第三方库：还可以使用第三方库（如 redux-thunk、redux-saga 或 react-query）来管理和处理异步请求。这些库提供了更多的功能和灵活性，以处理复杂的异步操作和状态管理。
   无论你选择哪种方法，都需要考虑请求的错误处理、请求的取消、加载状态的管理等方面，以确保良好的用户体验和数据管理。
-  希望这些方法对你有帮助！如果还有其他问题，请随时提问。
 
 ###  AJAX(Asynchronous JavaScript and XML)异步请求相关的知识点和代码示例:
 
@@ -195,26 +194,7 @@ fetch('/some/api')
     // ... 
   })
 ```
-4. reqwest
-  一个最小化的AJAX库,体积小但功能完整。
-```js
-reqwest({
-  url: '/some/api',
-  success: function(res) {
-    // ...
-  }
-});
-```
-5. SuperAgent
-  一个轻量级的AJAX API,可读性好,支持链式调用。
-```js
-request
-  .get('/some/api')
-  .end(function(res) {
-    // ...
-  })
-```
-这些库都可以简化AJAX请求,开发者可以根据自己的需求进行选择。
+
 
 ### 回调&Promise
 当涉及到异步代码时，JavaScript 提供了两种常用的处理方式：回调函数（Callbacks）和 Promise。以下是一个相同的示例，分别使用这两种方法来执行异步操作，假设我们要模拟加载用户数据的情况：
@@ -263,5 +243,3 @@ getUserData()
 ```
 
 在这个示例中，`getUserData` 返回一个 Promise 对象，当异步操作完成时，它会调用 `resolve` 来传递用户数据或调用 `reject` 来传递错误。然后，通过使用 `.then` 方法来处理成功的情况，使用 `.catch` 方法来处理错误的情况。
-
-无论您选择哪种方式，都可以执行异步操作并在操作完成时处理结果或错误。Promises 提供了更清晰、更易于管理的异步代码结构，并允许更容易地处理多个异步操作。

@@ -1,8 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "Findlay - React - The Road To Enterprise.pdf",
+      "path": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
+    },
+    {
+      "basename": "Build and Deploy a Full Stack Next.js 13 Application",
+      "path": "2. Areas/前端开发/React/Build and Deploy a Full Stack Next.js 13 Application.md"
+    },
+    {
+      "basename": "API设计模式",
+      "path": "2. Areas/前端开发/React/API设计模式.md"
+    },
+    {
+      "basename": "API网关",
+      "path": "2. Areas/前端开发/React/API网关.md"
+    },
+    {
+      "basename": "API数据请求",
+      "path": "2. Areas/前端开发/React/API数据请求.md"
+    },
+    {
+      "basename": "apexcharts",
+      "path": "2. Areas/前端开发/React/apexcharts.md"
+    },
+    {
+      "basename": "Context API",
+      "path": "2. Areas/前端开发/React/状态管理/Context API.md"
+    },
+    {
+      "basename": "NodeJS基础",
+      "path": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
+    },
+    {
+      "basename": "Nodejs关键技术",
+      "path": "2. Areas/前端开发/Nodejs/Nodejs关键技术.md"
+    },
+    {
+      "basename": "Koa学习笔记",
+      "path": "2. Areas/前端开发/Nodejs/Koa学习笔记.md"
+    },
+    {
+      "basename": "Full Stack Web Development Course",
+      "path": "2. Areas/前端开发/Nodejs/Full Stack Web Development Course.md"
+    },
+    {
       "basename": "20240826000000",
       "path": "dailyNotes/20240826000000.md"
+    },
+    {
+      "basename": "Udemy想要的课",
+      "path": "2. Areas/前端开发/Udemy想要的课.md"
+    },
+    {
+      "basename": "知识图谱",
+      "path": "2. Areas/AI/深度学习/知识图谱.md"
+    },
+    {
+      "basename": "图灵前端核心知识进阶系列（套装全10册）",
+      "path": "2. Areas/前端开发/JavaScript/图灵前端核心知识进阶系列（套装全10册）.md"
+    },
+    {
+      "basename": "梗直哥丶 专治好奇",
+      "path": "2. Areas/AI/深度学习/梗直哥丶 专治好奇.md"
+    },
+    {
+      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
+      "path": "2. Areas/前端开发/React/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
+    },
+    {
+      "basename": "React设计模式",
+      "path": "2. Areas/前端开发/React/React设计模式.md"
+    },
+    {
+      "basename": "JavaScript深度学习",
+      "path": "2. Areas/AI/深度学习/JavaScript深度学习.md"
+    },
+    {
+      "basename": "Typescript泛型",
+      "path": "2. Areas/前端开发/TypeScript/Typescript泛型.md"
+    },
+    {
+      "basename": "Typesciprt扩展",
+      "path": "2. Areas/前端开发/TypeScript/Typesciprt扩展.md"
     },
     {
       "basename": "Next.js",
@@ -119,86 +199,6 @@
     {
       "basename": "口语化转述",
       "path": "2. Areas/IELTS/口语化转述.md"
-    },
-    {
-      "basename": "英语例句0605",
-      "path": "2. Areas/IELTS/英语例句0605.md"
-    },
-    {
-      "basename": "关键例句",
-      "path": "2. Areas/IELTS/关键例句.md"
-    },
-    {
-      "basename": "宣言Manifesto",
-      "path": "2. Areas/IELTS/宣言Manifesto.md"
-    },
-    {
-      "basename": "场景英语",
-      "path": "2. Areas/IELTS/场景英语.md"
-    },
-    {
-      "basename": "Phrases",
-      "path": "2. Areas/IELTS/Phrases.md"
-    },
-    {
-      "basename": "每日听力材料  (至少听四遍)",
-      "path": "2. Areas/IELTS/每日听力材料  (至少听四遍).md"
-    },
-    {
-      "basename": "大作文十种类型",
-      "path": "2. Areas/IELTS/大作文十种类型.md"
-    },
-    {
-      "basename": "动词短语",
-      "path": "2. Areas/IELTS/动词短语.md"
-    },
-    {
-      "basename": "分类记忆",
-      "path": "2. Areas/IELTS/分类记忆.md"
-    },
-    {
-      "basename": "20240824000000",
-      "path": "dailyNotes/20240824000000.md"
-    },
-    {
-      "basename": "20240823151648",
-      "path": "dailyNotes/20240823151648.md"
-    },
-    {
-      "basename": "20240821202226",
-      "path": "dailyNotes/20240821202226.md"
-    },
-    {
-      "basename": "20240822000000",
-      "path": "dailyNotes/20240822000000.md"
-    },
-    {
-      "basename": "20240823000000",
-      "path": "dailyNotes/20240823000000.md"
-    },
-    {
-      "basename": "20240821154423",
-      "path": "dailyNotes/20240821154423.md"
-    },
-    {
-      "basename": "20240821142038",
-      "path": "dailyNotes/20240821142038.md"
-    },
-    {
-      "basename": "20240821000000",
-      "path": "dailyNotes/20240821000000.md"
-    },
-    {
-      "basename": "20240820212948",
-      "path": "dailyNotes/20240820212948.md"
-    },
-    {
-      "basename": "20240820000000",
-      "path": "dailyNotes/20240820000000.md"
-    },
-    {
-      "basename": "20240819155946",
-      "path": "dailyNotes/20240819155946.md"
     }
   ],
   "omittedPaths": [

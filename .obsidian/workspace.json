@@ -110,7 +110,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240826000000.md",
+                "file": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240826000000.md",
+                "file": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240826000000.md",
+                "file": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240826000000.md"
+                "file": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
               }
             }
           },
@@ -254,7 +254,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240826000000.md"
+                "file": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
               }
             }
           },
@@ -325,32 +325,32 @@
   },
   "active": "2d2bcddf861bd165",
   "lastOpenFiles": [
-    "2. Areas/前端开发/NextJS/Next.js.md",
+    "2. Areas/前端开发/React/Build and Deploy a Full Stack Next.js 13 Application.md",
+    "2. Areas/前端开发/React/API设计模式.md",
+    "2. Areas/前端开发/React/API网关.md",
+    "2. Areas/前端开发/React/API数据请求.md",
+    "2. Areas/前端开发/React/apexcharts.md",
+    "2. Areas/前端开发/React/状态管理/Context API.md",
+    "2. Areas/前端开发/React/组件通信/事件订阅与发布.md",
+    "2. Areas/前端开发/Nodejs/NodeJS基础.md",
+    "2. Areas/前端开发/Nodejs/Nodejs关键技术.md",
+    "2. Areas/前端开发/Nodejs/Koa学习笔记.md",
+    "2. Areas/前端开发/Nodejs/Full Stack Web Development Course.md",
     "dailyNotes/20240826000000.md",
+    "2. Areas/前端开发/Nodejs/Nodejs关键技术 1.md",
+    "2. Areas/前端开发/Udemy想要的课.md",
+    "2. Areas/AI/深度学习/知识图谱.md",
+    "2. Areas/前端开发/JavaScript/图灵前端核心知识进阶系列（套装全10册）.md",
+    "2. Areas/AI/深度学习/梗直哥丶 专治好奇.md",
+    "2. Areas/前端开发/React/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+    "2. Areas/前端开发/React/React设计模式.md",
+    "2. Areas/AI/深度学习/JavaScript深度学习.md",
+    "2. Areas/前端开发/TypeScript/Typescript泛型.md",
+    "2. Areas/前端开发/TypeScript/Typesciprt扩展.md",
+    "2. Areas/前端开发/NextJS/Next.js.md",
     "2. Areas/前端开发/NextJS/GraphQL.md",
     "2. Areas/前端开发/JavaScript/节流函数.md",
     "2. Areas/前端开发/JavaScript/构造函数.md",
-    "2. Areas/前端开发/JavaScript/超实用的javascript代码段.md",
-    "2. Areas/前端开发/JavaScript/最长公共子序列.md",
-    "2. Areas/前端开发/JavaScript/分页查询.md",
-    "2. Areas/前端开发/JavaScript/全屏轮播图.md",
-    "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md",
-    "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md",
-    "2. Areas/前端开发/JavaScript/LRU缓存机制.md",
-    "2. Areas/前端开发/JavaScript/JS笔记汇总.md",
-    "2. Areas/前端开发/JavaScript/JS基础.md",
-    "2. Areas/前端开发/JavaScript/Js源码阅读.md",
-    "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md",
-    "2. Areas/前端开发/JavaScript/Javascrip高级技术.md",
-    "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md",
-    "2. Areas/前端开发/JavaScript/Generator函数.md",
-    "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md",
-    "2. Areas/前端开发/JavaScript/Effective系列JS篇.md",
-    "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md",
-    "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md",
-    "2. Areas/前端开发/JavaScript/30 Seconds of Code.md",
-    "2. Areas/前端开发/JavaScript/@千问随机20问.md",
-    "2. Areas/前端开发/CSS/响应式设计.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
