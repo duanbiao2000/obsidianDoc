@@ -45,7 +45,6 @@ export default Form;
 ```
 
 
-
 以下是一个简单的 React 组件示例，演示了如何创建一个具有真实布局的组件：
 ```jsx
 import React from "react";
