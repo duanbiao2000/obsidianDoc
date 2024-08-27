@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240827000000",
+      "path": "dailyNotes/20240827000000.md"
+    },
+    {
       "basename": "前端路线图",
       "path": "Atlas/kanban/前端路线图.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Generator函数",
       "path": "2. Areas/前端开发/JavaScript/Generator函数.md"
-    },
-    {
-      "basename": "ES6到ES11新增主要特性",
-      "path": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
     }
   ],
   "omittedPaths": [

@@ -38,6 +38,19 @@
             }
           },
           {
+            "id": "9082cca6be9f7093",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dailyNotes/20240827000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -66,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md"
+                "file": "dailyNotes/20240827000000.md"
               }
             }
           },
@@ -174,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md"
+                "file": "dailyNotes/20240827000000.md"
               }
             }
           },
@@ -184,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md",
+                "file": "dailyNotes/20240827000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md",
+                "file": "dailyNotes/20240827000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,17 +317,18 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2ceed23c498c013f",
+  "active": "9082cca6be9f7093",
   "lastOpenFiles": [
+    "Atlas/kanban/前端路线图.md",
+    "dailyNotes/20240827000000.md",
     "Atlas/dataview/dataviews.md",
     "2. Areas/IELTS/雅思笔记.md",
-    "Atlas/kanban/前端路线图.md",
     "2. Areas/前端开发/NextJS/Next.js.md",
     "dailyNotes/20240823000000.md",
     "dailyNotes/20240823151648.md",
@@ -339,7 +353,6 @@
     "2. Areas/前端开发/Nodejs/Nodejs关键技术.md",
     "2. Areas/前端开发/Nodejs/Koa学习笔记.md",
     "2. Areas/前端开发/Nodejs/Full Stack Web Development Course.md",
-    "dailyNotes/20240826000000.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
