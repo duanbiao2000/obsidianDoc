@@ -43,5 +43,8 @@
   "obsidian-image-toolkit",
   "oz-clear-unused-images",
   "obsidian-advanced-slides",
-  "extract-highlights-plugin"
+  "extract-highlights-plugin",
+  "calendar",
+  "obsidian-full-calendar",
+  "obsidian-kanban"
 ]

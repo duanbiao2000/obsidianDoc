@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "前端路线图",
+      "path": "Atlas/kanban/前端路线图.md"
+    },
+    {
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
+      "basename": "雅思笔记",
+      "path": "2. Areas/IELTS/雅思笔记.md"
+    },
+    {
+      "basename": "Next.js",
+      "path": "2. Areas/前端开发/NextJS/Next.js.md"
+    },
+    {
+      "basename": "20240823000000",
+      "path": "dailyNotes/20240823000000.md"
+    },
+    {
+      "basename": "20240823151648",
+      "path": "dailyNotes/20240823151648.md"
+    },
+    {
+      "basename": "20240816104223",
+      "path": "dailyNotes/20240816104223.md"
+    },
+    {
+      "basename": "20240816184544",
+      "path": "dailyNotes/20240816184544.md"
+    },
+    {
+      "basename": "20240813000000",
+      "path": "dailyNotes/20240813000000.md"
+    },
+    {
+      "basename": "20240812120857",
+      "path": "dailyNotes/20240812120857.md"
+    },
+    {
+      "basename": "20240812000000",
+      "path": "dailyNotes/20240812000000.md"
+    },
+    {
+      "basename": "20240813103627",
+      "path": "dailyNotes/20240813103627.md"
+    },
+    {
+      "basename": "20240814000000",
+      "path": "dailyNotes/20240814000000.md"
+    },
+    {
       "basename": "Findlay - React - The Road To Enterprise.pdf",
       "path": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
     },
@@ -85,10 +137,6 @@
       "path": "2. Areas/前端开发/TypeScript/Typesciprt扩展.md"
     },
     {
-      "basename": "Next.js",
-      "path": "2. Areas/前端开发/NextJS/Next.js.md"
-    },
-    {
       "basename": "GraphQL",
       "path": "2. Areas/前端开发/NextJS/GraphQL.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "ES6到ES11新增主要特性",
       "path": "2. Areas/前端开发/JavaScript/ES6到ES11新增主要特性.md"
-    },
-    {
-      "basename": "Effective系列JS篇",
-      "path": "2. Areas/前端开发/JavaScript/Effective系列JS篇.md"
-    },
-    {
-      "basename": "arguments和展开运算符(...)",
-      "path": "2. Areas/前端开发/JavaScript/arguments和展开运算符(...).md"
-    },
-    {
-      "basename": "`replacer` 和 `reviver` 函数",
-      "path": "2. Areas/前端开发/JavaScript/`replacer` 和 `reviver` 函数.md"
-    },
-    {
-      "basename": "@千问随机20问",
-      "path": "2. Areas/前端开发/JavaScript/@千问随机20问.md"
-    },
-    {
-      "basename": "响应式设计",
-      "path": "2. Areas/前端开发/CSS/响应式设计.md"
-    },
-    {
-      "basename": "Tailwind",
-      "path": "2. Areas/前端开发/CSS/Tailwind.md"
-    },
-    {
-      "basename": "CSS预处理",
-      "path": "2. Areas/前端开发/CSS/CSS预处理.md"
-    },
-    {
-      "basename": "CSS学习笔记0624",
-      "path": "2. Areas/前端开发/CSS/CSS学习笔记0624.md"
-    },
-    {
-      "basename": "高级语法解析",
-      "path": "2. Areas/IELTS/高级语法解析.md"
-    },
-    {
-      "basename": "雅思笔记",
-      "path": "2. Areas/IELTS/雅思笔记.md"
-    },
-    {
-      "basename": "阅读理解分析",
-      "path": "2. Areas/IELTS/阅读理解分析.md"
-    },
-    {
-      "basename": "口语化转述",
-      "path": "2. Areas/IELTS/口语化转述.md"
     }
   ],
   "omittedPaths": [

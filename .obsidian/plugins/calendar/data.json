@@ -2,9 +2,9 @@
   "shouldConfirmBeforeCreate": true,
   "weekStart": "locale",
   "wordsPerDot": 250,
-  "showWeeklyNote": false,
+  "showWeeklyNote": true,
   "weeklyNoteFormat": "",
-  "weeklyNoteTemplate": "",
-  "weeklyNoteFolder": "",
-  "localeOverride": "system-default"
+  "weeklyNoteTemplate": "Extras/Template/Templater/themedatetagsstatus",
+  "weeklyNoteFolder": "weeklyNotes",
+  "localeOverride": "zh-tw"
 }
