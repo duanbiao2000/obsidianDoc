@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "称职的增长黑客",
+      "path": "3. Resources/smart-chats/称职的增长黑客.md"
+    },
+    {
+      "basename": "增长黑客深入探索 CHAT 2024-06-10 04 45 21",
+      "path": "3. Resources/smart-chats/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md"
+    },
+    {
+      "basename": "朋友与敌人",
+      "path": "4. Archives/朋友与敌人.md"
+    },
+    {
       "basename": "20240827000000",
-      "path": "dailyNotes/20240827000000.md"
+      "path": "+ Encounters/dailyNotes/20240827000000.md"
     },
     {
       "basename": "前端路线图",
@@ -22,39 +34,39 @@
     },
     {
       "basename": "20240823000000",
-      "path": "dailyNotes/20240823000000.md"
+      "path": "+ Encounters/dailyNotes/20240823000000.md"
     },
     {
       "basename": "20240823151648",
-      "path": "dailyNotes/20240823151648.md"
+      "path": "+ Encounters/dailyNotes/20240823151648.md"
     },
     {
       "basename": "20240816104223",
-      "path": "dailyNotes/20240816104223.md"
+      "path": "+ Encounters/dailyNotes/20240816104223.md"
     },
     {
       "basename": "20240816184544",
-      "path": "dailyNotes/20240816184544.md"
+      "path": "+ Encounters/dailyNotes/20240816184544.md"
     },
     {
       "basename": "20240813000000",
-      "path": "dailyNotes/20240813000000.md"
+      "path": "+ Encounters/dailyNotes/20240813000000.md"
     },
     {
       "basename": "20240812120857",
-      "path": "dailyNotes/20240812120857.md"
+      "path": "+ Encounters/dailyNotes/20240812120857.md"
     },
     {
       "basename": "20240812000000",
-      "path": "dailyNotes/20240812000000.md"
+      "path": "+ Encounters/dailyNotes/20240812000000.md"
     },
     {
       "basename": "20240813103627",
-      "path": "dailyNotes/20240813103627.md"
+      "path": "+ Encounters/dailyNotes/20240813103627.md"
     },
     {
       "basename": "20240814000000",
-      "path": "dailyNotes/20240814000000.md"
+      "path": "+ Encounters/dailyNotes/20240814000000.md"
     },
     {
       "basename": "Findlay - React - The Road To Enterprise.pdf",
@@ -102,7 +114,7 @@
     },
     {
       "basename": "20240826000000",
-      "path": "dailyNotes/20240826000000.md"
+      "path": "+ Encounters/dailyNotes/20240826000000.md"
     },
     {
       "basename": "Udemy想要的课",
@@ -187,22 +199,10 @@
     {
       "basename": "JSON.parse(JSON.stringify(obj))",
       "path": "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md"
-    },
-    {
-      "basename": "Javascrip高级技术",
-      "path": "2. Areas/前端开发/JavaScript/Javascrip高级技术.md"
-    },
-    {
-      "basename": "Javascrip三省笔记0522",
-      "path": "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md"
-    },
-    {
-      "basename": "Generator函数",
-      "path": "2. Areas/前端开发/JavaScript/Generator函数.md"
     }
   ],
   "omittedPaths": [
-    "\\.png$ ",
+    "/.png$ ",
     "Extras/"
   ],
   "maxLength": 50,

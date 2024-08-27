@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyNotes/20240827000000.md",
+                "file": "3. Resources/smart-chats/称职的增长黑客.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "dailyNotes/20240827000000.md"
+                "file": "3. Resources/smart-chats/称职的增长黑客.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyNotes/20240827000000.md"
+                "file": "3. Resources/smart-chats/称职的增长黑客.md"
               }
             }
           },
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dailyNotes/20240827000000.md",
+                "file": "3. Resources/smart-chats/称职的增长黑客.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dailyNotes/20240827000000.md",
+                "file": "3. Resources/smart-chats/称职的增长黑客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,23 +325,28 @@
   },
   "active": "9082cca6be9f7093",
   "lastOpenFiles": [
+    "3. Resources/smart-chats/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md",
+    "4. Archives/朋友与敌人.md",
+    "+ Encounters/dailyNotes/20240827000000.md",
+    "Untitled.md",
+    "5. Misc/Attachments/打造第二大脑",
+    "5. Misc/Attachments/Drawing 2024-07-03 17.25.20.excalidraw",
     "Atlas/kanban/前端路线图.md",
-    "dailyNotes/20240827000000.md",
     "Atlas/dataview/dataviews.md",
     "2. Areas/IELTS/雅思笔记.md",
     "2. Areas/前端开发/NextJS/Next.js.md",
-    "dailyNotes/20240823000000.md",
-    "dailyNotes/20240823151648.md",
-    "dailyNotes/20240816104223.md",
-    "dailyNotes/20240816184544.md",
+    "+ Encounters/dailyNotes/20240823000000.md",
+    "+ Encounters/dailyNotes/20240823151648.md",
+    "+ Encounters/dailyNotes/20240816104223.md",
+    "+ Encounters/dailyNotes/20240816184544.md",
     "Atlas/kanban",
-    "dailyNotes/20240813000000.md",
-    "dailyNotes/20240812120857.md",
-    "dailyNotes/20240812000000.md",
-    "dailyNotes/20240813103627.md",
-    "dailyNotes/20240814000000.md",
+    "+ Encounters/dailyNotes/20240813000000.md",
+    "+ Encounters/dailyNotes/20240812120857.md",
+    "+ Encounters/dailyNotes/20240812000000.md",
+    "+ Encounters/dailyNotes/20240813103627.md",
+    "+ Encounters/dailyNotes/20240814000000.md",
     "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md",
-    "weeklyNotes",
+    "+ Encounters/weeklyNotes",
     "2. Areas/前端开发/React/Build and Deploy a Full Stack Next.js 13 Application.md",
     "2. Areas/前端开发/React/API设计模式.md",
     "2. Areas/前端开发/React/API网关.md",
@@ -350,17 +355,12 @@
     "2. Areas/前端开发/React/状态管理/Context API.md",
     "2. Areas/前端开发/React/组件通信/事件订阅与发布.md",
     "2. Areas/前端开发/Nodejs/NodeJS基础.md",
-    "2. Areas/前端开发/Nodejs/Nodejs关键技术.md",
-    "2. Areas/前端开发/Nodejs/Koa学习笔记.md",
-    "2. Areas/前端开发/Nodejs/Full Stack Web Development Course.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
     "5. Misc/Attachments/20240806011044_理解 Object.create(null)",
     "5. Misc/Attachments/20240805204838_ES2016-19",
     "5. Misc/Attachments/20240805203340-JS中的Proxy",
-    "5. Misc/Attachments/异步操作",
-    "5. Misc/Attachments/20240805144814_Promise与事件循环特性的关系",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837635.png",
     "2. Areas/前端开发/TypeScript/assets/img/Typescript泛型/IMG-Typescript泛型-20240714124837226.png",
@@ -370,7 +370,7 @@
     "Extras/Obsidian-Templates-main/Docs/images/To-Big-Chars.png",
     "Extras/Obsidian-Templates-main/Docs/images/Task-Progress.png",
     "2. Areas/IELTS/assets/img/哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K/IMG-哑巴英语逆袭方法论-LAPTOP-AAJ6HH4K-20240714124643616.png",
-    "Cards/Excalidraw/attachments/Pasted Image 20240717013444_537.png",
+    "5. Misc/Attachments/打造第二大脑/IMG-打造第二大脑-20240827233658334.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",
     "5. Misc/Attachments/images/Untitled.canvas"

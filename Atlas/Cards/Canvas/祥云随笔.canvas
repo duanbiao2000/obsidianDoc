@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"8dbc0a8bbdaf3166","type":"file","file":"Cards/Canvas/assets/img/祥云随笔/IMG-祥云随笔-20240430184601608.png","x":-780,"y":-555,"width":213,"height":80},
+		{"id":"8dbc0a8bbdaf3166","type":"file","file":"Atlas/Cards/Canvas/assets/img/祥云随笔/IMG-祥云随笔-20240430184601608.png","x":-780,"y":-555,"width":213,"height":80},
 		{"id":"2326c6aea3dd951f","type":"text","text":"[祥云随笔公众号](https://mp.weixin.qq.com/s?__biz=MjM5MDE5OTE5NQ==&mid=2651115439&idx=1&sn=351f31b887b03af76fc36c12fe3ceb43&chksm=bdb8135b8acf9a4d5f71ed65bf1160818eb0ad695207ca6f7b50817e0a1f0bd3b37d5951652c&cur_album_id=3029843802955464705&scene=189#wechat_redirect)\n在思考花园做思想实验（Obsidian，AI，医学）\n《普通人为什么要学一点医学》，《普通人如何循序渐进地学医学》\n\n《重新自学音乐（理解篇）》、《重新自学音乐（回顾篇）》。\n![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240430172641.png)\n如图，少折腾，甚至不折腾。\n当然，不仅限于 obsidian，也包括 ChatGPT 等工具。","x":-27,"y":-875,"width":713,"height":720},
 		{"id":"663d4fd61d3c38d7","type":"text","text":"# 秘塔AI学术搜索\n[# Obsidian | 秘塔AI学术搜索](https://mp.weixin.qq.com/s?__biz=MjM5MDE5OTE5NQ==&mid=2651115443&idx=1&sn=5aa101a2590329fa30bcb6e86fd31156&chksm=bdb813478acf9a51e3b5daa1fe1333ca8ae873a8b037f10f625002f94b5817b5516cc26c7974&cur_album_id=3029843802955464705&scene=189#wechat_redirect)","x":900,"y":-580,"width":560,"height":130},
 		{"id":"ed8b7ee7f51d56da","type":"text","text":"What are the subtopics related to intravenous thrombolysis for acute ischemic stroke?","x":1020,"y":-380,"width":320,"height":110},

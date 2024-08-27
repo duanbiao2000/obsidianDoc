@@ -5,6 +5,6 @@
   "showWeeklyNote": true,
   "weeklyNoteFormat": "",
   "weeklyNoteTemplate": "Extras/Template/Templater/themedatetagsstatus",
-  "weeklyNoteFolder": "weeklyNotes",
+  "weeklyNoteFolder": "+ Encounters/weeklyNotes",
   "localeOverride": "zh-tw"
 }

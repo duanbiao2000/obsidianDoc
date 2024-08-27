@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🤓",
-      "🥸",
-      "🤠"
+      "LiMapPin",
+      "👩‍⚕️",
+      "LiSheetsInBox",
+      "📥",
+      "LiActivitySquare"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,5 +32,10 @@
     "iconIdentifier": ":",
     "debugMode": false,
     "lucideIconPackType": "native"
-  }
+  },
+  "2. Areas": "LiBrain",
+  "1. Projects": "LiActivitySquare",
+  "+ Encounters": "LiSheetsInBox",
+  "3. Resources": "👩‍⚕️",
+  "Atlas": "LiMapPin"
 }
