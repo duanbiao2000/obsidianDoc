@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "称职的增长黑客",
-      "path": "3. Resources/smart-chats/称职的增长黑客.md"
+      "basename": "天命人日记",
+      "path": "+ Encounters/天命人日记.md"
+    },
+    {
+      "basename": "构建第二大脑",
+      "path": "+ Encounters/构建第二大脑.md"
     },
     {
       "basename": "增长黑客深入探索 CHAT 2024-06-10 04 45 21",
       "path": "3. Resources/smart-chats/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md"
+    },
+    {
+      "basename": "称职的增长黑客",
+      "path": "3. Resources/smart-chats/称职的增长黑客.md"
     },
     {
       "basename": "朋友与敌人",
@@ -191,14 +199,6 @@
     {
       "basename": "JS笔记汇总",
       "path": "2. Areas/前端开发/JavaScript/JS笔记汇总.md"
-    },
-    {
-      "basename": "JS基础",
-      "path": "2. Areas/前端开发/JavaScript/JS基础.md"
-    },
-    {
-      "basename": "JSON.parse(JSON.stringify(obj))",
-      "path": "2. Areas/前端开发/JavaScript/JSON.parse(JSON.stringify(obj)).md"
     }
   ],
   "omittedPaths": [

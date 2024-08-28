@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/smart-chats/称职的增长黑客.md",
+                "file": "+ Encounters/天命人日记.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "3. Resources/smart-chats/称职的增长黑客.md"
+                "file": "+ Encounters/天命人日记.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resources/smart-chats/称职的增长黑客.md"
+                "file": "+ Encounters/天命人日记.md"
               }
             }
           },
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resources/smart-chats/称职的增长黑客.md",
+                "file": "+ Encounters/天命人日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Resources/smart-chats/称职的增长黑客.md",
+                "file": "+ Encounters/天命人日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,7 +325,10 @@
   },
   "active": "9082cca6be9f7093",
   "lastOpenFiles": [
+    "+ Encounters/构建第二大脑.md",
+    "+ Encounters/天命人日记.md",
     "3. Resources/smart-chats/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md",
+    "3. Resources/smart-chats/称职的增长黑客.md",
     "4. Archives/朋友与敌人.md",
     "+ Encounters/dailyNotes/20240827000000.md",
     "Untitled.md",
@@ -352,9 +355,6 @@
     "2. Areas/前端开发/React/API网关.md",
     "2. Areas/前端开发/React/API数据请求.md",
     "2. Areas/前端开发/React/apexcharts.md",
-    "2. Areas/前端开发/React/状态管理/Context API.md",
-    "2. Areas/前端开发/React/组件通信/事件订阅与发布.md",
-    "2. Areas/前端开发/Nodejs/NodeJS基础.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
