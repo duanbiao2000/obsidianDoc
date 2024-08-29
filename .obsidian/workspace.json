@@ -331,9 +331,7 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "1a0a332aef5d1712",
