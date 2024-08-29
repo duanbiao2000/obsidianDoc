@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240829000000",
+      "path": "+ Encounters/dailyNotes/20240829000000.md"
+    },
+    {
       "basename": "天命人日记",
       "path": "+ Encounters/天命人日记.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "LRU缓存机制",
       "path": "2. Areas/前端开发/JavaScript/LRU缓存机制.md"
-    },
-    {
-      "basename": "JS笔记汇总",
-      "path": "2. Areas/前端开发/JavaScript/JS笔记汇总.md"
     }
   ],
   "omittedPaths": [

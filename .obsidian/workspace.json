@@ -51,6 +51,19 @@
             }
           },
           {
+            "id": "1a0a332aef5d1712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240829000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -79,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -177,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/天命人日记.md"
+                "file": "+ Encounters/dailyNotes/20240829000000.md"
               }
             }
           },
@@ -187,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/天命人日记.md"
+                "file": "+ Encounters/dailyNotes/20240829000000.md"
               }
             }
           },
@@ -197,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/天命人日记.md",
+                "file": "+ Encounters/dailyNotes/20240829000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/天命人日记.md",
+                "file": "+ Encounters/dailyNotes/20240829000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +304,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "publish:Publish changes...": false,
-      "obsidian-memos:Thino": false,
       "media-extended:Open media": false,
       "templater-obsidian:Templater": false,
       "extract-highlights-plugin:Extract Highlights": false,
@@ -323,10 +335,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9082cca6be9f7093",
+  "active": "1a0a332aef5d1712",
   "lastOpenFiles": [
-    "+ Encounters/构建第二大脑.md",
     "+ Encounters/天命人日记.md",
+    "+ Encounters/dailyNotes/20240829000000.md",
+    "+ Encounters/构建第二大脑.md",
     "3. Resources/smart-chats/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md",
     "3. Resources/smart-chats/称职的增长黑客.md",
     "4. Archives/朋友与敌人.md",
@@ -354,7 +367,6 @@
     "2. Areas/前端开发/React/API设计模式.md",
     "2. Areas/前端开发/React/API网关.md",
     "2. Areas/前端开发/React/API数据请求.md",
-    "2. Areas/前端开发/React/apexcharts.md",
     "5. Misc/Attachments/高级语法",
     "5. Misc/Attachments/20240806011044",
     "5. Misc/Attachments/20240806011044_12",
