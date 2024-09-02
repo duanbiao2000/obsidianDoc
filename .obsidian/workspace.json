@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0a70d5eedf0fa5b2",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
             "id": "2ceed23c498c013f",
             "type": "leaf",
             "pinned": true,
@@ -38,42 +30,11 @@
             }
           },
           {
-            "id": "9082cca6be9f7093",
+            "id": "f29d37ed2e102669",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/天命人日记.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a0a332aef5d1712",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/运动健身.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "044c3836d89cd80e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20240902200825.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "full-calendar-view",
+              "state": {}
             }
           },
           {
@@ -97,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/IELTS/雅思笔记.md",
+                "file": "+ Encounters/dailyNotes/20240816184544.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240902200825.md"
+                "file": "+ Encounters/dailyNotes/20240816184544.md"
               }
             }
           },
@@ -213,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240902200825.md"
+                "file": "+ Encounters/dailyNotes/20240816184544.md"
               }
             }
           },
@@ -223,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240902200825.md",
+                "file": "+ Encounters/dailyNotes/20240816184544.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240902200825.md",
+                "file": "+ Encounters/dailyNotes/20240816184544.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -311,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -342,40 +302,40 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "044c3836d89cd80e",
+  "active": "f99ba60c3e027f61",
   "lastOpenFiles": [
-    "2. Areas/前端开发/htmx + Hono.js.md",
-    "+ Encounters/dailyNotes/20240902200825.md",
-    "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
-    "3. Resources/影音读/书本通读/非技术类/1分鐘超強記憶法.md",
-    "3. Resources/Tools/计算机工程师必备工具.md",
-    "3. Resources/Tools/vim笔记.md",
-    "3. Resources/Tools/Git.md",
-    "3. Resources/Tools/AI工具汇总.md",
-    "3. Resources/Tools/Gihub协作指南.md",
-    "3. Resources/Tools/20240626145134- Mermaid图标模板.md",
-    "2. Areas/计算机通识/Mock interview.md",
-    "2. Areas/计算机通识/Common patterns.md",
-    "2. Areas/前端开发/React/Typesciprt扩展.md",
-    "2. Areas/前端开发/Udemy想要的课.md",
-    "2. Areas/前端开发/TypeScript/Typescript泛型.md",
-    "2. Areas/前端开发/React/深入浅出React技术栈.md",
-    "2. Areas/前端开发/React/新手React项目.md",
-    "2. Areas/前端开发/React/React进阶实战.md",
-    "2. Areas/前端开发/React/Youtube-React-extract.md",
-    "2. Areas/前端开发/React/useEffect.md",
-    "2. Areas/前端开发/React/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
-    "2. Areas/前端开发/React/Serverless.md",
-    "2. Areas/前端开发/React/Road to React.md",
-    "2. Areas/前端开发/React/Redux.md",
-    "2. Areas/前端开发/React/Redis 常用命令.md",
-    "2. Areas/前端开发/React/React项目实战.md",
+    "+ Encounters/dailyNotes/20240816172635.md",
+    "+ Encounters/dailyNotes/20240816160627.md",
+    "+ Encounters/dailyNotes/20240816104223.md",
+    "+ Encounters/dailyNotes/20240816000000.md",
+    "+ Encounters/dailyNotes/20240814125947.md",
+    "+ Encounters/dailyNotes/20240815000000.md",
+    "+ Encounters/dailyNotes/20240814000000.md",
+    "+ Encounters/dailyNotes/20240813103627.md",
+    "+ Encounters/dailyNotes/20240813000000.md",
+    "+ Encounters/dailyNotes/20240812120857.md",
+    "+ Encounters/dailyNotes/20240812000000.md",
+    "+ Encounters/dailyNotes/20240811232731.md",
+    "+ Encounters/dailyNotes/20240811215217.md",
+    "+ Encounters/dailyNotes/20240811201819.md",
+    "+ Encounters/dailyNotes/20240811201622.md",
+    "+ Encounters/dailyNotes/20240811154638.md",
+    "+ Encounters/dailyNotes/20240811144939.md",
+    "+ Encounters/dailyNotes/20240811000000.md",
+    "+ Encounters/dailyNotes/20240810204903.md",
+    "+ Encounters/dailyNotes/20240810201111.md",
+    "+ Encounters/dailyNotes/20240810124404.md",
+    "+ Encounters/dailyNotes/20240810124408.md",
+    "+ Encounters/dailyNotes/20240809145225.md",
+    "+ Encounters/dailyNotes/20240809145242.md",
+    "+ Encounters/dailyNotes/20240809012901.md",
+    "+ Encounters/dailyNotes/20240808131344.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",
