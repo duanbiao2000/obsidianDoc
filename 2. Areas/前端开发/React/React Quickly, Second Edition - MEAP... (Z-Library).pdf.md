@@ -10,45 +10,6 @@ type: null
 high_priority: false
 tags: null
 ---
-
-Arrow function箭头函数
-箭头函数嵌套写法是指在箭头函数中返回另一个箭头函数的写法。这种写法可以用于创建高阶函数或在函数定义中定义函数。
-下面是箭头函数嵌套写法的示例：
-
-```javascript
-const outerFunction = (param) => {
-  // 返回一个内部的箭头函数
-  return (innerParam) => {
-    // 内部箭头函数的函数体
-    console.log(param, innerParam);
-  };
-};
-// 调用外部函数，返回内部箭头函数
-const innerArrowFunction = outerFunction("Hello");
-// 调用内部箭头函数
-innerArrowFunction("World");
-```
-
-在上述示例中，`outerFunction` 是一个外部函数，它接受一个参数 `param`。在外部函数中，返回了一个内部的箭头函数，该箭头函数也接受一个参数 `innerParam`。当内部箭头函数被调用时，它会在控制台打印出外部函数的参数 `param` 和内部函数的参数 `innerParam`。
-箭头函数嵌套写法可以用于许多场景，例如在高阶函数中创建闭包，或在函数中定义私有函数。
-
-```jsx
-const onChange = (key) => (evt) => { #B 
-  setData(oldData => ({
-    ...oldData, #C 
-    [key]: evt.target.value, #D 
-    }));
-};
-```
-
-在给定的代码中，`const onChange = (key) => (evt) => { ... }` 是一个函数定义，用于创建一个事件处理函数 `onChange`。
-下面对代码中的每个部分进行解释：
-B. `(key) => (evt) => { ... }`：这是一个箭头函数的嵌套写法，表示 `onChange` 函数接受一个参数 `key`，返回一个接受 `evt` 参数的函数。
-C. `setData(oldData => ({ ...oldData, ... }))`：这是一个更新数据的操作，使用函数式更新（Functional Update）的方式，通过展开运算符（spread operator）来复制旧数据对象的内容。
-D. `[key]: evt.target.value`：这是一个动态属性名的方式，使用 `[key]` 来作为属性名，将 `evt.target.value` 的值赋给对应的属性。
-通过这个函数定义，可以创建一个可用于处理不同键（`key`）的事件处理函数 `onChange`。当事件触发时，该函数会更新数据对象的对应键的值，实现数据的更新和管理。
-希望这个解释对您有所帮助！如果您还有其他问题，请随时提问。
-
 `evt.target.selectedOptions` 是一个 DOM 属性，用于获取在选择框（`<select>`）中被选中的选项（`<option>`）的集合。
 当用户在选择框中选择一个或多个选项时，可以通过访问 `evt.target.selectedOptions` 属性来获取被选中的选项。这个属性返回一个类似数组的对象，包含了被选中的选项元素。
 以下是一个简单的示例，展示如何使用 `evt.target.selectedOptions` 属性来获取选中的选项：
@@ -73,7 +34,7 @@ selectElement.addEventListener("change", handleChange);
 `Array.from(evt.target.selectedOptions)` 是一个将类数组对象转换为数组的操作。
 在给定的代码中，`evt.target.selectedOptions` 是一个类数组对象，表示在选择框中被选中的选项的集合。为了将这个类数组对象转换为真正的数组，可以使用 `Array.from()` 方法。
 下面是对代码中每个部分的解释：
-B. `Array.from(evt.target.selectedOptions)`：这是一个调用 `Array.from()` 方法的表达式。`Array.from()` 方法将一个类数组对象或可迭代对象转换为一个新的数组。在这种情况下，它将 `evt.target.selectedOptions` 类数组对象转换为一个数组。
+`Array.from(evt.target.selectedOptions)`：这是一个调用 `Array.from()` 方法的表达式。`Array.from()` 方法将一个类数组对象或可迭代对象转换为一个新的数组。在这种情况下，它将 `evt.target.selectedOptions` 类数组对象转换为一个数组。
 通过这个操作，我们可以获得一个真正的数组 `options`，其中包含了选择框中被选中的选项元素。这样，我们可以使用数组的方法和属性来处理这些选项。
 需要注意的是，`Array.from()` 方法在转换类数组对象时非常有用，因为它可以将类数组对象转换为具有数组功能的真正的数组。
 
@@ -294,14 +255,4 @@ function Timer({ startTime }) {
 export default Timer;
 ```
 
-在上述代码块中，注释已添加以解释每个部分的作用：
-A. 使用 `useState` 钩子创建 `remaining` 状态变量，用于存储剩余时间。
-B. 使用 `useState` 钩子创建 `isRunning` 状态变量，用于表示计时器是否正在运行。
-C. 使用 `useEffect` 钩子来处理副作用，即启动或暂停计时器。
-D. 使用 `setInterval` 创建一个间隔，每秒触发 `tick` 函数来更新剩余时间。
-E. 使用 `clearInterval` 在组件卸载或 `useEffect` 重新运行时清除间隔。
-F. 在 `useEffect` 依赖数组中添加 `isRunning` 和 `startTime`，以确保在这些值发生变化时重新运行 `useEffect`。
-G. 根据计时器是否正在运行，添加 `timer-ticking` 类名来进行样式控制。
-H. 渲染 `TimeDisplay` 组件来显示剩余时间。
-I. 根据计时器是否正在运行，渲染不同的按钮。
-J. 根据计时器是否正在运行，渲染不同的按钮图标、标签和点击事件。
+

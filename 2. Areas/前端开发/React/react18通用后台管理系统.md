@@ -1,7 +1,4 @@
----
-aliases:
 
----
 #### 样式初始化reset-css
 
 
@@ -77,29 +74,5 @@ App.js或App.tsx文件。
 > - 组件样式最后加载,不会被框架样式覆盖
 
 
-
-#### SCSS的安装和初步使用
-![[assets/img 1/202308291942-react18通用后台管理系统/IMG-202308291942-react18通用后台管理系统-20240714145114128.png]]
-```js
-npm i --save-dev sass
-
-
-// 文件目录
-//src\\assets\styles\global.scss
-$color:#eee
-body{
-  background-color: $color;
-  // 禁用文字选中
-  user-select: none; //文字无法选中
-}
-img{
-  // 禁止拖动图片
-  -webkit-user-drag: none;
-}
-
-```
-[[../../../2. Areas/前端开发/JavaScript/SCSS Versus CSS]]
-
- 
 
 

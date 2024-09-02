@@ -1,8 +1,140 @@
 {
   "recentFiles": [
     {
-      "basename": "Context API",
-      "path": "2. Areas/前端开发/React/状态管理/Context API.md"
+      "basename": "Feel-good Productivity",
+      "path": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md"
+    },
+    {
+      "basename": "1分鐘超強記憶法",
+      "path": "3. Resources/影音读/书本通读/非技术类/1分鐘超強記憶法.md"
+    },
+    {
+      "basename": "计算机工程师必备工具",
+      "path": "3. Resources/Tools/计算机工程师必备工具.md"
+    },
+    {
+      "basename": "vim笔记",
+      "path": "3. Resources/Tools/vim笔记.md"
+    },
+    {
+      "basename": "Git",
+      "path": "3. Resources/Tools/Git.md"
+    },
+    {
+      "basename": "AI工具汇总",
+      "path": "3. Resources/Tools/AI工具汇总.md"
+    },
+    {
+      "basename": "20240626145134- Mermaid图标模板",
+      "path": "3. Resources/Tools/20240626145134- Mermaid图标模板.md"
+    },
+    {
+      "basename": "Mock interview",
+      "path": "2. Areas/计算机通识/Mock interview.md"
+    },
+    {
+      "basename": "Common patterns",
+      "path": "2. Areas/计算机通识/Common patterns.md"
+    },
+    {
+      "basename": "Typesciprt扩展",
+      "path": "2. Areas/前端开发/React/Typesciprt扩展.md"
+    },
+    {
+      "basename": "深入浅出React技术栈",
+      "path": "2. Areas/前端开发/React/深入浅出React技术栈.md"
+    },
+    {
+      "basename": "新手React项目",
+      "path": "2. Areas/前端开发/React/新手React项目.md"
+    },
+    {
+      "basename": "React进阶实战",
+      "path": "2. Areas/前端开发/React/React进阶实战.md"
+    },
+    {
+      "basename": "React软件架构",
+      "path": "2. Areas/前端开发/React/React软件架构.md"
+    },
+    {
+      "basename": "React设计模式与最佳实践",
+      "path": "2. Areas/前端开发/React/React设计模式与最佳实践.md"
+    },
+    {
+      "basename": "React表单Forms",
+      "path": "2. Areas/前端开发/React/React表单Forms.md"
+    },
+    {
+      "basename": "两类Web应用",
+      "path": "2. Areas/前端开发/React/两类Web应用.md"
+    },
+    {
+      "basename": "MVC模型",
+      "path": "2. Areas/前端开发/React/MVC模型.md"
+    },
+    {
+      "basename": "Material-UI",
+      "path": "2. Areas/前端开发/React/Material-UI.md"
+    },
+    {
+      "basename": "Lodash",
+      "path": "2. Areas/前端开发/React/Lodash.md"
+    },
+    {
+      "basename": "ReactRouter",
+      "path": "2. Areas/前端开发/React/ReactRouter.md"
+    },
+    {
+      "basename": "react18通用后台管理系统",
+      "path": "2. Areas/前端开发/React/react18通用后台管理系统.md"
+    },
+    {
+      "basename": "react-bootstrap Components",
+      "path": "2. Areas/前端开发/React/react-bootstrap Components.md"
+    },
+    {
+      "basename": "React Quickly, Second Edition - MEAP... (Z-Library).pdf",
+      "path": "2. Areas/前端开发/React/React Quickly, Second Edition - MEAP... (Z-Library).pdf.md"
+    },
+    {
+      "basename": "React Hooks",
+      "path": "2. Areas/前端开发/React/React Hooks.md"
+    },
+    {
+      "basename": "React Bootstrap",
+      "path": "2. Areas/前端开发/React/React Bootstrap.md"
+    },
+    {
+      "basename": "React admin",
+      "path": "2. Areas/前端开发/React/React admin.md"
+    },
+    {
+      "basename": "Github Gist JavaScript 的精彩代码片段",
+      "path": "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md"
+    },
+    {
+      "basename": "GitHub Actions",
+      "path": "2. Areas/前端开发/React/GitHub Actions.md"
+    },
+    {
+      "basename": "Flask开发部署",
+      "path": "2. Areas/前端开发/React/Flask开发部署.md"
+    },
+    {
+      "basename": "Findlay - React - The Road To Enterprise.pdf",
+      "path": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
+    },
+    {
+      "basename": "API设计模式",
+      "path": "2. Areas/前端开发/React/API设计模式.md"
+    },
+    {
+      "basename": "API网关",
+      "path": "2. Areas/前端开发/React/API网关.md"
+    },
+    {
+      "basename": "API数据请求",
+      "path": "2. Areas/前端开发/React/API数据请求.md"
     },
     {
       "basename": "CSS学习笔记0624",
@@ -31,30 +163,6 @@
     {
       "basename": "Condense , filter and ditstil",
       "path": "2. Areas/Creative/早班车/Condense , filter and ditstil.md"
-    },
-    {
-      "basename": "Common patterns",
-      "path": "2. Areas/计算机通识/Common patterns.md"
-    },
-    {
-      "basename": "Mock interview",
-      "path": "2. Areas/计算机通识/Mock interview.md"
-    },
-    {
-      "basename": "vim笔记",
-      "path": "3. Resources/Tools/vim笔记.md"
-    },
-    {
-      "basename": "Git",
-      "path": "3. Resources/Tools/Git.md"
-    },
-    {
-      "basename": "20240626145134- Mermaid图标模板",
-      "path": "3. Resources/Tools/20240626145134- Mermaid图标模板.md"
-    },
-    {
-      "basename": "AI工具",
-      "path": "3. Resources/Tools/AI工具.md"
     },
     {
       "basename": "20240829000000",
@@ -91,110 +199,6 @@
     {
       "basename": "dataviews",
       "path": "Atlas/dataview/dataviews.md"
-    },
-    {
-      "basename": "雅思笔记",
-      "path": "2. Areas/IELTS/雅思笔记.md"
-    },
-    {
-      "basename": "Next.js",
-      "path": "2. Areas/前端开发/NextJS/Next.js.md"
-    },
-    {
-      "basename": "20240823000000",
-      "path": "+ Encounters/dailyNotes/20240823000000.md"
-    },
-    {
-      "basename": "20240823151648",
-      "path": "+ Encounters/dailyNotes/20240823151648.md"
-    },
-    {
-      "basename": "20240816104223",
-      "path": "+ Encounters/dailyNotes/20240816104223.md"
-    },
-    {
-      "basename": "20240816184544",
-      "path": "+ Encounters/dailyNotes/20240816184544.md"
-    },
-    {
-      "basename": "20240813000000",
-      "path": "+ Encounters/dailyNotes/20240813000000.md"
-    },
-    {
-      "basename": "20240812120857",
-      "path": "+ Encounters/dailyNotes/20240812120857.md"
-    },
-    {
-      "basename": "20240812000000",
-      "path": "+ Encounters/dailyNotes/20240812000000.md"
-    },
-    {
-      "basename": "20240813103627",
-      "path": "+ Encounters/dailyNotes/20240813103627.md"
-    },
-    {
-      "basename": "20240814000000",
-      "path": "+ Encounters/dailyNotes/20240814000000.md"
-    },
-    {
-      "basename": "Findlay - React - The Road To Enterprise.pdf",
-      "path": "2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md"
-    },
-    {
-      "basename": "Build and Deploy a Full Stack Next.js 13 Application",
-      "path": "2. Areas/前端开发/React/Build and Deploy a Full Stack Next.js 13 Application.md"
-    },
-    {
-      "basename": "API设计模式",
-      "path": "2. Areas/前端开发/React/API设计模式.md"
-    },
-    {
-      "basename": "API网关",
-      "path": "2. Areas/前端开发/React/API网关.md"
-    },
-    {
-      "basename": "API数据请求",
-      "path": "2. Areas/前端开发/React/API数据请求.md"
-    },
-    {
-      "basename": "apexcharts",
-      "path": "2. Areas/前端开发/React/apexcharts.md"
-    },
-    {
-      "basename": "NodeJS基础",
-      "path": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
-    },
-    {
-      "basename": "Nodejs关键技术",
-      "path": "2. Areas/前端开发/Nodejs/Nodejs关键技术.md"
-    },
-    {
-      "basename": "Koa学习笔记",
-      "path": "2. Areas/前端开发/Nodejs/Koa学习笔记.md"
-    },
-    {
-      "basename": "Full Stack Web Development Course",
-      "path": "2. Areas/前端开发/Nodejs/Full Stack Web Development Course.md"
-    },
-    {
-      "basename": "20240826000000",
-      "path": "+ Encounters/dailyNotes/20240826000000.md"
-    },
-    {
-      "basename": "Udemy想要的课",
-      "path": "2. Areas/前端开发/Udemy想要的课.md"
-    },
-    {
-      "basename": "知识图谱",
-      "path": "2. Areas/AI/深度学习/知识图谱.md"
-    },
-    {
-      "basename": "图灵前端核心知识进阶系列（套装全10册）",
-      "path": "2. Areas/前端开发/JavaScript/图灵前端核心知识进阶系列（套装全10册）.md"
-    },
-    {
-      "basename": "梗直哥丶 专治好奇",
-      "path": "2. Areas/AI/深度学习/梗直哥丶 专治好奇.md"
     }
   ],
   "omittedPaths": [

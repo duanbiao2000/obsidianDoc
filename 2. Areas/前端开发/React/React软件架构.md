@@ -1264,9 +1264,6 @@ Code splitting is a technique used in web development to improve the performance
 
 
 # Splitting Codes
-
-![[IMG-React 软件架构-20240719192335972.png]]
-
 Here's a basic example of code splitting using JavaScript and the ES modules `import()` function. This example demonstrates how you can split your application into multiple chunks and load them on demand:
 
 **1. Set Up Your Project:**
@@ -1483,80 +1480,6 @@ Code splitting is a technique that should be used strategically to improve the p
 
 12. **Progressive Web Apps (PWAs)**: Code splitting is a common practice in PWAs, where you load only the necessary code for the initial route and prefetch other routes as the user interacts with the application.
 
-It's important to note that code splitting should be used judiciously. Over-fragmentation or splitting too much can introduce complexity and overhead. Balancing code splitting with the need for an efficient user experience and good application architecture is key. Each application is unique, so the decision of when and where to use code splitting should be made based on the specific requirements and performance goals of your project.
-总结上述关于代码分割（Code Splitting）的关键内容：
-
-1. 代码分割是一种策略，用于提高 Web 应用性能和用户体验，通过将应用的 JavaScript 代码分为小块并在需要时加载，以降低初始加载时间。
-
-2. 代码分割特别适用于大型 Web 应用，包含许多组件、功能和路由。它有助于减小初始 JavaScript 负荷，提高加载速度。
-
-3. 复杂的用户界面和多个功能的应用也受益于代码分割，它可以降低初始 JavaScript 负担，使应用更具响应性。
-
-4. 移动设备和慢速网络上的用户特别受益于代码分割，因为减少初始加载的代码可以提高应用的响应速度。
-
-5. 基于路由的代码分割是常见的应用场景，根据用户导航到的路由加载相应的代码。这在单页面应用程序（SPA）中非常有用，其中有多个视图或页面。
-
-6. 使用动态导入（dynamic imports）来实现代码分割，以加载仅在需要时渲染或根据用户交互条件渲染的组件或功能。
-
-7. 代码分割是一种重要的性能优化工具，通过减少需要解析和执行的初始加载 JavaScript 量，可以实现更快的交互时间和页面速度。
-
-8. 为了优化 SEO，确保关键内容对搜索引擎可见是重要的。代码分割用于非关键 JavaScript 可以帮助平衡 SEO 要求和性能需求。
-
-9. 减小捆绑包大小是一种重要策略，可以实现更快的加载时间，减少用户流失率。代码分割是减小捆绑包大小的一种方式。
-
-10. 代码分割也可以与缓存配合使用，浏览器可以缓存常见的依赖项，例如库或框架，以便在后续加载时更快。
-
-11. 在某些情况下，代码分割可以改善用户体验。例如，首先加载 Web 应用的核心功能，然后在后台加载其他非关键功能。
-
-12. 避免不必要的开销，尤其是在使用可能引入额外代码的库和框架时，减小初始加载的代码有助于避免开销。
-
-13. 代码分割应谨慎使用，过度细分或过分分割可能引入复杂性和开销。应该根据特定项目的要求和性能目标来平衡代码分割与高效用户体验和应用架构的需求。
-
-每个应用都独一无二，因此决定何时以及在哪里使用代码分割应该基于项目的具体需求和性能目标做出。
-
-## ERROR BOUNDARIES
-
-Error boundaries are a feature in React that allows you to capture and handle errors in a way that prevents the entire application from crashing. When a JavaScript error occurs within a component, React unmounts the component and its children. To handle such errors gracefully, you can define error boundaries in your React application. Here's how they work:
-
-1. **Defining an Error Boundary**: To create an error boundary, you define a special component that includes the `componentDidCatch` lifecycle method. This method is called when an error occurs in a component within the boundary.
-
-   ```javascript
-   class ErrorBoundary extends React.Component {
-     componentDidCatch(error, info) {
-       // Handle the error, log it, and update the UI
-     }
-
-     render() {
-       return this.props.children;
-     }
-   }
-   ```
-
-2. **Usage**: You can use the `ErrorBoundary` component to wrap other components, marking the components as error boundaries. Any error that occurs within the components wrapped by the `ErrorBoundary` will be caught by the `componentDidCatch` method.
-
-   ```javascript
-   <ErrorBoundary>
-     <MyComponent />
-   </ErrorBoundary>
-   ```
-
-3. **Error Handling**: In the `componentDidCatch` method, you can handle the error by logging it, displaying a user-friendly error message, or taking any other appropriate action. You can also update the component's state to render an error UI.
-
-   ```javascript
-   componentDidCatch(error, info) {
-     // Log the error
-     console.error('Error:', error);
-
-     // Update the component's state to show an error message
-     this.setState({ hasError: true });
-   }
-   ```
-
-4. **Limitations**: Error boundaries only catch errors that occur during rendering, in lifecycle methods, and during constructor calls. They do not catch errors in event handlers, asynchronous code (e.g., `setTimeout` or promises), and server-side rendering. To handle those types of errors, you need to use traditional JavaScript error-handling mechanisms.
-
-Error boundaries are especially useful in production environments to ensure that a single error doesn't crash the entire application. They allow you to gracefully handle errors, provide a better user experience, and log useful information for debugging.
-
-However, it's essential to use error boundaries judiciously. Wrapping every component in an error boundary can make it difficult to detect and diagnose errors during development. Consider using error boundaries for high-level components or parts of your application that need robust error handling while handling less critical errors at a lower level.
 
 ## FUNCTION VS FEATURE BASED ORGANIZATION
 
@@ -1616,113 +1539,10 @@ my-shopping-cart-app/
 在这个示例中，每个特征拥有其独立的文件夹，包括组件、状态管理和路由。这种方法使得不同特征之间更加独立，容易维护和开发。
 
 这两个示例演示了如何使用不同的组织方式来构建相同的应用。您可以选择哪种方式更适合您的项目，具体取决于项目的规模、复杂性以及团队的需求。无论哪种方式，重要的是建立清晰的代码组织约定，以确保一致性和可维护性。
-Function-based and feature-based organization are two different approaches to structuring the code and files in a software project, particularly in web applications. Each approach has its own advantages and may be more suitable for different scenarios. Let's explore the differences between these two organization methods:
 
-**Function-Based Organization:**
-
-In a function-based organization, code is organized based on functions or responsibilities within the application. Each function or feature may have its own folder or directory, and all files related to that function are grouped together. Here are some key characteristics:
-
-1. **Modular Structure**: Functions, features, or modules are organized as separate entities. Each module contains all the code, including components, styles, and logic, related to a specific function.
-
-2. **Scalability**: This approach is scalable, as adding new features or functions typically involves creating new modules or folders. It is easier to manage when the application grows in complexity.
-
-3. **Clear Separation**: Code for a specific function is kept separate, making it easy to locate, understand, and maintain.
-
-4. **Team Collaboration**: Different teams or developers can work on different functions without interfering with each other's code. This is particularly useful in large projects with multiple contributors.
-
-5. **Reuse**: Modules can be more easily reused in other parts of the application or in other projects.
-
-**Feature-Based Organization:**
-
-In a feature-based organization, code is organized around features or user-facing components of the application. Each feature is typically a self-contained unit that includes all necessary components and functionality. Here are some key characteristics:
-
-1. **Component-Centric**: Features are organized around components or UI elements that make up a complete feature. This approach encourages encapsulation and reusability of components.
-
-2. **Isolation**: Features are isolated from each other, reducing the likelihood of conflicts or dependencies between features.
-
-3. **User-Centric**: It aligns well with a user-centric design approach, where features are organized based on the user's perspective and how they interact with the application.
-
-4. **Simplicity**: It can make the project structure simpler, especially in smaller applications, as there is no need to navigate through many folders to find specific functionality.
-
-5. **Team Collaboration**: Teams can work more independently on different features, allowing for parallel development.
-
-**Which One to Choose?**
-
-The choice between function-based and feature-based organization depends on the specific project, its complexity, and the development team's preferences. Here are some considerations:
-
-- **Project Size**: For small to medium-sized projects, a feature-based organization can keep the project structure simple and focused on user interactions. Function-based organization is often preferred for larger, more complex applications.
-
-- **Development Teams**: Consider how your development teams are structured. If different teams are working on different parts of the application, function-based organization can help minimize conflicts. Feature-based organization can be simpler for smaller, co-located teams.
-
-- **Reusability**: If you have a strong emphasis on reusing components or functionality across different parts of the application, a function-based organization may provide better opportunities for reuse.
-
-- **Complexity**: The complexity of the application and the number of functions or features it includes play a significant role in the choice of organization. Choose the approach that aligns with the project's complexity.
-
-In practice, some projects may use a combination of both approaches. It's important to establish clear guidelines and conventions for organizing code in your project, regardless of the approach you choose, to ensure consistency and maintainability.
 
 # Monoliths, Muti-repos, and Monorepos
 
-![[IMG-React 软件架构-20240719192336269.png]]
-Monoliths, Multi-repos, and Monorepos are different approaches to structuring the code and repositories in a software development project. Each approach has its own characteristics, advantages, and trade-offs. Let's explore each of them:
-
-| 特征 / 方案            | Monoliths（单体应用）    | Multi-repos（多仓库）        | Monorepos（单仓库）         |
-|-----------------------|-----------------------|-------------------------|------------------------|
-| 优点                | - 简单，适用于小到中等规模项目   | - 独立仓库，可独立协作       | - 可以更容易共享依赖项     |
-|                       | - 单一代码库，易于维护        | - 开发团队可独立工作         | - 一致性的代码管理          |
-|                       | - 易于调试和维护             | - 适用于大规模和微服务架构   | - 降低了代码重复            |
-|                       | - 适用于小型团队或项目         | - 开发过程更独立            | - 减少了依赖冲突           |
-|                       |                           | - 开发流程可以并行进行       | - 便于大型团队协作         |
-| 缺点                | - 不适用于大规模和复杂项目      | - 管理多个仓库的复杂性         | - 管理单个仓库的复杂性       |
-|                       | - 扩展性有限                 | - 管理共享依赖项的复杂性      | - 部分模块可能变得庞大       |
-|                       | - 协作可能受限               | - 需要工具来协调和集成不同仓库  | - 复杂的CI/CD流程            |
-|                       | - 适用于功能较简单的项目        | - 管理多个版本可能复杂        | - 项目结构可能混乱           |
-| 适用场景             | - 小到中等规模的项目           | - 大型和分布式开发团队         | - 多个相关项目的开发         |
-|                       | - 开发速度和简单性优先         | - 微服务架构                   | - 需要共享依赖项的项目       |
-|                       | - 单一代码库，容易维护         | - 多个团队协同工作            | - 保持一致性的项目           |
-
-
-
-
-
-**1. Monolith:**
-
-A monolith is a traditional software architecture in which the entire application is built as a single, self-contained unit. In a monolith, all components, functions, and features are tightly integrated into a single codebase. Here are the key characteristics:
-
-- **Single Codebase:** The entire application, including frontend, backend, and database, is developed within a single codebase.
-
-- **Simplicity:** Monoliths are often simpler to set up, develop, and deploy, making them a good choice for smaller projects or when getting started quickly.
-
-- **Ease of Debugging:** Debugging and maintaining a monolith can be straightforward because all components are within the same codebase.
-
-- **Scalability Challenges:** As an application grows, monoliths may face challenges related to scalability and maintainability, especially with large development teams.
-
-**2. Multi-repos:**
-
-In a multi-repo (multiple repositories) setup, different parts of the application are split into separate repositories, each with its own codebase. This approach is common in microservices architectures. Here are the key characteristics:
-
-- **Decoupled Services:** Different parts of the application, such as services or components, are developed and maintained in separate repositories. This allows for greater modularity and independence.
-
-- **Scalability and Independence:** Teams can work independently on different repositories, which is ideal for large and distributed development teams. Each repository can have its own development and deployment process.
-
-- **Complexity:** Managing multiple repositories and their dependencies can be complex, and tooling is required to coordinate and integrate changes.
-
-**3. Monorepo:**
-
-A monorepo (monolithic repository) is a hybrid approach where multiple related projects or components are stored in a single repository. This approach can be beneficial in certain scenarios. Here are the key characteristics:
-
-- **Single Repository:** All related projects, services, or components are stored within a single repository. This provides a centralized location for code and shared dependencies.
-
-- **Shared Dependencies:** Dependencies can be shared more easily among projects within the monorepo. This can help maintain consistency and reduce duplication.
-
-- **Consistency:** Monorepos promote code consistency and version management. Changes to shared dependencies can be coordinated more effectively.
-
-- **Complexity:** Managing a monorepo can be complex, especially as the number of projects or components grows. Tools and practices are needed to manage this complexity.
-
-- **Continuous Integration:** A monorepo may require a robust continuous integration (CI) and continuous deployment (CD) system to build, test, and deploy individual projects or components.
-
-The choice between a monolith, multi-repos, and monorepo depends on factors such as project size, team structure, development practices, and specific requirements. Monoliths are suitable for small to medium-sized projects with a simpler structure. Multi-repos are commonly used in microservices and large-scale applications. Monorepos can be a good choice when there is a need for shared dependencies and consistency across related projects.
-
-In practice, organizations may use a combination of these approaches to manage different parts of their software ecosystem. The key is to select the most appropriate structure based on the specific needs of the project.
 
 当涉及到比较和描述"Monoliths"、"Multi-repos" 和 "Monorepos" 时，Markdown 表格可以是一个清晰的方式。以下是一个表格，用于对这三种软件组织方法进行简要的对比：
 
@@ -1750,7 +1570,3 @@ In practice, organizations may use a combination of these approaches to manage d
 | 部署（Deployment）  | 将应用程序自动部署到测试环境、预发布环境或生产环境。                                    |
 | 监测（Monitoring）  | 持续监测应用程序以检测问题并记录性能指标。                                             |
 这个表格描述了一个典型的CI/CD管线的主要阶段，从代码提交到最终的监测和性能评估。每个阶段都有其特定的任务和目标，有助于确保代码质量、自动化部署和持续监测。在实际项目中，这些阶段的具体实现和工具可以根据项目需求和团队的偏好而有所不同。
-
-# CONCLUSION
-![[IMG-React 软件架构-20240719192336705.png]]
-

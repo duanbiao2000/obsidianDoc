@@ -9,10 +9,6 @@ tags:
 modified date: 2023-09-29T20:55
 ---
 
-
-[[../../BackEnd/官网文档/W3school|转W3school]]
-
-
 # React Router v6
 React Router v6相对v5有一些重要变化,可以用表格进行对比:
  
@@ -41,22 +37,7 @@ React Router v6相对v5有一些重要变化,可以用表格进行对比:
 总体来说,v6的改动主要是为了更好支持Hook,简化API调用,但功能大体保持一致,两者可以平稳迁移。
 
 
-是的,React Router v6在很大程度上兼容v5的语法。
-### 路由匹配语法兼容
-v6中Route组件和path、exact等属性与v5完全兼容。
-### Link/NavLink组件兼容 
-两个组件在v6中保持不变,完全兼容v5。
-### withRouter HOC兼容
-v6中引入了useOutletContext()来替代withRouter,但withRouter在v6中也可以继续使用。
-### History对象兼容
-v6中引入了useNavigate来替代history,但history对象在v6中依然存在并可用。
-### Location/Match对象兼容
-v6中使用Hook函数取代了这两个对象,但对象接口在v6中保持不变,代码可以平滑迁移。
-### Lazy Loading语法兼容
-v6支持v5的import()语法,也新增了React.lazy语法。
-### SSR支持兼容
-StaticRouter组件和API在v6中完全兼容v5。
-所以总体来说,v6在保持新的Hook API的同时,也兼容并支持大部分v5的语法和API,两者可以平稳过渡。这有利于项目从v5迁移到v6。
+
 # 常见面试提问
 以下是一些经常会被问到的 React Router 相关问题：
 
@@ -71,7 +52,7 @@ StaticRouter组件和API在v6中完全兼容v5。
 9. 如何在 React Router 中处理 404 页面或路由未匹配情况？
 10. React Router v5 和 v6 有什么重要的变化？
 
-这些问题涵盖了 React Router 的基础知识、常见的用法和一些进阶的概念。在准备面试时，建议你熟悉 React Router 的基本概念、核心组件和常用的用法，并能够解释它们的作用和用法。还可以通过阅读 React Router 的官方文档和示例代码来进一步加深对 React Router 的理解。
+
 
 当回答前三个问题时，请注意我的回答如下：
 1. React Router 是什么？它的作用是什么？
@@ -369,7 +350,7 @@ createBrowserRouter([
 This [visualization](https://remix.run/_docs/routing) might be helpful.  
 这种可视化可能会有所帮助。
 
-## [](https://reactrouter.com/en/main/start/overview#dynamic-segments)Dynamic Segments 动态片段
+## Dynamic Segments 动态片段
 
 Segments of the URL can be dynamic placeholders that are parsed and provided to various apis.  
 URL 的片段可以是动态占位符，它们被解析并提供给各种 api。
@@ -570,7 +551,7 @@ function Game() {
 When the user visits or clicks links to [https://example.com/real-salt-lake/45face3](https://example.com/real-salt-lake/45face3), all three route loaders will be called and loaded in parallel, before the UI for that URL renders.  
 当用户访问或单击指向 https://example.com/real-salt-lake/45face3 的链接时，将在呈现该 URL 的 UI 之前并行调用并加载所有三个路由加载器。
 
-## [](https://reactrouter.com/en/main/start/overview#redirects)Redirects 重定向
+##  重定向
 
 While loading or changing data, it's common to [redirect](https://reactrouter.com/en/main/fetch/redirect) the user to a different route.  
 加载或更改数据时，通常会将用户重定向到不同的路线。
@@ -613,7 +594,7 @@ See: 看：
 - [Throwing in Loaders 扔进装载机](https://reactrouter.com/en/main/route/loader#throwing-in-loaders)
 - [`useNavigate`](https://reactrouter.com/en/main/hooks/use-navigate)
 
-## [](https://reactrouter.com/en/main/start/overview#pending-navigation-ui)Pending Navigation UI 待定导航用户界面
+## Pending Navigation UI 待定导航用户界面
 
 When users navigate around the app, the data for the next page is loaded before the page is rendered. It's important to provide user feedback during this time so the app doesn't feel like it's unresponsive.  
 当用户在应用程序中导航时，下一页的数据会在页面呈现之前加载。在此期间提供用户反馈非常重要，这样应用程序就不会感觉没有响应。

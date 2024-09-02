@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/前端开发/React/状态管理/Context API.md",
+                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/React/状态管理/Context API.md"
+                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/React/状态管理/Context API.md"
+                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/React/状态管理/Context API.md",
+                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/React/状态管理/Context API.md",
+                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -350,36 +350,36 @@
   },
   "active": "044c3836d89cd80e",
   "lastOpenFiles": [
-    "2. Areas/前端开发/React/状态管理/学习Mobx.md",
-    "2. Areas/前端开发/React/状态管理/Context API.md",
-    "2. Areas/前端开发/CSS/CSS学习笔记0624.md",
-    "+ Encounters/dailyNotes/20240902000000.md",
-    "1. Projects/运动健身.md",
-    "2. Areas/前端开发/CSS/响应式设计.md",
-    "2. Areas/LeetCode",
-    "2. Areas/前端开发/CSS/Tailwind.md",
-    "2. Areas/前端开发/CSS/CSS预处理.md",
-    "2. Areas/Creative/早班车/Condense , filter and ditstil.md",
-    "2. Areas/计算机通识/Common patterns.md",
-    "2. Areas/计算机通识/Mock interview.md",
+    "3. Resources/影音读/书本通读/非技术类/1分鐘超強記憶法.md",
+    "3. Resources/Tools/计算机工程师必备工具.md",
     "3. Resources/Tools/vim笔记.md",
     "3. Resources/Tools/Git.md",
+    "3. Resources/Tools/AI工具汇总.md",
+    "3. Resources/Tools/Gihub协作指南.md",
     "3. Resources/Tools/20240626145134- Mermaid图标模板.md",
-    "3. Resources/Tools/AI工具.md",
-    "+ Encounters/dailyNotes/20240829000000.md",
+    "2. Areas/计算机通识/Mock interview.md",
+    "2. Areas/计算机通识/Common patterns.md",
+    "2. Areas/前端开发/React/Typesciprt扩展.md",
+    "2. Areas/前端开发/Udemy想要的课.md",
+    "2. Areas/前端开发/TypeScript/Typescript泛型.md",
+    "2. Areas/前端开发/React/深入浅出React技术栈.md",
+    "2. Areas/前端开发/React/新手React项目.md",
+    "2. Areas/前端开发/React/React进阶实战.md",
+    "2. Areas/前端开发/React/Youtube-React-extract.md",
+    "2. Areas/前端开发/React/useEffect.md",
+    "2. Areas/前端开发/React/Udemy - The Ultimate React Course 2023 React, Redux & More.md",
+    "2. Areas/前端开发/React/Serverless.md",
+    "2. Areas/前端开发/React/Road to React.md",
+    "2. Areas/前端开发/React/Redux.md",
+    "2. Areas/前端开发/React/Redis 常用命令.md",
+    "2. Areas/前端开发/React/React项目实战.md",
+    "2. Areas/前端开发/React/React软件架构.md",
+    "2. Areas/前端开发/React/React设计模式与最佳实践.md",
+    "2. Areas/前端开发/React/React表单Forms.md",
+    "2. Areas/LeetCode",
     "6. Knowledge",
-    "+ Encounters/天命人日记.md",
-    "+ Encounters/构建第二大脑.md",
-    "3. Resources/影音读/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md",
-    "3. Resources/影音读/称职的增长黑客.md",
-    "4. Archives/朋友与敌人.md",
-    "+ Encounters/dailyNotes/20240827000000.md",
-    "Untitled.md",
     "5. Misc/Attachments/打造第二大脑",
     "5. Misc/Attachments/Drawing 2024-07-03 17.25.20.excalidraw",
-    "Atlas/kanban/前端路线图.md",
-    "Atlas/dataview/dataviews.md",
-    "2. Areas/IELTS/雅思笔记.md",
     "Atlas/kanban",
     "+ Encounters/weeklyNotes",
     "5. Misc/Attachments/高级语法",

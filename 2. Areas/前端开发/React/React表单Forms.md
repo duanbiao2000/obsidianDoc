@@ -5,9 +5,7 @@
 1. Formik：Formik 是一个流行的 React 表单管理库，它提供了强大的表单状态管理和表单验证功能。
 2. Yup：Yup 是一个简单且强大的 JavaScript 对象架构验证库，它可以与 Formik 或其他表单库一起使用。
 3. React Hook Form：React Hook Form 是一个轻量级的、高性能的表单验证库，它利用 React 的 Hooks 功能来实现表单状态管理和验证。
-4. VeeValidate：VeeValidate 是一个基于 Vue.js 的表单验证库，它提供了简单的 API 和丰富的验证规则，方便进行表单验证。
-5. jQuery Validation：jQuery Validation 是一个用于 jQuery 的表单验证插件，它提供了简单的 API 和丰富的验证选项。
-  这些库各有特点和适用场景，可以根据具体项目需求选择合适的库来实现表单验证功能。
+
 
 以下是前端表单验证的最佳实践：
 
@@ -22,10 +20,6 @@
 9. 细粒度验证：根据字段的复杂程度和重要性，进行适当的细粒度验证，以确保数据的准确性和完整性。
 10. 错误处理：在验证失败时，向用户清楚地显示错误信息，并定位到相应的字段，以便用户快速修复。
   通过遵循这些最佳实践，你可以实现可靠和用户友好的前端表单验证体验。
-
-[[React关键技术]]
-
-
 
 #### React如何用各种技巧处理表单
 ?
@@ -76,117 +70,7 @@ function FormExample() {
 }
 export default FormExample;
 ```
-3. **表单验证**：使用条件语句或验证库（如 `yup` 或 `formik`）进行表单验证。通过验证函数返回的错误信息，可以显示错误提示或样式。
-```jsx
-import React, { useState } from 'react';
-function FormExample() {
-  const [name, setName] = useState('');
-  const [error, setError] = useState('');
-  const handleChange = (event) => {
-    setName(event.target.value);
-    setError('');
-  };
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    if (name.trim() === '') {
-      setError('Name is required');
-    } else {
-      // 在这里处理表单提交
-    }
-  };
-  return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Name:
-        <input type="text" value={name} onChange={handleChange} />
-      </label>
-      {error && <div>{error}</div>}
-      <button type="submit">Submit</button>
-    </form>
-  );
-}
-export default FormExample;
-```
-这些是处理 React 表单的一些常见技巧和最佳实践。根据具体的需求和场景，你可以选择适合的方式来处理表单，以获得更好的用户体验和代码可维护性。
-希望这些示例对你有所帮助！如果你还有其他问题，请随时提问。
-<!--SR:!2023-07-23,3,250-->
 
-###  表单和验证
-
-
-
-好的,这里是一个使用React实现表单和验证的详细代码示例:
-
-```jsx
-import { useState } from 'react';
-function Form() {
-  // 定义表单数据状态
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    age: '' 
-  });
-  // 定义错误信息状态
-  const [errors, setErrors] = useState({});
-  // 表单change事件处理
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  }
-  // 表单提交处理
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    
-    // 表单验证
-    let errs = validate();
-    setErrors(errs);
-    if (Object.keys(errs).length === 0) {
-      // 验证通过,提交表单
-    }
-  }
-  // 验证函数
-  function validate() {
-    const err = {};
-    if(!formData.name) err.name = 'Name is required';
-    if(!formData.email) err.email = 'Email is required';
-    if(!formData.age) err.age = 'Age is required';
-    return err;
-  }
-  return (
-    <form onSubmit={handleSubmit}>
-      
-      <input 
-        name="name" 
-        value={formData.name} 
-        onChange={handleChange} 
-      />
-      { errors.name && <p>{errors.name}</p>}
-      <input 
-        name="email"
-        value={formData.email} 
-        onChange={handleChange}  
-      />
-      { errors.email && <p>{errors.email}</p>}
-      <input 
-        name="age"
-        value={formData.age}
-        onChange={handleChange}  
-      />
-      { errors.age && <p>{errors.age}</p>}
-      <button type="submit">Submit</button>
-    </form>
-  );
-}
-```
-这个示例涵盖了:
-- 管理表单数据状态
-- 输入变化事件处理
-- 表单提交和验证
-- 显示验证错误
-  通过这种方式,可以实现一个具有输入验证的React表单组件。
-  让我知道如果你有任何其他问题!
 
 ####  前端表单验证常用的库和工具有:
 

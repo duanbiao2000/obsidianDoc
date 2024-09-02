@@ -182,8 +182,5 @@ const ShoppingCart = ({ cartItems, removeFromCart }) => {
 };
 export default ShoppingCart;
 ```
-在这个示例中，我们有一个`App`组件作为应用程序的主组件，它维护着一个购物车的状态`cartItems`。通过`addToCart`和`removeFromCart`函数，我们可以向购物车添加商品或从购物车中移除商品。
-`ProductList`组件显示商品列表，并为每个商品提供一个“Add to Cart”按钮，当点击按钮时，调用父组件传递的`addToCart`函数将商品添加到购物车。
-`ShoppingCart`组件显示购物车中的商品列表，并为每个商品提供一个“Remove”按钮，当点击按钮时，调用父组件传递的`removeFromCart`函数从购物车中移除商品。
-这只是一个简单的示例代码，可能需要进一步完善和扩展以适应实际的商城需求。您可以根据自己的需求对这个示例进行修改和扩展，添加更多的商品信息和购物车功能。
+
 
