@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
+                "file": "2. Areas/前端开发/htmx + Hono.js.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md"
+                "file": "2. Areas/前端开发/htmx + Hono.js.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md"
+                "file": "2. Areas/前端开发/htmx + Hono.js.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
+                "file": "2. Areas/前端开发/htmx + Hono.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
+                "file": "2. Areas/前端开发/htmx + Hono.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -350,6 +350,8 @@
   },
   "active": "044c3836d89cd80e",
   "lastOpenFiles": [
+    "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md",
+    "2. Areas/前端开发/htmx + Hono.js.md",
     "3. Resources/影音读/书本通读/非技术类/1分鐘超強記憶法.md",
     "3. Resources/Tools/计算机工程师必备工具.md",
     "3. Resources/Tools/vim笔记.md",
@@ -374,8 +376,6 @@
     "2. Areas/前端开发/React/Redis 常用命令.md",
     "2. Areas/前端开发/React/React项目实战.md",
     "2. Areas/前端开发/React/React软件架构.md",
-    "2. Areas/前端开发/React/React设计模式与最佳实践.md",
-    "2. Areas/前端开发/React/React表单Forms.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",

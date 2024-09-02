@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "htmx + Hono.js",
+      "path": "2. Areas/前端开发/htmx + Hono.js.md"
+    },
+    {
       "basename": "Feel-good Productivity",
       "path": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "前端路线图",
       "path": "Atlas/kanban/前端路线图.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
     }
   ],
   "omittedPaths": [
