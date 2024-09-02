@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "Context API",
+      "path": "2. Areas/前端开发/React/状态管理/Context API.md"
+    },
+    {
+      "basename": "CSS学习笔记0624",
+      "path": "2. Areas/前端开发/CSS/CSS学习笔记0624.md"
+    },
+    {
+      "basename": "20240902000000",
+      "path": "+ Encounters/dailyNotes/20240902000000.md"
+    },
+    {
+      "basename": "运动健身",
+      "path": "1. Projects/运动健身.md"
+    },
+    {
+      "basename": "响应式设计",
+      "path": "2. Areas/前端开发/CSS/响应式设计.md"
+    },
+    {
+      "basename": "Tailwind",
+      "path": "2. Areas/前端开发/CSS/Tailwind.md"
+    },
+    {
+      "basename": "CSS预处理",
+      "path": "2. Areas/前端开发/CSS/CSS预处理.md"
+    },
+    {
+      "basename": "Condense , filter and ditstil",
+      "path": "2. Areas/Creative/早班车/Condense , filter and ditstil.md"
+    },
+    {
+      "basename": "Common patterns",
+      "path": "2. Areas/计算机通识/Common patterns.md"
+    },
+    {
+      "basename": "Mock interview",
+      "path": "2. Areas/计算机通识/Mock interview.md"
+    },
+    {
+      "basename": "vim笔记",
+      "path": "3. Resources/Tools/vim笔记.md"
+    },
+    {
+      "basename": "Git",
+      "path": "3. Resources/Tools/Git.md"
+    },
+    {
+      "basename": "20240626145134- Mermaid图标模板",
+      "path": "3. Resources/Tools/20240626145134- Mermaid图标模板.md"
+    },
+    {
+      "basename": "AI工具",
+      "path": "3. Resources/Tools/AI工具.md"
+    },
+    {
       "basename": "20240829000000",
       "path": "+ Encounters/dailyNotes/20240829000000.md"
     },
@@ -14,11 +70,11 @@
     },
     {
       "basename": "增长黑客深入探索 CHAT 2024-06-10 04 45 21",
-      "path": "3. Resources/smart-chats/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md"
+      "path": "3. Resources/影音读/增长黑客深入探索 CHAT 2024-06-10 04 45 21.md"
     },
     {
       "basename": "称职的增长黑客",
-      "path": "3. Resources/smart-chats/称职的增长黑客.md"
+      "path": "3. Resources/影音读/称职的增长黑客.md"
     },
     {
       "basename": "朋友与敌人",
@@ -105,10 +161,6 @@
       "path": "2. Areas/前端开发/React/apexcharts.md"
     },
     {
-      "basename": "Context API",
-      "path": "2. Areas/前端开发/React/状态管理/Context API.md"
-    },
-    {
       "basename": "NodeJS基础",
       "path": "2. Areas/前端开发/Nodejs/NodeJS基础.md"
     },
@@ -143,62 +195,6 @@
     {
       "basename": "梗直哥丶 专治好奇",
       "path": "2. Areas/AI/深度学习/梗直哥丶 专治好奇.md"
-    },
-    {
-      "basename": "Udemy - The Ultimate React Course 2023 React, Redux & More",
-      "path": "2. Areas/前端开发/React/Udemy - The Ultimate React Course 2023 React, Redux & More.md"
-    },
-    {
-      "basename": "React设计模式",
-      "path": "2. Areas/前端开发/React/React设计模式.md"
-    },
-    {
-      "basename": "JavaScript深度学习",
-      "path": "2. Areas/AI/深度学习/JavaScript深度学习.md"
-    },
-    {
-      "basename": "Typescript泛型",
-      "path": "2. Areas/前端开发/TypeScript/Typescript泛型.md"
-    },
-    {
-      "basename": "Typesciprt扩展",
-      "path": "2. Areas/前端开发/TypeScript/Typesciprt扩展.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "2. Areas/前端开发/NextJS/GraphQL.md"
-    },
-    {
-      "basename": "节流函数",
-      "path": "2. Areas/前端开发/JavaScript/节流函数.md"
-    },
-    {
-      "basename": "构造函数",
-      "path": "2. Areas/前端开发/JavaScript/构造函数.md"
-    },
-    {
-      "basename": "最长公共子序列",
-      "path": "2. Areas/前端开发/JavaScript/最长公共子序列.md"
-    },
-    {
-      "basename": "分页查询",
-      "path": "2. Areas/前端开发/JavaScript/分页查询.md"
-    },
-    {
-      "basename": "全屏轮播图",
-      "path": "2. Areas/前端开发/JavaScript/全屏轮播图.md"
-    },
-    {
-      "basename": "使用async,await处理并发请求",
-      "path": "2. Areas/前端开发/JavaScript/使用async,await处理并发请求.md"
-    },
-    {
-      "basename": "Promise.race模拟函数",
-      "path": "2. Areas/前端开发/JavaScript/Promise.race模拟函数.md"
-    },
-    {
-      "basename": "LRU缓存机制",
-      "path": "2. Areas/前端开发/JavaScript/LRU缓存机制.md"
     }
   ],
   "omittedPaths": [
