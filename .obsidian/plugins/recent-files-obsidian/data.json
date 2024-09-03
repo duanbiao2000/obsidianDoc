@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240903153411",
+      "path": "+ Encounters/dailyNotes/20240903153411.md"
+    },
+    {
       "basename": "20240903135738",
       "path": "+ Encounters/dailyNotes/20240903135738.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "vim笔记",
       "path": "3. Resources/Tools/vim笔记.md"
-    },
-    {
-      "basename": "Git",
-      "path": "3. Resources/Tools/Git.md"
     }
   ],
   "omittedPaths": [
