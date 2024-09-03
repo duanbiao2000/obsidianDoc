@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "20240903135738",
+      "path": "+ Encounters/dailyNotes/20240903135738.md"
+    },
+    {
+      "basename": "20240818000000",
+      "path": "+ Encounters/dailyNotes/20240818000000.md"
+    },
+    {
+      "basename": "20240817230307",
+      "path": "+ Encounters/dailyNotes/20240817230307.md"
+    },
+    {
+      "basename": "20240817174906",
+      "path": "+ Encounters/dailyNotes/20240817174906.md"
+    },
+    {
+      "basename": "20240817000000",
+      "path": "+ Encounters/dailyNotes/20240817000000.md"
+    },
+    {
+      "basename": "20240816212343",
+      "path": "+ Encounters/dailyNotes/20240816212343.md"
+    },
+    {
       "basename": "20240816184544",
       "path": "+ Encounters/dailyNotes/20240816184544.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Git",
       "path": "3. Resources/Tools/Git.md"
-    },
-    {
-      "basename": "AI工具汇总",
-      "path": "3. Resources/Tools/AI工具汇总.md"
-    },
-    {
-      "basename": "20240626145134- Mermaid图标模板",
-      "path": "3. Resources/Tools/20240626145134- Mermaid图标模板.md"
-    },
-    {
-      "basename": "Mock interview",
-      "path": "2. Areas/计算机通识/Mock interview.md"
-    },
-    {
-      "basename": "Common patterns",
-      "path": "2. Areas/计算机通识/Common patterns.md"
-    },
-    {
-      "basename": "Typesciprt扩展",
-      "path": "2. Areas/前端开发/React/Typesciprt扩展.md"
-    },
-    {
-      "basename": "深入浅出React技术栈",
-      "path": "2. Areas/前端开发/React/深入浅出React技术栈.md"
     }
   ],
   "omittedPaths": [
