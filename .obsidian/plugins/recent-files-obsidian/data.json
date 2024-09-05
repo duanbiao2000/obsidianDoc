@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240905000000",
+      "path": "+ Encounters/dailyNotes/20240905000000.md"
+    },
+    {
       "basename": "20240904000000",
       "path": "+ Encounters/dailyNotes/20240904000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "htmx + Hono.js",
       "path": "2. Areas/前端开发/htmx + Hono.js.md"
-    },
-    {
-      "basename": "Feel-good Productivity",
-      "path": "3. Resources/影音读/书本通读/非技术类/Feel-good Productivity.md"
     }
   ],
   "omittedPaths": [
