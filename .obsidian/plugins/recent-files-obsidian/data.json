@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240905221549",
+      "path": "+ Encounters/dailyNotes/20240905221549.md"
+    },
+    {
       "basename": "20240905000000",
       "path": "+ Encounters/dailyNotes/20240905000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240902200825",
       "path": "+ Encounters/dailyNotes/20240902200825.md"
-    },
-    {
-      "basename": "htmx + Hono.js",
-      "path": "2. Areas/前端开发/htmx + Hono.js.md"
     }
   ],
   "omittedPaths": [
