@@ -155,9 +155,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e3e4892fcb33f963",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240908000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -255,7 +268,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240907215507.md"
+                "file": "+ Encounters/dailyNotes/20240908000000.md"
               }
             }
           },
@@ -265,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240907215507.md"
+                "file": "+ Encounters/dailyNotes/20240908000000.md"
               }
             }
           },
@@ -275,7 +288,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240907215507.md",
+                "file": "+ Encounters/dailyNotes/20240908000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240907215507.md",
+                "file": "+ Encounters/dailyNotes/20240908000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,10 +414,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0ce277fbe0fdf785",
+  "active": "e3e4892fcb33f963",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240907000000.md",
     "+ Encounters/dailyNotes/20240907215507.md",
+    "+ Encounters/dailyNotes/20240908000000.md",
+    "+ Encounters/dailyNotes/20240907000000.md",
     "+ Encounters/dailyNotes/20240906091445.md",
     "+ Encounters/dailyNotes/20240906000000.md",
     "+ Encounters/dailyNotes/20240906002211.md",
@@ -428,7 +442,6 @@
     "+ Encounters/dailyNotes/20240816172635.md",
     "+ Encounters/dailyNotes/20240816160627.md",
     "+ Encounters/dailyNotes/20240816104223.md",
-    "+ Encounters/dailyNotes/20240816000000.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",
