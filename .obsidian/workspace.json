@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909125457.md",
+                "file": "+ Encounters/dailyNotes/20240909000000.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909125457.md"
+                "file": "+ Encounters/dailyNotes/20240909000000.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909125457.md"
+                "file": "+ Encounters/dailyNotes/20240909000000.md"
               }
             }
           },
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909125457.md",
+                "file": "+ Encounters/dailyNotes/20240909000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909125457.md",
+                "file": "+ Encounters/dailyNotes/20240909000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,8 +249,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -325,8 +324,9 @@
   },
   "active": "50afa2f8c258efe2",
   "lastOpenFiles": [
+    "Extras/textgenerator/generations/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
     "+ Encounters/dailyNotes/20240909125901.md",
-    "+ Encounters/dailyNotes/20240909125457.md",
+    "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
     "+ Encounters/dailyNotes/20240909000000.md",
     "+ Encounters/dailyNotes/20240908000000.md",
     "+ Encounters/dailyNotes/20240907215507.md",
@@ -350,7 +350,6 @@
     "+ Encounters/dailyNotes/20240817174906.md",
     "+ Encounters/dailyNotes/20240817000000.md",
     "+ Encounters/dailyNotes/20240816212343.md",
-    "+ Encounters/dailyNotes/20240816184544.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",

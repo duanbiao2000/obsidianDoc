@@ -4,7 +4,7 @@
   "models": {},
   "api_key": "",
   "encrypt_keys": false,
-  "selectedProvider": "Default (Custom) 1",
+  "selectedProvider": "Default (Custom) 1 2",
   "max_tokens": 500,
   "temperature": 0.7,
   "frequency_penalty": 0.5,
@@ -158,7 +158,7 @@
     "OpenAI Chat (Langchain).api_key": "__@#key_prefix#@__sk-f6176fd0fb5a43b4b52ddab5aa618167",
     "Default (Custom).api_key": "__@#key_prefix#@__sk-Xw7RjUOd0eaVRLFG4d126636259d48DaB0Dc51484d05A3C2",
     "Default (Custom) 1.api_key": "__@#key_prefix#@__sk-or-v1-a4e6f8f5a9325ab38bb657f1d15af5675df728e152aee25d84732d8126151f0f",
-    "Default (Custom) 1 2.api_key": "__@#key_prefix#@__sk-f6176fd0fb5a43b4b52ddab5aa618167",
+    "Default (Custom) 1 2.api_key": "__@#key_prefix#@__sk-b8874f97994343368d3131b457e5442a",
     "Google GenerativeAI (Langchain).api_key": "__@#key_prefix#@__AIzaSyBwLHbup00ktpENOO-FUxTiwf5qSgpMH_c",
     "Chat Anthropic (Langchain).api_key": "__@#key_prefix#@__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"
   },
