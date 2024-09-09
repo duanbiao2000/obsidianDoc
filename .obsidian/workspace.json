@@ -77,9 +77,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "83fe90bc5c2a4146",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240909000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -177,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909214218.md"
+                "file": "+ Encounters/dailyNotes/20240909000000.md"
               }
             }
           },
@@ -187,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909214218.md"
+                "file": "+ Encounters/dailyNotes/20240909000000.md"
               }
             }
           },
@@ -197,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909214218.md",
+                "file": "+ Encounters/dailyNotes/20240909000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909214218.md",
+                "file": "+ Encounters/dailyNotes/20240909000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -322,10 +335,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "50afa2f8c258efe2",
+  "active": "83fe90bc5c2a4146",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240909000000.md",
     "+ Encounters/dailyNotes/20240909214218.md",
+    "+ Encounters/dailyNotes/20240909000000.md",
     "Extras/textgenerator/generations/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
     "+ Encounters/dailyNotes/20240909125901.md",
     "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
