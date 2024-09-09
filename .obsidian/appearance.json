@@ -4,9 +4,9 @@
   "theme": "moonstone",
   "translucency": false,
   "nativeMenus": true,
-  "baseFontSize": 19,
+  "baseFontSize": 21,
   "monospaceFontFamily": "FiraCode Nerd Font Mono",
-  "textFontFamily": "华文细黑,华文新宋,京華老宋体,霞鹜尚智黑,仓耳今楷01-9128 W02,霞鹜新晰黑,ZiYuFangZhiFouXingShu",
+  "textFontFamily": "段宁硬笔行云体,FC BARCELONA PRO,Microsoft JhengHei,华文细黑,华文新宋,京華老宋体,霞鹜尚智黑,仓耳今楷01-9128 W02,霞鹜新晰黑,ZiYuFangZhiFouXingShu",
   "interfaceFontFamily": "微软雅黑,霞鹜新晰黑,霞鹜尚智黑,京華老宋体,Arial,仓耳今楷01-9128 W02",
   "enabledCssSnippets": [
     "snippets"
