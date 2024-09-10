@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910000000.md",
+                "file": "+ Encounters/dailyNotes/20240910152515.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910000000.md"
+                "file": "+ Encounters/dailyNotes/20240910152515.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910000000.md"
+                "file": "+ Encounters/dailyNotes/20240910152515.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910000000.md",
+                "file": "+ Encounters/dailyNotes/20240910152515.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910000000.md",
+                "file": "+ Encounters/dailyNotes/20240910152515.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,13 +343,17 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "7c1d66ecd88bbcaf",
   "lastOpenFiles": [
-    "1. Projects/20240702184735-SmartStudyBuddy.md",
+    "+ Encounters/dailyNotes/20240910152157.md",
+    "+ Encounters/dailyNotes/20240910152515.md",
     "+ Encounters/dailyNotes/20240910000000.md",
+    "1. Projects/20240702184735-SmartStudyBuddy.md",
     "+ Encounters/dailyNotes/20240909000000.md",
     "1. Projects/ChatGPT2VBA2PPT.md",
     "+ Encounters/dailyNotes/20240909214218.md",
@@ -372,8 +376,6 @@
     "+ Encounters/dailyNotes/20240903153411.md",
     "+ Encounters/dailyNotes/20240903135738.md",
     "+ Encounters/dailyNotes/20240902232246.md",
-    "+ Encounters/dailyNotes/20240818000000.md",
-    "+ Encounters/dailyNotes/20240817230307.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",
