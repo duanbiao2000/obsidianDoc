@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910152515.md",
+                "file": "+ Encounters/dailyNotes/20240910170815.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910152515.md"
+                "file": "+ Encounters/dailyNotes/20240910170815.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910152515.md"
+                "file": "+ Encounters/dailyNotes/20240910170815.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910152515.md",
+                "file": "+ Encounters/dailyNotes/20240910170815.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910152515.md",
+                "file": "+ Encounters/dailyNotes/20240910170815.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -350,9 +350,11 @@
   },
   "active": "7c1d66ecd88bbcaf",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/20240910170747.md",
+    "+ Encounters/dailyNotes/20240910170815.md",
+    "+ Encounters/dailyNotes/20240910152515.md",
     "+ Encounters/dailyNotes/20240910164007.md",
     "1. Projects/20240702184735-SmartStudyBuddy.md",
-    "+ Encounters/dailyNotes/20240910152515.md",
     "+ Encounters/dailyNotes/20240910152157.md",
     "+ Encounters/dailyNotes/20240910000000.md",
     "+ Encounters/dailyNotes/20240909000000.md",
@@ -374,8 +376,6 @@
     "+ Encounters/dailyNotes/20240904000000.md",
     "+ Encounters/dailyNotes/20240903204310.md",
     "+ Encounters/dailyNotes/20240903202702.md",
-    "+ Encounters/dailyNotes/20240903153411.md",
-    "+ Encounters/dailyNotes/20240903135738.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",
