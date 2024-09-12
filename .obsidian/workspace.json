@@ -45,59 +45,20 @@
             }
           },
           {
-            "id": "026c526163cbd46a",
+            "id": "e99af0def84761af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240909125901.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50afa2f8c258efe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20240909214218.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83fe90bc5c2a4146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/20240702184735-SmartStudyBuddy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c1d66ecd88bbcaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
-                "mode": "source",
+                "file": "+ Encounters/dailyNotes/20240905224407.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "8f46a0033c43bfb9",
@@ -189,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md"
+                "file": "+ Encounters/dailyNotes/20240905224407.md"
               }
             }
           },
@@ -199,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
+                "file": "+ Encounters/dailyNotes/20240905224407.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
+                "file": "+ Encounters/dailyNotes/20240905224407.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 236.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -258,7 +218,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md"
+                "file": "+ Encounters/dailyNotes/20240905224407.md"
               }
             }
           }
@@ -309,10 +269,16 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7c1d66ecd88bbcaf",
+  "active": "6a73026fe242f7bd",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240912000000.md",
     "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
+    "Atlas/dataview/dataviews.md",
+    "1. Projects/20240702184735-SmartStudyBuddy.md",
+    "+ Encounters/dailyNotes/20240909125901.md",
+    "+ Encounters/dailyNotes/20240909214218.md",
+    "Extras/Template/Templater/themedatetagsstatus.md",
+    "Extras/Template/Templater/themedatetagsstatus 1.md",
+    "+ Encounters/dailyNotes/20240912000000.md",
     "+ Encounters/dailyNotes/20240910170815.md",
     "+ Encounters/dailyNotes/20240912230007.md",
     "1. Projects/面试鸭刷题/Untitled.md",
@@ -329,16 +295,10 @@
     "+ Encounters/dailyNotes/20240910170747.md",
     "+ Encounters/dailyNotes/20240910152515.md",
     "+ Encounters/dailyNotes/20240910164007.md",
-    "1. Projects/20240702184735-SmartStudyBuddy.md",
     "+ Encounters/dailyNotes/20240910152157.md",
     "+ Encounters/dailyNotes/20240910000000.md",
     "+ Encounters/dailyNotes/20240909000000.md",
     "1. Projects/ChatGPT2VBA2PPT.md",
-    "+ Encounters/dailyNotes/20240909214218.md",
-    "Extras/textgenerator/generations/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
-    "+ Encounters/dailyNotes/20240909125901.md",
-    "+ Encounters/dailyNotes/20240908000000.md",
-    "+ Encounters/dailyNotes/20240907215507.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",

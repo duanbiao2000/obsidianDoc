@@ -4,10 +4,10 @@
   "theme": "moonstone",
   "translucency": false,
   "nativeMenus": true,
-  "baseFontSize": 18,
-  "monospaceFontFamily": "Constantia,FiraCode Nerd Font Mono",
-  "textFontFamily": "Microsoft JhengHei",
-  "interfaceFontFamily": "FC BARCELONA PRO",
+  "baseFontSize": 16,
+  "monospaceFontFamily": "Constantia",
+  "textFontFamily": "Microsoft YaHei,Arial",
+  "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "snippets"
   ],

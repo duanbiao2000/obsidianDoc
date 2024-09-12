@@ -1,7 +1,7 @@
 {
   "attachPath": {
-    "attachmentRoot": "",
-    "saveAttE": "obsFolder",
+    "attachmentRoot": "5. Misc/Attachments",
+    "saveAttE": "inFolderBelow",
     "attachmentPath": "${notename}",
     "attachFormat": "IMG-${notename}-${date}",
     "type": "GLOBAL"
@@ -15,6 +15,14 @@
   ],
   "excludeSubpaths": false,
   "originalNameStorage": [],
-  "overridePath": {},
+  "overridePath": {
+    "5. Misc/Attachments": {
+      "attachmentRoot": "5.Misc/Attachments",
+      "saveAttE": "inFolderBelow",
+      "attachmentPath": "${notename}",
+      "attachFormat": "IMG-${notename}-${date}",
+      "type": "FOLDER"
+    }
+  },
   "disableNotification": false
 }

@@ -6,8 +6,8 @@ Starred Blocks:
 1. Understanding RAGFlow and its benefits
 2. Setting up an Ollama instance
 3. Creating a RAGFlow diagram with Ollama
-4. Filling your knowledge library with valuable resources
-5. Organizing and optimizing your knowledge library
+4. **Filling your knowledge library with valuable resources
+5. **Organizing and optimizing your knowledge library
 6. Sharing and collaborating on your knowledge library with others
 
 ---
@@ -181,7 +181,8 @@ In this guide, we will walk you through the process of setting up a useful knowl
     {
       "id": "6",
       "title": "Using Ollama with RAG Flow",
-      "content": "Integrating RAG Flow into Ollama
+      "content": "Integrating RAG Flow into Ollama"
+	  }
 
 Title: Building a Useful Knowledge Library with RAGFlow and Ollama Integration
 
@@ -271,7 +272,9 @@ collaboration. Here's a step-by-step guide on how to set up a knowledge library 
 
    const nodes = [
      { id: 'start', label: renderer.render('<h1>Start</h1>') },
-     { id: 'task1',
+     { id: 'task1',}
+
+
 
 Title: Building a Useful Knowledge Base with RAGFlow and Ollama
 
