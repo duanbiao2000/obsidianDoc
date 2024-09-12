@@ -89,33 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240910170815.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0e766ba641af09c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/面试鸭刷题/Untitled.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35ac1eaf584e7fb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20240912000000.md",
+                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -123,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +109,7 @@
       {
         "id": "d97aabd4c19cd880",
         "type": "tabs",
-        "dimension": 66.62817551963049,
+        "dimension": 77.75510204081633,
         "children": [
           {
             "id": "6a73026fe242f7bd",
@@ -202,12 +176,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "8f46a0033c43bfb9",
         "type": "tabs",
-        "dimension": 33.37182448036952,
+        "dimension": 22.24489795918367,
         "children": [
           {
             "id": "43d90e2fd0cc20b1",
@@ -215,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240912000000.md"
+                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md"
               }
             }
           },
@@ -225,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240912000000.md",
+                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240912000000.md",
+                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,14 +237,6 @@
               "type": "BC-tree",
               "state": {}
             }
-          },
-          {
-            "id": "9b99eb6d98ba1a41",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
           }
         ]
       }
@@ -292,7 +258,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240912000000.md"
+                "file": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md"
               }
             }
           }
@@ -320,14 +286,8 @@
   "left-ribbon": {
     "hiddenItems": {
       "publish:Publish changes...": false,
-      "media-extended:Open media": false,
       "templater-obsidian:Templater": false,
       "extract-highlights-plugin:Extract Highlights": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-omnivore:Omnivore": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "markdown-importer:Open format converter": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
@@ -344,19 +304,21 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-kanban:Create new board": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "35ac1eaf584e7fb7",
+  "active": "7c1d66ecd88bbcaf",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/20240912000000.md",
+    "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
+    "+ Encounters/dailyNotes/20240910170815.md",
+    "+ Encounters/dailyNotes/20240912230007.md",
+    "1. Projects/面试鸭刷题/Untitled.md",
+    "2. Areas/前端开发/htmx + Hono.js.md",
     "Atlas/全栈工程师学习路线(待续)_20240912215713.md",
     "Atlas/new 3.txt",
-    "1. Projects/面试鸭刷题/Untitled.md",
     "+ Encounters/dailyNotes/20240911203413.md",
     "1. Projects/面试鸭刷题",
     "+ Encounters/dailyNotes/20240911192834.md",
@@ -364,7 +326,6 @@
     "+ Encounters/dailyNotes/20240911143814.md",
     "+ Encounters/dailyNotes/20240911152243.md",
     "+ Encounters/dailyNotes/20240911000000.md",
-    "+ Encounters/dailyNotes/20240910170815.md",
     "+ Encounters/dailyNotes/20240910170747.md",
     "+ Encounters/dailyNotes/20240910152515.md",
     "+ Encounters/dailyNotes/20240910164007.md",
@@ -376,11 +337,8 @@
     "+ Encounters/dailyNotes/20240909214218.md",
     "Extras/textgenerator/generations/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
     "+ Encounters/dailyNotes/20240909125901.md",
-    "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
     "+ Encounters/dailyNotes/20240908000000.md",
     "+ Encounters/dailyNotes/20240907215507.md",
-    "+ Encounters/dailyNotes/20240907000000.md",
-    "+ Encounters/dailyNotes/20240906091445.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",

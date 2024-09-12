@@ -1,13 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Typora-Vue",
   "theme": "moonstone",
   "translucency": false,
   "nativeMenus": true,
-  "baseFontSize": 20,
-  "monospaceFontFamily": "FiraCode Nerd Font Mono",
-  "textFontFamily": "京華老宋体,Times New Roman,Microsoft JhengHei,American Typewriter,ZiYuFangZhiFouXingShu,FC BARCELONA PRO,段宁硬笔行云体,华文细黑,华文新宋,霞鹜尚智黑,仓耳今楷01-9128 W02,霞鹜新晰黑",
-  "interfaceFontFamily": "FC BARCELONA PRO,微软雅黑,霞鹜新晰黑,霞鹜尚智黑,京華老宋体,Arial,仓耳今楷01-9128 W02",
+  "baseFontSize": 18,
+  "monospaceFontFamily": "Constantia,FiraCode Nerd Font Mono",
+  "textFontFamily": "Microsoft JhengHei",
+  "interfaceFontFamily": "FC BARCELONA PRO",
   "enabledCssSnippets": [
     "snippets"
   ],
