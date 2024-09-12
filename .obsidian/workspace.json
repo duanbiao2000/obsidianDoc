@@ -116,9 +116,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "35ac1eaf584e7fb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240912000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -216,7 +229,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1. Projects/面试鸭刷题/Untitled.md"
+                "file": "+ Encounters/dailyNotes/20240912000000.md"
               }
             }
           },
@@ -226,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/面试鸭刷题/Untitled.md"
+                "file": "+ Encounters/dailyNotes/20240912000000.md"
               }
             }
           },
@@ -236,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/面试鸭刷题/Untitled.md",
+                "file": "+ Encounters/dailyNotes/20240912000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/面试鸭刷题/Untitled.md",
+                "file": "+ Encounters/dailyNotes/20240912000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -361,10 +374,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "f0e766ba641af09c",
+  "active": "35ac1eaf584e7fb7",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240911203413.md",
     "1. Projects/面试鸭刷题/Untitled.md",
+    "+ Encounters/dailyNotes/20240912000000.md",
+    "+ Encounters/dailyNotes/20240911203413.md",
     "1. Projects/面试鸭刷题",
     "+ Encounters/dailyNotes/20240911192834.md",
     "+ Encounters/dailyNotes/20240911165718.md",
@@ -389,7 +403,6 @@
     "+ Encounters/dailyNotes/20240907000000.md",
     "+ Encounters/dailyNotes/20240906091445.md",
     "+ Encounters/dailyNotes/20240906000000.md",
-    "+ Encounters/dailyNotes/20240906002211.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",
