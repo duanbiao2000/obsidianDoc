@@ -30,14 +30,6 @@
             }
           },
           {
-            "id": "f29d37ed2e102669",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -131,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -143,7 +135,7 @@
       {
         "id": "d97aabd4c19cd880",
         "type": "tabs",
-        "dimension": 46.72064777327935,
+        "dimension": 66.62817551963049,
         "children": [
           {
             "id": "6a73026fe242f7bd",
@@ -154,20 +146,16 @@
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "e8b0527479359fa8",
-        "type": "tabs",
-        "dimension": 29.87854251012146,
-        "children": [
+          },
           {
-            "id": "402ac5a9b5e6924b",
+            "id": "892fb42f42dd4a4b",
             "type": "leaf",
             "state": {
-              "type": "recent-files",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           },
           {
@@ -192,14 +180,15 @@
               "type": "bookmarks",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "8f46a0033c43bfb9",
-        "type": "tabs",
-        "dimension": 23.40080971659919,
-        "children": [
+          },
+          {
+            "id": "402ac5a9b5e6924b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
           {
             "id": "ec57776ac8128f4e",
             "type": "leaf",
@@ -211,28 +200,15 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "892fb42f42dd4a4b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "74a7bc996dfa0756",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20240912000000.md"
-              }
-            }
-          },
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "8f46a0033c43bfb9",
+        "type": "tabs",
+        "dimension": 33.37182448036952,
+        "children": [
           {
             "id": "43d90e2fd0cc20b1",
             "type": "leaf",
@@ -296,8 +272,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -308,21 +283,23 @@
     "type": "split",
     "children": [
       {
-        "id": "e0f4a3b451c402d7",
+        "id": "e172f191847de67f",
         "type": "tabs",
         "children": [
           {
-            "id": "1ca083a6e535e533",
+            "id": "74a7bc996dfa0756",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "file-properties",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240912000000.md"
+              }
             }
           }
         ]
       },
       {
-        "id": "8469b105e8f89a69",
+        "id": "518eb51cee4d6b5d",
         "type": "tabs",
         "children": [
           {
@@ -376,10 +353,10 @@
   },
   "active": "35ac1eaf584e7fb7",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/20240912000000.md",
     "Atlas/全栈工程师学习路线(待续)_20240912215713.md",
     "Atlas/new 3.txt",
     "1. Projects/面试鸭刷题/Untitled.md",
-    "+ Encounters/dailyNotes/20240912000000.md",
     "+ Encounters/dailyNotes/20240911203413.md",
     "1. Projects/面试鸭刷题",
     "+ Encounters/dailyNotes/20240911192834.md",
