@@ -1,0 +1,29 @@
+想要创建一个令人惊叹且具有视觉吸引力的作品集网站吗？在本教程中，我们将指导您使用强大的 Tailwind CSS 实用框架和 GSAP 构建动态 React JS 产品组合，以实现流畅的动画。
+
+主要亮点：
+• Tailwind CSS：了解如何使用Tailwind 基于类的方法快速有效地设计React 组件的样式。
+• GSAP（GreenSock 动画平台）：探索使用 GSAP 创建迷人动画的艺术。我们将演示如何使用 GSAP 的滚动触发功能来显示滚动上的元素。
+• Lenis：通过流畅的滚动库 Lenis 增强用户体验。
+• 最佳实践：跟随我们实施React 开发的最佳实践，确保您的产品组合既实用又美观。
+
+观看此视频以了解：
+• 如何使用 Tailwind CSS 设置 React 项目
+• 创建自定义组件和布局
+• 利用 GSAP 实现滚动触发的动画
+• 使用 Lenis 实现平滑滚动
+
+无论您是初学者还是经验丰富的 React 开发人员，本教程都将为您提供构建出色的作品集网站的技能。订阅我们的频道以获取更深入的教程和 Web 开发技巧！
+
+https://youtube.com/watch?v=k3JMkRwd_Nw
+
+
+📁 Resources:  还是跟着Sf一起敲好了.非常欣赏的一种分享形式 .  点赞欢迎经济上允许的同学支持鼓励原作者. @codewithsadee
+- Starter file: https://drive.google.com/file/d/1WAHytN3ubZbvqB5d0e3MIybpNgESxuBY/view
+- GitHub gist: https://gist.github.com/codewithsadee/4b386510410b3cec02a22c3753f59e0b
+-源码(每月1欧):https://www.patreon.com/posts/henry-clark-code-111917759?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link
+源码2(两美金):https://buymeacoffee.com/codewithsadee/e/302803
+
+- ReactJS: https://react.dev/
+- Tailwind CSS: https://tailwindcss.com/
+- GSAP: https://gsap.com/
+- Lenis: https://lenis.darkroom.engineering/
