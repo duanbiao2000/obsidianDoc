@@ -69,9 +69,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "165382dc5ab61cb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240914000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240913000000.md"
+                "file": "+ Encounters/dailyNotes/20240914000000.md"
               }
             }
           },
@@ -172,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240913000000.md",
+                "file": "+ Encounters/dailyNotes/20240914000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240913000000.md",
+                "file": "+ Encounters/dailyNotes/20240914000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +244,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240913000000.md"
+                "file": "+ Encounters/dailyNotes/20240914000000.md"
               }
             }
           }
@@ -282,8 +295,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0a4e666137444e04",
+  "active": "165382dc5ab61cb0",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/20240913000000.md",
+    "+ Encounters/dailyNotes/20240914000000.md",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",
@@ -299,7 +314,6 @@
     "1. Projects/周月总结/202404/assets/img",
     "1. Projects/周月总结/202404/assets",
     "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
-    "+ Encounters/dailyNotes/20240913000000.md",
     "1. Projects/20240626221449-markdown转为微信公众号.md",
     "1. Projects/20240625095452-弹幕单词记忆Claude开发.md",
     "1. Projects/运动健身.md",
@@ -328,7 +342,6 @@
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",
-    "5. Misc/Attachments/Drawing 2024-07-03 17.25.20.excalidraw",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",
