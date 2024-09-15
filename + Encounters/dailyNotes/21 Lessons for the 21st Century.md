@@ -85,7 +85,7 @@ tags:
 2. **"Humans think in stories rather than in facts, numbers, or equations, and the simpler the story, the better."**
     
     - **Significance**: Harari emphasizes the human tendency to understand and interpret the world through narratives. This has implications for how information is communicated and the power of compelling stories in shaping public opinion.
-3. **"Questions you cannot answer are usually far better for you than answers you cannot question."**
+3. ==**"Questions you cannot answer are usually far better for you than answers you cannot question."**==
     
     - **Significance**: This quote underscores the value of inquiry and skepticism. Harari encourages a mindset that values questioning and exploration over accepting unchallengeable answers, fostering a culture of intellectual curiosity and openness.
 4. **"If we want to keep our mental balance and our human sanity, we must run faster and faster. This is not a metaphor but the reality of living in the twenty-first century."**
@@ -108,7 +108,7 @@ tags:
    - **意义**：为了在快速变化的世界中保持心理平衡和理智，我们必须不断适应和学习。这句话揭示了现代生活的高压力和高节奏，提醒读者要注重心理健康和持续学习。
 
 5. **“The greatest scientific discovery of the twentieth century was the discovery of ignorance.”**
-   - **意义**：20世纪最伟大的科学发现是对无知的认识。这句话强调了科学探索的核心在于承认自身的无知和不断追求真理，提醒读者保持谦卑和开放的心态。
+   - **意义**：==20世纪最伟大的科学发现是对无知的认识。==这句话强调了科学探索的核心在于承认自身的无知和不断追求真理，提醒读者保持谦卑和开放的心态。
 
 6. **“The most important thing you can know about the future is that humans will still be human.”**
    - **意义**：对未来最重要的认识是人类依然是人类。这句话提醒我们，无论科技如何进步，人类的基本需求和情感依然不变，必须始终关注人性的本质和价值。

@@ -1,27 +1,13 @@
-[
-  {
-    "word": "take place",
-    "definition": "发生",
-    "example": "The conference is scheduled to take place next month.",
-    "mnemonic": "想象一场会议（conference）正在举行（take place）"
-  },
-  {
-    "word": "have an impact on",
-    "definition": "对...产生影响",
-    "example": "The new policy will have a significant impact on the environment.",
-    "mnemonic": "想象一项新政策（policy）对环境（environment）产生了显著的影响（impact）"
-  },
-  {
-    "word": "give way to",
-    "definition": "让位于，被...取代",
-    "example": "The old building was demolished to give way to a new shopping mall.",
-    "mnemonic": "想象一栋旧建筑（old building）被拆除（demolished），让位于（give way to）一个新的购物中心（shopping mall）"
-  },
-]
+在本视频中，我将引导您逐步创建自己的答案引擎，与 Perplexity 非常相似，但利用了尖端技术，包括 Groq、Mistral AI 的 Mixtral 8X7B、LangChain、OpenAI Embeddings 和 Brave Search API。本教程专为那些有兴趣在 JavaScript 或 Node.js 框架内实现此类系统的人而设计。我将向您展示如何配置引擎，以便不仅提供答案，还提供来源和潜在的后续问题以响应查询。该旅程从我们项目的初始设置开始，我将指导您管理来自 OpenAI、Groq 和 Brave Search API 的 API 密钥。从那里，我们继续初始化快速服务器以有效地处理传入请求。我非常强调推理过程中速度的重要性，并分享了关于优化各种组件的见解，例如嵌入模型、我们如何处理搜索引擎请求、文本分块的方法以及处理查询的复杂性。随着我们的进展，我将演示如何精心策划响应内容，引入流式处理以获得更动态的答案，以及如何自动生成有洞察力的后续问题。本教程以让我们的服务器顺利启动和运行所需的最后润色结束。
 
-yarn  add --save-dev babel-loader @babel/core @babel/preset-env @babel/preset-react
+对于那些渴望深入了解并开始自己尝试的人，我将很快提供一个链接，用于从视频描述中下载整个存储库。
+https://github.com/developersdigest/llm-answer-engine
+这是您获得实践经验并真正了解构建高级答案引擎的细节的机会。如果您发现此视频有帮助，请不要忘记通过订阅并与可能从本教程中受益的其他人分享来支持该频道。请继续关注更多更新和快乐编码！
+In this video, I walk you through the step-by-step process of creating your own answer engine, much like Perplexity, but utilizing cutting-edge technologies including Groq, Mistral AI's Mixtral 8X7B, LangChain, OpenAI Embeddings & the Brave Search API. This tutorial is designed for those interested in implementing such a system within a JavaScript or Node.js framework. I show you how to configure the engine to deliver not just answers but also sources and potential follow-up questions in response to queries. The journey begins with the initial setup of our project, where I guide you through managing API keys from OpenAI, Groq, and the Brave Search API. From there, we move on to initializing an express server to handle incoming requests effectively. I place a strong emphasis on the importance of speed in our inference processes and share insights on optimizing various components like the embeddings model, how we handle search engine requests, the method of text chunking, and the intricacies of processing queries. As we progress, I demonstrate how to curate response content meticulously, introduce streaming for more dynamic answers, and how we can automate the generation of insightful follow-up questions. The tutorial rounds off with the final touches needed to get our server up and running smoothly. 
 
+For those eager to dive in and start experimenting on your own, I'll be providing a link to download the entire repository from the video description soon. 
 
-yarn add --save-dev babel-loader @babel/core @babel/preset-env @babel/preset-react style-loader css-loader
+This is your chance to get hands-on experience and truly understand the ins and outs of building an advanced answer engine. And if you find this video helpful, don't forget to support the channel by subscribing and sharing it with others who might benefit from this tutorial. Stay tuned for more updates and happy coding!
 
-yarn add @types/class-variance-authority --dev
+https://www.youtube.com/watch?v=43ZCeBTcsS8
+https://github.com/developersdigest/llm-answer-engine

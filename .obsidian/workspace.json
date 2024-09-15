@@ -50,8 +50,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
-                "mode": "preview",
+                "file": "2. Areas/01认知科学/像高手一样解决问题.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80776936e3b92320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240916000000.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -76,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
+                "file": "+ Encounters/dailyNotes/20240805043645.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"high priority\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +175,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "8f46a0033c43bfb9",
@@ -175,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md"
+                "file": "+ Encounters/dailyNotes/20240916000000.md"
               }
             }
           },
@@ -185,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
+                "file": "+ Encounters/dailyNotes/20240916000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
+                "file": "+ Encounters/dailyNotes/20240916000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,11 +258,20 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md"
+                "file": "+ Encounters/dailyNotes/20240916000000.md"
               }
             }
+          },
+          {
+            "id": "5baaea10bf97ee32",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "518eb51cee4d6b5d",
@@ -266,8 +289,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,8 +317,21 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "165382dc5ab61cb0",
+  "active": "80776936e3b92320",
   "lastOpenFiles": [
+    "2. Areas/01认知科学/像高手一样解决问题.md",
+    "+ Encounters/dailyNotes/20240916000000.md",
+    "2. Areas/AI/算法/[哈希集合.md",
+    "2. Areas/01认知科学/敏捷和精益方法.md",
+    "1. Projects/20240625095452-弹幕单词记忆Claude开发.md",
+    "Atlas/Index/Tags Index.md",
+    "+ Encounters/dailyNotes/20240821000000.md",
+    "+ Encounters/dailyNotes/20240814125947.md",
+    "+ Encounters/dailyNotes/20240910170815.md",
+    "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
+    "Atlas/kanban/前端路线图.md",
+    "+ Encounters/dailyNotes/20240805043645.md",
+    "+ Encounters/dailyNotes/20240804021056.md",
     "+ Encounters/dailyNotes/20240914000000.md",
     "+ Encounters/dailyNotes/20240913000000.md",
     "Atlas/临时.txt",
@@ -313,9 +348,7 @@
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
     "1. Projects/周月总结/202404/assets/img",
     "1. Projects/周月总结/202404/assets",
-    "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
     "1. Projects/20240626221449-markdown转为微信公众号.md",
-    "1. Projects/20240625095452-弹幕单词记忆Claude开发.md",
     "1. Projects/运动健身.md",
     "+ Encounters/dailyNotes/20240905224407.md",
     "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
@@ -326,19 +359,8 @@
     "Extras/Template/Templater/themedatetagsstatus.md",
     "Extras/Template/Templater/themedatetagsstatus 1.md",
     "+ Encounters/dailyNotes/20240912000000.md",
-    "+ Encounters/dailyNotes/20240910170815.md",
-    "+ Encounters/dailyNotes/20240912230007.md",
-    "1. Projects/面试鸭刷题/Untitled.md",
-    "2. Areas/前端开发/htmx + Hono.js.md",
-    "Atlas/全栈工程师学习路线(待续)_20240912215713.md",
     "Atlas/new 3.txt",
-    "+ Encounters/dailyNotes/20240911203413.md",
     "1. Projects/面试鸭刷题",
-    "+ Encounters/dailyNotes/20240911192834.md",
-    "+ Encounters/dailyNotes/20240911165718.md",
-    "+ Encounters/dailyNotes/20240911143814.md",
-    "+ Encounters/dailyNotes/20240911152243.md",
-    "+ Encounters/dailyNotes/20240911000000.md",
     "2. Areas/LeetCode",
     "6. Knowledge",
     "5. Misc/Attachments/打造第二大脑",
