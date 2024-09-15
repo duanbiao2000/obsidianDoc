@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md",
+                "file": "+ Encounters/dailyNotes/20240916004329.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md"
+                "file": "+ Encounters/dailyNotes/20240916004329.md"
               }
             }
           },
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md",
+                "file": "+ Encounters/dailyNotes/20240916004329.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md",
+                "file": "+ Encounters/dailyNotes/20240916004329.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +258,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md"
+                "file": "+ Encounters/dailyNotes/20240916004329.md"
               }
             }
           },
@@ -319,8 +319,12 @@
   },
   "active": "80776936e3b92320",
   "lastOpenFiles": [
-    "2. Areas/01认知科学/像高手一样解决问题.md",
+    "+ Encounters/dailyNotes/20240916003701.md",
+    "+ Encounters/dailyNotes/20240916004329.md",
+    "+ Encounters/dailyNotes/20240916003431.md",
     "+ Encounters/dailyNotes/20240916000000.md",
+    "+ Encounters/dailyNotes/20240804021056.md",
+    "2. Areas/01认知科学/像高手一样解决问题.md",
     "2. Areas/AI/算法/[哈希集合.md",
     "2. Areas/01认知科学/敏捷和精益方法.md",
     "1. Projects/20240625095452-弹幕单词记忆Claude开发.md",
@@ -331,7 +335,6 @@
     "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
     "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/20240805043645.md",
-    "+ Encounters/dailyNotes/20240804021056.md",
     "+ Encounters/dailyNotes/20240914000000.md",
     "+ Encounters/dailyNotes/20240913000000.md",
     "Atlas/临时.txt",
@@ -356,9 +359,6 @@
     "1. Projects/20240702184735-SmartStudyBuddy.md",
     "+ Encounters/dailyNotes/20240909125901.md",
     "+ Encounters/dailyNotes/20240909214218.md",
-    "Extras/Template/Templater/themedatetagsstatus.md",
-    "Extras/Template/Templater/themedatetagsstatus 1.md",
-    "+ Encounters/dailyNotes/20240912000000.md",
     "Atlas/new 3.txt",
     "1. Projects/面试鸭刷题",
     "2. Areas/LeetCode",
