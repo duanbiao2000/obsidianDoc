@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "组合类型",
+      "path": "+ Encounters/dailyNotes/组合类型.md"
+    },
+    {
+      "basename": "GraphQL简介",
+      "path": "+ Encounters/dailyNotes/GraphQL简介.md"
+    },
+    {
+      "basename": "class-validate库",
+      "path": "+ Encounters/dailyNotes/class-validate库.md"
+    },
+    {
       "basename": "20240916003431",
       "path": "+ Encounters/dailyNotes/20240916003431.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "20240903204310",
       "path": "+ Encounters/dailyNotes/20240903204310.md"
-    },
-    {
-      "basename": "20240903202702",
-      "path": "+ Encounters/dailyNotes/20240903202702.md"
-    },
-    {
-      "basename": "20240903153411",
-      "path": "+ Encounters/dailyNotes/20240903153411.md"
-    },
-    {
-      "basename": "20240903135738",
-      "path": "+ Encounters/dailyNotes/20240903135738.md"
     }
   ],
   "omittedPaths": [
