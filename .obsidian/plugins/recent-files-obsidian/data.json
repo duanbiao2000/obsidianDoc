@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "libs目录结构",
+      "path": "1. Projects/Autospace Workshop/libs目录结构.md"
+    },
+    {
+      "basename": "NestJS",
+      "path": "1. Projects/Autospace Workshop/NestJS.md"
+    },
+    {
+      "basename": "NestJS核心功能",
+      "path": "1. Projects/Autospace Workshop/NestJS核心功能.md"
+    },
+    {
+      "basename": "Apollo Client",
+      "path": "1. Projects/Autospace Workshop/Apollo Client.md"
+    },
+    {
+      "basename": "项目总纲",
+      "path": "1. Projects/Autospace Workshop/项目总纲.md"
+    },
+    {
+      "basename": "使用 Docker 容器化数据库",
+      "path": "1. Projects/Autospace Workshop/使用 Docker 容器化数据库.md"
+    },
+    {
+      "basename": "Docker Compose",
+      "path": "1. Projects/Autospace Workshop/Docker Compose.md"
+    },
+    {
+      "basename": "核心后端应用",
+      "path": "1. Projects/Autospace Workshop/核心后端应用.md"
+    },
+    {
+      "basename": "GraphQL关系梳理",
+      "path": "1. Projects/Autospace Workshop/GraphQL关系梳理.md"
+    },
+    {
+      "basename": "扩展-NestJS项目架构图概览",
+      "path": "1. Projects/Autospace Workshop/扩展-NestJS项目架构图概览.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "2. Areas/前端开发/NextJS/GraphQL.md"
+    },
+    {
+      "basename": "依赖注入",
+      "path": "1. Projects/Autospace Workshop/依赖注入.md"
+    },
+    {
+      "basename": "Nx",
+      "path": "1. Projects/Autospace Workshop/Nx.md"
+    },
+    {
+      "basename": "Mapbox GL JS",
+      "path": "1. Projects/Autospace Workshop/Mapbox GL JS.md"
+    },
+    {
+      "basename": "运动健身",
+      "path": "1. Projects/运动健身.md"
+    },
+    {
       "basename": "组合类型",
       "path": "+ Encounters/dailyNotes/组合类型.md"
     },
@@ -89,10 +149,6 @@
       "path": "1. Projects/20240626221449-markdown转为微信公众号.md"
     },
     {
-      "basename": "运动健身",
-      "path": "1. Projects/运动健身.md"
-    },
-    {
       "basename": "20240905224407",
       "path": "+ Encounters/dailyNotes/20240905224407.md"
     },
@@ -143,62 +199,6 @@
     {
       "basename": "20240910164007",
       "path": "+ Encounters/dailyNotes/20240910164007.md"
-    },
-    {
-      "basename": "20240910152157",
-      "path": "+ Encounters/dailyNotes/20240910152157.md"
-    },
-    {
-      "basename": "20240910000000",
-      "path": "+ Encounters/dailyNotes/20240910000000.md"
-    },
-    {
-      "basename": "20240909000000",
-      "path": "+ Encounters/dailyNotes/20240909000000.md"
-    },
-    {
-      "basename": "20240908000000",
-      "path": "+ Encounters/dailyNotes/20240908000000.md"
-    },
-    {
-      "basename": "20240907215507",
-      "path": "+ Encounters/dailyNotes/20240907215507.md"
-    },
-    {
-      "basename": "20240907000000",
-      "path": "+ Encounters/dailyNotes/20240907000000.md"
-    },
-    {
-      "basename": "20240906091445",
-      "path": "+ Encounters/dailyNotes/20240906091445.md"
-    },
-    {
-      "basename": "20240906000000",
-      "path": "+ Encounters/dailyNotes/20240906000000.md"
-    },
-    {
-      "basename": "20240906002211",
-      "path": "+ Encounters/dailyNotes/20240906002211.md"
-    },
-    {
-      "basename": "20240905225344",
-      "path": "+ Encounters/dailyNotes/20240905225344.md"
-    },
-    {
-      "basename": "20240905221549",
-      "path": "+ Encounters/dailyNotes/20240905221549.md"
-    },
-    {
-      "basename": "20240905000000",
-      "path": "+ Encounters/dailyNotes/20240905000000.md"
-    },
-    {
-      "basename": "20240904000000",
-      "path": "+ Encounters/dailyNotes/20240904000000.md"
-    },
-    {
-      "basename": "20240903204310",
-      "path": "+ Encounters/dailyNotes/20240903204310.md"
     }
   ],
   "omittedPaths": [

@@ -45,12 +45,12 @@
             }
           },
           {
-            "id": "e99af0def84761af",
+            "id": "903aa62b57b81ed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/01认知科学/像高手一样解决问题.md",
+                "file": "1. Projects/Autospace Workshop/项目总纲.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "80776936e3b92320",
+            "id": "ab993c057adc7591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916004329.md",
+                "file": "1. Projects/Autospace Workshop/项目总纲.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,12 +71,12 @@
             }
           },
           {
-            "id": "040f7303ec18d042",
+            "id": "74ab7b7b0516f94b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/AI/使用 OpenAI 的 API 来生成文件的摘要.md",
+                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,12 +84,12 @@
             }
           },
           {
-            "id": "cb23de2a259467a1",
+            "id": "37d7827da01b74bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/组合类型.md",
+                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,25 +97,12 @@
             }
           },
           {
-            "id": "0a4e666137444e04",
+            "id": "217ca19c4201f462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240913000000.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "165382dc5ab61cb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20240805043645.md",
+                "file": "1. Projects/Autospace Workshop/Docker Compose.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -123,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -214,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/组合类型.md"
+                "file": "1. Projects/Autospace Workshop/libs目录结构.md"
               }
             }
           },
@@ -224,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/组合类型.md",
+                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/组合类型.md",
+                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +254,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 484.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -283,7 +270,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/组合类型.md"
+                "file": "1. Projects/Autospace Workshop/libs目录结构.md"
               }
             }
           },
@@ -339,13 +326,30 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cb23de2a259467a1",
+  "active": "74ab7b7b0516f94b",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/GraphQL简介.md",
+    "1. Projects/Autospace Workshop/NestJS.md",
+    "1. Projects/Autospace Workshop/NestJS核心功能.md",
+    "1. Projects/Autospace Workshop/Apollo Client.md",
+    "1. Projects/Autospace Workshop/项目总纲.md",
+    "1. Projects/Autospace Workshop/libs目录结构.md",
+    "1. Projects/Autospace Workshop/使用 Docker 容器化数据库.md",
+    "1. Projects/Autospace Workshop/Docker Compose.md",
+    "1. Projects/Autospace Workshop/核心后端应用.md",
+    "1. Projects/Autospace Workshop/GraphQL关系梳理.md",
+    "1. Projects/Autospace Workshop/扩展-NestJS项目架构图概览.md",
+    "2. Areas/前端开发/NextJS/GraphQL.md",
+    "1. Projects/Autospace Workshop/依赖注入.md",
+    "1. Projects/Autospace Workshop/Nx.md",
+    "1. Projects/Autospace Workshop/Mapbox GL JS.md",
+    "1. Projects/运动健身.md",
+    "1. Projects/Autospace Workshop",
     "+ Encounters/dailyNotes/组合类型.md",
+    "+ Encounters/dailyNotes/GraphQL简介.md",
     "+ Encounters/dailyNotes/class-validate库.md",
     "+ Encounters/dailyNotes/20240916003431.md",
     "2. Areas/AI/使用 OpenAI 的 API 来生成文件的摘要.md",
@@ -355,17 +359,6 @@
     "+ Encounters/dailyNotes/20240804021056.md",
     "2. Areas/01认知科学/像高手一样解决问题.md",
     "2. Areas/AI/算法/[哈希集合.md",
-    "2. Areas/01认知科学/敏捷和精益方法.md",
-    "1. Projects/20240625095452-弹幕单词记忆Claude开发.md",
-    "Atlas/Index/Tags Index.md",
-    "+ Encounters/dailyNotes/20240821000000.md",
-    "+ Encounters/dailyNotes/20240814125947.md",
-    "+ Encounters/dailyNotes/20240910170815.md",
-    "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
-    "Atlas/kanban/前端路线图.md",
-    "+ Encounters/dailyNotes/20240805043645.md",
-    "+ Encounters/dailyNotes/20240914000000.md",
-    "+ Encounters/dailyNotes/20240913000000.md",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",
@@ -380,15 +373,10 @@
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
     "1. Projects/周月总结/202404/assets/img",
     "1. Projects/周月总结/202404/assets",
-    "1. Projects/20240626221449-markdown转为微信公众号.md",
-    "1. Projects/运动健身.md",
-    "+ Encounters/dailyNotes/20240905224407.md",
-    "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md",
     "Atlas/new 3.txt",
     "1. Projects/面试鸭刷题",
     "2. Areas/LeetCode",
     "6. Knowledge",
-    "5. Misc/Attachments/打造第二大脑",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",

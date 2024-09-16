@@ -4,7 +4,7 @@
   "theme": "moonstone",
   "translucency": false,
   "nativeMenus": true,
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "monospaceFontFamily": "Constantia",
   "textFontFamily": "Microsoft YaHei,Arial",
   "interfaceFontFamily": "",
