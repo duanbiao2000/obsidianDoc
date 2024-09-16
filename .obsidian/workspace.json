@@ -76,7 +76,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md",
+                "file": "2. Areas/AI/使用 OpenAI 的 API 来生成文件的摘要.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb23de2a259467a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240916003431.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -188,8 +201,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "8f46a0033c43bfb9",
@@ -202,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md"
+                "file": "+ Encounters/dailyNotes/20240916003431.md"
               }
             }
           },
@@ -212,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md",
+                "file": "+ Encounters/dailyNotes/20240916003431.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md",
+                "file": "+ Encounters/dailyNotes/20240916003431.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240916000000.md"
+                "file": "+ Encounters/dailyNotes/20240916003431.md"
               }
             }
           },
@@ -330,12 +342,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "040f7303ec18d042",
+  "active": "cb23de2a259467a1",
   "lastOpenFiles": [
+    "2. Areas/AI/使用 OpenAI 的 API 来生成文件的摘要.md",
+    "+ Encounters/dailyNotes/20240916000000.md",
     "+ Encounters/dailyNotes/20240916004329.md",
     "+ Encounters/dailyNotes/20240916003701.md",
     "+ Encounters/dailyNotes/20240916003431.md",
-    "+ Encounters/dailyNotes/20240916000000.md",
     "+ Encounters/dailyNotes/20240804021056.md",
     "2. Areas/01认知科学/像高手一样解决问题.md",
     "2. Areas/AI/算法/[哈希集合.md",
@@ -371,7 +384,6 @@
     "Atlas/dataview/dataviews.md",
     "1. Projects/20240702184735-SmartStudyBuddy.md",
     "+ Encounters/dailyNotes/20240909125901.md",
-    "+ Encounters/dailyNotes/20240909214218.md",
     "Atlas/new 3.txt",
     "1. Projects/面试鸭刷题",
     "2. Areas/LeetCode",
