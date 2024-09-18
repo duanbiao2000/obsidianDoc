@@ -113,4 +113,4 @@ yarn add @vercel/analytics
 }
 ```
 
-[[ErrorBoundary]]
+[[功能组件执行调用]]
