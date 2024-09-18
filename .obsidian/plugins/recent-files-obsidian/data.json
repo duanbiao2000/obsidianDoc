@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Contentlayer",
+      "path": "+ Encounters/dailyNotes/Contentlayer.md"
+    },
+    {
       "basename": "Monitoring",
       "path": "+ Encounters/dailyNotes/Monitoring.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240626221449-markdown转为微信公众号",
       "path": "1. Projects/20240626221449-markdown转为微信公众号.md"
-    },
-    {
-      "basename": "20240905224407",
-      "path": "+ Encounters/dailyNotes/20240905224407.md"
     }
   ],
   "omittedPaths": [
