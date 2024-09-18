@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "ErrorBoundary",
+      "path": "+ Encounters/dailyNotes/ErrorBoundary.md"
+    },
+    {
+      "basename": "Analytics",
+      "path": "+ Encounters/dailyNotes/Analytics.md"
+    },
+    {
       "basename": "20240918220350",
       "path": "+ Encounters/dailyNotes/20240918220350.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "20240910170815",
       "path": "+ Encounters/dailyNotes/20240910170815.md"
-    },
-    {
-      "basename": "21 Lessons for the 21st Century",
-      "path": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md"
-    },
-    {
-      "basename": "前端路线图",
-      "path": "Atlas/kanban/前端路线图.md"
     }
   ],
   "omittedPaths": [

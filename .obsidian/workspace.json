@@ -76,7 +76,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918220350.md",
+                "file": "+ Encounters/dailyNotes/Analytics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebf12e872625d9d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/ErrorBoundary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918220350.md"
+                "file": "+ Encounters/dailyNotes/ErrorBoundary.md"
               }
             }
           },
@@ -185,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918220350.md",
+                "file": "+ Encounters/dailyNotes/ErrorBoundary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918220350.md",
+                "file": "+ Encounters/dailyNotes/ErrorBoundary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +257,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918220350.md"
+                "file": "+ Encounters/dailyNotes/ErrorBoundary.md"
               }
             }
           },
@@ -303,10 +316,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "95efaa12e3e06c6c",
+  "active": "ebf12e872625d9d0",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240918215255.md",
+    "+ Encounters/dailyNotes/Analytics.md",
+    "+ Encounters/dailyNotes/ErrorBoundary.md",
     "+ Encounters/dailyNotes/20240918220350.md",
+    "+ Encounters/dailyNotes/20240918215255.md",
     "+ Encounters/dailyNotes/20240918120102.md",
     "+ Encounters/dailyNotes/20240918000000.md",
     "+ Encounters/dailyNotes/React.forwardRef.md",
@@ -329,8 +344,6 @@
     "1. Projects/Autospace Workshop/Apollo Client.md",
     "1. Projects/Autospace Workshop/使用 Docker 容器化数据库.md",
     "1. Projects/Autospace Workshop/Docker Compose.md",
-    "1. Projects/Autospace Workshop/核心后端应用.md",
-    "1. Projects/Autospace Workshop/GraphQL关系梳理.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
