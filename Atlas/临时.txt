@@ -1,13 +1,111 @@
-在本视频中，我将引导您逐步创建自己的答案引擎，与 Perplexity 非常相似，但利用了尖端技术，包括 Groq、Mistral AI 的 Mixtral 8X7B、LangChain、OpenAI Embeddings 和 Brave Search API。本教程专为那些有兴趣在 JavaScript 或 Node.js 框架内实现此类系统的人而设计。我将向您展示如何配置引擎，以便不仅提供答案，还提供来源和潜在的后续问题以响应查询。该旅程从我们项目的初始设置开始，我将指导您管理来自 OpenAI、Groq 和 Brave Search API 的 API 密钥。从那里，我们继续初始化快速服务器以有效地处理传入请求。我非常强调推理过程中速度的重要性，并分享了关于优化各种组件的见解，例如嵌入模型、我们如何处理搜索引擎请求、文本分块的方法以及处理查询的复杂性。随着我们的进展，我将演示如何精心策划响应内容，引入流式处理以获得更动态的答案，以及如何自动生成有洞察力的后续问题。本教程以让我们的服务器顺利启动和运行所需的最后润色结束。
+https://www.youtube.com/watch?v=phYuQWRaazw
 
-对于那些渴望深入了解并开始自己尝试的人，我将很快提供一个链接，用于从视频描述中下载整个存储库。
-https://github.com/developersdigest/llm-answer-engine
-这是您获得实践经验并真正了解构建高级答案引擎的细节的机会。如果您发现此视频有帮助，请不要忘记通过订阅并与可能从本教程中受益的其他人分享来支持该频道。请继续关注更多更新和快乐编码！
-In this video, I walk you through the step-by-step process of creating your own answer engine, much like Perplexity, but utilizing cutting-edge technologies including Groq, Mistral AI's Mixtral 8X7B, LangChain, OpenAI Embeddings & the Brave Search API. This tutorial is designed for those interested in implementing such a system within a JavaScript or Node.js framework. I show you how to configure the engine to deliver not just answers but also sources and potential follow-up questions in response to queries. The journey begins with the initial setup of our project, where I guide you through managing API keys from OpenAI, Groq, and the Brave Search API. From there, we move on to initializing an express server to handle incoming requests effectively. I place a strong emphasis on the importance of speed in our inference processes and share insights on optimizing various components like the embeddings model, how we handle search engine requests, the method of text chunking, and the intricacies of processing queries. As we progress, I demonstrate how to curate response content meticulously, introduce streaming for more dynamic answers, and how we can automate the generation of insightful follow-up questions. The tutorial rounds off with the final touches needed to get our server up and running smoothly. 
+Learn how to build a bank app with Java Swing in this step-by-step ASMR programming tutorial for beginners. We will be creating a graphical user interface (GUI) using the Swing framework and will be using MySQL database to perform user authentication and storing user data. Follow along to learn how to utilize MySQL connector JAR to communicate our Java application to a MySQL database. Gain practical experience with Java projects like this bankinga pp - perfect for polishing your skills. Take your Java skills to the next level by building real projects with this ASMR coding tutorial.
 
-For those eager to dive in and start experimenting on your own, I'll be providing a link to download the entire repository from the video description soon. 
+URLs used in the video
+1. MySQL Connector JAR: https://dev.mysql.com/downloads/conne...
+2. How to install and connect MySQL for IntelliJ:    • Connect MySQL to Java in IntelliJ 202...  
 
-This is your chance to get hands-on experience and truly understand the ins and outs of building an advanced answer engine. And if you find this video helpful, don't forget to support the channel by subscribing and sharing it with others who might benefit from this tutorial. Stay tuned for more updates and happy coding!
+🕣 Timestamp:
+00:00 - 00:30: Intro
+00:31 - 00:37: Table of Contents
+00:38 - 06:55: Prerequisites 
+06:56 - 09:21: Building BaseFrame
+09:22 - 18:05: Building LoginGui
+18:06 - 21:58: Building RegisterGui
+21:59 - 34:02: Building BankingAppGui
+34:03 - 45:29: Adding LoginGui Functionality
+45:30 - 55:31: Adding RegisterGui Functionality
+55:32 - 01:49:10: Adding BankingAppGui Functionality
+01:49:11 - 01:51:03: Outro + Full Demo
 
-https://www.youtube.com/watch?v=43ZCeBTcsS8
-https://github.com/developersdigest/llm-answer-engine
+------------------------------SOCIAL------------------------------
+📹 Checkout my ASMR studying channel:    / @taptapstudyi.  .
+🐱‍🚀 Github: https://github.com/curadProgrammer
+
+
+
+===================================================================
+
+Build a Full-Stack Online Chat App in Java (Swing, Springboot Websocket)
+
+https://www.youtube.com/watch?v=aNbNa26RlE8
+
+Learn how to build an Online Chat Application all in Java! 
+
+In this tutorial, we dive into Spring Boot's WebSocket library to handle real-time messaging on the backend, and then use Swing to create the GUI for the app. Towards the end, I’ll walk you through hosting your WebSocket server online using Render, so you can test and interact with it from anywhere.
+
+🔗 Links:
+1. Maven Download: https://maven.apache.org/download.cgi
+2. Spring Initializr: https://start.spring.io/
+3. Render: https://render.com/
+4. Github: https://github.com/
+5. Docker Explanation:    • Hosting Springboot App on render.com  
+
+------------------------------SOCIAL------------------------------
+📹 Checkout my Game Development Channel:    / @taptapstudyi.  .
+🐱‍🚀 Github: https://github.com/curadProgrammer
+🅿 Patreon:   / taptap196  
+
+See more of my content below: 
+🩳 Shorts Playlist:    • Shorts  
+☕ Java Playlist:    • Java Swing Series  
+🍵 JavaFX Playlist:    • JavaFX Series  
+
+⏱ Timestamp:
+00:00 - 00:45 : Intro
+00:46 - 03:28: Maven Installation
+03:29 - 06:47: Springboot Project Setup
+06:48 - 08:33: Springboot Overview
+08:34 - 11:58: Websocket Config
+11:59 - 16:48: Websocket Controller (Send Message)
+16:49 - 27:39: Websocket Client (Send Message)
+27:40 -  32:22: Websocket Controller (Send Active Users List)
+32:23 - 36:28: Websocket Client (Connect User)
+36:29 - 39:57: ClientGUI Window
+39:58 - 44:39: ClientGUI Exit Popup
+44:40 - 53:24: ClientGUI Connected Users Components
+53:25 -  1:10:16: ClientGUI Chat Display
+1:10:17 - 1:18:45: ClientGUI Websocket Connection
+1:18:46 - 1:40:42: ClientGUI Message listener
+1:40:43 - 1:45:50: ClientGUI Username Input
+1:45:51 - 2:03:15: ClientGUI Bettering UX/UI Experience
+2:03:16 - 2:14:28: Hosting Websocket on Render using Docker
+2:14:29 - 2:15:02: Outro + Patreon Announcement
+ 
+✅ Answers to the Video Quiz Questions:
+1. The default port is 8080
+2. STOMP stands for Simple (or Streaming) Text Oriented Message Protocol
+3. POJO stands for Plain Old Java Object
+4. The URL of our websocket it http://localhost:8080/ws
+5. /app/connect
+6. HIDE_ON_CLOSE
+7. BorderLayout
+8. EmptyBorder
+9. revalidate() and repaint()
+10. JScrollPane
+
+
+
+
+
+
+
+
+
+
+
+
+===============================================
+
+
+
+
+
+
+
+
+=======================================
+
+
+

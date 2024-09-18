@@ -84,6 +84,19 @@
             }
           },
           {
+            "id": "597e1a1df89a775c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240918000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "37d7827da01b74bd",
             "type": "leaf",
             "state": {
@@ -110,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -201,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/Autospace Workshop/libs目录结构.md"
+                "file": "+ Encounters/dailyNotes/20240918000000.md"
               }
             }
           },
@@ -211,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
+                "file": "+ Encounters/dailyNotes/20240918000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
+                "file": "+ Encounters/dailyNotes/20240918000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1. Projects/Autospace Workshop/libs目录结构.md"
+                "file": "+ Encounters/dailyNotes/20240918000000.md"
               }
             }
           },
@@ -325,18 +338,19 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "74ab7b7b0516f94b",
+  "active": "597e1a1df89a775c",
   "lastOpenFiles": [
+    "1. Projects/Autospace Workshop/libs目录结构.md",
+    "+ Encounters/dailyNotes/20240918000000.md",
     "1. Projects/Autospace Workshop/NestJS.md",
     "1. Projects/Autospace Workshop/NestJS核心功能.md",
     "1. Projects/Autospace Workshop/Apollo Client.md",
     "1. Projects/Autospace Workshop/项目总纲.md",
-    "1. Projects/Autospace Workshop/libs目录结构.md",
     "1. Projects/Autospace Workshop/使用 Docker 容器化数据库.md",
     "1. Projects/Autospace Workshop/Docker Compose.md",
     "1. Projects/Autospace Workshop/核心后端应用.md",
@@ -358,7 +372,6 @@
     "+ Encounters/dailyNotes/20240916003701.md",
     "+ Encounters/dailyNotes/20240804021056.md",
     "2. Areas/01认知科学/像高手一样解决问题.md",
-    "2. Areas/AI/算法/[哈希集合.md",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",
