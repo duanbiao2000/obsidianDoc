@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "React.forwardRef",
+      "path": "+ Encounters/dailyNotes/React.forwardRef.md"
+    },
+    {
       "basename": "20240918143911",
       "path": "+ Encounters/dailyNotes/20240918143911.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240914000000",
       "path": "+ Encounters/dailyNotes/20240914000000.md"
-    },
-    {
-      "basename": "20240913000000",
-      "path": "+ Encounters/dailyNotes/20240913000000.md"
     }
   ],
   "omittedPaths": [
