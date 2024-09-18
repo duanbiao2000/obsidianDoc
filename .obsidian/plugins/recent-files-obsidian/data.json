@@ -1,16 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Monitoring",
+      "path": "+ Encounters/dailyNotes/Monitoring.md"
+    },
+    {
       "basename": "LearnToCode",
       "path": "2. Areas/AI/LearnToCode.md"
     },
     {
-      "basename": "20240918000000",
-      "path": "+ Encounters/dailyNotes/20240918000000.md"
+      "basename": "dataviews",
+      "path": "Atlas/dataview/dataviews.md"
+    },
+    {
+      "basename": "项目总纲",
+      "path": "1. Projects/Autospace Workshop/项目总纲.md"
     },
     {
       "basename": "libs目录结构",
       "path": "1. Projects/Autospace Workshop/libs目录结构.md"
+    },
+    {
+      "basename": "20240918122656",
+      "path": "+ Encounters/dailyNotes/20240918122656.md"
+    },
+    {
+      "basename": "Repository",
+      "path": "+ Encounters/dailyNotes/Repository.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "+ Encounters/dailyNotes/GraphQL.md"
+    },
+    {
+      "basename": "TypeORM",
+      "path": "+ Encounters/dailyNotes/TypeORM.md"
+    },
+    {
+      "basename": "20240918120930",
+      "path": "+ Encounters/dailyNotes/20240918120930.md"
+    },
+    {
+      "basename": "20240918120133",
+      "path": "+ Encounters/dailyNotes/20240918120133.md"
+    },
+    {
+      "basename": "20240918120102",
+      "path": "+ Encounters/dailyNotes/20240918120102.md"
+    },
+    {
+      "basename": "同步与异步应用场景",
+      "path": "+ Encounters/dailyNotes/同步与异步应用场景.md"
+    },
+    {
+      "basename": "20240918000000",
+      "path": "+ Encounters/dailyNotes/20240918000000.md"
     },
     {
       "basename": "NestJS",
@@ -23,10 +67,6 @@
     {
       "basename": "Apollo Client",
       "path": "1. Projects/Autospace Workshop/Apollo Client.md"
-    },
-    {
-      "basename": "项目总纲",
-      "path": "1. Projects/Autospace Workshop/项目总纲.md"
     },
     {
       "basename": "使用 Docker 容器化数据库",
@@ -159,46 +199,6 @@
     {
       "basename": "20240905224407",
       "path": "+ Encounters/dailyNotes/20240905224407.md"
-    },
-    {
-      "basename": "应用程序模拟与交互设计：多窗口拖拽与动画效果实现",
-      "path": "+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md"
-    },
-    {
-      "basename": "dataviews",
-      "path": "Atlas/dataview/dataviews.md"
-    },
-    {
-      "basename": "htmx + Hono.js",
-      "path": "2. Areas/前端开发/htmx + Hono.js.md"
-    },
-    {
-      "basename": "20240911203413",
-      "path": "+ Encounters/dailyNotes/20240911203413.md"
-    },
-    {
-      "basename": "20240911192834",
-      "path": "+ Encounters/dailyNotes/20240911192834.md"
-    },
-    {
-      "basename": "20240911165718",
-      "path": "+ Encounters/dailyNotes/20240911165718.md"
-    },
-    {
-      "basename": "20240911143814",
-      "path": "+ Encounters/dailyNotes/20240911143814.md"
-    },
-    {
-      "basename": "20240911152243",
-      "path": "+ Encounters/dailyNotes/20240911152243.md"
-    },
-    {
-      "basename": "20240911000000",
-      "path": "+ Encounters/dailyNotes/20240911000000.md"
-    },
-    {
-      "basename": "20240910170747",
-      "path": "+ Encounters/dailyNotes/20240910170747.md"
     }
   ],
   "omittedPaths": [

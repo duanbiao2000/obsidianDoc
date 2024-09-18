@@ -45,77 +45,12 @@
             }
           },
           {
-            "id": "903aa62b57b81ed1",
+            "id": "e3440ed1f441fe89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Autospace Workshop/项目总纲.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab993c057adc7591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/Autospace Workshop/项目总纲.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74ab7b7b0516f94b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "597e1a1df89a775c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/AI/LearnToCode.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37d7827da01b74bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/Autospace Workshop/libs目录结构.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "217ca19c4201f462",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/Autospace Workshop/Docker Compose.md",
+                "file": "+ Encounters/dailyNotes/Monitoring.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -123,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/AI/LearnToCode.md"
+                "file": "+ Encounters/dailyNotes/Monitoring.md"
               }
             }
           },
@@ -224,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/AI/LearnToCode.md",
+                "file": "+ Encounters/dailyNotes/Monitoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/AI/LearnToCode.md",
+                "file": "+ Encounters/dailyNotes/Monitoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 255.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -283,7 +218,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/AI/LearnToCode.md"
+                "file": "+ Encounters/dailyNotes/Monitoring.md"
               }
             }
           },
@@ -295,8 +230,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "518eb51cee4d6b5d",
@@ -314,7 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -343,15 +277,25 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "597e1a1df89a775c",
+  "active": "e3440ed1f441fe89",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240918000000.md",
     "2. Areas/AI/LearnToCode.md",
+    "+ Encounters/dailyNotes/Monitoring.md",
+    "Atlas/dataview/dataviews.md",
+    "1. Projects/Autospace Workshop/项目总纲.md",
     "1. Projects/Autospace Workshop/libs目录结构.md",
+    "+ Encounters/dailyNotes/20240918122656.md",
+    "+ Encounters/dailyNotes/Repository.md",
+    "+ Encounters/dailyNotes/GraphQL.md",
+    "+ Encounters/dailyNotes/TypeORM.md",
+    "+ Encounters/dailyNotes/20240918120930.md",
+    "+ Encounters/dailyNotes/20240918120133.md",
+    "+ Encounters/dailyNotes/20240918120102.md",
+    "+ Encounters/dailyNotes/同步与异步应用场景.md",
+    "+ Encounters/dailyNotes/20240918000000.md",
     "1. Projects/Autospace Workshop/NestJS.md",
     "1. Projects/Autospace Workshop/NestJS核心功能.md",
     "1. Projects/Autospace Workshop/Apollo Client.md",
-    "1. Projects/Autospace Workshop/项目总纲.md",
     "1. Projects/Autospace Workshop/使用 Docker 容器化数据库.md",
     "1. Projects/Autospace Workshop/Docker Compose.md",
     "1. Projects/Autospace Workshop/核心后端应用.md",
@@ -361,17 +305,7 @@
     "1. Projects/Autospace Workshop/依赖注入.md",
     "1. Projects/Autospace Workshop/Nx.md",
     "1. Projects/Autospace Workshop/Mapbox GL JS.md",
-    "1. Projects/运动健身.md",
     "1. Projects/Autospace Workshop",
-    "+ Encounters/dailyNotes/组合类型.md",
-    "+ Encounters/dailyNotes/GraphQL简介.md",
-    "+ Encounters/dailyNotes/class-validate库.md",
-    "+ Encounters/dailyNotes/20240916003431.md",
-    "2. Areas/AI/使用 OpenAI 的 API 来生成文件的摘要.md",
-    "+ Encounters/dailyNotes/20240916000000.md",
-    "+ Encounters/dailyNotes/20240916004329.md",
-    "+ Encounters/dailyNotes/20240916003701.md",
-    "+ Encounters/dailyNotes/20240804021056.md",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",

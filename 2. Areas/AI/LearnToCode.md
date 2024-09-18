@@ -1,3 +1,15 @@
+---
+aliases: 
+theme: 
+tags:
+  - Inspiration
+  - learning
+  - Summaries
+  - todo
+  - 效率
+  - 高维
+---
+
 # Prompts for Learning to Code with AI
 
 ## Introduction
@@ -6,7 +18,7 @@ Use these prompts to get started learning how to code from scratch or simply to 
 
 At the bottom of this doc is a glossary of high-level terms that you may want to plug into the prompts to learn more.
 
-**Important note**: you ***need*** to use a high-quality model such as **GPT-4 or Claude Opus** to make this work. ==Using GPT-3.5, Llama, or other similar models will only leave you frustrated and stuck. ==High-end models will generate much better code and explain things much more clearly (and correctly!)
+**Important note**: you _**need**_ to use a high-quality model such as **GPT-4 or Claude Opus** to make this work. ==Using GPT-3.5, Llama, or other similar models will only leave you frustrated and stuck. ==High-end models will generate much better code and explain things much more clearly (and correctly!)
 
 ## Exploring Concepts
 
@@ -16,8 +28,8 @@ At the bottom of this doc is a glossary of high-level terms that you may want to
   - I am a new developer learning how to code. Please explain what [X] is and what role it plays in building software.
   - What are the alternatives to [X]? When and why would I use them?
   - I am a new developer interested in understanding the difference between [X] and [Y]. Could you explain?
-     - In what scenarios would I choose [X] over [Y]? Please explain and provide examples.
-  - Please explain what each line in this code does: ```[paste the code]```
+    - In what scenarios would I choose [X] over [Y]? Please explain and provide examples.
+  - Please explain what each line in this code does: `[paste the code]`
   - How do you [accomplish certain task]? Answer with a high level explanation and specific steps.
 
 - **Follow-up Prompts**
@@ -26,39 +38,41 @@ At the bottom of this doc is a glossary of high-level terms that you may want to
   - How can I use this? / What do I do with this? / Where do I put this?
   - What should I do next? / How can I build on this? / Are there any other ways to do this?
   - Are there any concerns or tradeoffs with this approach?
-  - [Open a new Chat and start over] ```<--- good when ChatGPT gets stuck rehashing the same ideas```
+  - [Open a new Chat and start over] `<--- good when ChatGPT gets stuck rehashing the same ideas`
 
 **Note**: Remember to always give the LLM (AI) the relevant context, whether it is the code you are investigating or your relative understanding and experience working with a certain technology.
-  
+
 ## Coding
 
 - **Writing new code**
   - I am building an app using [tech stack] and need some code to [do X]. Please write it for me.
   - I want to implement some new functionality in my [tech stack] app. This new code needs to do [X] and has to do it in a particular way: [Y]. Make sure it doesn't [Z]
-     - `Modify this prompt as needed to specify complex requirements and things the AI should avoid. Just write out all the requirements in one initial go.`
+    - `Modify this prompt as needed to specify complex requirements and things the AI should avoid. Just write out all the requirements in one initial go.`
 
 - **Modifying code**
-  - I have this code: ```[code]```. Please modify it to [do X].
-  - Please refactor this code so that it is more clean and functionality is properly separated: ```[code]```
-  - Please add error handling to this code: ```[code]```
+  - I have this code: `[code]`. Please modify it to [do X].
+  - Please refactor this code so that it is more clean and functionality is properly separated: `[code]`
+  - Please add error handling to this code: `[code]`
   - That code doesn't work because it also needs to [do X]. Can you modify it to do that?
   - Ok now that we have that working, we also need it to [do Y]. Can you modify it to do that?
-  - I had to make a change to that code so the latest code is: ```[code]```. `<--- make sure ChatGPT is staying up to date on your latest version of code`
-  - Please state the *full* code in your response
+  - I had to make a change to that code so the latest code is: `[code]`. `<--- make sure ChatGPT is staying up to date on your latest version of code`
+  - Please state the _full_ code in your response
 
 ## Troubleshooting
 
-- I tried to run that but got this error: ```[error]``` in the ```[where you saw the error]```
+- I tried to run that but got this error: `[error]` in the `[where you saw the error]`
 - It's still not working; what should I check to make sure I am doing this the right way?
-- I got this error: ```[error]```. Is there a different way we can do this to avoid this error?
+- I got this error: `[error]`. Is there a different way we can do this to avoid this error?
 - I tried [X, Y, Z] but it is still not working. Any other ideas?
 - Can you point me to some resources that would explain how this works?
 - Please explain this line by line so I can troubleshoot it.
 
 ## Glossary / Terminology
-These are various terms that you might not be familiar with but can act as starting points for learning with AI. Ask ChatGPT about these concepts to start building an understanding of how they all fit together. Feel free to incorporate these into your prompts to improve the quality 
+
+These are various terms that you might not be familiar with but can act as starting points for learning with AI. Ask ChatGPT about these concepts to start building an understanding of how they all fit together. Feel free to incorporate these into your prompts to improve the quality
 
 ### Practical Terms (web development)
+
 - **Frontend:** The part of a website or web application that users interact with directly in their web browsers. It encompasses the design, layout, and some client-side logic of web pages.
 - **Backend:** The server-side logic of a web application, dealing with data management, authentication, server logic, and application functionality that users don't directly interact with.
 - **Server:** A physical or virtual machine that runs the backend code and serves the frontend to users. It processes requests, runs the application's backend logic, and manages resources.
@@ -72,7 +86,7 @@ These are various terms that you might not be familiar with but can act as start
 - **Package Manager:** A tool that automates the process of installing, updating, configuring, and removing computer programs from a device's operating system in a consistent manner.
 - **Component:** A reusable element in UI design or a modular unit in software architecture, each with its own functionality.
 - **CDN (Content Delivery Network):** A network of proxy servers distributed across different locations to deliver content more efficiently to users based on their geographical location.
-- **DNS (Domain Name System):** The phonebook of the Internet, translating human-friendly domain names (like www.example.com) into IP addresses that computers use to identify each other on the network.
+- **DNS (Domain Name System):** The phonebook of the Internet, translating human-friendly domain names (like [www.example.com](http://www.example.com)) into IP addresses that computers use to identify each other on the network.
 - **Proxy:** A server that acts as an intermediary for requests from clients seeking resources from other servers, providing various functionalities such as load balancing, privacy, or security.
 - **Domain:** The name that identifies a website on the Internet. It's part of the URL that allows users to easily find and access websites.
 - **HTTP (Hypertext Transfer Protocol):** The foundational protocol used by the World Wide Web, defining how messages are formatted and transmitted, and how web servers and browsers should respond to various commands.
@@ -91,6 +105,7 @@ These are various terms that you might not be familiar with but can act as start
 - **Port:** A numerical identifier in networking used to route data to specific programs or services on a computer.
 
 ### Computer Science Terms (relevant for practical use)
+
 - **Algorithm:** A step-by-step procedure or set of rules designed to perform a specific task or solve a particular problem.
 - **Language:** In the context of programming, a language is a set of syntax rules and structures used to write software programs that computers can execute.
 - **Executable:** A type of file that contains a program capable of being executed or run as a program in the computer.
@@ -122,41 +137,74 @@ These are various terms that you might not be familiar with but can act as start
 - **Performance:** Refers to how fast a web page or application loads and runs. It is critical to user experience and is influenced by various factors, including server speed, database optimization, and efficient coding practices.
 - **Load Balancing:** The distribution of network or application traffic across multiple servers to ensure no single server becomes overwhelmed, improving reliability and availability.
 
-
 ### Technologies
+
 - **HTML:** The standard markup language for documents designed to be displayed in a web browser. It forms the structure of web pages.
+
 - **CSS:** A style sheet language used for describing the look and formatting of documents written in HTML, controlling the layout of multiple web pages all at once.
+
 - **JavaScript:** A programming language that allows you to implement complex features on web pages, being the only language that can be executed in web browsers, enabling dynamic content, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.
+
 - **Frontend Frameworks**: (e.g. React, Vue, Angular).These are JavaScript frameworks and libraries designed to simplify the development of the user interface (UI) of web applications. React is known for its virtual DOM feature for high performance, Angular for its comprehensive solution including tools for routing, forms, HTTP client, and more, and Vue for its simplicity and progressive nature, making it easily adoptable for parts of existing projects.
+
 - **NodeJS:** An open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser, allowing for the development of server-side and networking applications.
+
 - **Express:** A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications, making it easy to build single-page, multi-page, and hybrid web applications.
+
 - **Databases**: (e.g. MongoDB, Postgres) MongoDB is a popular NoSQL database known for its flexibility and scalability, while PostgreSQL is a powerful open-source relational database system. The key difference lies in how they store data: relational databases structure data into predefined tables and rows, whereas nonrelational databases store data without a fixed schema, often making them more flexible and scalable for certain types of applications.
+
 - **Docker:** A platform as a service (PaaS) that uses OS-level virtualization to deliver software in packages called containers, allowing developers to package applications with their dependencies and deploy as one package.
+
 - **Git:** A distributed version-control system for tracking changes in source code during software development, enabling multiple developers to work on a project concurrently.
+
 - **Cloud Providers:** (e.g. AWS, Azure, GCP) These services offer a wide range of cloud computing resources and services. AWS (Amazon Web Services) is known for its robust, scalable, and affordable cloud solutions. Microsoft Azure offers a wide range of cloud services supporting various operating systems, databases, and developer tools. Google Cloud Platform provides cloud computing services that run on the same infrastructure Google uses internally for its end-user products.
+
 - **Design System:** (e.g. MUI, ShadCN, Chakra, Bootstrap, Tailwind) A set of standards for design and code along with components that unify both practices. These systems help teams develop digital products faster by making design reusable—MUI, ShadCN, Chakra UI, Bootstrap, and Tailwind CSS are examples of such systems, offering ready-made components that are easy to integrate into web projects.
+
 - **Cache:** (e.g. Redis) An in-memory data structure store, used as a database, cache, and message broker. Redis supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries, and streams.
+
 - **Websocket:** A communication protocol that provides full-duplex communication channels over a single TCP connection, enabling web servers and clients to exchange data more efficiently, facilitating real-time data transfer and interaction in web applications.
+
 - **GraphQL:** A query language for APIs that allows clients to request exactly the data they need, making it possible to aggregate data from multiple sources with a single request.
+
 - **Webpack:** A static module bundler for JavaScript applications, which bundles JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
+
 - **Nginx:** A high-performance web server, reverse proxy, and load balancer that provides increased security, scalability, and speed for web applications.
+
 - **LLM (Large Language Models):** Advanced AI models capable of understanding and generating human-like text, facilitating tasks such as content creation, code generation, and natural language processing.
+
 - **CI/CD (Continuous Integration/Continuous Delivery):** Practices in software development that automate the process of integrating code changes from multiple contributors into a single software project, and delivering or deploying code changes to a production environment automatically.
+
 - **Flutter:** An open-source UI software development kit by Google used for building natively compiled applications for mobile, web, and desktop from a single codebase.
+
 - **Postman:** A collaboration platform for API development, which simplifies each step of building an API and streamlines collaboration so you can create better APIs—faster.
+
 - **curl:** A command-line tool used for transferring data with URLs. It supports various protocols including HTTP, HTTPS, FTP, and more, making it a versatile tool for testing, downloading files, and making API requests directly from the terminal.
+
 - **Terminal:** A text-based interface to the system, allowing for the execution of commands, scripts, and programs. It provides direct access to the underlying operating system through a command-line interface (CLI), essential for software development, system administration, and troubleshooting.
 
 - ## Process
+
 - **Version Control:** A system that records changes to a file or set of files over time so that specific versions can be recalled later. It's essential for collaborative development projects.
+
 - **SDLC (Software Development Life Cycle):** A process for planning, creating, testing, and deploying an information system, with phases including requirements analysis, design, implementation, testing, deployment, and maintenance.
+
 - **Testing:** The practice of executing a program or application with the intent of finding errors and verifying that the software meets the specified requirements.
+
 - **Accessibility (a11y):** The practice of making your websites usable by as many people as possible, including those with impairments or disabilities, ensuring all users have equal access to information and functionality.
+
 - **Internationalization (i18n):** The practice of designing software to facilitate easy adaptation to different languages and regions, ensuring global usability.
+
 - **Responsive Design:** A design approach aimed at making web pages render well on a variety of devices and window or screen sizes, ensuring usability and satisfaction across different devices.
+
 - **Deployment:** The process of delivering a software application to a live production environment where it can be accessed by users.
+
 - **Monitoring:** The continuous observation of a software application's operation and performance, often using specialized tools, to ensure it functions as expected and to identify issues as they arise.
+
 - **Code Review:** The process of examining written code by one or multiple developers with the purpose of finding bugs or errors, and improving the quality of the code.
+
 - **Continuous Integration (CI):** A development practice where developers integrate code into a shared repository frequently, preferably several times a day, to catch integration errors quickly.
+
 - **Continuous Delivery (CD):** A software development practice where code changes are automatically built, tested, and prepared for a release to production, enabling rapid and reliable software delivery.
+
 - **DevOps:** A set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the system development life cycle and provide continuous delivery with high software quality.
