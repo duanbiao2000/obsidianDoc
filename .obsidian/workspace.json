@@ -56,9 +56,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf14b3016f2c069d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240918000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/React.forwardRef.md"
+                "file": "+ Encounters/dailyNotes/20240918000000.md"
               }
             }
           },
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/React.forwardRef.md",
+                "file": "+ Encounters/dailyNotes/20240918000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/React.forwardRef.md",
+                "file": "+ Encounters/dailyNotes/20240918000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +231,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/React.forwardRef.md"
+                "file": "+ Encounters/dailyNotes/20240918000000.md"
               }
             }
           },
@@ -277,10 +290,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e3440ed1f441fe89",
+  "active": "bf14b3016f2c069d",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240918143911.md",
     "+ Encounters/dailyNotes/React.forwardRef.md",
+    "+ Encounters/dailyNotes/20240918143911.md",
     "+ Encounters/dailyNotes/Contentlayer.md",
     "+ Encounters/dailyNotes/Monitoring.md",
     "2. Areas/AI/LearnToCode.md",

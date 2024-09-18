@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240918000000",
+      "path": "+ Encounters/dailyNotes/20240918000000.md"
+    },
+    {
       "basename": "React.forwardRef",
       "path": "+ Encounters/dailyNotes/React.forwardRef.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "同步与异步应用场景",
       "path": "+ Encounters/dailyNotes/同步与异步应用场景.md"
-    },
-    {
-      "basename": "20240918000000",
-      "path": "+ Encounters/dailyNotes/20240918000000.md"
     },
     {
       "basename": "NestJS",
