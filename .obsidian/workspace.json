@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Contentlayer.md",
+                "file": "+ Encounters/dailyNotes/20240918143911.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Contentlayer.md"
+                "file": "+ Encounters/dailyNotes/20240918143911.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Contentlayer.md",
+                "file": "+ Encounters/dailyNotes/20240918143911.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Contentlayer.md",
+                "file": "+ Encounters/dailyNotes/20240918143911.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Contentlayer.md"
+                "file": "+ Encounters/dailyNotes/20240918143911.md"
               }
             }
           },
@@ -279,8 +279,9 @@
   },
   "active": "e3440ed1f441fe89",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Monitoring.md",
     "+ Encounters/dailyNotes/Contentlayer.md",
+    "+ Encounters/dailyNotes/20240918143911.md",
+    "+ Encounters/dailyNotes/Monitoring.md",
     "2. Areas/AI/LearnToCode.md",
     "Atlas/dataview/dataviews.md",
     "1. Projects/Autospace Workshop/项目总纲.md",
@@ -304,7 +305,6 @@
     "1. Projects/Autospace Workshop/扩展-NestJS项目架构图概览.md",
     "2. Areas/前端开发/NextJS/GraphQL.md",
     "1. Projects/Autospace Workshop/依赖注入.md",
-    "1. Projects/Autospace Workshop/Nx.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
