@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918000000.md",
+                "file": "2. Areas/AI/LearnToCode.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918000000.md"
+                "file": "2. Areas/AI/LearnToCode.md"
               }
             }
           },
@@ -224,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918000000.md",
+                "file": "2. Areas/AI/LearnToCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918000000.md",
+                "file": "2. Areas/AI/LearnToCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 484.5
+    "width": 322.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -283,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240918000000.md"
+                "file": "2. Areas/AI/LearnToCode.md"
               }
             }
           },
@@ -345,8 +345,9 @@
   },
   "active": "597e1a1df89a775c",
   "lastOpenFiles": [
-    "1. Projects/Autospace Workshop/libs目录结构.md",
     "+ Encounters/dailyNotes/20240918000000.md",
+    "2. Areas/AI/LearnToCode.md",
+    "1. Projects/Autospace Workshop/libs目录结构.md",
     "1. Projects/Autospace Workshop/NestJS.md",
     "1. Projects/Autospace Workshop/NestJS核心功能.md",
     "1. Projects/Autospace Workshop/Apollo Client.md",
@@ -371,7 +372,6 @@
     "+ Encounters/dailyNotes/20240916004329.md",
     "+ Encounters/dailyNotes/20240916003701.md",
     "+ Encounters/dailyNotes/20240804021056.md",
-    "2. Areas/01认知科学/像高手一样解决问题.md",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",

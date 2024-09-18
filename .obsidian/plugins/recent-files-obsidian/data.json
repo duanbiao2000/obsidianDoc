@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "LearnToCode",
+      "path": "2. Areas/AI/LearnToCode.md"
+    },
+    {
       "basename": "20240918000000",
       "path": "+ Encounters/dailyNotes/20240918000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240910170747",
       "path": "+ Encounters/dailyNotes/20240910170747.md"
-    },
-    {
-      "basename": "20240910152515",
-      "path": "+ Encounters/dailyNotes/20240910152515.md"
     }
   ],
   "omittedPaths": [
