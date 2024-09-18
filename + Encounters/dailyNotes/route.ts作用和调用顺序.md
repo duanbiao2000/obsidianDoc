@@ -4,7 +4,7 @@ theme:
 high_priority: false
 tags:
 ---
-### @route.ts 的执行调用顺序总结
+### @route.ts 的执行调用顺序
 
 1. **接收请求**
     
@@ -42,3 +42,19 @@ tags:
 10. **返回生成的图像 URL**
     
     - 将生成的图像 URL 作为响应返回。如果生成失败，则返回错误信息。
+
+## @route.ts 文件的作用
+
+app/predict/route.ts 文件定义了一个 Next.js API 路由，用于处理图像生成请求。它接收用户提供的参数，调用 Replicate API 生成图像，并返回生成的图像 URL。
+
+主要功能：
+
+- 速率限制: 使用 Upstash Redis 和 Ratelimit 库实现请求速率限制，防止滥用。
+
+- 图像生成: 接收用户请求，调用 Replicate API 生成图像。
+
+- 轮询和结果处理: 轮询 Replicate API 获取生成结果，并在生成完成后返回图像 URL。
+
+在项目中的作用:
+
+该文件是项目中图像生成功能的核心，负责处理用户请求并与 Replicate API 交互。它实现了速率限制以保护 API，并通过轮询机制确保返回最终生成的图像 URL。

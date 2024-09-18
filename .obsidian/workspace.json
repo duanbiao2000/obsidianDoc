@@ -84,25 +84,12 @@
             }
           },
           {
-            "id": "53e941264926cfb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/功能组件执行调用.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ebf12e872625d9d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/功能组件执行调用.md",
+                "file": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -201,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/功能组件执行调用.md"
+                "file": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md"
               }
             }
           },
@@ -211,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/功能组件执行调用.md",
+                "file": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/功能组件执行调用.md",
+                "file": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +257,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/功能组件执行调用.md"
+                "file": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md"
               }
             }
           },
@@ -329,10 +316,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "53e941264926cfb1",
+  "active": "ebf12e872625d9d0",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/Analytics.md",
-    "+ Encounters/dailyNotes/功能组件执行调用.md",
+    "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
     "+ Encounters/dailyNotes/ErrorBoundary.md",
     "+ Encounters/dailyNotes/20240918220350.md",
     "+ Encounters/dailyNotes/20240918215255.md",
