@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Jest",
+      "path": "+ Encounters/dailyNotes/Jest.md"
+    },
+    {
       "basename": "Mock Service Worker (MSW)",
       "path": "+ Encounters/dailyNotes/Mock Service Worker (MSW).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "敏捷和精益方法",
       "path": "2. Areas/01认知科学/敏捷和精益方法.md"
-    },
-    {
-      "basename": "20240625095452-弹幕单词记忆Claude开发",
-      "path": "1. Projects/20240625095452-弹幕单词记忆Claude开发.md"
     }
   ],
   "omittedPaths": [
