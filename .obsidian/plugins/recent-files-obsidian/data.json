@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240919000000",
+      "path": "+ Encounters/dailyNotes/20240919000000.md"
+    },
+    {
       "basename": "route.ts作用和调用顺序",
       "path": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240821000000",
       "path": "+ Encounters/dailyNotes/20240821000000.md"
-    },
-    {
-      "basename": "20240814125947",
-      "path": "+ Encounters/dailyNotes/20240814125947.md"
     }
   ],
   "omittedPaths": [
