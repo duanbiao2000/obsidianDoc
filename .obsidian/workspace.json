@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240920000000.md",
+                "file": "Extras/配置类/Docker镜像配置.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240920000000.md"
+                "file": "Extras/配置类/Docker镜像配置.md"
               }
             }
           },
@@ -224,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240920000000.md",
+                "file": "Extras/配置类/Docker镜像配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240920000000.md",
+                "file": "Extras/配置类/Docker镜像配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240920000000.md"
+                "file": "Extras/配置类/Docker镜像配置.md"
               }
             }
           },
@@ -344,8 +344,12 @@
   },
   "active": "a5470f739d1ffd12",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Jest.md",
     "+ Encounters/dailyNotes/20240920000000.md",
+    "Extras/配置类/Docker镜像配置.md",
+    "Extras/配置类",
+    "Extras/配置文件",
+    "Extras/New folder",
+    "+ Encounters/dailyNotes/Jest.md",
     "+ Encounters/dailyNotes/Mock Service Worker (MSW).md",
     "+ Encounters/dailyNotes/next-blog三方库.md",
     "+ Encounters/dailyNotes/20240919000000.md",
@@ -369,7 +373,6 @@
     "+ Encounters/dailyNotes/GraphQL.md",
     "+ Encounters/dailyNotes/TypeORM.md",
     "+ Encounters/dailyNotes/20240918120930.md",
-    "+ Encounters/dailyNotes/20240918120133.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
@@ -386,9 +389,6 @@
     "1. Projects/周月总结/202404/assets/img",
     "1. Projects/周月总结/202404/assets",
     "Atlas/new 3.txt",
-    "1. Projects/面试鸭刷题",
-    "2. Areas/LeetCode",
-    "6. Knowledge",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",
