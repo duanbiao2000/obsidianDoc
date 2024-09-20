@@ -27,5 +27,5 @@
   "livePreview": true,
   "showRibbon": false,
   "showInlineTitle": true,
-  "readableLineLength": true
+  "readableLineLength": false
 }

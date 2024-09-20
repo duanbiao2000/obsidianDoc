@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extras/配置类/Docker镜像配置.md",
+                "file": "+ Encounters/dailyNotes/20240920130118.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extras/配置类/Docker镜像配置.md"
+                "file": "+ Encounters/dailyNotes/20240920130118.md"
               }
             }
           },
@@ -224,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extras/配置类/Docker镜像配置.md",
+                "file": "+ Encounters/dailyNotes/20240920130118.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extras/配置类/Docker镜像配置.md",
+                "file": "+ Encounters/dailyNotes/20240920130118.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Extras/配置类/Docker镜像配置.md"
+                "file": "+ Encounters/dailyNotes/20240920130118.md"
               }
             }
           },
@@ -344,8 +344,9 @@
   },
   "active": "a5470f739d1ffd12",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20240920000000.md",
     "Extras/配置类/Docker镜像配置.md",
+    "+ Encounters/dailyNotes/20240920130118.md",
+    "+ Encounters/dailyNotes/20240920000000.md",
     "Extras/配置类",
     "Extras/配置文件",
     "Extras/New folder",
@@ -372,7 +373,6 @@
     "+ Encounters/dailyNotes/Repository.md",
     "+ Encounters/dailyNotes/GraphQL.md",
     "+ Encounters/dailyNotes/TypeORM.md",
-    "+ Encounters/dailyNotes/20240918120930.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
