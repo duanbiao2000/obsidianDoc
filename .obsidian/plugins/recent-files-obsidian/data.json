@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240920000000",
+      "path": "+ Encounters/dailyNotes/20240920000000.md"
+    },
+    {
       "basename": "Jest",
       "path": "+ Encounters/dailyNotes/Jest.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "[哈希集合",
       "path": "2. Areas/AI/算法/[哈希集合.md"
-    },
-    {
-      "basename": "敏捷和精益方法",
-      "path": "2. Areas/01认知科学/敏捷和精益方法.md"
     }
   ],
   "omittedPaths": [
