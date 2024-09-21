@@ -93,4 +93,42 @@ How to build or deploy expo React Native Apps to Google Play or Apple App Store 
 今天，在本视频中，我将向您展示如何从头开始构建一个 expo React Native 移动应用程序并将其部署到 Google Play Store 或 Apple App Store。在视频结束时，您将能够构建或部署任何 React Native expo 项目。
 https://github.com/duanbiao2000/Lms-Mobile-App
 
+==================================
+Scalable Chat App ,Socket.io ,Kafka ,Redis ,Postgres, Nextjs, Typescript
+可扩展的聊天应用程序，Socket.io，Kafka，Redis，Postgres，Nextjs，Typescript
+GitHub 存储库链接👇👇👇
+https://github.com/TusharVashishth/quick_chat
 
+在这个综合教程中，我们将深入探讨使用 Socket.io、Kafka、Redis、Postgres 和 Next.js 等强大技术构建可扩展的聊天应用程序。无论您是初学者还是经验丰富的开发人员，该视频都将指导您逐步完成整个过程，确保您了解高性能聊天应用程序背后的核心概念和架构。
+
+我们将介绍：
+- 使用 Next.js 和 Typescript 设置开发环境
+- 与Socket.io实现实时通信
+- 利用 Kafka 进行消息代理并确保数据完整性
+- 使用 Postgres 有效地存储和查询消息
+
+看完本视频后，您将拥有一个功能齐全的聊天应用程序，可以处理多个用户并轻松扩展。不要忘记点赞、订阅并按通知铃以获取有关 Web 开发和现代技术的更深入教程！
+
+加入我们这个激动人心的旅程，将您的编码技能提升到一个新的水平！
+
+#聊天应用程序 #SocketIO #卡夫卡 #Redis #Postgres #NextJS #打字稿 #Web开发 #RealTimeApps #nextjs #卡夫卡 #postgres #nodejs #expressjs
+
+
+时间戳
+0:00 - 简介
+项目演示 - 01:35
+项目设置 - 05:39
+登陆页面 - 15:16
+21:29 - 下一步身份验证设置
+27:34 - Google 登录设置
+34:31 - 登录模式
+39:01 - 下一步身份验证中的自定义类型
+45:27 - 数据库设置
+55:02 - 登录 API
+01:04:15 - 完成登录
+01:16:13 - 注销和中间件
+01:20:19 - 仪表板页面
+01:34:54 - 聊天组
+02:41:28 - Socket io 并扩展它
+03:47:50 - 聊天 UI 和 API
+04:33:00 - Kafka 扩展设置
