@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/migration.md",
+                "file": "+ Encounters/dailyNotes/Clerk身份验证.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/migration.md"
+                "file": "+ Encounters/dailyNotes/Clerk身份验证.md"
               }
             }
           },
@@ -224,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/migration.md",
+                "file": "+ Encounters/dailyNotes/Clerk身份验证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/migration.md",
+                "file": "+ Encounters/dailyNotes/Clerk身份验证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/migration.md"
+                "file": "+ Encounters/dailyNotes/Clerk身份验证.md"
               }
             }
           },
@@ -344,9 +344,10 @@
   },
   "active": "a5470f739d1ffd12",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/migration.md",
+    "+ Encounters/dailyNotes/Clerk身份验证.md",
     "Atlas/new 12.txt",
     "+ Encounters/dailyNotes/Jest.md",
-    "+ Encounters/dailyNotes/migration.md",
     "+ Encounters/dailyNotes/20240920130118.md",
     "Extras/配置类/Docker镜像配置.md",
     "+ Encounters/dailyNotes/20240920000000.md",
@@ -388,7 +389,6 @@
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
     "1. Projects/周月总结/202404/assets/img",
     "1. Projects/周月总结/202404/assets",
-    "Atlas/new 3.txt",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",

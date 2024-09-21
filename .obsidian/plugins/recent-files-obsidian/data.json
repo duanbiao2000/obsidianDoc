@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Clerk身份验证",
+      "path": "+ Encounters/dailyNotes/Clerk身份验证.md"
+    },
+    {
       "basename": "migration",
       "path": "+ Encounters/dailyNotes/migration.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240916004329",
       "path": "+ Encounters/dailyNotes/20240916004329.md"
-    },
-    {
-      "basename": "20240916003701",
-      "path": "+ Encounters/dailyNotes/20240916003701.md"
     }
   ],
   "omittedPaths": [
