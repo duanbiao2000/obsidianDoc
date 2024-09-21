@@ -5,16 +5,16 @@
       "path": "+ Encounters/dailyNotes/migration.md"
     },
     {
+      "basename": "Jest",
+      "path": "+ Encounters/dailyNotes/Jest.md"
+    },
+    {
       "basename": "20240920130118",
       "path": "+ Encounters/dailyNotes/20240920130118.md"
     },
     {
       "basename": "20240920000000",
       "path": "+ Encounters/dailyNotes/20240920000000.md"
-    },
-    {
-      "basename": "Jest",
-      "path": "+ Encounters/dailyNotes/Jest.md"
     },
     {
       "basename": "Mock Service Worker (MSW)",
