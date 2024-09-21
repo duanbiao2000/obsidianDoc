@@ -1,210 +1,1 @@
-
-Next.js 学校管理仪表板 UI 设计教程 | React Next.js 响应式管理仪表板
-
-Next.js School Management Dashboard UI Design Tutorial | React Next.js Responsive Admin Dashboard
-
-React Next.js admin dashboard project tutorial for beginners. School management app design with Next.js and Tailwind. Admin, teacher, student, and parent dashboards with responsive tables and animated charts.
-
-You are watching the first part of the project (The design part)
-Watch the second part (Full-stack school management app):    • Next.js Full-Stack School Management ...  
-
-If it is valuable to you, you can support Lama Dev.
-Join:    / @lamadev  
-Buy me a coffee: https://www.buymeacoffee.com/lamadev
-
-https://www.youtube.com/watch?v=myYlGLFxZas
-Source Code:
-Start here: https://github.com/safak/next-dashboard-ui/tree/starter
-Completed version: https://github.com/safak/next-dashboard-ui/tree/completed
-
-
-
-00:00简介
-02:38安装
-05:06 Next.js 15 页面和布局教程
-11:01 Next.js Tailwind 响应式布局
-18:10 Next.js Tailwind 响应式菜单设计
-23:01 Next.js Tailwind 响应式导航栏设计
-30:18 Next.js 管理仪表板设计
-39:40 Next.js 动画图表教程
-40:51 Next.js 带重新图表的径向图
-52:19 Next.js 动画条形图示例
-01:00:11 React Next.js 动画折线图示例
-01:05:54 React 日历教程
-01:10:36事件组件设计
-01:15:04公告组件设计
-01:20:10 Next.js 学生仪表板设计
-01:25:56 React Big Calendar（日程日历）教程
-01:43:01学校管理应用程序家长仪表板设计
-01:43:54 React/Next.js 带分页的列表表设计
-01:53:56 React/Next.js 响应式可重用列表
-02:11:20学校管理应用程序其他列表页面
-02:34:08学校管理应用单教师页面设计
-02:58:15学校管理应用程序单个学生页面设计
-03:00:17 Next.js 动态表单按钮（创建、更新、删除）
-03:09:12 React/Next.js 表单模态设计
-03:17:11 React Next.js 表单设计
-03:18:35 React-Hook-Form 教程
-03:19:35 React-Hook-Form 与 Zod 验证教程
-03:32:25带验证的 React/Next.js 表单输入
-03:47:48在 React 中有条件地渲染表单
-03:50:30 Next.js 使用dynamic() 延迟加载导入教程
-03:54:22尾声
-
-00:00 Introduction
-02:38 Installation
-05:06 Next.js 15 Pages and Layout Tutorial
-11:01 Next.js Tailwind Responsive Layout 
-18:10 Next.js Tailwind Responsive Menu Design
-23:01 Next.js Tailwind Responsive Navbar Design
-30:18 Next.js Admin Dashboard Design
-39:40 Next.js Animated Chart Tutorial 
-40:51 Next.js Radial Chart with Re-Charts
-52:19 Next.js Animated Bar Chart Example  
-01:00:11 React Next.js Animated Line Chart Example
-01:05:54 React Calendar Tutorial 
-01:10:36 Events Component Design 
-01:15:04 Announcement Component Design  
-01:20:10 Next.js Student Dashboard Design
-01:25:56 React Big Calendar (Schedule Calendar) Tutorial 
-01:43:01 School Management App Parent Dashboard Design   
-01:43:54 React/Next.js List Table Design with Pagination 
-01:53:56 React/Next.js Responsive Reusable List Table
-02:11:20 School Management App Other List Pages
-02:34:08 School Management App Single Teacher Page Design
-02:58:15 School Management App Single Student Page Design
-03:00:17 Next.js Dynamic Form Buttons (Create, Update, Delete)
-03:09:12 React/Next.js Form Modal Design 
-03:17:11 React Next.js Form Design 
-03:18:35 React-Hook-Form Tutorial 
-03:19:35 React-Hook-Form with Zod Validation Tutorial 
-03:32:25 React/Next.js Form Inputs with Validation
-03:47:48 Rendering Forms Conditionally in React   
-03:50:30 Next.js Lazy Loading Import Tutorial with dynamic()
-03:54:22 Outro
-
-========================================================
-
-Next.js 全栈学校管理应用程序完整教程 |基于角色的学校仪表板项目
-具有用户角色、prisma、PostgreSQL 的全栈学校管理仪表板应用程序。
-Next.js Full-Stack School Management App Full Tutorial | Role Based School Dashboard Project
-Full-Stack school admin dashboard app with user roles, prisma, PostgreSQL.
-
-https://www.youtube.com/watch?v=6sfiAyKy8Jo
-Clerk Authentication: https://go.clerk.com/OcOGkE8
-
-You are watching the second part (The Back-end)
-Watch the first part here:    • Next.js School Management Dashboard U...  
-
-Source Code: Coming in a couple of hours (Updating the files)
-
-00:00 Introduction
-05:00 Installation 
-06:28 School Management App Database Structure & Relationships
-13:00 Next.js Prisma Tutorial
-15:20 Prisma School Management App Database Tables & Relationships
-34:34 How to Install PostgreSQL on Docker
-39:20 How to Create Prisma Seed
-45:42 Next.js Prisma Data Fetching
-49:17 Next.js School App Fetching Teachers
-52:52 Next.js Prisma Pagination Tutorial
-01:08:00 Next.js How to Fetch Data with Query Params on the URL
-01:17:46 Next.js Search Filter (Fetch Data with Search Params on the URL)
-01:21:12 Fetch Students
-01:27:00 Fetch Parents
-01:30:08 Fetch Subject
-01:32:29 Fetch Class
-01:36:00 Prisma Nested Query (Include, Select, Where)
-01:42:16 Fetch Exams
-01:48:28 Fetch Assignments
-01:51:12 Fetch Exam Results
-02:03:00 Fetch Events
-02:06:14 Fetch Announcements
-02:08:25 Next.js Role Based Authentication Tutorial
-02:12:05 Next.js Clerk Role Based Auth Tutorial
-02:31:08 Next.js Protect Routes with User Role
-02:39:15 How to Fetch Data According to User Role in Nexj.js
-03:09:17 School App Admin Homepage Data
-03:11:25 Fetch Chart Data
-03:16:55 Fetch Attendance Chart Data
-03:27:37 React Next.js Even Calendar Component
-03:35:35 Fetch School Announcement
-03:42:05 School App Teacher Homepage Data
-03:42:51 Next.js Big Calendar Tutorial (Add a recurring schedule)
-04:01:45 Next.js Forms with react-hook-form and Z od Validation
-04:09:25 Next.js Server Actions with Prisma and Zod
-04:13:16 React Next.js useActionState (useFormState) Tutorial 
-04:17:21 Next.js Notifications with React Toastify Library
-04:24:42 Delete Table Items with Server Actions
-04:28:28 Next.js Form Fetch Select Options from the Database
-04:38:50 School Classes (Create/Update/Delete with Server Actions)
-04:48:56 School Teachers (Create/Update/Delete with Server Actions)
-04:58:42 Image Upload with Next.js Cloudinary Widget
-05:03:16 Creating Teacher
-05:11:44 School Dashboard Single Teacher Page
-05:22:25 School Dashboard Single Student Page
-05:31:51 School Students (Create/Update/Delete with Server Actions)
-05:47:23 Next.js Role Based Data Mutation (Protect Database)
-06:01:10 How to Deploy Next.js App with Prisma and Postgres using  Docker
-06:12:45 Outro
-
-
-00:00简介
-05:00安装
-06:28学校管理应用程序数据库结构和关系
-13:00 Next.js Prisma 教程
-15:20 Prisma 学校管理应用程序数据库表和关系
-34:34如何在 Docker 上安装 PostgreSQL
-39:20如何创建 Prisma 种子
-45:42 Next.js Prisma 数据获取
-49:17 Next.js 学校应用程序获取教师
-52:52 Next.js Prisma 分页教程
-01:08:00 Next.js 如何使用 URL 上的查询参数获取数据
-01:17:46 Next.js 搜索过滤器（通过 URL 上的搜索参数获取数据）
-01:21:12接学生
-01:27:00接父母
-01:30:08获取主题
-01:32:29获取类
-01:36:00 Prisma 嵌套查询（包括、选择、位置）
-01:42:16获取考试
-01:48:28获取作业
-01:51:12获取考试结果
-02:03:00获取事件
-02:06:14获取公告
-02:08:25 Next.js 基于角色的身份验证教程
-02:12:05 Next.js 基于职员角色的身份验证教程
-02:31:08 Next.js 使用用户角色保护路由
-02:39:15如何根据 Nexj.js 中的用户角色获取数据
-03:09:17学校应用程序管理主页数据
-03:11:25获取图表数据
-03:16:55获取考勤图表数据
-03:27:37 React Next.js 甚至日历组件
-03:35:35获取学校公告
-03:42:05学校App教师主页数据
-03:42:51 Next.js 大日历教程（添加定期计划）
-04:01:45 Next.js 带有react-hook-form 和 Z od 验证的表单
-04:09:25 Next.js 使用 Prisma 和 Zod 进行服务器操作
-04:13:16 React Next.js useActionState (useFormState) 教程
-04:17:21 Next.js 使用 React Toastify 库通知
-04:24:42使用服务器操作删除表项目
-04:28:28 Next.js 表单从数据库中获取选择选项
-04:38:50学校课程（使用服务器操作创建/更新/删除）
-04:48:56学校教师（使用服务器操作创建/更新/删除）
-04:58:42使用 Next.js Cloudinary 小部件上传图像
-05:03:16创建老师
-05:11:44学校仪表板单教师页面
-05:22:25学校仪表板单个学生页面
-05:31:51学生（使用服务器操作创建/更新/删除）
-05:47:23 Next.js 基于角色的数据突变（保护数据库）
-06:01:10如何使用 Docker 与 Prisma 和 Postgres 一起部署 Next.js 应用程序
-06:12:45尾声
-
-
-
-
-
-
-
-
-
-=========================================
+Next.js 学校管理仪表板 UI 设计教程 | React Next.js 响应式管理仪表板Next.js School Management Dashboard UI Design Tutorial | React Next.js Responsive Admin DashboardReact Next.js admin dashboard project tutorial for beginners. School management app design with Next.js and Tailwind. Admin, teacher, student, and parent dashboards with responsive tables and animated charts.You are watching the first part of the project (The design part)Watch the second part (Full-stack school management app):    • Next.js Full-Stack School Management ...  If it is valuable to you, you can support Lama Dev.Join:    / @lamadev  Buy me a coffee: https://www.buymeacoffee.com/lamadevhttps://www.youtube.com/watch?v=myYlGLFxZasSource Code:Start here: https://github.com/safak/next-dashboard-ui/tree/starterCompleted version: https://github.com/safak/next-dashboard-ui/tree/completed00:00简介02:38安装05:06 Next.js 15 页面和布局教程11:01 Next.js Tailwind 响应式布局18:10 Next.js Tailwind 响应式菜单设计23:01 Next.js Tailwind 响应式导航栏设计30:18 Next.js 管理仪表板设计39:40 Next.js 动画图表教程40:51 Next.js 带重新图表的径向图52:19 Next.js 动画条形图示例01:00:11 React Next.js 动画折线图示例01:05:54 React 日历教程01:10:36事件组件设计01:15:04公告组件设计01:20:10 Next.js 学生仪表板设计01:25:56 React Big Calendar（日程日历）教程01:43:01学校管理应用程序家长仪表板设计01:43:54 React/Next.js 带分页的列表表设计01:53:56 React/Next.js 响应式可重用列表02:11:20学校管理应用程序其他列表页面02:34:08学校管理应用单教师页面设计02:58:15学校管理应用程序单个学生页面设计03:00:17 Next.js 动态表单按钮（创建、更新、删除）03:09:12 React/Next.js 表单模态设计03:17:11 React Next.js 表单设计03:18:35 React-Hook-Form 教程03:19:35 React-Hook-Form 与 Zod 验证教程03:32:25带验证的 React/Next.js 表单输入03:47:48在 React 中有条件地渲染表单03:50:30 Next.js 使用dynamic() 延迟加载导入教程03:54:22尾声00:00 Introduction02:38 Installation05:06 Next.js 15 Pages and Layout Tutorial11:01 Next.js Tailwind Responsive Layout 18:10 Next.js Tailwind Responsive Menu Design23:01 Next.js Tailwind Responsive Navbar Design30:18 Next.js Admin Dashboard Design39:40 Next.js Animated Chart Tutorial 40:51 Next.js Radial Chart with Re-Charts52:19 Next.js Animated Bar Chart Example  01:00:11 React Next.js Animated Line Chart Example01:05:54 React Calendar Tutorial 01:10:36 Events Component Design 01:15:04 Announcement Component Design  01:20:10 Next.js Student Dashboard Design01:25:56 React Big Calendar (Schedule Calendar) Tutorial 01:43:01 School Management App Parent Dashboard Design   01:43:54 React/Next.js List Table Design with Pagination 01:53:56 React/Next.js Responsive Reusable List Table02:11:20 School Management App Other List Pages02:34:08 School Management App Single Teacher Page Design02:58:15 School Management App Single Student Page Design03:00:17 Next.js Dynamic Form Buttons (Create, Update, Delete)03:09:12 React/Next.js Form Modal Design 03:17:11 React Next.js Form Design 03:18:35 React-Hook-Form Tutorial 03:19:35 React-Hook-Form with Zod Validation Tutorial 03:32:25 React/Next.js Form Inputs with Validation03:47:48 Rendering Forms Conditionally in React   03:50:30 Next.js Lazy Loading Import Tutorial with dynamic()03:54:22 Outro========================================================Next.js 全栈学校管理应用程序完整教程 |基于角色的学校仪表板项目具有用户角色、prisma、PostgreSQL 的全栈学校管理仪表板应用程序。Next.js Full-Stack School Management App Full Tutorial | Role Based School Dashboard ProjectFull-Stack school admin dashboard app with user roles, prisma, PostgreSQL.https://www.youtube.com/watch?v=6sfiAyKy8JoClerk Authentication: https://go.clerk.com/OcOGkE8You are watching the second part (The Back-end)Watch the first part here:    • Next.js School Management Dashboard U...  Source Code: Coming in a couple of hours (Updating the files)00:00 Introduction05:00 Installation 06:28 School Management App Database Structure & Relationships13:00 Next.js Prisma Tutorial15:20 Prisma School Management App Database Tables & Relationships34:34 How to Install PostgreSQL on Docker39:20 How to Create Prisma Seed45:42 Next.js Prisma Data Fetching49:17 Next.js School App Fetching Teachers52:52 Next.js Prisma Pagination Tutorial01:08:00 Next.js How to Fetch Data with Query Params on the URL01:17:46 Next.js Search Filter (Fetch Data with Search Params on the URL)01:21:12 Fetch Students01:27:00 Fetch Parents01:30:08 Fetch Subject01:32:29 Fetch Class01:36:00 Prisma Nested Query (Include, Select, Where)01:42:16 Fetch Exams01:48:28 Fetch Assignments01:51:12 Fetch Exam Results02:03:00 Fetch Events02:06:14 Fetch Announcements02:08:25 Next.js Role Based Authentication Tutorial02:12:05 Next.js Clerk Role Based Auth Tutorial02:31:08 Next.js Protect Routes with User Role02:39:15 How to Fetch Data According to User Role in Nexj.js03:09:17 School App Admin Homepage Data03:11:25 Fetch Chart Data03:16:55 Fetch Attendance Chart Data03:27:37 React Next.js Even Calendar Component03:35:35 Fetch School Announcement03:42:05 School App Teacher Homepage Data03:42:51 Next.js Big Calendar Tutorial (Add a recurring schedule)04:01:45 Next.js Forms with react-hook-form and Z od Validation04:09:25 Next.js Server Actions with Prisma and Zod04:13:16 React Next.js useActionState (useFormState) Tutorial 04:17:21 Next.js Notifications with React Toastify Library04:24:42 Delete Table Items with Server Actions04:28:28 Next.js Form Fetch Select Options from the Database04:38:50 School Classes (Create/Update/Delete with Server Actions)04:48:56 School Teachers (Create/Update/Delete with Server Actions)04:58:42 Image Upload with Next.js Cloudinary Widget05:03:16 Creating Teacher05:11:44 School Dashboard Single Teacher Page05:22:25 School Dashboard Single Student Page05:31:51 School Students (Create/Update/Delete with Server Actions)05:47:23 Next.js Role Based Data Mutation (Protect Database)06:01:10 How to Deploy Next.js App with Prisma and Postgres using  Docker06:12:45 Outro00:00简介05:00安装06:28学校管理应用程序数据库结构和关系13:00 Next.js Prisma 教程15:20 Prisma 学校管理应用程序数据库表和关系34:34如何在 Docker 上安装 PostgreSQL39:20如何创建 Prisma 种子45:42 Next.js Prisma 数据获取49:17 Next.js 学校应用程序获取教师52:52 Next.js Prisma 分页教程01:08:00 Next.js 如何使用 URL 上的查询参数获取数据01:17:46 Next.js 搜索过滤器（通过 URL 上的搜索参数获取数据）01:21:12接学生01:27:00接父母01:30:08获取主题01:32:29获取类01:36:00 Prisma 嵌套查询（包括、选择、位置）01:42:16获取考试01:48:28获取作业01:51:12获取考试结果02:03:00获取事件02:06:14获取公告02:08:25 Next.js 基于角色的身份验证教程02:12:05 Next.js 基于职员角色的身份验证教程02:31:08 Next.js 使用用户角色保护路由02:39:15如何根据 Nexj.js 中的用户角色获取数据03:09:17学校应用程序管理主页数据03:11:25获取图表数据03:16:55获取考勤图表数据03:27:37 React Next.js 甚至日历组件03:35:35获取学校公告03:42:05学校App教师主页数据03:42:51 Next.js 大日历教程（添加定期计划）04:01:45 Next.js 带有react-hook-form 和 Z od 验证的表单04:09:25 Next.js 使用 Prisma 和 Zod 进行服务器操作04:13:16 React Next.js useActionState (useFormState) 教程04:17:21 Next.js 使用 React Toastify 库通知04:24:42使用服务器操作删除表项目04:28:28 Next.js 表单从数据库中获取选择选项04:38:50学校课程（使用服务器操作创建/更新/删除）04:48:56学校教师（使用服务器操作创建/更新/删除）04:58:42使用 Next.js Cloudinary 小部件上传图像05:03:16创建老师05:11:44学校仪表板单教师页面05:22:25学校仪表板单个学生页面05:31:51学生（使用服务器操作创建/更新/删除）05:47:23 Next.js 基于角色的数据突变（保护数据库）06:01:10如何使用 Docker 与 Prisma 和 Postgres 一起部署 Next.js 应用程序06:12:45尾声=========================================
