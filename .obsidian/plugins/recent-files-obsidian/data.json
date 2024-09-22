@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "multer 处理文件上传",
+      "path": "+ Encounters/dailyNotes/multer 处理文件上传.md"
+    },
+    {
       "basename": "20240922000000",
       "path": "+ Encounters/dailyNotes/20240922000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "使用 OpenAI 的 API 来生成文件的摘要",
       "path": "2. Areas/AI/使用 OpenAI 的 API 来生成文件的摘要.md"
-    },
-    {
-      "basename": "20240916000000",
-      "path": "+ Encounters/dailyNotes/20240916000000.md"
     }
   ],
   "omittedPaths": [
