@@ -121,9 +121,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "14ffc179238fa9ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240922000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -214,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Clerk身份验证.md"
+                "file": "+ Encounters/dailyNotes/20240922000000.md"
               }
             }
           },
@@ -224,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Clerk身份验证.md",
+                "file": "+ Encounters/dailyNotes/20240922000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Clerk身份验证.md",
+                "file": "+ Encounters/dailyNotes/20240922000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +296,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Clerk身份验证.md"
+                "file": "+ Encounters/dailyNotes/20240922000000.md"
               }
             }
           },
@@ -342,10 +355,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a5470f739d1ffd12",
+  "active": "14ffc179238fa9ac",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/migration.md",
     "+ Encounters/dailyNotes/Clerk身份验证.md",
+    "+ Encounters/dailyNotes/20240922000000.md",
+    "+ Encounters/dailyNotes/migration.md",
     "Atlas/new 12.txt",
     "+ Encounters/dailyNotes/Jest.md",
     "+ Encounters/dailyNotes/20240920130118.md",
@@ -373,7 +387,6 @@
     "1. Projects/Autospace Workshop/项目总纲.md",
     "1. Projects/Autospace Workshop/libs目录结构.md",
     "+ Encounters/dailyNotes/20240918122656.md",
-    "+ Encounters/dailyNotes/Repository.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
