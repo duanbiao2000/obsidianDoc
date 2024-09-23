@@ -58,129 +58,12 @@
             }
           },
           {
-            "id": "bf14b3016f2c069d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20240918000000.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95efaa12e3e06c6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Analytics.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebf12e872625d9d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25b9d9456243ca62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Jest.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5470f739d1ffd12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Clerk身份验证.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14ffc179238fa9ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/multer 处理文件上传.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2ace5c59c00c111c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b24fc3374703abf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "@react-oauth/react-oauth-google.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f2d5b21c7f68b4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Firebase.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a86f2b0533dc7751",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/morgan.md",
+                "file": "1. Projects/运动健身.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -188,7 +71,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -279,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Firebase.md"
+                "file": "1. Projects/运动健身.md"
               }
             }
           },
@@ -289,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Firebase.md",
+                "file": "1. Projects/运动健身.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Firebase.md",
+                "file": "1. Projects/运动健身.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -348,7 +231,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Firebase.md"
+                "file": "1. Projects/运动健身.md"
               }
             }
           },
@@ -378,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -407,22 +290,28 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7f2d5b21c7f68b4d",
+  "active": "2ace5c59c00c111c",
   "lastOpenFiles": [
+    "1. Projects/弹幕单词Claude.md",
+    "+ Encounters/dailyNotes/@admin, @server, @client.md",
+    "1. Projects/20240626221449-markdown转为微信公众号.md",
     "@react-oauth/react-oauth-google.md",
+    "+ Encounters/dailyNotes/React.forwardRef.md",
+    "+ Encounters/dailyNotes/20240918000000.md",
+    "+ Encounters/dailyNotes/Analytics.md",
+    "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
+    "+ Encounters/dailyNotes/Jest.md",
+    "+ Encounters/dailyNotes/Clerk身份验证.md",
+    "+ Encounters/dailyNotes/multer 处理文件上传.md",
+    "+ Encounters/dailyNotes/Firebase.md",
     "@react-oauth/Sonner.md",
     "@react-oauth/Zustand.md",
     "@react-oauth/markdown-to-jsx.md",
-    "+ Encounters/dailyNotes/@admin, @server, @client.md",
     "@react-oauth",
-    "+ Encounters/dailyNotes/Firebase.md",
     "+ Encounters/dailyNotes/morgan.md",
-    "+ Encounters/dailyNotes/multer 处理文件上传.md",
     "+ Encounters/dailyNotes/20240922000000.md",
-    "+ Encounters/dailyNotes/Clerk身份验证.md",
     "+ Encounters/dailyNotes/migration.md",
     "Atlas/new 12.txt",
-    "+ Encounters/dailyNotes/Jest.md",
     "+ Encounters/dailyNotes/20240920130118.md",
     "Extras/配置类/Docker镜像配置.md",
     "+ Encounters/dailyNotes/20240920000000.md",
@@ -432,14 +321,8 @@
     "+ Encounters/dailyNotes/Mock Service Worker (MSW).md",
     "+ Encounters/dailyNotes/next-blog三方库.md",
     "+ Encounters/dailyNotes/20240919000000.md",
-    "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
-    "+ Encounters/dailyNotes/Analytics.md",
     "+ Encounters/dailyNotes/ErrorBoundary.md",
     "+ Encounters/dailyNotes/20240918220350.md",
-    "+ Encounters/dailyNotes/20240918215255.md",
-    "+ Encounters/dailyNotes/20240918120102.md",
-    "+ Encounters/dailyNotes/20240918000000.md",
-    "+ Encounters/dailyNotes/React.forwardRef.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",

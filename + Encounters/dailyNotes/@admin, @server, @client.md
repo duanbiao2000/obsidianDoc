@@ -25,13 +25,13 @@ tags:
     * 用户管理
     * 文章管理
     * 数据统计和分析
-* **技术栈:** React, Mantine UI, React Router, TanStack Query, Axios, Recharts, [[Firebase]].
+* **技术栈:** React, Mantine UI, React Router, [[TanStack Query]], Axios, Recharts, [[Firebase]].
 * **文件示例:** `admin/src/pages/Content.jsx`, `admin/package.json`, `admin/src/index.js`, `admin/public/index.html`, `admin/src/index.css`
 
 **3. @client (客户端):**
 
 * **职能:**  面向普通用户的网站前端界面，用户可以浏览文章、评论等。
-* **技术栈:** React, React Router, Axios, Zustand, React Icons, Sonner,  markdown-to-jsx,  firebase, [[@react-oauth/google]].
+* **技术栈:** React, React Router, Axios, Zustand, React Icons, [[Sonner]],  markdown-to-jsx,  [[Firebase|firebase]], [[react-oauth-google|@react-oauth/google]].
 * **文件示例:** `client/src/index.css`, `client/src/components/index.js`, `client/src/App.js`, `client/public/index.html`, `client/package.json`
 
 **关系:**

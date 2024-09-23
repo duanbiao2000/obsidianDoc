@@ -1,44 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Firebase",
-      "path": "+ Encounters/dailyNotes/Firebase.md"
+      "basename": "运动健身",
+      "path": "1. Projects/运动健身.md"
     },
     {
-      "basename": "react-oauth-google",
-      "path": "@react-oauth/react-oauth-google.md"
-    },
-    {
-      "basename": "Sonner",
-      "path": "@react-oauth/Sonner.md"
+      "basename": "弹幕单词Claude",
+      "path": "1. Projects/弹幕单词Claude.md"
     },
     {
       "basename": "@admin, @server, @client",
       "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
     },
     {
-      "basename": "morgan",
-      "path": "+ Encounters/dailyNotes/morgan.md"
+      "basename": "React.forwardRef",
+      "path": "+ Encounters/dailyNotes/React.forwardRef.md"
     },
     {
-      "basename": "multer 处理文件上传",
-      "path": "+ Encounters/dailyNotes/multer 处理文件上传.md"
+      "basename": "Analytics",
+      "path": "+ Encounters/dailyNotes/Analytics.md"
     },
     {
-      "basename": "20240922000000",
-      "path": "+ Encounters/dailyNotes/20240922000000.md"
+      "basename": "route.ts作用和调用顺序",
+      "path": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md"
+    },
+    {
+      "basename": "Jest",
+      "path": "+ Encounters/dailyNotes/Jest.md"
     },
     {
       "basename": "Clerk身份验证",
       "path": "+ Encounters/dailyNotes/Clerk身份验证.md"
     },
     {
-      "basename": "migration",
-      "path": "+ Encounters/dailyNotes/migration.md"
+      "basename": "multer 处理文件上传",
+      "path": "+ Encounters/dailyNotes/multer 处理文件上传.md"
     },
     {
-      "basename": "Jest",
-      "path": "+ Encounters/dailyNotes/Jest.md"
+      "basename": "Firebase",
+      "path": "+ Encounters/dailyNotes/Firebase.md"
+    },
+    {
+      "basename": "Sonner",
+      "path": "@react-oauth/Sonner.md"
+    },
+    {
+      "basename": "morgan",
+      "path": "+ Encounters/dailyNotes/morgan.md"
+    },
+    {
+      "basename": "20240922000000",
+      "path": "+ Encounters/dailyNotes/20240922000000.md"
+    },
+    {
+      "basename": "migration",
+      "path": "+ Encounters/dailyNotes/migration.md"
     },
     {
       "basename": "20240920130118",
@@ -61,14 +77,6 @@
       "path": "+ Encounters/dailyNotes/20240919000000.md"
     },
     {
-      "basename": "route.ts作用和调用顺序",
-      "path": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md"
-    },
-    {
-      "basename": "Analytics",
-      "path": "+ Encounters/dailyNotes/Analytics.md"
-    },
-    {
       "basename": "ErrorBoundary",
       "path": "+ Encounters/dailyNotes/ErrorBoundary.md"
     },
@@ -83,14 +91,6 @@
     {
       "basename": "20240918120102",
       "path": "+ Encounters/dailyNotes/20240918120102.md"
-    },
-    {
-      "basename": "20240918000000",
-      "path": "+ Encounters/dailyNotes/20240918000000.md"
-    },
-    {
-      "basename": "React.forwardRef",
-      "path": "+ Encounters/dailyNotes/React.forwardRef.md"
     },
     {
       "basename": "20240918143911",
@@ -195,10 +195,6 @@
     {
       "basename": "Mapbox GL JS",
       "path": "1. Projects/Autospace Workshop/Mapbox GL JS.md"
-    },
-    {
-      "basename": "运动健身",
-      "path": "1. Projects/运动健身.md"
     }
   ],
   "omittedPaths": [

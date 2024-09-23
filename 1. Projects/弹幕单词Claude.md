@@ -9,7 +9,6 @@ created_date:
 type: 
 high priority: false
 ---
-您遇到的这个错误是由于安全限制导致的，无法在当前环境中访问 localStorage。这通常发生在一些沙盒环境或者特定的安全设置下。为了解决这个问题，我们可以采取以下几种方法：
 
 1. 使用内存存储替代 localStorage
 2. 在本地环境中运行项目
