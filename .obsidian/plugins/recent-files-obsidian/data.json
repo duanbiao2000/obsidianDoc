@@ -1,16 +1,100 @@
 {
   "recentFiles": [
     {
+      "basename": "@admin, @server, @client",
+      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+    },
+    {
+      "basename": "20240922000000",
+      "path": "+ Encounters/dailyNotes/20240922000000.md"
+    },
+    {
+      "basename": "Apollo Client",
+      "path": "1. Projects/Autospace Workshop/Apollo Client.md"
+    },
+    {
+      "basename": "Spring Core与Spring MVC",
+      "path": "2. Areas/BackEnd/Java/Spring/Spring Core与Spring MVC.md"
+    },
+    {
+      "basename": "Spring注解",
+      "path": "2. Areas/BackEnd/Java/Spring/Spring注解.md"
+    },
+    {
+      "basename": "IMG-Spring Boot-20240714124655322",
+      "path": "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png"
+    },
+    {
+      "basename": "Spring全家桶",
+      "path": "1. Projects/周月总结/Spring全家桶.md"
+    },
+    {
+      "basename": "Spring AOP",
+      "path": "1. Projects/周月总结/Spring AOP.md"
+    },
+    {
+      "basename": "202312",
+      "path": "1. Projects/周月总结/202312.md"
+    },
+    {
+      "basename": "顶尖团队特质",
+      "path": "1. Projects/周月总结/202405/顶尖团队特质.md"
+    },
+    {
+      "basename": "天命人日记",
+      "path": "+ Encounters/天命人日记.md"
+    },
+    {
+      "basename": "蔡康永的說話之道",
+      "path": "1. Projects/周月总结/202405/蔡康永的說話之道.md"
+    },
+    {
+      "basename": "漏斗笔记法",
+      "path": "1. Projects/周月总结/202405/漏斗笔记法.md"
+    },
+    {
+      "basename": "盖洛普书单",
+      "path": "1. Projects/周月总结/202405/盖洛普书单.md"
+    },
+    {
+      "basename": "指数型组织",
+      "path": "1. Projects/周月总结/202405/指数型组织.md"
+    },
+    {
+      "basename": "GitHub中文排行榜",
+      "path": "1. Projects/周月总结/GitHub中文排行榜.md"
+    },
+    {
+      "basename": "道德批判",
+      "path": "1. Projects/周月总结/道德批判.md"
+    },
+    {
+      "basename": "说话之道",
+      "path": "1. Projects/周月总结/说话之道.md"
+    },
+    {
+      "basename": "MECE原则爬虫",
+      "path": "1. Projects/周月总结/MECE原则爬虫.md"
+    },
+    {
+      "basename": "思维模型",
+      "path": "1. Projects/周月总结/思维模型.md"
+    },
+    {
+      "basename": "一线城市思维",
+      "path": "1. Projects/周月总结/一线城市思维.md"
+    },
+    {
+      "basename": "OKR",
+      "path": "1. Projects/周月总结/OKR.md"
+    },
+    {
       "basename": "运动健身",
       "path": "1. Projects/运动健身.md"
     },
     {
       "basename": "弹幕单词Claude",
       "path": "1. Projects/弹幕单词Claude.md"
-    },
-    {
-      "basename": "@admin, @server, @client",
-      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
     },
     {
       "basename": "React.forwardRef",
@@ -47,10 +131,6 @@
     {
       "basename": "morgan",
       "path": "+ Encounters/dailyNotes/morgan.md"
-    },
-    {
-      "basename": "20240922000000",
-      "path": "+ Encounters/dailyNotes/20240922000000.md"
     },
     {
       "basename": "migration",
@@ -119,82 +199,6 @@
     {
       "basename": "libs目录结构",
       "path": "1. Projects/Autospace Workshop/libs目录结构.md"
-    },
-    {
-      "basename": "20240918122656",
-      "path": "+ Encounters/dailyNotes/20240918122656.md"
-    },
-    {
-      "basename": "Repository",
-      "path": "+ Encounters/dailyNotes/Repository.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "+ Encounters/dailyNotes/GraphQL.md"
-    },
-    {
-      "basename": "TypeORM",
-      "path": "+ Encounters/dailyNotes/TypeORM.md"
-    },
-    {
-      "basename": "20240918120930",
-      "path": "+ Encounters/dailyNotes/20240918120930.md"
-    },
-    {
-      "basename": "20240918120133",
-      "path": "+ Encounters/dailyNotes/20240918120133.md"
-    },
-    {
-      "basename": "同步与异步应用场景",
-      "path": "+ Encounters/dailyNotes/同步与异步应用场景.md"
-    },
-    {
-      "basename": "NestJS",
-      "path": "1. Projects/Autospace Workshop/NestJS.md"
-    },
-    {
-      "basename": "NestJS核心功能",
-      "path": "1. Projects/Autospace Workshop/NestJS核心功能.md"
-    },
-    {
-      "basename": "Apollo Client",
-      "path": "1. Projects/Autospace Workshop/Apollo Client.md"
-    },
-    {
-      "basename": "使用 Docker 容器化数据库",
-      "path": "1. Projects/Autospace Workshop/使用 Docker 容器化数据库.md"
-    },
-    {
-      "basename": "Docker Compose",
-      "path": "1. Projects/Autospace Workshop/Docker Compose.md"
-    },
-    {
-      "basename": "核心后端应用",
-      "path": "1. Projects/Autospace Workshop/核心后端应用.md"
-    },
-    {
-      "basename": "GraphQL关系梳理",
-      "path": "1. Projects/Autospace Workshop/GraphQL关系梳理.md"
-    },
-    {
-      "basename": "扩展-NestJS项目架构图概览",
-      "path": "1. Projects/Autospace Workshop/扩展-NestJS项目架构图概览.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "2. Areas/前端开发/NextJS/GraphQL.md"
-    },
-    {
-      "basename": "依赖注入",
-      "path": "1. Projects/Autospace Workshop/依赖注入.md"
-    },
-    {
-      "basename": "Nx",
-      "path": "1. Projects/Autospace Workshop/Nx.md"
-    },
-    {
-      "basename": "Mapbox GL JS",
-      "path": "1. Projects/Autospace Workshop/Mapbox GL JS.md"
     }
   ],
   "omittedPaths": [

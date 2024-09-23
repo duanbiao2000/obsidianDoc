@@ -1,38 +1,3 @@
-# 宇多田光
-![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240427232623.png)
-
-
-1. **もしも願い一つだけ 叶うなら**  
-   *もしもねがいひとつだけ かなうなら*
-   カタカナ：もしもねがいヒトツだけ かなうなら
-   罗马音：*mo shi mo ne ga i hi to tsu da ke ka na u na ra*
-   意为：如果只能实现一个愿望，如果能成真的话。
-
-2. **君の侧で眠らせて**  
-   *きみのそばでねむらせて*
-   カタカナ：キミノソバデネムラセテ
-   罗马音：*ki mi no so ba de ne mu ra se te*
-   意为：让我睡在你的身边。
-
-3. **ビューティフルワールド (Beautiful World)**  
-   カタカナ：ビューティフルワールド
-   罗马音：ビーユティフルワールド (Bītī furu wārudo)
-   意为：美丽的世界。
-
-4. **ビューティフルボーイ (Beautiful Boy)**  
-   カタカナ：ビューティフルボーイ
-   罗马音：ビーユティフルボーイ (Bītī furu bōī)
-   意为：美丽的男孩。
-
-5. **自分の美しさまだ知らないの**  
-   *じぶんのうつくしさまだしらないの*
-   カタカナ：ジブンノウツクシサマダシラナイノ
-   罗马音：*ji bun no u tsu ku shi sa ma da shi ra na i no*
-   意为：你还没有意识到自己的美丽。
-
-[]https://www.bilibili.com/video/BV1Bp4y1D747?p=5&vd_source=7038f96b6bb3b14743531b102b109c43
-
-
 # MECE原则
 使用MECE原则学习Python爬虫可以按照以下步骤进行问题分解：
 

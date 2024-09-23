@@ -63,7 +63,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/运动健身.md",
+                "file": "1. Projects/周月总结/说话之道.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ed67fe0d127414d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/周月总结/202312.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de911cf2309b0df7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/周月总结/Spring全家桶.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "637cb5456cf99a57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/BackEnd/Java/Spring/Spring注解.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7156adc7cea16609",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -149,7 +201,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "8f46a0033c43bfb9",
@@ -162,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/运动健身.md"
+                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md"
               }
             }
           },
@@ -172,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/运动健身.md",
+                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/运动健身.md",
+                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +284,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1. Projects/运动健身.md"
+                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md"
               }
             }
           },
@@ -290,39 +343,40 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2ace5c59c00c111c",
+  "active": "7156adc7cea16609",
   "lastOpenFiles": [
-    "1. Projects/弹幕单词Claude.md",
-    "+ Encounters/dailyNotes/@admin, @server, @client.md",
-    "1. Projects/20240626221449-markdown转为微信公众号.md",
-    "@react-oauth/react-oauth-google.md",
-    "+ Encounters/dailyNotes/React.forwardRef.md",
-    "+ Encounters/dailyNotes/20240918000000.md",
-    "+ Encounters/dailyNotes/Analytics.md",
-    "+ Encounters/dailyNotes/route.ts作用和调用顺序.md",
-    "+ Encounters/dailyNotes/Jest.md",
-    "+ Encounters/dailyNotes/Clerk身份验证.md",
-    "+ Encounters/dailyNotes/multer 处理文件上传.md",
-    "+ Encounters/dailyNotes/Firebase.md",
-    "@react-oauth/Sonner.md",
-    "@react-oauth/Zustand.md",
-    "@react-oauth/markdown-to-jsx.md",
-    "@react-oauth",
-    "+ Encounters/dailyNotes/morgan.md",
     "+ Encounters/dailyNotes/20240922000000.md",
-    "+ Encounters/dailyNotes/migration.md",
+    "1. Projects/Autospace Workshop/Apollo Client.md",
+    "2. Areas/BackEnd/Java/Spring/Spring Core与Spring MVC.md",
+    "2. Areas/BackEnd/Java/Spring/Spring MVC.md",
+    "2. Areas/BackEnd/Java/Spring/Spring注解.md",
+    "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
+    "1. Projects/周月总结/Spring全家桶.md",
+    "1. Projects/周月总结/Spring核心模块.md",
+    "1. Projects/周月总结/Spring AOP.md",
+    "1. Projects/周月总结/202312.md",
+    "Extras/textgenerator/prompts/awesomePrompts/MyBatis.md",
+    "1. Projects/周月总结/202405/顶尖团队特质.md",
+    "+ Encounters/天命人日记.md",
+    "+ Encounters/月报回顾.md",
+    "1. Projects/周月总结/202405/蔡康永的說話之道.md",
+    "1. Projects/周月总结/202405/漏斗笔记法.md",
+    "1. Projects/周月总结/202405/盖洛普书单.md",
+    "1. Projects/周月总结/202405/指数型组织.md",
+    "1. Projects/周月总结/GitHub中文排行榜.md",
+    "1. Projects/周月总结/202405/Coze初学.md",
+    "1. Projects/周月总结/道德批判.md",
+    "1. Projects/周月总结/说话之道.md",
+    "1. Projects/周月总结/MECE原则爬虫.md",
+    "1. Projects/周月总结/思维模型.md",
+    "1. Projects/周月总结/个人IP.md",
+    "1. Projects/周月总结/一线城市思维.md",
+    "1. Projects/周月总结/OKR.md",
+    "@react-oauth",
     "Atlas/new 12.txt",
-    "+ Encounters/dailyNotes/20240920130118.md",
-    "Extras/配置类/Docker镜像配置.md",
-    "+ Encounters/dailyNotes/20240920000000.md",
     "Extras/配置类",
     "Extras/配置文件",
     "Extras/New folder",
-    "+ Encounters/dailyNotes/Mock Service Worker (MSW).md",
-    "+ Encounters/dailyNotes/next-blog三方库.md",
-    "+ Encounters/dailyNotes/20240919000000.md",
-    "+ Encounters/dailyNotes/ErrorBoundary.md",
-    "+ Encounters/dailyNotes/20240918220350.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
@@ -337,7 +391,6 @@
     "1. Projects/周月总结/202404/assets/img/每日新知",
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
     "1. Projects/周月总结/202404/assets/img",
-    "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",
     "5. Misc/Attachments/images/Untitled.canvas"

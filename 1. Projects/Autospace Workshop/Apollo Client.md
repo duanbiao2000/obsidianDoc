@@ -7,7 +7,7 @@ tags:
 
 ## Apollo Client
 
-使用 Apollo Client 与后端 API 交互是一个常见的方式，尤其是在前端应用中使用 GraphQL 作为数据获取协议时。Apollo Client 是一个全面的 JavaScript 客户端工具，支持 GraphQL 的所有功能，并且可以很好地与 React、Angular、Vue 等前端框架集成。
+使用 Apollo Client 与后端 API 交互是一个常见的方式，尤其是在前端应用中使用 GraphQL 作为数据获取协议时。Apollo Client 是一个全面的 JavaScript 客户端工具，支持 GraphQL 的所有功能，并且可以很好地与 React,Angular,Vue 等前端框架集成。
 
 下面是一个使用 Apollo Client 与后端 API 交互的基本示例：
 
@@ -140,9 +140,9 @@ client.subscribe({
 
 ### 总结
 
-通过以上步骤，你可以使用 Apollo Client 来与后端 API 进行交互，无论是查询数据、修改数据还是订阅实时更新。Apollo Client 的强大之处在于它的缓存机制，它可以智能地管理数据的加载和缓存，从而提高应用的性能。
+通过以上步骤，你可以使用 Apollo Client 来与后端 API 进行交互，无论是查询数据,修改数据还是订阅实时更新。Apollo Client 的强大之处在于它的缓存机制，它可以智能地管理数据的加载和缓存，从而提高应用的性能。
 
-根据你的具体需求和技术栈，你可以进一步定制 Apollo Client 的配置，例如使用不同的缓存策略、集成身份验证等。
+根据你的具体需求和技术栈，你可以进一步定制 Apollo Client 的配置，例如使用不同的缓存策略,集成身份验证等。
 
 你说得对，`gql` 是一个标签模板函数，它接受一个字符串模板作为参数，并返回一个字符串。在 JavaScript 中，标签模板函数允许你在字符串模板前加上一个函数名，然后将字符串的部分作为单独的参数传递给这个函数。
 
@@ -212,7 +212,7 @@ client.query({
    import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
    ```
 
-   这里导入了 `ApolloClient`、`InMemoryCache` 和 `gql` 标签模板函数。
+   这里导入了 `ApolloClient`,`InMemoryCache` 和 `gql` 标签模板函数。
 
 2. **创建 Apollo Client 实例**：
 
