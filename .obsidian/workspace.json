@@ -121,9 +121,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce92cc9dd6e058d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240923000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -215,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+                "file": "+ Encounters/dailyNotes/20240923000000.md"
               }
             }
           },
@@ -225,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
+                "file": "+ Encounters/dailyNotes/20240923000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
+                "file": "+ Encounters/dailyNotes/20240923000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +297,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+                "file": "+ Encounters/dailyNotes/20240923000000.md"
               }
             }
           },
@@ -343,8 +356,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7156adc7cea16609",
+  "active": "ce92cc9dd6e058d0",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/@admin, @server, @client.md",
+    "+ Encounters/dailyNotes/20240923000000.md",
     "+ Encounters/dailyNotes/20240922000000.md",
     "1. Projects/Autospace Workshop/Apollo Client.md",
     "2. Areas/BackEnd/Java/Spring/Spring Core与Spring MVC.md",
@@ -370,8 +385,6 @@
     "1. Projects/周月总结/MECE原则爬虫.md",
     "1. Projects/周月总结/思维模型.md",
     "1. Projects/周月总结/个人IP.md",
-    "1. Projects/周月总结/一线城市思维.md",
-    "1. Projects/周月总结/OKR.md",
     "@react-oauth",
     "Atlas/new 12.txt",
     "Extras/配置类",

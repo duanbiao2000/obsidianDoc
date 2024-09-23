@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240923000000",
+      "path": "+ Encounters/dailyNotes/20240923000000.md"
+    },
+    {
       "basename": "@admin, @server, @client",
       "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "项目总纲",
       "path": "1. Projects/Autospace Workshop/项目总纲.md"
-    },
-    {
-      "basename": "libs目录结构",
-      "path": "1. Projects/Autospace Workshop/libs目录结构.md"
     }
   ],
   "omittedPaths": [
