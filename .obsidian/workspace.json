@@ -141,7 +141,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md",
+                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b24fc3374703abf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@react-oauth/react-oauth-google.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f2d5b21c7f68b4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/Firebase.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a86f2b0533dc7751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/morgan.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -240,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md"
+                "file": "+ Encounters/dailyNotes/Firebase.md"
               }
             }
           },
@@ -250,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md",
+                "file": "+ Encounters/dailyNotes/Firebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +301,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md",
+                "file": "+ Encounters/dailyNotes/Firebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +348,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md"
+                "file": "+ Encounters/dailyNotes/Firebase.md"
               }
             }
           },
@@ -339,7 +378,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -368,10 +407,17 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2ace5c59c00c111c",
+  "active": "7f2d5b21c7f68b4d",
   "lastOpenFiles": [
+    "@react-oauth/react-oauth-google.md",
+    "@react-oauth/Sonner.md",
+    "@react-oauth/Zustand.md",
+    "@react-oauth/markdown-to-jsx.md",
+    "+ Encounters/dailyNotes/@admin, @server, @client.md",
+    "@react-oauth",
+    "+ Encounters/dailyNotes/Firebase.md",
+    "+ Encounters/dailyNotes/morgan.md",
     "+ Encounters/dailyNotes/multer 处理文件上传.md",
-    "+ Encounters/dailyNotes/20240923000000.md",
     "+ Encounters/dailyNotes/20240922000000.md",
     "+ Encounters/dailyNotes/Clerk身份验证.md",
     "+ Encounters/dailyNotes/migration.md",
@@ -394,12 +440,6 @@
     "+ Encounters/dailyNotes/20240918120102.md",
     "+ Encounters/dailyNotes/20240918000000.md",
     "+ Encounters/dailyNotes/React.forwardRef.md",
-    "+ Encounters/dailyNotes/20240918143911.md",
-    "+ Encounters/dailyNotes/Contentlayer.md",
-    "+ Encounters/dailyNotes/Monitoring.md",
-    "2. Areas/AI/LearnToCode.md",
-    "Atlas/dataview/dataviews.md",
-    "1. Projects/Autospace Workshop/项目总纲.md",
     "1. Projects/Autospace Workshop",
     "Atlas/临时.txt",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
@@ -414,7 +454,6 @@
     "1. Projects/周月总结/202404/assets/img/每日新知",
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
     "1. Projects/周月总结/202404/assets/img",
-    "1. Projects/周月总结/202404/assets",
     "2. Areas/前端开发/Vue/assets/img/Vue基础/IMG-Vue基础-20240714124833410.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",

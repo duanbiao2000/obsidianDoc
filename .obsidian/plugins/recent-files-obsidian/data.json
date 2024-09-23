@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "20240923000000",
-      "path": "+ Encounters/dailyNotes/20240923000000.md"
+      "basename": "Firebase",
+      "path": "+ Encounters/dailyNotes/Firebase.md"
+    },
+    {
+      "basename": "react-oauth-google",
+      "path": "@react-oauth/react-oauth-google.md"
+    },
+    {
+      "basename": "Sonner",
+      "path": "@react-oauth/Sonner.md"
+    },
+    {
+      "basename": "@admin, @server, @client",
+      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+    },
+    {
+      "basename": "morgan",
+      "path": "+ Encounters/dailyNotes/morgan.md"
     },
     {
       "basename": "multer 处理文件上传",
@@ -183,22 +199,6 @@
     {
       "basename": "运动健身",
       "path": "1. Projects/运动健身.md"
-    },
-    {
-      "basename": "组合类型",
-      "path": "+ Encounters/dailyNotes/组合类型.md"
-    },
-    {
-      "basename": "GraphQL简介",
-      "path": "+ Encounters/dailyNotes/GraphQL简介.md"
-    },
-    {
-      "basename": "class-validate库",
-      "path": "+ Encounters/dailyNotes/class-validate库.md"
-    },
-    {
-      "basename": "20240916003431",
-      "path": "+ Encounters/dailyNotes/20240916003431.md"
     }
   ],
   "omittedPaths": [
