@@ -4,6 +4,8 @@ theme:
 high_priority: false
 tags:
 ---
+
+
 `@vercel/analytics/react` 是 Vercel 提供的一个轻量级的分析库，用于在 React 应用中添加网站分析功能。它可以帮助你跟踪用户的行为，比如页面访问、点击事件等，而无需集成复杂的第三方分析工具。
 
 要使用 `@vercel/analytics/react`，你需要先安装这个库。如果你已经有一个 React 项目，可以通过 npm 或 yarn 来安装：

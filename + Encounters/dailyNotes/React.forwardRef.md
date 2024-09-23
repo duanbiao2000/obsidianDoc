@@ -68,7 +68,7 @@ tags:
        return (
          <Comp
            className={cn(buttonVariants({ variant, size, className }))}
-           ref={ref}
+           ref={ref} 
            {...props}
          >
            {children}
