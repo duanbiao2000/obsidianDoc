@@ -121,22 +121,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ce92cc9dd6e058d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -228,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md"
+                "file": "2. Areas/BackEnd/Java/Spring/Spring注解.md"
               }
             }
           },
@@ -238,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md",
+                "file": "2. Areas/BackEnd/Java/Spring/Spring注解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md",
+                "file": "2. Areas/BackEnd/Java/Spring/Spring注解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +284,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240923000000.md"
+                "file": "2. Areas/BackEnd/Java/Spring/Spring注解.md"
               }
             }
           },
@@ -356,7 +343,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ce92cc9dd6e058d0",
+  "active": "637cb5456cf99a57",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/@admin, @server, @client.md",
     "+ Encounters/dailyNotes/20240923000000.md",
