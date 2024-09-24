@@ -27,39 +27,3 @@
 ### 2. 顿悟学习
 格式塔心理学强调顿悟（insight）在学习中的重要性。顿悟学习是一种突然的、质变的过程，能够避免多余的试误，并有助于知识的迁移和应用[2]。这种学习方式强调对问题情境的整体理解，而不是逐步积累经验。
 
-## 代表人物
-
-### 1. 马克斯·韦特海默（Max Wertheimer）
-韦特海默是格式塔心理学的创始人之一，他通过研究似动现象（phi phenomenon）提出了格式塔理论[5]。
-
-### 2. 沃尔夫冈·苛勒（Wolfgang Köhler）
-苛勒通过对大猩猩的实验研究，进一步发展了格式塔心理学的理论，强调知觉和大脑活动之间的联系[5]。
-
-### 3. 库尔特·考夫卡（Kurt Koffka）
-考夫卡在格式塔心理学的传播和应用方面做出了重要贡献，他强调整体在知觉和学习中的作用[5]。
-
-### 4. 库尔特·勒温（Kurt Lewin）
-勒温将格式塔理论应用于社会心理学，提出了场论（field theory），强调个体动机和社会情境对行为的影响[2]。
-
-## 应用领域
-
-格式塔心理学不仅在知觉和学习领域有重要影响，还被应用于美学、设计和社会心理学等多个领域。例如，在设计中，格式塔原则被用来指导视觉元素的组织和布局，以提高用户体验[2][5]。
-
-## 结论
-
-格式塔心理学通过强调整体性和知觉组织原则，对传统的元素主义心理学提出了挑战，并在多个心理学领域产生了深远影响。其核心观点和研究方法至今仍在认知心理学和应用心理学中发挥重要作用。
-
-Citations:
-[1] https://wiki.mbalib.com/wiki/%E6%A0%BC%E5%BC%8F%E5%A1%94%E5%BF%83%E7%90%86%E5%AD%A6%E7%90%86%E8%AE%BA
-[2] https://www.uisdc.com/gestalt-principle-2
-[3] https://baike.baidu.com/item/%E6%A0%BC%E5%BC%8F%E5%A1%94/1546363
-[4] https://baike.baidu.com/item/%E6%A0%BC%E5%BC%8F%E5%A1%94%E5%BF%83%E7%90%86%E5%AD%A6/1331198
-[5] https://zh.wikipedia.org/zh-hans/%E6%A0%BC%E5%BC%8F%E5%A1%94%E5%AD%A6%E6%B4%BE
-[6] https://www.uisdc.com/gestalt-principle-2
-[7] https://vide.hpx.tw/1823
-[8] https://baike.baidu.com/item/%E6%A0%BC%E5%BC%8F%E5%A1%94/1546363
-[9] https://deerlight.design/design-rule-gestalt-theory/
-[10] https://zhuanlan.zhihu.com/p/149177185
-[11] https://zh.wikipedia.org/zh-cn/%E6%A0%BC%E5%BC%8F%E5%A1%94%E5%AD%A6%E6%B4%BE
-[12] https://blog.udn.com/frankhbc/7860607
-[13] https://www.pilishen.com/posts/gestalt-principles-in-ui-design-6b75a41e9965

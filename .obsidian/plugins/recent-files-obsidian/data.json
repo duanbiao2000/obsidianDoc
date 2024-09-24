@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "数据访问与持久化",
+      "path": "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md"
+    },
+    {
+      "basename": "五维思考法",
+      "path": "2. Areas/01认知科学/五维思考法.md"
+    },
+    {
+      "basename": "20240905000000",
+      "path": "+ Encounters/dailyNotes/20240905000000.md"
+    },
+    {
+      "basename": "Boss简历迭代",
+      "path": "2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代.md"
+    },
+    {
+      "basename": "早班车0609",
+      "path": "2. Areas/Creative/早班车/早班车0609.md"
+    },
+    {
+      "basename": "20240906000000",
+      "path": "+ Encounters/dailyNotes/20240906000000.md"
+    },
+    {
+      "basename": "学莫便乎近其人。-全诗赏析_古诗文网",
+      "path": "+ Encounters/Omnivore/学莫便乎近其人。-全诗赏析_古诗文网.md"
+    },
+    {
+      "basename": "回溯算法",
+      "path": "2. Areas/AI/算法/回溯算法.md"
+    },
+    {
+      "basename": "Gestalt心理学",
+      "path": "4. Archives/剪辑/Gestalt心理学.md"
+    },
+    {
+      "basename": "20240902232003",
+      "path": "+ Encounters/dailyNotes/20240902232003.md"
+    },
+    {
+      "basename": "机器学习的实际价值",
+      "path": "+ Encounters/dailyNotes/机器学习的实际价值.md"
+    },
+    {
+      "basename": "@admin, @server, @client",
+      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+    },
+    {
+      "basename": "20240829000000",
+      "path": "+ Encounters/dailyNotes/20240829000000.md"
+    },
+    {
+      "basename": "GitHub中文排行榜",
+      "path": "1. Projects/周月总结/GitHub中文排行榜.md"
+    },
+    {
+      "basename": "API数据请求",
+      "path": "2. Areas/前端开发/React/API数据请求.md"
+    },
+    {
+      "basename": "20240820000000",
+      "path": "+ Encounters/dailyNotes/20240820000000.md"
+    },
+    {
+      "basename": "Github高分代码段",
+      "path": "3. Resources/社区/Github/Github高分代码段.md"
+    },
+    {
       "basename": "20240906002211",
       "path": "+ Encounters/dailyNotes/20240906002211.md"
     },
@@ -89,10 +157,6 @@
       "path": "+ Encounters/dailyNotes/20240905224407.md"
     },
     {
-      "basename": "五维思考法",
-      "path": "2. Areas/01认知科学/五维思考法.md"
-    },
-    {
       "basename": "闪亮词汇收集器",
       "path": "2. Areas/IELTS/闪亮词汇收集器.md"
     },
@@ -135,70 +199,6 @@
     {
       "basename": "个人才干Top10",
       "path": "2. Areas/01认知科学/个人才干Top10.md"
-    },
-    {
-      "basename": "free-programming-books-subjects",
-      "path": "3. Resources/社区/Github/free-programming-books-subjects.md"
-    },
-    {
-      "basename": "java常用包",
-      "path": "2. Areas/BackEnd/Java/java常用包.md"
-    },
-    {
-      "basename": "流行词",
-      "path": "2. Areas/01认知科学/流行词.md"
-    },
-    {
-      "basename": "Java人机交互",
-      "path": "2. Areas/BackEnd/Java/Java人机交互.md"
-    },
-    {
-      "basename": "20240813000000",
-      "path": "+ Encounters/dailyNotes/20240813000000.md"
-    },
-    {
-      "basename": "20240918220350",
-      "path": "+ Encounters/dailyNotes/20240918220350.md"
-    },
-    {
-      "basename": "称职的增长黑客",
-      "path": "3. Resources/影音读/称职的增长黑客.md"
-    },
-    {
-      "basename": "黄金信息",
-      "path": "2. Areas/Creative/早班车/黄金信息.md"
-    },
-    {
-      "basename": "20240911203413",
-      "path": "+ Encounters/dailyNotes/20240911203413.md"
-    },
-    {
-      "basename": "o1",
-      "path": "2. Areas/AI/ChatGPT/o1.md"
-    },
-    {
-      "basename": "叙事效果",
-      "path": "4. Archives/剪辑/叙事效果.md"
-    },
-    {
-      "basename": "影视拍摄中的运镜",
-      "path": "4. Archives/剪辑/影视拍摄中的运镜.md"
-    },
-    {
-      "basename": "20240920130118",
-      "path": "+ Encounters/dailyNotes/20240920130118.md"
-    },
-    {
-      "basename": "剪辑结构",
-      "path": "4. Archives/剪辑/剪辑结构.md"
-    },
-    {
-      "basename": "20240902231726",
-      "path": "+ Encounters/dailyNotes/20240902231726.md"
-    },
-    {
-      "basename": "顶尖团队特质",
-      "path": "1. Projects/周月总结/202405/顶尖团队特质.md"
     }
   ],
   "omittedPaths": [
