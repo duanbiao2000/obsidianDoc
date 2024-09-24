@@ -61,7 +61,7 @@ tags: null
      });
    });
    ```
-以上是一些关于 React 测试的常见面试问题及回答。在准备面试时，建议你熟悉常用的测试工具和测试技术，并能够根据需求选择合适的测试工具和编写测试代码。同时，也要注意编写清晰、可读性强的测试用例，并对组件的不同方面进行全面的测试，以确保代码的质量和稳定性。
+
 [测试概览 – React (reactjs.org)](https://zh-hans.legacy.reactjs.org/docs/testing.html)
 现在有许多种测试 React 组件的方法。大体上可以被分为两类：
 - **渲染组件树** 在一个简化的测试环境中渲染组件树并对它们的输出做断言检查。
@@ -145,7 +145,4 @@ it("点击时更新值", () => {
   expect(button.innerHTML).toBe("Turn on");
 });
 ```
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)描述了不同的 DOM 事件及其属性。注意，你需要在创建的每个事件中传递 `{ bubbles: true }` 才能到达 React 监听器，因为 React 会自动将事件委托给 root。
-> 注意：
-React 测试库为触发事件提供了一个[更简洁 helper](https://testing-library.com/docs/dom-testing-library/api-events)。
-`DOM Testing Library` works with any environment that provides DOM APIs, such as Jest, Mocha + JSDOM, or a real browser.
+
