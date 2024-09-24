@@ -6,6 +6,7 @@
       {
         "id": "e68007277d077560",
         "type": "tabs",
+        "dimension": 51.098191214470276,
         "children": [
           {
             "id": "2ceed23c498c013f",
@@ -141,6 +142,7 @@
       {
         "id": "f42d0d263473f08f",
         "type": "tabs",
+        "dimension": 48.90180878552972,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -149,6 +151,19 @@
               "type": "markdown",
               "state": {
                 "file": "+ Encounters/天命人日记.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d03d40db100dce0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240924000000.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -377,10 +392,11 @@
   },
   "active": "2673f9a57394c4a4",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/20240924000000.md",
+    "+ Encounters/天命人日记.md",
     "+ Encounters/dailyNotes/this的指向.md",
     "+ Encounters/dailyNotes/机器学习的实际价值.md",
     "+ Encounters/dailyNotes/Analytics.md",
-    "+ Encounters/天命人日记.md",
     "+ Encounters/dailyNotes/20240918143911.md",
     "1. Projects/Autospace Workshop/Autospace Workshop项目总纲.md",
     "+ Encounters/dailyNotes/next-blog三方库.md",
@@ -403,7 +419,6 @@
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "1. Projects/周月总结/Spring全家桶.md",
     "1. Projects/周月总结/Spring核心模块.md",
-    "1. Projects/周月总结/Spring AOP.md",
     "@react-oauth",
     "Atlas/new 12.txt",
     "Extras/配置类",
