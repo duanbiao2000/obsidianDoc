@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240925000000",
+      "path": "+ Encounters/dailyNotes/20240925000000.md"
+    },
+    {
       "basename": "数据访问与持久化",
       "path": "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "instructions",
       "path": "instructions.md"
-    },
-    {
-      "basename": "个人才干Top10",
-      "path": "2. Areas/01认知科学/个人才干Top10.md"
     }
   ],
   "omittedPaths": [

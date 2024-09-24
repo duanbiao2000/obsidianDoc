@@ -111,6 +111,19 @@
             }
           },
           {
+            "id": "8567525b1f73a266",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -137,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "f42d0d263473f08f",
@@ -261,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md"
+                "file": "+ Encounters/dailyNotes/20240925000000.md"
               }
             }
           },
@@ -271,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
+                "file": "+ Encounters/dailyNotes/20240925000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
+                "file": "+ Encounters/dailyNotes/20240925000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +343,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md"
+                "file": "+ Encounters/dailyNotes/20240925000000.md"
               }
             }
           },
@@ -390,8 +403,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "637cb5456cf99a57",
+  "active": "8567525b1f73a266",
   "lastOpenFiles": [
+    "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
+    "+ Encounters/dailyNotes/20240925000000.md",
     "2. Areas/01认知科学/五维思考法.md",
     "+ Encounters/dailyNotes/Pre-emptive decision-making.md",
     "Extras/Template/康奈尔笔记法.md",
@@ -416,8 +431,6 @@
     "+ Encounters/dailyNotes/机器学习的实际价值.md",
     "+ Encounters/dailyNotes/@admin, @server, @client.md",
     "+ Encounters/dailyNotes/20240829000000.md",
-    "Extras/textgenerator/prompts/awesomePrompts/yogiAwesome.md",
-    "1. Projects/周月总结/GitHub中文排行榜.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
