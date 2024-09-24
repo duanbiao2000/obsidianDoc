@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "React测试",
+      "path": "2. Areas/前端开发/React/React测试.md"
+    },
+    {
+      "basename": "Top1%",
+      "path": "+ Encounters/dailyNotes/Top1%.md"
+    },
+    {
       "basename": "天命人日记",
       "path": "+ Encounters/天命人日记.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "20240918120102",
       "path": "+ Encounters/dailyNotes/20240918120102.md"
-    },
-    {
-      "basename": "Contentlayer",
-      "path": "+ Encounters/dailyNotes/Contentlayer.md"
-    },
-    {
-      "basename": "Monitoring",
-      "path": "+ Encounters/dailyNotes/Monitoring.md"
     }
   ],
   "omittedPaths": [

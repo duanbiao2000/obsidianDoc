@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/this的指向.md",
+                "file": "2. Areas/前端开发/React/React测试.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -261,7 +261,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/天命人日记.md"
+                "file": "2. Areas/前端开发/React/React测试.md"
               }
             }
           },
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/天命人日记.md",
+                "file": "2. Areas/前端开发/React/React测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/天命人日记.md",
+                "file": "2. Areas/前端开发/React/React测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +330,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/天命人日记.md"
+                "file": "2. Areas/前端开发/React/React测试.md"
               }
             }
           },
@@ -390,10 +390,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2673f9a57394c4a4",
+  "active": "637cb5456cf99a57",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/this的指向.md",
+    "+ Encounters/dailyNotes/Top1%.md",
     "+ Encounters/天命人日记.md",
+    "+ Encounters/dailyNotes/this的指向.md",
     "+ Encounters/dailyNotes/20240924000000.md",
     "+ Encounters/dailyNotes/机器学习的实际价值.md",
     "+ Encounters/dailyNotes/Analytics.md",
@@ -418,7 +419,6 @@
     "2. Areas/BackEnd/Java/Spring/Spring MVC.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "1. Projects/周月总结/Spring全家桶.md",
-    "1. Projects/周月总结/Spring核心模块.md",
     "@react-oauth",
     "Atlas/new 12.txt",
     "Extras/配置类",
