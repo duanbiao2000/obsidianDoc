@@ -1,8 +1,144 @@
 {
   "recentFiles": [
     {
+      "basename": "设计色彩搭配",
+      "path": "4. Archives/剪辑/设计色彩搭配.md"
+    },
+    {
+      "basename": "日语",
+      "path": "2. Areas/01认知科学/信息差/日语.md"
+    },
+    {
+      "basename": "Slideshow",
+      "path": "Atlas/Cards/Excalidraw/Scripts/Downloaded/Slideshow.md"
+    },
+    {
+      "basename": "20240905224407",
+      "path": "+ Encounters/dailyNotes/20240905224407.md"
+    },
+    {
+      "basename": "五维思考法",
+      "path": "2. Areas/01认知科学/五维思考法.md"
+    },
+    {
+      "basename": "闪亮词汇收集器",
+      "path": "2. Areas/IELTS/闪亮词汇收集器.md"
+    },
+    {
+      "basename": "Spring Core与Spring MVC",
+      "path": "2. Areas/BackEnd/Java/Spring/Spring Core与Spring MVC.md"
+    },
+    {
+      "basename": "20240907215507",
+      "path": "+ Encounters/dailyNotes/20240907215507.md"
+    },
+    {
+      "basename": "20240811201622",
+      "path": "+ Encounters/dailyNotes/20240811201622.md"
+    },
+    {
+      "basename": "20240902230506",
+      "path": "+ Encounters/dailyNotes/20240902230506.md"
+    },
+    {
+      "basename": "模块模式的实现原理_闭包",
+      "path": "+ Encounters/dailyNotes/模块模式的实现原理_闭包.md"
+    },
+    {
+      "basename": "React进阶实战",
+      "path": "2. Areas/前端开发/React/React进阶实战.md"
+    },
+    {
+      "basename": "Condense , filter and ditstil",
+      "path": "2. Areas/Creative/早班车/Condense , filter and ditstil.md"
+    },
+    {
+      "basename": "20240813103627",
+      "path": "+ Encounters/dailyNotes/20240813103627.md"
+    },
+    {
+      "basename": "@熟练的AI专业人员需要具备的能力",
+      "path": "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md"
+    },
+    {
+      "basename": "instructions",
+      "path": "instructions.md"
+    },
+    {
+      "basename": "个人才干Top10",
+      "path": "2. Areas/01认知科学/个人才干Top10.md"
+    },
+    {
+      "basename": "free-programming-books-subjects",
+      "path": "3. Resources/社区/Github/free-programming-books-subjects.md"
+    },
+    {
+      "basename": "java常用包",
+      "path": "2. Areas/BackEnd/Java/java常用包.md"
+    },
+    {
+      "basename": "流行词",
+      "path": "2. Areas/01认知科学/流行词.md"
+    },
+    {
+      "basename": "Java人机交互",
+      "path": "2. Areas/BackEnd/Java/Java人机交互.md"
+    },
+    {
+      "basename": "20240813000000",
+      "path": "+ Encounters/dailyNotes/20240813000000.md"
+    },
+    {
+      "basename": "20240918220350",
+      "path": "+ Encounters/dailyNotes/20240918220350.md"
+    },
+    {
+      "basename": "称职的增长黑客",
+      "path": "3. Resources/影音读/称职的增长黑客.md"
+    },
+    {
+      "basename": "黄金信息",
+      "path": "2. Areas/Creative/早班车/黄金信息.md"
+    },
+    {
+      "basename": "20240911203413",
+      "path": "+ Encounters/dailyNotes/20240911203413.md"
+    },
+    {
+      "basename": "o1",
+      "path": "2. Areas/AI/ChatGPT/o1.md"
+    },
+    {
+      "basename": "叙事效果",
+      "path": "4. Archives/剪辑/叙事效果.md"
+    },
+    {
+      "basename": "影视拍摄中的运镜",
+      "path": "4. Archives/剪辑/影视拍摄中的运镜.md"
+    },
+    {
+      "basename": "20240920130118",
+      "path": "+ Encounters/dailyNotes/20240920130118.md"
+    },
+    {
+      "basename": "剪辑结构",
+      "path": "4. Archives/剪辑/剪辑结构.md"
+    },
+    {
+      "basename": "20240902231726",
+      "path": "+ Encounters/dailyNotes/20240902231726.md"
+    },
+    {
+      "basename": "顶尖团队特质",
+      "path": "1. Projects/周月总结/202405/顶尖团队特质.md"
+    },
+    {
       "basename": "-学莫便乎近其人。-全诗赏析_古诗文网",
       "path": "+ Encounters/Omnivore/-学莫便乎近其人。-全诗赏析_古诗文网.md"
+    },
+    {
+      "basename": "天命人日记",
+      "path": "+ Encounters/天命人日记.md"
     },
     {
       "basename": "Mapbox GL JS",
@@ -19,10 +155,6 @@
     {
       "basename": "Top1%",
       "path": "+ Encounters/dailyNotes/Top1%.md"
-    },
-    {
-      "basename": "天命人日记",
-      "path": "+ Encounters/天命人日记.md"
     },
     {
       "basename": "this的指向",
@@ -61,144 +193,12 @@
       "path": "+ Encounters/dailyNotes/20240919000000.md"
     },
     {
-      "basename": "20240918220350",
-      "path": "+ Encounters/dailyNotes/20240918220350.md"
-    },
-    {
       "basename": "ErrorBoundary",
       "path": "+ Encounters/dailyNotes/ErrorBoundary.md"
     },
     {
       "basename": "migration",
       "path": "+ Encounters/dailyNotes/migration.md"
-    },
-    {
-      "basename": "弹幕单词Claude",
-      "path": "1. Projects/弹幕单词Claude.md"
-    },
-    {
-      "basename": "React.forwardRef",
-      "path": "+ Encounters/dailyNotes/React.forwardRef.md"
-    },
-    {
-      "basename": "Clerk身份验证",
-      "path": "+ Encounters/dailyNotes/Clerk身份验证.md"
-    },
-    {
-      "basename": "Jest",
-      "path": "+ Encounters/dailyNotes/Jest.md"
-    },
-    {
-      "basename": "Spring注解",
-      "path": "2. Areas/BackEnd/Java/Spring/Spring注解.md"
-    },
-    {
-      "basename": "@admin, @server, @client",
-      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
-    },
-    {
-      "basename": "20240922000000",
-      "path": "+ Encounters/dailyNotes/20240922000000.md"
-    },
-    {
-      "basename": "Apollo Client",
-      "path": "1. Projects/Autospace Workshop/Apollo Client.md"
-    },
-    {
-      "basename": "Spring Core与Spring MVC",
-      "path": "2. Areas/BackEnd/Java/Spring/Spring Core与Spring MVC.md"
-    },
-    {
-      "basename": "IMG-Spring Boot-20240714124655322",
-      "path": "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png"
-    },
-    {
-      "basename": "Spring全家桶",
-      "path": "1. Projects/周月总结/Spring全家桶.md"
-    },
-    {
-      "basename": "Spring AOP",
-      "path": "1. Projects/周月总结/Spring AOP.md"
-    },
-    {
-      "basename": "202312",
-      "path": "1. Projects/周月总结/202312.md"
-    },
-    {
-      "basename": "顶尖团队特质",
-      "path": "1. Projects/周月总结/202405/顶尖团队特质.md"
-    },
-    {
-      "basename": "漏斗笔记法",
-      "path": "1. Projects/周月总结/202405/漏斗笔记法.md"
-    },
-    {
-      "basename": "盖洛普书单",
-      "path": "1. Projects/周月总结/202405/盖洛普书单.md"
-    },
-    {
-      "basename": "指数型组织",
-      "path": "1. Projects/周月总结/202405/指数型组织.md"
-    },
-    {
-      "basename": "GitHub中文排行榜",
-      "path": "1. Projects/周月总结/GitHub中文排行榜.md"
-    },
-    {
-      "basename": "道德批判",
-      "path": "1. Projects/周月总结/道德批判.md"
-    },
-    {
-      "basename": "说话之道",
-      "path": "1. Projects/周月总结/说话之道.md"
-    },
-    {
-      "basename": "MECE原则爬虫",
-      "path": "1. Projects/周月总结/MECE原则爬虫.md"
-    },
-    {
-      "basename": "思维模型",
-      "path": "1. Projects/周月总结/思维模型.md"
-    },
-    {
-      "basename": "一线城市思维",
-      "path": "1. Projects/周月总结/一线城市思维.md"
-    },
-    {
-      "basename": "OKR",
-      "path": "1. Projects/周月总结/OKR.md"
-    },
-    {
-      "basename": "运动健身",
-      "path": "1. Projects/运动健身.md"
-    },
-    {
-      "basename": "route.ts作用和调用顺序",
-      "path": "+ Encounters/dailyNotes/route.ts作用和调用顺序.md"
-    },
-    {
-      "basename": "Firebase",
-      "path": "+ Encounters/dailyNotes/Firebase.md"
-    },
-    {
-      "basename": "Sonner",
-      "path": "@react-oauth/Sonner.md"
-    },
-    {
-      "basename": "morgan",
-      "path": "+ Encounters/dailyNotes/morgan.md"
-    },
-    {
-      "basename": "20240920130118",
-      "path": "+ Encounters/dailyNotes/20240920130118.md"
-    },
-    {
-      "basename": "20240920000000",
-      "path": "+ Encounters/dailyNotes/20240920000000.md"
-    },
-    {
-      "basename": "Mock Service Worker (MSW)",
-      "path": "+ Encounters/dailyNotes/Mock Service Worker (MSW).md"
     }
   ],
   "omittedPaths": [

@@ -691,7 +691,7 @@ Source: Conversation with Bing, 4/23/2023(1) What Are Meta-Annotations in Java? 
 (2) Creating a Custom Annotation in Java | Baeldung. https://www.baeldung.com/java-custom-annotation Accessed 4/23/2023.
 (3) A Guide to Java Annotations with Examples | Developer.com. https://www.developer.com/java/java-annotations-guide/ Accessed 4/23/2023.
 
-根据网上搜索的结果，我尝试用中文回答你的问题。Java中的按值传递和按引用传递的区别是：
+Java中的按值传递和按引用传递的区别是：
 
 - 按值传递是指将实际参数的值复制到形式参数中，方法内对形式参数的修改不会影响实际参数。Java中所有的基本类型（如int, boolean, char等）都是按值传递的。
 - 按引用传递是指将实际参数的引用（地址）传递给形式参数，方法内对形式参数的修改会影响实际参数。Java中所有的引用类型（如数组，字符串，对象等）都是按引用传递的。
