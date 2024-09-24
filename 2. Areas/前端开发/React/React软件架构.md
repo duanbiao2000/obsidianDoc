@@ -749,29 +749,6 @@ export default inject('store')(observer(TodoList));
 
 在上述示例中，我们创建了一个名为 `TodoStore` 的 MobX store，它包含待办事项列表 `todoList`、过滤条件 `filter`，以及一些方法用于添加、切换和设置过滤条件。然后，我们使用 MobX 提供的 `inject` 和 `observer` 函数来连接组件到 MobX store 并监视状态的变化。
 
-Loading data in a web application is a critical aspect of providing a good user experience. When and how you load data depends on various factors, including the nature of the data, the user's expectations, and the specific use case of your application. Here are some common scenarios for loading data:
-
-1. **Initial Page Load**: Data needed to render the initial view of a page should be loaded as part of the page load process. For example, when a user visits a product page on an e-commerce site, you should load product details, images, and pricing as part of the initial page load.
-
-2. **Lazy Loading**: Some data can be loaded lazily, meaning it's fetched on-demand as the user interacts with your application. This can include additional product details, related products, or comments on a blog post. Lazy loading can improve the initial page load time and reduce unnecessary requests.
-
-3. **Pagination and Infinite Scrolling**: When dealing with a large amount of data, like a list of articles or products, you can load a subset of the data initially and load more as the user scrolls down the page (infinite scrolling) or when the user clicks on a "Load More" button (pagination).
-
-4. **User Interaction**: Data should be loaded when the user interacts with your application. For example, when a user submits a search query, you load search results. When a user clicks on a profile, you load user-specific data.
-
-5. **Caching and Prefetching**: You can cache frequently used data on the client side (browser) to reduce load times and prefetch data that the user is likely to need next.
-
-6. **Real-Time Updates**: Some data needs to be updated in real-time. For example, chat messages or live sports scores. In these cases, you might use technologies like WebSockets to push updates to the client.
-
-7. **Progressive Web Apps (PWAs)**: PWAs use service workers to cache data and assets in the background, ensuring that users have access to content even when offline.
-
-8. **Background Data Loading**: You can load data in the background or when the application is not actively in use to keep it up-to-date. This is common for email clients, news apps, and social media feeds.
-
-9. **Error Handling**: Ensure you have error handling in place for data loading. If data fails to load due to network issues or other reasons, provide a graceful error message or retry mechanism.
-
-10. **Optimizing Performance**: Use techniques like lazy loading of images, code splitting, and asynchronous loading to optimize the performance of your application.
-
-Ultimately, the key is to strike a balance between loading data as early as possible to provide a smooth user experience and loading data on-demand to minimize unnecessary requests and reduce initial load times. It's important to consider the specific requirements of your application and your users' needs when determining when and how to load data.
 
 以下是关于上述10点内容的核心代码示例，包括加载数据、懒加载、分页、用户交互、缓存、实时更新、后台数据加载、错误处理和性能优化的示例。
 

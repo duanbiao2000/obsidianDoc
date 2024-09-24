@@ -6,7 +6,7 @@
       {
         "id": "e68007277d077560",
         "type": "tabs",
-        "dimension": 66.25727213962507,
+        "dimension": 80.34906270200388,
         "children": [
           {
             "id": "2ceed23c498c013f",
@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/前端开发/Vue/UML基础.md",
+                "file": "+ Encounters/dailyNotes/20240906002211.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -142,7 +142,7 @@
       {
         "id": "f42d0d263473f08f",
         "type": "tabs",
-        "dimension": 33.74272786037492,
+        "dimension": 19.650937297996123,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -261,7 +261,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/前端开发/Vue/UML基础.md"
+                "file": "+ Encounters/dailyNotes/20240906002211.md"
               }
             }
           },
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/前端开发/Vue/UML基础.md",
+                "file": "+ Encounters/dailyNotes/20240906002211.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/前端开发/Vue/UML基础.md",
+                "file": "+ Encounters/dailyNotes/20240906002211.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +330,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/前端开发/Vue/UML基础.md"
+                "file": "+ Encounters/dailyNotes/20240906002211.md"
               }
             }
           },
@@ -392,6 +392,21 @@
   },
   "active": "637cb5456cf99a57",
   "lastOpenFiles": [
+    "3. Resources/影音读/书本通读/非技术类/指数型组织：重构商业模式，引领未来增长.md",
+    "2. Areas/Creative/调色.md",
+    "+ Encounters/dailyNotes/20240811201626.md",
+    "4. Archives/剪辑/蒙太奇介绍.md",
+    "Atlas/kanban/前端路线图.md",
+    "Extras/textgenerator/prompts/default/summarize.md",
+    "+ Encounters/dailyNotes/批判性思维.md",
+    "3. Resources/Tools/20240626145134- Mermaid图标模板.md",
+    "Extras/textgenerator/templates/dalle/artAnime.md",
+    "2. Areas/AI/深度学习/DIVE INTO DEEP LEARNING上册.md",
+    "1. Projects/Autospace Workshop/Mapbox GL JS.md",
+    "2. Areas/前端开发/React/React组件间通信代码示例.md",
+    "2. Areas/前端开发/React/React软件架构.md",
+    "+ Encounters/dailyNotes/20240904000000.md",
+    "2. Areas/前端开发/Vue/UML基础.md",
     "Extras/textgenerator/templates/dalle/qua15mm.md",
     "1. Projects/周月总结/202405/漏斗笔记法.md",
     "2. Areas/前端开发/React/React历史.md",
@@ -403,21 +418,6 @@
     "1. Projects/周月总结/202405/蔡康永的說話之道.md",
     "Extras/textgenerator/templates/dalle/artModern.md",
     "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md",
-    "4. Archives/剪辑/设计色彩搭配.md",
-    "Extras/textgenerator/prompts/awesomePrompts/educationalcontentcreatorAwesome.md",
-    "2. Areas/01认知科学/信息差/日语.md",
-    "+ Encounters/dailyNotes/20240920000000.md",
-    "Atlas/Cards/Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "Extras/textgenerator/templates/dalle/artVaporwave.md",
-    "+ Encounters/dailyNotes/20240905224407.md",
-    "2. Areas/01认知科学/五维思考法.md",
-    "Extras/textgenerator/prompts/awesomePrompts/unconstrainedaimodeldanAwesome.md",
-    "2. Areas/IELTS/闪亮词汇收集器.md",
-    "2. Areas/BackEnd/Java/Spring/Spring Core与Spring MVC.md",
-    "+ Encounters/dailyNotes/20240907215507.md",
-    "+ Encounters/dailyNotes/20240811201622.md",
-    "+ Encounters/dailyNotes/20240902230506.md",
-    "+ Encounters/dailyNotes/模块模式的实现原理_闭包.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
