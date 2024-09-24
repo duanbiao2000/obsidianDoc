@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "UML基础",
+      "path": "2. Areas/前端开发/Vue/UML基础.md"
+    },
+    {
+      "basename": "漏斗笔记法",
+      "path": "1. Projects/周月总结/202405/漏斗笔记法.md"
+    },
+    {
+      "basename": "天命日记",
+      "path": "+ Encounters/天命日记.md"
+    },
+    {
+      "basename": "数据库扩展策略",
+      "path": "3. Resources/社区/数据库扩展策略.md"
+    },
+    {
+      "basename": "@盖洛普测试",
+      "path": "2. Areas/01认知科学/@盖洛普测试.md"
+    },
+    {
+      "basename": "7个高质量润色论文和文章的指令",
+      "path": "2. Areas/Creative/7个高质量润色论文和文章的指令.md"
+    },
+    {
+      "basename": "蔡康永的說話之道",
+      "path": "1. Projects/周月总结/202405/蔡康永的說話之道.md"
+    },
+    {
+      "basename": "Javascrip三省笔记0522",
+      "path": "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md"
+    },
+    {
       "basename": "设计色彩搭配",
       "path": "4. Archives/剪辑/设计色彩搭配.md"
     },
@@ -137,16 +169,8 @@
       "path": "+ Encounters/Omnivore/-学莫便乎近其人。-全诗赏析_古诗文网.md"
     },
     {
-      "basename": "天命人日记",
-      "path": "+ Encounters/天命人日记.md"
-    },
-    {
       "basename": "Mapbox GL JS",
       "path": "1. Projects/Autospace Workshop/Mapbox GL JS.md"
-    },
-    {
-      "basename": "蔡康永的說話之道",
-      "path": "1. Projects/周月总结/202405/蔡康永的說話之道.md"
     },
     {
       "basename": "React测试",
@@ -175,30 +199,6 @@
     {
       "basename": "20240918143911",
       "path": "+ Encounters/dailyNotes/20240918143911.md"
-    },
-    {
-      "basename": "Autospace Workshop项目总纲",
-      "path": "1. Projects/Autospace Workshop/Autospace Workshop项目总纲.md"
-    },
-    {
-      "basename": "next-blog三方库",
-      "path": "+ Encounters/dailyNotes/next-blog三方库.md"
-    },
-    {
-      "basename": "multer 处理文件上传",
-      "path": "+ Encounters/dailyNotes/multer 处理文件上传.md"
-    },
-    {
-      "basename": "20240919000000",
-      "path": "+ Encounters/dailyNotes/20240919000000.md"
-    },
-    {
-      "basename": "ErrorBoundary",
-      "path": "+ Encounters/dailyNotes/ErrorBoundary.md"
-    },
-    {
-      "basename": "migration",
-      "path": "+ Encounters/dailyNotes/migration.md"
     }
   ],
   "omittedPaths": [

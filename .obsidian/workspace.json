@@ -103,10 +103,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Archives/剪辑/设计色彩搭配.md",
+                "file": "2. Areas/前端开发/Vue/UML基础.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           },
@@ -150,7 +150,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/天命人日记.md",
+                "file": "+ Encounters/天命日记.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -261,7 +261,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Archives/剪辑/设计色彩搭配.md"
+                "file": "2. Areas/前端开发/Vue/UML基础.md"
               }
             }
           },
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Archives/剪辑/设计色彩搭配.md",
+                "file": "2. Areas/前端开发/Vue/UML基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Archives/剪辑/设计色彩搭配.md",
+                "file": "2. Areas/前端开发/Vue/UML基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +330,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4. Archives/剪辑/设计色彩搭配.md"
+                "file": "2. Areas/前端开发/Vue/UML基础.md"
               }
             }
           },
@@ -392,6 +392,18 @@
   },
   "active": "637cb5456cf99a57",
   "lastOpenFiles": [
+    "Extras/textgenerator/templates/dalle/qua15mm.md",
+    "1. Projects/周月总结/202405/漏斗笔记法.md",
+    "2. Areas/前端开发/React/React历史.md",
+    "2. Areas/AI/深度学习/python深度学习第二版.md",
+    "+ Encounters/天命日记.md",
+    "3. Resources/社区/数据库扩展策略.md",
+    "2. Areas/01认知科学/@盖洛普测试.md",
+    "2. Areas/Creative/7个高质量润色论文和文章的指令.md",
+    "1. Projects/周月总结/202405/蔡康永的說話之道.md",
+    "Extras/textgenerator/templates/dalle/artModern.md",
+    "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md",
+    "4. Archives/剪辑/设计色彩搭配.md",
     "Extras/textgenerator/prompts/awesomePrompts/educationalcontentcreatorAwesome.md",
     "2. Areas/01认知科学/信息差/日语.md",
     "+ Encounters/dailyNotes/20240920000000.md",
@@ -406,18 +418,6 @@
     "+ Encounters/dailyNotes/20240811201622.md",
     "+ Encounters/dailyNotes/20240902230506.md",
     "+ Encounters/dailyNotes/模块模式的实现原理_闭包.md",
-    "2. Areas/前端开发/React/React进阶实战.md",
-    "+ Encounters/dailyNotes/20240906091445.md",
-    "+ Encounters/dailyNotes/20240902000000.md",
-    "Extras/Template/Templater/zkDefaultTemplate.md",
-    "2. Areas/Creative/早班车/Condense , filter and ditstil.md",
-    "+ Encounters/dailyNotes/20240813103627.md",
-    "Extras/textgenerator/prompts/awesomePrompts/dietitianAwesome.md",
-    "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md",
-    "Extras/textgenerator/prompts/awesomePrompts/lunaticAwesome.md",
-    "instructions.md",
-    "2. Areas/01认知科学/个人才干Top10.md",
-    "2. Areas/AI/算法/LeetCode/Dive into Algorithms A Pythonic Adventure.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
