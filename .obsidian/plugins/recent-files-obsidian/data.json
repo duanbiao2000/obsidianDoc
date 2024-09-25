@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20240925000000",
+      "path": "+ Encounters/dailyNotes/20240925000000.md"
+    },
+    {
       "basename": "Dashboard",
       "path": "+ Encounters/dailyNotes/Dashboard.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "React进阶实战",
       "path": "2. Areas/前端开发/React/React进阶实战.md"
-    },
-    {
-      "basename": "Condense , filter and ditstil",
-      "path": "2. Areas/Creative/早班车/Condense , filter and ditstil.md"
     }
   ],
   "omittedPaths": [

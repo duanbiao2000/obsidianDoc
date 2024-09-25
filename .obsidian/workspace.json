@@ -137,6 +137,19 @@
             }
           },
           {
+            "id": "dc560662c7e938f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -163,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "f42d0d263473f08f",
@@ -287,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Dashboard.md"
+                "file": "+ Encounters/dailyNotes/20240925000000.md"
               }
             }
           },
@@ -297,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Dashboard.md",
+                "file": "+ Encounters/dailyNotes/20240925000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Dashboard.md",
+                "file": "+ Encounters/dailyNotes/20240925000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -356,7 +369,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Dashboard.md"
+                "file": "+ Encounters/dailyNotes/20240925000000.md"
               }
             }
           },
@@ -416,10 +429,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "129c05ff3624e1b0",
+  "active": "dc560662c7e938f1",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
     "+ Encounters/dailyNotes/Dashboard.md",
+    "+ Encounters/dailyNotes/20240925000000.md",
+    "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/Banking APP tables.md",
     "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
@@ -443,7 +457,6 @@
     "4. Archives/剪辑/Gestalt心理学.md",
     "2. Areas/前端开发/React/深入浅出React技术栈.md",
     "+ Encounters/dailyNotes/20240902232003.md",
-    "Extras/textgenerator/prompts/awesomePrompts/motivationalspeakerAwesome.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
