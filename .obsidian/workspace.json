@@ -6,7 +6,7 @@
       {
         "id": "e68007277d077560",
         "type": "tabs",
-        "dimension": 80.34906270200388,
+        "dimension": 59.72850678733032,
         "children": [
           {
             "id": "2ceed23c498c013f",
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "file": "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -155,7 +155,7 @@
       {
         "id": "f42d0d263473f08f",
         "type": "tabs",
-        "dimension": 19.650937297996123,
+        "dimension": 40.27149321266968,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -274,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md"
+                "file": "+ Encounters/dailyNotes/JSON Web Token (JWT).md"
               }
             }
           },
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "file": "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "file": "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md"
+                "file": "+ Encounters/dailyNotes/JSON Web Token (JWT).md"
               }
             }
           },
@@ -405,8 +405,10 @@
   },
   "active": "8567525b1f73a266",
   "lastOpenFiles": [
+    "+ Encounters/天命日记.md",
+    "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
+    "+ Encounters/dailyNotes/Banking APP tables.md",
     "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
-    "+ Encounters/dailyNotes/20240925000000.md",
     "2. Areas/01认知科学/五维思考法.md",
     "+ Encounters/dailyNotes/Pre-emptive decision-making.md",
     "Extras/Template/康奈尔笔记法.md",
@@ -429,8 +431,6 @@
     "+ Encounters/dailyNotes/20240902232003.md",
     "Extras/textgenerator/prompts/awesomePrompts/motivationalspeakerAwesome.md",
     "+ Encounters/dailyNotes/机器学习的实际价值.md",
-    "+ Encounters/dailyNotes/@admin, @server, @client.md",
-    "+ Encounters/dailyNotes/20240829000000.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

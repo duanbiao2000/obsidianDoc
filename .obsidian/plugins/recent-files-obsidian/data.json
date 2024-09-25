@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "20240925000000",
-      "path": "+ Encounters/dailyNotes/20240925000000.md"
+      "basename": "JSON Web Token (JWT)",
+      "path": "+ Encounters/dailyNotes/JSON Web Token (JWT).md"
+    },
+    {
+      "basename": "天命日记",
+      "path": "+ Encounters/天命日记.md"
+    },
+    {
+      "basename": "Banking APP tables",
+      "path": "+ Encounters/dailyNotes/Banking APP tables.md"
     },
     {
       "basename": "数据访问与持久化",
@@ -121,10 +129,6 @@
       "path": "1. Projects/周月总结/202405/漏斗笔记法.md"
     },
     {
-      "basename": "天命日记",
-      "path": "+ Encounters/天命日记.md"
-    },
-    {
       "basename": "数据库扩展策略",
       "path": "3. Resources/社区/数据库扩展策略.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "@熟练的AI专业人员需要具备的能力",
       "path": "2. Areas/01认知科学/@熟练的AI专业人员需要具备的能力.md"
-    },
-    {
-      "basename": "instructions",
-      "path": "instructions.md"
     }
   ],
   "omittedPaths": [
