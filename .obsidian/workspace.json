@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "file": "+ Encounters/dailyNotes/Dashboard.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -287,7 +287,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md"
+                "file": "+ Encounters/dailyNotes/Dashboard.md"
               }
             }
           },
@@ -297,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "file": "+ Encounters/dailyNotes/Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,7 +309,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md",
+                "file": "+ Encounters/dailyNotes/Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -356,7 +356,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240925000000.md"
+                "file": "+ Encounters/dailyNotes/Dashboard.md"
               }
             }
           },
@@ -419,7 +419,7 @@
   "active": "129c05ff3624e1b0",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
-    "+ Encounters/dailyNotes/20240925000000.md",
+    "+ Encounters/dailyNotes/Dashboard.md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/Banking APP tables.md",
     "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
