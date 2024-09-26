@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Convex数据库.md",
+                "file": "+ Encounters/dailyNotes/SWR.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -314,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Convex数据库.md"
+                "file": "+ Encounters/dailyNotes/SWR.md"
               }
             }
           },
@@ -324,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Convex数据库.md",
+                "file": "+ Encounters/dailyNotes/SWR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +336,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Convex数据库.md",
+                "file": "+ Encounters/dailyNotes/SWR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -383,7 +383,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Convex数据库.md"
+                "file": "+ Encounters/dailyNotes/SWR.md"
               }
             }
           },
@@ -445,8 +445,11 @@
   },
   "active": "370c740fa415de94",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/发布日志.md",
+    "+ Encounters/dailyNotes/假值处理.md",
+    "+ Encounters/dailyNotes/SWR.md",
+    "+ Encounters/dailyNotes/20240927001200.md",
     "+ Encounters/dailyNotes/Convex数据库.md",
+    "+ Encounters/dailyNotes/发布日志.md",
     "+ Encounters/dailyNotes/pnpm.md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/cn函数.md",
@@ -468,9 +471,6 @@
     "Extras/textgenerator/prompts/awesomePrompts/wikipediapageAwesome.md",
     "Extras/textgenerator/prompts/awesomePrompts/asciiartistAwesome.md",
     "Extras/textgenerator/prompts/awesomePrompts/machinelearningengineerAwesome.md",
-    "+ Encounters/Omnivore/学莫便乎近其人。-全诗赏析_古诗文网.md",
-    "2. Areas/AI/算法/回溯算法.md",
-    "Extras/textgenerator/prompts/default/rewrite.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

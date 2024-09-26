@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "SWR",
+      "path": "+ Encounters/dailyNotes/SWR.md"
+    },
+    {
+      "basename": "假值处理",
+      "path": "+ Encounters/dailyNotes/假值处理.md"
+    },
+    {
+      "basename": "20240927001200",
+      "path": "+ Encounters/dailyNotes/20240927001200.md"
+    },
+    {
       "basename": "Convex数据库",
       "path": "+ Encounters/dailyNotes/Convex数据库.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "闪亮词汇收集器",
       "path": "2. Areas/IELTS/闪亮词汇收集器.md"
-    },
-    {
-      "basename": "Spring Core与Spring MVC",
-      "path": "2. Areas/BackEnd/Java/Spring/Spring Core与Spring MVC.md"
-    },
-    {
-      "basename": "20240907215507",
-      "path": "+ Encounters/dailyNotes/20240907215507.md"
-    },
-    {
-      "basename": "20240811201622",
-      "path": "+ Encounters/dailyNotes/20240811201622.md"
     }
   ],
   "omittedPaths": [
