@@ -1,1 +1,0 @@
-[Demo: Book Search App Wit...](https://www.youtube.com/watch?v=abnn0C1YPS8)[GitHub - prabinmagar/book...](https://github.com/prabinmagar/booklib-app-using-react-js-and-openlib-api)
