@@ -1,0 +1,1 @@
+0:00 Intro2:58 Getting Started24:43 Styling + Tailwind56:53 Strapi Headless CMS Integration
