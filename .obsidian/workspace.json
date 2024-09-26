@@ -6,7 +6,7 @@
       {
         "id": "e68007277d077560",
         "type": "tabs",
-        "dimension": 59.72850678733032,
+        "dimension": 38.009049773755656,
         "children": [
           {
             "id": "2ceed23c498c013f",
@@ -194,7 +194,7 @@
       {
         "id": "f42d0d263473f08f",
         "type": "tabs",
-        "dimension": 40.27149321266968,
+        "dimension": 61.990950226244344,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -215,14 +215,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240924000000.md",
+                "file": "+ Encounters/dailyNotes/发布日志.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -313,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240926000000.md"
+                "file": "+ Encounters/dailyNotes/发布日志.md"
               }
             }
           },
@@ -323,7 +324,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240926000000.md",
+                "file": "+ Encounters/dailyNotes/发布日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +336,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240926000000.md",
+                "file": "+ Encounters/dailyNotes/发布日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +383,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240926000000.md"
+                "file": "+ Encounters/dailyNotes/发布日志.md"
               }
             }
           },
@@ -442,13 +443,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "370c740fa415de94",
+  "active": "d03d40db100dce0c",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/cn函数.md",
     "+ Encounters/dailyNotes/20240926000000.md",
+    "+ Encounters/天命日记.md",
+    "+ Encounters/dailyNotes/cn函数.md",
     "+ Encounters/dailyNotes/Dashboard.md",
     "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
-    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/Banking APP tables.md",
     "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
     "2. Areas/01认知科学/五维思考法.md",
