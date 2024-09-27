@@ -5,8 +5,8 @@
   "translucency": false,
   "nativeMenus": true,
   "baseFontSize": 18,
-  "monospaceFontFamily": "Constantia",
-  "textFontFamily": "Microsoft YaHei,Arial",
+  "monospaceFontFamily": "JetBrains Mono,HarmonyOS Sans SC,Consolas,Constantia",
+  "textFontFamily": "JetBrains Mono,HarmonyOS Sans SC,Inter,Microsoft YaHei,Arial",
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "snippets"

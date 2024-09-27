@@ -168,7 +168,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240927001200.md",
+                "file": "+ Encounters/dailyNotes/20240927121718.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -327,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240927001200.md"
+                "file": "+ Encounters/dailyNotes/20240927121718.md"
               }
             }
           },
@@ -337,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240927001200.md",
+                "file": "+ Encounters/dailyNotes/20240927121718.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -349,7 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240927001200.md",
+                "file": "+ Encounters/dailyNotes/20240927121718.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -396,7 +396,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20240927001200.md"
+                "file": "+ Encounters/dailyNotes/20240927121718.md"
               }
             }
           },
@@ -458,9 +458,10 @@
   },
   "active": "5ea11d278772517d",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/20240927001200.md",
+    "+ Encounters/dailyNotes/20240927121718.md",
     "+ Encounters/dailyNotes/SWR.md",
     "+ Encounters/dailyNotes/假值处理.md",
-    "+ Encounters/dailyNotes/20240927001200.md",
     "+ Encounters/dailyNotes/Convex数据库.md",
     "+ Encounters/dailyNotes/发布日志.md",
     "+ Encounters/dailyNotes/pnpm.md",
@@ -483,7 +484,6 @@
     "+ Encounters/dailyNotes/20240906000000.md",
     "Extras/textgenerator/prompts/awesomePrompts/wikipediapageAwesome.md",
     "Extras/textgenerator/prompts/awesomePrompts/asciiartistAwesome.md",
-    "Extras/textgenerator/prompts/awesomePrompts/machinelearningengineerAwesome.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
