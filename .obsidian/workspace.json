@@ -163,6 +163,19 @@
             }
           },
           {
+            "id": "5ea11d278772517d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20240927001200.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -189,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       },
       {
         "id": "f42d0d263473f08f",
@@ -314,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/SWR.md"
+                "file": "+ Encounters/dailyNotes/20240927001200.md"
               }
             }
           },
@@ -324,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/SWR.md",
+                "file": "+ Encounters/dailyNotes/20240927001200.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/SWR.md",
+                "file": "+ Encounters/dailyNotes/20240927001200.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -383,7 +396,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/SWR.md"
+                "file": "+ Encounters/dailyNotes/20240927001200.md"
               }
             }
           },
@@ -443,10 +456,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "370c740fa415de94",
+  "active": "5ea11d278772517d",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/假值处理.md",
     "+ Encounters/dailyNotes/SWR.md",
+    "+ Encounters/dailyNotes/假值处理.md",
     "+ Encounters/dailyNotes/20240927001200.md",
     "+ Encounters/dailyNotes/Convex数据库.md",
     "+ Encounters/dailyNotes/发布日志.md",
