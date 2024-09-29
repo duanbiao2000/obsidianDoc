@@ -375,6 +375,14 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "9b99eb6d98ba1a41",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ]
       }
