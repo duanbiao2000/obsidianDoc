@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "@admin, @server, @client",
+      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+    },
+    {
+      "basename": "Analytics",
+      "path": "+ Encounters/dailyNotes/Analytics.md"
+    },
+    {
       "basename": "Flutter小部件",
       "path": "+ Encounters/dailyNotes/Flutter小部件.md"
     },
@@ -105,10 +113,6 @@
       "path": "+ Encounters/dailyNotes/机器学习的实际价值.md"
     },
     {
-      "basename": "@admin, @server, @client",
-      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
-    },
-    {
       "basename": "20240829000000",
       "path": "+ Encounters/dailyNotes/20240829000000.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Javascrip三省笔记0522",
       "path": "2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md"
-    },
-    {
-      "basename": "设计色彩搭配",
-      "path": "4. Archives/剪辑/设计色彩搭配.md"
     }
   ],
   "omittedPaths": [
