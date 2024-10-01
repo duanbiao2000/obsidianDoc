@@ -168,7 +168,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md",
+                "file": "+ Encounters/dailyNotes/20241001223424.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -326,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/天命日记.md"
+                "file": "+ Encounters/dailyNotes/20241001223424.md"
               }
             }
           },
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/天命日记.md",
+                "file": "+ Encounters/dailyNotes/20241001223424.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/天命日记.md",
+                "file": "+ Encounters/dailyNotes/20241001223424.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +403,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/天命日记.md"
+                "file": "+ Encounters/dailyNotes/20241001223424.md"
               }
             }
           },
@@ -463,11 +463,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2673f9a57394c4a4",
+  "active": "5ea11d278772517d",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/发布日志.md",
-    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md",
+    "+ Encounters/dailyNotes/20241001223424.md",
+    "+ Encounters/天命日记.md",
+    "+ Encounters/dailyNotes/发布日志.md",
     "+ Encounters/dailyNotes/手机github笔记试用.md",
     "+ Encounters/dailyNotes/20240927121718.md",
     "+ Encounters/dailyNotes/20240927001200.md",
@@ -490,7 +491,6 @@
     "2. Areas/前端开发/CSS/CSS学习笔记0624.md",
     "Extras/textgenerator/prompts/awesomePrompts/hypnotherapistAwesome.md",
     "2. Areas/Creative/早班车/早班车0609.md",
-    "+ Encounters/dailyNotes/20240906000000.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
