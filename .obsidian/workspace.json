@@ -466,14 +466,19 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "5ea11d278772517d",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/20241002004535.md",
+    "+ Encounters/dailyNotes/Flutter小部件.md",
+    "+ Encounters/dailyNotes/20241002000000.md",
     "+ Encounters/dailyNotes/Analytics.md",
     "+ Encounters/dailyNotes/@admin, @server, @client.md",
-    "+ Encounters/dailyNotes/Flutter小部件.md",
     "+ Encounters/dailyNotes/20241001223424.md",
     "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md",
     "+ Encounters/天命日记.md",
@@ -495,8 +500,6 @@
     "Extras/Template/康奈尔笔记法.md",
     "+ Encounters/dailyNotes/20240905000000.md",
     "Extras/textgenerator/prompts/awesomePrompts/titlegeneratorforwrittenpiecesAwesome.md",
-    "2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代.md",
-    "Extras/textgenerator/prompts/awesomePrompts/proofreaderAwesome.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

@@ -55481,10 +55481,10 @@ __export(main_exports, {
   default: () => NoteToMpPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian9 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 
 // src/note-preview.ts
-var import_obsidian7 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 
 // src/utils.ts
 var import_obsidian = require("obsidian");
@@ -55506,10 +55506,14 @@ function setVersion(version) {
   }
 }
 function applyStyle(root, cssRoot) {
+  const cssText = root.style.cssText;
   cssRoot.walkRules((rule) => {
     if (root.matches(rule.selector)) {
       rule.walkDecls((decl) => {
-        root.style.setProperty(decl.prop, decl.value);
+        const setted = cssText.includes(decl.prop);
+        if (!setted || decl.important) {
+          root.style.setProperty(decl.prop, decl.value);
+        }
       });
     }
   });
@@ -55534,6 +55538,20 @@ function uevent(name) {
   (0, import_obsidian.requestUrl)(url).then().catch((error) => {
     console.error("Failed to send event: " + url, error);
   });
+}
+function debounce(func, wait) {
+  let timeout = null;
+  return function(...args) {
+    const context = this;
+    const later = () => {
+      timeout = null;
+      func.apply(context, args);
+    };
+    if (timeout !== null) {
+      clearTimeout(timeout);
+    }
+    timeout = setTimeout(later, wait);
+  };
 }
 
 // src/weixin-api.ts
@@ -55659,12 +55677,13 @@ var NMPSettings = class {
     this.defaultHighlight = "\u9ED8\u8BA4";
     this.showStyleUI = true;
     this.linkStyle = "inline";
-    this.embedStyle = "quote";
+    this.embedStyle = "content";
     this.lineNumber = true;
     this.useCustomCss = false;
     this.authKey = "";
     this.wxInfo = [];
     this.math = "latex";
+    this.baseCSS = "";
   }
   // 静态方法，用于获取实例
   static getInstance() {
@@ -55691,7 +55710,8 @@ var NMPSettings = class {
       authKey,
       wxInfo,
       math,
-      useCustomCss
+      useCustomCss,
+      baseCSS
     } = data;
     const settings = NMPSettings.getInstance();
     if (defaultStyle) {
@@ -55724,6 +55744,9 @@ var NMPSettings = class {
     if (useCustomCss !== void 0) {
       settings.useCustomCss = useCustomCss;
     }
+    if (baseCSS) {
+      settings.baseCSS = baseCSS;
+    }
     settings.getExpiredDate();
   }
   static allSettings() {
@@ -55738,7 +55761,8 @@ var NMPSettings = class {
       "authKey": settings.authKey,
       "wxInfo": settings.wxInfo,
       "math": settings.math,
-      "useCustomCss": settings.useCustomCss
+      "useCustomCss": settings.useCustomCss,
+      "baseCSS": settings.baseCSS
     };
   }
   getExpiredDate() {
@@ -65879,10 +65903,8 @@ ul {
 }
 
 .note-embed-excalidraw-left {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .note-embed-excalidraw-center {
@@ -65900,8 +65922,40 @@ ul {
 }
 
 .note-embed-excalidraw {
-
+  display: inline-block;
 }
+
+.note-embed-excalidraw svg {
+  width: 100%;
+  height: 100%;
+}
+
+.note-embed-svg-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.note-embed-svg-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.note-embed-svg-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.note-embed-svg svg {
+  width: 100%;
+  height: 100%;
+}
+
 `;
 
 // node_modules/marked/lib/marked.esm.js
@@ -68095,6 +68149,9 @@ function GetCalloutTitle(callout, text) {
   return title;
 }
 var CalloutRenderer = class extends Extension {
+  matched(text) {
+    return matchCallouts(text) != "";
+  }
   async renderer(token) {
     let callout = matchCallouts(token.text);
     if (callout == "") {
@@ -68119,6 +68176,182 @@ var CalloutRenderer = class extends Extension {
       body = await this.marked.parse(token.text);
     }
     return `<section class="note-callout ${info == null ? void 0 : info.style}"><section class="note-callout-title-wrap"><span class="note-callout-icon">${info == null ? void 0 : info.icon}</span><span class="note-callout-title">${title}<span></section><section class="note-callout-content">${body}</section></section>`;
+  }
+  markedExtension() {
+    return {
+      async: true,
+      walkTokens: async (token) => {
+        if (token.type !== "blockquote") {
+          return;
+        }
+        token.html = await this.renderer(token);
+      },
+      extensions: [{
+        name: "blockquote",
+        level: "block",
+        renderer: (token) => {
+          return token.html;
+        }
+      }]
+    };
+  }
+};
+
+// src/markdown/box.ts
+var import_obsidian4 = require("obsidian");
+var Box = class extends Extension {
+  getBoxTitle(text) {
+    let start = text.indexOf("]") + 1;
+    let end = text.indexOf("\n");
+    if (end === -1)
+      end = text.length;
+    if (start >= end)
+      return "";
+    return text.slice(start, end).trim();
+  }
+  getBoxId(text) {
+    const regex = /\[#(.*?)\]/g;
+    let m;
+    if (m = regex.exec(text)) {
+      return m[1];
+    }
+    return "";
+  }
+  matched(text) {
+    return this.getBoxId(text) != "";
+  }
+  parseStyle(text) {
+    const style = text.split(":").map((s) => s.trim());
+    if (style.length != 2)
+      return null;
+    const key = style[0];
+    const value = style[1];
+    return { key, value };
+  }
+  parseBox(text) {
+    const lines = text.split("\n");
+    let style = /* @__PURE__ */ new Map();
+    let content = [];
+    let isStyle = false;
+    for (let line of lines) {
+      if (line === "===") {
+        isStyle = !isStyle;
+        continue;
+      }
+      if (isStyle) {
+        const s = this.parseStyle(line);
+        if (s)
+          style.set(s.key, s.value);
+      } else {
+        content.push(line);
+      }
+    }
+    const contentStr = content.join("\n");
+    return { style, contentStr };
+  }
+  async reqContent(id, title, style, content) {
+    const host = "http://localhost:4000";
+    const path = "/math/box";
+    const url = `${host}${path}`;
+    try {
+      const res = await (0, import_obsidian4.requestUrl)({
+        url,
+        method: "POST",
+        contentType: "application/json",
+        headers: {
+          authkey: NMPSettings.getInstance().authKey
+        },
+        body: JSON.stringify({
+          id,
+          title,
+          style: Object.fromEntries(style),
+          content
+        })
+      });
+      if (res.status === 200) {
+        console.log(res.json.content);
+        return res.json.content;
+      }
+      return res.json.msg;
+    } catch (error) {
+      console.log(error);
+      return error.message;
+    }
+  }
+  processColor(style) {
+    const keys = style.keys();
+    for (let key of keys) {
+      if (key.includes("color")) {
+        const value = style.get(key);
+        if (!value)
+          continue;
+        if (value.startsWith("rgb") || value.startsWith("#")) {
+          continue;
+        }
+        style.set(key, "#" + value);
+      }
+    }
+  }
+  async renderer(token) {
+    let boxId = this.getBoxId(token.text);
+    if (boxId == "") {
+      const body = this.marked.parser(token.tokens);
+      return `<blockquote>${body}</blockquote>`;
+      ;
+    }
+    const title = this.getBoxTitle(token.text);
+    let style = /* @__PURE__ */ new Map();
+    let content = "";
+    const index = token.text.indexOf("\n");
+    if (index > 0) {
+      const pared = this.parseBox(token.text.slice(index + 1));
+      style = pared.style;
+      content = await this.marked.parse(pared.contentStr);
+    }
+    this.processColor(style);
+    console.log(title, style, content);
+    const reqContent = await this.reqContent(boxId, title, style, content);
+    return reqContent;
+  }
+  markedExtension() {
+    return {
+      extensions: [{
+        name: "blockquote",
+        level: "block",
+        renderer: (token) => {
+          return token.html;
+        }
+      }]
+    };
+  }
+};
+
+// src/markdown/blockquote.ts
+var Blockquote = class extends Extension {
+  constructor(app, settings, assetsManager, callback) {
+    super(app, settings, assetsManager, callback);
+    this.callout = new CalloutRenderer(app, settings, assetsManager, callback);
+    if (settings.isAuthKeyVaild()) {
+      this.box = new Box(app, settings, assetsManager, callback);
+    }
+  }
+  async prepare() {
+    if (!this.marked) {
+      console.error("marked is not ready");
+      return;
+    }
+    if (this.callout)
+      this.callout.marked = this.marked;
+    if (this.box)
+      this.box.marked = this.marked;
+    return;
+  }
+  async renderer(token) {
+    if (this.callout.matched(token.text)) {
+      return await this.callout.renderer(token);
+    }
+    const body = this.marked.parser(token.tokens);
+    return `<blockquote>${body}</blockquote>`;
   }
   markedExtension() {
     return {
@@ -68227,7 +68460,7 @@ var import_lib = __toESM(require_lib(), 1);
 var es_default = import_lib.default;
 
 // src/markdown/code.ts
-var import_obsidian5 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // node_modules/html-to-image/es/util.js
 function resolveUrl(url, baseUrl) {
@@ -68983,7 +69216,7 @@ async function toPng(node, options2 = {}) {
 }
 
 // src/markdown/math.ts
-var import_obsidian4 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 var inlineRule = /^(\${1,2})(?!\$)((?:\\.|[^\\\n])*?(?:\\.|[^\\\n\$]))\1/;
 var blockRule = /^(\${1,2})\n((?:\\[^]|[^\\])+?)\n\1(?:\n|$)/;
 var svgCache = /* @__PURE__ */ new Map();
@@ -69014,7 +69247,7 @@ var MathRendererQueue = class {
           path = "/math/tex";
         }
         const url = `${this.host}${path}`;
-        (0, import_obsidian4.requestUrl)({
+        (0, import_obsidian5.requestUrl)({
           url,
           method: "POST",
           contentType: "application/json",
@@ -69222,7 +69455,7 @@ var CodeRenderer = class extends Extension {
       const res = await wxUploadImage(blob, name, token);
       if (res.errcode != 0) {
         const msg = `\u4E0A\u4F20\u56FE\u7247\u5931\u8D25: ${res.errcode} ${res.errmsg}`;
-        new import_obsidian5.Notice(msg);
+        new import_obsidian6.Notice(msg);
         console.error(msg);
         continue;
       }
@@ -69552,7 +69785,7 @@ var LinkRenderer = class extends Extension {
 };
 
 // src/markdown/local-file.ts
-var import_obsidian6 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 var LocalFileRegex = /^!\[\[(.*?)\]\]/;
 var LocalImageManager = class {
   constructor() {
@@ -69585,7 +69818,7 @@ var LocalImageManager = class {
       const res = await wxUploadImage(new Blob([fileData]), file.name, token);
       if (res.errcode != 0) {
         const msg = `\u4E0A\u4F20\u56FE\u7247\u5931\u8D25: ${res.errcode} ${res.errmsg}`;
-        new import_obsidian6.Notice(msg);
+        new import_obsidian7.Notice(msg);
         console.error(msg);
       }
       value.url = res.url;
@@ -69616,7 +69849,7 @@ var LocalImageManager = class {
     this.images.clear();
   }
 };
-var LocalFile = class extends Extension {
+var _LocalFile = class extends Extension {
   constructor() {
     super(...arguments);
     this.index = 0;
@@ -69768,7 +70001,7 @@ var LocalFile = class extends Extension {
   }
   async getExcalidrawUrl(data) {
     const url = "https://obplugin.sunboshi.tech/math/excalidraw";
-    const req = await (0, import_obsidian6.requestUrl)({
+    const req = await (0, import_obsidian7.requestUrl)({
       url,
       method: "POST",
       contentType: "application/json",
@@ -69783,28 +70016,30 @@ var LocalFile = class extends Extension {
     }
     return req.json.url;
   }
-  parseExcalidrawLink(link2) {
-    let file = "";
+  parseLinkStyle(link2) {
+    let filename = "";
     let style = 'style="width:100%;height:100%"';
-    let classname = "note-embed-excalidraw-left";
-    const postions = /* @__PURE__ */ new Map([
-      ["left", "note-embed-excalidraw-left"],
-      ["center", "note-embed-excalidraw-center"],
-      ["right", "note-embed-excalidraw-right"]
-    ]);
+    let postion = "left";
+    const postions = ["left", "center", "right"];
     if (link2.includes("|")) {
       const items = link2.split("|");
-      file = items[0];
+      filename = items[0];
       let size = "";
       if (items.length == 2) {
-        if (postions.has(items[1])) {
-          classname = items[1];
+        if (postions.includes(items[1])) {
+          postion = items[1];
         } else {
           size = items[1];
         }
       } else if (items.length == 3) {
         size = items[1];
-        classname = postions.get(items[2]) || classname;
+        if (postions.includes(items[1])) {
+          size = items[2];
+          postion = items[1];
+        } else {
+          size = items[1];
+          postion = items[2];
+        }
       }
       if (size != "") {
         const sizes = size.split("x");
@@ -69815,10 +70050,21 @@ var LocalFile = class extends Extension {
         }
       }
     } else {
-      file = link2;
+      filename = link2;
     }
-    if (file.endsWith("excalidraw") || file.endsWith("excalidraw.md")) {
-      return { file, style, classname };
+    return { filename, style, postion };
+  }
+  parseExcalidrawLink(link2) {
+    let classname = "note-embed-excalidraw-left";
+    const postions = /* @__PURE__ */ new Map([
+      ["left", "note-embed-excalidraw-left"],
+      ["center", "note-embed-excalidraw-center"],
+      ["right", "note-embed-excalidraw-right"]
+    ]);
+    let { filename, style, postion } = this.parseLinkStyle(link2);
+    classname = postions.get(postion) || classname;
+    if (filename.endsWith("excalidraw") || filename.endsWith("excalidraw.md")) {
+      return { filename, style, classname };
     }
     return null;
   }
@@ -69849,6 +70095,7 @@ var LocalFile = class extends Extension {
             const blob = await this.readBlob(src);
             if (blob.type === "image/svg+xml") {
               svg = await blob.text();
+              _LocalFile.fileCache.set(name, svg);
             } else {
               svg = "\u6682\u4E0D\u652F\u6301" + blob.type;
             }
@@ -69863,6 +70110,29 @@ var LocalFile = class extends Extension {
       console.error(error.message);
       this.callback.updateElementByID(id, "\u6E32\u67D3\u5931\u8D25:" + error.message);
     }
+  }
+  parseSVGLink(link2) {
+    let classname = "note-embed-svg-left";
+    const postions = /* @__PURE__ */ new Map([
+      ["left", "note-embed-svg-left"],
+      ["center", "note-embed-svg-center"],
+      ["right", "note-embed-svg-right"]
+    ]);
+    let { filename, style, postion } = this.parseLinkStyle(link2);
+    classname = postions.get(postion) || classname;
+    return { filename, style, classname };
+  }
+  async renderSVGFile(filename, id) {
+    const file = this.assetsManager.searchFile(filename);
+    if (file == null) {
+      const msg = "\u627E\u4E0D\u5230\u6587\u4EF6\uFF1A" + file;
+      console.error(msg);
+      this.callback.updateElementByID(id, msg);
+      return;
+    }
+    const content = await this.getFileContent(file, null, null);
+    _LocalFile.fileCache.set(filename, content);
+    this.callback.updateElementByID(id, content);
   }
   markedExtension() {
     return { extensions: [{
@@ -69897,8 +70167,24 @@ var LocalFile = class extends Extension {
         const info = this.parseExcalidrawLink(token.href);
         if (info) {
           const id2 = this.generateId();
-          this.renderExcalidraw(info.file, id2);
-          return `<section class="${info.classname}"><section class="note-embed-excalidraw" id="${id2}" ${info.style}>\u6E32\u67D3\u4E2D</section></section>`;
+          let svg = "\u6E32\u67D3\u4E2D";
+          if (_LocalFile.fileCache.has(info.filename)) {
+            svg = _LocalFile.fileCache.get(info.filename) || "\u6E32\u67D3\u5931\u8D25";
+          } else {
+            this.renderExcalidraw(info.filename, id2);
+          }
+          return `<span class="${info.classname}"><span class="note-embed-excalidraw" id="${id2}" ${info.style}>${svg}</span></span>`;
+        }
+        if (token.href.endsWith(".svg") || token.href.includes(".svg|")) {
+          const info2 = this.parseSVGLink(token.href);
+          const id2 = this.generateId();
+          let svg = "\u6E32\u67D3\u4E2D";
+          if (_LocalFile.fileCache.has(info2.filename)) {
+            svg = _LocalFile.fileCache.get(info2.filename) || "\u6E32\u67D3\u5931\u8D25";
+          } else {
+            this.renderSVGFile(info2.filename, id2);
+          }
+          return `<span class="${info2.classname}"><span class="note-embed-svg" id="${id2}" ${info2.style}>${svg}</span></span>`;
         }
         const id = this.generateId();
         this.renderFile(token.href, id);
@@ -69908,6 +70194,8 @@ var LocalFile = class extends Extension {
     }] };
   }
 };
+var LocalFile = _LocalFile;
+LocalFile.fileCache = /* @__PURE__ */ new Map();
 
 // src/markdown/text-highlight.ts
 var highlightRegex = /^==(.*?)==/;
@@ -69979,7 +70267,7 @@ var MarkedParser = class {
     const settings = NMPSettings.getInstance();
     const assetsManager = AssetsManager.getInstance();
     this.extensions.push(new LocalFile(app, settings, assetsManager, callback));
-    this.extensions.push(new CalloutRenderer(app, settings, assetsManager, callback));
+    this.extensions.push(new Blockquote(app, settings, assetsManager, callback));
     this.extensions.push(new CodeHighlight(app, settings, assetsManager, callback));
     this.extensions.push(new EmbedBlockMark(app, settings, assetsManager, callback));
     this.extensions.push(new SVGIcon(app, settings, assetsManager, callback));
@@ -70023,15 +70311,18 @@ var MarkedParser = class {
 // src/note-preview.ts
 var VIEW_TYPE_NOTE_PREVIEW = "note-preview";
 var FRONT_MATTER_REGEX = /^(---)$.+?^(---)$.+?/ims;
-var NotePreview = class extends import_obsidian7.ItemView {
+var NotePreview = class extends import_obsidian8.ItemView {
   constructor(leaf) {
     super(leaf);
+    this.observer = null;
+    this.editorView = null;
     this.workspace = this.app.workspace;
     this.settings = NMPSettings.getInstance();
     this.assetsManager = AssetsManager.getInstance();
     this.currentTheme = this.settings.defaultStyle;
     this.currentHighlight = this.settings.defaultHighlight;
     this.markedParser = new MarkedParser(this.app, this);
+    this.debouncedRenderMarkdown = debounce(this.renderMarkdown.bind(this), 1e3);
   }
   getViewType() {
     return VIEW_TYPE_NOTE_PREVIEW;
@@ -70047,11 +70338,14 @@ var NotePreview = class extends import_obsidian7.ItemView {
     this.listeners = [
       this.workspace.on("active-leaf-change", () => this.update())
     ];
+    this.setupMutationObserver();
     this.renderMarkdown();
     uevent("open");
   }
   async onClose() {
     this.listeners.forEach((listener) => this.workspace.offref(listener));
+    this.releaseMutationObserver();
+    LocalFile.fileCache.clear();
     uevent("close");
   }
   onAppIdChanged() {
@@ -70062,9 +70356,65 @@ var NotePreview = class extends import_obsidian7.ItemView {
     LocalImageManager.getInstance().cleanup();
     CardDataManager.getInstance().cleanup();
     this.renderMarkdown();
+    this.setupMutationObserver();
+  }
+  setupMutationObserver() {
+    var _a;
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian8.MarkdownView);
+    const editorView = (_a = view == null ? void 0 : view.editor) == null ? void 0 : _a.cm;
+    if (!editorView)
+      return;
+    if (this.editorView === editorView) {
+      return;
+    }
+    this.releaseMutationObserver();
+    this.editorView = editorView;
+    const targetElement = editorView.dom;
+    const renderIfExcalidraw = (target) => {
+      var _a2;
+      if ((_a2 = target.getAttribute("src")) == null ? void 0 : _a2.includes(".excalidraw")) {
+        const name = target.getAttribute("src") || "";
+        if (LocalFile.fileCache.has(name)) {
+          return;
+        }
+        this.debouncedRenderMarkdown();
+      }
+    };
+    this.observer = new MutationObserver((mutationsList) => {
+      mutationsList.forEach((mutation) => {
+        try {
+          const target = mutation.target;
+          if (target.classList.contains("internal-embed")) {
+            renderIfExcalidraw(target);
+          } else {
+            const items = target.getElementsByClassName("internal-embed");
+            for (let i = 0; i < items.length; i++) {
+              renderIfExcalidraw(items[i]);
+            }
+            ;
+          }
+        } catch (error) {
+          console.error(error);
+        }
+      });
+    });
+    this.observer.observe(targetElement, {
+      attributes: true,
+      // 监听属性变化
+      childList: true,
+      // 监听子节点的变化
+      subtree: true
+      // 监听子树中的节点变化
+    });
+  }
+  releaseMutationObserver() {
+    var _a;
+    (_a = this.observer) == null ? void 0 : _a.disconnect();
+    this.observer = null;
+    this.editorView = null;
   }
   errorContent(error) {
-    return '<h1>\u6E32\u67D3\u5931\u8D25!</h1><br/>\u5982\u9700\u5E2E\u52A9\u8BF7\u524D\u5F80&nbsp;&nbsp;<a href="https://github.com/sunbooshi/note-to-mp/issues">https://github.com/sunbooshi/note-to-mp/issues</a>&nbsp;&nbsp;\u53CD\u9988<br/><br/>\u5982\u679C\u65B9\u4FBF\uFF0C\u8BF7\u63D0\u4F9B\u5F15\u53D1\u9519\u8BEF\u7684\u5B8C\u6574Markdown\u5185\u5BB9\u3002<br/><br/><br/>Obsidian\u7248\u672C\uFF1A' + import_obsidian7.apiVersion + `<br/>\u9519\u8BEF\u4FE1\u606F\uFF1A<br/>${error}`;
+    return '<h1>\u6E32\u67D3\u5931\u8D25!</h1><br/>\u5982\u9700\u5E2E\u52A9\u8BF7\u524D\u5F80&nbsp;&nbsp;<a href="https://github.com/sunbooshi/note-to-mp/issues">https://github.com/sunbooshi/note-to-mp/issues</a>&nbsp;&nbsp;\u53CD\u9988<br/><br/>\u5982\u679C\u65B9\u4FBF\uFF0C\u8BF7\u63D0\u4F9B\u5F15\u53D1\u9519\u8BEF\u7684\u5B8C\u6574Markdown\u5185\u5BB9\u3002<br/><br/><br/>Obsidian\u7248\u672C\uFF1A' + import_obsidian8.apiVersion + `<br/>\u9519\u8BEF\u4FE1\u606F\uFF1A<br/>${error}`;
   }
   async renderMarkdown() {
     try {
@@ -70100,7 +70450,7 @@ var NotePreview = class extends import_obsidian7.ItemView {
       className = this.currentTheme;
     }
     const html2 = `<section class="${className}" id="article-section">${article}</section>`;
-    const doc = (0, import_obsidian7.sanitizeHTMLToDom)(html2);
+    const doc = (0, import_obsidian8.sanitizeHTMLToDom)(html2);
     if (doc.firstChild) {
       this.articleDiv.appendChild(doc.firstChild);
     }
@@ -70122,16 +70472,19 @@ var NotePreview = class extends import_obsidian7.ItemView {
       const theme = this.assetsManager.getTheme(this.currentTheme);
       const highlight = this.assetsManager.getHighlight(this.currentHighlight);
       const customCSS = this.settings.useCustomCss ? this.assetsManager.customCSS : "";
+      const baseCSS = this.settings.baseCSS ? `.note-to-mp {${this.settings.baseCSS}}` : "";
       return `${inline_css_default}
 
 ${highlight.css}
 
 ${theme.css}
 
+${baseCSS}
+
 ${customCSS}`;
     } catch (error) {
       console.error(error);
-      new import_obsidian7.Notice(`\u83B7\u53D6\u6837\u5F0F\u5931\u8D25${this.currentTheme}|${this.currentHighlight}\uFF0C\u8BF7\u68C0\u67E5\u4E3B\u9898\u662F\u5426\u6B63\u786E\u5B89\u88C5\u3002`);
+      new import_obsidian8.Notice(`\u83B7\u53D6\u6837\u5F0F\u5931\u8D25${this.currentTheme}|${this.currentHighlight}\uFF0C\u8BF7\u68C0\u67E5\u4E3B\u9898\u662F\u5426\u6B63\u786E\u5B89\u88C5\u3002`);
     }
     return "";
   }
@@ -70165,7 +70518,7 @@ ${customCSS}`;
   buildToolbar(parent) {
     this.toolbar = parent.createDiv({ cls: "preview-toolbar" });
     let lineDiv;
-    if (this.settings.wxInfo.length > 1 || import_obsidian7.Platform.isDesktop) {
+    if (this.settings.wxInfo.length > 1 || import_obsidian8.Platform.isDesktop) {
       lineDiv = this.toolbar.createDiv({ cls: "toolbar-line" });
       lineDiv.createDiv({ cls: "style-label" }).innerText = "\u516C\u4F17\u53F7:";
       const wxSelect = lineDiv.createEl("select", { cls: "style-select" });
@@ -70191,13 +70544,13 @@ ${customCSS}`;
       this.currentAppId = this.settings.wxInfo[0].appid;
     }
     lineDiv = this.toolbar.createDiv({ cls: "toolbar-line" });
-    if (import_obsidian7.Platform.isDesktop) {
+    if (import_obsidian8.Platform.isDesktop) {
       const copyBtn = lineDiv.createEl("button", { cls: "copy-button" }, async (button) => {
         button.setText("\u590D\u5236");
       });
       copyBtn.onclick = async () => {
         await this.copyArticle();
-        new import_obsidian7.Notice("\u590D\u5236\u6210\u529F\uFF0C\u8BF7\u5230\u516C\u4F17\u53F7\u7F16\u8F91\u5668\u7C98\u8D34\u3002");
+        new import_obsidian8.Notice("\u590D\u5236\u6210\u529F\uFF0C\u8BF7\u5230\u516C\u4F17\u53F7\u7F16\u8F91\u5668\u7C98\u8D34\u3002");
         uevent("copy");
       };
     }
@@ -70494,6 +70847,7 @@ ${customCSS}`;
         this.showMsg("\u53D1\u5E03\u5931\u8D25!" + draft.errmsg);
       }
     } catch (error) {
+      console.error(error);
       this.showMsg("\u53D1\u5E03\u5931\u8D25!" + error.message);
     }
   }
@@ -70501,7 +70855,7 @@ ${customCSS}`;
     const item = this.articleDiv.querySelector("#" + id);
     if (!item)
       return;
-    const doc = (0, import_obsidian7.sanitizeHTMLToDom)(html2);
+    const doc = (0, import_obsidian8.sanitizeHTMLToDom)(html2);
     item.empty();
     if (doc.childElementCount > 0) {
       for (const child of doc.children) {
@@ -70514,8 +70868,8 @@ ${customCSS}`;
 };
 
 // src/setting-tab.ts
-var import_obsidian8 = require("obsidian");
-var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
+var import_obsidian9 = require("obsidian");
+var NoteToMpSettingTab = class extends import_obsidian9.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -70541,12 +70895,12 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
   async testWXInfo() {
     const authKey = this.settings.authKey;
     if (authKey.length == 0) {
-      new import_obsidian8.Notice("\u8BF7\u5148\u8BBE\u7F6EauthKey");
+      new import_obsidian9.Notice("\u8BF7\u5148\u8BBE\u7F6EauthKey");
       return;
     }
     const wxInfo = this.settings.wxInfo;
     if (wxInfo.length == 0) {
-      new import_obsidian8.Notice("\u8BF7\u5148\u8BBE\u7F6E\u516C\u4F17\u53F7\u4FE1\u606F");
+      new import_obsidian9.Notice("\u8BF7\u5148\u8BBE\u7F6E\u516C\u4F17\u53F7\u4FE1\u606F");
       return;
     }
     try {
@@ -70554,27 +70908,27 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         const res = await wxGetToken(authKey, wx.appid, wx.secret.replace("SECRET", ""));
         if (res.status != 200) {
           const data2 = res.json;
-          new import_obsidian8.Notice(`${wx.name}|${wx.appid} \u6D4B\u8BD5\u5931\u8D25\uFF1A${data2.message}`);
+          new import_obsidian9.Notice(`${wx.name}|${wx.appid} \u6D4B\u8BD5\u5931\u8D25\uFF1A${data2.message}`);
           break;
         }
         const data = res.json;
         if (data.token.length == 0) {
-          new import_obsidian8.Notice(`${wx.name}|${wx.appid} \u6D4B\u8BD5\u5931\u8D25`);
+          new import_obsidian9.Notice(`${wx.name}|${wx.appid} \u6D4B\u8BD5\u5931\u8D25`);
           break;
         }
-        new import_obsidian8.Notice(`${wx.name} \u6D4B\u8BD5\u901A\u8FC7`);
+        new import_obsidian9.Notice(`${wx.name} \u6D4B\u8BD5\u901A\u8FC7`);
       }
     } catch (error) {
-      new import_obsidian8.Notice(`\u6D4B\u8BD5\u5931\u8D25\uFF1A${error}`);
+      new import_obsidian9.Notice(`\u6D4B\u8BD5\u5931\u8D25\uFF1A${error}`);
     }
   }
   async encrypt() {
     if (this.wxInfo.length == 0) {
-      new import_obsidian8.Notice("\u8BF7\u8F93\u5165\u5185\u5BB9");
+      new import_obsidian9.Notice("\u8BF7\u8F93\u5165\u5185\u5BB9");
       return false;
     }
     if (this.settings.wxInfo.length > 0) {
-      new import_obsidian8.Notice("\u5DF2\u7ECF\u52A0\u5BC6\u8FC7\u4E86\uFF0C\u8BF7\u5148\u6E05\u9664\uFF01");
+      new import_obsidian9.Notice("\u5DF2\u7ECF\u52A0\u5BC6\u8FC7\u4E86\uFF0C\u8BF7\u5148\u6E05\u9664\uFF01");
       return false;
     }
     const wechat = [];
@@ -70586,7 +70940,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
       }
       const items = line.split("|");
       if (items.length != 3) {
-        new import_obsidian8.Notice("\u683C\u5F0F\u9519\u8BEF\uFF0C\u8BF7\u68C0\u67E5");
+        new import_obsidian9.Notice("\u683C\u5F0F\u9519\u8BEF\uFF0C\u8BF7\u68C0\u67E5");
         return false;
       }
       const name = items[0];
@@ -70601,7 +70955,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
       const res = await wxEncrypt(this.settings.authKey, wechat);
       if (res.status != 200) {
         const data2 = res.json;
-        new import_obsidian8.Notice(`${data2.message}`);
+        new import_obsidian9.Notice(`${data2.message}`);
         return false;
       }
       const data = res.json;
@@ -70612,10 +70966,10 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
       await this.plugin.saveSettings();
       this.wxInfo = this.parseWXInfo();
       this.displayWXInfo(this.wxInfo);
-      new import_obsidian8.Notice("\u52A0\u5BC6\u6210\u529F");
+      new import_obsidian9.Notice("\u52A0\u5BC6\u6210\u529F");
       return true;
     } catch (error) {
-      new import_obsidian8.Notice(`\u52A0\u5BC6\u5931\u8D25\uFF1A${error}`);
+      new import_obsidian9.Notice(`\u52A0\u5BC6\u5931\u8D25\uFF1A${error}`);
       console.error(error);
     }
     return false;
@@ -70630,7 +70984,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     this.wxInfo = this.parseWXInfo();
-    new import_obsidian8.Setting(containerEl).setName("\u9ED8\u8BA4\u6837\u5F0F").addDropdown((dropdown) => {
+    new import_obsidian9.Setting(containerEl).setName("\u9ED8\u8BA4\u6837\u5F0F").addDropdown((dropdown) => {
       const styles = this.plugin.assetsManager.themes;
       for (let s of styles) {
         dropdown.addOption(s.className, s.name);
@@ -70641,7 +70995,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u4EE3\u7801\u9AD8\u4EAE").addDropdown((dropdown) => {
+    new import_obsidian9.Setting(containerEl).setName("\u4EE3\u7801\u9AD8\u4EAE").addDropdown((dropdown) => {
       const styles = this.plugin.assetsManager.highlights;
       for (let s of styles) {
         dropdown.addOption(s.name, s.name);
@@ -70652,14 +71006,14 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u5728\u5DE5\u5177\u680F\u5C55\u793A\u6837\u5F0F\u9009\u62E9").setDesc("\u5EFA\u8BAE\u5728\u79FB\u52A8\u7AEF\u5173\u95ED\uFF0C\u53EF\u4EE5\u589E\u5927\u6587\u7AE0\u9884\u89C8\u533A\u57DF").addToggle((toggle) => {
+    new import_obsidian9.Setting(containerEl).setName("\u5728\u5DE5\u5177\u680F\u5C55\u793A\u6837\u5F0F\u9009\u62E9").setDesc("\u5EFA\u8BAE\u5728\u79FB\u52A8\u7AEF\u5173\u95ED\uFF0C\u53EF\u4EE5\u589E\u5927\u6587\u7AE0\u9884\u89C8\u533A\u57DF").addToggle((toggle) => {
       toggle.setValue(this.settings.showStyleUI);
       toggle.onChange(async (value) => {
         this.settings.showStyleUI = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u94FE\u63A5\u5C55\u793A\u6837\u5F0F").addDropdown((dropdown) => {
+    new import_obsidian9.Setting(containerEl).setName("\u94FE\u63A5\u5C55\u793A\u6837\u5F0F").addDropdown((dropdown) => {
       dropdown.addOption("inline", "\u5185\u5D4C");
       dropdown.addOption("footnote", "\u811A\u6CE8");
       dropdown.setValue(this.settings.linkStyle);
@@ -70668,7 +71022,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u6587\u4EF6\u5D4C\u5165\u5C55\u793A\u6837\u5F0F").addDropdown((dropdown) => {
+    new import_obsidian9.Setting(containerEl).setName("\u6587\u4EF6\u5D4C\u5165\u5C55\u793A\u6837\u5F0F").addDropdown((dropdown) => {
       dropdown.addOption("quote", "\u5F15\u7528");
       dropdown.addOption("content", "\u6B63\u6587");
       dropdown.setValue(this.settings.embedStyle);
@@ -70677,7 +71031,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u6570\u5B66\u516C\u5F0F\u8BED\u6CD5").addDropdown((dropdown) => {
+    new import_obsidian9.Setting(containerEl).setName("\u6570\u5B66\u516C\u5F0F\u8BED\u6CD5").addDropdown((dropdown) => {
       dropdown.addOption("latex", "latex");
       dropdown.addOption("asciimath", "asciimath");
       dropdown.setValue(this.settings.math);
@@ -70687,14 +71041,14 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u663E\u793A\u4EE3\u7801\u884C\u53F7").addToggle((toggle) => {
+    new import_obsidian9.Setting(containerEl).setName("\u663E\u793A\u4EE3\u7801\u884C\u53F7").addToggle((toggle) => {
       toggle.setValue(this.settings.lineNumber);
       toggle.onChange(async (value) => {
         this.settings.lineNumber = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u83B7\u53D6\u66F4\u591A\u4E3B\u9898").addButton((button) => {
+    new import_obsidian9.Setting(containerEl).setName("\u83B7\u53D6\u66F4\u591A\u4E3B\u9898").addButton((button) => {
       button.setButtonText("\u4E0B\u8F7D");
       button.onClick(async () => {
         button.setButtonText("\u4E0B\u8F7D\u4E2D...");
@@ -70707,7 +71061,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.assetsManager.openAssets();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("\u6E05\u7A7A\u4E3B\u9898").addButton((button) => {
+    new import_obsidian9.Setting(containerEl).setName("\u6E05\u7A7A\u4E3B\u9898").addButton((button) => {
       button.setButtonText("\u6E05\u7A7A");
       button.onClick(async () => {
         await this.plugin.assetsManager.removeThemes();
@@ -70715,7 +71069,14 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian8.Setting(containerEl).setName("CSS\u4EE3\u7801\u7247\u6BB5").addToggle((toggle) => {
+    new import_obsidian9.Setting(containerEl).setName("\u5168\u5C40CSS\u5C5E\u6027").setDesc("\u53EA\u80FD\u586B\u5199CSS\u5C5E\u6027\uFF0C\u4E0D\u80FD\u5199\u9009\u62E9\u5668").addTextArea((text) => {
+      this.wxTextArea = text;
+      text.setPlaceholder("\u8BF7\u8F93\u5165CSS\u5C5E\u6027\uFF0C\u5982\uFF1Abackground: #fff;padding: 10px;").setValue(this.settings.baseCSS).onChange(async (value) => {
+        this.settings.baseCSS = value;
+        await this.plugin.saveSettings();
+      }).inputEl.setAttr("style", "width: 520px; height: 60px;");
+    });
+    new import_obsidian9.Setting(containerEl).setName("CSS\u4EE3\u7801\u7247\u6BB5").setDesc("\u4F18\u5148\u7EA7\u6700\u9AD8\uFF0C\u53EF\u4EE5\u8986\u76D6\u9ED8\u8BA4\u6837\u5F0F\u548C\u57FA\u672C\u6837\u5F0F").addToggle((toggle) => {
       toggle.setValue(this.settings.useCustomCss);
       toggle.onChange(async (value) => {
         this.settings.useCustomCss = value;
@@ -70725,7 +71086,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
       button.setIcon("refresh-ccw");
       button.onClick(async () => {
         await this.plugin.assetsManager.loadCustomCSS();
-        new import_obsidian8.Notice("\u5237\u65B0\u6210\u529F");
+        new import_obsidian9.Notice("\u5237\u65B0\u6210\u529F");
       });
     }).addButton((button) => {
       button.setIcon("folder-open");
@@ -70733,12 +71094,12 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
         await this.plugin.assetsManager.openAssets();
       });
     });
-    let descHtml = '\u8BE6\u60C5\u8BF4\u660E\uFF1A<a href="https://mp.weixin.qq.com/s/LYujo4ODEYLuq0OkzkkoCw">https://mp.weixin.qq.com/s/LYujo4ODEYLuq0OkzkkoCw</a>';
+    let descHtml = '\u8BE6\u60C5\u8BF4\u660E\uFF1A<a href="https://sunboshi.tech/subscribe">https://sunboshi.tech/subscribe</a>';
     if (this.settings.expireat) {
       const timestr = this.settings.expireat.toLocaleString();
       descHtml = `\u6709\u6548\u671F\u81F3\uFF1A${timestr} <br/>${descHtml}`;
     }
-    new import_obsidian8.Setting(containerEl).setName("\u6CE8\u518C\u7801\uFF08AuthKey\uFF09").setDesc((0, import_obsidian8.sanitizeHTMLToDom)(descHtml)).addText((text) => {
+    new import_obsidian9.Setting(containerEl).setName("\u6CE8\u518C\u7801\uFF08AuthKey\uFF09").setDesc((0, import_obsidian9.sanitizeHTMLToDom)(descHtml)).addText((text) => {
       text.setPlaceholder("\u8BF7\u8F93\u5165\u6CE8\u518C\u7801").setValue(this.settings.authKey).onChange(async (value) => {
         this.settings.authKey = value.trim();
         this.settings.getExpiredDate();
@@ -70748,13 +71109,13 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
     let isClear = this.settings.wxInfo.length > 0;
     let isRealClear = false;
     const buttonText = isClear ? "\u6E05\u7A7A\u516C\u4F17\u53F7\u4FE1\u606F" : "\u52A0\u5BC6\u516C\u4F17\u53F7\u4FE1\u606F";
-    new import_obsidian8.Setting(containerEl).setName("\u516C\u4F17\u53F7\u4FE1\u606F").addTextArea((text) => {
+    new import_obsidian9.Setting(containerEl).setName("\u516C\u4F17\u53F7\u4FE1\u606F").addTextArea((text) => {
       this.wxTextArea = text;
       text.setPlaceholder("\u8BF7\u8F93\u5165\u516C\u4F17\u53F7\u4FE1\u606F\n\u683C\u5F0F\uFF1A\u516C\u4F17\u53F7\u540D\u79F0|\u516C\u4F17\u53F7AppID|\u516C\u4F17\u53F7AppSecret\n\u591A\u4E2A\u516C\u4F17\u53F7\u8BF7\u6362\u884C\u8F93\u5165\n\u8F93\u5165\u5B8C\u6210\u540E\u70B9\u51FB\u52A0\u5BC6\u6309\u94AE").setValue(this.wxInfo).onChange((value) => {
         this.wxInfo = value;
       }).inputEl.setAttr("style", "width: 520px; height: 120px;");
     });
-    new import_obsidian8.Setting(containerEl).addButton((button) => {
+    new import_obsidian9.Setting(containerEl).addButton((button) => {
       button.setButtonText(buttonText);
       button.onClick(async () => {
         if (isClear) {
@@ -70789,7 +71150,7 @@ var NoteToMpSettingTab = class extends import_obsidian8.PluginSettingTab {
 };
 
 // src/main.ts
-var NoteToMpPlugin = class extends import_obsidian9.Plugin {
+var NoteToMpPlugin = class extends import_obsidian10.Plugin {
   constructor(app, manifest) {
     super(app, manifest);
     AssetsManager.setup(app, manifest);
@@ -70834,7 +71195,7 @@ var NoteToMpPlugin = class extends import_obsidian9.Plugin {
       leaf = leaves[0];
     } else {
       leaf = workspace.getRightLeaf(false);
-      await (leaf == null ? void 0 : leaf.setViewState({ type: VIEW_TYPE_NOTE_PREVIEW, active: true }));
+      await (leaf == null ? void 0 : leaf.setViewState({ type: VIEW_TYPE_NOTE_PREVIEW, active: false }));
     }
     if (leaf)
       workspace.revealLeaf(leaf);
