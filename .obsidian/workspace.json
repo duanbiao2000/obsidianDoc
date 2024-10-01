@@ -6,7 +6,7 @@
       {
         "id": "e68007277d077560",
         "type": "tabs",
-        "dimension": 67.6147382029735,
+        "dimension": 65.93406593406593,
         "children": [
           {
             "id": "2ceed23c498c013f",
@@ -176,19 +176,6 @@
             }
           },
           {
-            "id": "4096ec786badd57a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241001000000.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -215,12 +202,12 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       },
       {
         "id": "f42d0d263473f08f",
         "type": "tabs",
-        "dimension": 32.3852617970265,
+        "dimension": 34.065934065934066,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -248,8 +235,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -340,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241001000000.md"
+                "file": "+ Encounters/天命日记.md"
               }
             }
           },
@@ -350,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241001000000.md",
+                "file": "+ Encounters/天命日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -362,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241001000000.md",
+                "file": "+ Encounters/天命日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +387,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 379.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -417,7 +403,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241001000000.md"
+                "file": "+ Encounters/天命日记.md"
               }
             }
           },
@@ -477,18 +463,18 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "4096ec786badd57a",
+  "active": "2673f9a57394c4a4",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/发布日志.md",
+    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md",
-    "+ Encounters/dailyNotes/20241001000000.md",
+    "+ Encounters/dailyNotes/手机github笔记试用.md",
     "+ Encounters/dailyNotes/20240927121718.md",
     "+ Encounters/dailyNotes/20240927001200.md",
     "+ Encounters/dailyNotes/SWR.md",
     "+ Encounters/dailyNotes/假值处理.md",
     "+ Encounters/dailyNotes/Convex数据库.md",
-    "+ Encounters/dailyNotes/发布日志.md",
     "+ Encounters/dailyNotes/pnpm.md",
-    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/cn函数.md",
     "+ Encounters/dailyNotes/Dashboard.md",
     "+ Encounters/dailyNotes/JSON Web Token (JWT).md",

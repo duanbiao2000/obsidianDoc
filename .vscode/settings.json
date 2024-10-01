@@ -1,3 +1,5 @@
 {
-  "commentTranslate.targetLanguage": "en"
+  "commentTranslate.targetLanguage": "en",
+  "Codegeex.Chat.fontSize": 26,
+  "Codegeex.RepoIndex": true
 }
