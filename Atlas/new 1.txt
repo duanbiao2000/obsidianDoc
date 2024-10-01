@@ -1,90 +1,52 @@
-The GitHub codes (Give a ⭐️): https://github.com/yatunyi15075/BankApplication 
-The Assets Folder + PostgreSQL Tables: https://drive.google.com/drive/folders/1DkatCkGXUyfYBosg_DHV4o5gGGMNYby6?usp=sharing
+人们通常以三种方式面对挑战：
+第一种方式是“努力优先”方法，这种方法往往会导致倦怠。
+第二种方式是“努力其次”方法，这种方法更安全、更容易，但仍然可能导致落后。
+第三种方式是“未来证明”方法，这种方法考虑了未来的挑战，并提前做好准备。
+挑战是无限的，无论是在学校、大学还是职业生涯中，总有新的挑战等待着。
+每个挑战都是一个通往新机会的门槛，通过挑战意味着进入新的难度级别。
+感觉落后是相对于挑战的，即使当前挑战被克服，也可能在下一个挑战中再次落后。
+真正的领先是通过升级学习系统来应对未来的挑战，而不仅仅是当前的挑战。
+改变的成本不是线性的，大部分成本在于消除现有习惯。
+
+为了开始“未来证明”方法，需要：
+	确定未来挑战的性质。
+	了解那些已经尝试或克服这些挑战的人的经历。
+	列出需要改进的技能、过程和属性，并确定优先级。
 
 
----------------------------------
+================
 
 
-1. 调整学习心态：负面期待会拖延学习效率，而积极预期（如告诉自己任务很快能完成）可以让学习更快更高效。
+## 如何升级思维导图（直播辅导）要点：
 
-2. 聚焦关键内容：应用80/20法则，集中精力在能为考试带来最多分数的“高价值”知识点，避免在已经熟练的内容上花费过多时间。
+1. 不要逐段学习，要分层学习。  
+    首先理解主题的大概轮廓，构建简单的框架。
+    然后，深入主题，添加更多细节。
+    最后，将所有细节整合进框架。
+2. 积极主动地进行分组和简化。 
+    避免只是简单地将概念联系起来，要将相关概念归类到一起。
+    尝试将复杂的信息简化为易于理解的形式。
+    每添加几个关键词，就停下来思考一下，如何将它们分组和简化。
+3. 避免认知超载。
+    在你开始感到困惑时，停下脚步，回顾你的思维导图。
+    对信息进行分组和简化，使其更容易理解。
+    每次添加信息后，都要确保它与整个框架相协调。
+4. 不要将所有细节都记在思维导图中。
+    尝试将一些细节信息放到其他地方，例如闪卡。
+    只有在尝试过简化和整合后，仍然无法理解的信息，才放到闪卡中。
+5. 将思维导图用于整个主题，而不是单独的部分。
+    思维导图应该反映你对整个主题的理解。
+    不要仅仅针对某一个部分进行思维导图，而要将其整合到更大的框架中。
+6. 要敢于尝试，不要害怕出错。
+    不要害怕在使用思维导图的过程中犯错。
+    尝试是学习的关键，不要因为害怕出错而放弃尝试。
+7. 学习质量影响复习时间。
+    初次学习时，要注重对主题的理解和整合。
+    避免过度关注细节，而忽略了整体框架。
+    这样可以减少复习时间，提高学习效率。
+8. 不要害怕不确定性，要敢于尝试。
+    当你感到不确定时，不要过度寻求信息，而是要尝试去做。
+    只有通过实践，才能真正理解和掌握知识。
+    信息过多，反而会降低你的学习效率。
 
-3. 错题学习：通过做题发现弱点并复习错误，比被动学习效率更高。真正的复习是通过不断纠错来提升的。
-
-4. 使用计时器提高效率：设置明确的时间限制，可以促使你在限定时间内完成更多任务，避免学习拖延。
-
-5. 合理压缩学习时间：应用帕金森定律，任务往往会扩展到你给它分配的时间。通过给自己紧凑的学习时间，可以提高效率并减少浪费。
-
-6. 简化学习流程：减少无效的重读教材和笔记，将时间花在更有产出的任务上，如做历年试题和强化弱点。
-
-7. 设定目标并衡量进度：像登山一样设立中途目标，通过时间节点检查自己是否高效完成了任务。
-
---------------------------------
-
-In this YouTube video, Steven, also known as JB, shares his unconventional approach to studying that led him to achieve perfect grades (10 nines and an A in additional mathematics) in his GCSE exams, results that only 0.03% of students achieve. Despite his impressive grades, he explains that he didn't spend hours studying each day. Instead, he focused on efficiency, balance, and integrating learning into his daily life. Here are the key takeaways from his method:
-
-1. Redefining Studying:
-   - JB emphasizes that he only spent around an hour a day on formal studying (past papers, notes, etc.).
-   - He argues that active recall, or the process of revisiting knowledge, can be integrated into daily activities beyond traditional study sessions.
-   - He applied "studying without studying" by engaging in immersion, where he would connect his surroundings to what he was learning. For example, he might think about photosynthesis while seeing the sun or analyze his food in terms of nutrients.
-
-2. Immersion and Spaced Repetition:
-   - JB practiced active recall throughout the day by constantly questioning and revisiting learned concepts.
-   - This helped him reinforce his knowledge multiple times a day, which he argues is more effective than single long study sessions.
-   - He also employed spaced repetition unconsciously by spreading out his learning over time.
-
-3. Practical Application in French:
-   - JB applied the same principle of immersion to learning French by changing the language settings on his phone, listening to French songs, and even playing video games in French. This constant exposure helped him improve in the subject without formal studying.
-
-4. Consistency Over Intensity:
-   - He stresses the importance of doing a little every day rather than cramming. Regular small efforts stack up over time and prevent burnout.
-   - JB highlights that consistent, daily practice, even for short periods, leads to better results than irregular, intense study sessions.
-
-5. Bonus Tip – Never Settle:
-   - One of the most crucial aspects of his approach was always aiming higher. Even after achieving great results, he never let himself become complacent.
-   - He encourages students to push beyond their limits and aim for the best possible outcome, using high standards to drive their efforts.
-
-Overall, JB's approach shows that by integrating learning into daily life, staying consistent, and using methods like active recall and immersion, students can achieve excellent results without sacrificing balance and enjoyment in life.
-
-在这段YouTube视频中，Steven（也被称为JB）分享了他不寻常的学习方式，这使他在GCSE考试中取得了完美的成绩（10个9分和额外数学的A），这是只有0.03%的学生能够达到的成绩。尽管成绩斐然，他解释说他并没有每天花几个小时学习。相反，他专注于效率、平衡，并将学习融入日常生活。以下是他方法的关键要点：
-
-1. 重新定义学习：
-   - JB强调他每天只花大约一个小时进行正式学习（过去的试卷、笔记等）。
-   - 他认为，通过在传统学习课程之外的日常活动中不断回顾知识，可以整合主动回忆的过程。
-   - 他通过沉浸式学习实现了“不学习的学习”，将周围环境与他正在学习的内容联系起来。例如，看到太阳时他会思考光合作用，或者分析食物的营养成分。
-
-2. 沉浸和间隔重复：
-   - JB通过整天不断提问和回顾学过的概念来进行主动回忆。
-   - 这帮助他一天多次加强知识，他认为这比单次长时间学习更有效。
-   - 他还无意中采用了间隔重复，通过时间分散学习。
-
-3. 在法语学习中的实际应用：
-   - JB将同样的沉浸原则应用于学习法语，通过改变手机的语言设置，听法语歌曲，甚至玩法语视频游戏。这种持续的接触帮助他在没有正式学习的情况下提高了成绩。
-
-4. 一致性优于强度：
-   - 他强调每天做一点比临时抱佛脚更重要。定期的小努力随着时间的推移会累积起来，防止疲劳。
-   - JB强调，即使短时间，每天的练习也比不规律的、高强度的学习更有效。
-
-5. 额外建议——永不满足：
-   - 他的方法中最关键的一点是总是追求更高。即使取得了很好的成绩，他也从不让自己变得自满。
-   - 他鼓励学生超越自己的极限，追求最好的结果，用高标准来推动他们的努力。
-
-总的来说，JB的方法表明，通过将学习融入日常生活，保持一致性，并使用主动回忆和沉浸等方法，学生可以在不牺牲生活平衡和享受的情况下取得优异的成绩。
-
-是的，JB 在视频中提到了评估自己学习效果和进步的方式，主要通过主动回忆（Active Recall）和不断测试来检查和改进他的知识。具体来说，他采用了以下方法来评估自己的学习效果：
-
-1. 主动回忆（Active Recall）：
-   - JB 通过不断回忆他学过的知识点来检验自己的掌握情况。例如，他会在日常生活中，比如吃早餐或看到阳光时，快速回忆相关的知识（如光合作用的化学方程或营养素的功能）。
-   - 如果在回忆过程中发现自己对某些知识不清楚或有遗漏，他会立刻查找相关信息，从而修补这些知识空白。这种方式使他在每天的多个场合进行回忆和评估，而不仅仅依赖于坐在桌前学习。
-
-2. 模拟考试和做题：
-   - 每天大约花一小时做往年考题（past papers），这是他巩固和评估自己知识的主要方法。通过做题，他能够在真实考试情境下测试自己的知识掌握程度，并通过不断练习找到和弥补自己在知识点上的不足。
-   - JB 强调做题的过程和飞机制造的测试飞行类似，反复测试能够帮助发现弱点，并通过每次测试改进，确保在真正考试时没有任何漏洞。
-
-3. 高频率、低强度的回顾：
-   - 他通过频繁的小型回顾来代替长时间的高强度学习。JB 认为频繁的小量学习和测试能够提供更好的反馈，因为每次回顾时，他都能发现知识点上的薄弱之处，并即时弥补。这样，他每天评估自己的进步，通过多次的微调提高知识掌握。
-
-4. 一致性与重复：
-   - 他说，每次回忆知识点都相当于增加一次巩固记忆的机会，而这些重复会带来指数级的知识保留效果。JB 通过频繁的主动回忆和做题，不断积累对知识的掌握，从而能够清晰地评估自己是否有进步。
-
-总结来说，JB 的学习评估方法主要依赖于主动回忆和做题，并通过这些测试不断自我反馈，修正学习中的不足。通过这些方法，他可以在短时间内高效地学习并评估进步情况。
+总之，要升级思维导图，需要改变学习方法，更加注重理解、整合和简化。

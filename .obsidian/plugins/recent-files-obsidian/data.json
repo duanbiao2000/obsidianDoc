@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20241001000000",
+      "path": "+ Encounters/dailyNotes/20241001000000.md"
+    },
+    {
       "basename": "GraphQL Apollo Prisma",
       "path": "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "日语",
       "path": "2. Areas/01认知科学/信息差/日语.md"
-    },
-    {
-      "basename": "Slideshow",
-      "path": "Atlas/Cards/Excalidraw/Scripts/Downloaded/Slideshow.md"
     }
   ],
   "omittedPaths": [
