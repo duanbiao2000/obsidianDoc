@@ -202,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 11
       },
       {
         "id": "f42d0d263473f08f",
@@ -326,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+                "file": "+ Encounters/dailyNotes/Flutter小部件.md"
               }
             }
           },
@@ -336,7 +336,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
+                "file": "+ Encounters/dailyNotes/Flutter小部件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md",
+                "file": "+ Encounters/dailyNotes/Flutter小部件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +403,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/@admin, @server, @client.md"
+                "file": "+ Encounters/dailyNotes/Flutter小部件.md"
               }
             }
           },
@@ -463,9 +463,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7156adc7cea16609",
+  "active": "5ea11d278772517d",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/Analytics.md",
+    "+ Encounters/dailyNotes/@admin, @server, @client.md",
     "+ Encounters/dailyNotes/Flutter小部件.md",
     "+ Encounters/dailyNotes/20241001223424.md",
     "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md",
@@ -490,7 +491,6 @@
     "Extras/textgenerator/prompts/awesomePrompts/titlegeneratorforwrittenpiecesAwesome.md",
     "2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代.md",
     "Extras/textgenerator/prompts/awesomePrompts/proofreaderAwesome.md",
-    "2. Areas/前端开发/CSS/CSS学习笔记0624.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
