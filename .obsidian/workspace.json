@@ -7,7 +7,6 @@
         "id": "e68007277d077560",
         "type": "tabs",
         "dimension": 65.93406593406593,
-        "dimension": 65.93406593406593,
         "children": [
           {
             "id": "2ceed23c498c013f",
@@ -204,12 +203,10 @@
           }
         ],
         "currentTab": 11
-        "currentTab": 11
       },
       {
         "id": "f42d0d263473f08f",
         "type": "tabs",
-        "dimension": 34.065934065934066,
         "dimension": 34.065934065934066,
         "children": [
           {
@@ -238,7 +235,6 @@
               }
             }
           }
-        ]
         ]
       }
     ],
@@ -392,7 +388,6 @@
     ],
     "direction": "horizontal",
     "width": 379.5
-    "width": 379.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -419,9 +414,17 @@
               "type": "smart-connections-view",
               "state": {}
             }
+          },
+          {
+            "id": "2d7adfafa398bba0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "518eb51cee4d6b5d",
@@ -463,9 +466,7 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "5ea11d278772517d",
