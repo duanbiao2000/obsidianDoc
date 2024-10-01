@@ -281,10 +281,9 @@
   "markdown-prettifier:markdown-prettifier-run": [
     {
       "modifiers": [
-        "Alt",
         "Mod"
       ],
-      "key": "L"
+      "key": "S"
     }
   ],
   "note-refactor-obsidian:app:extract-selection-content-only": [],
@@ -343,6 +342,15 @@
         "Alt"
       ],
       "key": "T"
+    }
+  ],
+  "editor:save-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
     }
   ]
 }
