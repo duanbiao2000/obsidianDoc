@@ -4,6 +4,8 @@ theme: null
 high_priority: false
 ---
 
+## Flutter小部件
+
 你提供的 `Responsive` 类是一个自定义的 Flutter 小部件，用于根据屏幕宽度来决定显示 `mobile` 还是 `desktop` 子小部件。这个类使用了 `LayoutBuilder` 来获取布局约束，并根据这些约束来选择合适的小部件。
 
 下面是带有逐行注释的代码，解释每一行的作用：

@@ -447,7 +447,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "publish:Publish changes...": false,
-      "templater-obsidian:Templater": false,
       "extract-highlights-plugin:Extract Highlights": false,
       "markdown-importer:Open format converter": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
@@ -467,8 +466,6 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
       "obsidian-git:Open Git source control": false
     }
   },
