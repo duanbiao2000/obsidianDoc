@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "阅读理解分析_设计稿",
+      "path": "1. Projects/Todo项目/阅读理解分析_设计稿.md"
+    },
+    {
+      "basename": "Tags Index",
+      "path": "Atlas/Index/Tags Index.md"
+    },
+    {
+      "basename": "学习Redux",
+      "path": "2. Areas/前端开发/React/状态管理/学习Redux.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "2. Areas/前端开发/React/Redux.md"
+    },
+    {
+      "basename": "React关键技术",
+      "path": "2. Areas/前端开发/React/React关键技术.md"
+    },
+    {
+      "basename": "知识炼金术",
+      "path": "2. Areas/01认知科学/知识炼金术.md"
+    },
+    {
+      "basename": "卡片笔记写作法0503",
+      "path": "1. Projects/周月总结/202405/卡片笔记写作法0503.md"
+    },
+    {
+      "basename": "7个高质量润色论文和文章的指令",
+      "path": "2. Areas/Creative/7个高质量润色论文和文章的指令.md"
+    },
+    {
+      "basename": "说话之道",
+      "path": "1. Projects/周月总结/说话之道.md"
+    },
+    {
+      "basename": "策展-Curation",
+      "path": "2. Areas/01认知科学/策展-Curation.md"
+    },
+    {
+      "basename": "Git",
+      "path": "3. Resources/Tools/Git.md"
+    },
+    {
+      "basename": "Github Gist JavaScript 的精彩代码片段",
+      "path": "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md"
+    },
+    {
+      "basename": "GitHub Actions",
+      "path": "2. Areas/前端开发/React/GitHub Actions.md"
+    },
+    {
+      "basename": "React Bootstrap",
+      "path": "2. Areas/前端开发/React/React Bootstrap.md"
+    },
+    {
+      "basename": "Prisma",
+      "path": "+ Encounters/dailyNotes/Prisma.md"
+    },
+    {
+      "basename": "天命日记",
+      "path": "+ Encounters/天命日记.md"
+    },
+    {
+      "basename": "发布日志",
+      "path": "+ Encounters/dailyNotes/发布日志.md"
+    },
+    {
       "basename": "Flutter小部件",
       "path": "+ Encounters/dailyNotes/Flutter小部件.md"
     },
@@ -19,14 +87,6 @@
     {
       "basename": "GraphQL Apollo Prisma",
       "path": "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md"
-    },
-    {
-      "basename": "天命日记",
-      "path": "+ Encounters/天命日记.md"
-    },
-    {
-      "basename": "发布日志",
-      "path": "+ Encounters/dailyNotes/发布日志.md"
     },
     {
       "basename": "20240927121718",
@@ -139,62 +199,6 @@
     {
       "basename": "指数型组织：重构商业模式，引领未来增长",
       "path": "3. Resources/影音读/书本通读/非技术类/指数型组织：重构商业模式，引领未来增长.md"
-    },
-    {
-      "basename": "20240811201626",
-      "path": "+ Encounters/dailyNotes/20240811201626.md"
-    },
-    {
-      "basename": "蒙太奇介绍",
-      "path": "4. Archives/剪辑/蒙太奇介绍.md"
-    },
-    {
-      "basename": "前端路线图",
-      "path": "Atlas/kanban/前端路线图.md"
-    },
-    {
-      "basename": "批判性思维",
-      "path": "+ Encounters/dailyNotes/批判性思维.md"
-    },
-    {
-      "basename": "20240626145134- Mermaid图标模板",
-      "path": "3. Resources/Tools/20240626145134- Mermaid图标模板.md"
-    },
-    {
-      "basename": "Mapbox GL JS",
-      "path": "1. Projects/Autospace Workshop/Mapbox GL JS.md"
-    },
-    {
-      "basename": "React组件间通信代码示例",
-      "path": "2. Areas/前端开发/React/React组件间通信代码示例.md"
-    },
-    {
-      "basename": "React软件架构",
-      "path": "2. Areas/前端开发/React/React软件架构.md"
-    },
-    {
-      "basename": "UML基础",
-      "path": "2. Areas/前端开发/Vue/UML基础.md"
-    },
-    {
-      "basename": "漏斗笔记法",
-      "path": "1. Projects/周月总结/202405/漏斗笔记法.md"
-    },
-    {
-      "basename": "数据库扩展策略",
-      "path": "3. Resources/社区/数据库扩展策略.md"
-    },
-    {
-      "basename": "@盖洛普测试",
-      "path": "2. Areas/01认知科学/@盖洛普测试.md"
-    },
-    {
-      "basename": "7个高质量润色论文和文章的指令",
-      "path": "2. Areas/Creative/7个高质量润色论文和文章的指令.md"
-    },
-    {
-      "basename": "蔡康永的說話之道",
-      "path": "1. Projects/周月总结/202405/蔡康永的說話之道.md"
     }
   ],
   "omittedPaths": [

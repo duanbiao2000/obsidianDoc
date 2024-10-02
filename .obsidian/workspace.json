@@ -6,7 +6,6 @@
       {
         "id": "e68007277d077560",
         "type": "tabs",
-        "dimension": 65.93406593406593,
         "children": [
           {
             "id": "2ceed23c498c013f",
@@ -176,6 +175,32 @@
             }
           },
           {
+            "id": "27d438e58a9146b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/前端开发/React/状态管理/学习Redux.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9620a10525b0f5b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -202,40 +227,7 @@
             }
           }
         ],
-        "currentTab": 11
-      },
-      {
-        "id": "f42d0d263473f08f",
-        "type": "tabs",
-        "dimension": 34.065934065934066,
-        "children": [
-          {
-            "id": "2673f9a57394c4a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/天命日记.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d03d40db100dce0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/发布日志.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -247,7 +239,7 @@
       {
         "id": "d97aabd4c19cd880",
         "type": "tabs",
-        "dimension": 77.75510204081633,
+        "dimension": 69.76744186046511,
         "children": [
           {
             "id": "6a73026fe242f7bd",
@@ -276,7 +268,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"high priority\"]",
+                "query": "tag:#商业",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -318,7 +310,7 @@
       {
         "id": "8f46a0033c43bfb9",
         "type": "tabs",
-        "dimension": 22.24489795918367,
+        "dimension": 30.23255813953488,
         "children": [
           {
             "id": "43d90e2fd0cc20b1",
@@ -326,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Flutter小部件.md"
+                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md"
               }
             }
           },
@@ -336,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Flutter小部件.md",
+                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Flutter小部件.md",
+                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -374,14 +366,6 @@
               "type": "BC-tree",
               "state": {}
             }
-          },
-          {
-            "id": "9b99eb6d98ba1a41",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
           }
         ]
       }
@@ -403,7 +387,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Flutter小部件.md"
+                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md"
               }
             }
           },
@@ -423,8 +407,26 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "77be52f7e8d21698",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2673f9a57394c4a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/天命日记.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       },
       {
         "id": "518eb51cee4d6b5d",
@@ -466,37 +468,39 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5ea11d278772517d",
+  "active": "9620a10525b0f5b7",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241002004535.md",
-    "+ Encounters/dailyNotes/Flutter小部件.md",
-    "+ Encounters/dailyNotes/20241002000000.md",
-    "+ Encounters/dailyNotes/Analytics.md",
-    "+ Encounters/dailyNotes/@admin, @server, @client.md",
-    "+ Encounters/dailyNotes/20241001223424.md",
-    "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md",
+    "1. Projects/Todo项目",
+    "Atlas/Index/Tags Index.md",
+    "1. Projects/Todo项目/阅读理解分析_设计稿.md",
+    "2. Areas/前端开发/React/状态管理/学习Redux.md",
+    "2. Areas/前端开发/React/Redux.md",
+    "2. Areas/前端开发/React/React关键技术.md",
+    "2. Areas/01认知科学/知识炼金术.md",
+    "1. Projects/周月总结/202405/卡片笔记写作法0503.md",
+    "2. Areas/Creative/7个高质量润色论文和文章的指令.md",
+    "Extras/textgenerator/templates/default/getOutline.md",
+    "1. Projects/周月总结/说话之道.md",
+    "Extras/textgenerator/prompts/default/summarizeLarge.md",
+    "Extras/textgenerator/prompts/default/summarize.md",
+    "Extras/textgenerator/templates/default/summarize.md",
+    "Extras/textgenerator/prompts/default/simplify.md",
+    "Extras/textgenerator/templates/default/simplify.md",
+    "2. Areas/01认知科学/策展-Curation.md",
+    "3. Resources/Tools/Git.md",
+    "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md",
+    "2. Areas/前端开发/React/GitHub Actions.md",
+    "2. Areas/前端开发/React/React Bootstrap.md",
+    "+ Encounters/dailyNotes/Prisma.md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/发布日志.md",
-    "+ Encounters/dailyNotes/手机github笔记试用.md",
-    "+ Encounters/dailyNotes/20240927121718.md",
-    "+ Encounters/dailyNotes/20240927001200.md",
-    "+ Encounters/dailyNotes/SWR.md",
-    "+ Encounters/dailyNotes/假值处理.md",
-    "+ Encounters/dailyNotes/Convex数据库.md",
-    "+ Encounters/dailyNotes/pnpm.md",
-    "+ Encounters/dailyNotes/cn函数.md",
-    "+ Encounters/dailyNotes/Dashboard.md",
-    "+ Encounters/dailyNotes/JSON Web Token (JWT).md",
-    "+ Encounters/dailyNotes/Banking APP tables.md",
-    "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md",
-    "2. Areas/01认知科学/五维思考法.md",
-    "+ Encounters/dailyNotes/Pre-emptive decision-making.md",
-    "Extras/Template/康奈尔笔记法.md",
-    "+ Encounters/dailyNotes/20240905000000.md",
-    "Extras/textgenerator/prompts/awesomePrompts/titlegeneratorforwrittenpiecesAwesome.md",
+    "+ Encounters/dailyNotes/Flutter小部件.md",
+    "+ Encounters/dailyNotes/20241002004535.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
