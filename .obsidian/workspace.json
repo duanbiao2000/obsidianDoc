@@ -201,6 +201,19 @@
             }
           },
           {
+            "id": "470b93522a4b5755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/Milvus向量数据库.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -227,7 +240,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -318,7 +331,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md"
+                "file": "+ Encounters/dailyNotes/Milvus向量数据库.md"
               }
             }
           },
@@ -328,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md",
+                "file": "+ Encounters/dailyNotes/Milvus向量数据库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,7 +353,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md",
+                "file": "+ Encounters/dailyNotes/Milvus向量数据库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -387,7 +400,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1. Projects/Todo项目/阅读理解分析_设计稿.md"
+                "file": "+ Encounters/dailyNotes/Milvus向量数据库.md"
               }
             }
           },
@@ -468,14 +481,17 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9620a10525b0f5b7",
+  "active": "470b93522a4b5755",
   "lastOpenFiles": [
+    "1. Projects/Todo项目/阅读理解分析_设计稿.md",
+    "+ Encounters/dailyNotes/Milvus向量数据库.md",
     "1. Projects/Todo项目",
     "Atlas/Index/Tags Index.md",
-    "1. Projects/Todo项目/阅读理解分析_设计稿.md",
     "2. Areas/前端开发/React/状态管理/学习Redux.md",
     "2. Areas/前端开发/React/Redux.md",
     "2. Areas/前端开发/React/React关键技术.md",
@@ -518,7 +534,6 @@
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145141.png",
     "1. Projects/周月总结/202404/assets/img/每日新知",
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
-    "1. Projects/周月总结/202404/assets/img",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",
     "5. Misc/Attachments/images/Untitled.canvas"

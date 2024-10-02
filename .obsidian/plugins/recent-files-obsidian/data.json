@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Milvus向量数据库",
+      "path": "+ Encounters/dailyNotes/Milvus向量数据库.md"
+    },
+    {
       "basename": "阅读理解分析_设计稿",
       "path": "1. Projects/Todo项目/阅读理解分析_设计稿.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240906002211",
       "path": "+ Encounters/dailyNotes/20240906002211.md"
-    },
-    {
-      "basename": "指数型组织：重构商业模式，引领未来增长",
-      "path": "3. Resources/影音读/书本通读/非技术类/指数型组织：重构商业模式，引领未来增长.md"
     }
   ],
   "omittedPaths": [
