@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Supabase",
+      "path": "+ Encounters/dailyNotes/Supabase.md"
+    },
+    {
       "basename": "Milvus向量数据库",
       "path": "+ Encounters/dailyNotes/Milvus向量数据库.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Github高分代码段",
       "path": "3. Resources/社区/Github/Github高分代码段.md"
-    },
-    {
-      "basename": "20240906002211",
-      "path": "+ Encounters/dailyNotes/20240906002211.md"
     }
   ],
   "omittedPaths": [
