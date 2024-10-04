@@ -214,6 +214,19 @@
             }
           },
           {
+            "id": "ffa3039636d8ac4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20241004000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -240,7 +253,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -331,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Supabase.md"
+                "file": "+ Encounters/dailyNotes/20241004000000.md"
               }
             }
           },
@@ -341,7 +354,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Supabase.md",
+                "file": "+ Encounters/dailyNotes/20241004000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -353,7 +366,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Supabase.md",
+                "file": "+ Encounters/dailyNotes/20241004000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -400,7 +413,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Supabase.md"
+                "file": "+ Encounters/dailyNotes/20241004000000.md"
               }
             }
           },
@@ -481,13 +494,16 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "470b93522a4b5755",
+  "active": "ffa3039636d8ac4f",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Milvus向量数据库.md",
     "+ Encounters/dailyNotes/Supabase.md",
+    "+ Encounters/dailyNotes/20241004000000.md",
+    "+ Encounters/dailyNotes/Milvus向量数据库.md",
     "1. Projects/Todo项目/阅读理解分析_设计稿.md",
     "1. Projects/Todo项目",
     "Atlas/Index/Tags Index.md",
@@ -512,7 +528,6 @@
     "+ Encounters/dailyNotes/Prisma.md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/发布日志.md",
-    "+ Encounters/dailyNotes/Flutter小部件.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

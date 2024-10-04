@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20241004000000",
+      "path": "+ Encounters/dailyNotes/20241004000000.md"
+    },
+    {
       "basename": "Supabase",
       "path": "+ Encounters/dailyNotes/Supabase.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240820000000",
       "path": "+ Encounters/dailyNotes/20240820000000.md"
-    },
-    {
-      "basename": "Github高分代码段",
-      "path": "3. Resources/社区/Github/Github高分代码段.md"
     }
   ],
   "omittedPaths": [
