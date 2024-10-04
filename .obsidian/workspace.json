@@ -219,7 +219,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241004000000.md",
+                "file": "+ Encounters/dailyNotes/Conway's Law.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -344,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241004000000.md"
+                "file": "+ Encounters/dailyNotes/Conway's Law.md"
               }
             }
           },
@@ -354,7 +354,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241004000000.md",
+                "file": "+ Encounters/dailyNotes/Conway's Law.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -366,7 +366,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241004000000.md",
+                "file": "+ Encounters/dailyNotes/Conway's Law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -413,7 +413,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241004000000.md"
+                "file": "+ Encounters/dailyNotes/Conway's Law.md"
               }
             }
           },
@@ -502,7 +502,7 @@
   "active": "ffa3039636d8ac4f",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/Supabase.md",
-    "+ Encounters/dailyNotes/20241004000000.md",
+    "+ Encounters/dailyNotes/Conway's Law.md",
     "+ Encounters/dailyNotes/Milvus向量数据库.md",
     "1. Projects/Todo项目/阅读理解分析_设计稿.md",
     "1. Projects/Todo项目",
