@@ -227,6 +227,19 @@
             }
           },
           {
+            "id": "7e9e61373b956954",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/Webhook.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "508be10a3c1257b6",
             "type": "leaf",
             "state": {
@@ -253,7 +266,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -344,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Conway's Law.md"
+                "file": "+ Encounters/dailyNotes/Webhook.md"
               }
             }
           },
@@ -354,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Conway's Law.md",
+                "file": "+ Encounters/dailyNotes/Webhook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -366,7 +379,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Conway's Law.md",
+                "file": "+ Encounters/dailyNotes/Webhook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -413,7 +426,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Conway's Law.md"
+                "file": "+ Encounters/dailyNotes/Webhook.md"
               }
             }
           },
@@ -494,13 +507,17 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ffa3039636d8ac4f",
+  "active": "7e9e61373b956954",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Supabase.md",
+    "+ Encounters/dailyNotes/TypeScript React Query.md",
+    "+ Encounters/dailyNotes/Webhook.md",
     "+ Encounters/dailyNotes/Conway's Law.md",
+    "+ Encounters/dailyNotes/Supabase.md",
     "+ Encounters/dailyNotes/Milvus向量数据库.md",
     "1. Projects/Todo项目/阅读理解分析_设计稿.md",
     "1. Projects/Todo项目",
@@ -524,8 +541,6 @@
     "2. Areas/前端开发/React/GitHub Actions.md",
     "2. Areas/前端开发/React/React Bootstrap.md",
     "+ Encounters/dailyNotes/Prisma.md",
-    "+ Encounters/天命日记.md",
-    "+ Encounters/dailyNotes/发布日志.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

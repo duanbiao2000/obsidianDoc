@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Webhook",
+      "path": "+ Encounters/dailyNotes/Webhook.md"
+    },
+    {
+      "basename": "TypeScript React Query",
+      "path": "+ Encounters/dailyNotes/TypeScript React Query.md"
+    },
+    {
       "basename": "Conway's Law",
       "path": "+ Encounters/dailyNotes/Conway's Law.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "GitHub中文排行榜",
       "path": "1. Projects/周月总结/GitHub中文排行榜.md"
-    },
-    {
-      "basename": "API数据请求",
-      "path": "2. Areas/前端开发/React/API数据请求.md"
-    },
-    {
-      "basename": "20240820000000",
-      "path": "+ Encounters/dailyNotes/20240820000000.md"
     }
   ],
   "omittedPaths": [
