@@ -232,7 +232,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Webhook.md",
+                "file": "+ Encounters/dailyNotes/Orama.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Webhook.md"
+                "file": "+ Encounters/dailyNotes/Orama.md"
               }
             }
           },
@@ -367,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Webhook.md",
+                "file": "+ Encounters/dailyNotes/Orama.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -379,7 +379,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Webhook.md",
+                "file": "+ Encounters/dailyNotes/Orama.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -426,7 +426,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Webhook.md"
+                "file": "+ Encounters/dailyNotes/Orama.md"
               }
             }
           },
@@ -514,8 +514,10 @@
   },
   "active": "7e9e61373b956954",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/TypeScript React Query.md",
+    "+ Encounters/dailyNotes/DeltaToken.md",
+    "+ Encounters/dailyNotes/Orama.md",
     "+ Encounters/dailyNotes/Webhook.md",
+    "+ Encounters/dailyNotes/TypeScript React Query.md",
     "+ Encounters/dailyNotes/Conway's Law.md",
     "+ Encounters/dailyNotes/Supabase.md",
     "+ Encounters/dailyNotes/Milvus向量数据库.md",
@@ -539,8 +541,6 @@
     "3. Resources/Tools/Git.md",
     "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md",
     "2. Areas/前端开发/React/GitHub Actions.md",
-    "2. Areas/前端开发/React/React Bootstrap.md",
-    "+ Encounters/dailyNotes/Prisma.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

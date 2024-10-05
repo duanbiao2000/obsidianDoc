@@ -46,6 +46,3 @@ Webhook 是一种在特定事件发生时，由一个应用程序向另一个应
 - **重试机制**：如果第一次尝试失败，应该有重试机制来保证消息的传递。
 
 Webhook 在现代 Web 开发中非常流行，尤其是在需要实时交互和高效率的应用程序之间。
-[Elliot's 智能软件即服务开发特辑 | 新加坡少年Elliot Chong\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1DasUekE3V/?spm_id_from=333.999.0.0&vd_source=7038f96b6bb3b14743531b102b109c43)
-
-[Elliot's 智能软件即服务开发特辑 | 新加坡少年Elliot Chong\_哔哩哔哩\_bilibili](https://space.bilibili.com/98835826/channel/collectiondetail?sid=3857159&ctype=0)

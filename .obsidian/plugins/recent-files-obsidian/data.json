@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Orama",
+      "path": "+ Encounters/dailyNotes/Orama.md"
+    },
+    {
+      "basename": "DeltaToken",
+      "path": "+ Encounters/dailyNotes/DeltaToken.md"
+    },
+    {
       "basename": "Webhook",
       "path": "+ Encounters/dailyNotes/Webhook.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "机器学习的实际价值",
       "path": "+ Encounters/dailyNotes/机器学习的实际价值.md"
-    },
-    {
-      "basename": "20240829000000",
-      "path": "+ Encounters/dailyNotes/20240829000000.md"
-    },
-    {
-      "basename": "GitHub中文排行榜",
-      "path": "1. Projects/周月总结/GitHub中文排行榜.md"
     }
   ],
   "omittedPaths": [
