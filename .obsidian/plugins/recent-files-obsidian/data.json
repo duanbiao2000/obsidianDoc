@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MVVM MVC",
+      "path": "+ Encounters/dailyNotes/MVVM MVC.md"
+    },
+    {
       "basename": "Kotlin的一些三方库",
       "path": "+ Encounters/dailyNotes/Kotlin的一些三方库.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "五维思考法",
       "path": "2. Areas/01认知科学/五维思考法.md"
-    },
-    {
-      "basename": "20240905000000",
-      "path": "+ Encounters/dailyNotes/20240905000000.md"
     }
   ],
   "omittedPaths": [

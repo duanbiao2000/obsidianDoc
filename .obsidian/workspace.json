@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
+                "file": "+ Encounters/dailyNotes/MVVM MVC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Kotlin的一些三方库.md"
+                "file": "+ Encounters/dailyNotes/MVVM MVC.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
+                "file": "+ Encounters/dailyNotes/MVVM MVC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
+                "file": "+ Encounters/dailyNotes/MVVM MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Kotlin的一些三方库.md"
+                "file": "+ Encounters/dailyNotes/MVVM MVC.md"
               }
             }
           },
@@ -308,8 +308,9 @@
   },
   "active": "7e9e61373b956954",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
     "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
+    "+ Encounters/dailyNotes/MVVM MVC.md",
+    "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
     "+ Encounters/dailyNotes/resolvers Zod.md",
     "1. Projects/周月总结/说话之道.md",
     "+ Encounters/dailyNotes/20241006000000.md",
@@ -334,7 +335,6 @@
     "2. Areas/前端开发/React/Redux.md",
     "2. Areas/前端开发/React/React关键技术.md",
     "2. Areas/01认知科学/知识炼金术.md",
-    "1. Projects/周月总结/202405/卡片笔记写作法0503.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
