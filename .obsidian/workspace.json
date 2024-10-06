@@ -507,9 +507,7 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "7e9e61373b956954",
