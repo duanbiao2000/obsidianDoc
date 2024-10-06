@@ -232,7 +232,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/周月总结/说话之道.md",
+                "file": "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/周月总结/说话之道.md"
+                "file": "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md"
               }
             }
           },
@@ -367,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/周月总结/说话之道.md",
+                "file": "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -379,7 +379,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/周月总结/说话之道.md",
+                "file": "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -427,7 +427,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1. Projects/周月总结/说话之道.md"
+                "file": "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md"
               }
             }
           },
@@ -516,8 +516,10 @@
   },
   "active": "7e9e61373b956954",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241006000000.md",
+    "+ Encounters/dailyNotes/resolvers Zod.md",
+    "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
     "1. Projects/周月总结/说话之道.md",
+    "+ Encounters/dailyNotes/20241006000000.md",
     "+ Encounters/dailyNotes/20240902230506.md",
     "Extras/textgenerator/prompts/default/getTags.md",
     "2. Areas/前端开发/JavaScript/深度优先搜索遍历树结构.md",
@@ -541,8 +543,6 @@
     "2. Areas/01认知科学/知识炼金术.md",
     "1. Projects/周月总结/202405/卡片笔记写作法0503.md",
     "2. Areas/Creative/7个高质量润色论文和文章的指令.md",
-    "Extras/textgenerator/templates/default/getOutline.md",
-    "Extras/textgenerator/prompts/default/summarizeLarge.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

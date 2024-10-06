@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "react-hook-form control对象 useForm",
+      "path": "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md"
+    },
+    {
+      "basename": "resolvers Zod",
+      "path": "+ Encounters/dailyNotes/resolvers Zod.md"
+    },
+    {
       "basename": "说话之道",
       "path": "1. Projects/周月总结/说话之道.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Boss简历迭代",
       "path": "2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代.md"
-    },
-    {
-      "basename": "早班车0609",
-      "path": "2. Areas/Creative/早班车/早班车0609.md"
     }
   ],
   "omittedPaths": [
