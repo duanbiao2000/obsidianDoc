@@ -13,7 +13,7 @@
   },
   "trashOption": "local",
   "useMarkdownLinks": false,
-  "vimMode": false,
+  "vimMode": true,
   "newLinkFormat": "shortest",
   "strictLineBreaks": true,
   "autoPairMarkdown": true,

@@ -232,7 +232,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Orama.md",
+                "file": "1. Projects/周月总结/说话之道.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -278,7 +278,7 @@
       {
         "id": "d97aabd4c19cd880",
         "type": "tabs",
-        "dimension": 69.76744186046511,
+        "dimension": 38.52376137512639,
         "children": [
           {
             "id": "6a73026fe242f7bd",
@@ -307,7 +307,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#商业",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -349,7 +349,7 @@
       {
         "id": "8f46a0033c43bfb9",
         "type": "tabs",
-        "dimension": 30.23255813953488,
+        "dimension": 61.476238624873616,
         "children": [
           {
             "id": "43d90e2fd0cc20b1",
@@ -357,7 +357,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Orama.md"
+                "file": "1. Projects/周月总结/说话之道.md"
               }
             }
           },
@@ -367,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Orama.md",
+                "file": "1. Projects/周月总结/说话之道.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -379,7 +379,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Orama.md",
+                "file": "1. Projects/周月总结/说话之道.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -410,7 +410,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 309.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -426,7 +426,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Orama.md"
+                "file": "1. Projects/周月总结/说话之道.md"
               }
             }
           },
@@ -483,7 +483,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -507,13 +508,23 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "7e9e61373b956954",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/DeltaToken.md",
+    "+ Encounters/dailyNotes/20240902230506.md",
+    "Extras/textgenerator/prompts/default/getTags.md",
+    "2. Areas/前端开发/JavaScript/深度优先搜索遍历树结构.md",
+    "Extras/textgenerator/prompts/awesomePrompts/fancytitlegeneratorAwesome.md",
+    "2. Areas/IELTS/雅思笔记.md",
+    "instructions.md",
+    "+ Encounters/dailyNotes/20240810201111.md",
     "+ Encounters/dailyNotes/Orama.md",
+    "+ Encounters/dailyNotes/20241006000000.md",
+    "+ Encounters/dailyNotes/DeltaToken.md",
     "+ Encounters/dailyNotes/Webhook.md",
     "+ Encounters/dailyNotes/TypeScript React Query.md",
     "+ Encounters/dailyNotes/Conway's Law.md",
@@ -531,14 +542,6 @@
     "Extras/textgenerator/templates/default/getOutline.md",
     "1. Projects/周月总结/说话之道.md",
     "Extras/textgenerator/prompts/default/summarizeLarge.md",
-    "Extras/textgenerator/prompts/default/summarize.md",
-    "Extras/textgenerator/templates/default/summarize.md",
-    "Extras/textgenerator/prompts/default/simplify.md",
-    "Extras/textgenerator/templates/default/simplify.md",
-    "2. Areas/01认知科学/策展-Curation.md",
-    "3. Resources/Tools/Git.md",
-    "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md",
-    "2. Areas/前端开发/React/GitHub Actions.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
