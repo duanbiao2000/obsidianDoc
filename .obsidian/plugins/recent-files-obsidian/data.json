@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20241006115539",
+      "path": "+ Encounters/dailyNotes/20241006115539.md"
+    },
+    {
       "basename": "react-hook-form control对象 useForm",
       "path": "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20240905000000",
       "path": "+ Encounters/dailyNotes/20240905000000.md"
-    },
-    {
-      "basename": "Boss简历迭代",
-      "path": "2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代.md"
     }
   ],
   "omittedPaths": [
