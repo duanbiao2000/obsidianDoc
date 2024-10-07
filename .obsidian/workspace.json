@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Pattern Solution.md"
+                "file": "Atlas/kanban/前端路线图.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Pattern Solution.md",
+                "file": "Atlas/kanban/前端路线图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Pattern Solution.md",
+                "file": "Atlas/kanban/前端路线图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Pattern Solution.md"
+                "file": "Atlas/kanban/前端路线图.md"
               }
             }
           },
@@ -312,9 +312,7 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "74a7bc996dfa0756",

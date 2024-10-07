@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "前端路线图",
+      "path": "Atlas/kanban/前端路线图.md"
+    },
+    {
       "basename": "Pattern Solution",
       "path": "+ Encounters/dailyNotes/Pattern Solution.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "cn函数",
       "path": "+ Encounters/dailyNotes/cn函数.md"
-    },
-    {
-      "basename": "Dashboard",
-      "path": "+ Encounters/dailyNotes/Dashboard.md"
     }
   ],
   "omittedPaths": [
