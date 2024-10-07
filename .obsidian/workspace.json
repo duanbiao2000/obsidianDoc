@@ -56,9 +56,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b7d80a5c9baadbd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20241007000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/MVVM MVC.md"
+                "file": "+ Encounters/天命日记.md"
               }
             }
           },
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/MVVM MVC.md",
+                "file": "+ Encounters/天命日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/MVVM MVC.md",
+                "file": "+ Encounters/天命日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,6 +223,25 @@
     "type": "split",
     "children": [
       {
+        "id": "04ad5ec0097c1dc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2673f9a57394c4a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/天命日记.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "e172f191847de67f",
         "type": "tabs",
         "children": [
@@ -219,7 +251,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/MVVM MVC.md"
+                "file": "+ Encounters/天命日记.md"
               }
             }
           },
@@ -242,25 +274,6 @@
         ]
       },
       {
-        "id": "77be52f7e8d21698",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2673f9a57394c4a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/天命日记.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "518eb51cee4d6b5d",
         "type": "tabs",
         "children": [
@@ -276,8 +289,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 461.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,10 +318,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7e9e61373b956954",
+  "active": "2673f9a57394c4a4",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
+    "+ Encounters/dailyNotes/20241007000000.md",
     "+ Encounters/dailyNotes/MVVM MVC.md",
+    "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
     "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
     "+ Encounters/dailyNotes/resolvers Zod.md",
     "1. Projects/周月总结/说话之道.md",
@@ -334,7 +347,6 @@
     "2. Areas/前端开发/React/状态管理/学习Redux.md",
     "2. Areas/前端开发/React/Redux.md",
     "2. Areas/前端开发/React/React关键技术.md",
-    "2. Areas/01认知科学/知识炼金术.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

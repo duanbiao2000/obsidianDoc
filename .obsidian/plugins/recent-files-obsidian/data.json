@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "天命日记",
+      "path": "+ Encounters/天命日记.md"
+    },
+    {
+      "basename": "20241007000000",
+      "path": "+ Encounters/dailyNotes/20241007000000.md"
+    },
+    {
       "basename": "MVVM MVC",
       "path": "+ Encounters/dailyNotes/MVVM MVC.md"
     },
@@ -125,10 +133,6 @@
       "path": "+ Encounters/dailyNotes/Prisma.md"
     },
     {
-      "basename": "天命日记",
-      "path": "+ Encounters/天命日记.md"
-    },
-    {
       "basename": "发布日志",
       "path": "+ Encounters/dailyNotes/发布日志.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "数据访问与持久化",
       "path": "2. Areas/BackEnd/Java/Spring/数据访问与持久化.md"
-    },
-    {
-      "basename": "五维思考法",
-      "path": "2. Areas/01认知科学/五维思考法.md"
     }
   ],
   "omittedPaths": [
