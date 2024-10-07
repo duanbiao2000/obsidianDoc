@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "前端路线图",
-      "path": "Atlas/kanban/前端路线图.md"
+      "basename": "公众号临时转换",
+      "path": "4. Archives/剪辑/公众号临时转换.md"
     },
     {
       "basename": "Pattern Solution",
       "path": "+ Encounters/dailyNotes/Pattern Solution.md"
+    },
+    {
+      "basename": "20241007000000",
+      "path": "+ Encounters/dailyNotes/20241007000000.md"
+    },
+    {
+      "basename": "前端路线图",
+      "path": "Atlas/kanban/前端路线图.md"
     },
     {
       "basename": "EDGE CASE",
@@ -15,10 +23,6 @@
     {
       "basename": "Linux命令行-Shell",
       "path": "Atlas/Linux命令行-Shell.md"
-    },
-    {
-      "basename": "20241007000000",
-      "path": "+ Encounters/dailyNotes/20241007000000.md"
     },
     {
       "basename": "天命日记",
@@ -187,18 +191,6 @@
     {
       "basename": "假值处理",
       "path": "+ Encounters/dailyNotes/假值处理.md"
-    },
-    {
-      "basename": "Convex数据库",
-      "path": "+ Encounters/dailyNotes/Convex数据库.md"
-    },
-    {
-      "basename": "pnpm",
-      "path": "+ Encounters/dailyNotes/pnpm.md"
-    },
-    {
-      "basename": "cn函数",
-      "path": "+ Encounters/dailyNotes/cn函数.md"
     }
   ],
   "omittedPaths": [

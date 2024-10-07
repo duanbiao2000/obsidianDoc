@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Pattern Solution.md",
+                "file": "4. Archives/剪辑/公众号临时转换.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md"
+                "file": "4. Archives/剪辑/公众号临时转换.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md",
+                "file": "4. Archives/剪辑/公众号临时转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md",
+                "file": "4. Archives/剪辑/公众号临时转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,6 +224,7 @@
       {
         "id": "04ad5ec0097c1dc4",
         "type": "tabs",
+        "dimension": 61.240310077519375,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -237,12 +238,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4ad9e50cdb2e7b0a",
+            "type": "leaf",
+            "state": {
+              "type": "note-preview",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e172f191847de67f",
         "type": "tabs",
+        "dimension": 19.379844961240313,
         "children": [
           {
             "id": "74a7bc996dfa0756",
@@ -250,7 +261,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/kanban/前端路线图.md"
+                "file": "4. Archives/剪辑/公众号临时转换.md"
               }
             }
           },
@@ -275,6 +286,7 @@
       {
         "id": "518eb51cee4d6b5d",
         "type": "tabs",
+        "dimension": 19.379844961240313,
         "children": [
           {
             "id": "2d2bcddf861bd165",
@@ -312,15 +324,23 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "note-to-mp:复制到公众号": false
     }
   },
-  "active": "74a7bc996dfa0756",
+  "active": "b7d80a5c9baadbd6",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/EDGE CASE.md",
     "+ Encounters/dailyNotes/Pattern Solution.md",
-    "Atlas/Linux命令行-Shell.md",
+    "4. Archives/剪辑/公众号临时转换.md",
+    "@react-oauth/markdown-to-jsx.md",
+    "@react-oauth/Sonner.md",
+    "@react-oauth/Zustand.md",
     "+ Encounters/dailyNotes/20241007000000.md",
+    "Atlas/kanban/前端路线图.md",
+    "+ Encounters/dailyNotes/EDGE CASE.md",
+    "Atlas/Linux命令行-Shell.md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/MVVM MVC.md",
     "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
@@ -338,11 +358,6 @@
     "+ Encounters/dailyNotes/Orama.md",
     "+ Encounters/dailyNotes/DeltaToken.md",
     "+ Encounters/dailyNotes/Webhook.md",
-    "+ Encounters/dailyNotes/TypeScript React Query.md",
-    "+ Encounters/dailyNotes/Conway's Law.md",
-    "+ Encounters/dailyNotes/Supabase.md",
-    "+ Encounters/dailyNotes/Milvus向量数据库.md",
-    "1. Projects/Todo项目/阅读理解分析_设计稿.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
