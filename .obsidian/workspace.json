@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Linux命令行-Shell.md",
+                "file": "+ Encounters/dailyNotes/Pattern Solution.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Linux命令行-Shell.md"
+                "file": "+ Encounters/dailyNotes/Pattern Solution.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Linux命令行-Shell.md",
+                "file": "+ Encounters/dailyNotes/Pattern Solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Linux命令行-Shell.md",
+                "file": "+ Encounters/dailyNotes/Pattern Solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/Linux命令行-Shell.md"
+                "file": "+ Encounters/dailyNotes/Pattern Solution.md"
               }
             }
           },
@@ -317,10 +317,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b7d80a5c9baadbd6",
+  "active": "74a7bc996dfa0756",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241007000000.md",
+    "+ Encounters/dailyNotes/EDGE CASE.md",
+    "+ Encounters/dailyNotes/Pattern Solution.md",
     "Atlas/Linux命令行-Shell.md",
+    "+ Encounters/dailyNotes/20241007000000.md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/MVVM MVC.md",
     "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
@@ -344,8 +346,6 @@
     "+ Encounters/dailyNotes/Milvus向量数据库.md",
     "1. Projects/Todo项目/阅读理解分析_设计稿.md",
     "1. Projects/Todo项目",
-    "Atlas/Index/Tags Index.md",
-    "2. Areas/前端开发/React/状态管理/学习Redux.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",

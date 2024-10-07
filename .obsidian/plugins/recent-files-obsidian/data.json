@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Pattern Solution",
+      "path": "+ Encounters/dailyNotes/Pattern Solution.md"
+    },
+    {
+      "basename": "EDGE CASE",
+      "path": "+ Encounters/dailyNotes/EDGE CASE.md"
+    },
+    {
       "basename": "Linux命令行-Shell",
       "path": "Atlas/Linux命令行-Shell.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Dashboard",
       "path": "+ Encounters/dailyNotes/Dashboard.md"
-    },
-    {
-      "basename": "JSON Web Token (JWT)",
-      "path": "+ Encounters/dailyNotes/JSON Web Token (JWT).md"
-    },
-    {
-      "basename": "Banking APP tables",
-      "path": "+ Encounters/dailyNotes/Banking APP tables.md"
     }
   ],
   "omittedPaths": [
