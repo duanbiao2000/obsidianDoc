@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241007000000.md",
+                "file": "Atlas/Linux命令行-Shell.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,7 +83,7 @@
       {
         "id": "d97aabd4c19cd880",
         "type": "tabs",
-        "dimension": 38.52376137512639,
+        "dimension": 73.81193124368049,
         "children": [
           {
             "id": "6a73026fe242f7bd",
@@ -154,7 +154,7 @@
       {
         "id": "8f46a0033c43bfb9",
         "type": "tabs",
-        "dimension": 61.476238624873616,
+        "dimension": 26.188068756319517,
         "children": [
           {
             "id": "43d90e2fd0cc20b1",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/天命日记.md"
+                "file": "Atlas/Linux命令行-Shell.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/天命日记.md",
+                "file": "Atlas/Linux命令行-Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/天命日记.md",
+                "file": "Atlas/Linux命令行-Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,8 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -251,7 +250,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/天命日记.md"
+                "file": "Atlas/Linux命令行-Shell.md"
               }
             }
           },
@@ -318,9 +317,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2673f9a57394c4a4",
+  "active": "b7d80a5c9baadbd6",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/20241007000000.md",
+    "Atlas/Linux命令行-Shell.md",
+    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/MVVM MVC.md",
     "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
     "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
@@ -345,8 +346,6 @@
     "1. Projects/Todo项目",
     "Atlas/Index/Tags Index.md",
     "2. Areas/前端开发/React/状态管理/学习Redux.md",
-    "2. Areas/前端开发/React/Redux.md",
-    "2. Areas/前端开发/React/React关键技术.md",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
     "Atlas/new 12.txt",
