@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-10-08",
+      "path": "1. Projects/周月总结/2024-10-08.md"
+    },
+    {
+      "basename": "天命日记",
+      "path": "+ Encounters/天命日记.md"
+    },
+    {
+      "basename": "20241008000000",
+      "path": "+ Encounters/dailyNotes/20241008000000.md"
+    },
+    {
       "basename": "公众号临时转换",
       "path": "4. Archives/剪辑/公众号临时转换.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Linux命令行-Shell",
       "path": "Atlas/Linux命令行-Shell.md"
-    },
-    {
-      "basename": "天命日记",
-      "path": "+ Encounters/天命日记.md"
     },
     {
       "basename": "MVVM MVC",

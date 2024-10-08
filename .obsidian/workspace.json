@@ -69,9 +69,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "84b7d96f37430e39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/周月总结/2024-10-08.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Archives/剪辑/公众号临时转换.md"
+                "file": "1. Projects/周月总结/2024-10-08.md"
               }
             }
           },
@@ -172,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Archives/剪辑/公众号临时转换.md",
+                "file": "1. Projects/周月总结/2024-10-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Archives/剪辑/公众号临时转换.md",
+                "file": "1. Projects/周月总结/2024-10-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,8 +260,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e172f191847de67f",
@@ -261,7 +273,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4. Archives/剪辑/公众号临时转换.md"
+                "file": "1. Projects/周月总结/2024-10-08.md"
               }
             }
           },
@@ -300,7 +312,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -324,13 +336,19 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "note-to-mp:复制到公众号": false
     }
   },
-  "active": "b7d80a5c9baadbd6",
+  "active": "84b7d96f37430e39",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Pattern Solution.md",
+    "+ Encounters/天命日记.md",
+    "1. Projects/周月总结/2024-10-08.md",
+    "+ Encounters/dailyNotes/20241008000000.md",
     "4. Archives/剪辑/公众号临时转换.md",
+    "+ Encounters/dailyNotes/Pattern Solution.md",
     "@react-oauth/markdown-to-jsx.md",
     "@react-oauth/Sonner.md",
     "@react-oauth/Zustand.md",
@@ -338,7 +356,6 @@
     "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/EDGE CASE.md",
     "Atlas/Linux命令行-Shell.md",
-    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/MVVM MVC.md",
     "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
     "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
@@ -353,8 +370,6 @@
     "instructions.md",
     "+ Encounters/dailyNotes/20240810201111.md",
     "+ Encounters/dailyNotes/Orama.md",
-    "+ Encounters/dailyNotes/DeltaToken.md",
-    "+ Encounters/dailyNotes/Webhook.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
