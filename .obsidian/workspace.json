@@ -224,7 +224,7 @@
       {
         "id": "04ad5ec0097c1dc4",
         "type": "tabs",
-        "dimension": 61.240310077519375,
+        "dimension": 61.24031007751938,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -253,7 +253,7 @@
       {
         "id": "e172f191847de67f",
         "type": "tabs",
-        "dimension": 19.379844961240313,
+        "dimension": 19.379844961240316,
         "children": [
           {
             "id": "74a7bc996dfa0756",
@@ -286,7 +286,7 @@
       {
         "id": "518eb51cee4d6b5d",
         "type": "tabs",
-        "dimension": 19.379844961240313,
+        "dimension": 19.379844961240316,
         "children": [
           {
             "id": "2d2bcddf861bd165",
@@ -324,10 +324,7 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "note-to-mp:复制到公众号": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "b7d80a5c9baadbd6",
