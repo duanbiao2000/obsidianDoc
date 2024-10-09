@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Redux概要",
+      "path": "+ Encounters/dailyNotes/Redux概要.md"
+    },
+    {
+      "basename": "天命日记",
+      "path": "+ Encounters/天命日记.md"
+    },
+    {
       "basename": "React事件类型注解",
       "path": "+ Encounters/dailyNotes/React事件类型注解.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "2024-10-08",
       "path": "1. Projects/周月总结/2024-10-08.md"
-    },
-    {
-      "basename": "天命日记",
-      "path": "+ Encounters/天命日记.md"
     },
     {
       "basename": "20241008000000",
@@ -195,10 +199,6 @@
     {
       "basename": "GraphQL Apollo Prisma",
       "path": "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md"
-    },
-    {
-      "basename": "20240927121718",
-      "path": "+ Encounters/dailyNotes/20240927121718.md"
     }
   ],
   "omittedPaths": [
