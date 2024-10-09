@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "React事件类型注解",
+      "path": "+ Encounters/dailyNotes/React事件类型注解.md"
+    },
+    {
+      "basename": "20241009212329",
+      "path": "+ Encounters/dailyNotes/20241009212329.md"
+    },
+    {
       "basename": "serviceWorker",
       "path": "+ Encounters/dailyNotes/serviceWorker.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "20240927121718",
       "path": "+ Encounters/dailyNotes/20240927121718.md"
-    },
-    {
-      "basename": "20240927001200",
-      "path": "+ Encounters/dailyNotes/20240927001200.md"
-    },
-    {
-      "basename": "SWR",
-      "path": "+ Encounters/dailyNotes/SWR.md"
     }
   ],
   "omittedPaths": [
