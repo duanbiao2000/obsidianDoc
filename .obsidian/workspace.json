@@ -82,9 +82,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "838c86bf231d753c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/serviceWorker.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/周月总结/2024-10-08.md"
+                "file": "+ Encounters/dailyNotes/serviceWorker.md"
               }
             }
           },
@@ -185,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/周月总结/2024-10-08.md",
+                "file": "+ Encounters/dailyNotes/serviceWorker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Projects/周月总结/2024-10-08.md",
+                "file": "+ Encounters/dailyNotes/serviceWorker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +286,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1. Projects/周月总结/2024-10-08.md"
+                "file": "+ Encounters/dailyNotes/serviceWorker.md"
               }
             }
           },
@@ -337,13 +350,16 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "note-to-mp:复制到公众号": false
+      "note-to-mp:复制到公众号": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "84b7d96f37430e39",
+  "active": "838c86bf231d753c",
   "lastOpenFiles": [
-    "+ Encounters/天命日记.md",
     "1. Projects/周月总结/2024-10-08.md",
+    "+ Encounters/dailyNotes/serviceWorker.md",
+    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/20241008000000.md",
     "4. Archives/剪辑/公众号临时转换.md",
     "+ Encounters/dailyNotes/Pattern Solution.md",
@@ -367,7 +383,6 @@
     "2. Areas/IELTS/雅思笔记.md",
     "instructions.md",
     "+ Encounters/dailyNotes/20240810201111.md",
-    "+ Encounters/dailyNotes/Orama.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
