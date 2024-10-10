@@ -108,9 +108,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "80e33fa8b5e187ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e0158cc9c1233a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2be19ca3153c20ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -201,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Redux概要.md"
+                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md"
               }
             }
           },
@@ -211,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/Redux概要.md",
+                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Redux概要.md",
+                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +338,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Redux概要.md"
+                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md"
               }
             }
           },
@@ -362,13 +401,19 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "note-to-mp:复制到公众号": false
     }
   },
-  "active": "3fbc1727fd8f3da3",
+  "active": "2be19ca3153c20ff",
   "lastOpenFiles": [
-    "+ Encounters/天命日记.md",
+    "2. Areas/AI/工作流/Make工具.md",
+    "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+    "2. Areas/AI/工作流",
     "+ Encounters/dailyNotes/Redux概要.md",
+    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/React事件类型注解.md",
     "+ Encounters/dailyNotes/20241009212329.md",
     "+ Encounters/dailyNotes/serviceWorker.md",
@@ -391,8 +436,6 @@
     "+ Encounters/dailyNotes/20241006000000.md",
     "+ Encounters/dailyNotes/20240902230506.md",
     "Extras/textgenerator/prompts/default/getTags.md",
-    "2. Areas/前端开发/JavaScript/深度优先搜索遍历树结构.md",
-    "Extras/textgenerator/prompts/awesomePrompts/fancytitlegeneratorAwesome.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
@@ -411,7 +454,6 @@
     "1. Projects/周月总结/202404/assets/img/每日新知0426",
     "1. Projects/周月总结/202404/assets/img/每日新知/IMG-每日新知-20240426155941582.png",
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145141.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知",
     "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
     "5. Misc/Attachments/images/Untitled 4.canvas",
     "5. Misc/Attachments/images/Untitled 1.canvas",

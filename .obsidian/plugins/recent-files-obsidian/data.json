@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "从RSS订阅源到Notion知识库的自动更新",
+      "path": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md"
+    },
+    {
+      "basename": "Make工具",
+      "path": "2. Areas/AI/工作流/Make工具.md"
+    },
+    {
       "basename": "Redux概要",
       "path": "+ Encounters/dailyNotes/Redux概要.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "@admin, @server, @client",
       "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
-    },
-    {
-      "basename": "20241001223424",
-      "path": "+ Encounters/dailyNotes/20241001223424.md"
-    },
-    {
-      "basename": "GraphQL Apollo Prisma",
-      "path": "+ Encounters/dailyNotes/GraphQL Apollo Prisma.md"
     }
   ],
   "omittedPaths": [
