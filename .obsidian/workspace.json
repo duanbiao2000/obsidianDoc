@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
+                "file": "+ Encounters/dailyNotes/note-taking assistant.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md"
+                "file": "+ Encounters/dailyNotes/note-taking assistant.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
+                "file": "+ Encounters/dailyNotes/note-taking assistant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
+                "file": "+ Encounters/dailyNotes/note-taking assistant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +248,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md"
+                "file": "+ Encounters/dailyNotes/note-taking assistant.md"
               }
             }
           },
@@ -320,8 +320,10 @@
   },
   "active": "46073f620f72dbe2",
   "lastOpenFiles": [
-    "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+    "+ Encounters/dailyNotes/Scrum框架.md",
+    "+ Encounters/dailyNotes/note-taking assistant.md",
     "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
+    "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
     "2. Areas/AI/工作流/Make工具.md",
     "2. Areas/AI/工作流",
     "+ Encounters/dailyNotes/Redux概要.md",
@@ -345,8 +347,6 @@
     "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
     "+ Encounters/dailyNotes/resolvers Zod.md",
     "1. Projects/周月总结/说话之道.md",
-    "+ Encounters/dailyNotes/20241006000000.md",
-    "+ Encounters/dailyNotes/20240902230506.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",

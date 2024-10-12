@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "note-taking assistant",
+      "path": "+ Encounters/dailyNotes/note-taking assistant.md"
+    },
+    {
+      "basename": "Scrum框架",
+      "path": "+ Encounters/dailyNotes/Scrum框架.md"
+    },
+    {
       "basename": "开发全栈AI图像编辑应用",
       "path": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "发布日志",
       "path": "+ Encounters/dailyNotes/发布日志.md"
-    },
-    {
-      "basename": "Flutter小部件",
-      "path": "+ Encounters/dailyNotes/Flutter小部件.md"
-    },
-    {
-      "basename": "Analytics",
-      "path": "+ Encounters/dailyNotes/Analytics.md"
     }
   ],
   "omittedPaths": [
