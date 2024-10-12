@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "开发平台-Convex",
+      "path": "+ Encounters/dailyNotes/开发平台-Convex.md"
+    },
+    {
+      "basename": "约定提交格式-Conventional Commits",
+      "path": "+ Encounters/dailyNotes/约定提交格式-Conventional Commits.md"
+    },
+    {
       "basename": "note-taking assistant",
       "path": "+ Encounters/dailyNotes/note-taking assistant.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "React Bootstrap",
       "path": "2. Areas/前端开发/React/React Bootstrap.md"
-    },
-    {
-      "basename": "Prisma",
-      "path": "+ Encounters/dailyNotes/Prisma.md"
-    },
-    {
-      "basename": "发布日志",
-      "path": "+ Encounters/dailyNotes/发布日志.md"
     }
   ],
   "omittedPaths": [
