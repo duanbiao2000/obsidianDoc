@@ -45,111 +45,20 @@
             }
           },
           {
-            "id": "7e9e61373b956954",
+            "id": "46073f620f72dbe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/MVVM MVC.md",
+                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7d80a5c9baadbd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Archives/剪辑/公众号临时转换.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84b7d96f37430e39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/周月总结/2024-10-08.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "838c86bf231d753c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241009212329.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fbc1727fd8f3da3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Redux概要.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80e33fa8b5e187ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e0158cc9c1233a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2be19ca3153c20ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
-                "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md"
+                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md"
               }
             }
           },
@@ -250,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 305.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -338,7 +248,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md"
+                "file": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md"
               }
             }
           },
@@ -377,7 +287,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 387.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -401,13 +312,17 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "note-to-mp:复制到公众号": false
     }
   },
-  "active": "2be19ca3153c20ff",
+  "active": "46073f620f72dbe2",
   "lastOpenFiles": [
-    "2. Areas/AI/工作流/Make工具.md",
     "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
+    "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
+    "2. Areas/AI/工作流/Make工具.md",
     "2. Areas/AI/工作流",
     "+ Encounters/dailyNotes/Redux概要.md",
     "+ Encounters/天命日记.md",
@@ -432,7 +347,6 @@
     "1. Projects/周月总结/说话之道.md",
     "+ Encounters/dailyNotes/20241006000000.md",
     "+ Encounters/dailyNotes/20240902230506.md",
-    "Extras/textgenerator/prompts/default/getTags.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",

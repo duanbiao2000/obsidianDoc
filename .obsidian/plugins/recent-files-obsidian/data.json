@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "开发全栈AI图像编辑应用",
+      "path": "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md"
+    },
+    {
       "basename": "从RSS订阅源到Notion知识库的自动更新",
       "path": "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Analytics",
       "path": "+ Encounters/dailyNotes/Analytics.md"
-    },
-    {
-      "basename": "@admin, @server, @client",
-      "path": "+ Encounters/dailyNotes/@admin, @server, @client.md"
     }
   ],
   "omittedPaths": [
