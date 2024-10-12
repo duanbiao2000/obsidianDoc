@@ -452,3 +452,150 @@ const styles = StyleSheet.create({
 
 通过合理地使用 `ActivityIndicator`，你可以提高用户体验，让用户知道应用程序正在响应他们的操作。
 
+### Sonner
+`Sonner` 是一个用于 React 的通知组件库，它提供了简单易用的 API 来显示各种类型的通知消息，如成功、警告、错误和信息提示。`Sonner` 的设计简洁且易于定制，支持多种配置选项，并且可以轻松地集成到现有的 React 项目中。
+
+### 安装 Sonner
+
+首先，你需要安装 `sonner` 库。你可以使用 npm 或 yarn 来安装：
+
+```bash
+npm install sonner
+# 或者
+yarn add sonner
+```
+
+### 基本用法
+
+下面是一个简单的示例，展示如何在 React 项目中使用 `Sonner` 组件来显示不同类型的通知。
+
+1. **创建一个新的 React 项目**（如果你还没有的话）：
+
+   ```bash
+   npx create-react-app my-sonner-app
+   cd my-sonner-app
+   ```
+
+2. **安装 Sonner**：
+
+   ```bash
+   npm install sonner
+   # 或者
+   yarn add sonner
+   ```
+
+3. **在项目中使用 Sonner**：
+
+   编辑 `src/App.js` 文件，添加以下代码：
+
+   ```jsx
+   import React from 'react';
+   import { useNotifications } from 'sonner';
+
+   const App = () => {
+     const { notify } = useNotifications();
+
+     const showSuccessNotification = () => {
+       notify({
+         title: '操作成功',
+         description: '您的操作已成功完成。',
+         status: 'success',
+       });
+     };
+
+     const showErrorNotification = () => {
+       notify({
+         title: '发生错误',
+         description: '处理过程中出现了一个错误，请稍后再试。',
+         status: 'error',
+       });
+     };
+
+     const showInfoNotification = () => {
+       notify({
+         title: '信息提示',
+         description: '这是一个信息提示。',
+         status: 'info',
+       });
+     };
+
+     const showWarningNotification = () => {
+       notify({
+         title: '警告',
+         description: '请注意，这是一条警告消息。',
+         status: 'warning',
+       });
+     };
+
+     return (
+       <div style={{ padding: 20 }}>
+         <h1>Sonner 通知示例</h1>
+         <button onClick={showSuccessNotification}>显示成功通知</button>
+         <button onClick={showErrorNotification}>显示错误通知</button>
+         <button onClick={showInfoNotification}>显示信息通知</button>
+         <button onClick={showWarningNotification}>显示警告通知</button>
+       </div>
+     );
+   };
+
+   export default App;
+   ```
+
+4. **运行项目**：
+
+   ```bash
+   npm start
+   # 或者
+   yarn start
+   ```
+
+### 详细说明
+
+- **`useNotifications` Hook**：`useNotifications` 是 `Sonner` 提供的一个 Hook，它返回一个 `notify` 函数，你可以使用这个函数来显示通知。
+- **`notify` 函数**：`notify` 函数接受一个对象作为参数，该对象包含通知的配置项，如 `title`, `description`, 和 `status`。
+  - `title`：通知的标题。
+  - `description`：通知的描述文本。
+  - `status`：通知的状态，可以是 `'success'`, `'error'`, `'info'`, 或 `'warning'`。
+
+### 自定义样式
+
+`Sonner` 允许你通过传递额外的属性来自定义通知的样式。例如，你可以设置自定义的类名或内联样式。
+
+```jsx
+notify({
+  title: '自定义样式通知',
+  description: '这是一个带有自定义样式的通知。',
+  status: 'info',
+  className: 'custom-notification',
+  style: { backgroundColor: '#f0f0f0', color: '#333' },
+});
+```
+
+然后在你的 CSS 文件中定义相应的样式：
+
+```css
+.custom-notification {
+  /* 你的自定义样式 */
+}
+```
+
+### 高级功能
+
+- **持续时间**：你可以设置通知的持续时间，或者让它一直显示直到用户手动关闭。
+- **位置**：你可以设置通知的位置，如顶部、底部等。
+- **回调函数**：你可以在通知关闭时执行一些操作，通过 `onClose` 回调函数来实现。
+
+```jsx
+notify({
+  title: '高级功能通知',
+  description: '这是一个带有高级功能的通知。',
+  status: 'info',
+  duration: 5000, // 显示 5 秒钟
+  position: 'top-right', // 位置为右上角
+  onClose: () => {
+    console.log('通知已关闭');
+  },
+});
+```
+
+通过这些基本用法和高级功能，你可以轻松地在你的 React 项目中集成并使用 `Sonner` 来显示各种类型的通知。
