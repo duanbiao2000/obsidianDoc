@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20241013000000",
+      "path": "+ Encounters/dailyNotes/20241013000000.md"
+    },
+    {
       "basename": "开发平台-Convex",
       "path": "+ Encounters/dailyNotes/开发平台-Convex.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "GitHub Actions",
       "path": "2. Areas/前端开发/React/GitHub Actions.md"
-    },
-    {
-      "basename": "React Bootstrap",
-      "path": "2. Areas/前端开发/React/React Bootstrap.md"
     }
   ],
   "omittedPaths": [

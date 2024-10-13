@@ -56,9 +56,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0ae229bc96b47abd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20241013000000.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发平台-Convex.md"
+                "file": "+ Encounters/dailyNotes/20241013000000.md"
               }
             }
           },
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发平台-Convex.md",
+                "file": "+ Encounters/dailyNotes/20241013000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发平台-Convex.md",
+                "file": "+ Encounters/dailyNotes/20241013000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +261,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发平台-Convex.md"
+                "file": "+ Encounters/dailyNotes/20241013000000.md"
               }
             }
           },
@@ -318,10 +331,11 @@
       "note-to-mp:复制到公众号": false
     }
   },
-  "active": "46073f620f72dbe2",
+  "active": "0ae229bc96b47abd",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/约定提交格式-Conventional Commits.md",
     "+ Encounters/dailyNotes/开发平台-Convex.md",
+    "+ Encounters/dailyNotes/20241013000000.md",
+    "+ Encounters/dailyNotes/约定提交格式-Conventional Commits.md",
     "+ Encounters/dailyNotes/note-taking assistant.md",
     "+ Encounters/dailyNotes/Scrum框架.md",
     "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
@@ -346,7 +360,6 @@
     "Atlas/Linux命令行-Shell.md",
     "+ Encounters/dailyNotes/MVVM MVC.md",
     "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
-    "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
