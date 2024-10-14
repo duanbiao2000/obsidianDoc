@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "20241014141141",
+      "path": "+ Encounters/dailyNotes/20241014141141.md"
+    },
+    {
+      "basename": "天命日记",
+      "path": "+ Encounters/天命日记.md"
+    },
+    {
       "basename": "量子跃迁 Quantum leap - you2",
       "path": "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "Redux概要",
       "path": "+ Encounters/dailyNotes/Redux概要.md"
-    },
-    {
-      "basename": "天命日记",
-      "path": "+ Encounters/天命日记.md"
     },
     {
       "basename": "React事件类型注解",
@@ -195,10 +199,6 @@
     {
       "basename": "策展-Curation",
       "path": "2. Areas/01认知科学/策展-Curation.md"
-    },
-    {
-      "basename": "Git",
-      "path": "3. Resources/Tools/Git.md"
     }
   ],
   "omittedPaths": [

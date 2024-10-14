@@ -63,9 +63,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md",
+                "file": "+ Encounters/dailyNotes/20241014141141.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md"
+                "file": "+ Encounters/dailyNotes/20241014141141.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md",
+                "file": "+ Encounters/dailyNotes/20241014141141.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md",
+                "file": "+ Encounters/dailyNotes/20241014141141.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -261,7 +262,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md"
+                "file": "+ Encounters/dailyNotes/20241014141141.md"
               }
             }
           },
@@ -333,8 +334,10 @@
   },
   "active": "51704d0b681a184b",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/成为倍增者 Multiplier.md",
+    "+ Encounters/天命日记.md",
+    "+ Encounters/dailyNotes/20241014141141.md",
     "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md",
+    "+ Encounters/dailyNotes/成为倍增者 Multiplier.md",
     "+ Encounters/dailyNotes/开发平台-Convex.md",
     "+ Encounters/dailyNotes/20241013000000.md",
     "+ Encounters/dailyNotes/约定提交格式-Conventional Commits.md",
@@ -345,7 +348,6 @@
     "2. Areas/AI/工作流/Make工具.md",
     "2. Areas/AI/工作流",
     "+ Encounters/dailyNotes/Redux概要.md",
-    "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/React事件类型注解.md",
     "+ Encounters/dailyNotes/20241009212329.md",
     "+ Encounters/dailyNotes/serviceWorker.md",
@@ -359,7 +361,6 @@
     "+ Encounters/dailyNotes/20241007000000.md",
     "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/EDGE CASE.md",
-    "Atlas/Linux命令行-Shell.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
