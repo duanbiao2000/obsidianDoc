@@ -125,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file: alexandre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +162,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "8f46a0033c43bfb9",
@@ -346,8 +347,9 @@
   },
   "active": "b1ca94cfdf90948a",
   "lastOpenFiles": [
-    "Atlas/kanban/前端路线图.md",
+    "+ Encounters/Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
     "+ Encounters/dailyNotes/20241015000000.md",
+    "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/20241014141141.md",
     "+ Encounters/天命日记.md",
     "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md",
@@ -372,7 +374,6 @@
     "@react-oauth/markdown-to-jsx.md",
     "@react-oauth/Sonner.md",
     "@react-oauth/Zustand.md",
-    "+ Encounters/dailyNotes/20241007000000.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
