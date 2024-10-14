@@ -7,6 +7,5 @@ Java/Java设计模式_gitting
 # Ignore Smart Connections folder
 .smart-connections
 
-
-
 Extras/*
+.idea/*
