@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "20241015000000",
+      "path": "+ Encounters/dailyNotes/20241015000000.md"
+    },
+    {
+      "basename": "前端路线图",
+      "path": "Atlas/kanban/前端路线图.md"
+    },
+    {
       "basename": "20241014141141",
       "path": "+ Encounters/dailyNotes/20241014141141.md"
     },
@@ -83,10 +91,6 @@
     {
       "basename": "20241007000000",
       "path": "+ Encounters/dailyNotes/20241007000000.md"
-    },
-    {
-      "basename": "前端路线图",
-      "path": "Atlas/kanban/前端路线图.md"
     },
     {
       "basename": "EDGE CASE",
@@ -195,10 +199,6 @@
     {
       "basename": "7个高质量润色论文和文章的指令",
       "path": "2. Areas/Creative/7个高质量润色论文和文章的指令.md"
-    },
-    {
-      "basename": "策展-Curation",
-      "path": "2. Areas/01认知科学/策展-Curation.md"
     }
   ],
   "omittedPaths": [
