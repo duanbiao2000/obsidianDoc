@@ -327,8 +327,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "note-to-mp:复制到公众号": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "0ae229bc96b47abd",
