@@ -162,8 +162,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "8f46a0033c43bfb9",
@@ -230,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 214.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -347,8 +346,9 @@
   },
   "active": "b1ca94cfdf90948a",
   "lastOpenFiles": [
-    "+ Encounters/Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
+    "+ Encounters/Omnivore/The Secret Power of ‘Read It Later’ Apps.md",
     "+ Encounters/dailyNotes/20241015000000.md",
+    "+ Encounters/Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
     "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/20241014141141.md",
     "+ Encounters/天命日记.md",
@@ -373,7 +373,6 @@
     "+ Encounters/dailyNotes/Pattern Solution.md",
     "@react-oauth/markdown-to-jsx.md",
     "@react-oauth/Sonner.md",
-    "@react-oauth/Zustand.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
