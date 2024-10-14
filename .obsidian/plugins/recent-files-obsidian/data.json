@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "20241013000000",
-      "path": "+ Encounters/dailyNotes/20241013000000.md"
+      "basename": "量子跃迁 Quantum leap",
+      "path": "+ Encounters/dailyNotes/量子跃迁 Quantum leap.md"
+    },
+    {
+      "basename": "成为倍增者 Multiplier",
+      "path": "+ Encounters/dailyNotes/成为倍增者 Multiplier.md"
     },
     {
       "basename": "开发平台-Convex",
       "path": "+ Encounters/dailyNotes/开发平台-Convex.md"
+    },
+    {
+      "basename": "20241013000000",
+      "path": "+ Encounters/dailyNotes/20241013000000.md"
     },
     {
       "basename": "约定提交格式-Conventional Commits",
@@ -191,14 +199,6 @@
     {
       "basename": "Git",
       "path": "3. Resources/Tools/Git.md"
-    },
-    {
-      "basename": "Github Gist JavaScript 的精彩代码片段",
-      "path": "2. Areas/前端开发/React/Github Gist JavaScript 的精彩代码片段.md"
-    },
-    {
-      "basename": "GitHub Actions",
-      "path": "2. Areas/前端开发/React/GitHub Actions.md"
     }
   ],
   "omittedPaths": [

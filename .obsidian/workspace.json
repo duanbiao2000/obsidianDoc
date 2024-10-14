@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "0ae229bc96b47abd",
+            "id": "51704d0b681a184b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241013000000.md",
+                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241013000000.md"
+                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241013000000.md",
+                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241013000000.md",
+                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +261,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241013000000.md"
+                "file": "+ Encounters/dailyNotes/量子跃迁 Quantum leap.md"
               }
             }
           },
@@ -327,11 +327,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "note-to-mp:复制到公众号": false
     }
   },
-  "active": "0ae229bc96b47abd",
+  "active": "51704d0b681a184b",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/成为倍增者 Multiplier.md",
+    "+ Encounters/dailyNotes/量子跃迁 Quantum leap.md",
     "+ Encounters/dailyNotes/开发平台-Convex.md",
     "+ Encounters/dailyNotes/20241013000000.md",
     "+ Encounters/dailyNotes/约定提交格式-Conventional Commits.md",
@@ -357,8 +360,6 @@
     "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/EDGE CASE.md",
     "Atlas/Linux命令行-Shell.md",
-    "+ Encounters/dailyNotes/MVVM MVC.md",
-    "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
