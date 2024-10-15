@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241015000000.md",
+                "file": "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241015000000.md"
+                "file": "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md"
               }
             }
           },
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241015000000.md",
+                "file": "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241015000000.md",
+                "file": "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 214.5,
+    "collapsed": true
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -274,7 +275,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241015000000.md"
+                "file": "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md"
               }
             }
           },
@@ -339,13 +340,15 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "note-to-mp:复制到公众号": false
+      "note-to-mp:复制到公众号": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "b1ca94cfdf90948a",
   "lastOpenFiles": [
     "+ Encounters/Omnivore/The Secret Power of ‘Read It Later’ Apps.md",
-    "+ Encounters/dailyNotes/20241015000000.md",
+    "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
     "+ Encounters/Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
     "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/20241014141141.md",
