@@ -56,6 +56,19 @@
             }
           },
           {
+            "id": "1cec9626ddca53fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20241017000000.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -97,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/MongoDB的聚合框架.md"
+                "file": "+ Encounters/dailyNotes/20241017000000.md"
               }
             }
           },
@@ -198,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
+                "file": "+ Encounters/dailyNotes/20241017000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
+                "file": "+ Encounters/dailyNotes/20241017000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +301,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/MongoDB的聚合框架.md"
+                "file": "+ Encounters/dailyNotes/20241017000000.md"
               }
             }
           },
@@ -354,14 +367,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "note-to-mp:复制到公众号": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "1bede9c52ca1c7e1",
+  "active": "1cec9626ddca53fe",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241016000000.md",
     "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
+    "+ Encounters/dailyNotes/20241017000000.md",
+    "+ Encounters/dailyNotes/20241016000000.md",
     "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
     "+ Encounters/Omnivore/The Secret Power of ‘Read It Later’ Apps.md",
     "+ Encounters/Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
@@ -386,7 +399,6 @@
     "1. Projects/周月总结/2024-10-08.md",
     "+ Encounters/dailyNotes/20241008000000.md",
     "4. Archives/剪辑/公众号临时转换.md",
-    "+ Encounters/dailyNotes/Pattern Solution.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",

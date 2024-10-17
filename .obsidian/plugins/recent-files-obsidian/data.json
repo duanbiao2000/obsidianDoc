@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20241017000000",
+      "path": "+ Encounters/dailyNotes/20241017000000.md"
+    },
+    {
       "basename": "MongoDB的聚合框架",
       "path": "+ Encounters/dailyNotes/MongoDB的聚合框架.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "React关键技术",
       "path": "2. Areas/前端开发/React/React关键技术.md"
-    },
-    {
-      "basename": "知识炼金术",
-      "path": "2. Areas/01认知科学/知识炼金术.md"
     }
   ],
   "omittedPaths": [
