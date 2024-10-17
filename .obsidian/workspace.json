@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241017000000.md",
+                "file": "+ Encounters/dailyNotes/20241017152951.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241017000000.md"
+                "file": "+ Encounters/dailyNotes/20241017152951.md"
               }
             }
           },
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241017000000.md",
+                "file": "+ Encounters/dailyNotes/20241017152951.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241017000000.md",
+                "file": "+ Encounters/dailyNotes/20241017152951.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +301,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241017000000.md"
+                "file": "+ Encounters/dailyNotes/20241017152951.md"
               }
             }
           },
@@ -367,13 +367,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "note-to-mp:复制到公众号": false
     }
   },
   "active": "1cec9626ddca53fe",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
     "+ Encounters/dailyNotes/20241017000000.md",
+    "+ Encounters/dailyNotes/20241017152951.md",
+    "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
     "+ Encounters/dailyNotes/20241016000000.md",
     "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
     "+ Encounters/Omnivore/The Secret Power of ‘Read It Later’ Apps.md",
@@ -398,7 +400,6 @@
     "+ Encounters/dailyNotes/serviceWorker.md",
     "1. Projects/周月总结/2024-10-08.md",
     "+ Encounters/dailyNotes/20241008000000.md",
-    "4. Archives/剪辑/公众号临时转换.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
