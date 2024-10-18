@@ -77,6 +77,21 @@
             }
           },
           {
+            "id": "856e43a25e01e8d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20241018000000.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20241018000000"
+            }
+          },
+          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -124,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,10 +242,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/IELTS Reviews.md"
+                "file": "+ Encounters/dailyNotes/20241018000000.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of IELTS Reviews"
+              "title": "Outline of 20241018000000"
             }
           },
           {
@@ -239,12 +254,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+ Encounters/dailyNotes/IELTS Reviews.md",
+                "file": "+ Encounters/dailyNotes/20241018000000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IELTS Reviews"
+              "title": "Outgoing links from 20241018000000"
             }
           },
           {
@@ -253,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/IELTS Reviews.md",
+                "file": "+ Encounters/dailyNotes/20241018000000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +278,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IELTS Reviews"
+              "title": "Backlinks for 20241018000000"
             }
           },
           {
@@ -341,10 +356,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/IELTS Reviews.md"
+                "file": "+ Encounters/dailyNotes/20241018000000.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for IELTS Reviews"
+              "title": "File properties for 20241018000000"
             }
           },
           {
@@ -418,10 +433,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "1cec9626ddca53fe",
+  "active": "856e43a25e01e8d6",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241017000000.md",
     "+ Encounters/dailyNotes/IELTS Reviews.md",
+    "+ Encounters/dailyNotes/20241018000000.md",
+    "+ Encounters/dailyNotes/20241017000000.md",
     "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
     "+ Encounters/dailyNotes/20241016000000.md",
     "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
@@ -446,7 +462,6 @@
     "+ Encounters/dailyNotes/20241009212329.md",
     "+ Encounters/dailyNotes/serviceWorker.md",
     "1. Projects/周月总结/2024-10-08.md",
-    "+ Encounters/dailyNotes/20241008000000.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20241018000000",
+      "path": "+ Encounters/dailyNotes/20241018000000.md"
+    },
+    {
       "basename": "IELTS Reviews",
       "path": "+ Encounters/dailyNotes/IELTS Reviews.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "学习Redux",
       "path": "2. Areas/前端开发/React/状态管理/学习Redux.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "2. Areas/前端开发/React/Redux.md"
     }
   ],
   "omittedPaths": [
