@@ -112,13 +112,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
+                "file": "+ Encounters/dailyNotes/20241020195737.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android Studio 下的两个配置文件"
+              "title": "20241020195737"
             }
           },
           {
@@ -465,8 +465,9 @@
   },
   "active": "6e527ba4dfa4eb7c",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241019000000.md",
     "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
+    "+ Encounters/dailyNotes/20241020195737.md",
+    "+ Encounters/dailyNotes/20241019000000.md",
     "+ Encounters/dailyNotes/Score criteria.md",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff/input.tex",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff",
@@ -493,7 +494,6 @@
     "2. Areas/AI/工作流",
     "+ Encounters/dailyNotes/Redux概要.md",
     "+ Encounters/dailyNotes/React事件类型注解.md",
-    "+ Encounters/dailyNotes/20241009212329.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
