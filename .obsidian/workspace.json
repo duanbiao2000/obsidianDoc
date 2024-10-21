@@ -127,13 +127,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241021000000.md",
+                "file": "+ Encounters/dailyNotes/Flutter命名规范.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20241021000000"
+              "title": "Flutter命名规范"
             }
           },
           {
@@ -473,13 +473,15 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "note-to-mp:复制到公众号": false
+      "note-to-mp:复制到公众号": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "c9c37eb292a68eac",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/20241020195737.md",
-    "+ Encounters/dailyNotes/20241021000000.md",
+    "+ Encounters/dailyNotes/Flutter命名规范.md",
     "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
     "+ Encounters/dailyNotes/20241019000000.md",
     "+ Encounters/dailyNotes/Score criteria.md",
