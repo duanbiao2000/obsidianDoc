@@ -127,13 +127,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Flutter命名规范.md",
+                "file": "+ Encounters/dailyNotes/Flutter中的widget.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flutter命名规范"
+              "title": "Flutter中的widget"
             }
           },
           {
@@ -313,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Flutter命名规范.md",
+                "file": "+ Encounters/dailyNotes/Flutter中的widget.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Flutter命名规范"
+              "title": "Backlinks for Flutter中的widget"
             }
           },
           {
@@ -480,8 +480,9 @@
   },
   "active": "c9c37eb292a68eac",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241020195737.md",
     "+ Encounters/dailyNotes/Flutter命名规范.md",
+    "+ Encounters/dailyNotes/Flutter中的widget.md",
+    "+ Encounters/dailyNotes/20241020195737.md",
     "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
     "+ Encounters/dailyNotes/20241019000000.md",
     "+ Encounters/dailyNotes/Score criteria.md",
@@ -508,7 +509,6 @@
     "2. Areas/AI/工作流/从RSS订阅源到Notion知识库的自动更新.md",
     "2. Areas/AI/工作流/Make工具.md",
     "2. Areas/AI/工作流",
-    "+ Encounters/dailyNotes/Redux概要.md",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
     "@react-oauth",
