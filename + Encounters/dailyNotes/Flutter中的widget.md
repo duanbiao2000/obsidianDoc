@@ -4,9 +4,14 @@ theme:
 high_priority: false
 tags:
 ---
+# Flutter 命令行文档
+[Flutter 命令行文档 | Flutter 中文文档 - Flutter 中文开发者网站 - Flutter](https://docs.flutter.cn/reference/flutter-cli)
+
 # Flutter widget列表
 
 [Widget 目录 | Flutter 中文文档 - Flutter 中文开发者网站 - Flutter](https://docs.flutter.cn/reference/widgets)
+![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20241022003025.png)
+
 
 在 Flutter 中，`Widget` 是构建用户界面的基本单元。Flutter 提供了丰富的内置 `Widget`，可以用来创建各种复杂的 UI。以下是一些主要的 `Widget` 类别及其常见示例：
 
