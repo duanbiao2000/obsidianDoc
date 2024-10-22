@@ -25,7 +25,7 @@
   "tabSize": 2,
   "propertiesInDocument": "hidden",
   "livePreview": true,
-  "showRibbon": false,
+  "showRibbon": true,
   "showInlineTitle": true,
   "readableLineLength": false
 }
