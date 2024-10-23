@@ -1,5 +1,13 @@
 {
-  "defaultStyle": "obsidian-light",
+  "defaultStyle": "mweb-typo",
+  "defaultHighlight": "grayscale",
+  "showStyleUI": true,
   "linkStyle": "footnote",
-  "lineNumber": false
+  "embedStyle": "content",
+  "lineNumber": false,
+  "authKey": "",
+  "wxInfo": [],
+  "math": "latex",
+  "useCustomCss": false,
+  "baseCSS": ""
 }

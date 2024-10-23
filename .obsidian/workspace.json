@@ -234,7 +234,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -380,7 +380,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 292.5
   },
   "right": {
     "id": "719d766977cb2fea",
@@ -477,7 +477,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 435.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -501,15 +501,22 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "note-to-mp:复制到公众号": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "note-to-mp:复制到公众号": false
     }
   },
-  "active": "4ad9e50cdb2e7b0a",
+  "active": "6053332427532399",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/编解码格式AES.md",
+    "+ Encounters/dailyNotes/20240806011044.md",
+    "+ Encounters/dailyNotes/20240808125725.md",
+    "+ Encounters/dailyNotes/20240808131344.md",
+    "+ Encounters/dailyNotes/20240809012901.md",
+    "+ Encounters/dailyNotes/20240809145225.md",
+    "+ Encounters/dailyNotes/20240810124404.md",
+    "+ Encounters/dailyNotes/20240806132908.md",
+    "+ Encounters/dailyNotes/20240805204838_ES2016-19.md",
+    "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
     "+ Encounters/dailyNotes/Git命名规范.md",
+    "+ Encounters/dailyNotes/编解码格式AES.md",
     "+ Encounters/dailyNotes/Flutter中的widget.md",
     "+ Encounters/dailyNotes/Flutter命名规范.md",
     "+ Encounters/dailyNotes/20241020195737.md",
@@ -527,15 +534,6 @@
     "+ Encounters/Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
     "Atlas/kanban/前端路线图.md",
     "+ Encounters/dailyNotes/20241014141141.md",
-    "+ Encounters/天命日记.md",
-    "+ Encounters/dailyNotes/量子跃迁 Quantum leap - you2.md",
-    "+ Encounters/dailyNotes/成为倍增者 Multiplier.md",
-    "+ Encounters/dailyNotes/开发平台-Convex.md",
-    "+ Encounters/dailyNotes/20241013000000.md",
-    "+ Encounters/dailyNotes/约定提交格式-Conventional Commits.md",
-    "+ Encounters/dailyNotes/note-taking assistant.md",
-    "+ Encounters/dailyNotes/Scrum框架.md",
-    "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
     "2. Areas/AI/工作流",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
