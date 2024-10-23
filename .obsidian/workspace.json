@@ -167,6 +167,21 @@
             }
           },
           {
+            "id": "57cf643d4cd0949c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20241023000000.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20241023000000"
+            }
+          },
+          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -214,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -317,10 +332,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/Git命名规范.md"
+                "file": "+ Encounters/dailyNotes/20241023000000.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Git命名规范"
+              "title": "Outline of 20241023000000"
             }
           },
           {
@@ -430,10 +445,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/Git命名规范.md"
+                "file": "+ Encounters/dailyNotes/20241023000000.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Git命名规范"
+              "title": "File properties for 20241023000000"
             }
           },
           {
@@ -501,11 +516,15 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "note-to-mp:复制到公众号": false
+      "note-to-mp:复制到公众号": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "6053332427532399",
+  "active": "57cf643d4cd0949c",
   "lastOpenFiles": [
+    "+ Encounters/dailyNotes/Git命名规范.md",
+    "+ Encounters/dailyNotes/20241023000000.md",
     "+ Encounters/dailyNotes/20240806011044.md",
     "+ Encounters/dailyNotes/20240808125725.md",
     "+ Encounters/dailyNotes/20240808131344.md",
@@ -515,7 +534,6 @@
     "+ Encounters/dailyNotes/20240806132908.md",
     "+ Encounters/dailyNotes/20240805204838_ES2016-19.md",
     "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
-    "+ Encounters/dailyNotes/Git命名规范.md",
     "+ Encounters/dailyNotes/编解码格式AES.md",
     "+ Encounters/dailyNotes/Flutter中的widget.md",
     "+ Encounters/dailyNotes/Flutter命名规范.md",
@@ -533,7 +551,6 @@
     "+ Encounters/Omnivore/The Secret Power of ‘Read It Later’ Apps.md",
     "+ Encounters/Omnivore/Alexandre Zajac on Substack- -𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝗳𝗼𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗶𝘀 𝗛𝗔𝗥𝗗. 𝟮𝟬 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝘁𝗼 𝗰𝗼𝘃....md",
     "Atlas/kanban/前端路线图.md",
-    "+ Encounters/dailyNotes/20241014141141.md",
     "2. Areas/AI/工作流",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
