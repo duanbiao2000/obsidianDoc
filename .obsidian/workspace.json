@@ -172,13 +172,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241023000000.md",
+                "file": "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20241023000000"
+              "title": "全栈项目.env中的各种Key"
             }
           },
           {
@@ -332,10 +332,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241023000000.md"
+                "file": "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 20241023000000"
+              "title": "Outline of 全栈项目.env中的各种Key"
             }
           },
           {
@@ -445,10 +445,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241023000000.md"
+                "file": "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 20241023000000"
+              "title": "File properties for 全栈项目.env中的各种Key"
             }
           },
           {
@@ -492,7 +492,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 733.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -521,10 +521,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "57cf643d4cd0949c",
+  "active": "4ad9e50cdb2e7b0a",
   "lastOpenFiles": [
     "+ Encounters/dailyNotes/Git命名规范.md",
-    "+ Encounters/dailyNotes/20241023000000.md",
+    "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
     "+ Encounters/dailyNotes/20240806011044.md",
     "+ Encounters/dailyNotes/20240808125725.md",
     "+ Encounters/dailyNotes/20240808131344.md",
