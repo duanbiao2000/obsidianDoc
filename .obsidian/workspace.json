@@ -32,171 +32,6 @@
             }
           },
           {
-            "id": "b1ca94cfdf90948a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MERN推特项目克隆 - Twitter Clone with React, Node"
-            }
-          },
-          {
-            "id": "1bede9c52ca1c7e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MongoDB的聚合框架"
-            }
-          },
-          {
-            "id": "1cec9626ddca53fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/IELTS Reviews.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IELTS Reviews"
-            }
-          },
-          {
-            "id": "856e43a25e01e8d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Score criteria.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Score criteria"
-            }
-          },
-          {
-            "id": "bf98052a5a2c3b16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241019000000.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20241019000000"
-            }
-          },
-          {
-            "id": "6e527ba4dfa4eb7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241020195737.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20241020195737"
-            }
-          },
-          {
-            "id": "c9c37eb292a68eac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Flutter中的widget.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Flutter中的widget"
-            }
-          },
-          {
-            "id": "67dd18039a7b930b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/编解码格式AES.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "编解码格式AES"
-            }
-          },
-          {
-            "id": "6053332427532399",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/Git命名规范.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git命名规范"
-            }
-          },
-          {
-            "id": "57cf643d4cd0949c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "全栈项目.env中的各种Key"
-            }
-          },
-          {
-            "id": "b281ea09c1456eba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "21 Lessons for the 21st Century"
-            }
-          },
-          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -214,37 +49,22 @@
             }
           },
           {
-            "id": "46073f620f72dbe2",
+            "id": "21f48344e3232741",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/开发平台-Convex.md",
+                "file": "+ Encounters/dailyNotes/20241020195737.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开发平台-Convex"
-            }
-          },
-          {
-            "id": "51704d0b681a184b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241014141141.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20241014141141"
+              "title": "20241020195737"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -347,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md"
+                "file": "+ Encounters/dailyNotes/20241020195737.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 21 Lessons for the 21st Century"
+              "title": "Outline of 20241020195737"
             }
           },
           {
@@ -373,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
+                "file": "+ Encounters/dailyNotes/20241020195737.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -383,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 21 Lessons for the 21st Century"
+              "title": "Backlinks for 20241020195737"
             }
           }
         ],
@@ -461,10 +281,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md"
+                "file": "+ Encounters/dailyNotes/20241020195737.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 21 Lessons for the 21st Century"
+              "title": "File properties for 20241020195737"
             }
           },
           {
@@ -528,10 +348,16 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "b281ea09c1456eba",
+  "active": "21f48344e3232741",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Simple Made Easy.md",
+    "+ Encounters/dailyNotes/Flutter命名规范.md",
+    "Atlas/dataview/dataviews.md",
+    "Atlas/kanban/前端路线图.md",
+    "+ Encounters/dailyNotes/编解码格式AES.md",
+    "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
     "+ Encounters/dailyNotes/IELTS评分标准.md",
+    "+ Encounters/dailyNotes/Simple Made Easy.md",
+    "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
     "+ Encounters/dailyNotes/20241023000000.md",
     "+ Encounters/dailyNotes/20241023134131.md",
     "+ Encounters/dailyNotes/20241024000000.md",
@@ -539,7 +365,6 @@
     "+ Encounters/dailyNotes/20241019000000.md",
     "+ Encounters/天命日记.md",
     "smart-chats",
-    "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
     "+ Encounters/dailyNotes/Git命名规范.md",
     "+ Encounters/dailyNotes/20240806011044.md",
     "+ Encounters/dailyNotes/20240808125725.md",
@@ -548,16 +373,12 @@
     "+ Encounters/dailyNotes/20240809145225.md",
     "+ Encounters/dailyNotes/20240806132908.md",
     "+ Encounters/dailyNotes/20240805204838_ES2016-19.md",
-    "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
-    "+ Encounters/dailyNotes/编解码格式AES.md",
     "+ Encounters/dailyNotes/Flutter中的widget.md",
-    "+ Encounters/dailyNotes/Flutter命名规范.md",
     "+ Encounters/dailyNotes/20241020195737.md",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff/input.tex",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff",
     "+ Encounters/dailyNotes/IELTS Reviews.md",
     "+ Encounters/dailyNotes/20241017000000.md",
-    "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
     "2. Areas/AI/工作流",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
