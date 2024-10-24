@@ -197,6 +197,21 @@
             }
           },
           {
+            "id": "b281ea09c1456eba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Android Studio 下的两个配置文件"
+            }
+          },
+          {
             "id": "5546ff7fb1c275e6",
             "type": "leaf",
             "pinned": true,
@@ -244,7 +259,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -346,11 +361,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241023134131.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 20241023134131"
+              "title": "Outline"
             }
           },
           {
@@ -373,7 +386,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/Git命名规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -383,30 +395,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Git命名规范"
-            }
-          },
-          {
-            "id": "9ee365e81554bd97",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "712b4cbc6b7f2273",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Backlinks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -419,7 +412,7 @@
       {
         "id": "04ad5ec0097c1dc4",
         "type": "tabs",
-        "dimension": 61.24031007751938,
+        "dimension": 35.174418604651166,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -452,28 +445,16 @@
       {
         "id": "e172f191847de67f",
         "type": "tabs",
-        "dimension": 19.379844961240316,
+        "dimension": 28.68217054263566,
         "children": [
           {
             "id": "74a7bc996dfa0756",
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241023134131.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for 20241023134131"
-            }
-          },
-          {
-            "id": "5baaea10bf97ee32",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-info",
+              "title": "File properties"
             }
           },
           {
@@ -486,12 +467,13 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "518eb51cee4d6b5d",
         "type": "tabs",
-        "dimension": 19.379844961240316,
+        "dimension": 36.143410852713174,
         "children": [
           {
             "id": "2d2bcddf861bd165",
@@ -531,13 +513,18 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "note-to-mp:复制到公众号": false
+      "note-to-mp:复制到公众号": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5df37df270a09dd2",
+  "active": "2d7adfafa398bba0",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/20241023000000.md",
+    "+ Encounters/天命日记.md",
+    "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
+    "+ Encounters/dailyNotes/20241024000000.md",
     "+ Encounters/dailyNotes/20241023134131.md",
+    "+ Encounters/dailyNotes/20241023000000.md",
     "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
     "+ Encounters/dailyNotes/Git命名规范.md",
     "+ Encounters/dailyNotes/20240806011044.md",
@@ -553,7 +540,6 @@
     "+ Encounters/dailyNotes/Flutter中的widget.md",
     "+ Encounters/dailyNotes/Flutter命名规范.md",
     "+ Encounters/dailyNotes/20241020195737.md",
-    "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
     "+ Encounters/dailyNotes/20241019000000.md",
     "+ Encounters/dailyNotes/Score criteria.md",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff/input.tex",
@@ -562,8 +548,6 @@
     "+ Encounters/dailyNotes/20241017000000.md",
     "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
     "+ Encounters/dailyNotes/20241016000000.md",
-    "+ Encounters/dailyNotes/MERN推特项目克隆 - Twitter Clone with React, Node.md",
-    "+ Encounters/Omnivore/The Secret Power of ‘Read It Later’ Apps.md",
     "2. Areas/AI/工作流",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
