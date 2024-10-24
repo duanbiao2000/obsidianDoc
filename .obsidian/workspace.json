@@ -182,33 +182,18 @@
             }
           },
           {
-            "id": "5df37df270a09dd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241023134131.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20241023134131"
-            }
-          },
-          {
             "id": "b281ea09c1456eba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
+                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android Studio 下的两个配置文件"
+              "title": "21 Lessons for the 21st Century"
             }
           },
           {
@@ -259,7 +244,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -361,9 +346,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 21 Lessons for the 21st Century"
             }
           },
           {
@@ -386,6 +373,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -395,7 +383,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 21 Lessons for the 21st Century"
             }
           }
         ],
@@ -412,7 +400,7 @@
       {
         "id": "04ad5ec0097c1dc4",
         "type": "tabs",
-        "dimension": 35.174418604651166,
+        "dimension": 42.44186046511628,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -438,23 +426,45 @@
               "icon": "clipboard-paste",
               "title": "笔记预览"
             }
+          },
+          {
+            "id": "6012774262ff9432",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Smart Connections Chat"
+            }
+          },
+          {
+            "id": "9b8ade5383a0f4d5",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Smart Connections Files"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "e172f191847de67f",
         "type": "tabs",
-        "dimension": 28.68217054263566,
+        "dimension": 37.3062015503876,
         "children": [
           {
             "id": "74a7bc996dfa0756",
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for 21 Lessons for the 21st Century"
             }
           },
           {
@@ -467,13 +477,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "518eb51cee4d6b5d",
         "type": "tabs",
-        "dimension": 36.143410852713174,
+        "dimension": 20.251937984496124,
         "children": [
           {
             "id": "2d2bcddf861bd165",
@@ -489,7 +498,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 733.5
+    "width": 610.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -515,16 +524,21 @@
       "obsidian-git:Open Git source control": false,
       "note-to-mp:复制到公众号": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "2d7adfafa398bba0",
+  "active": "b281ea09c1456eba",
   "lastOpenFiles": [
-    "+ Encounters/天命日记.md",
-    "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
-    "+ Encounters/dailyNotes/20241024000000.md",
-    "+ Encounters/dailyNotes/20241023134131.md",
+    "+ Encounters/dailyNotes/Simple Made Easy.md",
+    "+ Encounters/dailyNotes/IELTS评分标准.md",
     "+ Encounters/dailyNotes/20241023000000.md",
+    "+ Encounters/dailyNotes/20241023134131.md",
+    "+ Encounters/dailyNotes/20241024000000.md",
+    "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
+    "+ Encounters/dailyNotes/20241019000000.md",
+    "+ Encounters/天命日记.md",
+    "smart-chats",
     "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
     "+ Encounters/dailyNotes/Git命名规范.md",
     "+ Encounters/dailyNotes/20240806011044.md",
@@ -532,7 +546,6 @@
     "+ Encounters/dailyNotes/20240808131344.md",
     "+ Encounters/dailyNotes/20240809012901.md",
     "+ Encounters/dailyNotes/20240809145225.md",
-    "+ Encounters/dailyNotes/20240810124404.md",
     "+ Encounters/dailyNotes/20240806132908.md",
     "+ Encounters/dailyNotes/20240805204838_ES2016-19.md",
     "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
@@ -540,14 +553,11 @@
     "+ Encounters/dailyNotes/Flutter中的widget.md",
     "+ Encounters/dailyNotes/Flutter命名规范.md",
     "+ Encounters/dailyNotes/20241020195737.md",
-    "+ Encounters/dailyNotes/20241019000000.md",
-    "+ Encounters/dailyNotes/Score criteria.md",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff/input.tex",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff",
     "+ Encounters/dailyNotes/IELTS Reviews.md",
     "+ Encounters/dailyNotes/20241017000000.md",
     "+ Encounters/dailyNotes/MongoDB的聚合框架.md",
-    "+ Encounters/dailyNotes/20241016000000.md",
     "2. Areas/AI/工作流",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
@@ -556,7 +566,6 @@
     "Extras/配置类",
     "Extras/配置文件",
     "Extras/New folder",
-    "1. Projects/Autospace Workshop",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",
     "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808731.png",

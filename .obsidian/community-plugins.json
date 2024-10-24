@@ -32,5 +32,7 @@
   "mermaid-tools",
   "Enhanced-editing",
   "obsidian-relative-line-numbers",
-  "note-to-mp"
+  "note-to-mp",
+  "callout-manager",
+  "obsidian-list-callouts"
 ]

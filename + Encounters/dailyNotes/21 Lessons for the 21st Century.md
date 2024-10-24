@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - clarity is power
 theme: 
 original: 
 url: 
@@ -9,6 +10,9 @@ date_updated: 2024-07-24 13:48
 type: 
 high_priority: false
 tags:
+  - clarityispower
+  - 心理灵活性
+  - 情感平衡
 ---
 《21 Lessons for the 21st Century》（《21世纪的21堂课》）由尤瓦尔·诺亚·赫拉利（Yuval Noah Harari）撰写，通过21个章节讨论了21世纪人类面临的主要问题和挑战。以下是每一节课的主要结论：
 
@@ -46,12 +50,15 @@ tags:
    - 结论：大国之间的战争风险降低，但新型战争形式如网络战和代理人战争可能成为新威胁，需要新的安全和外交策略。
 
 ### 12. **Humility (谦卑)**
-   - 结论：承认人类知识的局限性，保持谦卑，开放心态，持续学习，以应对快速变化的世界。
+   - ! 结论：承认人类知识的局限性，保持谦卑，开放心态，持续学习，以应对快速变化的世界。
 
 ### 13. **God (上帝)**
    - 结论：宗教和科学之间的冲突需要新的对话方式，探讨如何在现代世界中保留信仰，同时接受科学发现。
 
 ### 14. **Secularism (世俗主义)**
+>[!cite]
+>世俗主义是一种政治和社会哲学，主张在公共生活和政治决策中保持宗教和政府的分离。
+
    - 结论：世俗主义在多元化和包容性社会中至关重要，保障每个人的信仰自由和表达自由。
 
 ### 15. **Ignorance (无知)**
@@ -61,7 +68,7 @@ tags:
    - 结论：全球正义需要在经济、政治和环境领域实现公平，全球合作和本地行动相结合，促进更公正的世界。
 
 ### 17. **Post-Truth (后真相)**
-   - 结论：面对“后真相”时代的挑战，需要保护和尊重真理，培养公众的媒体素养，抵制虚假信息。
+   - ? 结论：面对“后真相”时代的挑战，需要保护和尊重真理，培养公众的媒体素养，抵制虚假信息。
 
 ### 18. **Science Fiction (科幻小说)**
    - 结论：科幻小说不仅提供娱乐，也启发思考未来科技可能带来的伦理和社会问题，是预测未来变化的有力工具。
@@ -79,13 +86,13 @@ tags:
 
 ### Key Quotes and Their Significance
 
-==1. **"In a world deluged by irrelevant information, clarity is power."**==
+1. ! **"In a world deluged by irrelevant information, clarity is power."**
     
-    - **Significance**: This quote highlights the importance of clarity and discernment in an age where information is abundant but often not useful or reliable. It underscores the need for critical thinking and the ability to focus on what truly matters.
-2. **"Humans think in stories rather than in facts, numbers, or equations, and the simpler the story, the better."**
+    - **Significance**:  This quote highlights the importance of clarity and discernment in an age where information is abundant but often not useful or reliable. It underscores the need for critical thinking and the ability to focus on what truly matters.
+2. ! "Humans think in stories rather than in facts, numbers, or equations, and the simpler the story, the better."
     
     - **Significance**: Harari emphasizes the human tendency to understand and interpret the world through narratives. This has implications for how information is communicated and the power of compelling stories in shaping public opinion.
-3. ==**"Questions you cannot answer are usually far better for you than answers you cannot question."**==
+3. "Questions you cannot answer are usually far better for you than answers you cannot question."
     
     - **Significance**: This quote underscores the value of inquiry and skepticism. Harari encourages a mindset that values questioning and exploration over accepting unchallengeable answers, fostering a culture of intellectual curiosity and openness.
 4. **"If we want to keep our mental balance and our human sanity, we must run faster and faster. This is not a metaphor but the reality of living in the twenty-first century."**
@@ -102,7 +109,7 @@ tags:
    - **意义**：人类更倾向于通过故事而非纯粹的事实、数字或方程式来理解世界。这说明了叙事在塑造认知和影响公众舆论中的重要性，提醒我们要警惕简单化的叙事可能带来的误导。
 
 3. **“Questions you cannot answer are usually far better for you than answers you cannot question.”**
-   - **意义**：无法回答的问题往往比无法质疑的答案更有益。这句话强调了保持怀疑精神和追求知识的重要性，鼓励读者不断提出问题，探索未知领域。
+   - ! **意义**：无法回答的问题往往比无法质疑的答案更有益。这句话强调了保持怀疑精神和追求知识的重要性，鼓励读者不断提出问题，探索未知领域。
 
 4. **“If we want to keep our mental balance and our human sanity, we must run faster and faster. This is not a metaphor but the reality of living in the twenty-first century.”**
    - **意义**：为了在快速变化的世界中保持心理平衡和理智，我们必须不断适应和学习。这句话揭示了现代生活的高压力和高节奏，提醒读者要注重心理健康和持续学习。
@@ -148,8 +155,8 @@ tags:
    - **倡导透明和问责**：支持透明和问责的治理结构，确保政府和企业的行为符合公众利益。
 
 ### 5. **提升科技和数据素养**
-   - **了解科技趋势**：关注人工智能、大数据和生物技术的发展及其影响。
-   - **保护隐私**：学习如何保护个人隐私，了解数据收集和使用的风险。
+   - ! **了解科技趋势**：关注人工智能、大数据和生物技术的发展及其影响。
+   - ! **保护隐私**：学习如何保护个人隐私，了解数据收集和使用的风险。
 
 ### 6. **推动全球合作**
    - **支持全球性议题**：关注和支持应对气候变化、公共卫生、核扩散等全球性挑战的行动。
