@@ -54,17 +54,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241020195737.md",
+                "file": "+ Encounters/dailyNotes/Github Trending.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20241020195737"
+              "title": "Github Trending"
+            }
+          },
+          {
+            "id": "f61ff585e83d1c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/Supabase.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Supabase"
+            }
+          },
+          {
+            "id": "28959f1959edfca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ Encounters/dailyNotes/20241001223424.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20241001223424"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -167,10 +197,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241020195737.md"
+                "file": "+ Encounters/dailyNotes/20241001223424.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 20241020195737"
+              "title": "Outline of 20241001223424"
             }
           },
           {
@@ -193,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241020195737.md",
+                "file": "+ Encounters/dailyNotes/20241001223424.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +233,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 20241020195737"
+              "title": "Backlinks for 20241001223424"
             }
           }
         ],
@@ -220,7 +250,7 @@
       {
         "id": "04ad5ec0097c1dc4",
         "type": "tabs",
-        "dimension": 42.44186046511628,
+        "dimension": 61.240310077519375,
         "children": [
           {
             "id": "2673f9a57394c4a4",
@@ -268,12 +298,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "e172f191847de67f",
         "type": "tabs",
-        "dimension": 37.3062015503876,
+        "dimension": 19.379844961240313,
         "children": [
           {
             "id": "74a7bc996dfa0756",
@@ -281,10 +311,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+ Encounters/dailyNotes/20241020195737.md"
+                "file": "+ Encounters/dailyNotes/20241001223424.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 20241020195737"
+              "title": "File properties for 20241001223424"
             }
           },
           {
@@ -297,12 +327,13 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "518eb51cee4d6b5d",
         "type": "tabs",
-        "dimension": 20.251937984496124,
+        "dimension": 19.379844961240313,
         "children": [
           {
             "id": "2d2bcddf861bd165",
@@ -348,37 +379,37 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "21f48344e3232741",
+  "active": "2d7adfafa398bba0",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Flutter命名规范.md",
-    "Atlas/dataview/dataviews.md",
-    "Atlas/kanban/前端路线图.md",
-    "+ Encounters/dailyNotes/编解码格式AES.md",
-    "+ Encounters/dailyNotes/全栈项目.env中的各种Key.md",
-    "+ Encounters/dailyNotes/IELTS评分标准.md",
-    "+ Encounters/dailyNotes/Simple Made Easy.md",
-    "+ Encounters/dailyNotes/21 Lessons for the 21st Century.md",
-    "+ Encounters/dailyNotes/20241023000000.md",
-    "+ Encounters/dailyNotes/20241023134131.md",
+    "+ Encounters/dailyNotes/SDK.md",
+    "+ Encounters/dailyNotes/Supabase.md",
+    "+ Encounters/dailyNotes/Conway's Law.md",
+    "+ Encounters/dailyNotes/TypeScript React Query.md",
+    "+ Encounters/dailyNotes/Webhook.md",
+    "+ Encounters/dailyNotes/DeltaToken 增量查询.md",
+    "+ Encounters/dailyNotes/Orama.md",
+    "+ Encounters/dailyNotes/resolvers Zod.md",
+    "+ Encounters/dailyNotes/react-hook-form control对象 useForm.md",
+    "+ Encounters/dailyNotes/Kotlin的一些三方库.md",
+    "+ Encounters/dailyNotes/EDGE CASE.md",
+    "+ Encounters/dailyNotes/MVVM MVC.md",
+    "+ Encounters/dailyNotes/Pattern Solution.md",
+    "+ Encounters/dailyNotes/Github Trending.md",
     "+ Encounters/dailyNotes/20241024000000.md",
-    "+ Encounters/dailyNotes/Android Studio 下的两个配置文件.md",
-    "+ Encounters/dailyNotes/20241019000000.md",
-    "+ Encounters/天命日记.md",
-    "smart-chats",
-    "+ Encounters/dailyNotes/Git命名规范.md",
-    "+ Encounters/dailyNotes/20240806011044.md",
-    "+ Encounters/dailyNotes/20240808125725.md",
-    "+ Encounters/dailyNotes/20240808131344.md",
-    "+ Encounters/dailyNotes/20240809012901.md",
-    "+ Encounters/dailyNotes/20240809145225.md",
-    "+ Encounters/dailyNotes/20240806132908.md",
-    "+ Encounters/dailyNotes/20240805204838_ES2016-19.md",
-    "+ Encounters/dailyNotes/Flutter中的widget.md",
+    "+ Encounters/dailyNotes/20241008000000.md",
+    "+ Encounters/dailyNotes/开发全栈AI图像编辑应用.md",
+    "+ Encounters/dailyNotes/20241009212329.md",
+    "+ Encounters/dailyNotes/Scrum框架.md",
     "+ Encounters/dailyNotes/20241020195737.md",
+    "+ Encounters/dailyNotes/20241013000000.md",
+    "+ Encounters/dailyNotes/20241016000000.md",
+    "+ Encounters/dailyNotes/20241014141141.md",
+    "+ Encounters/dailyNotes/20241017000000.md",
+    "Atlas/dataview/dataviews.md",
+    "+ Encounters/dailyNotes/Flutter命名规范.md",
+    "smart-chats",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff/input.tex",
     "+ Encounters/dailyNotes/tex2pdf.-409eea9442c6a8ff",
-    "+ Encounters/dailyNotes/IELTS Reviews.md",
-    "+ Encounters/dailyNotes/20241017000000.md",
     "2. Areas/AI/工作流",
     "1. Projects/Todo项目",
     "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
