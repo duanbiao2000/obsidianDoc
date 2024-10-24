@@ -21,4 +21,4 @@ Extras/
 .idea/
 
 # 忽略工作区配置文件
-workspace.json
+workspace.json.obsidian/
