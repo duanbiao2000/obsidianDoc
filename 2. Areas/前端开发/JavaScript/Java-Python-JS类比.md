@@ -2,12 +2,13 @@
 aliases: 
 author: 
 url: 
-page-title: 
+theme: 
 tags: 
 create_date: 2023-12-27
-updated: 
-isFinished: false
+update_date: 
+treasure: false
 ---
+
 | 数据结构             | Java                      | Python              | JavaScript       |
 | ---------------- | ------------------------- | ------------------- | ---------------- |
 | 数组 (Array)       | `java.util.Arrays`        | `list`              | `Array`          |
