@@ -1,0 +1,32 @@
+{
+  "showLineNumber": true,
+  "attachmentFolderPath": "5. Misc/Attachments",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "trashOption": "local",
+  "useMarkdownLinks": false,
+  "vimMode": true,
+  "newLinkFormat": "shortest",
+  "strictLineBreaks": true,
+  "autoPairMarkdown": true,
+  "smartIndentList": true,
+  "userIgnoreFilters": [
+    "3. Resources/",
+    "4. Archives/"
+  ],
+  "tabSize": 2,
+  "propertiesInDocument": "hidden",
+  "livePreview": true,
+  "showRibbon": true,
+  "showInlineTitle": true,
+  "readableLineLength": false,
+  "showUnsupportedFiles": true
+}

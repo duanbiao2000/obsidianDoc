@@ -1,0 +1,11 @@
+{
+  "bullet": "-",
+  "emphasis": "_",
+  "rule": "-",
+  "createHeaderIfNotPresent": true,
+  "newHeaderTemplate": "aliases: \ntheme: \ntags:",
+  "updateHeader": true,
+  "updateHeaderTemplate": "aliases: \ntheme: \ntags:\n",
+  "listItemIndent": "one",
+  "newlinesAroundHeadings": true
+}

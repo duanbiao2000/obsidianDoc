@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "065c60aca125b07b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d11ed5591f542534",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e30cb3a5e1135c50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React代码解读0607.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44a6d14f5f36b3f0",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "551c05aa4902ac11",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1ba9a8ca968f9436",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3e020e9713b5bbba",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "d2c1b19654015272",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "c3e52c0d9196c3a8",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "37f5d2d52f9cda15",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "409ba30d941545d1",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "React代码解读0607.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "9960a82b43a0459e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "React代码解读0607.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "59a53d24ff4499b4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "React代码解读0607.md"
+          }
+        }
+      },
+      {
+        "id": "9572d4acefb42be4",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "eda8684d4ba3ef0c",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "e30cb3a5e1135c50",
+  "lastOpenFiles": [
+    "CSS学习笔记0624.md",
+    "vue/前后端联调(使用Express和Axios实现用户注册).md",
+    "vue/插槽机制+Vue.prototype.md",
+    "vue/三种组件创建方式.md",
+    "vue/Vue视频笔记.md",
+    "vue/Vue组件方法.md",
+    "vue/Vue框架相关知识点.md",
+    "vue/Vue基础.md",
+    "vue/Vue代码片段.md",
+    "vue/Vue中的Key值.md",
+    "vue/Vue3中的变化.md",
+    "vue/Vue3Composition API.md",
+    "vue/Vue Route.md",
+    "vue/Vue HTTP请求.md",
+    "vue/UML基础.md",
+    "vue/MVVM模式.md",
+    "vue/JSON的主要用途.md",
+    "vue/Vue声明周期(钩子)函数.md",
+    "vue",
+    "Template/zkDefaultTemplate.md",
+    "Template/Tags Index.md",
+    "Template",
+    "SQL/SELECT子句顺序.md",
+    "SQL",
+    "RoadMap&Interview/全栈工程师学习路线(待续).md",
+    "RoadMap&Interview/面试答疑.md",
+    "RoadMap&Interview/开源模拟.md",
+    "RoadMap&Interview/Boss简历迭代.md",
+    "RoadMap&Interview/面试虎狼之词(待续).md",
+    "RoadMap&Interview",
+    "react",
+    "python",
+    "LeetCode",
+    "javascript",
+    "java",
+    "images"
+  ]
+}

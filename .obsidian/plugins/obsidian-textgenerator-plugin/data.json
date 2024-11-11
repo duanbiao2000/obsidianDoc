@@ -1,0 +1,166 @@
+{
+  "version": "0.7.41",
+  "endpoint": "https://api.openai.com/v1/completions",
+  "models": {},
+  "api_key": "",
+  "encrypt_keys": false,
+  "selectedProvider": "Default (Custom) 1 2",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "frequency_penalty": 0.5,
+  "showStatusBar": true,
+  "outputToBlockQuote": false,
+  "freeCursorOnStreaming": false,
+  "allowJavascriptRun": false,
+  "experiment": false,
+  "promptsPath": "Extras/textgenerator/templates",
+  "textGenPath": "Extras/textgenerator/",
+  "prefix": "\n\n",
+  "tgSelectionLimiter": "^\\*\\*\\*",
+  "stream": true,
+  "context": {
+    "customInstructEnabled": false,
+    "includeClipboard": true,
+    "customInstruct": "Title: {{title}}\n  \nStarred Blocks: {{starredBlocks}}\n\t  \n{{tg_selection}}",
+    "contextTemplate": "Title: {{title}}\n\t\nStarred Blocks: {{starredBlocks}}\n\t  \n{{tg_selection}}"
+  },
+  "requestTimeout": 300000,
+  "options": {
+    "generate-text": true,
+    "generate-text-with-metadata": true,
+    "insert-generated-text-From-template": true,
+    "create-generated-text-From-template": true,
+    "search-results-batch-generate-from-template": true,
+    "insert-text-From-template": true,
+    "create-text-From-template": true,
+    "show-modal-From-template": true,
+    "open-template-as-tool": true,
+    "open-playground": true,
+    "set_max_tokens": true,
+    "set-llm": true,
+    "packageManager": true,
+    "create-template": true,
+    "get-title": true,
+    "generated-text-to-clipboard-From-template": false,
+    "calculate-tokens": true,
+    "calculate-tokens-for-template": true,
+    "text-extractor-tool": true,
+    "stop-stream": true,
+    "custom-instruct": true,
+    "generate-in-right-click-menu": true,
+    "batch-generate-in-right-click-files-menu": true,
+    "tg-block-processor": true,
+    "reload": true
+  },
+  "advancedOptions": {
+    "generateTitleInstructEnabled": false,
+    "generateTitleInstruct": "Generate a title for the current document (do not use * \" \\ / < > : | ? .):\n{{substring content 0 255}}"
+  },
+  "autoSuggestOptions": {
+    "customInstructEnabled": false,
+    "customInstruct": "Continue the follwing text:\nTitle: {{title}}\n{{query}}",
+    "isEnabled": true,
+    "allowInNewLine": true,
+    "delay": 300,
+    "numberOfSuggestions": 5,
+    "triggerPhrase": "  ",
+    "stop": ".",
+    "showStatus": true,
+    "customProvider": false,
+    "inlineSuggestions": false,
+    "overrideTrigger": " ",
+    "showInMarkdown": true
+  },
+  "slashSuggestOptions": {
+    "isEnabled": true,
+    "triggerPhrase": "/"
+  },
+  "extractorsOptions": {
+    "PDFExtractor": true,
+    "WebPageExtractor": true,
+    "YoutubeExtractor": true,
+    "AudioExtractor": false,
+    "ImageExtractorEmbded": true,
+    "ImageExtractor": true
+  },
+  "displayErrorInEditor": false,
+  "LLMProviderProfiles": {
+    "Default (Custom) 1": {
+      "extends": "Default (Custom)",
+      "name": "Default 1"
+    },
+    "Default (Custom) 1 2": {
+      "extends": "Default (Custom)",
+      "name": "deepseek-chat"
+    }
+  },
+  "LLMProviderOptions": {
+    "whisper": {
+      "base_path": "https://api.openai.com/v1",
+      "model": "whisper-1"
+    },
+    "OpenAI Chat (Langchain)": {
+      "basePath": "https://api.openai.com/v1/completions",
+      "api_key": "",
+      "model": "deepseek-chat"
+    },
+    "Default (Custom)": {
+      "endpoint": "https://free.gpt.ge/api/v1/chat/completions",
+      "custom_header": "{\n    \"Content-Type\": \"application/json\",\n    authorization: \"Bearer {{api_key}}\"\n}",
+      "custom_body": "{\n    model: \"{{model}}\",\n    temperature: {{temperature}},\n    top_p: {{top_p}},\n    frequency_penalty: {{frequency_penalty}},\n    presence_penalty: {{presence_penalty}},\n    max_tokens: {{max_tokens}},\n    n: {{n}},\n    stream: {{stream}},\n    stop: \"{{stop}}\",\n    messages: {{stringify messages}}\n}",
+      "model": "gpt-3.5-turbo-16k",
+      "sanatization_streaming": "// catch error\nif (res.status >= 300) {\n  const err = data?.error?.message || JSON.stringify(data);\n  throw err;\n}\nlet resultText = \"\";\nconst lines = chunk.split(\"\ndata: \");\n\nconst parsedLines = lines\n    .map((line) => line.replace(/^data: /, \"\").trim()) // Remove the \"data: \" prefix\n    .filter((line) => line !== \"\" && line !== \"[DONE]\") // Remove empty lines and \"[DONE]\"\n    .map((line) => {\n        try {\n            return JSON.parse(line)\n        } catch { }\n    }) // Parse the JSON string\n    .filter(Boolean);\n\nfor (const parsedLine of parsedLines) {\n    const { choices } = parsedLine;\n    const { delta } = choices[0];\n    const { content } = delta;\n    // Update the UI with the new content\n    if (content) {\n        resultText += content;\n    }\n}\nreturn resultText;",
+      "sanatization_response": "// catch error\nif (res.status >= 300) {\n  const err = data?.error?.message || JSON.stringify(data);\n  throw err;\n}\n\n// get choices\nconst choices = data.choices.map(c=> c.message);\n\n// the return object should be in the format of \n// { content: string }[] \n// if there's only one response, put it in the array of choices.\nreturn choices;",
+      "frequency_penalty": 0,
+      "presence_penalty": 0.5,
+      "top_p": 1,
+      "api_key": "",
+      "streamable": true,
+      "CORSBypass": true
+    },
+    "Default (Custom) 1": {
+      "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "custom_header": "{\n    \"Content-Type\": \"application/json\",\n    authorization: \"Bearer {{api_key}}\"\n}",
+      "custom_body": "{\n    model: \"{{model}}\",\n    temperature: {{temperature}},\n    top_p: {{top_p}},\n    frequency_penalty: {{frequency_penalty}},\n    presence_penalty: {{presence_penalty}},\n    max_tokens: {{max_tokens}},\n    n: {{n}},\n    stream: {{stream}},\n    stop: \"{{stop}}\",\n    messages: {{stringify messages}}\n}",
+      "model": "mistralai/mistral-7b-instruct:free",
+      "sanatization_streaming": "// catch error\nif (res.status >= 300) {\n  const err = data?.error?.message || JSON.stringify(data);\n  throw err;\n}\nlet resultText = \"\";\nconst lines = chunk.split(\"\ndata: \");\n\nconst parsedLines = lines\n    .map((line) => line.replace(/^data: /, \"\").trim()) // Remove the \"data: \" prefix\n    .filter((line) => line !== \"\" && line !== \"[DONE]\") // Remove empty lines and \"[DONE]\"\n    .map((line) => {\n        try {\n            return JSON.parse(line)\n        } catch { }\n    }) // Parse the JSON string\n    .filter(Boolean);\n\nfor (const parsedLine of parsedLines) {\n    const { choices } = parsedLine;\n    const { delta } = choices[0];\n    const { content } = delta;\n    // Update the UI with the new content\n    if (content) {\n        resultText += content;\n    }\n}\nreturn resultText;",
+      "sanatization_response": "// catch error\nif (res.status >= 300) {\n  const err = data?.error?.message || JSON.stringify(data);\n  throw err;\n}\n\n// get choices\nconst choices = data.choices.map(c=> c.message);\n\n// the return object should be in the format of \n// { content: string }[] \n// if there's only one response, put it in the array of choices.\nreturn choices;",
+      "frequency_penalty": 0,
+      "presence_penalty": 0.5,
+      "top_p": 1,
+      "api_key": ""
+    },
+    "Default (Custom) 1 2": {
+      "endpoint": "https://api.deepseek.com/chat/completions",
+      "custom_header": "{\n    \"Content-Type\": \"application/json\",\n    authorization: \"Bearer {{api_key}}\"\n}",
+      "custom_body": "{\n    model: \"{{model}}\",\n    temperature: {{temperature}},\n    top_p: {{top_p}},\n    frequency_penalty: {{frequency_penalty}},\n    presence_penalty: {{presence_penalty}},\n    max_tokens: {{max_tokens}},\n    n: {{n}},\n    stream: {{stream}},\n    stop: \"{{stop}}\",\n    messages: {{stringify messages}}\n}",
+      "model": "deepseek-chat",
+      "sanatization_streaming": "// catch error\nif (res.status >= 300) {\n  const err = data?.error?.message || JSON.stringify(data);\n  throw err;\n}\nlet resultText = \"\";\nconst lines = chunk.split(\"\ndata: \");\n\nconst parsedLines = lines\n    .map((line) => line.replace(/^data: /, \"\").trim()) // Remove the \"data: \" prefix\n    .filter((line) => line !== \"\" && line !== \"[DONE]\") // Remove empty lines and \"[DONE]\"\n    .map((line) => {\n        try {\n            return JSON.parse(line)\n        } catch { }\n    }) // Parse the JSON string\n    .filter(Boolean);\n\nfor (const parsedLine of parsedLines) {\n    const { choices } = parsedLine;\n    const { delta } = choices[0];\n    const { content } = delta;\n    // Update the UI with the new content\n    if (content) {\n        resultText += content;\n    }\n}\nreturn resultText;",
+      "sanatization_response": "// catch error\nif (res.status >= 300) {\n  const err = data?.error?.message || JSON.stringify(data);\n  throw err;\n}\n\n// get choices\nconst choices = data.choices.map(c=> c.message);\n\n// the return object should be in the format of \n// { content: string }[] \n// if there's only one response, put it in the array of choices.\nreturn choices;",
+      "frequency_penalty": 0,
+      "presence_penalty": 0.5,
+      "top_p": 1,
+      "api_key": "",
+      "streamable": false,
+      "CORSBypass": false
+    },
+    "Google GenerativeAI (Langchain)": {
+      "model": "models/gemini-pro",
+      "api_key": ""
+    },
+    "Chat Anthropic (Langchain)": {
+      "model": "claude-3-5-sonnet-20240620",
+      "basePath": " https://api.anthropic.com/v1/complete",
+      "api_key": ""
+    }
+  },
+  "LLMProviderOptionsKeysHashed": {
+    "OpenAI Chat (Langchain).api_key": "__@#key_prefix#@__sk-f6176fd0fb5a43b4b52ddab5aa618167",
+    "Default (Custom).api_key": "__@#key_prefix#@__sk-Xw7RjUOd0eaVRLFG4d126636259d48DaB0Dc51484d05A3C2",
+    "Default (Custom) 1.api_key": "__@#key_prefix#@__sk-or-v1-a4e6f8f5a9325ab38bb657f1d15af5675df728e152aee25d84732d8126151f0f",
+    "Default (Custom) 1 2.api_key": "__@#key_prefix#@__sk-b8874f97994343368d3131b457e5442a",
+    "Google GenerativeAI (Langchain).api_key": "__@#key_prefix#@__AIzaSyBwLHbup00ktpENOO-FUxTiwf5qSgpMH_c",
+    "Chat Anthropic (Langchain).api_key": "__@#key_prefix#@__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"
+  },
+  "api_key_encrypted": "__@#key_prefix#@__sk-f6176fd0fb5a43b4b52ddab5aa618167"
+}

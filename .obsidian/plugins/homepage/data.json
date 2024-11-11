@@ -1,0 +1,23 @@
+{
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "value": "脑图",
+      "kind": "Daily Note",
+      "openOnStartup": true,
+      "openMode": "Keep open notes",
+      "manualOpenMode": "Keep open notes",
+      "view": "Default view",
+      "revertView": true,
+      "openWhenEmpty": true,
+      "refreshDataview": true,
+      "autoCreate": true,
+      "autoScroll": false,
+      "pin": false,
+      "commands": [],
+      "alwaysApply": false,
+      "hideReleaseNotes": true
+    }
+  },
+  "separateMobile": true
+}
