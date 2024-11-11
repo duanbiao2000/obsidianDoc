@@ -1,144 +1,41 @@
 {
   "main": {
-    "id": "1a7ae36bb84bbe8e",
+    "id": "d0fd6b9cad7c0dfb",
     "type": "split",
     "children": [
       {
-        "id": "73ad6f8df83d2742",
-        "type": "split",
+        "id": "826a94c2c5284619",
+        "type": "tabs",
         "children": [
           {
-            "id": "e68007277d077560",
-            "type": "tabs",
-            "dimension": 68.21705426356588,
-            "children": [
-              {
-                "id": "2ceed23c498c013f",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "Atlas/kanban/前端路线图.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        false,
-                        false,
-                        false,
-                        false
-                      ]
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "lucide-trello",
-                  "title": "前端路线图"
-                }
+            "id": "495f0db5ab344566",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/📚 微服务大师课-深入事件驱动架构全攻略.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/dataview/dataviews.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "dataviews"
-                }
-              },
-              {
-                "id": "70ce4ecac8dd449e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/2024年值得关注的开源项目.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "2024年值得关注的开源项目"
-                }
-              },
-              {
-                "id": "9e641766548b3592",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/经典Unix管道过滤器工具.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "经典Unix管道过滤器工具"
-                }
-              },
-              {
-                "id": "b29061453408826e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/20241030.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "20241030"
-                }
-              }
-            ],
-            "currentTab": 4
-          },
-          {
-            "id": "acf5f1e79f98d239",
-            "type": "tabs",
-            "dimension": 31.782945736434108,
-            "children": [
-              {
-                "id": "fdd7b0db5b6d0826",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/天命日记.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "天命日记"
-                }
-              }
-            ]
+              "icon": "lucide-file",
+              "title": "📚 微服务大师课-深入事件驱动架构全攻略"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "65ed32af27a2de6b",
+    "id": "6ba99745ab06842d",
     "type": "split",
     "children": [
       {
-        "id": "d97aabd4c19cd880",
+        "id": "9e59337843897103",
         "type": "tabs",
         "children": [
           {
-            "id": "6a73026fe242f7bd",
+            "id": "ae1ed189a4972ecb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -150,7 +47,79 @@
             }
           },
           {
-            "id": "892fb42f42dd4a4b",
+            "id": "13afea51522ab155",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:git",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9f204a0ec21e580d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272
+  },
+  "right": {
+    "id": "96cc3cce07f6dcf0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f3cdd7688a1b62c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c919334c8aac062e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "09e550db1c515b37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "667027bbd24fab6a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -163,44 +132,49 @@
             }
           },
           {
-            "id": "3f9bc094439a9b45",
+            "id": "08a322aab7679ee2",
             "type": "leaf",
             "state": {
-              "type": "search",
+              "type": "outline",
               "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
+                "file": "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/📝 Rust编程：掌握所有核心特性！.md"
               },
-              "icon": "lucide-search",
-              "title": "Search"
+              "icon": "lucide-list",
+              "title": "Outline of 📝 Rust编程：掌握所有核心特性！"
             }
           },
           {
-            "id": "9f1d7f23d1cc85da",
+            "id": "7aa67518fa777872",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "402ac5a9b5e6924b",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
+              "type": "chronology-calendar-view",
               "state": {},
               "icon": "clock",
-              "title": "Recent Files"
+              "title": "Chronology"
             }
           },
           {
-            "id": "ec57776ac8128f4e",
+            "id": "e23314c8f5436b47",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "df0c003d8ad296ba",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "a70aa63ed4f6bbb4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -213,251 +187,71 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
-  },
-  "right": {
-    "id": "719d766977cb2fea",
-    "type": "split",
-    "children": [
-      {
-        "id": "04ad5ec0097c1dc4",
-        "type": "tabs",
-        "dimension": 31.782945736434108,
-        "children": [
-          {
-            "id": "6012774262ff9432",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "9b8ade5383a0f4d5",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a923ee7dc4b34394",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "a2fd1635bc730822",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "e172f191847de67f",
-        "type": "tabs",
-        "dimension": 31.007751937984494,
-        "children": [
-          {
-            "id": "74a7bc996dfa0756",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "+ Encounters/vim按键操作分块记忆.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for vim按键操作分块记忆"
-            }
-          },
-          {
-            "id": "43d90e2fd0cc20b1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "+ Encounters/dailyNotes/20241030.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 20241030"
-            }
-          },
-          {
-            "id": "4ad9e50cdb2e7b0a",
-            "type": "leaf",
-            "state": {
-              "type": "note-preview",
-              "state": {},
-              "icon": "clipboard-paste",
-              "title": "笔记预览"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "518eb51cee4d6b5d",
-        "type": "tabs",
-        "dimension": 37.2093023255814,
-        "children": [
-          {
-            "id": "2d7adfafa398bba0",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "2d2bcddf861bd165",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "9ca25cdbcc7b5f70",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "+ Encounters/vim按键操作分块记忆.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from vim按键操作分块记忆"
-            }
-          },
-          {
-            "id": "39753b40fcdcd9c5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "+ Encounters/vim按键操作分块记忆.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for vim按键操作分块记忆"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 479.5
+    "width": 497,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "quickadd:QuickAdd": false,
-      "publish:Publish changes...": false,
-      "extract-highlights-plugin:Extract Highlights": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
+      "vscode-editor:Create Code File": false,
+      "chronology:Open Chronology": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
       "random-note:Open random note": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "note-to-mp:复制到公众号": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian42-brat:BRAT": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "43d90e2fd0cc20b1",
+  "active": "495f0db5ab344566",
   "lastOpenFiles": [
-    "+ Encounters/dailyNotes/Neovim常用插件.md",
-    "+ Encounters/dailyNotes/20241030.md",
-    "+ Encounters/dailyNotes/经典Unix管道过滤器工具.md",
-    "+ Encounters/dailyNotes/2024年值得关注的开源项目.md",
-    "+ Encounters/vim按键操作分块记忆.md",
-    "+ Encounters/天命日记.md",
-    "+ Encounters/dailyNotes/20241028.md",
-    "Atlas/dataview/dataviews.md",
-    "+ Encounters/weeklyNotes/2024-W44.md",
-    "+ Encounters/weeklyNotes",
-    "1. Projects/SymoblicLink/HexoBlogPosts/未来证明.md",
+    "Extras/Template/Templater/TP.hooks.md",
+    "Extras/配置类/Docker镜像配置.md",
+    "Extras/配置类",
+    "Extras/textgenerator/prompts/awesomePrompts/MyBatis.md",
     "Extras/Template/Templater/Hexo博文模版.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/The Art of Developer Self-Marketing.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/清醒思考.md",
-    "+ Encounters/dailyNotes/合并本地分支的最佳实践.md",
-    "1. Projects/PRD/作为开发者如何营销自己.md",
-    "+ Encounters/dailyNotes/20241027000000.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/How to Stand Out.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/Mardown App Plan.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/Mardown App Plan汉化.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/LazyVim按键.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/How to Learn More Effectively.md",
-    "+ Encounters/dailyNotes/20241026000000.md",
-    "1. Projects/SymoblicLink/HexoBlogPosts/hello-world.md",
-    "Atlas/如何升级思维导图.md",
-    "2. Areas/01认知科学/如何升级思维导图.md",
-    "2. Areas/01认知科学/Problem Solution Ways.md",
-    "1. Projects/PRD/~$rdown App Plan.docx",
-    "1. Projects/SymoblicLink/HexoBlogPosts",
-    "1. Projects/SymoblicLink",
-    "1. Projects/Symob",
-    "1. Projects/HexoBlog",
-    "1. Projects/New folder",
-    "1. Projects/source.lnk",
-    "1. Projects/PRD/Mardown App Plan.docx",
-    "1. Projects/PRD",
-    "2. Areas/BackEnd/Java/Spring/assets/img/Spring Boot/IMG-Spring Boot-20240714124655322.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160809120.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808900.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808731.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808518.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808341.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知0426/IMG-每日新知0426-20240426160808231.png",
-    "1. Projects/周月总结/202404/assets/img/每日新知/IMG-每日新知-20240426155941582.png",
-    "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145141.png",
-    "1. Projects/周月总结/202404/assets/img/Pasted image 20240426145133.png",
-    "5. Misc/Attachments/images/Untitled 4.canvas",
-    "5. Misc/Attachments/images/Untitled 1.canvas",
-    "5. Misc/Attachments/images/Untitled.canvas"
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/AI Engineering 2025 PLAN.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/📚 微服务大师课-深入事件驱动架构全攻略.md",
+    "5. Misc/Attachments/AI Engineering 2025 PLAN-20241111091456068.webp",
+    "5. Misc/Attachments/AI Engineering 2025 PLAN-20241111091328199.webp",
+    "5. Misc/Attachments/AI Engineering 2025 PLAN-20241111091036267.webp",
+    "5. Misc/Attachments/AI Engineering 2025 PLAN-20241111090725706.webp",
+    "5. Misc/Attachments/2024-11-11-20241111090440094.webp",
+    "5. Misc/Attachments/2024-11-11-20241111090632530.webp",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/📝 Rust编程：掌握所有核心特性！.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/Adam Savage的高达首秀：RX-78-2完美级震撼制作.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/🔄 13个Git超速技巧：快速提升你的开发流程.md",
+    "Extras/Template/Templater/博文模板.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/🚀 微软VS Code的AI工具包：免费扩展程序🔧(待确认)超越cursor！🛠️.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/Neovim从零开始设置教程！🛠️.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/🗣️ 147分钟英语会话练习 —— 提升口语技能和听力理解 🌟🎧.md",
+    "2. Areas/01认知科学/麦肯锡 McKinsey Focus工具.md",
+    "+ Encounters/ubuntu/🗣️ 147分钟英语会话练习 —— 提升口语技能和听力理解 🌟🎧.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/清醒思考.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/未来证明.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/The Art of Developer Self-Marketing.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/Mardown App Plan汉化.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/Mardown App Plan.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/LazyVim按键.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/How to Stand Out.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/How to Learn More Effectively.md",
+    "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts",
+    "Extras/Template/Templater/dailyNote.md",
+    "Extras/Template/Templater/dailyNote (simplify).md",
+    "+ Encounters/ubuntu/2024-11-10.md",
+    "5. Misc/Attachments/FleetNotes",
+    "5. Misc/Attachments/Untitled",
+    "+ Encounters/dailynotes",
+    "My code file.ts",
+    "+ Encounters/ubuntu"
   ]
 }
