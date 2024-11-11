@@ -29,7 +29,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Extras/Template/Templater/templaterSample.md"
+    "Extras/Template/Templater/博文模板.md"
   ],
   "startup_templates": []
 }
