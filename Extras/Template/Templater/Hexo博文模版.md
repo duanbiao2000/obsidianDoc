@@ -1,13 +1,11 @@
 ---
-title: null
-date: null
+title: <% tp.file.title %>
+date: <% tp.file.creation_date() %>
 categories:
   - Diary
 tags:
   - GitHub
   - Code
-aliases: null
-theme: null
 ---
 
 总结
