@@ -1,5 +1,5 @@
 # 忽略 Obsidian 相关文件
-#.obsidian/
+.obsidian/
 
 # 忽略 VSCode 相关文件
 .vscode/
@@ -22,4 +22,4 @@
 
 # 忽略工作区配置文件
 workspace.json.obsidian/
-.obsidian/
+.obsidian/plugins/obsidian-image-auto-upload-plugin/data.json
