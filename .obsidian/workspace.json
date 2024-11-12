@@ -403,9 +403,7 @@
       "note-to-mp:复制到公众号": false,
       "callout-manager:Insert Callout": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian42-brat:BRAT": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "43d90e2fd0cc20b1",
