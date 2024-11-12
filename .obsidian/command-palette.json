@@ -1,5 +1,6 @@
 {
   "pinned": [
+    "templater-obsidian:Extras/Template/Templater/博文模板.md",
     "app:open-settings",
     "markdown:clear-metadata-properties",
     "file-explorer:new-file-in-new-pane",
