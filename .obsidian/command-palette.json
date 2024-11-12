@@ -1,0 +1,11 @@
+{
+  "pinned": [
+    "app:open-settings",
+    "markdown:clear-metadata-properties",
+    "file-explorer:new-file-in-new-pane",
+    "editor:fold-all",
+    "editor:unfold-all",
+    "fleeting-notes-obsidian:create-empty-fleeting-note",
+    "workspace:split-vertical"
+  ]
+}

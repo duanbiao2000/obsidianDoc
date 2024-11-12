@@ -1,12 +1,12 @@
 {
-  "accentColor": "",
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Catppuccin",
   "theme": "system",
+  "accentColor": "",
   "translucency": false,
   "nativeMenus": true,
   "baseFontSize": 18,
-  "monospaceFontFamily": "JetBrains Mono,HarmonyOS Sans SC,Consolas,Constantia",
-  "textFontFamily": "JetBrains Mono,HarmonyOS Sans SC,Inter,Microsoft YaHei,Arial",
+  "monospaceFontFamily": "",
+  "textFontFamily": "",
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "snippets"
