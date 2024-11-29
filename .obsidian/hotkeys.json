@@ -336,14 +336,6 @@
       "key": "."
     }
   ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
   "editor:save-file": [
     {
       "modifiers": [
@@ -396,5 +388,30 @@
       ],
       "key": "B"
     }
-  ]
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "Enhanced-editing:shanchu-text": []
 }

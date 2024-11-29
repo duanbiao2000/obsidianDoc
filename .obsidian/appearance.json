@@ -9,7 +9,13 @@
   "textFontFamily": "",
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
-    "snippets"
+    "snippets",
+    "Bullet-Journal",
+    "Paper-Index-Callout",
+    "Side-Dock-Icon-Order",
+    "Split-Page-Callout",
+    "Stop-Callout",
+    "Strong-Strong"
   ],
   "baseFontSizeAction": true,
   "showViewHeader": true
