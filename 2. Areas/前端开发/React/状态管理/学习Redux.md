@@ -22,7 +22,7 @@ isFinished: false
 - 参与React社区讨论和项目，以分享经验并学到更多。
 - 定期进行自评估，检查自己的进度和理解。
 
-- [[+ Encounters/dailyNotes/20240902200825.md]]
+- [[useRouter]]
 - [[+ Encounters/dailyNotes/20240903135738.md]]
 - [[+ Encounters/dailyNotes/20240903202702.md]]
 - [[+ Encounters/dailyNotes/20240903204310.md]]

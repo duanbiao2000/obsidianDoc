@@ -251,6 +251,72 @@ showgitstatus() {
 source /path/to/oh-my-bash-theme
 ```
 
-### 总结
+当然可以。`.bashrc`文件是Bash shell的配置文件之一，通常用于设置用户特定的环境变量、别名、函数等。通过在`.bashrc`中添加高级配置，你可以让终端更加高效和个性化。下面是一些示例，包括与版本控制系统集成以及自动化常见任务：
 
-通过以上配置，你可以显著提升 Bash shell 的使用体验，使其更加个性化、高效和方便。你可以根据自己的需求选择适当的配置项，并逐步完善 `.bashrc` 文件。这些配置不仅提高了工作效率，还使得日常的命令行操作更加愉快。
+> [!NOTE]
+> **Can you provide examples of advanced `.bashrc` configurations, such as integrating with version control systems or automating common tasks?**
+
+### 1. 集成Git
+为了方便使用Git，你可以在`.bashrc`里设置一些别名或函数来简化常用的Git命令。
+
+```bash
+# 设置Git相关的别名
+alias g='git'
+alias ga='git add'
+alias gc='git commit -m'
+alias gco='git checkout'
+alias gb='git branch'
+alias gs='git status -sb' # 简化状态显示
+alias gd='git diff'
+alias gl='git log --oneline --graph --all'
+
+# 自动补全Git分支名称
+if [ -f /usr/share/bash-completion/completions/git ]; then
+    . /usr/share/bash-completion/completions/git
+fi
+```
+
+### 2. 定义常用命令的快捷方式
+为经常使用的长命令创建简短的别名。
+
+```bash
+# 更新所有已安装的软件包
+alias update-all='sudo apt-get update && sudo apt-get upgrade -y'
+
+# 清理无用的Docker资源
+alias docker-cleanup='docker system prune -a --volumes'
+```
+
+### 3. 动态PS1提示符
+根据当前目录的状态（如是否处于Git仓库内）动态改变命令行提示符。
+
+```bash
+function parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+```
+
+### 4. 自动化脚本执行
+对于需要频繁运行的脚本，可以直接在`.bashrc`中定义一个函数来调用它。
+
+```bash
+# 假设有一个位于~/scripts/backup.sh的备份脚本
+function backup_now() {
+    ~/scripts/backup.sh
+}
+```
+
+### 5. 使用环境变量
+设置自定义环境变量，便于访问特定路径下的工具或库。
+
+```bash
+# 添加Python虚拟环境的路径
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+# 将本地开发工具加入PATH
+export PATH="$HOME/bin:$PATH"
+```
+
+这些只是`.bashrc`配置的一些基本例子。实际应用时可以根据个人需求进行调整或扩展。记得每次修改了`.bashrc`后都需要重新加载该文件才能使更改生效，可以通过运行`source ~/.bashrc`来实现这一点。

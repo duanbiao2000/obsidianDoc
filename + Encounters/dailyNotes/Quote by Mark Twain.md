@@ -17,10 +17,19 @@ garrison 守卫部队
 The most important days in your life are the day you are born and the day you find out why？
 If you tell the truth, you don't have to remember anything。
 Wrinkles should merely indicate where the smiles have been。
+这句话“Wrinkles should merely indicate where the smiles have been”（皱纹应该仅仅表明微笑曾经存在过）传达了一种积极的生活态度。它意味着皱纹不仅仅是衰老的标志，更是人生经历和快乐时光的见证。这句话鼓励人们接受自然衰老的过程，并珍视那些带来微笑的美好回忆。
 If you pick up starving dog and make him prosperous， he will not bite you。 This is a principle difference between a dog and men。
 
 
 ## Understanding "All you need in this life is ignorance and confidence then success is sure"
+
+这句话“All you need in this life is ignorance and confidence then success is sure”（生活中所需的一切是无知和自信，然后成功是必然的）可以理解为：
+
+- **无知**：这里可能指的是对某些事情的无知或缺乏深入了解，这种无知可能让人不会过度担心或被困难吓倒。
+- **自信**：自信是相信自己能够成功的能力，即使面对未知或挑战。
+- **成功**：在拥有无知和自信的情况下，成功被认为是必然的结果。
+
+这句话传达了一种乐观的态度，即只要保持自信，并且不过度担心或被困难所困扰，成功就会随之而来。
 
 **This quote by Mark Twain is a satirical observation.**
 
@@ -38,5 +47,5 @@ It's important to note that this quote doesn't advocate for ignorance or overcon
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240816181557.png)
 
 A person with a new idea is a crank until the idea succeeds.
-
+在这句话中，“crank”指的是一个坚持新观点或新想法的人，通常这样的想法会与大众的观念有所不同，因此这样的人常常被视为固执己见或有点偏执的人。但一旦这个新想法被证明是成功的，这个人就不会再被称为“crank”了。中文解释可以是：坚持新奇或不同寻常观点的人，起初可能被认为是怪人或偏执者。
 The lack of money is a root of all evil。

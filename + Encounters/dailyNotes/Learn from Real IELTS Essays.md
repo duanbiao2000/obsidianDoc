@@ -11,7 +11,7 @@ high_priority: false
 tags:
 ---
 ### SUMMARY
-- The IELTS 2024 Complete 11 Hour Course on YouTube offers comprehensive preparation, including strategies and sample essays for improving writing skills.
+- The IELTS 2024 Complete 11 Hour Course focuses on improving writing skills through comprehensive preparation, including strategies and sample essays marked by real IELTS examiners. The course emphasizes active engagement with sample essays, understanding essay structure, and learning from grammar and vocabulary mistakes to enhance language proficiency and achieve higher scores.
 
 ### IDEAS:
 - Real IELTS examiners marked 100 band 7-8-9 essays for study.
@@ -25,10 +25,14 @@ tags:
 - Identifying and learning from grammar mistakes in essays.
 - The importance of practicing different grammatical structures.
 - Vocabulary improvement through exposure and practice.
+在这句话中，“exposure”指的是“接触”。具体来说，“词汇通过接触和练习来提高”意味着通过多接触新词汇和多加练习，可以提高词汇量。这里的“exposure”强调了学习词汇的一个重要方式，即通过实际使用和接触新单词来加深理解和记忆。
 - The value of writing a clear and concise introduction.
+英语单词"concise"在这句话中的含义是“简洁的”。在“clear and concise introduction”这个短语中，"concise"强调的是介绍应该简明扼要，能够快速准确地传达核心信息，避免冗长和不必要的描述。
 - The necessity of planning and proofreading before submitting an essay.
+在这句话中，“proofread”的含义是“校对”。整个固定搭配“planning and proofreading”的意思是，在提交论文前需要进行计划和校对。这指的是在提交之前仔细检查论文中的拼写、语法和格式错误，以确保论文的质量。
 
 ### INSIGHTS:
+在这句话中，“insights”指的是“见解”或“洞察”。具体到这句话，“INSIGHTS”后面的内容是提供的一些见解或建议，即==“积极参与样本作文的互动比被动阅读更有益。”==这里的“insights”是用来总结或提炼出来的有价值的观察或建议。
 - Active engagement with sample essays is more beneficial than passive reading.
 - Understanding the structure of an essay aids in clear communication of ideas.
 - Learning from mistakes in grammar and vocabulary enhances language proficiency.
@@ -89,21 +93,24 @@ The document is a detailed IELTS preparation course, focusing on writing skills 
 - Learn the correct way to use linking words for coherence.
 - Identify and correct grammar mistakes in samples.
 - Develop the ability to ==paraphrase== for writing tasks.
+在这句话中，“paraphrase”指的是用不同的词语或句子结构来重新表述相同的意思。具体来说，这句话建议为了练习而写完整的文章，并将这些文章与样本进行比较，以检查是否能够准确地用不同的表达方式传达相同的内容。这种练习有助于提高语言表达能力和理解能力。
 - Write full essays for practice and compare with samples.
 
 ## INSIGHTS:
 - High-scoring essays are clear and easy to understand.
 - Over-complicating ideas can hinder writing performance.
 - ==Active learning from samples leads to better retention.==
+在这句话中，"retention"的意思是“记忆保持”或“保留”。整个句子的意思是说，通过主动从样本中学习，可以更好地记住或保持所学的知识。在这里，“better retention”指的是通过这种学习方法能够更有效地记住和保持信息。
 - Coherent essays use linking words effectively.
 - Grammar mistakes can be learning opportunities.
+在这句话中，“opportunity”指的是“机会”。具体来说，句子中的“learning opportunities”是指“学习的机会”。意思是说，语法错误可以成为学习和进步的机会。
 - Vocabulary development is crucial for writing improvement.
 
 ## QUOTES:
 - "Don't use fake sample essays."
 - "Passive reading won't improve your writing."
 - "IELTS is not a memorization test."
-- "Structure your essays for clarity and coherence."
+- =="Structure your essays for clarity and coherence."==
 - "Identify grammar mistakes to improve your understanding."
 
 ## HABITS:
@@ -111,7 +118,8 @@ The document is a detailed IELTS preparation course, focusing on writing skills 
 - Practice writing with a focus on clarity and simplicity.
 - Use a timer to improve essay writing efficiency.
 - Reflect on grammar and vocabulary usage in daily writing.
-- Dedicate time to learning frommistakes made in practice.
+在这句话中，“reflect”指的是“反思”或“思考”的意思。具体来说，这句话建议人们应该花时间反思自己在日常写作中语法和词汇的使用情况，并从实践中所犯的错误中学习。
+- Dedicate time to learning from mistakes made in practice.
 
 ## FACTS:
 - More than 95% of online band 7 essays may not be accurate.

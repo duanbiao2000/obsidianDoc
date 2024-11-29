@@ -10,6 +10,9 @@ type:
 high_priority: false
 tags:
 ---
+Walter Lewin's lecture on physics covers the principles of pendulums, energy conservation, and Rayleigh scattering, emphasizing the importance of experimentation and challenging intuition. The lecture highlights how practical demonstrations and real-world examples make complex physics concepts more accessible and engaging.
+在这句话中，“engaging”指的是吸引人注意的，令人感兴趣的。意思是说，通过提供复杂的现实世界例子，可以使复杂的物理概念更加容易理解，并且能够吸引读者或学习者的兴趣。这里的“engaging”强调了内容的趣味性和吸引力。
+
 **SUMMARY**  
 Walter Lewin, renowned physicist, presents a lecture on the principles of physics, emphasizing pendulums, energy conservation, and Rayleigh scattering.
 
