@@ -1,7 +1,7 @@
 ---
-aliases: null
-theme: null
-high_priority: false
+aliases: 
+theme: 
+priority: false
 ---
 
 # S1E1

@@ -1,9 +1,9 @@
 ---
-promptId: 'artWarhol'
-name: '🖼️ Generate a photo by Warhol'
-description: 'select a text and photo with the style of Warhol will be generated using Dalle-2'
-author: 'Prompt Engineering Guide'
-tags: 'photo, dalle-2, art'
+promptId: artWarhol
+aliases: 🖼️ Generate a photo by Warhol
+description: select a text and photo with the style of Warhol will be generated using Dalle-2
+author: Prompt Engineering Guide
+tags: photo, dalle-2, art
 version: 0.0.1
 stream: false
 disableProvider: true

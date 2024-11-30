@@ -1,9 +1,9 @@
 ---
-promptId: 'qua85mm'
-name: '🖼️ Generate a 85mm lens photo'
-description: 'Quite zoomed in photo, a lot of background blur and detail on subject'
-author: 'Prompt Engineering Guide'
-tags: 'photo, dalle-2,quality, lens'
+promptId: qua85mm
+aliases: 🖼️ Generate a 85mm lens photo
+description: Quite zoomed in photo, a lot of background blur and detail on subject
+author: Prompt Engineering Guide
+tags: photo, dalle-2,quality, lens
 version: 0.0.1
 stream: false
 disableProvider: true

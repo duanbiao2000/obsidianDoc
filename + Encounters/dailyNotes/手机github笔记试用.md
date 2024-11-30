@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 # Mobile gh Notes sync with WuKong journey

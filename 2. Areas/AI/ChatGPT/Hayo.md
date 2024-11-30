@@ -5,8 +5,8 @@ url:
 page-title: 
 tags: 
 date_created: 2023-12-07
-updated: 
-isFinished: false
+date_updated: 
+reviewable: false
 ---
 ## 学习顺序：
 

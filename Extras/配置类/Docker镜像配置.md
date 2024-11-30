@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240920102749.png)

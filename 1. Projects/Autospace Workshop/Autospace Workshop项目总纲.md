@@ -1,8 +1,8 @@
 ---
-aliases: null
-theme: null
-high_priority: false
-date updated: 2024-11-05 21:05
+aliases: 
+theme: 
+priority: false
+date_created: 2024-11-05 21:05
 ---
 
 Autospace Workshop 项目是一个使用 [[Nx]] 构建的 monorepo 项目，包含多个应用程序和库，用于构建一个停车场管理系统。

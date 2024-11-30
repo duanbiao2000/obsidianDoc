@@ -1,5 +1,5 @@
 ---
-date created: 2024-08-03 10:02
+date_created: 2024-08-03 10:02
 ---
 
 好的，以下是另外 10 处 Github Gist 中 JavaScript 的精彩代码片段及详细解释：

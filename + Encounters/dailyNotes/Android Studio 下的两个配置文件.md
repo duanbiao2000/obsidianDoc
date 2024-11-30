@@ -1,7 +1,7 @@
 ---
-aliases: null
-theme: null
-high_priority: false
+aliases: 
+theme: 
+priority: false
 ---
 
 `studio.vmoptions` 和 `idea.properties` 是 Android Studio 的两个配置文件，它们用于不同的配置目的：

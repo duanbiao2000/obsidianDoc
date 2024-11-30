@@ -5,10 +5,9 @@ theme:
 original: 
 url: 
 author: 
-created_date: 
-date updated: 2024-07-14 17:02
+date_created: 2024-07-14 17:02
 type: 
-high priority: false
+priority: false
 ---
 在系统设计面试中，常用的一些模式和结构可以帮助应对不同类型的问题，并展示候选人对复杂系统设计的理解和能力。以下是一些常用的模式和结构，以及如何在面试中应用它们：
 

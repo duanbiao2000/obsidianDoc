@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 你列出的这些依赖项是用于不同目的的 npm 包。下面是对每个包的简要介绍和它们的功能：

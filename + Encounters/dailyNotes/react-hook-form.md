@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 在 React 中，如果你正在使用 `react-hook-form` 与 `@hookform/resolvers/zod` 来处理表单验证，并且你希望将 `control` 对象传递给子组件，以便这些子组件可以注册到表单上下文中，你可以这样做。`control` 对象是 `useForm` 返回的一个重要属性，它允许你管理表单字段的注册、值和状态。

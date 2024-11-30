@@ -1,5 +1,5 @@
 ---
-date created: 2024-07-19 18:42
+date_created: 2024-07-19 18:42
 ---
 ## [`app` 路由约定](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions)
 

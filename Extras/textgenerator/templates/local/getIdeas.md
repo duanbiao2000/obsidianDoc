@@ -1,12 +1,11 @@
 ---
 promptId: getIdeas
-name: "🗞️getIdeas "
+aliases: "🗞️getIdeas "
 description: getIdeas
 author: ""
 tags: ""
 version: 0.0.1
 disableProvider: false
-
 ---
 ```handlebars
 

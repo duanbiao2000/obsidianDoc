@@ -1,6 +1,6 @@
 ---
 promptId: completeTextBloom
-name: 🪄 Complete Text using Bloom Model
+aliases: 🪄 Complete Text using Bloom Model
 description: select considered context and run the command
 author: Noureddine
 tags:

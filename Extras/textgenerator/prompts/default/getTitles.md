@@ -1,6 +1,6 @@
 ---
 promptId: getTitles
-name: 🗃️ Get Blog Titles
+aliases: 🗃️ Get Blog Titles
 description: select a content and list of blog titles will be generated
 author: Noureddine
 tags: Writing

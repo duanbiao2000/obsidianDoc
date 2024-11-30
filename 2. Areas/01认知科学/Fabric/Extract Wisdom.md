@@ -4,10 +4,9 @@ theme:
 original: 
 url: https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
 author: 
-created_date: 
-date updated: 2024-07-24 13:48
+date_created: 2024-07-24 13:48
 type: 
-high priority: false
+priority: false
 ---
 # IDENTITY and PURPOSE
 

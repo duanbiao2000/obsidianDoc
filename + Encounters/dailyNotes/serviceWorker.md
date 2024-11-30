@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 `navigator.serviceWorker` 是浏览器提供的一个 API，它允许网页或 web 应用程序与 Service Worker 进行交互。Service Worker 本身是一个运行在后台的脚本，可以拦截和处理网络请求、缓存资源、发送推送通知等。`navigator.serviceWorker` 提供了注册、更新、卸载 Service Worker 以及控制相关事件的方法。

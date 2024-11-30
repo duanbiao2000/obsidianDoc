@@ -5,8 +5,8 @@ url:
 page-title: 
 tags: 
 date_created: 2023-10-29
-updated: 
-isFinished: false
+date_updated: 
+reviewable: false
 ---
 - React官方文档：[https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
 - Redux官方文档：[https://redux.js.org/introduction/getting-started](https://redux.js.org/introduction/getting-started)

@@ -1,9 +1,9 @@
 ---
-promptId: 'ligAmbient'
-name: '🖼️ Generate a Ambient Lighting photo'
-description: 'select a text and ambient lighting photo about it will be generated using Dalle-2'
-author: 'Prompt Engineering Guide'
-tags: 'photo, dalle-2,lighting'
+promptId: ligAmbient
+aliases: 🖼️ Generate a Ambient Lighting photo
+description: select a text and ambient lighting photo about it will be generated using Dalle-2
+author: Prompt Engineering Guide
+tags: photo, dalle-2,lighting
 version: 0.0.1
 stream: false
 disableProvider: true

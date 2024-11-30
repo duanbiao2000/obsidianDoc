@@ -7,7 +7,7 @@ author:
 date_created: 2024-08-05 03:50
 date_updated: 2024-08-05 03:50
 type: 
-high_priority: false
+priority: false
 ---
 
 ## Creating Modular Notes: Building Blocks of Knowledge

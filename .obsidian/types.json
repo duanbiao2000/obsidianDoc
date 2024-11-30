@@ -4,13 +4,8 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "阿东": "datetime",
-    "modified date": "datetime",
     "excalidraw-plugin": "text",
-    "updated date": "datetime",
-    "established": "datetime",
-    "updated": "datetime",
     "isFinished": "checkbox",
-    "created_date": "text",
     "status": "checkbox",
     "type": "multitext",
     "theme": "text",
@@ -36,8 +31,8 @@
     "excalidraw-open-md": "checkbox",
     "excalidraw-embeddable-theme": "text",
     "minScale": "text",
-    "date_created": "text",
+    "date_created": "datetime",
     "date_updated": "datetime",
-    "date": "datetime"
+    "high_priority": "text"
   }
 }

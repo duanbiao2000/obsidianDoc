@@ -1,6 +1,6 @@
 ---
 promptId: art3D
-name: 🖼️ Generate a 3D art photo
+aliases: 🖼️ Generate a 3D art photo
 description: select a text and photo with the style of 3D art will be generated using Dalle-2
 author: Prompt Engineering Guide
 tags:

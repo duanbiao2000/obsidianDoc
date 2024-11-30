@@ -1,6 +1,6 @@
 ---
 promptId: getIdeas
-name: 💡BrainStorm Ideas
+aliases: 💡BrainStorm Ideas
 description: Brainstorm idea about the context.
 author: Noureddine
 tags: ideas, writing

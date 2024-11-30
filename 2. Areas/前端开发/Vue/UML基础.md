@@ -1,13 +1,12 @@
 ---
-aliases: null
-theme: null
-original: null
-url: null
-author: null
-created_date: null
-date updated: 2024-07-17 00:44
-type: null
-high priority: false
+aliases: 
+theme: 
+original: 
+url: 
+author: 
+date_created: 2024-07-17 00:44
+type: 
+priority: false
 ---
 
 ### UML基础

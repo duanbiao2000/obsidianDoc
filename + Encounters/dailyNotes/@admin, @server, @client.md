@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 ## @Codebase, @admin, @server, @client 的职能和关系

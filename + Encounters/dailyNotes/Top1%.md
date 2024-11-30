@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 1. 明确目标与计划：顶尖学生与运动员一样，有明确的日常计划和目标，不留空间给过度思考。

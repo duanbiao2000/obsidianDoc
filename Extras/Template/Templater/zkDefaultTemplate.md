@@ -5,9 +5,9 @@ original:
 url: 
 author: 
 tags: 
-created_date: 
+date_created: 
 type: 
-high priority: false
+priority: false
 ---
 **单个卡片应该包含的要素：**
 

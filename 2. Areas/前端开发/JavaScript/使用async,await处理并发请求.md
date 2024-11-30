@@ -5,10 +5,9 @@ theme:
 original: 
 url: 
 author: 
-created_date: 
-date updated: 2024-07-14 17:02
+date_created: 2024-07-14 17:02
 type: 
-high priority: false
+priority: false
 ---
 在JavaScript中，`async/await` 是处理异步操作的一种简洁方式，特别适合管理并发请求。下面是一个示例，展示了如何使用 `async/await` 发起多个HTTP请求（以fetch API为例），并等待所有请求完成。同时，我会提供一个简单的单元测试思路，但请注意实际的单元测试实现依赖于你选择的测试框架（如Jest、Mocha等）。
 

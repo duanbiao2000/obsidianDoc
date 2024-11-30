@@ -1,6 +1,6 @@
 ---
 promptId: dall-e-core
-name: 🗞️ dall-e-core
+aliases: 🗞️ dall-e-core
 description: dalle core options
 author: 
 tags: 

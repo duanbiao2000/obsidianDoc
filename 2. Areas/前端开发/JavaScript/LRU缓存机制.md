@@ -5,10 +5,9 @@ theme:
 original: 
 url: 
 author: 
-created_date: 
-date updated: 2024-07-14 17:02
+date_created: 2024-07-14 17:02
 type: 
-high priority: false
+priority: false
 ---
 LRU（Least Recently Used）缓存机制是一种常用的缓存淘汰策略，当缓存满时，会优先淘汰最近最少使用的数据。下面是一个使用JavaScript实现的简单LRU缓存类，包括关键代码行内注释以及一个简单的单元测试示例。
 

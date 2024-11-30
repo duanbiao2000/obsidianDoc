@@ -1,6 +1,6 @@
 ---
 promptId: getEmailNeg
-name: ✉️ Reply to Email negatively 😡
+aliases: ✉️ Reply to Email negatively 😡
 description: select the email content and negative reply will be generated
 author: Noureddine
 tags:

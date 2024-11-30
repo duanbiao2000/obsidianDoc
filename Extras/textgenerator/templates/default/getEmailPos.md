@@ -1,6 +1,6 @@
 ---
 promptId: getEmailPos
-name: ✉️ Reply to Email positively 😄
+aliases: ✉️ Reply to Email positively 😄
 description: select the email and a positive reply will be generated
 author: Noureddine
 tags: communication, email

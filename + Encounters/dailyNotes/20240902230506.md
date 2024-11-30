@@ -7,7 +7,7 @@ author:
 date_created: 
 date_updated: 
 type: 
-high_priority: false
+priority: false
 tags:
 ---
 在 React 中，`useCallback` 是一个 Hook，它返回一个 memoized（记忆化的）回调函数。这个函数在依赖项（由第二个参数数组定义）改变时才会重新创建。这对于优化性能非常有用，特别是当你有一个父组件向子组件传递回调函数作为 prop，并且希望避免不必要的重新渲染时。

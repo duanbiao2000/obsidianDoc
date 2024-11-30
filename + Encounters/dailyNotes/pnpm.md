@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 这条命令使用了 `pnpm`（一个快速、节省磁盘空间的包管理器）来创建一个新的 Next.js 项目，并且指定了使用 `pnpm` 作为项目的包管理器。下面是命令中每个部分的详细分析：

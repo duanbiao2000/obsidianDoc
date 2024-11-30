@@ -7,7 +7,7 @@ author:
 date_created: 
 date_updated: 
 type: 
-high_priority: false
+priority: false
 tags:
 ---
 ## Logstash：你的日志管理利器

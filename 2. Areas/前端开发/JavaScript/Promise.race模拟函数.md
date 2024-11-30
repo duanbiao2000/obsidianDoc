@@ -5,10 +5,9 @@ theme:
 original: 
 url: 
 author: 
-created_date: 
-date updated: 2024-07-14 17:02
+date_created: 2024-07-14 17:02
 type: 
-high priority: false
+priority: false
 ---
 `Promise.race` 是一个 Promise 静态方法，它接收一个 Promise 对象的数组作为参数，一旦数组中的某个 Promise 解决或拒绝，`Promise.race` 就会立即以相同的解决值或拒绝原因返回一个新的 Promise。
 

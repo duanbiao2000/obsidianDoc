@@ -1,6 +1,6 @@
 ---
 title: typora-vue-theme主题介绍
-date: 2018-09-07 09:25:00
+date_created: 2018-09-07 09:25:00
 author: 赵奇
 img: /source/images/xxx.jpg
 top: true

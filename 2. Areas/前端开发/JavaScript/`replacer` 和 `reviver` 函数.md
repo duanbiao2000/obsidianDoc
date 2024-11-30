@@ -5,10 +5,9 @@ theme:
 original: 
 url: 
 author: 
-created_date: 
-date updated: 2024-07-14 17:02
+date_created: 2024-07-14 17:02
 type: 
-high priority: false
+priority: false
 ---
 ### 使用 `replacer` 函数
 假设我们有一个对象，其中包含一些我们不想序列化的属性，我们可以使用 `replacer` 函数来排除这些属性。

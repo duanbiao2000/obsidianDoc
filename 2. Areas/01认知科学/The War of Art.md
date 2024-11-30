@@ -4,10 +4,9 @@ theme:
 original: 
 url: 
 author: 
-created_date: 2024-06-16 20:21
+date_created: 2024-07-16 20:21
 type: 
-high priority: false
-date updated: 2024-07-16 20:21
+priority: false
 ---
 
 《The War of Art》这本书的核心观点集中在如何克服内在的阻力（Resistance）来实现创造性的工作和生活。以下是书中的一些关键观点摘要：

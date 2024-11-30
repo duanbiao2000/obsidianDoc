@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 我们可以使用 OpenAI 的 API 来生成文件的摘要，并将其作为新的文件名。以下是一个 Python 脚本，它会读取 `@dailyNotes` 目录下的每个文件，使用 OpenAI 的 API 生成摘要，并将其作为新的文件名。

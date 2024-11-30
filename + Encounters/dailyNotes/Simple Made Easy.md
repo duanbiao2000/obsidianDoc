@@ -7,7 +7,7 @@ author:
 date_created: 
 date_updated: 
 type: 
-high_priority: false
+priority: false
 tags:
   - 核心思想
   - 简洁

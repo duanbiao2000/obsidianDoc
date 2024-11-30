@@ -1,12 +1,11 @@
 ---
 aliases: 
-date: 
+date_created: 
 url: https://www.bilibili.com/video/BV1MS4y167Bz/?p=6&spm_id_from=pageDriver&vd_source=7038f96b6bb3b14743531b102b109c43
 page-title: 
 tags: 
-established: 2023-10-22T12:01:00
-updated: 
-isFinished: false
+date_updated: 2023-10-22T12:01:00
+reviewable: false
 ---
 ![Basic React SSR](https://www.bilibili.com/video/BV1MS4y167Bz/?p=6&spm_id_from=pageDriver&vd_source=7038f96b6bb3b14743531b102b109c43)
 

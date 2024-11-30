@@ -1,6 +1,6 @@
 ---
 promptId: rewrite
-name: ✏️ Rewrite, Paraphrase
+aliases: ✏️ Rewrite, Paraphrase
 description: select a content and it will be rewriten.
 author: Noureddine
 tags: writing

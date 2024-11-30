@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 NestJS 是一个基于 Node.js 的可扩展框架，用于构建高效、可靠和可伸缩的服务器端应用程序。它利用了 TypeScript 的特性，但也支持 JavaScript 和 JSX。NestJS 提供了许多内置功能，其中包括守卫（Guards）、管道（Pipes）、拦截器（Interceptors）以及异常过滤器（Exception Filters），这些都是用来增强应用的功能性和灵活性的重要组件。

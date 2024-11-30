@@ -1,6 +1,6 @@
 ---
 promptId: artClaymation
-name: 🖼️ Generate a claymation art photo
+aliases: 🖼️ Generate a claymation art photo
 description: select a text and photo with the style of claymation art will be generated using Dalle-2
 author: Prompt Engineering Guide
 tags: []

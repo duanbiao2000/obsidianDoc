@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 Conway's Law 是由计算机程序员 Melvin Conway 在 1967 年提出的一个经验法则。这个法则的正式表述是：

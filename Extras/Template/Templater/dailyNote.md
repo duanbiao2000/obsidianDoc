@@ -5,9 +5,9 @@ original:
 url: 
 author: 
 type: 
-high_priority: false
-creation date: <% tp.file.creation_date() %>
-modification date: <% tp.file.last_modified_date() %>
+priority: false
+date_created: <% tp.file.creation_date() %>
+date_updated: <% tp.file.last_modified_date() %>
 tags:
 ---
 

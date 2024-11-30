@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 在现代 Web 开发中，GraphQL 是一种非常流行的 API 技术，而 NestJS、Prisma 和 PostgreSQL 则是构建高性能后端应用的关键技术。下面我们将探讨 GraphQL 与 NestJS、Prisma 和 PostgreSQL 之间的联系及其如何协同工作。

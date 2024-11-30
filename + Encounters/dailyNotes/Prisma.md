@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 这段代码是 Prisma 框架中的一部分，用于生成 Prisma Client。Prisma 是一个现代化的数据库工具，它可以帮助开发者更高效地与数据库交互。`prisma-client-js` 是 Prisma 提供的一个库，允许你以类型安全的方式从 Node.js 应用程序访问数据库。

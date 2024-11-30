@@ -1,6 +1,6 @@
 ---
 promptId: getPhoto
-name: 🖼️ Generate a photo (dalle-2)
+aliases: 🖼️ Generate a photo (dalle-2)
 description: select a text and photo about it will be generated using Dalle-2
 author: Noureddine
 tags:

@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 在软件开发中，特别是使用面向对象编程语言构建应用程序时，`Repository` 模式是一种常用的设计模式，用于抽象数据访问层。`Repository` 的主要作用是封装数据访问逻辑，并为业务逻辑层提供统一的接口来访问存储在数据库中的数据。

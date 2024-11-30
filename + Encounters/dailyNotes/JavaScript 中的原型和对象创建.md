@@ -7,7 +7,7 @@ author:
 date_created: 2024-08-05T11:28:00
 date_updated: 2024-08-05 11:28
 type: 
-high_priority: false
+priority: false
 ---
 ## JavaScript 中的原型和对象创建
 

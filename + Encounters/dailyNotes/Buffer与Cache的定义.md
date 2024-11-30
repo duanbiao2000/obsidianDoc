@@ -7,7 +7,7 @@ author:
 date_created: 
 date_updated: 
 type: 
-high_priority: false
+priority: false
 tags:
 ---
 在Linux系统中，buffer和cache是内存管理的重要组成部分，它们各自承担不同的职责。理解这两者的区别和功能，对于优化系统性能和资源管理至关重要。

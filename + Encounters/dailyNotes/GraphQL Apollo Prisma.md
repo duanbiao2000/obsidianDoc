@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 [prisma-examples/typescript/rest-nextjs-api-routes/src/components at latest · prisma/prisma-examples · GitHub](https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes/src/components)

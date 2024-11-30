@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 不过，我可以推测你是想了解如何在React项目中使用`TanStack Query`（以前称为`React Query`）与`Firebase`结合来管理数据获取和状态。

@@ -1,7 +1,7 @@
 ---
-aliases: null
-theme: null
-high_priority: false
+aliases: 
+theme: 
+priority: false
 ---
 
 在典型的 Android 应用架构中，`model`, `repository`, `viewModel`, `dao` 和 `database` 之间的层级和引用关系如下：

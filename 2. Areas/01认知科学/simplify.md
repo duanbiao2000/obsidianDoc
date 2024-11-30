@@ -1,6 +1,6 @@
 ---
 promptId: simplify
-name: 👼Simplify
+aliases: 👼Simplify
 description: select a content and it will be simplified.
 author: Noureddine
 tags: thinking, writing

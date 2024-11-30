@@ -1,9 +1,9 @@
 ---
-promptId: 'artPencilSketch'
-name: '🖼️ Generate a pencil sketch photo'
-description: 'select a text and photo with the style of pencil sketch will be generated using Dalle-2'
-author: 'Prompt Engineering Guide'
-tags: 'photo, dalle-2, art'
+promptId: artPencilSketch
+aliases: 🖼️ Generate a pencil sketch photo
+description: select a text and photo with the style of pencil sketch will be generated using Dalle-2
+author: Prompt Engineering Guide
+tags: photo, dalle-2, art
 version: 0.0.1
 stream: false
 disableProvider: true

@@ -1,6 +1,6 @@
 ---
 promptId: getOutline
-name: 🗒️Generate Outline
+aliases: 🗒️Generate Outline
 description: Select a title, an outline will be generated for You.
 required_values: title
 author: Noureddine

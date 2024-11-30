@@ -1,6 +1,6 @@
 ---
-aliases: null
-date updated: 2024-07-14 18:01
+aliases: 
+date_created: 2024-07-14 18:01
 ---
 
 #### 4.2 容器组件与表现组件模式

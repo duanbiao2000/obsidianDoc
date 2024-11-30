@@ -1,8 +1,7 @@
 ---
-theme: null
-status: null
-created_date: 2024-05-06T00:00:00.000Z
-date updated: 2024-07-14 17:03
+theme: 
+status: 
+date_created: 2024-07-14 17:03
 ---
 ### **标题**：个人才干主题与职业发展
 

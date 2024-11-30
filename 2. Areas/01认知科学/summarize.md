@@ -1,6 +1,6 @@
 ---
 promptId: summarize
-name: 🗞️ Summarize
+aliases: 🗞️ Summarize
 description: select a content and it will be summarized.
 author: Noureddine
 tags: writing, thinking, learning

@@ -1,7 +1,7 @@
 ---
-aliases: null
-theme: null
-high_priority: false
+aliases: 
+theme: 
+priority: false
 ---
 
 `DeltaToken` 是 Microsoft Graph API 中用于增量查询（delta query）的一个概念。它是一个特殊的令牌，用来跟踪和获取自上次请求以来发生更改的数据。当你使用增量查询时，`DeltaToken` 使得应用程序能够高效地同步数据，而无需每次都检索全部数据集。

@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 这段TypeScript代码定义了一个名为`OramaManager`的类，用于管理一个基于`Orama`的搜索引擎实例。`Orama`是一个用于构建和查询向量空间索引的库，特别适用于处理大量文本数据。这个类还集成了数据持久化功能，可以将索引保存到数据库中，并在需要时恢复。

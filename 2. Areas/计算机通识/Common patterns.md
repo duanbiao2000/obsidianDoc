@@ -5,10 +5,9 @@ theme:
 original: 
 url: 
 author: 
-created_date: 
-date updated: 2024-07-14 17:02
+date_created: 2024-07-14 17:02
 type: 
-high priority: false
+priority: false
 ---
 在系统设计中，有许多常见的设计模式（patterns）和原则，这些模式可以帮助构建高效、可扩展、可靠的系统。以下是一些关键的系统设计模式及其简要说明：
 

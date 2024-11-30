@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 `@hookform/resolvers/zod` 是一个库，它允许你将 Zod 验证器与 React Hook Form 集成在一起。Zod 是一个 TypeScript-first 的数据验证库，而 React Hook Form 是一个高性能、灵活且易于使用的表单处理库。通过 `zodResolver`，你可以利用 Zod 的强大验证功能来处理表单数据的验证。

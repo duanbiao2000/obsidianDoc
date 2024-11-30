@@ -1,15 +1,14 @@
 ---
-aliases: null
+aliases: 
 theme: night
-original: null
-url: null
-author: null
+original: 
+url: 
+author: 
 tags:
   - Notebooklm
-created_date: 2024-06-16 21:06
-type: null
-high priority: false
-date updated: 2024-07-24 15:27
+date_created: 2024-07-24 15:27
+type: 
+priority: false
 ---
 
 ## 知识及其来源

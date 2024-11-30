@@ -1,13 +1,12 @@
 ---
-aliases: null
-theme: null
-original: null
-url: null
-author: null
-created_date: null
-date updated: 2024-07-24 13:48
-type: null
-high priority: false
+aliases: 
+theme: 
+original: 
+url: 
+author: 
+date_created: 2024-07-24 13:48
+type: 
+priority: false
 ---
 ## SUMMARY
 This text discusses communication skills training and its importance. 

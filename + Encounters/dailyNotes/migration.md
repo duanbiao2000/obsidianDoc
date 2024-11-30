@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 好的，我可以帮助你配置 MySQL 和你的后端应用。以下是一些步骤：

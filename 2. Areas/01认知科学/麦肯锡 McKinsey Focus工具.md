@@ -1,9 +1,9 @@
 ---
 aliases: 
 theme: 
-high_priority: false
-creation date: 2024-11-08 23:58
-modification date: 2024-11-08 23:58
+priority: false
+date_created: 2024-11-08 23:58
+date_updated: 2024-11-08 23:58
 tags:
   - thinking
 ---

@@ -1,14 +1,14 @@
 ---
-aliases: null
-theme: null
-original: null
-url: null
-author: null
+aliases: 
+theme: 
+original: 
+url: 
+author: 
 date_created: 2024-08-03 14:36
-date_updated: null
-type: null
-high_priority: false
-tags: null
+date_updated: 
+type: 
+priority: false
+tags:
 ---
 下面是一些关于 React 测试的常见面试问题，以及相应的回答：
 1. 为什么要进行 React 测试

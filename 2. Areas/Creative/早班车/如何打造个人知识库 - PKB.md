@@ -1,13 +1,12 @@
 ---
-aliases: null
-theme: null
-original: null
-url: null
-author: null
-created_date: null
-date updated: 2024-07-29 22:14
-type: null
-high priority: false
+aliases: 
+theme: 
+original: 
+url: 
+author: 
+date_created: 2024-07-29 22:14
+type: 
+priority: false
 ---
 
 ```tg

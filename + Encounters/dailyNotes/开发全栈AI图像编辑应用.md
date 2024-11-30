@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags: 
 url: https://www.bilibili.com/video/BV1yp29YSEq2/
 ---

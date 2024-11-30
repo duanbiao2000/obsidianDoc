@@ -1,6 +1,6 @@
 ---
 promptId: getParagraph
-name: ✍️ Write paragraph
+aliases: ✍️ Write paragraph
 description: select one item, a paragraph will be generated.
 required_values: title, outline
 author: Noureddine

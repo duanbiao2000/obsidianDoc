@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 The code snippet you've provided appears to be an import statement in JavaScript or TypeScript. Let's break it down:

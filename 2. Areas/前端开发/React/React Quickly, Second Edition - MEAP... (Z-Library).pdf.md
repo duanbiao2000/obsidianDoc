@@ -1,14 +1,14 @@
 ---
-aliases: null
-theme: null
-original: null
-url: null
-author: null
+aliases: 
+theme: 
+original: 
+url: 
+author: 
 date_created: 2024-08-03 13:58
-date_updated: null
-type: null
-high_priority: false
-tags: null
+date_updated: 
+type: 
+priority: false
+tags:
 ---
 `evt.target.selectedOptions` 是一个 DOM 属性，用于获取在选择框（`<select>`）中被选中的选项（`<option>`）的集合。
 当用户在选择框中选择一个或多个选项时，可以通过访问 `evt.target.selectedOptions` 属性来获取被选中的选项。这个属性返回一个类似数组的对象，包含了被选中的选项元素。

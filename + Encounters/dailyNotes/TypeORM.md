@@ -1,7 +1,7 @@
 ---
 aliases: 
 theme: 
-high_priority: false
+priority: false
 tags:
 ---
 NestJS 是一个基于 Node.js 的可扩展框架，用于构建高效、可靠和可维护的服务器端应用程序。NestJS 支持多种数据库和 ORM（对象关系映射）工具，其中最常用的 ORM 是 TypeORM 和 Sequelize。这里我们将重点介绍 NestJS 中使用 TypeORM 的情况，因为它是最受欢迎的选择之一。
