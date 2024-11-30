@@ -53,5 +53,6 @@
   "anuppuccin-theme-settings@@anp-custom-vault-toggle": false,
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "anuppuccin-theme-settings@@anp-header-color-toggle": true,
-  "anuppuccin-theme-settings@@file-line-width": 900
+  "anuppuccin-theme-settings@@file-line-width": 900,
+  "things-style@@default-font-color": false
 }

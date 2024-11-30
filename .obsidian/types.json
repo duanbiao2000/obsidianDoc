@@ -10,7 +10,6 @@
     "established": "datetime",
     "updated": "datetime",
     "isFinished": "checkbox",
-    "create_date": "text",
     "created_date": "text",
     "status": "checkbox",
     "type": "multitext",
@@ -37,7 +36,7 @@
     "excalidraw-open-md": "checkbox",
     "excalidraw-embeddable-theme": "text",
     "minScale": "text",
-    "date_created": "datetime",
+    "date_created": "text",
     "date_updated": "datetime",
     "date": "datetime"
   }

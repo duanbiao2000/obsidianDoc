@@ -43,15 +43,9 @@ tags:
 - 遇到的挑战：
 - 明天的计划：
 
-## 随机名言
-<% tp.web.daily_quote() %>
-
-## 每日一图
-<% tp.web.random_picture("800x600") %>
 
 
-// Random picture with size and query
-<% tp.web.random_picture("800x800", "landscape,water") %>
+
 
 
 

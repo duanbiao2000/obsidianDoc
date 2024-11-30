@@ -41,7 +41,7 @@
   "resizeByDragging": true,
   "resizeWithScrollwheel": true,
   "scrollwheelModifier": "Shift",
-  "allowResizeInReadingMode": false,
+  "allowResizeInReadingMode": true,
   "rightClickContextMenu": true,
   "rememberScrollPosition": true,
   "cursorPosition": "back",
