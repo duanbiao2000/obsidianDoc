@@ -1,7 +1,7 @@
 ---
 promptId: simplify
 aliases: 👼Simplify
-description: select a content and it will be simplified.
+summary: select a content and it will be simplified.
 author: Noureddine
 tags: Brainstorms, Writing
 version: 0.0.1

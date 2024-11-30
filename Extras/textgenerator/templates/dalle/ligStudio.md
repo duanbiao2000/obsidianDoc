@@ -1,7 +1,7 @@
 ---
 promptId: ligStudio
 aliases: 🖼️ Generate a Studio Lighting photo
-description: Dark/light background is imposed behind the subject, lighting accentuates details of the figure in the foreground.
+summary: Dark/light background is imposed behind the subject, lighting accentuates details of the figure in the foreground.
 author: Prompt Engineering Guide
 tags: photo, dalle-2,lighting
 version: 0.0.1

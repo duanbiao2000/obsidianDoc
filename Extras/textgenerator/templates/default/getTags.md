@@ -1,7 +1,7 @@
 ---
 promptId: getTags
 aliases: 🏷️Get Tags for Your Content
-description: Select a content and Get suggest Tags for it
+summary: Select a content and Get suggest Tags for it
 author: Noureddine
 tags: writing, learning
 version: 0.0.1

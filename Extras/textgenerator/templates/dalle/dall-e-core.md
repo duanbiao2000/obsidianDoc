@@ -1,7 +1,7 @@
 ---
 promptId: dall-e-core
 aliases: 🗞️ dall-e-core
-description: dalle core options
+summary: dalle core options
 author: 
 tags: 
 version: 0.0.1

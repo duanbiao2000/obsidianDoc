@@ -1,7 +1,7 @@
 ---
 promptId: getOutline
 aliases: 🗒️Generate Outline
-description: Select a title, an outline will be generated for You.
+summary: Select a title, an outline will be generated for You.
 required_values: title
 author: Noureddine
 tags: Writing

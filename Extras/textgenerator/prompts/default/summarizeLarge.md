@@ -1,7 +1,7 @@
 ---
 promptId: summarizeLarge
 aliases: 🗞️ Summarizes Large chunk of text
-description: uses langchain chain to summarize large chunk of text
+summary: uses langchain chain to summarize large chunk of text
 author: Noureddine
 tags: Writing, Brainstorms, Lessons
 version: 0.0.1

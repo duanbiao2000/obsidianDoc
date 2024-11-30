@@ -1,7 +1,7 @@
 ---
 promptId: qua35mm
 aliases: 🖼️ Generate a 35mm lens photo
-description: Reasonable amount of background blur, reasonable zoom level.
+summary: Reasonable amount of background blur, reasonable zoom level.
 author: Prompt Engineering Guide
 tags: photo, dalle-2,quality,lens
 version: 0.0.1

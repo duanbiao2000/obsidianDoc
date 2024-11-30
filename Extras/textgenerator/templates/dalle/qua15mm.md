@@ -1,7 +1,7 @@
 ---
 promptId: qua15mm
 aliases: 🖼️ Generate a 15mm wide-angle lens photo
-description: Very wide image with lots of information in the image.
+summary: Very wide image with lots of information in the image.
 author: Prompt Engineering Guide
 tags: photo,dalle-2,quality,lens
 version: 0.0.1

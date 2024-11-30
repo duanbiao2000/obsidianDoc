@@ -1,7 +1,7 @@
 ---
 promptId: getEmailNeg
 aliases: ✉️ Reply to Email negatively 😡
-description: select the email content and negative reply will be generated
+summary: select the email content and negative reply will be generated
 author: Noureddine
 tags:
   - Relationships

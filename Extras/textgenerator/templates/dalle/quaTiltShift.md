@@ -1,7 +1,7 @@
 ---
 promptId: quaTiltShift
 aliases: 🖼️ Generate a Tilt-shift photo
-description: select a text and Tilt-shift photo about it will be generated using Dalle-2
+summary: select a text and Tilt-shift photo about it will be generated using Dalle-2
 author: Prompt Engineering Guide
 tags: photo, dalle-2,quality
 version: 0.0.1

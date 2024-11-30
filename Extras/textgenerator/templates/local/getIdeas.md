@@ -1,7 +1,7 @@
 ---
 promptId: getIdeas
 aliases: "🗞️getIdeas "
-description: getIdeas
+summary: getIdeas
 author: ""
 tags: ""
 version: 0.0.1

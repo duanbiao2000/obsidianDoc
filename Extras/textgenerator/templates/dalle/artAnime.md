@@ -1,7 +1,7 @@
 ---
 promptId: artAnime
 aliases: 🖼️ Generate a anime photo
-description: select a text and photo with the style of anime will be generated using Dalle-2
+summary: select a text and photo with the style of anime will be generated using Dalle-2
 author: Prompt Engineering Guide
 tags:
   - photo

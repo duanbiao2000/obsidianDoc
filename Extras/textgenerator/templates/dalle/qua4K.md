@@ -1,7 +1,7 @@
 ---
 promptId: qua4K
 aliases: 🖼️ Generate a 4K/8K photo
-description: Images in the dataset with the caption “4K/8K” are of high production value therefore will look more professionally photographed if you add this modifier.
+summary: Images in the dataset with the caption “4K/8K” are of high production value therefore will look more professionally photographed if you add this modifier.
 author: Prompt Engineering Guide
 tags: photo, dalle-2,quality
 version: 0.0.1

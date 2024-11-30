@@ -1,7 +1,7 @@
 ---
 promptId: ligCinematic
 aliases: 🖼️ Generate a Cinematic Lighting photo
-description: Movie-like imagery with dramatic shadowing and very strong vibrancy, it also seems to add sun rays whenever it can.
+summary: Movie-like imagery with dramatic shadowing and very strong vibrancy, it also seems to add sun rays whenever it can.
 author: Prompt Engineering Guide
 tags: photo, dalle-2, lighting
 version: 0.0.1

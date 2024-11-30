@@ -1,7 +1,7 @@
 ---
 promptId: rewrite
 aliases: ✏️ Rewrite, Paraphrase
-description: select a content and it will be rewriten.
+summary: select a content and it will be rewriten.
 author: Noureddine
 tags: Writing
 version: 0.0.1
