@@ -1,12 +1,12 @@
 {
   "cssTheme": "Typora-Vue",
   "theme": "system",
-  "accentColor": "",
+  "accentColor": "#0b9d80",
   "translucency": false,
   "nativeMenus": true,
   "baseFontSize": 18,
   "monospaceFontFamily": "",
-  "textFontFamily": "",
+  "textFontFamily": "Microsoft YaHei",
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "snippets",

@@ -1,5 +1,5 @@
 {
-  "folder": "+ Encounters/dailyNotes",
-  "template": "Extras/Template/Templater/Hexo博文模版",
+  "folder": "+ Encounters/Zettelkasten",
+  "template": "Extras/Template/Zettelkasten模板",
   "format": "YYYYMMDDHHmm"
 }

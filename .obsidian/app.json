@@ -13,7 +13,7 @@
   },
   "trashOption": "local",
   "useMarkdownLinks": false,
-  "vimMode": false,
+  "vimMode": true,
   "newLinkFormat": "shortest",
   "strictLineBreaks": true,
   "autoPairMarkdown": true,
@@ -27,6 +27,7 @@
   "livePreview": true,
   "showRibbon": true,
   "showInlineTitle": true,
-  "readableLineLength": true,
-  "showUnsupportedFiles": false
+  "readableLineLength": false,
+  "showUnsupportedFiles": false,
+  "useTab": false
 }
