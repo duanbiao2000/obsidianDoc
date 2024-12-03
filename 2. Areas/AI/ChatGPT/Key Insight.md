@@ -6,7 +6,7 @@ page-title:
 tags:
   - todo
   - flashcards
-date_updated: 2023-10-17T20:55:00
+date_update: 2023-10-17T20:55:00
 ---
 ![[../ChatGPT 1/assets/img/Key Insight/IMG-Key Insight-20240603143731287.png]]
 

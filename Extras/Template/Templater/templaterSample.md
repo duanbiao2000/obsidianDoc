@@ -3,7 +3,7 @@ aliases:
 theme: 
 priority: false
 date_created: <% tp.file.creation_date() %>
-date_updated: <% tp.file.last_modified_date() %>
+date_update: <% tp.file.last_modified_date() %>
 tags:
 ---
 

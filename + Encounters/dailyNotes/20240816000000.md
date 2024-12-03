@@ -6,7 +6,7 @@ original:
 url: 
 author: 
 date_created: 
-date_updated: 
+date_update: 
 type: 
 priority: false
 tags:

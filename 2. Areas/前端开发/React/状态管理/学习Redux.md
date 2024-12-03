@@ -5,7 +5,7 @@ url:
 page-title: 
 tags: 
 date_created: 2023-10-29
-date_updated: 
+date_update: 
 reviewable: false
 ---
 - React官方文档：[https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
@@ -63,7 +63,7 @@ reviewable: false
 - [[Extras/textgenerator/generations/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md]]
 - [[+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md]]
 - [[2. Areas/BackEnd/RoadMap&Interview/开源模拟.md]]
-- [[Atlas/时间线设计.md]]
+- [[时间线设计]]
 - [[2. Areas/AI/ChatGPT/梳理.md]]
 - [[2. Areas/BackEnd/RoadMap&Interview/深度思考-每日时间规划.md]]
 - [[2. Areas/BackEnd/Java/闭环代码框架.md]]

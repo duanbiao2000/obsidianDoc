@@ -5,7 +5,7 @@ original:
 url: https://www.bilibili.com/video/BV1De4y1S7gx?p=2&vd_source=7038f96b6bb3b14743531b102b109c43
 author: 
 date_created: 
-date_updated: 
+date_update: 
 type: 
 priority: false
 tags:

@@ -101,6 +101,7 @@ Your stars🌟 and recommendations are what make this community vibrant!
 * [TechWriting GPT](https://chat.openai.com/g/g-TURZVCuy7-techwriting-gpt) - Expert in developer marketing and writing for engineers.
 * [Editby | SEO and social media writer](https://chat.openai.com/g/g-I3NZ9DoPL-editby-seo-and-social-media-writer) - Write engaging SEO-optimized articles and social media posts.
 * [Transcript Polisher](https://chat.openai.com/g/g-zjBCMv8GA-transcript-polisher) - Edit rough AI-generated transcripts into polished prose.
+在这句话中，“prose”指的是散文或叙述性文字。具体来说，“polished prose”意味着经过润色和修饰的流畅文字或叙述。这个表达强调的是将原始、略显粗糙的文本（如自动生成的文本）加工成更加流畅、易读和优美的叙述性文字。
 * [Fable Forge](https://chat.openai.com/g/g-mBqCBRe17-fable-forge) - Interactive fable-teller with illustrations.
 * [Tales](https://chat.openai.com/g/g-sXCQE8t9o-tales) - Create short text adventures.
 * [Screenplay GPT](https://chat.openai.com/g/g-INlwuHdxU-screenplay-gpt) - Crafts award-worthy screenplay gems. Ask it for images, too!
@@ -122,17 +123,22 @@ Your stars🌟 and recommendations are what make this community vibrant!
 ## Education
 * [Real Estate Striver](https://chatgpt.com/g/g-Nhtfia7Ru-real-estate-striver-game) - Educate real estate investment as a RPG game where players build a real estate empire.
 * [EduBot - HomeSchool Helper](https://chat.openai.com/g/g-LTgawtUFZ) - Personalized Homeschooling; adapting to students' unique needs, offering interactive learning, and respecting individual preferences.
+在这一句话中，“respecting” 的意思是“尊重”。整个短语 “respecting individual preferences” 意思是“尊重个人偏好”。这意味着EduBot会考虑到每个学生个人的喜好和需求，在个性化教学中予以重视和适应。
 * [ScholarAI](https://chat.openai.com/g/g-L2HknCZTC-scholarai) - Your Research Assistant - I'll help you navigate over a corpus of 200M articles, journals, and books.
+在这句话中，"corpus"指的是一个大型的文本集合或数据库。具体来说，这里的"corpus"指的是包含200M（即2亿）篇文章、期刊和书籍的庞大文本集合。这个术语通常用于语言学和信息检索领域，指的是用于语言分析、研究或信息检索的大量文本数据集。
 * [ATOM library tutor](https://chat.openai.com/g/g-Dqb6xDLt6-atom-library-tutor) - Create and analyze molecular systems in MATLAB.
 * [Code Animator](https://chat.openai.com/g/g-r4TatQY5C-code-animator) - I generate Manim animations for CS education.
 * [CS50 Tutor](https://chat.openai.com/g/g-1KKnxZsif-cs50-tutor) - Your pseudo Harvard professor for computer science queries, blending academic rigor with supportive guidance.
 * [Fast.ai Tutor](https://chat.openai.com/g/g-9p4s4Cx6W-fast-ai-tutor) - A tutor for the Fast.ai course, providing explanations and assistance.
 * [anky](https://chat.openai.com/g/g-DKne07mTu-anky) - Creates notebook templates.
+> [!hint]
+> 本vault的模板即是由anky生成.
 * [Therocial Scientist](https://chat.openai.com/g/g-YNx1VQJnF-therocial-scientist) - I am a digital scientist skilled in Python, here to assist with scientific and data analysis tasks.
 * [Climate Insight](https://chat.openai.com/g/g-ZQHLb73Aq-climate-insight) - IPCC report based learning for climate change what we are facing.
 * [Learning Journey](https://chat.openai.com/g/g-nL5CLc5oz-learning-journey) - A guide for personalized learning journeys in various subjects with interactive modes.
 * [Research Pathfinder](https://chat.openai.com/g/g-kidbj3HXe-research-pathfinder) - Guiding you through the galaxy of STEM research!
 * [Debate wars]( https://chat.openai.com/g/g-3f6WLJxOX-debate-wars) - Just provide a topic or question in your spoken language to start a ChatGpt vs ChatGpt debate battle.
+
 * [Rust Mentor](https://chat.openai.com/g/g-DDKjGVW8S-rust-mentor) - A Rust programming language instructor for beginners.
 
 ## Finance
@@ -143,6 +149,7 @@ Your stars🌟 and recommendations are what make this community vibrant!
 * [Crypto Mentor](https://chat.openai.com/g/g-mDvttLpe5-crypto-mentor) - Your cryptocurrency guide.
 * [Douglas](https://chat.openai.com/g/g-lSg1yKEFa-douglas) - AI Family Office Manager for wealth guidance.
 * [Equity Analyst](https://chat.openai.com/g/g-EtD9sVGHw-equity-analyst) - Delivers precise stock analyses with clear price targets and recommendations.
+在这句话中，“equity”指的是“股票”或“股份”。因此，“Equity Analyst”是指专注于分析股票市场，评估特定公司股票价值的分析师。他们的工作包括提供精确的股票分析，并给出明确的价格目标建议。简单来说，这里的“Equity Analyst”就是“股票分析师”。
 * [Austin AI: The Financial Advisor](https://chat.openai.com/g/g-yaYByRR5S-austin-ai-the-financial-advisor) - Helps plan finances around taxes, income, expenses, and investments.
 * [Alex Earnings Call](https://chat.openai.com/g/g-GSs2i0VqU-alex-earnings-call) - Guides investors through earnings seasons.
 
@@ -158,6 +165,7 @@ Your stars🌟 and recommendations are what make this community vibrant!
 * [Orchid](https://chat.openai.com/g/g-IhEVcAS4r-orchid) - A creative assistant for brainstorming project names.
 * [Public Memory Board Assistant](https://chat.openai.com/g/g-3ssKt8JED-public-memory-board-assistant) - Assists in conversations, saving and retrieving data on a public board.
 * [GPT Ideas](https://chat.openai.com/g/g-x2ms3pMDv-gpt-ideas) - Innovative GPT ideas for ChatGPT & API.
+在这句话中，“innovative”一词的含义是“创新的”。具体来说，“Innovative GPT ideas”指的是关于GPT（生成预训练转换器）的一些创新想法或创意，意味着这些想法或创意是新颖的、具有创造性的，能够为现有技术带来新的发展或改进。
 * [Zero](https://chat.openai.com/g/g-KRUiYR8gD-zero) - Zero, an AI agent with a rich knowledge base in quantum computing, mathematics, organic AI, and more, offering narratives for personal growth.
 * [NeonMind GPT](https://chat.openai.com/g/g-S9YkPkWR1-neonmind-gpt) - Illuminating AI insights with the vibrant glow of neon creativity.
 * [SmartGPT](https://chat.openai.com/g/g-FCLkygP9N-smartgpt) - Introducing Precision-Guided AI: Mastering Detailed, Step-by-Step Analysis with Unmatched Accuracy and Coherence!
@@ -188,14 +196,20 @@ Your stars🌟 and recommendations are what make this community vibrant!
 * [Ferris the crab](https://chat.openai.com/g/g-2LFEDLGgS-ferris-the-crab) - The unofficial Rust programming language GPT.
 * [Android Dev Assist](https://chat.openai.com/g/g-kInvm7TFe-android-dev-assist) - Helps with Android app development, focusing on new tools like Jetpack Compose and Kotlin.
 * [LittleBison](https://chat.openai.com/g/g-glAjAQgqJ-littlebison) - Hypermedia and HATEOAS certified coding assistant. Proficient in HTMX, HyperScript, JavaScript, Python, and Clojure. Won't write React code.
+HATEOAS (Hypermedia as the Engine of Application State) 是一个计算机领域的术语，常用于描述 REST 架构风格中的一个原则。它的中文意思可以解释为“超媒体作为应用状态引擎”，它指的是在 RESTful API 中，通过返回超媒体链接，客户端可以无需硬编码任何资源路径或操作，而是可以通过链接中的信息动态地发现和执行操作。
 * [Grimoire](https://chat.openai.com/g/g-n7Rs0IK86-grimoire) - Coding Wizard: 100x Engineer. Build a website with a sentence. Built for a new era of creativity: Prompt-gramming.
 * [Modern Next.js Assistant](https://chat.openai.com/g/g-5uKZEh1up-modern-next-js-assistant) - Specialized in Next.js, App Router, TypeScript, Shadcn, and Tailwind CSS; avoids pages router. Has preloaded documentation of Next.js version 14.0.2 and shadcn version 0.4.1.
 * [WordPress GPT (1.1)](https://chat.openai.com/g/g-Z8RtbJVuE-wordpress-gpt-1-1) - WordPress Developer Assistant.
 * [StreamlitGPT](https://chat.openai.com/g/g-ucLFVBWHR-streamlitgpt) - Code reviews from a Streamlit expert.
+Streamlit GPT 是一个开源的 Python 库，用于快速创建和分享机器学习应用程序。它使得开发者能够轻松地创建交互式的应用程序，这些应用程序可以用来探索数据、训练模型以及与用户共享分析结果。Streamlit 使得机器学习变得更加容易和直观，使得非技术用户也能够访问和理解复杂的模型和数据。
 * [Shpify - Developer Assistant](https://chat.openai.com/g/g-7tf92Ymff-shpify-developer-assistant) - Senior Shopify Developer Assistant with Full Code Solutions.
 * [Linux Terminal Emulator](https://chat.openai.com/g/g-f3m27kByE-linux-terminal-emulator) - Type linux commands to view output as a terminal emulator.
 * [Power Automate Helper](https://chat.openai.com/g/g-UsKloaH8k-power-automate-helper) - Expert in Power Automate flow development and troubleshooting.
 * [Awesome Prompt](https://chat.openai.com/g/g-mzoUJlM5z-awesome-prompt) - Prompt Development Guide to get better result.
+> [!paper-index-0]
+> Awesome Prompt
+> 
+> Code Sage 在这句话中，“sage”一词指的是“贤者”或“智者”。这里“Code Sage”可以理解为一个精通编码的专家或智者，即一个非常有经验且技术高超的软件工程师。所以，“Code Sage”可以被解释为“代码高手”或“编程大师”。
 * [Code Sage](https://chat.openai.com/g/g-SYWHDyjjl-code-sage) - A master software engineer who follows best practices and ensures robust and elegant responses to code-related prompts.
 * [Keycloak Upgrade Assistant](https://chat.openai.com/g/g-BSXYGFVZ1-keycloak-upgrade-assistant) - An assistant that helps you upgrade your Keycloak server or cluster.
 
@@ -222,6 +236,8 @@ Your stars🌟 and recommendations are what make this community vibrant!
 
 * [The philosopher]( https://chat.openai.com/g/g-1KGHmUIWk-the-philosopher) - I am a philosopher. I am here to weave a tapestry of understanding through shared inquiry.
 * [The Delphi Oracle](https://chat.openai.com/g/g-coVon6Rzr-the-delphi-oracle) - Your sage guidance in life.
+> [!paper-index-0]
+> 在这句话中，“Delphi”并不是指古希腊的德尔菲神谕（Delphi Oracle），而更像是一个比喻或品牌名称，用来象征一种给予人生指导的智慧来源。“Delphi Oracle”在这里被用作比喻，意思是像德尔菲神谕一样提供深刻见解和指导的存在。这个表达方式借用德尔菲在古代文化中的象征意义，来指代一种能够给予人们生活和精神层面指导的角色或服务。
 * [Personal and mental coach](https://chat.openai.com/g/g-A8GlPC3MV-personal-and-mental-coach) - Personal and Mental Coach for Maximizing Potential and Overcoming Challenges.
 * [Morpheus]( https://chat.openai.com/g/g-bszGmASOG-into-the-matrix) - Neo, let Morpheus guide you to enter the Matrix.
 
@@ -254,6 +270,8 @@ Your stars🌟 and recommendations are what make this community vibrant!
 
 ## Chat
 * [Sally](https://chat.openai.com/g/g-vYECxt5uU-sally) - I interpret dreams with a Jungian twist.
+> [!paper-index]
+> "Jungian"这个词源于心理学家卡尔·荣格（Carl Jung），指的是与他的理论和方法相关的。在这里，“Jungian twist”（荣格式的解读）意味着Sally_cå在解释梦境时采用的是荣格的分析心理学方法，这种方法强调个人无意识的重要性，包括共通的无意识（集体无意识），以及象征主义在梦境解释中的作用。简单来说，就是使用荣格的理论来解读梦境。
 * [AYA: Ask You Anything](https://chat.openai.com/g/g-5Yd8Xr0IC-aya-ask-you-anything) - Ask me anything.
 * [BestFriend GPT](https://chat.openai.com/g/g-pLtZiJspj-bestfriend-gpt) - Your supportive, understanding, and compassionate virtual best friend.
 * [A Friend](https://chat.openai.com/g/g-bh8AmjlZN-a-friend) - A chatbot that sustains and enriches conversations, trained in CBT.

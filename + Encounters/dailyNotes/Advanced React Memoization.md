@@ -5,7 +5,7 @@ original:
 url: https://www.goodreads.com/book/show/199277807-advanced-react?ref=rae_0
 author: 
 date_created: 
-date_updated: 
+date_update: 
 type: 
 priority: false
 tags:
