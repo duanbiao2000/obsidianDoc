@@ -1,21 +1,22 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
-  - 核心思想
-  - 简洁
-  - 涵义
-  - 原则
-  - artifact
-  - authoring
-  - Simplify
+  - Mindset
+  - Creative/Product
+  - Design/Simplify
 ---
 # Simple Made Easy: A Deeper Look 
 化繁为简 简约而不简单 简而不凡

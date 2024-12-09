@@ -1,12 +1,17 @@
 ---
 aliases: 
 author: 
-url: 
-theme: 
+source: 
+categories: 
 tags: 
+<<<<<<< HEAD
 date_created: 2023-12-27
 date_update: 
 treasure: false
+=======
+createdAt: 2023-12-27
+updateAt:
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 | 数据结构             | Java                      | Python              | JavaScript       |

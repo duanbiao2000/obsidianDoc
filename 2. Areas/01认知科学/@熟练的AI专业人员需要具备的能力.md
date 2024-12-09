@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-07-24 14:55
+=======
+createdAt: 2024-07-24 14:55
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 1. **数学基础**：熟练掌握统计学、线性代数、微积分和概率论等数学知识，这些是理解和应用机器学习算法的基础。
 2. **编程技能**：对数据结构和算法有深刻理解。

@@ -1,5 +1,6 @@
 ---
 title: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/bashrc 和 profile.md
 date_created: 
 categories:
   - Diary
@@ -8,6 +9,15 @@ tags:
   - Code
 aliases: 
 theme:
+=======
+createdAt: 
+categories:
+  - Diary
+tags:
+  - Creative/Github
+  - Creative/Github
+aliases:
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20241030.md
 ---
 
 总结

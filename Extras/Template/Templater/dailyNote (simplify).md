@@ -1,11 +1,20 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
 date_created: <% tp.file.creation_date() %>
 date_update: <% tp.file.last_modified_date() %>
+=======
+title: <% tp.file.title %>
+createdAt: <% tp.file.creation_date() %>
+categories:
+  - Mindset
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
+  - Mindset/Reflection
 ---
+<<<<<<< HEAD
 
 << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
@@ -49,3 +58,5 @@ tags:
 
 
 
+=======
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)

@@ -2,8 +2,8 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "脑图",
-      "kind": "Daily Note",
+      "value": "dataviews",
+      "kind": "Workspace",
       "openOnStartup": true,
       "openMode": "Keep open notes",
       "manualOpenMode": "Keep open notes",

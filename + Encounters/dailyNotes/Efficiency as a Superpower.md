@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: https://www.youtube.com/watch?v=b33vqX74EcA&t=1219s
+source: https://www.youtube.com/watch?v=b33vqX74EcA&t=1219s
 author: 
+<<<<<<< HEAD
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 ![Efficiency Tips for Engin...](https://www.youtube.com/watch?v=b33vqX74EcA&t=1219s)

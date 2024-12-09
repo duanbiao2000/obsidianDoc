@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-08-03 09:17
+=======
+createdAt: 2024-08-03 09:17
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ## React Bootstrap
 [Spark - Bootstrap 5 Admin & Dashboard Template (bootlab.io)](https://spark.bootlab.io/ui-cards)

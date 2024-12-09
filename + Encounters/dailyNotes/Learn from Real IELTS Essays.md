@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/Learn from Real IELTS Essays.md
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240810201111.md
 tags:
 ---
 ### SUMMARY

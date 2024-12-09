@@ -1,13 +1,18 @@
 ---
 aliases: 
 tags: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 2024-07-14 17:02
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 2024-07-14 17:02
+categories: 
+status: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 在系统设计面试中，常用的一些模式和结构可以帮助应对不同类型的问题，并展示候选人对复杂系统设计的理解和能力。以下是一些常用的模式和结构，以及如何在面试中应用它们：
 

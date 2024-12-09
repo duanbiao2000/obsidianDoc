@@ -1,7 +1,7 @@
 ---
-aliases: 
-theme: 
-priority: false
+aliases:
+categories:
+high_priority: false
 tags:
 ---
 

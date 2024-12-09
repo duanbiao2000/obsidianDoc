@@ -1,8 +1,14 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
 date_created: 2024-11-05 21:05
+=======
+categories: 
+high_priority: false
+updateAt: 2024-11-05 21:05
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 Autospace Workshop 项目是一个使用 [[Nx]] 构建的 monorepo 项目，包含多个应用程序和库，用于构建一个停车场管理系统。

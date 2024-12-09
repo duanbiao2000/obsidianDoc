@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Conway's Law 是由计算机程序员 Melvin Conway 在 1967 年提出的一个经验法则。这个法则的正式表述是：

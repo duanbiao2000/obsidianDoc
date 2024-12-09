@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 在约定式提交（Conventional Commits）格式中，`feat` 是用来表示新增功能（feature）的。除了 `feat`，还有其他几种常见的类型，每种类型都有其特定的含义和用途：

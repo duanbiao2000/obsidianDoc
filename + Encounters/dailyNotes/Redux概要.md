@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 当然，这些术语是 Redux 生态系统中的关键概念。下面我会逐一解释这些名词，并展示它们如何在 Redux 中协同工作。

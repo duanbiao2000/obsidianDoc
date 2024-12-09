@@ -1,7 +1,12 @@
 ---
 title: typora-vue-theme主题介绍
+<<<<<<< HEAD
 date_created: 2018-09-07 09:25:00
 author: 赵奇
+=======
+createdAt: 2018-09-07 09:25:00
+author: Danny
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 img: /source/images/xxx.jpg
 top: true
 hide: false

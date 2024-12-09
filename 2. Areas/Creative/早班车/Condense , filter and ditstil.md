@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-07-14 16:49
+=======
+createdAt: 2024-07-14 16:49
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 

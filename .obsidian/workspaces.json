@@ -1327,21 +1327,50 @@
     },
     "Minimalist": {
       "main": {
-        "id": "1a7ae36bb84bbe8e",
+        "id": "d0fd6b9cad7c0dfb",
         "type": "split",
         "children": [
           {
-            "id": "e68007277d077560",
+            "id": "826a94c2c5284619",
             "type": "tabs",
             "children": [
               {
-                "id": "2ceed23c498c013f",
+                "id": "495f0db5ab344566",
                 "type": "leaf",
-                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/build-your-own-x.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "build-your-own-x"
+                }
+              },
+              {
+                "id": "5d90047852dd4b9e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "+ Encounters/dailyNotes/命令行进度条实现.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "命令行进度条实现"
+                }
+              },
+              {
+                "id": "45b733f35dda4442",
+                "type": "leaf",
                 "state": {
                   "type": "kanban",
                   "state": {
-                    "file": "Atlas/kanban/前端路线图.md",
+                    "file": "Atlas/kanban/Agile.md",
                     "kanbanViewState": {
                       "kanban-plugin": "board",
                       "list-collapse": [
@@ -1353,218 +1382,93 @@
                       ]
                     }
                   },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "5546ff7fb1c275e6",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/dataview/dataviews.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "026c526163cbd46a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/20240909125901.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "50afa2f8c258efe2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/20240909214218.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "83fe90bc5c2a4146",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. Projects/20240702184735-SmartStudyBuddy.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "7c1d66ecd88bbcaf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/20240910170815.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f0e766ba641af09c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. Projects/面试鸭刷题/Untitled.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "35ac1eaf584e7fb7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/20240912000000.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
+                  "icon": "lucide-trello",
+                  "title": "Agile"
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
       },
       "left": {
-        "id": "65ed32af27a2de6b",
+        "id": "6ba99745ab06842d",
         "type": "split",
         "children": [
           {
-            "id": "d97aabd4c19cd880",
+            "id": "9e59337843897103",
             "type": "tabs",
-            "dimension": 66.62817551963049,
             "children": [
               {
-                "id": "6a73026fe242f7bd",
+                "id": "ae1ed189a4972ecb",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
-                  }
+                    "sortOrder": "byModifiedTime"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
-                "id": "892fb42f42dd4a4b",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "3f9bc094439a9b45",
+                "id": "13afea51522ab155",
                 "type": "leaf",
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "file:git",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
-                "id": "9f1d7f23d1cc85da",
+                "id": "9f204a0ec21e580d",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
-                "id": "402ac5a9b5e6924b",
+                "id": "81c6b356dd0fffd2",
                 "type": "leaf",
                 "state": {
                   "type": "recent-files",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ec57776ac8128f4e",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  }
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
                 }
               }
-            ],
-            "currentTab": 5
-          },
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 272
+      },
+      "right": {
+        "id": "96cc3cce07f6dcf0",
+        "type": "split",
+        "children": [
           {
-            "id": "8f46a0033c43bfb9",
+            "id": "4f3cdd7688a1b62c",
             "type": "tabs",
-            "dimension": 33.37182448036952,
             "children": [
               {
-                "id": "43d90e2fd0cc20b1",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/20240912000000.md"
-                  }
-                }
-              },
-              {
-                "id": "9ca25cdbcc7b5f70",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "+ Encounters/dailyNotes/20240912000000.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "39753b40fcdcd9c5",
+                "id": "c919334c8aac062e",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "+ Encounters/dailyNotes/20240912000000.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1572,114 +1476,401 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
                 }
               },
               {
-                "id": "9ee365e81554bd97",
+                "id": "09e550db1c515b37",
                 "type": "leaf",
                 "state": {
-                  "type": "BC-matrix",
-                  "state": {}
-                }
-              },
-              {
-                "id": "712b4cbc6b7f2273",
-                "type": "leaf",
-                "state": {
-                  "type": "BC-tree",
-                  "state": {}
-                }
-              },
-              {
-                "id": "9b99eb6d98ba1a41",
-                "type": "leaf",
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 288.5
-      },
-      "right": {
-        "id": "719d766977cb2fea",
-        "type": "split",
-        "children": [
-          {
-            "id": "e172f191847de67f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "74a7bc996dfa0756",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
+                  "type": "outgoing-link",
                   "state": {
-                    "file": "+ Encounters/dailyNotes/20240912000000.md"
-                  }
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
                 }
-              }
-            ]
-          },
-          {
-            "id": "518eb51cee4d6b5d",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "2d2bcddf861bd165",
+                "id": "667027bbd24fab6a",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "08a322aab7679ee2",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/build-your-own-x.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of build-your-own-x"
+                }
+              },
+              {
+                "id": "7aa67518fa777872",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e23314c8f5436b47",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              },
+              {
+                "id": "df0c003d8ad296ba",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "a70aa63ed4f6bbb4",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 318.5
+        "width": 302
       },
       "left-ribbon": {
         "hiddenItems": {
-          "publish:Publish changes...": false,
-          "media-extended:Open media": false,
-          "templater-obsidian:Templater": false,
-          "extract-highlights-plugin:Extract Highlights": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-omnivore:Omnivore": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "markdown-importer:Open format converter": false,
-          "obsidian-textgenerator-plugin:Generate Text!": false,
-          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
-          "homepage:Open homepage": false,
-          "obsidian-advanced-slides:Show Slide Preview": false,
-          "breadcrumbs:Breadcrumbs Visualisation": false,
+          "templates:Insert template": false,
+          "zk-prefixer:Create new unique note": false,
+          "quickadd:QuickAdd": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
           "command-palette:Open command palette": false,
-          "zk-prefixer:Create new unique note": false,
+          "vscode-editor:Create Code File": false,
+          "chronology:Open Chronology": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "markdown-importer:Open format converter": false,
+          "publish:Publish changes...": false,
           "random-note:Open random note": false,
           "workspaces:Manage workspace layouts": false,
-          "obsidian-spaced-repetition:Review flashcards": false,
-          "obsidian-full-calendar:Open Full Calendar": false,
-          "obsidian-kanban:Create new board": false,
-          "smart-connections:Open: View Smart Connections": false,
-          "smart-connections:Open: Smart Chat Conversation": false
+          "callout-manager:Insert Callout": false,
+          "obsidian-git:Open Git source control": false,
+          "homepage:Open homepage": false,
+          "obsidian42-brat:BRAT": false,
+          "obsidian-kanban:Create new board": false
         }
       },
-      "active": "35ac1eaf584e7fb7",
-      "mtime": "2024-09-12T22:34:40+08:00"
+      "active": "ae1ed189a4972ecb",
+      "mtime": "2024-11-15T00:01:52+08:00"
+    },
+    "Kanban": {
+      "main": {
+        "id": "d0fd6b9cad7c0dfb",
+        "type": "split",
+        "children": [
+          {
+            "id": "826a94c2c5284619",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "495f0db5ab344566",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/build-your-own-x.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "build-your-own-x"
+                }
+              },
+              {
+                "id": "5d90047852dd4b9e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "+ Encounters/dailyNotes/命令行进度条实现.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "命令行进度条实现"
+                }
+              },
+              {
+                "id": "45b733f35dda4442",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Atlas/kanban/Agile.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "board",
+                      "list-collapse": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                      ]
+                    }
+                  },
+                  "icon": "lucide-trello",
+                  "title": "Agile"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6ba99745ab06842d",
+        "type": "split",
+        "children": [
+          {
+            "id": "9e59337843897103",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ae1ed189a4972ecb",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byModifiedTime"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "13afea51522ab155",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "file:git",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "9f204a0ec21e580d",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "81c6b356dd0fffd2",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 272
+      },
+      "right": {
+        "id": "96cc3cce07f6dcf0",
+        "type": "split",
+        "children": [
+          {
+            "id": "4f3cdd7688a1b62c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c919334c8aac062e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "09e550db1c515b37",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "667027bbd24fab6a",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "08a322aab7679ee2",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/build-your-own-x.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of build-your-own-x"
+                }
+              },
+              {
+                "id": "7aa67518fa777872",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e23314c8f5436b47",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              },
+              {
+                "id": "df0c003d8ad296ba",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "a70aa63ed4f6bbb4",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 302
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "templates:Insert template": false,
+          "zk-prefixer:Create new unique note": false,
+          "quickadd:QuickAdd": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "command-palette:Open command palette": false,
+          "vscode-editor:Create Code File": false,
+          "chronology:Open Chronology": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "markdown-importer:Open format converter": false,
+          "publish:Publish changes...": false,
+          "random-note:Open random note": false,
+          "workspaces:Manage workspace layouts": false,
+          "callout-manager:Insert Callout": false,
+          "obsidian-git:Open Git source control": false,
+          "homepage:Open homepage": false,
+          "obsidian42-brat:BRAT": false,
+          "obsidian-kanban:Create new board": false
+        }
+      },
+      "active": "ae1ed189a4972ecb",
+      "mtime": "2024-11-15T00:26:14+08:00"
     }
   },
-  "active": "Minimalist"
+  "active": "dataviews"
 }

@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 JSON Web Token (JWT) 是一种开放标准 (RFC 7519)，用于在网络应用环境间安全地将信息作为JSON对象传输。JWT通常用于身份验证和信息交换，尤其是在单点登录（SSO）系统中。下面是JWT身份验证系统的基本工作原理和组成部分：

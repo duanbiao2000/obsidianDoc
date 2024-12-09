@@ -1,9 +1,14 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
-  - Leetcode
+  - Mindset
 ---
 遍历 LeetCode Top 250 初中难度题目的所有模式（pattern）可以帮助你更好地理解常见的问题类型和解题方法。LeetCode 上的题目通常可以按照不同的模式或类别进行分类，这些模式涵盖了各种数据结构、算法技巧以及常见的编程问题。以下是一些常见的模式及其对应的题目示例：
 

@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 设计大型 React 应用架构确实是一个复杂而重要的话题。让我们深入探讨如何构建一个可扩展、可维护的大型 React 应用，涵盖组件拆分、数据流设计、错误边界等关键方面。

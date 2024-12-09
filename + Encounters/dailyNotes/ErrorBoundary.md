@@ -1,6 +1,6 @@
 ---
-aliases: 
-theme: 
-priority: false
+aliases:
+theme:
+high_priority: false
 tags:
 ---

@@ -1,12 +1,17 @@
 ---
 aliases: 
 author: 
-url: 
-page-title: 
+source: 
+title: 
 tags: 
+<<<<<<< HEAD
 date_created: 2023-10-29
 date_update: 
 reviewable: false
+=======
+createdAt: 2023-10-29
+updateAt:
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 - React官方文档：[https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
 - Redux官方文档：[https://redux.js.org/introduction/getting-started](https://redux.js.org/introduction/getting-started)
@@ -37,7 +42,7 @@ reviewable: false
 - [[2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代-LAPTOP-AAJ6HH4K.md]]
 - [[+ Encounters/dailyNotes/Dashboard.md]]
 - [[2. Areas/前端开发/React/Findlay - React - The Road To Enterprise.pdf.md]]
-- [[instructions.md]]
+- [[instructions]]
 - [[2. Areas/前端开发/JavaScript/Javascrip三省笔记0522.md]]
 - [[2. Areas/前端开发/React/Lodash.md]]
 - [[2. Areas/前端开发/React/MVC模型.md]]

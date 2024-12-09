@@ -1,6 +1,10 @@
 ---
 aliases: 
+<<<<<<< HEAD
 date_created: 2024-07-14 18:01
+=======
+updateAt: 2024-07-14 18:01
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 #### 4.2 容器组件与表现组件模式

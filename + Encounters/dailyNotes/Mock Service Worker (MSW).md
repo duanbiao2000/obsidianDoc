@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Mock Service Worker (MSW) 是一个用于前端应用的 API 模拟库。它允许你在开发环境中拦截和模拟网络请求，而无需依赖实际的后端服务。MSW 可以在浏览器、Node.js 以及测试环境中使用，非常适合前端开发中的 API 模拟。

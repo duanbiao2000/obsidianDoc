@@ -1,5 +1,6 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 original: 
 url: 
@@ -8,6 +9,14 @@ date_created: 2024-08-03 13:58
 date_update: 
 type: 
 priority: false
+=======
+source: 
+author: 
+createdAt: 2024-08-03 13:58
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 `evt.target.selectedOptions` 是一个 DOM 属性，用于获取在选择框（`<select>`）中被选中的选项（`<option>`）的集合。

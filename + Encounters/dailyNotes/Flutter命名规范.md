@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 在 Flutter 中，命名规范对于保持代码的可读性和一致性非常重要。`_CounterWidgetState` 这样的命名遵循了一些特定的规则和最佳实践：

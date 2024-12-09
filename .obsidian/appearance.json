@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "cssTheme": "Typora-Vue",
   "theme": "system",
   "accentColor": "#0b9d80",
+=======
+  "cssTheme": "Catppuccin",
+  "theme": "obsidian",
+  "accentColor": "",
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
   "translucency": false,
   "nativeMenus": true,
   "baseFontSize": 18,

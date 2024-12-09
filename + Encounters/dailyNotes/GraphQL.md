@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 GraphQL 是一种 API 查询语言，也是一种运行时，用于执行这些查询并返回数据。它由 Facebook 在 2012 年内部开发，并于 2015 年开源。GraphQL 的核心优势在于它允许客户端精确指定需要的数据，从而优化了数据传输，减少了网络延迟，并提高了应用性能。以下是对 GraphQL 的详细介绍及其特点：

@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 在 React 中，为事件处理函数提供准确的类型注解是非常重要的，这有助于确保代码的健壮性和可维护性。`React.MouseEvent` 是用于鼠标事件的类型注解，但 React 提供了一系列不同类型的事件注解来处理各种不同的事件。以下是一些常见的事件类型注解：

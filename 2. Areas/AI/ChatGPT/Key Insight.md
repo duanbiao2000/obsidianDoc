@@ -1,5 +1,6 @@
 ---
 aliases: 
+<<<<<<< HEAD
 date_created: 
 url: https://www.youtube.com/watch?v=qOYwgKd7VSE
 page-title: 
@@ -7,6 +8,15 @@ tags:
   - todo
   - flashcards
 date_update: 2023-10-17T20:55:00
+=======
+createdAt: 
+source: https://www.youtube.com/watch?v=qOYwgKd7VSE
+title: 
+tags:
+  - TODO
+  - Mindset/Reflection
+modified date: 2023-10-17T20:55:00
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ![[../ChatGPT 1/assets/img/Key Insight/IMG-Key Insight-20240603143731287.png]]
 

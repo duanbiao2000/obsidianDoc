@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 2024-08-05T11:28:00
 date_update: 2024-08-05 11:28
 type: 
 priority: false
+=======
+createdAt: 2024-08-05T11:28:00
+updateAt: 2024-08-05 11:28
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ## JavaScript 中的原型和对象创建
 

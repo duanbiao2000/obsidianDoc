@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Mapbox GL JS 是一个流行的 JavaScript 库，用于在 Web 上渲染矢量地图。它允许开发者创建高性能、可定制的地图，并支持多种数据源和图层样式。Mapbox GL JS 是 Mapbox 生态系统的一部分，广泛应用于 Web 地图应用的开发。

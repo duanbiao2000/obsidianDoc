@@ -1,4 +1,4 @@
-#Code
+#Creative/Github
 
 root: awsomevue
 
@@ -2390,7 +2390,7 @@ Vue.component('my-component', {
 });
 ```
 
-**#落地:**
+**#Creative/Product:**
 
 当`data`选项是一个对象时，它定义了组件的初始数据。这种写法适用于根Vue实例，因为根Vue实例只会被创建一次。
 

@@ -1,13 +1,12 @@
 ---
 aliases: 
-theme: 
+categories: 
 tags:
-  - Inspiration
-  - learning
-  - Summaries
-  - todo
-  - 效率
-  - 高维
+  - Mindset
+  - Creative/Tutorial
+  - Mindset/Meta
+  - TODO
+  - Effective
 ---
 
 # Prompts for Learning to Code with AI

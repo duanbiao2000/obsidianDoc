@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/Buffer与Cache的定义.md
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240817230307.md
 tags:
 ---
 在Linux系统中，buffer和cache是内存管理的重要组成部分，它们各自承担不同的职责。理解这两者的区别和功能，对于优化系统性能和资源管理至关重要。

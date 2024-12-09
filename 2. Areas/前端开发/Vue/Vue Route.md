@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-07-14 16:44
+=======
+createdAt: 2024-07-14 16:44
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 ### Router-view

@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 使用 Docker 容器化数据库可以极大地简化部署和管理流程，尤其是在多环境（如开发、测试、生产）下，能够保证一致性。下面以 PostgreSQL 为例，展示如何使用 Docker 来容器化数据库，并且配置持久化存储，以便数据不会因为容器重启而丢失。

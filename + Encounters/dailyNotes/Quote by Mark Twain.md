@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: https://www.bilibili.com/video/BV1De4y1S7gx?p=2&vd_source=7038f96b6bb3b14743531b102b109c43
+source: https://www.bilibili.com/video/BV1De4y1S7gx?p=2&vd_source=7038f96b6bb3b14743531b102b109c43
 author: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/Quote by Mark Twain.md
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240816172635.md
 tags:
 ---
 get held up 受阻无法前进

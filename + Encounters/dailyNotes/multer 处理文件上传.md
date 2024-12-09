@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 在MERN（MongoDB, Express, React, Node.js）项目中，`multer` 是一个常用的Node.js中间件，用于处理文件上传。它主要用于解析通过`multipart/form-data`格式提交的表单数据，这是HTML表单上传文件时使用的标准格式。

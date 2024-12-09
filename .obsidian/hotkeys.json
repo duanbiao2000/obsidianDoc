@@ -17,24 +17,6 @@
       "key": "B"
     }
   ],
-  "theme:use-dark": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
-  "theme:use-light": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
   "editor:set-heading-1": [
     {
       "modifiers": [
@@ -237,15 +219,6 @@
       "key": "R"
     }
   ],
-  "editor:delete-paragraph": [],
-  "app:delete-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "editor:toggle-highlight": [
     {
       "modifiers": [
@@ -397,14 +370,6 @@
       "key": "E"
     }
   ],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    }
-  ],
   "daily-notes": [
     {
       "modifiers": [
@@ -413,5 +378,60 @@
       "key": "T"
     }
   ],
-  "Enhanced-editing:shanchu-text": []
+  "Enhanced-editing:shanchu-text": [],
+  "workspaces:load": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "theme:use-light": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "theme:use-dark": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "templater-obsidian:insert-templater": [],
+  "templater-obsidian:replace-in-file-templater": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ]
 }

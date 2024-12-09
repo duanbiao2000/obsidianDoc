@@ -1,12 +1,17 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 2024-07-16 20:21
 type: 
 priority: false
+=======
+createdAt: 2024-06-16 20:21
+categories: 
+status: false
+updateAt: 2024-07-16 20:21
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 《The War of Art》这本书的核心观点集中在如何克服内在的阻力（Resistance）来实现创造性的工作和生活。以下是书中的一些关键观点摘要：

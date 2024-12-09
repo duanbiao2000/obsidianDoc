@@ -1,5 +1,6 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: night
 original: 
 url: 
@@ -9,6 +10,16 @@ tags:
 date_created: 2024-07-24 15:27
 type: 
 priority: false
+=======
+source: 
+author: 
+tags:
+  - Effective/Tools
+createdAt: 2024-06-16 21:06
+categories: night
+status: false
+updateAt: 2024-07-24 15:27
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 ## 知识及其来源

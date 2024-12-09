@@ -1,12 +1,17 @@
 ---
 aliases: 
-theme: moon
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 2024-07-24 16:34
 type: 
 priority: false
+=======
+createdAt: 
+categories: moon
+status: false
+updateAt: 2024-07-24 16:34
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 ## 解决问题4S法

@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 `trpc/` 文件夹在您的代码库中主要用于定义和管理 tRPC（TypeScript React Query）相关的配置和功能。tRPC 是一个用于构建现代应用程序的 TypeScript 和 React 框架，它提供了一种高效的方式来处理 API 请求和响应。

@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 在典型的 Android 应用架构中，`model`, `repository`, `viewModel`, `dao` 和 `database` 之间的层级和引用关系如下：

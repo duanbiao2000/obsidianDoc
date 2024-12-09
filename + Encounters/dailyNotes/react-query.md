@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/react-query.md
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240902231726.md
 tags:
 ---
 这段代码定义了一个名为 `QueryProvider` 的 React 组件，它使用了 TanStack Query（前身为 React Query）库来管理和提供数据查询功能。TanStack Query 是一个用于优化数据获取、更新和缓存等功能的强大库，广泛应用于现代前端应用程序中。此组件主要用于设置一个全局的数据查询客户端，并为子组件提供访问该客户端的能力，同时还可以选择性地开启开发者工具以便于调试。

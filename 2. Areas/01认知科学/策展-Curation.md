@@ -1,5 +1,6 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 original: Claude
 url: 
@@ -9,6 +10,16 @@ tags:
 date_created: 2024-07-24 14:57
 type: 
 priority: false
+=======
+source: Claude
+author: 
+tags:
+  - TODO
+createdAt: 
+categories: 
+status: false
+updateAt: 2024-07-24 14:57
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 - [[2. Areas/前端开发/Nodejs/Express官网教程.md]]
 - [[2. Areas/AI/ChatGPT/Key Insight.md]]

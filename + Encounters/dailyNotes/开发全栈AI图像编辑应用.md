@@ -1,9 +1,14 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags: 
-url: https://www.bilibili.com/video/BV1yp29YSEq2/
+source: https://www.bilibili.com/video/BV1yp29YSEq2/
 ---
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20241012140754.png)
 

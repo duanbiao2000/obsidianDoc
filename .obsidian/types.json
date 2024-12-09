@@ -3,24 +3,23 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
+<<<<<<< HEAD
     "阿东": "datetime",
     "excalidraw-plugin": "text",
     "isFinished": "checkbox",
+=======
+    "modified date": "datetime",
+    "excalidraw-plugin": "text",
+    "established": "datetime",
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
     "status": "checkbox",
-    "type": "multitext",
-    "theme": "text",
-    "priority": "checkbox",
     "excalidraw-export-transparent": "checkbox",
-    "excalidraw-mask": "checkbox",
     "excalidraw-export-dark": "checkbox",
     "excalidraw-export-padding": "number",
     "excalidraw-export-pngscale": "number",
     "excalidraw-export-embed-scene": "checkbox",
     "excalidraw-link-prefix": "text",
-    "excalidraw-url-prefix": "text",
     "excalidraw-link-brackets": "checkbox",
-    "excalidraw-onload-script": "text",
-    "excalidraw-linkbutton-opacity": "number",
     "excalidraw-default-mode": "text",
     "excalidraw-font": "text",
     "excalidraw-font-color": "text",
@@ -28,11 +27,22 @@
     "excalidraw-css": "text",
     "excalidraw-autoexport": "text",
     "excalidraw-iframe-theme": "text",
-    "excalidraw-open-md": "checkbox",
     "excalidraw-embeddable-theme": "text",
+<<<<<<< HEAD
     "minScale": "text",
     "date_created": "datetime",
     "high_priority": "text",
     "date_update": "datetime"
+=======
+    "author": "multitext",
+    "categories": "multitext",
+    "createdAt": "datetime",
+    "updateAt": "datetime",
+    "excalidraw-mask": "checkbox",
+    "excalidraw-url-prefix": "text",
+    "excalidraw-onload-script": "text",
+    "excalidraw-linkbutton-opacity": "number",
+    "excalidraw-open-md": "checkbox"
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
   }
 }

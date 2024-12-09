@@ -1,12 +1,17 @@
 ---
 key: value
+tags: TODO
 ---
 // Update frontmatter after template finishes executing
 <%*
 tp.hooks.on_all_templates_executed(async () => {
   const file = tp.file.find_tfile(tp.file.path(true));
   await tp.app.fileManager.processFrontMatter(file, (frontmatter) => {
-    frontmatter["key"] = "value";
+    frontmatter["title"] = "<% tp.file.title %>";
+    frontmatter["alias"] = "";
+    frontmatter["date"] = "<% tp.file.creation_date() %>";
+    frontmatter["categories"] = "";
+    frontmatter["tags"] = "";
   });
 });
 %>

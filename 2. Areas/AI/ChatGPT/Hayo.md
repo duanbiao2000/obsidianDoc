@@ -1,12 +1,17 @@
 ---
 aliases: 
 author: 
-url: 
-page-title: 
+source: 
+title: 
 tags: 
+<<<<<<< HEAD
 date_created: 2023-12-07
 date_update: 
 reviewable: false
+=======
+createdAt: 2023-12-07
+updateAt:
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ## 学习顺序：
 

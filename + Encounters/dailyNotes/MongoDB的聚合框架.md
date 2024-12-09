@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 MongoDB 的聚合框架是一个强大的工具，用于处理和分析数据。它允许你对文档进行复杂的操作，如过滤、分组、排序、计算等。聚合框架使用管道（pipeline）的概念，每个阶段（stage）都对前一个阶段的结果进行操作，最终输出所需的数据。

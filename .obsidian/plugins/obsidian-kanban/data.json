@@ -1,4 +1,14 @@
 {
   "new-note-template": "Extras/Template/Templater/themedatetagsstatus.md",
-  "new-note-folder": "Atlas/kanban"
+  "new-note-folder": "Atlas/kanban",
+  "show-checkboxes": true,
+  "full-list-lane-width": true,
+  "move-tags": true,
+  "move-dates": true,
+  "date-format": "YYYY-MM-DD",
+  "date-display-format": "YYYY-MM-DD",
+  "show-relative-date": true,
+  "link-date-to-daily-note": true,
+  "archive-with-date": true,
+  "move-task-metadata": true
 }

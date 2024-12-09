@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 使用 Docker Compose 可以更加方便地管理和启动多个服务，特别是当你需要同时启动多个容器（如数据库、Web 服务等）时。下面我将详细介绍如何使用 Docker Compose 来启动 PostgreSQL 数据库，并且展示如何编写 `docker-compose.yml` 文件来配置和启动 PostgreSQL 容器。

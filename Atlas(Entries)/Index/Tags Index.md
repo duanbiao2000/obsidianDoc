@@ -3,19 +3,19 @@
 
 # 自定义标签说明
 
-#todo: 待办事项(临时的,灵活的)
-%% #zk-todo: ZK卡片待办内容(围绕知识体系) %%
+#TODO: 待办事项(临时的,灵活的)
+%% #TODO: ZK卡片待办内容(围绕知识体系) %%
 
 
 
 ---
 
 --和个人成长强相关--
-#Summaries: 
-#算法: 和如何过好这一生相关的内容
-#效率: 与效率有关
-#财务: 和财务有关的内容
-#商业: 和商业有关的内容
+#Mindset/Meta: 
+#Mindset: 和如何过好这一生相关的内容
+#Effective: 与效率有关
+#Mindset: 和财务有关的内容
+#Creative/Product: 和商业有关的内容
 <!--SR:!2023-07-17,1,230-->
 
 ## By Topic
@@ -23,7 +23,7 @@
 - Investments (stocks, real estate, retirement accounts) 
 - Life (relationships, health, productivity, work-life balance)
 - Personal (goals, habits, mindset, self-improvement)
-#Growth #Investment #Life #Personal
+#Mindset #Mindset #Mindset
 ## By Type  
 - Lessons learned
 - Strategies/Techniques
@@ -31,13 +31,13 @@
 - Book notes/Summaries
 - Ideas/Brainstorms
 - Reflections/Journaling
-#Reflections #Brainstorms #Summaries #Inspiration #Lessons
+#Mindset/Reflection #Agent #Mindset/Meta #Mindset #Creative/Tutorial
 ## By Time Period
 - Current goals/projects
 - Recent learnings  
 - Longterm vision
 - Past experiences
-#Current #Longterm #Past
+#Mindset/Reflection #Mindset 
 ## By Priority
 - High priority 
 - Medium priority
@@ -50,7 +50,7 @@
 - Health/Wellness  
 - Relationships
 - Hobbies/Interests
-#Career #Health #Interests #Relationships
+#Creative/Product  #Mindset #Design 
 The key is to use a categorization method that resonates with you and makes it easy to find and apply your notes when needed. You can combine multiple methods, like categorizing first by topic, then type. Regular review and adjustment of your categories is also helpful as your focus areas evolve over time.[1][2]
 
 Citations:

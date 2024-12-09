@@ -1,12 +1,17 @@
 ---
 aliases: 
-theme: 
-original: 
-url: https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
+source: https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
 author: 
+<<<<<<< HEAD
 date_created: 2024-07-24 13:48
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 2024-07-24 13:48
+categories: 
+status: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 # IDENTITY and PURPOSE
 

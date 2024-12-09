@@ -1,13 +1,17 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
 tags: 
+<<<<<<< HEAD
 date_created: 
 type: 
 priority: false
+=======
+createdAt: 
+categories: 
+status: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 1. 使用内存存储替代 localStorage

@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 要实现从RSS订阅源到Notion知识库的自动更新，可以使用Make（以前称为Integromat）来创建一个自动化的工作流程。以下是设计思路和工作流程的一个概述：

@@ -1,14 +1,19 @@
 ---
 aliases: 
 tags:
-  - todo
-theme: 
-original: 
-url: 
+  - TODO
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 2024-07-14 17:02
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 2024-07-14 17:02
+categories: 
+status: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 

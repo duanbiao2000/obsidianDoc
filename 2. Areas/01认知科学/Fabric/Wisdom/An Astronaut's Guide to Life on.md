@@ -1,5 +1,6 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 original: 
 url: 
@@ -7,6 +8,14 @@ author:
 date_created: 2024-07-24 13:48
 type: 
 priority: false
+=======
+source: 
+author: 
+createdAt: 
+updateAt: 2024-07-24 13:48
+categories: 
+status: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ## SUMMARY
 This text discusses an astronaut's experience with flying and the transition to a test pilot career. 

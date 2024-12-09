@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Convex 是一个全栈的 JavaScript/TypeScript 平台，它提供了数据库、服务器端函数和实时数据同步等功能。了解 Convex 的竞品及其主要使用场景有助于你选择最适合你项目的工具。以下是一些与 Convex 类似的平台，以及它们的主要使用场景：

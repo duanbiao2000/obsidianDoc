@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 你列出的依赖项涵盖了 Android 开发中常用的库，每个库都有其特定的用途。下面是这些库的主要用途和简要说明：

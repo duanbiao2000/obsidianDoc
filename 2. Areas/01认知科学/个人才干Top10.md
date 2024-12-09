@@ -1,7 +1,14 @@
 ---
+<<<<<<< HEAD
 theme: 
 status: 
 date_created: 2024-07-14 17:03
+=======
+categories: 
+status: 
+createdAt: 2024-05-06T00:00:00.000Z
+updateAt: 2024-07-14 17:03
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ### **标题**：个人才干主题与职业发展
 

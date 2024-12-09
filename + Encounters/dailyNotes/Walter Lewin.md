@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/Walter Lewin.md
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240905224407.md
 tags:
 ---
 Walter Lewin's lecture on physics covers the principles of pendulums, energy conservation, and Rayleigh scattering, emphasizing the importance of experimentation and challenging intuition. The lecture highlights how practical demonstrations and real-world examples make complex physics concepts more accessible and engaging.

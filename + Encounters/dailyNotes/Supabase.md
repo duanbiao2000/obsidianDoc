@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Supabase 是一个开源的 Backend-as-a-Service（BaaS）平台，它提供了一套工具和服务，使开发者能够快速构建和部署全栈 web 应用程序。Supabase 结合了数据库、身份验证、实时订阅、存储等多种功能，为开发者提供了类似于 Firebase 的体验，但完全基于开源技术。

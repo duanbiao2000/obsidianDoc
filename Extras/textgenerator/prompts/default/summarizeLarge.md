@@ -3,7 +3,7 @@ promptId: summarizeLarge
 aliases: 🗞️ Summarizes Large chunk of text
 summary: uses langchain chain to summarize large chunk of text
 author: Noureddine
-tags: Writing, Brainstorms, Lessons
+tags: Creative, Agent, Creative/Tutorial
 version: 0.0.1
 mode: insert
 chain.type: map_reduce

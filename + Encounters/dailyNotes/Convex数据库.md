@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Convex数据库是一个分布式数据库，用于存储和同步实时数据。在你的代码仓中，Convex数据库用于存储和管理组织、板子和用户收藏等数据。

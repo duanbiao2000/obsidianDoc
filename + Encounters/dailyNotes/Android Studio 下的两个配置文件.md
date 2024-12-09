@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 `studio.vmoptions` 和 `idea.properties` 是 Android Studio 的两个配置文件，它们用于不同的配置目的：

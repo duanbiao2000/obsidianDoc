@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-07-14 13:58
+=======
+createdAt: 2024-07-14 13:58
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 ### vue3中的变化

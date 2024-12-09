@@ -1,5 +1,6 @@
 ---
 aliases: []
+<<<<<<< HEAD
 date_created: 
 url: 
 page-title: 
@@ -7,6 +8,15 @@ tags:
   - flashcards
   - todo
 date_update: 2023-09-29T20:55
+=======
+createdAt: 
+source: 
+title: 
+tags:
+  - Mindset/Reflection
+  - TODO
+modified date: 2023-09-29T20:55
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 # React Router v6

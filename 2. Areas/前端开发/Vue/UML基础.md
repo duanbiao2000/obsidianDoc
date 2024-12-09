@@ -1,5 +1,6 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 original: 
 url: 
@@ -7,6 +8,14 @@ author:
 date_created: 2024-07-17 00:44
 type: 
 priority: false
+=======
+source: 
+author: 
+createdAt: 
+updateAt: 2024-07-17 00:44
+categories: 
+status: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 ### UML基础

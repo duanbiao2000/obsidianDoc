@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 SWR（Stale-While-Revalidate）是一个用于 React 的数据获取库，它可以帮助你轻松地管理数据获取的状态，如加载中、错误等。在你的代码中，`useSWR` 被用来获取客户端数据和交易数据。

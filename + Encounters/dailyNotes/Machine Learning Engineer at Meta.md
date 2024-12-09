@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: 
-original: 
-url: https://www.youtube.com/watch?v=5I64NM5ZgUg&t=434s
+source: https://www.youtube.com/watch?v=5I64NM5ZgUg&t=434s
 author: 
+<<<<<<< HEAD
 date_created: 
 date_update: 2024-08-05 03:15
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 2024-08-05 03:15
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 SUMMARY:

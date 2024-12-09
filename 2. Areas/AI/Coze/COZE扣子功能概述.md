@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-06-03T20:05:38 (UTC +08:00)
+=======
+createdAt: 2024-06-03T20:05:38 (UTC +08:00)
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags: 
 original: https://www.coze.cn/docs/guides/function_overview
 author: COZE官方

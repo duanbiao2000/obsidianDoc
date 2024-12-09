@@ -1,14 +1,19 @@
 ---
 aliases:
   - 自动测试框架
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/JUnit中的Mock和Spy.md
 date_created: 
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240821142038.md
 tags:
 ---
 

@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 使用 `React.forwardRef` 创建一个带有 `ref` 的 React 组件可以让您在组件内部引用 DOM 元素，这对于需要操作 DOM 或者需要访问底层 DOM 节点的情况非常有用。

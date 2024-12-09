@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 当然，可以用 Markdown 支持的图表语法来绘制一个简单的 NestJS 项目的架构示意图。这里我们将展示一个包含 GraphQL 的 NestJS 项目的架构概览。

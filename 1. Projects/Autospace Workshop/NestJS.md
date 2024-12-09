@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 NestJS 是一个用于构建高效、可扩展的服务器端应用程序的框架，它基于 Node.js 和 Express.js，采用了现代的 JavaScript（ES6+）语法。NestJS 设计上强调模块化、可注入性和易于使用的 API，使得开发者可以快速构建健壮的后端服务。

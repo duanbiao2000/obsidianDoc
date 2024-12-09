@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-08-03 10:02
+=======
+createdAt: 2024-08-03 10:02
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 好的，以下是另外 10 处 Github Gist 中 JavaScript 的精彩代码片段及详细解释：

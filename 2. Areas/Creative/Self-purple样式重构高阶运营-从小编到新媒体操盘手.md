@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-07-14 14:28
+=======
+createdAt: 2024-07-14 14:28
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 <h2 class = "title">企业新媒体的运营定位</h2>

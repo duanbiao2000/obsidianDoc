@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Webhook 是一种在特定事件发生时，由一个应用程序向另一个应用程序发送即时 HTTP POST 请求的技术。它是一种简单且高效的方法，用于让应用之间实时通信，而不需要持续轮询或手动触发。

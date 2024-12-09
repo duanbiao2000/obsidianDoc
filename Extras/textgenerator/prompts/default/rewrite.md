@@ -3,7 +3,7 @@ promptId: rewrite
 aliases: ✏️ Rewrite, Paraphrase
 summary: select a content and it will be rewriten.
 author: Noureddine
-tags: Writing
+tags: Creative
 version: 0.0.1
 ---
 content: 

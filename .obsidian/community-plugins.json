@@ -25,7 +25,6 @@
   "note-refactor-obsidian",
   "obsidian-style-settings",
   "Enhanced-editing",
-  "tag-wrangler",
   "recent-files-obsidian",
   "obsidian-reading-time",
   "mousewheel-image-zoom",
@@ -35,9 +34,24 @@
   "dataview",
   "obsidian42-brat",
   "obsidian-admonition",
+<<<<<<< HEAD
   "copilot",
   "obsidian-wakatime",
   "enhanced-annotations",
   "smart-connections",
   "obsidian-relative-line-numbers"
+=======
+  "obsidian-kanban",
+  "obsidian-tasks-plugin",
+  "obsidian-excalidraw-plugin",
+  "extract-highlights-plugin",
+  "mermaid-tools",
+  "obsidian-mind-map",
+  "obsidian-regex-replace",
+  "obsidian-relative-line-numbers",
+  "smart-connections",
+  "tag-wrangler",
+  "various-complements",
+  "obsidian-advanced-uri"
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ]

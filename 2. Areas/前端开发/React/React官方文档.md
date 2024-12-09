@@ -6,7 +6,7 @@ aliases:
 links: [ React文档](https://zh-hans.react.dev/learn/your-first-component)
 title: React官方文档
 origin:
-tags: #flashcards 
+tags: #Mindset/Reflection 
 
 
 

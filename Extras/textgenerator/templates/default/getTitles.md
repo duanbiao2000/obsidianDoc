@@ -3,7 +3,7 @@ promptId: getTitles
 aliases: 🗃️ Get Blog Titles
 summary: select a content and list of blog titles will be generated
 author: Noureddine
-tags: writing
+tags: Creative
 version: 0.0.1
 ---
 content: 

@@ -1,9 +1,16 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
 date_created: 2024-11-09 13:27
 date_update: 2024-11-09 13:27
+=======
+categories: 
+high_priority: false
+createdAt: 2024-11-09 13:27
+updateAt: 2024-11-09 13:27
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 

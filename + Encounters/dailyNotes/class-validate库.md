@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 在 NestJS 中，`common.dto.ts` 文件通常包含一些通用的数据传输对象（DTO），用于输入验证。`@IsOptional()` 和 `@IsIn(['asc', 'desc'])` 是验证装饰器，用于确保传入的数据满足一定的条件。这些装饰器来自 `class-validator` 库，这是一个用于验证对象的库，常用于配合 NestJS 进行请求参数的验证。

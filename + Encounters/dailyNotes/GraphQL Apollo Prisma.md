@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 [prisma-examples/typescript/rest-nextjs-api-routes/src/components at latest · prisma/prisma-examples · GitHub](https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes/src/components)

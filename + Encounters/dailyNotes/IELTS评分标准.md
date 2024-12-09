@@ -2,7 +2,7 @@
 aliases:
   - 雅思评分标准
   - IELTS Score criteria
-theme: 
+categories: 
 tags:
 ---
 

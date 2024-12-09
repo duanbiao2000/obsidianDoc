@@ -1,11 +1,19 @@
 ---
 aliases: 
+<<<<<<< HEAD
 date_created: 
 url: https://www.bilibili.com/video/BV1MS4y167Bz/?p=6&spm_id_from=pageDriver&vd_source=7038f96b6bb3b14743531b102b109c43
 page-title: 
 tags: 
 date_update: 2023-10-22T12:01:00
 reviewable: false
+=======
+source: https://www.bilibili.com/video/BV1MS4y167Bz/?p=6&spm_id_from=pageDriver&vd_source=7038f96b6bb3b14743531b102b109c43
+title: 
+tags: 
+createdAt: 2023-10-22T12:01:00
+updateAt:
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ![Basic React SSR](https://www.bilibili.com/video/BV1MS4y167Bz/?p=6&spm_id_from=pageDriver&vd_source=7038f96b6bb3b14743531b102b109c43)
 

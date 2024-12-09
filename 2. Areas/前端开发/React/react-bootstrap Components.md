@@ -6,7 +6,7 @@ aliases:
 links:
 title:
 origin:
-tags: #flashcards #todo 
+tags: #Mindset/Reflection #TODO 
 
 
 [Frequent 'react-bootstrap' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/react-bootstrap?tab=Frequent)

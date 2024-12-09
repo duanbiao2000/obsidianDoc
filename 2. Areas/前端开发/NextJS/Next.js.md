@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 date_created: 2024-07-19 18:42
+=======
+createdAt: 2024-07-19 18:42
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ## [`app` 路由约定](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions)
 

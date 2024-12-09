@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/Firecrawl.md
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240919000000.md
 tags:
 ---
 Firecrawl 作为一个与 LangChain 集成的文档加载器，它的主要功能是从互联网或其他数据源中抓取信息，并将这些信息以适合的形式提供给 LangChain 使用。LangChain 是一个用于构建语言模型应用的框架，它可以帮助开发者轻松地集成和使用大型语言模型（LLMs）来处理各种任务。

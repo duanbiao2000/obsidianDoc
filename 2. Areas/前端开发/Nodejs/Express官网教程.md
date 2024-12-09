@@ -1,13 +1,17 @@
 ---
 aliases: []
+<<<<<<< HEAD
 date_created: 2024-07-19 19:12
+=======
+updateAt: 2024-07-19 19:12
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 20230907 1427
 links: [Express 教程 3：使用数据库 (Mongoose) - 学习 Web 开发 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Express_Nodejs/mongoose)
 title:
 origin:
-tags: #flashcards #todo
+tags: #Mindset/Reflection #TODO
 
 model 和 schema 在 Mongoose 中的关系如下:
 

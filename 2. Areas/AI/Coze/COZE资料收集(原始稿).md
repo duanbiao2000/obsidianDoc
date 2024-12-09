@@ -1,8 +1,12 @@
 ---
-theme: 
+categories: 
 tags: 
 status: 
+<<<<<<< HEAD
 date_created: 2024-05-04
+=======
+createdAt: 2024-05-04
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
 # Coze国内版插件汇总-By油猴

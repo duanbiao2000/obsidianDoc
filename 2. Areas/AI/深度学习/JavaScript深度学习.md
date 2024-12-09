@@ -1,13 +1,18 @@
 ---
 aliases: 
-theme: moon
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 2024-08-03 12:59
 date_update: 
 type: 
 priority: false
+=======
+createdAt: 2024-08-03 12:59
+updateAt: 
+categories: moon
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 

@@ -1,13 +1,18 @@
 ---
 aliases: 
 tags: 
-theme: 
-original: 
-url: 
+source: 
 author: 
+<<<<<<< HEAD
 date_created: 2024-07-14 17:02
 type: 
 priority: false
+=======
+createdAt: 
+updateAt: 2024-07-14 17:02
+categories: 
+status: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 `Promise.race` 是一个 Promise 静态方法，它接收一个 Promise 对象的数组作为参数，一旦数组中的某个 Promise 解决或拒绝，`Promise.race` 就会立即以相同的解决值或拒绝原因返回一个新的 Promise。
 

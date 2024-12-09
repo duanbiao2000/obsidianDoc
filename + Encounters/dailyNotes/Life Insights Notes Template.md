@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD:+ Encounters/dailyNotes/Life Insights Notes Template.md
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20241020195737.md
 ---
 
 > [!Prompt] 

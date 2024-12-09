@@ -1,7 +1,12 @@
 ---
 aliases: 
+<<<<<<< HEAD
 theme: 
 priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 当然，Scrum 是一种敏捷项目管理框架，特别适用于软件开发项目。它强调团队协作、迭代开发和持续改进。以下是关于 Scrum 的一些关键概念、角色和实践，以及在面试中可能遇到的相关问题。
