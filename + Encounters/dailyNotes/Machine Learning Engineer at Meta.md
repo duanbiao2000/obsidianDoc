@@ -2,51 +2,12 @@
 aliases: 
 source: https://www.youtube.com/watch?v=5I64NM5ZgUg&t=434s
 author: 
-<<<<<<< HEAD
-date_created: 
-date_update: 2024-08-05 03:15
-type: 
-priority: false
-=======
 createdAt: 
 updateAt: 2024-08-05 03:15
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 
-SUMMARY:
-Sha Jun, a machine learning engineer at Meta, shares his journey from physics to coding and the importance of domain knowledge in machine learning. The discussion covers his academic background, the practicality of machine learning, the difference between data science and machine learning, and tips for breaking into the field.
-
-IDEAS:
-
-- Domain knowledge is crucial alongside machine learning skills.
-- Practical demand and career opportunities in machine learning are growing.
-- Self-learning through literature and online courses is effective.
-- Theoretical understanding and practical experience are both essential.
-- Specific areas within machine learning are less saturated and offer opportunities.
-- Building a portfolio through projects and competitions is beneficial.
-- Understanding business needs is as important as technical skills.
-- Simple machine learning methods often outperform complex ones in interviews.
-
-INSIGHTS:
-
-- The combination of domain expertise with machine learning is highly valuable.
-- Continuous learning and adapting to industry changes are key to career growth.
-- Real-world applications of machine learning require a deep understanding of both theory and practice.
-- The job market for machine learning is nuanced, with demand for specific skill sets.
-- Portfolio building is crucial for showcasing one's capabilities in the field.
-- Communication with stakeholders is vital for aligning technical solutions with business goals.
-- Overly complex solutions may not always be the best approach, especially in interviews.
-
-QUOTES:
-
-- "It's very hard to find a person who has the domain knowledge as well as machine learning knowledge."
-- "Machine learning is quite useful for every aspect of society."
-- "You can do something related to social science or medical science with machine learning."
-- "If you lack one of theory or practice, you'll end up with confusion."
-- "There's a lot of demand for machine learning in specific areas like healthcare or manufacturing."
-- "You should learn a little bit of machine learning because you will find a lot of opportunities."
 
 HABITS:
 

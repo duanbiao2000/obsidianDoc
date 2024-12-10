@@ -1,16 +1,12 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 2024年10月7日 Github 趋势榜：
 - TheAlgorithms / Python：用Python实现的所有算法 星星数：189933 叉子数：44983 今日星星数：1380
+- 
 - mendableai / firecrawl：🔥 将整个网站变成适合大型语言模型的markdown或结构化数据。使用单一API进行抓取、爬取和提取。 星星数：16100 叉子数：1153 今日星星数：312
 - ErikBjare / gptme：你终端中的代理，配备本地工具：编写代码，使用终端，浏览网页，视觉。 星星数：1256 叉子数：79 今日星星数：250
 - livekit / agents：构建实时多模态AI应用🤖🎙️📹 星星数：2090 叉子数：263 今日星星数：199

@@ -1,31 +1,9 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
-The code snippet you've provided appears to be an import statement in JavaScript or TypeScript. Let's break it down:
-
-
-
-```javascript
-import { allPosts, Post } from 'contentlayer/generated';
-```
-
-This line is importing two things from a module called 'contentlayer/generated':
-
-1. `allPosts`: This is likely an array or collection of all the posts in your content layer.
-2. `Post`: This is probably a type or interface that defines the structure of a post.
-
-Contentlayer is a popular content SDK for JavaScript and TypeScript projects. It's often used in static site generators and content-heavy applications to manage and transform content files (like Markdown) into data that can be easily consumed by your application.
-
-The '/generated' part of the import path suggests that these are automatically generated files or types based on your content structure.
-
 
 看起来你是在使用 ContentLayer，这是一个用于静态站点生成的框架，它允许你使用 TypeScript 编写 Markdown 或 MDX 文件，并将它们编译为 JavaScript 对象。ContentLayer 可以与 Next.js 等框架很好地集成，用于动态生成静态站点的内容。
 

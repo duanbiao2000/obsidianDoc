@@ -1,51 +1,9 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
+
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
-
-在典型的 Android 应用架构中，`model`, `repository`, `viewModel`, `dao` 和 `database` 之间的层级和引用关系如下：
-
-1. **Data Access Object (DAO)**
-
-   - 定义数据访问接口，用于操作数据库表。
-   - 层级最低，直接与数据库交互。
-2. **Database (如 Room Database)**
-
-   - 包含一个或多个 DAO。
-   - 管理整个数据库生命周期。
-   - 引用关系：包含 DAO 实例。
-3. **Repository**
-
-   - 负责业务逻辑处理，封装数据源。
-   - ! 组合多个 DAO 方法，提供更高层次的数据访问逻辑。
-   - 引用关系：依赖于 DAO。
-4. **ViewModel**
-
-   - 管理 UI 相关数据。
-   - 生命周期与 UI 组件关联。
-   - 引用关系：依赖于 Repository，不直接操作数据库。
-5. **Model**
-
-   - 表示应用中的数据模型。
-   - 可能作为 Repository 或 ViewModel 中的数据载体。
-   - 引用关系：被 Repository 或 ViewModel 使用。
-
-### 示例结构图
-
-`Model <--- Repository <--- ViewModel      ^               ^      |               |      +-------> DAO <--- Database`
-
-- **Model**: 数据对象。
-- **Repository**: 业务逻辑层，使用 DAO。
-- **ViewModel**: UI 相关数据管理，依赖 Repository。
-- **DAO**: 数据访问对象，操作数据库。
-- **Database**: 整个数据库管理。
-
 ### 模型、仓库、视图模型、数据访问对象（DAO）和数据库之间的层级与引用关系
 
 在现代软件开发中，特别是使用MVC（Model-View-Controller）或MVVM（Model-View-ViewModel）等架构模式时，模型、仓库、视图模型、数据访问对象（DAO）和数据库这几个概念经常被提及。它们之间存在着清晰的层级和引用关系，共同构成了应用程序的数据管理和展示逻辑。
@@ -89,39 +47,7 @@ high_priority: false
 - **仓库层**提供对数据的访问。
 - **数据访问层**负责与数据库交互。
 
-这种分层方式在许多开发框架中都有广泛应用，例如ASP.NET MVC、Spring MVC等。
 
-**需要注意的是：**
-
-- 不同的框架或项目可能对这些概念的定义略有差异。
-- 在一些简单的项目中，可能不需要这么细致的分层。
-- 对于大型复杂的项目，这种分层结构可以有效地管理代码复杂度。
-
-
-
-在 Android 开发中，特别是使用 MVVM（Model-View-ViewModel）架构时，`Model`、`Repository`、`ViewModel`、`DAO` 和 `Database` 之间的层级和引用关系非常重要。这些组件各自承担不同的职责，并且通过合理的分层和依赖关系来实现清晰的代码结构和良好的可维护性。
-
-### 组件及其职责
-
-1. **Model**:
-   - **职责**: 表示应用程序的数据结构。通常是一个数据类或实体类。
-   - **示例**: 一个表示用户信息的 `User` 类。
-
-2. **DAO (Data Access Object)**:
-   - **职责**: 提供对数据库的操作方法，如插入、查询、更新和删除等。
-   - **示例**: 一个 `UserDao` 接口，定义了对 `User` 表的操作方法。
-
-3. **Database**:
-   - **职责**: 管理应用中的所有数据库表，并提供对 `DAO` 的访问。
-   - **示例**: 一个 `AppDatabase` 类，继承自 `RoomDatabase`，并包含 `UserDao`。
-
-4. **Repository**:
-   - **职责**: 作为数据源的抽象层，可以管理多个数据源（如数据库、网络、缓存等），并向 `ViewModel` 提供统一的数据访问接口。
-   - **示例**: 一个 `UserRepository` 类，封装了 `UserDao` 的操作，并可能添加额外的逻辑（如缓存）。
-
-5. **ViewModel**:
-   - **职责**: 为 UI 提供数据，处理业务逻辑，并与 `Repository` 交互以获取数据。
-   - **示例**: 一个 `UserViewModel` 类，持有 `LiveData` 对象，并通过 `UserRepository` 获取数据。
 
 ### 层级和引用关系
 
@@ -255,32 +181,5 @@ high_priority: false
   }
   ```
 
-### 总结
 
-- **Model** 是数据实体类。
-- **DAO** 定义了对数据库的操作方法。
-- **Database** 管理数据库表，并提供对 `DAO` 的访问。
-- **Repository** 封装数据访问逻辑，管理多个数据源。
-- **ViewModel** 为 UI 提供数据，处理业务逻辑，并与 `Repository` 交互。
 
-### 参考图
-
-```
-+-----------------+       +-----------------+       +-----------------+
-|     Model       |  <--- |     DAO         |  <--- |    Database     |
-+-----------------+       +-----------------+       +-----------------+
-        ^                         ^
-        |                         |
-        |                         |
-+-----------------+       +-----------------+
-|  Repository     |  <--- |    ViewModel    |
-+-----------------+       +-----------------+
-        ^                         ^
-        |                         |
-        |                         |
-+-----------------+       +-----------------+
-|    Data Source  |  <--- |     UI (Activity/Fragment)  |
-+-----------------+       +-----------------+
-```
-
-通过这种分层和引用关系，你可以确保每个组件的职责清晰，代码易于维护和测试。

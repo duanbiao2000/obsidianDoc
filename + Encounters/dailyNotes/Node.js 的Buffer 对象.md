@@ -2,17 +2,10 @@
 aliases: 
 source: 
 author: 
-<<<<<<< HEAD:+ Encounters/dailyNotes/Node.js 的Buffer 对象.md
-date_created: 
-date_update: 
-type: 
-priority: false
-=======
 createdAt: 
 updateAt: 
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/20240808131344.md
 tags:
 ---
 # Node.js 的 Buffer 对象
@@ -28,24 +21,18 @@ tags:
 
 ### 如何创建 Buffer？
 
-JavaScript
-
 ```js
 // 创建一个长度为 10 的 Buffer
 const buf1 = Buffer.alloc(10);
-
 // 创建一个 Buffer，并用字符串初始化
 const buf2 = Buffer.from('hello');
-
 // 创建一个 Buffer，并用一个数组初始化
 const buf3 = Buffer.from([0x68, 0x65, 0x6c, 0x6c, 0x6f]);
 ```
 
 ### Buffer 和字符串的转换
 
-JavaScript
-
-```
+```js
 // 字符串转 Buffer
 const buf = Buffer.from('hello');
 
