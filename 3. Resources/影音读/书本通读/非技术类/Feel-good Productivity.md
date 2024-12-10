@@ -2,13 +2,12 @@
 aliases:
   - How to Do More of What Matters to You
 theme: 
-original: 
-url: 
+source: 
 author: Ali Abdaal
-created_date: 2024-07-16 14:33
-date updated: 2024-07-16 14:33
+createdAt: 2024-07-16 14:33
+updateAt: 2024-07-16 14:33
 type: 
-high priority: false
+high_priority: false
 ---
 ## Last word: think like a productive scientist.
 ### creating your own personalized productivity toolkit.

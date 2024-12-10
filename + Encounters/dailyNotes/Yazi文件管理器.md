@@ -1,9 +1,9 @@
 ---
 aliases: 
 theme: 
-priority: false
-date_created: 2024-12-01 13:13
-date_update: 2024-12-01 13:13
+high_priority: false
+createdAt: 2024-12-01 13:13
+updateAt: 2024-12-01 13:13
 ---
 
 << [[2024-11-30]] | [[2024-12-02]] >>

@@ -1,5 +1,5 @@
 ---
-title: 你不需要激情，你需要去战争 --- You Don't Need Passion, You Need to Go to War
+aliases: 你不需要激情，你需要去战争 --- You Don't Need Passion, You Need to Go to War
 categories: []
 createdAt: 2024-11-17T14:40:48 (UTC +08:00)
 tags: []

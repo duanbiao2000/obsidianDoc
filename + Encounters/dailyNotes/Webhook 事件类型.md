@@ -1,5 +1,5 @@
 ---
-title: 20241121
+aliases: 20241121
 createdAt: 2024-11-21 11:45
 categories:
   - Mindset

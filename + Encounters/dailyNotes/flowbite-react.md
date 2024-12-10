@@ -1,5 +1,5 @@
 ---
-title: flowbite-react
+aliases: flowbite-react
 createdAt: 2024-11-21 11:57
 categories:
   - Mindset

@@ -1,13 +1,12 @@
 ---
 aliases: 
 theme: 
-original: 
-url: 
+source: 
 author: 
-date_created: 
-date_update: 2024-12-09
+createdAt: 
+updateAt: 2024-12-09
 type: 
-priority: false
+high_priority: false
 ---
 
 The note "20240811201622" discusses the memory model in computer programs, focusing on the stack, heap, and registers. The stack is managed by the compiler, follows a Last-In-First-Out (LIFO) principle, and stores temporary data like function parameters and local variables. The heap is manually managed by the programmer, allows dynamic memory allocation, and stores larger, longer-lived data. Registers are the fastest memory units directly connected to the CPU, used for temporary data storage and faster access.

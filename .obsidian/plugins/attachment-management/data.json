@@ -15,14 +15,6 @@
   ],
   "excludeSubpaths": false,
   "originalNameStorage": [],
-  "overridePath": {
-    "5. Misc/Attachments": {
-      "attachmentRoot": "5.Misc/Attachments",
-      "saveAttE": "inFolderBelow",
-      "attachmentPath": "${notename}",
-      "attachFormat": "IMG-${notename}-${date}",
-      "type": "FOLDER"
-    }
-  },
+  "overridePath": {},
   "disableNotification": false
 }

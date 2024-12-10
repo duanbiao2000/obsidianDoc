@@ -30,7 +30,7 @@ updateAt:
 - [[useRouter]]
 - [[+ Encounters/dailyNotes/20240903135738.md]]
 - [[+ Encounters/dailyNotes/20240903202702.md]]
-- [[+ Encounters/dailyNotes/20240903204310.md]]
+- [[provider模式]]
 - [[+ Encounters/dailyNotes/20240910152157.md]]
 - [[+ Encounters/dailyNotes/20240910164007.md]]
 - [[+ Encounters/dailyNotes/20240911143814.md]]

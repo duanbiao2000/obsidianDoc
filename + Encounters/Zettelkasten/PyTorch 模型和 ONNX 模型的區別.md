@@ -1,10 +1,10 @@
 ---
 aliases: 模型導出
-theme: null
-priority: false
-date_created: 2024-12-01 06:22
-date_update: null
-tags: null
+theme: 
+high_priority: false
+createdAt: 2024-12-01 06:22
+updateAt: 
+tags:
 ---
 
 # **模型導出**

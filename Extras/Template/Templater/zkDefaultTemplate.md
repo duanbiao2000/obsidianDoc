@@ -1,22 +1,10 @@
 ---
-aliases: 
-<<<<<<< HEAD
-theme: 
-original: 
-url: 
-author: 
-tags: 
-date_created: 
-type: 
-priority: false
-=======
-title: <% tp.file.title %>
+aliases: <% tp.file.title %>
 createdAt: <% tp.file.creation_date() %>
 categories:
   - Mindset
 tags:
   - Mindset/Reflection
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 **单个卡片应该包含的要素：**
 

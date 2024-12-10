@@ -1,15 +1,10 @@
 ---
-# Mandatory fields
-id: "f059b839-0c18-42e0-923a-1313aae2476e"
-# Optional fields
-title: ""
+id: f059b839-0c18-42e0-923a-1313aae2476e
+aliases: ""
 tags: []
-source: "https://www.reddit.com/r/OpenAI/comments/1gkzorv/looking_for_research_opportunities/"
-source_title: "Looking for Research opportunities : r/OpenAI"
-source_description: ""
-source_image_url: ""
-created_date: "2024-11-07"
-modified_date: "2024-11-07"
+source: "Looking for Research opportunities : r/OpenAI"
+createdAt: 2024-11-07
+updateAt: 2024-11-07
 ---
 Looking for Research opportunities
 Discussion

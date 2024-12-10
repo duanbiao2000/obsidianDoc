@@ -1,6 +1,6 @@
 ---
-title: 20241130
-date_created: 2024-11-30 16:29
+aliases: Six Discipledges
+createdAt: 2024-11-30 16:29
 categories:
   - Diary
 tags:

@@ -1958,3 +1958,73 @@ npm run dev
 ```
 
 现在，你可以通过访问 [http://localhost:3000](http://localhost:3000)来体验，更多请见GitHub上完整的[源代码](https://github.com/isabellac13/react-express-example)。
+
+Redux
+
+##  Redux 
+很好，让我们深入探讨 React 的状态管理库，特别是 Redux 和 MobX。这两个库都是用于管理复杂应用程序中的状态，但它们采用了不同的方法。
+
+1. Redux
+
+Redux 是一个可预测的状态容器，遵循单向数据流的原则。
+
+关键概念：
+
+- Store：整个应用的状态树
+- Actions：描述发生了什么的普通 JavaScript 对象
+- Reducers：指定状态如何变化的纯函数
+- Dispatch：发送 action 的方法
+
+让我们看一个简单的 Redux 示例：
+
+
+
+```javascript
+// actions.js
+export const increment = () => ({ type: 'INCREMENT' });
+export const decrement = () => ({ type: 'DECREMENT' });
+
+// reducers.js
+const initialState = { count: 0 };
+
+function counterReducer(state = initialState, action) {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+}
+
+// store.js
+import { createStore } from 'redux';
+import counterReducer from './reducers';
+
+const store = createStore(counterReducer);
+
+// App.js
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { increment, decrement } from './actions';
+
+function Counter() {
+  const count = useSelector(state => state.count);
+  const dispatch = useDispatch();
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => dispatch(increment())}>+</button>
+      <button onClick={() => dispatch(decrement())}>-</button>
+    </div>
+  );
+}
+
+export default Counter;
+
+```
+
+
+

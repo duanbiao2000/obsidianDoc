@@ -1,11 +1,11 @@
 ---
 aliases: Fast AI Inference
 theme: 
-priority: false
-date_created: 2024-12-03 13:40
-date_update: 2024-12-03 13:40
-tags:
-original: https://groq.com/
+high_priority: false
+createdAt: 2024-12-03 13:40
+updateAt: 2024-12-03 13:40
+tags: 
+source: https://groq.com/
 ---
 
 Fast inference matters in various applications and domains, including:

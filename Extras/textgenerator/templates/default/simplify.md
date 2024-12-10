@@ -1,7 +1,7 @@
 ---
 promptId: simplify
-name: 👼Simplify
-description: select a content and it will be simplified.
+aliases: 👼Simplify
+source: select a content and it will be simplified.
 author: Noureddine
 tags: Mindset, Creative
 version: 0.0.1

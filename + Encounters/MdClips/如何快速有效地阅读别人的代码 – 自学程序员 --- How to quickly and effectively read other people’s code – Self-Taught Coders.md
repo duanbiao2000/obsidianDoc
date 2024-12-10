@@ -1,7 +1,7 @@
 ---
-title: 如何快速有效地阅读别人的代码 – 自学程序员 --- How to quickly and effectively read other people’s code – Self-Taught Coders
+aliases: 如何快速有效地阅读别人的代码 – 自学程序员 --- How to quickly and effectively read other people’s code – Self-Taught Coders
 categories: []
-date: 2024-11-21T13:31:19 (UTC +08:00)
+createdAt: 2024-11-21T13:31:19 (UTC +08:00)
 tags: []
 source: https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/
 author: by Alex Coleman  |  Learning, Web Development作者：亚历克斯·科尔曼|学习,网页 开发

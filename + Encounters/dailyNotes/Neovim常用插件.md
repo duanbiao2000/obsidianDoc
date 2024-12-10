@@ -1,26 +1,18 @@
 ---
-title:null
-date:null
+aliases:
+date:
 categories:
--Diary
+  - Diary
 tags:
--GitHub
--Code
-aliases:null
-theme:null
+  - GitHub
+  - Code
 ---
-总结
 <!--more-->
-这些插件是为Neovim（一个流行的文本编辑器）设计的，每个插件都有其独特的功能和用途。以下是这些插件的作用：
-1.**LazyVim**：一个用于Neovim的配置框架，旨在简化插件管理和配置过程。
+
 2.**SchemaStore.nvim**：提供JSONSchema支持，帮助LSP（语言服务器协议）更好地理解文件结构。
 3.**bufferline.nvim**：一个用于显示Neovim中打开的缓冲区的插件。
-4.**catppuccin**：一个为Neovim提供美观配色方案的插件。
 5.**cmp-buffer**：Neovim的补全插件，用于补全缓冲区内的单词。
-6.**cmp-git**：Neovim的补全插件，用于补全Git相关的操作。
-7.**cmp-nvim-lsp**：Neovim的补全插件，用于补全LSP提供的信息。
 8.**cmp-path**：Neovim的补全插件，用于补全文件路径。
-9.**codeium.nvim**：一个代码编辑增强插件，提供代码补全和代码片段管理。
 10.**conform.nvim**：一个代码格式化插件，帮助保持代码风格的一致性。
 11.**dashboard-nvim**：一个Neovim的启动屏幕插件，用于显示启动时的信息和快捷操作。
 12.**dressing.nvim**：一个用于Neovim的交互式窗口插件，提供更好的用户界面。
@@ -29,26 +21,18 @@ theme:null
 15.**gitsigns.nvim**：一个Git插件，显示Git变更标志（如添加、修改、删除）。
 16.**grug-far.nvim**：一个文件浏览器插件，增强Neovim的文件导航能力。
 17.**indent-blankline.nvim**：显示缩进空白行，帮助识别代码结构。
-18.**lazy.nvim**：一个用于管理Neovim插件的延迟加载的插件。
 19.**lazydev.nvim**：一个为开发者提供便利功能的Neovim插件集合。
 20.**lualine.nvim**：一个用于自定义Neovim状态栏的插件。
 21.**luvit-meta**：一个提供Lua和Luvit元编程能力的插件。
-22.**markdown-preview.nvim**：一个Markdown预览插件，可以在Neovim中预览Markdown文件。
 23.**mason-lspconfig.nvim**：一个用于配置LSP的插件，简化LSP的安装和配置。
 24.**mason.nvim**：一个用于管理Neovim插件和LSP的插件。
-25.**mini.ai**：一个提供人工智能辅助功能的插件。
 26.**mini.animate**：一个提供动画效果的插件。
 27.**mini.icons**：一个提供图标支持的插件。
-28.**mini.pairs**：一个自动补全括号、引号等的插件。
-29.**neo-tree.nvim**：一个文件树浏览器插件。
 30.**noice.nvim**：一个提供虚拟环境和LSP配置的插件。
 31.**nui.nvim**：一个用于创建NeovimUI组件的插件。
-32.**nvim-cmp**：Neovim的补全框架。
 33.**nvim-jdtls**：Java开发工具，提供Java语言的LSP支持。
-34.**nvim-lint**：一个代码检查插件。
 35.**nvim-lspconfig**：一个用于配置LSP的插件。
 36.**nvim-notify**：一个通知系统，用于显示Neovim中的通知。
-37.**nvim-snippets**：一个代码片段插件。
 38.**nvim-treesitter**：一个基于解析树的语法高亮和代码分析插件。
 39.**nvim-treesitter-textobjects**：基于nvim-treesitter的文本对象插件。
 40.**nvim-ts-autotag**：一个自动补全HTML/XML标签的插件。
@@ -59,7 +43,6 @@ theme:null
 45.**telescope-fzf-native.nvim**：一个基于fzf的文件查找插件。
 46.**telescope.nvim**：一个通用的文件查找和操作插件。
 47.**todo-comments.nvim**：一个TODO注释管理插件。
-48.**tokyonight.nvim**：一个提供东京之夜配色方案的插件。
 49.**trouble.nvim**：一个错误和问题诊断插件。
 50.**ts-comments.nvim**：一个代码注释插件。
 51.**which-key.nvim**：一个快捷键提示插件，帮助用户发现和使用快捷键。

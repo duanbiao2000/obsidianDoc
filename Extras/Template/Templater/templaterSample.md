@@ -1,9 +1,9 @@
 ---
 aliases: 
 theme: 
-priority: false
-date_created: <% tp.file.creation_date() %>
-date_update: <% tp.file.last_modified_date() %>
+high_priority: false
+createdAt: <% tp.file.creation_date() %>
+updateAt: <% tp.file.last_modified_date() %>
 tags:
 ---
 

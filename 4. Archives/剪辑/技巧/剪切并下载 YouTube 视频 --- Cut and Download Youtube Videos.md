@@ -1,8 +1,8 @@
 ---
-created: 2024-06-04T11:27:29 (UTC +08:00)
+createdAt: 2024-06-04T11:27:29 (UTC +08:00)
 tags: []
 source: https://ytcutter.cc/manual.php?s=158.6&d=88.6&id=tEFUNLFwPoM&f=video
-author: 
+author:
 ---
 [Cut and Download Youtube ...](https://ytcutter.cc/)
 ![](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery/picture/20240604113149.png)

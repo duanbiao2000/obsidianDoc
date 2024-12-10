@@ -1,7 +1,7 @@
 ---
-title: 如何每天有 27 小时 - Anton Zaides --- How to have 27 hours in your day - by Anton Zaides
+aliases: 如何每天有 27 小时 - Anton Zaides --- How to have 27 hours in your day - by Anton Zaides
 categories: []
-date: 2024-11-23T16:45:09 (UTC +08:00)
+createdAt: 2024-11-23T16:45:09 (UTC +08:00)
 tags: []
 source: https://zaidesanton.substack.com/p/how-to-have-27-hours-in-your-day?r=643nm&utm_campaign=post&utm_medium=web&triedRedirect=true
 author: Anton Zaides

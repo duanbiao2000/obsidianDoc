@@ -1,7 +1,5 @@
 ---
-aliases:
-  - Cognitive Complexity
-title: Untitled
+aliases: Untitled
 createdAt: 2024-11-25 13:57
 categories:
   - Mindset

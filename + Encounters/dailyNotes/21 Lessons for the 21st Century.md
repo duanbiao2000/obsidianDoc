@@ -1,13 +1,12 @@
 ---
 aliases:
   - clarity is power
-theme:
-original:
-url:
-author:
-created_date:
+theme: 
+source: 
+author: 
+createdAt: 
 date_updated: 2024-07-24 13:48
-type:
+type: 
 high_priority: false
 tags:
 ---

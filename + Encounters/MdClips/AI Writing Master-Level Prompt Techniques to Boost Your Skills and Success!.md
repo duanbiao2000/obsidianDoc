@@ -1,11 +1,13 @@
 ---
-title: AI Writing: Master-Level Prompt Techniques to Boost Your Skills and Success!
-categories: []
-date: 2024-11-23T16:10:51 (UTC +08:00)
-tags: []
+aliases: AI Writing
+categories: 
+createdAt: 2024-11-30 16:29
+tags: 
 source: https://substack.com/home/post/p-151922918?source=queue
 author: Substack
 ---
+
+
 
 
 # AI Writing: Master-Level Prompt Techniques to Boost Your Skills and Success!

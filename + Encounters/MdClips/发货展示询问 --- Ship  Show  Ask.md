@@ -1,7 +1,7 @@
 ---
-title: 发货/展示/询问 --- Ship / Show / Ask
+aliases: 发货/展示/询问 --- Ship / Show / Ask
 categories: []
-date: 2024-11-21T13:23:14 (UTC +08:00)
+createdAt: 2024-11-21T13:23:14 (UTC +08:00)
 tags: []
 source: https://martinfowler.com/articles/ship-show-ask.html
 author: Rouan Wilsenach 鲁安·威尔森纳赫

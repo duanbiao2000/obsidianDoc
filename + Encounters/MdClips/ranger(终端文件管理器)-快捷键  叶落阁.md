@@ -1,5 +1,5 @@
 ---
-title: ranger(终端文件管理器)-快捷键 | 叶落阁
+aliases: ranger(终端文件管理器)-快捷键 | 叶落阁
 categories:
   - vim
   - terminal
