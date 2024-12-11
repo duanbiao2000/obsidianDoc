@@ -11,7 +11,7 @@ updateAt: 2024-07-19 19:12
 links: [Express 教程 3：使用数据库 (Mongoose) - 学习 Web 开发 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Express_Nodejs/mongoose)
 title:
 origin:
-tags: #Mindset/Reflection #TODO
+tags: #Mindset/Reflection #Action/TODO
 
 model 和 schema 在 Mongoose 中的关系如下:
 

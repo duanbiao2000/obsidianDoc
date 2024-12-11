@@ -5,7 +5,7 @@ tags:
   - Mindset
   - Creative/Tutorial
   - Mindset/Meta
-  - TODO
+  - Action/TODO
   - Effective
 ---
 

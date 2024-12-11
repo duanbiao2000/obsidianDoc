@@ -3,7 +3,7 @@ promptId: simplify
 aliases: 👼Simplify
 summary: select a content and it will be simplified.
 author: Noureddine
-tags: thinking, writing
+tags: Mindset/Reflection, Action/Writing
 version: 0.0.1
 ---
 content: 
