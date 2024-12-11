@@ -1,0 +1,14 @@
+Build and Deploy a Full Stack AI SaaS | Next JS 13, DrizzleORM, OpenAI, Stripe, TypeScript, Tailwind
+https://github.com/elliott-chong/chatpdf-yt
+https://www.youtube.com/watch?v=bZFedu-0emE&t=188s
+
+==========
+Build and Deploy a Full Stack Notion Clone | NextJS 13, DALL•E, DrizzleORM, OpenAI, TypeScript
+https://github.com/elliott-chong/aideation-yt
+https://www.youtube.com/watch?v=olsdGZcRGSQ
+
+=========
+
+Build & Deploy: Full Stack AI Quiz Platform with NextJS 13, TailwindCSS, OpenAI, Next Auth
+https://github.com/Elliott-Chong/quizmify
+https://www.youtube.com/watch?v=vIyU4nInlt0&t=3s

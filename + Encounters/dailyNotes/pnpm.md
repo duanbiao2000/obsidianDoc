@@ -1,0 +1,33 @@
+---
+aliases: 
+<<<<<<< HEAD
+theme: 
+priority: false
+=======
+categories: 
+high_priority: false
+>>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+tags:
+---
+这条命令使用了 `pnpm`（一个快速、节省磁盘空间的包管理器）来创建一个新的 Next.js 项目，并且指定了使用 `pnpm` 作为项目的包管理器。下面是命令中每个部分的详细分析：
+
+1. **`pnpm dlx`**:
+   - `dlx` 是 `pnpm` 提供的一个命令，用于临时执行一个 npm 包中的可执行文件。它类似于 `npx`，但是更加高效，因为它不会将整个包安装到全局，而是将其下载到缓存目录并从那里运行。
+   - 使用 `dlx` 可以确保你总是运行最新版本的工具，而不需要手动更新。
+
+2. **`create-next-app`**:
+   - 这是官方提供的用于快速搭建 Next.js 应用程序的脚手架工具。通过这个工具，你可以生成一个带有基本配置和示例代码的新 Next.js 项目。
+
+3. **`--use-pnpm`**:
+   - 这个选项告诉 `create-next-app` 在新创建的项目中使用 `pnpm` 作为默认的包管理器。这意味着在项目的 `package.json` 文件中会设置 `"pnpm"` 为 `packageManager`，并且未来的依赖安装和升级都会默认使用 `pnpm` 来进行。
+
+4. **`radix-pokemon`**:
+   - 这是你给新创建的 Next.js 项目指定的名称。这个名称将成为项目根目录的名称，并且也会被用来初始化 Git 仓库（如果选择的话）。通常情况下，这也是你在开发过程中使用的项目名。
+
+综合起来，这条命令的作用是：
+- 使用 `pnpm` 的 `dlx` 命令来临时运行 `create-next-app` 工具。
+- 创建一个新的 Next.js 项目。
+- 指定使用 `pnpm` 作为新项目的包管理器。
+- 将新项目命名为 `radix-pokemon`。
+
+当你运行这条命令后，`create-next-app` 会引导你完成一系列的问题，比如是否需要 TypeScript 支持、是否需要 ESLint 和 Prettier 等等。根据你的回答，它会生成相应的项目结构和配置。完成后，你会得到一个名为 `radix-pokemon` 的目录，里面包含了启动一个 Next.js 项目所需的所有文件。
