@@ -1,1 +1,0 @@
-1. **yazi-shared**：这个库提供了Yazi的共享功能。它包括多个子模块，如`chars`、`condition`、`debounce`、`either`、`env`、`errors`、`event`、`fs`、`id`、`layer`、`lib`、`natsort`、`number`、`os`、`rand`、`ro_cell`、`shell`、`sync_cell`、`terminal`、`theme`、`throttle`、`time`、`translit`和`xdg`，每个子模块都负责处理特定类型的操作。
