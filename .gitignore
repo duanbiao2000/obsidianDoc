@@ -22,5 +22,6 @@
 
 # 忽略工作区配置文件
 workspace.json.obsidian/
-.obsidian/plugins/obsidian-image-auto-upload-plugin/data.json
-.obsidian/types.json
+.obsidian/
+.smart-connections/
+*.ajson
