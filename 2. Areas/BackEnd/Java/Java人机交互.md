@@ -3439,4 +3439,4 @@ public class MyFrame extends JFrame {
 
 
 
-[[../../前端开发/JavaScript/JS基础]]
+[[JS基础]]

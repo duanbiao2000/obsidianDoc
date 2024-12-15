@@ -111,6 +111,6 @@ for (let key of Object.keys(obj)) {
 }
 ```
 
-[[../CSS/响应式设计]]
+[[响应式设计]]
 
 [[模块系统]]

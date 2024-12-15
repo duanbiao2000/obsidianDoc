@@ -17,4 +17,4 @@ typora-root-url: ./
 
 [[MVVM模式]]
 
-[[../JavaScript/JS笔记汇总]]
+[[JS笔记汇总]]
