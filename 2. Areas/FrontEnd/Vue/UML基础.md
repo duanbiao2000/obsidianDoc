@@ -1,21 +1,15 @@
 ---
-aliases: 
-<<<<<<< HEAD
-theme: 
-original: 
-url: 
-author: 
-date_created: 2024-07-17 00:44
-type: 
-priority: false
-=======
-source: 
-author: 
-createdAt: 
+aliases: null
+source: null
+author: null
+createdAt: null
 updateAt: 2024-07-17 00:44
-categories: 
+categories: null
 status: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+theme: null
+priority: false
+date_created: 2024-12-15 05:28
+date_update: null
 ---
 
 ### UML基础

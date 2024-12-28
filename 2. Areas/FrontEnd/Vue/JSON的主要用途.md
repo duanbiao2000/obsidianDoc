@@ -107,4 +107,3 @@ const jsonObj = JSON.parse(jsonStr)
 console.log(jsonObj)
 ```
 
-需要注意的是，传递和使用 JSON 数据时，务必要确保语法正确、数据结构清晰易懂，并且不包含敏感信息，以保障应用程序的安全性和可维护性。
