@@ -200,14 +200,7 @@
       "key": "]"
     }
   ],
-  "Enhanced-editing:cuti-text": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
+  "Enhanced-editing:cuti-text": [],
   "Enhanced-editing:add-lines": [],
   "Enhanced-editing:add-Line0": [],
   "obsidian-spaced-repetition:srs-review-flashcards-in-note": [
@@ -413,5 +406,14 @@
       "key": "T"
     }
   ],
-  "Enhanced-editing:shanchu-text": []
+  "Enhanced-editing:shanchu-text": [],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ]
 }

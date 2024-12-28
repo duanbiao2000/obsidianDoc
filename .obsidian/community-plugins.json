@@ -39,5 +39,9 @@
   "obsidian-wakatime",
   "enhanced-annotations",
   "smart-connections",
-  "obsidian-relative-line-numbers"
+  "obsidian-relative-line-numbers",
+  "obsidian-list-callouts",
+  "obsidian-local-rest-api",
+  "mermaid-tools",
+  "nl-syntax-highlighting"
 ]

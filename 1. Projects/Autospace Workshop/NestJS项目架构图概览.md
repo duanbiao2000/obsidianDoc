@@ -1,15 +1,11 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+
 tags:
 ---
-当然，可以用 Markdown 支持的图表语法来绘制一个简单的 NestJS 项目的架构示意图。这里我们将展示一个包含 GraphQL 的 NestJS 项目的架构概览。
+可以用 Markdown 支持的图表语法来绘制一个简单的 NestJS 项目的架构示意图。这里我们将展示一个包含 GraphQL 的 NestJS 项目的架构概览。
 
 以下是 Markdown 支持的 Mermaid 图表语法来表示这个架构：
 
@@ -84,7 +80,7 @@ graph TD
   - 与 Prisma 层交互，获取或修改数据。
 
 - **NestJS Prisma 层（PL）**：
-  - 使用 Prisma 作为 ORM，与数据库交互。
+  - 使用 [[Prisma 作为 ORM]]，与数据库交互。
   - 提供类型安全的数据访问接口。
 
 - **PostgreSQL 数据库（DB）**：

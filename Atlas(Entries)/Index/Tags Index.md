@@ -50,7 +50,7 @@
 - Health/Wellness  
 - Relationships
 - Hobbies/Interests
-#Creative/Product  #Mindset #Design 
+#Creative/Product  #Mindset #Action/Design 
 The key is to use a categorization method that resonates with you and makes it easy to find and apply your notes when needed. You can combine multiple methods, like categorizing first by topic, then type. Regular review and adjustment of your categories is also helpful as your focus areas evolve over time.[1][2]
 
 Citations:

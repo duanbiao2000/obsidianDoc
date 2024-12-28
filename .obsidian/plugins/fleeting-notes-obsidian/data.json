@@ -1,10 +1,10 @@
 {
   "auto_generate_title": true,
   "fleeting_notes_folder": "+ Encounters/dailyNotes",
-  "attachments_folder": "5. Misc/Attachments/FleetNotes",
+  "attachments_folder": "5. Misc(Public)/Attachments/FleetNotes",
   "note_template": "---\n# Mandatory fields\nid: \"${id}\"\n# Optional fields\ntitle: \"${title}\"\ntags: ${tags}\nsource: \"${source}\"\nsource_title: \"${source_title}\"\nsource_description: \"${source_description}\"\nsource_image_url: \"${source_image_url}\"\ncreated_date: \"${created_date}\"\nmodified_date: \"${last_modified_date}\"\n---\n${content}",
   "sync_on_startup": true,
-  "last_sync_time": "2024-11-07T06:33:54.440Z",
+  "last_sync_time": "2024-12-28T09:05:59.758Z",
   "sync_type": "realtime-one-way",
   "sync_obsidian_links": false,
   "sync_obsidian_links_title": "Links from Obsidian",
@@ -13,7 +13,7 @@
   "password": "Hktk2020",
   "supabaseId": "d55fe7f4-9b60-42f5-994a-4b1656cce7e4",
   "encryption_key": "",
-  "sync_interval": 2273,
+  "sync_interval": 219,
   "date_format": "YYYY-MM-DD",
   "title_template": "${title}"
 }

@@ -1,12 +1,7 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 使用 Docker Compose 可以更加方便地管理和启动多个服务，特别是当你需要同时启动多个容器（如数据库、Web 服务等）时。下面我将详细介绍如何使用 Docker Compose 来启动 PostgreSQL 数据库，并且展示如何编写 `docker-compose.yml` 文件来配置和启动 PostgreSQL 容器。
@@ -160,3 +155,15 @@ export class PrismaService extends PrismaClient {}
 ```
 
 这样就完成了 PostgreSQL 数据库的容器化，并且成功地将数据库集成到了 NestJS 应用中。通过 Docker Compose 方式管理数据库和其他服务，可以大大简化部署和管理流程，特别是在多环境部署时。
+
+在代码中，`providers: [PrismaService]` 和 `exports: [PrismaService]` 的含义如下：
+
+1. **`providers: [PrismaService]`**:
+   - 这行代码表示将 `PrismaService` 注册为一个提供者（provider）。在[[依赖注入]]系统中，提供者是可以被注入到其他类或模块中的服务或类。
+   - 这意味着 `PrismaService` 可以在当前模块的范围内被其他组件或服务使用。
+
+2. **`exports: [PrismaService]`**:
+   - 这行代码表示将 `PrismaService` 导出，使其可以在其他模块中使用。
+   - 如果一个模块导出了某个服务，那么其他模块在导入该模块时，也可以使用这个服务。
+
+总结来说，`providers: [PrismaService]` 使得 `PrismaService` 在当前模块中可用，而 `exports: [PrismaService]` 使得 `PrismaService` 在其他模块中也可以使用。这种模式通常用于在模块之间共享服务或功能。

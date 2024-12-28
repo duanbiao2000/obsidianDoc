@@ -1,8 +1,11 @@
 ---
-aliases: 你不需要激情，你需要去战争 --- You Don't Need Passion, You Need to Go to War
-categories: []
+aliases:
+  - 你不需要激情，你需要去战争 --- You Don't Need Passion
+  - You Need to Go to War
+categories: 
 createdAt: 2024-11-17T14:40:48 (UTC +08:00)
-tags: []
+tags:
+  - Mindset/Inspiration
 source: https://timdenning.substack.com/p/you-dont-need-passion-you-need-to?utm_source=%2Finbox%2Fmedia&utm_medium=reader2
 author: Tim Denning
 ---
@@ -14,13 +17,11 @@ author: Tim Denning
 > Wanting life to be calm is a fatal human error.
 
 ---
-<!--more-->
 
-[
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a4e9091-f808-4b2b-b0df-62f91c1b58c7_1456x816.jpeg)
 
-](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a4e9091-f808-4b2b-b0df-62f91c1b58c7_1456x816.jpeg)
+
 
 _Image Credit-Midjourney 图片来源-中途_
 
@@ -30,17 +31,21 @@ Big goals die when you’re passionate or interested.
 当你充满热情或感兴趣时，大目标就会消失。
 
 The cemetery is full of lukewarm people full of regrets who never did sh\*t in their lives because they fell for this lie. They “#tried” instead of obsess like a maniac and make it happen by being high agency.  
+
+> [!NOTE]
+> “high agency”可以理解为高度主动、积极或高效的意思。这里的意思是，相比于狂热地追求和实现目标，他们只是尝试了一下，并且是以一种高效主动的方式。
+
 墓地里挤满了充满悔恨的冷漠的人，他们一生中从未做过任何事，因为他们陷入了这个谎言。他们“#尝试过”，而不是像疯子一样痴迷，并通过高度代理来实现这一目标。
 
 Passion is disgusting, it’s criminal.  
 激情是令人厌恶的，它是犯罪的。
 
 Writer Zach Pogrob has a going-to-war [mantra](https://www.instagram.com/p/C-vgdXwJZec/) he suggests people who want to be successful should follow. I’m going to dissect every detail for you.  
-作家扎克·波格罗布有一句“战争[格言”，](https://www.instagram.com/p/C-vgdXwJZec/)他建议那些想要成功的人应该遵循这一格言。我会为你剖析每一个细节。
+作家扎克·波格罗布有一句“战争[格言](https://www.instagram.com/p/C-vgdXwJZec/)他建议那些想要成功的人应该遵循这一格言。我会为你剖析每一个细节。
 
 ## Daily routines need war 日常需要战争
 
-What’s misunderstood about true success is it sits on the knife’s edge of calmness, focus, present-moment awareness … and chaos, fury, anger, frustration, and rejection.  
+What’s misunderstood about true success is it sits on the knife’s edge of calmness, focus, ==present-moment awareness== … and chaos, fury, anger, frustration, and rejection.  
 人们对真正成功的误解是，它处于冷静、专注、当下意识……以及混乱、愤怒、愤怒、沮丧和拒绝的边缘。
 
 I’ve chased this path for 10 years and it’s nearly broken me multiple times. But in those moments my mindset shifted and I became someone new.  
@@ -59,7 +64,12 @@ Nature doesn’t function in calmness.
 We need the snakes to kill the rats and bite the humans. We need the floods to clear the land and drown people to make room for new life.  
 我们需要蛇来杀死老鼠并咬人类。我们需要洪水来清理土地并淹没人们，为新的生命腾出空间。
 
-Wanting life to be calm is a fatal human error.  
+> [!info]
+> Contents在这句话中，“calmness”指的是“平静，安宁”。句子“Nature doesn't function in calmness.”表达的意思是自然界的运行并不是在平静或安宁的状态下进行的，而是充满了动态变化和相互制衡的关系。紧接着的句子通过蛇吃老鼠并且咬人来说明自然界中的这种动态平衡关系。这里的“calmness”强调了自然界中不存在绝对的平静，而是充满了各种生物之间的相互作用和平衡。
+
+> [!NOTE]
+> Wanting life to be calm is a fatal human error.  
+
 想要生活平静是人类的致命错误。
 
 Every day you’re meant to fight a war of some kind. If you’re not you’re leaving your potential on the table. You’re drowning in piss-weak self-care and work-life balance that will slowly poison your dreams and goals.  
@@ -67,6 +77,9 @@ Every day you’re meant to fight a war of some kind. If you’re not you’re l
 
 If your habits are cookie-cutter and without chaos, you’re probably on the path to mediocrity, sorry to say.  
 如果你的习惯千篇一律，没有混乱，那么很遗憾，你可能会走向平庸。
+> [!NOTE] 
+> 在这句话中，“mediocrity”指的是平庸、一般的意思。整个句子表达的是，如果一个人的习惯都是千篇一律、没有一点变化或混乱的话，那么这样的人可能就只能达到一般或平庸的水平。这里的“mediocrity”强调了一种缺乏创新和变化的状态，可能不会取得突出或卓越的成就。
+
 
 Add war. 添加战争。
 
@@ -84,8 +97,8 @@ People hate discomfort. Their loss is your opportunity.
 You don’t need to be better. No. Just different.  
 你不需要变得更好。不，只是不同。
 
-_Different_ could be embracing discomfort. Or doing an intense workout every day for a year. Or spending more time on your goals than feels healthy or #normal. Or missing every social function for the next 90 days. Or daring to email Netflix and cancel your subscription – and Amazon, Disney, and whatever other entertainment.  
-_不同的_可能是拥抱不适。或者一年中每天进行高强度锻炼。或者在你的目标上花费的时间比感觉健康或#正常的时间多。或者错过接下来 90 天内的所有社交活动。或者大胆地向 Netflix 发送电子邮件并取消订阅 - 以及亚马逊、迪士尼和其他任何娱乐节目。
+_Different_ could be embracing discomfort. Or doing an intense workout every day for a year. Or spending more time on your goals than feels healthy or normal. Or missing every social function for the next 90 days. Or daring to email Netflix and cancel your subscription – and Amazon, Disney, and whatever other entertainment.  
+_不同的_可能是拥抱不适。或者一年中每天进行高强度锻炼。或者在你的目标上花费的时间比感觉健康或正常的时间多。或者错过接下来 90 天内的所有社交活动。或者大胆地向 Netflix 发送电子邮件并取消订阅 - 以及亚马逊、迪士尼和其他任何娱乐节目。
 
 Going without entertainment is uncomfortable. Eating beans and rice with a drink of water feels uncomfortable, too. After a while the discomfort becomes normal. Pain turns into pleasure. That pleasure becomes obsession and drives you to insane results.  
 没有娱乐的旅行是不舒服的。喝水吃豆子和米饭也会感觉不舒服。一段时间后，不适感就会变得正常。痛苦变成快乐。这种快乐会变成痴迷，并驱使你达到疯狂的结果。
@@ -116,8 +129,9 @@ With the wrong mindset I initially thought these situations were curses. Now I s
 
 2021 Tim is dead. 2021 年蒂姆去世了。
 
-My personal rate of iteration back then was so slow, that I now evolve at least three times faster than before in as little as a few months.  
-那时我个人的迭代速度太慢了，以至于现在短短几个月的时间，我的进化速度至少比以前快了三倍。
+> [!NOTE]
+> My personal rate of iteration back then was so slow, that I now evolve at least three times faster than before in as little as a few months.  
+> 那时我个人的迭代速度太慢了，以至于现在短短几个月的时间，我的进化速度至少比以前快了三倍。
 
 The chaos gave me clarity. It forced me to see my blind spots. I had no option but to work on them or go broke, then woke, and end up back at a job.  
 混乱让我明白了。它迫使我看到自己的盲点。我别无选择，只能继续工作，或者破产，然后醒来，最终回到工作岗位。
@@ -167,9 +181,14 @@ Going to war is hard. It requires a mission, direction, radical self-awareness, 
 
 This quote from @ isabelunraveled comes to mind:
 
-> _"I didn't realize yet that the only definition of smart that really resonates with me is: the ability to get what you actually want in life."_
+> "I didn't realize yet that the only definition of smart that really resonates with me is  the ability to get what you actually want in life."
+
+"resonates"在英语中的意思是“共鸣，产生共鸣”。在这个上下文中，"resonates with me"的意思是“与我产生共鸣，符合我的想法或感受”。整句话的意思是说，真正的聪明不仅仅是获取智慧或能力，而是有意愿和能力去追求并实现自己在生活中的真正愿望。
 
 If you’re not already getting what you want out of life, then your advice means nothing to me. And you should adopt the same mantra in your life.
+
+> [!NOTE]
+> 在这句话中，“mantra”被用作一种比喻，指的是一个反复强调的信念或格言。整个固定搭配“adopt the same mantra”意味着“采取同样的信条或原则”。用中文解释就是，这里建议采取相同的信念或原则来对待生活的态度。不过，需要注意的是，原句有一些语法和表达上的错误，使得句子的意思不够清晰。
 
 Going to war is about being on a different path.
 
@@ -183,6 +202,11 @@ The hard thing isn’t dreaming big. The hard thing is waking up in the middle o
 
 Passion is a sign of weakness. Stop being fooled.
 
+
+> [!NOTE] 
+> 在这句话中，“passion”指的是强烈的情感或激情。句子中的观点认为，这种强烈的情感或激情被视为一种弱点。固定搭配在这里不适用，句子主要表达的是对激情或强烈情感的一种否定态度，认为不应被这种情感所影响，而应该更加冷静和理智地面对生活中的挑战和混乱。
+
+
 When you go to war and embrace the chaos everything in life gets better. Success doesn’t sound like a lottery ticket or _a pick me, pick me, pick me_ Hollywood dream guarded by gatekeepers who require s3xual favors. No.
 
 The path to success becomes obvious. It’s a lonely path because most people self-select themselves out of it. So the idea of competition is gone.
@@ -192,9 +216,3 @@ It becomes you vs. you. That’s the hardest war you’ll ever fight but you als
 Choose war, not passion.
 
 Tell me which of these ideas you loved the most and why in the comments.
-
-I send this email weekly. If you would also like to receive it, join the 126,000+ other smart people who absolutely love it today.
-
-👉 If you enjoy reading this post, feel free to share it with friends! Or feel free to click the ❤️ button on this post so more people can discover it on Substack 🙏
-
-[Share](https://timdenning.substack.com/p/you-dont-need-passion-you-need-to?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjoxMTk0MTEzNjEsInBvc3RfaWQiOjE0ODcwNzcwNCwiaWF0IjoxNzMxODE3OTc4LCJleHAiOjE3MzQ0MDk5NzgsImlzcyI6InB1Yi0zNzEyOTciLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6H0dUbpUkD5UUnm9n209x5jgnCPjpQ_jblBB5Tw89Rk)

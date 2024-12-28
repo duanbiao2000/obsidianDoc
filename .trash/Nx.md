@@ -1,12 +1,8 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
+
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
 ---
 Nx 是一个现代化的工具集，用于构建和管理大规模的前端和后端项目，特别是那些采用 monorepo（单仓库）策略的项目。Nx 由 Angular 团队背后的部分成员创立的 NRWL（Next With Love）公司开发，旨在解决大型项目中的复杂性和可维护性问题。

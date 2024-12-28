@@ -1,18 +1,15 @@
 ---
 aliases:
-categories:
-high_priority: false
+  - 在跟开源项目
+categories: 
+high_priority: true
 tags:
+  - Creative/Github
+  - Action/TODO
 ---
 以下是一些2024年值得关注的开源项目：
 
-1. **Forem**：这是一个开源软件，旨在赋予社区力量。如果你想要改善这个平台，这是一个不错的选择。它在GitHub上有大约21k的星标。
 
-2. **Simple Icons**：提供了超过2k个流行品牌的像素完美的SVG图标。它们有非常详细的贡献指南，非常有帮助。它们还在npm包中提供了SDK，用于使用JavaScript和TypeScript开发第三方扩展。
-
-3. **FreeCodeCamp**：这是一个全球性的社区，人们在这里一起学习编码。它是完全免费的，并且基于志愿服务。它运行在现代JavaScript堆栈上，包括Node.js、MongoDB、OAuth 2.0、React、Gatsby、Webpack等组件、工具和库。
-
-4. **Appwrite**：这是一个开源平台，可以让你在产品中添加认证、数据库、函数和存储，并构建任何规模的应用程序，拥有自己的数据，并使用你首选的编码语言和工具。
 
 5. **Daily**：这是一个令人印象深刻的开源组织，它汇集了来自Hacker News、Dev、Hashnode等多个组织的有价值的帖子。你可以在这里进行投票、收藏，甚至创建自己的团队。
 6. **Biodrop**：这是EddieHub社区中的一个开源项目。通过Biodrop，你可以收集推荐信、分享你的个人资料的QR码等等。

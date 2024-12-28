@@ -1,10 +1,10 @@
 {
-  "cssTheme": "Typora-Vue",
-  "theme": "system",
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
   "accentColor": "#0b9d80",
   "translucency": false,
   "nativeMenus": true,
-  "baseFontSize": 18,
+  "baseFontSize": 14,
   "monospaceFontFamily": "",
   "textFontFamily": "Microsoft YaHei",
   "interfaceFontFamily": "",

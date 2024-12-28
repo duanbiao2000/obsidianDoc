@@ -6,7 +6,7 @@
  [[+ Encounters/dailyNotes/21 Lessons for the 21st Century|21 Lessons for the 21st Century]]
  [[+ Encounters/dailyNotes/50条卡林箴言|50条卡林箴言]]
  [[+ Encounters/dailyNotes/50条卡林箴言附属书单|50条卡林箴言附属书单]]
- [[+ Encounters/dailyNotes/2024年值得关注的开源项目|2024年值得关注的开源项目]]
+ [[github值得关注的开源项目|值得关注的开源项目]]
  [[+ Encounters/dailyNotes/20240819072428|20240819072428]]
  [[+ Encounters/dailyNotes/20240829000000|20240829000000]]
  [[+ Encounters/dailyNotes/20240902230506|20240902230506]]

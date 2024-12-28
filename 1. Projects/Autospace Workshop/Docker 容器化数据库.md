@@ -1,13 +1,9 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 tags:
+  - Tech/Docker
 ---
 使用 Docker 容器化数据库可以极大地简化部署和管理流程，尤其是在多环境（如开发、测试、生产）下，能够保证一致性。下面以 PostgreSQL 为例，展示如何使用 Docker 来容器化数据库，并且配置持久化存储，以便数据不会因为容器重启而丢失。
 
@@ -248,12 +244,9 @@ services:
 然后，在运行 `docker-compose` 命令时设置环境变量：
 
 ```bash
-POSTGRES_DATA_PATH=C:\path\to\your\data\folder docker-compose up -d
+POSTGRES_DATA_PATH=C:\path\to\your\data\folder 
+docker-compose up -d
 ```
-
-### 注意事项
-
-- 如果你在 Windows 上使用的是 WSL2（Windows Subsystem for Linux 2），那么你可以直接使用 Linux 格式的路径来映射，因为 WSL2 使用的是真正的 Linux 内核，支持 Linux 文件路径。
-- 在使用 Windows 路径映射时，请确保路径正确并且具有足够的权限来读写数据。
-
-通过上述方法之一，你就可以在 Windows 系统下设置 Docker 数据卷，并且持久化 PostgreSQL 数据库的数据。选择适合你需求的方法来进行设置即可。
+- 这是 Docker Compose 的命令，用于启动定义在 `docker-compose.yml` 文件中的服务。
+- **`up`**：启动服务。
+- **`-d`**：以“分离模式”（detached mode）运行，即在后台运行容器。
