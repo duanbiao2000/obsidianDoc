@@ -22,6 +22,6 @@
 
 # 忽略工作区配置文件
 workspace.json.obsidian/
-.obsidian/
+#.obsidian/
 .smart-connections/
 *.ajson
