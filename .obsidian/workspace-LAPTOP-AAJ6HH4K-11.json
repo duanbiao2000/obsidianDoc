@@ -1,0 +1,346 @@
+{
+  "main": {
+    "id": "1a7ae36bb84bbe8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e68007277d077560",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "634ea9fd5093bf58",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "133477c644713f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/信息差/dataview/dataviews.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec2344c94d30c2b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/教育学理论框架.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5d22222ce2ed5ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "书本通读/书单推荐0506.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "990f79e277f6cfcb",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "staged": false,
+                "file": "书本通读/善用飞书.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65ed32af27a2de6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d97aabd4c19cd880",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a73026fe242f7bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f9bc094439a9b45",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f1d7f23d1cc85da",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "402ac5a9b5e6924b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 373.5
+  },
+  "right": {
+    "id": "719d766977cb2fea",
+    "type": "split",
+    "children": [
+      {
+        "id": "38d155c0ae379eec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c592eab4f7a8a9c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "43d90e2fd0cc20b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ec57776ac8128f4e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "74a7bc996dfa0756",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
+          },
+          {
+            "id": "de8c23ae9f4b5d90",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "874f460213eee164",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb28b3c6e98e736e",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "408b854178b2e9ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "69a97cd0b331aa1f",
+            "type": "leaf",
+            "state": {
+              "type": "note-preview",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe86d337f19aadc2",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-share-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "22260ff986b4b988",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e0938061d021713f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9091cbc7af8180a3",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 12
+      }
+    ],
+    "direction": "horizontal",
+    "width": 837.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "quote-share:Share": false,
+      "templater-obsidian:Templater": false,
+      "extract-highlights-plugin:Extract Highlights": false,
+      "note-to-mp:复制到公众号": false,
+      "obsidian-memos:Memos": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
+    }
+  },
+  "active": "990f79e277f6cfcb",
+  "lastOpenFiles": [
+    "书本通读/善用飞书.md",
+    "周月总结/java中间件.md",
+    "书本通读/毛泽东选集.md",
+    "书本通读/非技术类/非暴力沟通.md",
+    "Java/Spring/高级特性与最佳实践.md",
+    "Java/Spring/安全性与身份验证.md",
+    "Java/Spring/企业资源规划系统ERP.md",
+    "Java/Spring/Spring 进阶.md",
+    "Java/Spring/Spring 进阶-MS-GKDVHLTHBXTL.md",
+    "Java/Spring/Spring Core与Spring MVC.md",
+    "Java/Spring/Spring Boot入门.md",
+    "Java/Spring/Spring Boot.md",
+    "LeetCode/7天刷爆LeetCode.md",
+    "PPT/每日听力材料  (至少听四遍).md",
+    "Python/Python11 使用爬虫实现图书250排行榜信息爬取.md",
+    "Python/python数据分析三件套.md",
+    "书本通读/非技术类/笔记草稿.md",
+    "书本通读/非技术类/请停止无效社交.md",
+    "书本通读/React Quickly.md",
+    "周月总结/202405/每日新知05071.md",
+    "周月总结/202405/每日新知05072.md",
+    "书本通读/非技术类/指数型组织：重构商业模式，引领未来增长.md",
+    "周月总结/202405/每周书单0506.md",
+    "书本通读/书单推荐0506.md",
+    "周月总结/202405/每日新知0506.md",
+    "AI/盖洛普测试.md",
+    "AI/信息差/知乎",
+    "Canvas/卡片笔记写作法.canvas",
+    "001-Template/Templater/New Text Document.txt",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/snippets/Untitled",
+    "001-Template/Templater-Scripts/To_Big_Chars.js",
+    "001-Template/Templater-Scripts/Sort_Tasks_Lines.js",
+    "001-Template/Templater-Scripts/Get_Year_Progress.js",
+    "001-Template/Templater-Scripts/Get_Weather.js",
+    "001-Template/Templater-Scripts/Get_Today_History.js",
+    "001-Template/Templater-Scripts/Get_Today_Date.js",
+    "001-Template/Templater-Scripts/Get_Sentence.js",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Year-View.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/To-Big-Chars.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Ticket-Card.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Task-Progress.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Strong-Strong.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Stop-Callout-2.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Stop-Callout-1.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Split-Page-Callout.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Paper-Index-Callout.png",
+    "001-Template/Obsidian-Templates/Obsidian-Templates-main/Docs/images/Notes-Count-View.png",
+    "Canvas/精美视频.canvas",
+    "Canvas/祥云随笔.canvas",
+    "Canvas/obsidian提升.canvas",
+    "333.canvas",
+    "Canvas/222.canvas",
+    "111.canvas",
+    "images/Untitled 3.canvas",
+    "images/Untitled 2.canvas",
+    "images/Untitled 1.canvas"
+  ]
+}

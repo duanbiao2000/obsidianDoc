@@ -1,0 +1,28 @@
+{
+  "attachPath": {
+    "attachmentRoot": "5. Misc/Attachments",
+    "saveAttE": "inFolderBelow",
+    "attachmentPath": "${notename}",
+    "attachFormat": "IMG-${notename}-${date}",
+    "type": "GLOBAL"
+  },
+  "dateFormat": "YYYYMMDDHHmmssSSS",
+  "excludeExtensionPattern": "pdf|docx?|xlsx?|pptx?|zip|rar",
+  "autoRenameAttachment": true,
+  "excludedPaths": "",
+  "excludePathsArray": [
+    ""
+  ],
+  "excludeSubpaths": false,
+  "originalNameStorage": [],
+  "overridePath": {
+    "5. Misc/Attachments": {
+      "attachmentRoot": "5.Misc/Attachments",
+      "saveAttE": "inFolderBelow",
+      "attachmentPath": "${notename}",
+      "attachFormat": "IMG-${notename}-${date}",
+      "type": "FOLDER"
+    }
+  },
+  "disableNotification": false
+}
