@@ -13,7 +13,7 @@ tags:
 - [[Github Gist JavaScript 的精彩代码片段]]
 - [[Lodash]]
 - [[Material-UI]]
-- [[MVC模型]]
+- [[前端功能需求分析]]
 - [[React admin]]
 - [[React Bootstrap]]
 - [[React Hooks]]

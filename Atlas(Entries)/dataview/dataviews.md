@@ -14,8 +14,8 @@ dv.paragraph(
 ## 高优先级
 ```dataview
 TABLE  high_priority, file.ctime AS 创作日期
-from -"4. Archives" and -"Extras" and #todo
-WHERE  high_priority = true
+from -"4. Archives" and -"Extras" or #todo
+WHERE  high_priority = false
 sort file.mtime DESC
 LIMIT 10
 ```

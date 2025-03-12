@@ -6,7 +6,6 @@
   "markdown-prettifier",
   "templater-obsidian",
   "obsidian-auto-link-title",
-  "js-engine",
   "callout-manager",
   "file-explorer-note-count",
   "obsidian-git",
@@ -26,7 +25,6 @@
   "enhanced-annotations",
   "smart-connections",
   "obsidian-relative-line-numbers",
-  "obsidian-list-callouts",
   "obsidian-local-rest-api",
   "mermaid-tools",
   "obsidian-kanban",
@@ -41,8 +39,9 @@
   "slides-extended",
   "obsidian-advanced-slides",
   "obsidian-emoji-toolbar",
-  "digitalgarden",
   "floating-highlights",
   "magic-move",
-  "scrambling-title-animations"
+  "scrambling-title-animations",
+  "js-engine",
+  "obsidian-list-callouts"
 ]

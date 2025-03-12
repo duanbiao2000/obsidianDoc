@@ -3,7 +3,7 @@
   "emphasis": "_",
   "rule": "-",
   "createHeaderIfNotPresent": true,
-  "newHeaderTemplate": "aliases: \ncreatedAt: {{date:YYYY-MM-DD hh:mm}}\nupdateAt: \ncategories:\n  - Mindset\ntags:\n  - Mindset/Reflection",
+  "newHeaderTemplate": "aliases: \ncreatedAt: {{date:YYYY-MM-DD hh:mm}}\nupdateAt: \ncategories:\n  \ntags:\n  ",
   "updateHeader": true,
   "updateHeaderTemplate": "updateAt: {{date:YYYY-MM-DD hh:mm}}\n",
   "listItemIndent": "one",
