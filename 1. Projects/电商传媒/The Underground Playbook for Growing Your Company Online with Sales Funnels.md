@@ -51,7 +51,7 @@
 **3. Why is identifying a "Dream Customer" so important before building a sales funnel?** Understanding and defining your "Dream Customer" (creating a customer avatar) is fundamental because it dictates who you are trying to serve and attract. Without this clarity, businesses often try to sell to anyone and everyone, resulting in attracting the wrong types of customers and feeling unfulfilled. By focusing on the specific demographics, passions, goals, and desires of your ideal customer, you can create offers, messaging, and funnels that resonate deeply with them and repel those who are not a good fit.
 
 > [!example]
-> ## 3. **为什么在构建销售漏斗之前，明确“梦想客户 (Dream Customer)”如此重要？**
+> ## 3. **为什么在构建销售漏斗之前，明确“[[自媒体要素分析|梦想客户]] (Dream Customer)”如此重要？**
 > 
 > 在构建销售漏斗之前，理解和定义你的 “梦想客户 (Dream Customer)” （创建客户画像）至关重要，因为它 **决定了你想要服务和吸引的受众是谁**。 **如果没有这种清晰的认识，企业往往会试图向所有人推销产品，结果却吸引了错误的客户类型，并感到挫败和空虚。**
 > 
