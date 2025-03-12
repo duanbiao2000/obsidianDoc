@@ -16,14 +16,6 @@ author: Anton Zaides
 ---
 <!--more-->
 
-A couple of weeks ago, I went out to grab a beer with a long-time friend - one of those with whom you can meet once every few months and still sit for hours.  
-几周前，我和一位老朋友出去喝啤酒——你可以每隔几个月见一次面，但仍然可以坐上几个小时。
-
-After I shared some recent updates from my life, he asked: **“But Anton, how the hell do you find the time to do all that???”.**  
-在我分享了我最近的一些生活更新后，他问道：“但是安东，你他妈是怎么找到时间做这一切的???”。
-
-It was the ~10th time I was asked this question by friends/coworkers, so I decided to finally write an article.  
-这是朋友/同事第 ~10 次问我这个问题，所以我决定最终写一篇文章。
 
 I confess, I’m a productivity-freak-goal-oriented person.  
 我承认，我是一个注重生产力、目标导向的人。

@@ -5,7 +5,17 @@
   "folder_tag_pattern": [
     {
       "folder": "2. Areas/01认知科学",
-      "tag": "#thinking",
+      "tag": "#Mindset",
+      "pattern": ""
+    },
+    {
+      "folder": "2. Areas/AI",
+      "tag": "#Agent",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Projects/Todo",
+      "tag": "#Action/TODO",
       "pattern": ""
     }
   ],

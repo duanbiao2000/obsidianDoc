@@ -1,12 +1,7 @@
 ---
 aliases: 
-<<<<<<< HEAD:2. Areas/AI/提示词/note-taking assistant.md
-theme: 
-priority: false
-=======
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):+ Encounters/dailyNotes/note-taking assistant.md
 ---
 
 ### JSON 格式

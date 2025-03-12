@@ -55481,7 +55481,7 @@ __export(main_exports, {
   default: () => NoteToMpPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian10 = require("obsidian");
+var import_obsidian11 = require("obsidian");
 
 // src/note-preview.ts
 var import_obsidian8 = require("obsidian");
@@ -65634,15 +65634,21 @@ var AssetsManager = class {
     return "";
   }
   getTheme(themeName) {
+    if (themeName === "") {
+      return this.themes[0];
+    }
     for (const theme of this.themes) {
-      if (theme.name === themeName || theme.className === themeName) {
+      if (theme.name.toLowerCase() === themeName.toLowerCase() || theme.className.toLowerCase() === themeName.toLowerCase()) {
         return theme;
       }
     }
   }
   getHighlight(highlightName) {
+    if (highlightName === "") {
+      return this.highlights[0];
+    }
     for (const highlight of this.highlights) {
-      if (highlight.name === highlightName) {
+      if (highlight.name.toLowerCase() === highlightName.toLowerCase()) {
         return highlight;
       }
     }
@@ -68197,9 +68203,9 @@ var CalloutRenderer = class extends Extension {
   }
 };
 
-// src/markdown/box.ts
+// src/markdown/widget-box.ts
 var import_obsidian4 = require("obsidian");
-var Box = class extends Extension {
+var WidgetBox = class extends Extension {
   getBoxTitle(text) {
     let start = text.indexOf("]") + 1;
     let end = text.indexOf("\n");
@@ -68250,12 +68256,13 @@ var Box = class extends Extension {
     return { style, contentStr };
   }
   async reqContent(id, title, style, content) {
-    const host = "http://localhost:4000";
-    const path = "/math/box";
+    const host = "https://obplugin.sunboshi.tech";
+    const path = "/math/widget";
     const url = `${host}${path}`;
     try {
       const res = await (0, import_obsidian4.requestUrl)({
         url,
+        throw: false,
         method: "POST",
         contentType: "application/json",
         headers: {
@@ -68269,7 +68276,6 @@ var Box = class extends Extension {
         })
       });
       if (res.status === 200) {
-        console.log(res.json.content);
         return res.json.content;
       }
       return res.json.msg;
@@ -68309,8 +68315,8 @@ var Box = class extends Extension {
       content = await this.marked.parse(pared.contentStr);
     }
     this.processColor(style);
-    console.log(title, style, content);
     const reqContent = await this.reqContent(boxId, title, style, content);
+    uevent("render-widgets");
     return reqContent;
   }
   markedExtension() {
@@ -68332,7 +68338,7 @@ var Blockquote = class extends Extension {
     super(app, settings, assetsManager, callback);
     this.callout = new CalloutRenderer(app, settings, assetsManager, callback);
     if (settings.isAuthKeyVaild()) {
-      this.box = new Box(app, settings, assetsManager, callback);
+      this.box = new WidgetBox(app, settings, assetsManager, callback);
     }
   }
   async prepare() {
@@ -68349,6 +68355,9 @@ var Blockquote = class extends Extension {
   async renderer(token) {
     if (this.callout.matched(token.text)) {
       return await this.callout.renderer(token);
+    }
+    if (this.box && this.box.matched(token.text)) {
+      return await this.box.renderer(token);
     }
     const body = this.marked.parser(token.tokens);
     return `<blockquote>${body}</blockquote>`;
@@ -69824,25 +69833,72 @@ var LocalImageManager = class {
       value.url = res.url;
     }
   }
+  getImageNameFromUrl(url) {
+    try {
+      const urlObj = new URL(url);
+      const pathname = urlObj.pathname;
+      const filename = pathname.split("/").pop() || "";
+      return decodeURIComponent(filename);
+    } catch (e2) {
+      const queryIndex = url.indexOf("?");
+      if (queryIndex !== -1) {
+        url = url.substring(0, queryIndex);
+      }
+      return url.split("/").pop() || "";
+    }
+  }
+  getImageExtFromBlob(blob) {
+    const mimeToExt = {
+      "image/jpeg": ".jpg",
+      "image/jpg": ".jpg",
+      "image/png": ".png",
+      "image/gif": ".gif",
+      "image/bmp": ".bmp",
+      "image/webp": ".webp",
+      "image/svg+xml": ".svg",
+      "image/tiff": ".tiff"
+    };
+    const mimeType = blob.type.toLowerCase();
+    return mimeToExt[mimeType] || "";
+  }
+  async uploadRemoteImage(root, token) {
+    const images = root.getElementsByTagName("img");
+    for (let i = 0; i < images.length; i++) {
+      const img = images[i];
+      if (!img.src.startsWith("http"))
+        continue;
+      if (img.src.includes("mmbiz.qpic.cn"))
+        continue;
+      const data = await (0, import_obsidian7.requestUrl)(img.src).arrayBuffer;
+      const blob = new Blob([data]);
+      let filename = this.getImageNameFromUrl(img.src);
+      if (filename == "" || filename == null) {
+        filename = "remote_img" + this.getImageExtFromBlob(blob);
+      }
+      const res = await wxUploadImage(blob, filename, token);
+      if (res.errcode != 0) {
+        const msg = `\u4E0A\u4F20\u56FE\u7247\u5931\u8D25: ${img.src} ${res.errcode} ${res.errmsg}`;
+        new import_obsidian7.Notice(msg);
+        console.error(msg);
+      }
+      const info = {
+        resUrl: img.src,
+        filePath: "",
+        url: res.url
+      };
+      this.images.set(img.src, info);
+    }
+  }
   replaceImages(root) {
     const images = root.getElementsByTagName("img");
-    const keys = this.images.keys();
-    for (let key of keys) {
-      const value = this.images.get(key);
+    for (let i = 0; i < images.length; i++) {
+      const img = images[i];
+      const value = this.images.get(img.src);
       if (value == null)
         continue;
       if (value.url == null)
         continue;
-      for (let i = 0; i < images.length; i++) {
-        const img = images[i];
-        if (img.src.startsWith("http")) {
-          continue;
-        }
-        if (img.src === key) {
-          img.setAttribute("src", value.url);
-          break;
-        }
-      }
+      img.setAttribute("src", value.url);
     }
   }
   async cleanup() {
@@ -70416,6 +70472,41 @@ var NotePreview = class extends import_obsidian8.ItemView {
   errorContent(error) {
     return '<h1>\u6E32\u67D3\u5931\u8D25!</h1><br/>\u5982\u9700\u5E2E\u52A9\u8BF7\u524D\u5F80&nbsp;&nbsp;<a href="https://github.com/sunbooshi/note-to-mp/issues">https://github.com/sunbooshi/note-to-mp/issues</a>&nbsp;&nbsp;\u53CD\u9988<br/><br/>\u5982\u679C\u65B9\u4FBF\uFF0C\u8BF7\u63D0\u4F9B\u5F15\u53D1\u9519\u8BEF\u7684\u5B8C\u6574Markdown\u5185\u5BB9\u3002<br/><br/><br/>Obsidian\u7248\u672C\uFF1A' + import_obsidian8.apiVersion + `<br/>\u9519\u8BEF\u4FE1\u606F\uFF1A<br/>${error}`;
   }
+  set currentTheme(value) {
+    this._currentTheme = value;
+  }
+  get currentTheme() {
+    const { theme } = this.getMetadata();
+    if (theme) {
+      return theme;
+    }
+    return this._currentTheme;
+  }
+  set currentHighlight(value) {
+    this._currentHighlight = value;
+  }
+  get currentHighlight() {
+    const { highlight } = this.getMetadata();
+    if (highlight) {
+      return highlight;
+    }
+    return this._currentHighlight;
+  }
+  set currentAppId(value) {
+    this._currentAppId = value;
+  }
+  get currentAppId() {
+    var _a;
+    const { appid } = this.getMetadata();
+    if (appid) {
+      if (appid.startsWith("wx")) {
+        return appid;
+      } else {
+        return ((_a = this.settings.wxInfo.find((wx) => wx.name === appid)) == null ? void 0 : _a.appid) || "";
+      }
+    }
+    return this._currentAppId;
+  }
   async renderMarkdown() {
     try {
       const af = this.app.workspace.getActiveFile();
@@ -70549,9 +70640,14 @@ ${customCSS}`;
         button.setText("\u590D\u5236");
       });
       copyBtn.onclick = async () => {
-        await this.copyArticle();
-        new import_obsidian8.Notice("\u590D\u5236\u6210\u529F\uFF0C\u8BF7\u5230\u516C\u4F17\u53F7\u7F16\u8F91\u5668\u7C98\u8D34\u3002");
-        uevent("copy");
+        try {
+          await this.copyArticle();
+          new import_obsidian8.Notice("\u590D\u5236\u6210\u529F\uFF0C\u8BF7\u5230\u516C\u4F17\u53F7\u7F16\u8F91\u5668\u7C98\u8D34\u3002");
+          uevent("copy");
+        } catch (error) {
+          console.error(error);
+          new import_obsidian8.Notice("\u590D\u5236\u5931\u8D25: " + error);
+        }
       };
     }
     const uploadImgBtn = lineDiv.createEl("button", { cls: "copy-button" }, async (button) => {
@@ -70681,7 +70777,10 @@ ${customCSS}`;
       need_open_comment: void 0,
       only_fans_can_comment: void 0,
       pic_crop_235_1: void 0,
-      pic_crop_1_1: void 0
+      pic_crop_1_1: void 0,
+      appid: void 0,
+      theme: void 0,
+      highlight: void 0
     };
     const file = this.app.workspace.getActiveFile();
     if (!file)
@@ -70697,6 +70796,9 @@ ${customCSS}`;
       res.thumb_media_id = frontmatter["\u5C01\u9762\u7D20\u6750ID"];
       res.need_open_comment = frontmatter["\u6253\u5F00\u8BC4\u8BBA"] ? 1 : void 0;
       res.only_fans_can_comment = frontmatter["\u4EC5\u7C89\u4E1D\u53EF\u8BC4\u8BBA"] ? 1 : void 0;
+      res.appid = frontmatter["\u516C\u4F17\u53F7"];
+      res.theme = frontmatter["\u6837\u5F0F"];
+      res.highlight = frontmatter["\u4EE3\u7801\u9AD8\u4EAE"];
       if (frontmatter["\u5C01\u9762\u88C1\u526A"]) {
         res.pic_crop_235_1 = "0_0_1_0.5";
         res.pic_crop_1_1 = "0_0.525_0.404_1";
@@ -70776,6 +70878,7 @@ ${customCSS}`;
     }
     const lm = LocalImageManager.getInstance();
     await lm.uploadLocalImage(token, this.app.vault);
+    await lm.uploadRemoteImage(this.articleDiv, token);
     lm.replaceImages(this.articleDiv);
     await CodeRenderer.uploadMermaidImages(this.articleDiv, token);
     await this.copyArticle();
@@ -70814,6 +70917,7 @@ ${customCSS}`;
       let metadata = this.getMetadata();
       const lm = LocalImageManager.getInstance();
       await lm.uploadLocalImage(token, this.app.vault);
+      await lm.uploadRemoteImage(this.articleDiv, token);
       lm.replaceImages(this.articleDiv);
       await CodeRenderer.uploadMermaidImages(this.articleDiv, token);
       let mediaId = metadata.thumb_media_id;
@@ -70984,6 +71088,11 @@ var NoteToMpSettingTab = class extends import_obsidian9.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     this.wxInfo = this.parseWXInfo();
+    const helpEl = containerEl.createEl("div");
+    helpEl.style.cssText = "display: flex;flex-direction: row;align-items: center;";
+    helpEl.createEl("h2", { text: "\u5E2E\u52A9\u6587\u6863" }).style.cssText = "margin-right: 10px;";
+    helpEl.createEl("a", { text: "https://sunboshi.tech/doc", attr: { href: "https://sunboshi.tech/doc" } });
+    containerEl.createEl("h2", { text: "\u63D2\u4EF6\u8BBE\u7F6E" });
     new import_obsidian9.Setting(containerEl).setName("\u9ED8\u8BA4\u6837\u5F0F").addDropdown((dropdown) => {
       const styles = this.plugin.assetsManager.themes;
       for (let s of styles) {
@@ -71149,8 +71258,59 @@ var NoteToMpSettingTab = class extends import_obsidian9.PluginSettingTab {
   }
 };
 
+// src/widgets-modal.ts
+var import_obsidian10 = require("obsidian");
+var WidgetsModal = class extends import_obsidian10.Modal {
+  constructor(app) {
+    super(app);
+    this.listener = null;
+    this.url = "https://widgets.sunboshi.tech";
+  }
+  insertMarkdown(markdown) {
+    var _a;
+    const editor = (_a = this.app.workspace.getActiveViewOfType(import_obsidian10.MarkdownView)) == null ? void 0 : _a.editor;
+    if (!editor)
+      return;
+    editor.replaceSelection(markdown);
+    editor.exec("goRight");
+    uevent("insert-widgets");
+  }
+  onOpen() {
+    let { contentEl, modalEl } = this;
+    modalEl.style.width = "640px";
+    modalEl.style.height = "500px";
+    const iframe = contentEl.createEl("iframe", {
+      attr: {
+        src: this.url,
+        width: "100%",
+        height: "100%",
+        allow: "clipboard-read; clipboard-write"
+      }
+    });
+    iframe.style.border = "none";
+    this.listener = this.handleMessage.bind(this);
+    window.addEventListener("message", this.listener);
+    uevent("open-widgets");
+  }
+  handleMessage(event) {
+    if (event.origin === this.url) {
+      const { type, data } = event.data;
+      if (type === "cmd") {
+        this.insertMarkdown(data);
+      }
+    }
+  }
+  onClose() {
+    if (this.listener) {
+      window.removeEventListener("message", this.listener);
+    }
+    let { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
 // src/main.ts
-var NoteToMpPlugin = class extends import_obsidian10.Plugin {
+var NoteToMpPlugin = class extends import_obsidian11.Plugin {
   constructor(app, manifest) {
     super(app, manifest);
     AssetsManager.setup(app, manifest);
@@ -71171,13 +71331,20 @@ var NoteToMpPlugin = class extends import_obsidian10.Plugin {
     });
     ribbonIconEl.addClass("note-to-mp-plugin-ribbon-class");
     this.addCommand({
-      id: "open-note-preview",
+      id: "note-to-mp-preview",
       name: "\u590D\u5236\u5230\u516C\u4F17\u53F7",
       callback: () => {
         this.activateView();
       }
     });
     this.addSettingTab(new NoteToMpSettingTab(this.app, this));
+    this.addCommand({
+      id: "note-to-mp-widget",
+      name: "\u63D2\u5165\u6837\u5F0F\u5C0F\u90E8\u4EF6",
+      callback: () => {
+        new WidgetsModal(this.app).open();
+      }
+    });
   }
   onunload() {
   }
@@ -71208,3 +71375,5 @@ var NoteToMpPlugin = class extends import_obsidian10.Plugin {
  * @license  MIT
  */
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/* nosourcemap */

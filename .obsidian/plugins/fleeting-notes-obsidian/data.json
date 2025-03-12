@@ -9,11 +9,11 @@
   "sync_obsidian_links": false,
   "sync_obsidian_links_title": "Links from Obsidian",
   "notes_filter": "",
-  "email": "duanbiao2000@gmail.com",
+  "email": "duanbiao2000@qq.com",
   "password": "Hktk2020",
-  "supabaseId": "d55fe7f4-9b60-42f5-994a-4b1656cce7e4",
+  "supabaseId": "00531ea1-d356-402a-bfe1-82cabff91b35",
   "encryption_key": "",
-  "sync_interval": 219,
+  "sync_interval": 959,
   "date_format": "YYYY-MM-DD",
   "title_template": "${title}"
 }

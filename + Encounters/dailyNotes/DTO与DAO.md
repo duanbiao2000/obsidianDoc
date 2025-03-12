@@ -1,0 +1,113 @@
+---
+aliases: 
+source: 
+author: 
+createdAt: 
+updateAt: 
+categories: 
+high_priority: false
+tags:
+---
+DTO（Data Transfer Object，数据传输对象）和 DAO（Data Access Object，数据访问对象）是两种不同的设计模式，它们各自解决的是软件开发中的不同问题。虽然它们在名称上都包含“数据”这个词，但它们的作用和职责是不同的。
+
+### DTO（数据传输对象）
+DTO 的主要目的是用于在不同的系统或层次之间传输数据。DTO 通常用于以下几个方面：
+
+1. **数据封装**：DTO 用于封装复杂的数据结构，使其更容易在网络上传输或在不同的系统层之间传递。
+2. **数据一致性**：确保在传输过程中数据的一致性和完整性。
+3. **解耦**：减少不同系统或层次之间的依赖，使得系统更容易维护和扩展。
+4. **安全性**：通过限制暴露给外部的数据字段，保护敏感信息。
+
+### DAO（数据访问对象）
+DAO 的主要目的是提供一种与底层数据存储（通常是数据库）交互的机制。DAO 通常用于以下几个方面：
+
+1. **数据持久化**：负责将应用中的业务对象持久化到数据库中。
+2. **数据检索**：从数据库中检索数据，并将其转换为应用可以使用的对象。
+3. **事务管理**：处理事务边界，确保数据操作的原子性、一致性、隔离性和持久性（ACID 属性）。
+4. **查询逻辑**：封装数据库查询逻辑，使业务逻辑层不需要关心具体的数据库操作。
+
+### DTO 和 DAO 的关系
+尽管 DTO 和 DAO 解决的问题不同，但它们常常一起出现在系统架构中，尤其是在分层架构或多层架构的应用程序中。以下是一些常见的关系和交互点：
+
+1. **数据转换**：DAO 通常负责从数据库中检索数据，并将其转换为业务层可以使用的对象。这些对象在向更高层次传输之前，可能会被进一步转换为 DTO。
+   
+   例如：
+   ```typescript
+   // DAO 层
+   export class CollectionLinkDAO {
+     async getLinks(collectionId: string): Promise<CollectionLink[]> {
+       // 查询数据库并返回 CollectionLink 对象数组
+       const links = await this.queryDatabase(collectionId);
+       return links.map(link => new CollectionLink(link));
+     }
+
+     private async queryDatabase(collectionId: string): Promise<any[]> {
+       // 假设这是从数据库获取数据的函数
+       return [
+         { id: '123', collection_id: collectionId, link: 'http://example.com/link1', created_at: '2024-09-11T19:24:00Z', updated_at: '2024-09-11T19:24:00Z' },
+         { id: '456', collection_id: collectionId, link: 'http://example.com/link2', created_at: '2024-09-11T19:24:00Z', updated_at: '2024-09-11T19:24:00Z' }
+       ];
+     }
+   }
+
+   // DTO 层
+   export class CollectionLinkDTO {
+     id: string;
+     collectionId: string;
+     link: string;
+     createdAt: Date;
+     updatedAt?: Date;
+
+     constructor(data: any) {
+       this.id = data.id;
+       this.collectionId = data.collection_id;
+       this.link = data.link;
+       this.createdAt = new Date(data.created_at);
+       this.updatedAt = data.updated_at ? new Date(data.updated_at) : undefined;
+     }
+   }
+   ```
+
+2. **业务逻辑层**：业务逻辑层可能会使用 DAO 获取数据，并将其转换为 DTO 以便传输给客户端或更高层次的组件。
+
+   例如：
+   ```typescript
+   // 业务逻辑层
+   export class CollectionService {
+     private readonly dao: CollectionLinkDAO;
+
+     constructor(dao: CollectionLinkDAO) {
+       this.dao = dao;
+     }
+
+     async getCollectionLinks(collectionId: string): Promise<CollectionLinkDTO[]> {
+       const links = await this.dao.getLinks(collectionId);
+       return links.map(link => new CollectionLinkDTO(link));
+     }
+   }
+   ```
+
+3. **控制器层**：控制器层通常处理 HTTP 请求，并将 DAO 返回的数据转换为 DTO 格式，以便发送给客户端。
+
+   例如：
+   ```typescript
+   // 控制器层
+   export class CollectionController {
+     private readonly service: CollectionService;
+
+     constructor(service: CollectionService) {
+       this.service = service;
+     }
+
+     async handleGetCollectionLinks(collectionId: string): Promise<CollectionLinkDTO[]> {
+       return this.service.getCollectionLinks(collectionId);
+     }
+   }
+   ```
+
+### 总结
+- **DTO** 用于在不同的系统或层次之间传输数据，确保数据的一致性和封装性。
+- **DAO** 用于处理与数据库的交互，提供数据的持久化和检索功能。
+- 在实际应用中，DAO 通常会将数据库中的数据转换为业务对象，然后再由业务逻辑层或服务层将这些对象转换为 DTO，以便传输给客户端或其他层。
+
+通过这种方式，DTO 和 DAO 在分层架构中分别承担了数据传输和数据访问的角色，共同协作以确保系统的稳定性和可维护性。如果你有更多具体的问题或需要进一步的帮助，请随时告诉我！

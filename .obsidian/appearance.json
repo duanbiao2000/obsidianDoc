@@ -1,10 +1,10 @@
 {
-  "cssTheme": "Blue Topaz",
-  "theme": "obsidian",
+  "cssTheme": "Catppuccin",
+  "theme": "moonstone",
   "accentColor": "#0b9d80",
   "translucency": false,
   "nativeMenus": true,
-  "baseFontSize": 14,
+  "baseFontSize": 17,
   "monospaceFontFamily": "",
   "textFontFamily": "Microsoft YaHei",
   "interfaceFontFamily": "",
@@ -14,9 +14,9 @@
     "Paper-Index-Callout",
     "Side-Dock-Icon-Order",
     "Split-Page-Callout",
-    "Stop-Callout",
-    "Strong-Strong"
+    "Stop-Callout"
   ],
   "baseFontSizeAction": true,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "showRibbon": true
 }

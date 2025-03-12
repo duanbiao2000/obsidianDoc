@@ -1,25 +1,13 @@
 ---
-aliases: 
-<<<<<<< HEAD
-theme: 
-original: Claude
-url: 
-author: 
-tags:
-  - todo
-date_created: 2024-07-24 14:57
-type: 
-priority: false
-=======
+aliases:
 source: Claude
-author: 
+author:
 tags:
   - TODO
-createdAt: 
-categories: 
+createdAt:
+categories:
 status: false
 updateAt: 2024-07-24 14:57
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 - [[Express官网教程]]
 - [[2. Areas/AI/ChatGPT/Key Insight.md]]

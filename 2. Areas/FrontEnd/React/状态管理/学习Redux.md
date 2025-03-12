@@ -32,7 +32,7 @@ updateAt:
 - [[+ Encounters/dailyNotes/20240903202702.md]]
 - [[provider模式]]
 - [[+ Encounters/dailyNotes/20240910152157.md]]
-- [[+ Encounters/dailyNotes/20240910164007.md]]
+- [[Remix]]
 - [[面试鸭代码仓库]]
 - [[+ Encounters/dailyNotes/20240918120102.md]]
 - [[+ Encounters/dailyNotes/20240918143911.md]]

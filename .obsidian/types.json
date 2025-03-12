@@ -33,6 +33,8 @@
     "minScale": "text",
     "date_created": "datetime",
     "high_priority": "checkbox",
-    "date_update": "datetime"
+    "date_update": "datetime",
+    "updateAt": "datetime",
+    "createdAt": "datetime"
   }
 }

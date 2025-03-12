@@ -1,15 +1,14 @@
 {
   "new_user": false,
-  "chat_folder": "smart chat",
-  "smart_sources_embed_model": "TaylorAI/bge-micro-v2",
-  "smart_blocks_embed_model": "TaylorAI/bge-micro-v2",
-  "smart_connections_folder": ".smart-connections",
-  "smart_connections_folder_last": ".smart-connections",
+  "legacy_transformers": false,
+  "enable_mobile": true,
+  "actions": {
+    "lookup": true
+  },
+  "smart_notices": {},
   "system_prompts_folder": "smart prompts",
   "smart_chat_folder": "smart-chats",
   "smart_chat_folder_last": "smart-chats",
-  "local_embedding_max_tokens": "512",
-  "embedding_file_per_note": false,
   "chat_model_platform_key": "google_gemini",
   "open_router": {
     "api_key": "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",
@@ -48,23 +47,26 @@
       "per_request_limits": null
     }
   },
-  "embed_input_min_chars": 50,
-  "multi_heading_blocks": true,
-  "enable_mobile": true,
-  "actions": {
-    "lookup": true
-  },
   "api_key": "",
   "excluded_headings": "",
-  "file_exclusions": "Untitled",
   "folder_exclusions": ".git .trash,  4. Archives, 5. Misc, Atlas, Extras",
   "show_full_path": true,
   "expanded_view": false,
   "language": "en",
+  "version": "2.5.4",
+  "chat_folder": "smart chat",
+  "smart_sources_embed_model": "TaylorAI/bge-micro-v2",
+  "smart_blocks_embed_model": "TaylorAI/bge-micro-v2",
+  "smart_connections_folder": ".smart-connections",
+  "smart_connections_folder_last": ".smart-connections",
+  "local_embedding_max_tokens": "512",
+  "embedding_file_per_note": false,
+  "embed_input_min_chars": 50,
+  "multi_heading_blocks": true,
+  "file_exclusions": "Untitled",
   "log_render": false,
   "log_render_files": false,
   "recently_sent_retry_notice": false,
-  "version": "2.2.76",
   "smart_notes_embed_model": "TaylorAI/bge-micro-v2",
   "muted_notices": {
     "restart embedding": true,

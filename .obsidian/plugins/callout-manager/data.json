@@ -1,7 +1,29 @@
 {
   "callouts": {
     "custom": [],
-    "settings": {}
+    "settings": {
+      "split-2": [
+        {
+          "changes": {
+            "icon": "lucide-battery-medium"
+          }
+        }
+      ],
+      "split-3": [
+        {
+          "changes": {
+            "icon": "lucide-battery-full"
+          }
+        }
+      ],
+      "split-4": [
+        {
+          "changes": {
+            "icon": "lucide-battery-charging"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

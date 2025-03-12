@@ -3,9 +3,9 @@
   "emphasis": "_",
   "rule": "-",
   "createHeaderIfNotPresent": true,
-  "newHeaderTemplate": "aliases: \ntheme: \npriority: false\ndate_created: {{date:YYYY-MM-DD hh:mm}}\ndate_update: \ntags:",
+  "newHeaderTemplate": "aliases: \ncreatedAt: {{date:YYYY-MM-DD hh:mm}}\nupdateAt: \ncategories:\n  - Mindset\ntags:\n  - Mindset/Reflection",
   "updateHeader": true,
-  "updateHeaderTemplate": "aliases: \ntheme: \npriority: false\ndate_created: {{date:YYYY-MM-DD hh:mm}}\ndate_update: \ntags:",
+  "updateHeaderTemplate": "updateAt: {{date:YYYY-MM-DD hh:mm}}\n",
   "listItemIndent": "one",
   "newlinesAroundHeadings": true
 }
