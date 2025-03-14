@@ -1,6 +1,0 @@
----
-aliases:
-theme:
-high_priority: false
-tags:
----
