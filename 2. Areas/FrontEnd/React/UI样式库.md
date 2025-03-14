@@ -1,0 +1,52 @@
+好的，以下是一些小众但经典的 JavaScript UI 样式库，以及它们的官网地址、特点和适用场景：
+
+- **样式库名称**: Bulma
+    - **官网地址**: [https://bulma.io/](https://www.google.com/url?sa=E&source=gmail&q=https://bulma.io/)
+    - **特点**:
+        - 基于 Flexbox 的现代 CSS 框架，简洁、模块化，易于学习和使用。
+        - 纯 CSS 框架，不依赖 JavaScript，适用于构建静态网站或轻量级 Web 应用。
+        - 提供了丰富的响应式布局和组件，但相对 Bootstrap 而言，定制性更强。
+    - **适用场景**:
+        - 适合需要快速构建美观、响应式界面的项目。
+        - 适用于对 JavaScript 依赖较小的项目。
+        - 适合喜欢简洁、模块化 CSS 风格的开发者。
+- **样式库名称**: Semantic UI
+    - **官网地址**: [https://semantic-ui.com/](https://www.google.com/url?sa=E&source=gmail&q=https://semantic-ui.com/)
+    - **特点**:
+        - 采用自然语言化的 CSS 类名，易于理解和记忆。
+        - 提供了丰富的组件和主题，具有良好的可定制性。
+        - 集成了 JavaScript 库，提供了丰富的交互功能。
+    - **适用场景**:
+        - 适合需要构建语义化、可定制性强的 Web 应用。
+        - 适用于需要丰富交互功能的项目。
+        - 适合喜欢自然语言化 CSS 风格的开发者。
+- **样式库名称**: Spectre.css
+    - **官网地址**: [https://picturepan2.github.io/spectre/](https://www.google.com/url?sa=E&source=gmail&q=https://picturepan2.github.io/spectre/)
+    - **特点**:
+        - 轻量级、响应式、现代 CSS 框架。
+        - 基于 Flexbox 布局，提供了简洁的 CSS 类和组件。
+        - 适用于构建移动优先的 Web 应用。
+    - **适用场景**:
+        - 适合需要构建轻量级、移动优先的 Web 应用。
+        - 适用于对性能有较高要求的项目。
+        - 适合喜欢简洁、现代 CSS 风格的开发者。
+- **样式库名称**: Pure.css
+    - **官网地址**: [https://purecss.io/](https://www.google.com/url?sa=E&source=gmail&q=https://purecss.io/)
+    - **特点**:
+        - Yahoo 开发的轻量级 CSS 框架，体积非常小。
+        - 提供了基本的 CSS 样式和布局，适用于构建简单的 Web 界面。
+        - 适用于移动设备和高性能 Web 应用。
+    - **适用场景**:
+        - 适合需要构建非常轻量级、高性能的 Web 应用。
+        - 适用于移动设备和嵌入式设备。
+        - 适合对 CSS 体积有严格要求的项目。
+- **样式库名称**: Milligram
+    - **官网地址**: [https://milligram.io/](https://www.google.com/url?sa=E&source=gmail&q=https://milligram.io/)
+    - **特点**:
+        - 极简主义的 CSS 框架，体积非常小。
+        - 只提供了基本的 CSS 样式，适用于构建简单的 Web 界面。
+        - 专注于提供基本的 CSS 规范，不包含复杂的组件。
+    - **适用场景**:
+        - 适合需要构建极简主义风格的 Web 应用。
+        - 适用于对 CSS 体积有严格要求的项目。
+        - 适合喜欢自己编写 JavaScript 组件的开发者。

@@ -11,10 +11,35 @@ dv.paragraph(
 	totalDays + totalMd + "、" + totalTag + "、" + totalTask
 )
 ```
+
+## 随机10条笔记
+
+```dataviewjs
+const pages = dv.pages().array();
+const shuffledPages = pages.sort(() => 0.5 - Math.random());
+const randomPages = shuffledPages.slice(0, 5);
+
+dv.list(randomPages.map(page => page.file.link));
+```
+## 随机10条笔记table
+```dataviewjs
+const pages = dv.pages().array();
+const shuffledPages = pages.sort(() => 0.5 - Math.random());
+const randomPages = shuffledPages.slice(0, 5);
+
+const tableData = randomPages.map(page => [
+  page.file.link,
+  page.file.path,
+  page.file.tags ? page.file.tags.join(", ") : "无标签"
+]);
+
+dv.table(["文件", "路径", "标签"], tableData);
+```
+
 ## 高优先级
 ```dataview
 TABLE  high_priority, file.ctime AS 创作日期
-from -"4. Archives" and -"Extras" or #todo
+from -"4. Archives" or -"Extras" or #todo
 WHERE  high_priority = false
 sort file.mtime DESC
 LIMIT 10

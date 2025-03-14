@@ -45,7 +45,7 @@ updateAt:
 - [[instructions]]
 - [[Javascrip三省笔记0522]]
 - [[Lodash]]
-- [[前端功能需求分析]]
+- [[需求分析]]
 - [[React Bootstrap]]
 - [[React Hooks]]
 - [[+ Encounters/dailyNotes/React 软目标.md]]

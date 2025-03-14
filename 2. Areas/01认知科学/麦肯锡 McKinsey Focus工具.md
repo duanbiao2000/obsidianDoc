@@ -1,19 +1,13 @@
 ---
-aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-date_created: 2024-11-08 23:58
-date_update: 2024-11-08 23:58
-=======
-categories: 
+aliases: null
+categories: null
 high_priority: false
 createdAt: 2024-11-08 23:58
-updateAt: 2024-11-08 23:58
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+updateAt: 2025-03-14 07:18
 tags:
   - Mindset
 ---
+
 麦肯锡的 FOCUS 工具是一种战略规划和决策支持框架，旨在帮助企业和组织集中资源，优化资源配置，提高效率和效果。FOCUS 是一个首字母缩写词，代表以下几个关键步骤：
 
 ### FOCUS 工具的五个步骤
