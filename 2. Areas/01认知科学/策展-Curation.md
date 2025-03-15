@@ -13,7 +13,7 @@ updateAt: 2024-07-24 14:57
 - [[2. Areas/AI/ChatGPT/Key Insight.md]]
 - [[2. Areas/AI/LearnToCode.md]]
 - [[2. Areas/AI/ChatGPT/Mastering ChatGPT.md]]
-- [[react-bootstrap Components]]
+- [[react-bootstrap]]
 - [[ReactRouter]]
 - [[Tags Index]]
 - [[全栈工程师学习路线(待续)]]

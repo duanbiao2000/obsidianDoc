@@ -1,23 +1,11 @@
 ---
-aliases: 
-<<<<<<< HEAD
-theme: 
-original: 
-url: 
-author: 
-date_created: 2024-08-03 13:38
-date_update: 
-type: 
-priority: false
-=======
-source: 
-author: 
+aliases: null
+source: null
+author: null
 createdAt: 2024-08-03 13:38
-updateAt: 
-categories: 
+updateAt: 2025-03-15 10:55
+categories: null
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
-tags:
 ---
 
 ## 订阅Hacker News

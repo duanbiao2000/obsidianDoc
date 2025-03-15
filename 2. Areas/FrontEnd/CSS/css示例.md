@@ -1,0 +1,27 @@
+---
+aliases: null
+categories: null
+high_priority: false
+updateAt: 2025-03-16 12:10
+---
+
+```jsx
+<Menu.Button className={` inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 border focus-visible:ring-white dark:border-white border-gray-950 `} >
+```
+
+- `inline-flex`: 将元素设置为内联弹性盒子。
+- `w-full`: 宽度设为100%。
+- `justify-center`: 水平居中对齐内部子元素。
+- `rounded-md`: 中等圆角边框。
+- `bg-black bg-opacity-20`: 背景色为黑色且透明度为20%。
+- `px-4 py-2`: 内边距左右方向为4单位，上下方向为2单位。
+- `text-sm`: 文本大小为较小尺寸。
+- `font-medium`: 字体粗细为中等。
+- `hover:bg-opacity-30`: 鼠标悬停时背景透明度增加到30%。
+- `focus:outline-none`: 获得焦点时移除默认轮廓。
+- `focus-visible:ring-2`: 获得焦点可见时添加2单位宽度的环形边框。
+- `focus-visible:ring-opacity-75`: 环形边框透明度为75%。
+- `border`: 添加默认边框。
+- `focus-visible:ring-white`: 获得焦点可见时环形边框颜色为白色。
+- `dark:border-white`: 在暗色模式下边框颜色为白色。
+- `border-gray-950`: 边框颜色为深灰色。

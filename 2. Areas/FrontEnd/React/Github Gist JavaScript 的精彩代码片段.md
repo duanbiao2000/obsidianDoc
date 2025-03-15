@@ -1,9 +1,10 @@
 ---
-<<<<<<< HEAD
-date_created: 2024-08-03 10:02
-=======
-createdAt: 2024-08-03 10:02
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+aliases: null
+createdAt: 2025-03-15 10:50
+updateAt: null
+categories: null
+rate: null
+tags: null
 ---
 
 好的，以下是另外 10 处 Github Gist 中 JavaScript 的精彩代码片段及详细解释：
@@ -43,7 +44,7 @@ function ajax(method, url, data) {
   xhr.open(method, url, true);
   xhr.setRequestHeader('Content-Type', 'application/json');
   xhr.onreadystatechange = function() {
-    if (this.readyState === 4 && this.status === 200) {
+    if (this.readyState = == 4 && this.status = = = 200) {
       const response = JSON.parse(this.responseText);
       console.log(response);
     }
@@ -54,19 +55,7 @@ ajax('POST', '/api', { foo: 'bar' });
 ```
 
 这是一个手写 AJAX 的示例，用于演示 AJAX 的基本原理。AJAX 是一种异步通信技术，用于在不刷新页面的情况下向服务器发送请求和接收响应。在上述代码中，ajax 函数接收请求方法、请求地址和请求数据三个参数，通过 XMLHttpRequest 对象发送异步请求，并在 onreadystatechange 事件中获取服务器响应。
-3. 函数柯里化
 
-```javascript
-function add(x) {
-  return function(y) {
-    return x + y;
-  };
-}
-const add5 = add(5);
-console.log(add5(3)); // 8
-```
-
-函数柯里化是一种将多个参数的函数转换为一系列单参数函数的技术。在上述代码中，add 函数接收一个参数 x，并返回一个新的函数，该函数接收一个参数 y，并返回 x + y 的结果。通过 add(5) 可以得到一个新的 add5 函数，该函数可以直接传入一个参数 y 并返回相应的结果。
 4. 防抖
 
 ```javascript
@@ -111,6 +100,7 @@ window.addEventListener('scroll', throttle(handleScroll, 200));
 节流是一种限制函数调用频率的技术，用于在连续触发事件时间隔一定时间执行一次。在上述代码中，throttle 函数接收一个函数和一个间隔时间作为参数，返回一个新的函数。当事件触发时，throttle 函数会创建一个计时器，在间隔时间之后执行函数。
 
 > [!NOTE] 防抖VS节流
+>
 > - **防抖（Debouncing）**：在事件停止触发一定时间后才执行回调函数。如果事件在计时器结束前再次触发，则重新计时。适用于需要等待用户操作完成后再执行的场景。
 > - **节流（Throttling）**：在固定时间间隔内只执行一次回调函数。适用于需要限制事件处理频率的场景。
 
@@ -352,9 +342,7 @@ function Example() {
 }
 ```
 
-希望这些示例能帮助您更好地理解React Hooks的用法！如果您有任何问题，请随时提问。
 
-当然，以下是另外五个React Hooks的代码示例，并附带详细的注释说明：
 
 1. useFetch Hook：用于处理异步数据获取
 
@@ -531,56 +519,3 @@ function Example() {
 
 希望这些示例能给您带来更多帮助！如果您还有其他问题，请随时提问。
 
-以下是一个使用类组件生命周期方法来管理状态和副作用的示例：
-
-```javascript
-import React, { Component } from "react";
-class MyComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: [],
-      isLoading: true
-    };
-  }
-  componentDidMount() {
-    // 在组件挂载后，执行异步操作，比如发送网络请求
-    fetch("https://api.example.com/data")
-      .then(response => response.json())
-      .then(data => {
-        this.setState({ data: data, isLoading: false });
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }
-  componentDidUpdate(prevProps, prevState) {
-    // 在组件更新后，根据新的props或state执行一些操作
-    if (this.props.someProp !== prevProps.someProp) {
-      // 执行一些操作
-    }
-  }
-  componentWillUnmount() {
-    // 在组件卸载前做一些清理工作，比如取消订阅、清除定时器
-    clearInterval(this.timer);
-  }
-  render() {
-    const { data, isLoading } = this.state;
-    if (isLoading) {
-      return <div>Loading...</div>;
-    }
-    return (
-      <div>
-        {data.map(item => (
-          <div key={item.id}>{item.name}</div>
-        ))}
-      </div>
-    );
-  }
-}
-export default MyComponent;
-```
-
-在上面的示例中，我们使用了类组件`MyComponent`来管理状态和副作用。在`componentDidMount`生命周期方法中，我们发送了一个网络请求来获取数据，并在请求完成后将数据存储在组件的状态中。在`componentDidUpdate`生命周期方法中，我们可以根据新的props或state执行一些操作，这里我们比较了前后两个props来判断是否需要执行一些操作。在`componentWillUnmount`生命周期方法中，我们清除了一个定时器。
-在`render`方法中，我们根据组件的状态来渲染UI。当数据正在加载时，显示"Loading..."，加载完成后，展示数据列表。
-这是一个简单的示例，演示了如何使用类组件的生命周期方法来管理状态和处理副作用。在实际开发中，你可以根据具体需求和场景来使用不同的生命周期方法来管理状态和副作用。

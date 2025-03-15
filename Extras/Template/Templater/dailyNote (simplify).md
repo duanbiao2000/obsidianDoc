@@ -1,9 +1,11 @@
 ---
-aliases: <% tp.file.title %>
+aliases:
+  - <% tp.file.title %>
 createdAt: <% tp.file.creation_date() %>
 updateAt: <% tp.file.last_modified_date() %>
 categories:
   - Mindset
+rate: 
 tags:
   - Mindset/Reflection
 ---

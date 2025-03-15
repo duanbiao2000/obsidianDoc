@@ -17,9 +17,9 @@ tags:
 - [[React admin]]
 - [[React Bootstrap]]
 - [[React Hooks]]
-- [[React Quickly, Second Edition - MEAP... (Z-Library).pdf]]
-- [[react-bootstrap Components]]
-- [[react18通用后台管理系统]]
+- [[React Quickly pdf]]
+- [[react-bootstrap]]
+- [[react后台管理系统]]
 - [[ReactRouter]]
 - [[React代码解读0608]]
 - [[Redux]]
@@ -27,12 +27,12 @@ tags:
 - [[React官方文档]]
 - [[React实现无线滚动加载]]
 - [[React实现轮播图]]
-- [[React插件]]
+- [[React插件教程]]
 - [[React测试]]
 - [[React状态管理Redux]]
 - [[React生命周期方法]]
 - [[React组件间通信代码示例]]
-- [[React表单Forms]]
+- [[React表单验证]]
 - [[React设计模式与最佳实践]]
 - [[React软件架构]]
 - [[React进阶实战]]
@@ -81,58 +81,6 @@ function App(){
 export default App;
 ```
 
-##### localStorage.setItem()
-
-localStorage.setItem()方法用于将数据存储在本地浏览器的localStorage中。
-
-- LOCAL_STORAGE_KEY 是用来标识该数据的键名。它应该是一个字符串。
-- JSON.stringify 是将数据对象转换成JSON字符串。
-- localStorage只能存储字符串类型的数据,所以需要将对象数据先转换成字符串,这里使用了JSON.stringify方法。
-
-```js
-// 数据对象
-const data = {
-  name: 'John',
-  age: 30
-};
-// 将对象转换成JSON字符串
-const stringified = JSON.stringify(data); 
-// 设置本地存储
-localStorage.setItem(LOCAL_STORAGE_KEY, stringified);
-```
-
-一些注意点:
-
-- LOCAL_STORAGE_KEY需要事先定义,标识该数据
-- 数据对象需要先通过JSON.stringify转换成字符串
-- 设置本地存储时传入的应该是字符串,而不是对象
-
-### uuidv4
-
-`npm i uuidv4`
-
-```js
-import {uuid} from 'uuidv4';
-
-...
-  const addContactHandler =(contact)=>{
-    setContacts([...contacts, {id:uuid(), ...contact}]);
-  }
-...
-   const removeContactHandler=(id)=>{
-     const newContactList = contacts.filter((contact)=>{
-       return contact.id !== id;
-     });
-     setContacts(newContactList);
-
-   };
-
-... 
-<ContactList contacts={contacts} getContactId={removeContactHandler}/>
-
-```
-
-![[assets/img/React关键技术/IMG-React关键技术-20240714124831256.png]]
 
 ### json server
 
@@ -178,9 +126,6 @@ json-server 是一款快速生成模拟 REST API 的工具。
 - 数据源文件为 db.json
 - 当 db.json 文件修改后,服务会自动重新加载数据 %%
 
-`fetch the data from the json server`
-
-`npm i --save axios`
 
 ---
 
@@ -301,22 +246,6 @@ export default App;
 - ||是逻辑或运算符,用于判断值是否为false
 - ??是空值合并运算符,用于判断值是否为null或undefined
 
-具体区别:
-
-1. 判断标准不同
-
-||判断是否为false,||两边如果有一个值为true,则为true
-??判断是否为null/undefined,??左边如果不是null/undefined,则返回该值
-2. 返回值不同
-||返回第一个true值,其他值忽略
-??返回第一个非null/undefined值,其他值作为备选返回
-3. 接受数据类型不同
-||只接受布尔值,其他类型会自动转为布尔值
-??可以判断所有数据类型是否为null/undefined
-4. 使用场景不同
-||一般用于逻辑判断
-??一般用于默认值设置
-例如:
 
 ```js
 // || 返回第一个true值
@@ -330,47 +259,7 @@ a ?? b
 - ||用于逻辑判断,||两边如果有一个true则为true
 - ??用于设置默认值,??左边如果不是null/undefined则返回该值
 
-二者都可以用来设置默认值,但??更适用于判断null/undefined情况。
 
-从阅读官网文档的角度学习 React 生态链,我推荐的学习顺序和相关链接如下:
-
-1. 学习 React 基础知识
-
-- React 官网:<https://zh-hans.reactjs.org/docs/getting-started.html>
-- 包含 React 基础语法、组件、props、状态等核心概念
-
-2. 学习 React Hooks
-
-- React Hooks 官网:<https://zh-hans.reactjs.org/docs/hooks-intro.html>
-- 可以替代 class 组件的函数组件编程方式
-
-3. 学习 React Router
-
-- React Router 官网:<https://reactrouter.com/en/main>
-- 在 React 应用中实现路由和导航的库
-
-4. 学习 Redux
-
-- Redux 官网:<https://redux.js.org/introduction/getting-started>
-- 状态管理库,可以与 React 结合使用
-  [[React状态管理Redux#Redux面试常见提问]]
-
-5. 学习 React 测试
-
-- 测试 React 应用:<https://zh-hans.reactjs.org/docs/testing.html>
-- 常用的 React 测试工具和方法
-  [[React测试#React测试面试常见提问]]
-
-6. 学习 Next.js
-
-- Next.js 官网:<https://nextjs.org/docs/getting-started>
-- React 服务端渲染框架,可以加快应用加载速度
-  [[Next.js]]
-
-7. 学习 React Native
-
-- React Native 官网:<https://reactnative.dev/docs/getting-started>
-- 使用 React 开发原生移动应用的框架
 
 ## 在实际的 React 开发中，以下是一些常见的问题和讨论点
 
