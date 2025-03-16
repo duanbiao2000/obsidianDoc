@@ -6,14 +6,7 @@
 ###  git基本用法:
 
 ```bash
-# 克隆仓库
-git clone <仓库地址>
-# 查看状态
-git status 
-# 添加文件到暂存区
-git add <文件名> 
-# 提交更新
-git commit -m "提交信息"
+
 # 推送到远程仓库
 git push origin master
 # 拉取最新更新
@@ -34,8 +27,6 @@ git commit -m "resolve conflict"
 # 删除分支
 git branch -d new-branch
 ```
-使用git可以进行版本控制,通过add、commit、push、pull等命令来管理代码。
-需要注意处理冲突,保持主分支稳定。熟练使用分支来开发新功能。
 
 `git reset --hard HEAD` 是一个非常强大的 Git 命令，用于将工作目录和暂存区恢复到最近一次提交（即 `HEAD`）的状态。这个命令会丢弃所有未提交的更改，包括已暂存的更改和未暂存的更改。因此，在使用这个命令之前，你需要确保你确实不再需要这些更改，因为它们将无法恢复。
 

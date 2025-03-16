@@ -29,3 +29,8 @@ workspace.json.obsidian/
 
 
 _Index_of_*.md
+
+
+
+# Ignore Smart Environment folder
+.smart-env
