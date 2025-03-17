@@ -27,6 +27,7 @@ author: Substack
 Many of you might have had this experience:
 
 **You want AI to help write something, but you’re unsure how to start the conversation.**
+<!--SR:!2025-03-20,3,250-->
 
 So, you just give a command like, “Write me an article!”
 

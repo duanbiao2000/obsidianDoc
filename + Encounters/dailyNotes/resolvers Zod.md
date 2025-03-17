@@ -120,6 +120,7 @@ export default MyForm;
   - `register` 用于注册表单字段，以便 React Hook Form 可以跟踪它们的状态。
   - `handleSubmit` 用于处理表单提交。
   - `errors` 对象包含了所有验证失败的字段及其错误信息。
+<!--SR:!2025-03-20,3,250-->
 
 - **表单渲染**:
   - 渲染每个表单字段，并使用 `{...register('fieldName')}` 将其注册到 React Hook Form。

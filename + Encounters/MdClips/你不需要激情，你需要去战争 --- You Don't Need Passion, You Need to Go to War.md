@@ -45,8 +45,9 @@ Writer Zach Pogrob has a going-to-war [mantra](https://www.instagram.com/p/C-vgd
 
 ## Daily routines need war 日常需要战争
 
-What’s misunderstood about true success is it sits on the knife’s edge of calmness, focus, ==present-moment awareness== … and chaos, fury, anger, frustration, and rejection.  
+What’s misunderstood about true success is it sits on the knife’s edge of calmness, focus, ==present-moment awareness== … and chaos, fury, anger, frustration, and rejection.
 人们对真正成功的误解是，它处于冷静、专注、当下意识……以及混乱、愤怒、愤怒、沮丧和拒绝的边缘。
+<!--SR:!2025-03-20,3,250-->
 
 I’ve chased this path for 10 years and it’s nearly broken me multiple times. But in those moments my mindset shifted and I became someone new.  
 我在这条路上追寻了十年，它多次差点让我崩溃。但在那一刻，我的心态发生了转变，我变成了一个新人。

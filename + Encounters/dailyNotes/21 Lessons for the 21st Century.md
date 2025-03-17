@@ -277,6 +277,7 @@ tags:
 
 5. **“The greatest scientific discovery of the twentieth century was the discovery of ignorance.”**
    - **意义**：==20世纪最伟大的科学发现是对无知的认识。==这句话强调了科学探索的核心在于承认自身的无知和不断追求真理，提醒读者保持谦卑和开放的心态。
+<!--SR:!2025-03-21,3,250-->
 
 6. **“The most important thing you can know about the future is that humans will still be human.”**
    - **意义**：对未来最重要的认识是人类依然是人类。这句话提醒我们，无论科技如何进步，人类的基本需求和情感依然不变，必须始终关注人性的本质和价值。

@@ -44,6 +44,7 @@ tags:
 - Idea generation is key to answering essay questions effectively.
 - Coherence in writing is achieved through strategic use of linking words.
 - A clear introduction sets the stage for a well-organized essay.
+<!--SR:!2025-03-21,3,250-->
 
 ### QUOTES:
 - "Don't use fake sample essays as they can lead to learning bad habits."
@@ -100,6 +101,7 @@ The document is a detailed IELTS preparation course, focusing on writing skills 
 - Develop the ability to ==paraphrase== for writing tasks.
 在这句话中，“paraphrase”指的是用不同的词语或句子结构来重新表述相同的意思。具体来说，这句话建议为了练习而写完整的文章，并将这些文章与样本进行比较，以检查是否能够准确地用不同的表达方式传达相同的内容。这种练习有助于提高语言表达能力和理解能力。
 - Write full essays for practice and compare with samples.
+<!--SR:!2025-03-21,3,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ## INSIGHTS:
 - High-scoring essays are clear and easy to understand.
@@ -110,6 +112,7 @@ The document is a detailed IELTS preparation course, focusing on writing skills 
 - Grammar mistakes can be learning opportunities.
 在这句话中，“opportunity”指的是“机会”。具体来说，句子中的“learning opportunities”是指“学习的机会”。意思是说，语法错误可以成为学习和进步的机会。
 - Vocabulary development is crucial for writing improvement.
+<!--SR:!2025-03-21,3,250-->
 
 ## QUOTES:
 - "Don't use fake sample essays."
@@ -117,6 +120,7 @@ The document is a detailed IELTS preparation course, focusing on writing skills 
 - "IELTS is not a memorization test."
 - =="Structure your essays for clarity and coherence."==
 - "Identify grammar mistakes to improve your understanding."
+<!--SR:!2025-03-21,3,250-->
 
 ## HABITS:
 - Regularly review and analyze real band essays.

@@ -8,6 +8,7 @@ tags:
 ---
 
 # **模型導出**
+<!--SR:!2025-03-20,3,250-->
 
 ## 目标 (Purpose)
 
@@ -19,20 +20,24 @@ tags:
 模型導出是將模型轉換為其他格式的過程，例如將 PyTorch 模型導出為 ONNX 模型或 TensorFlow 模型。
 
 **PyTorch 模型和 ONNX 模型的區別**
+<!--SR:!2025-03-20,3,250-->
 
 - **PyTorch 模型**: PyTorch 模型是使用 PyTorch 框架開發的模型，模型的結構和參數是以 PyTorch 的內部格式儲存的。
 - **ONNX 模型**: ONNX 模型是使用 ONNX 格式儲存的模型，ONNX 是一個開源的模型格式，支持多種深度學習框架，包括 PyTorch、TensorFlow 和 Caffe。
 
 **PyTorch 模型和 TensorFlow 模型的區別**
+<!--SR:!2025-03-20,3,250-->
 
 - **PyTorch 模型**: PyTorch 模型是使用 PyTorch 框架開發的模型，模型的結構和參數是以 PyTorch 的內部格式儲存的。
 - **TensorFlow 模型**: TensorFlow 模型是使用 TensorFlow 框架開發的模型，模型的結構和參數是以 TensorFlow 的內部格式儲存的。
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
 
 **GGUF**
 
 GGUF 是一個用於模型轉換和優化的工具，GGUF 可以將 PyTorch 模型轉換為 ONNX 模型或 TensorFlow 模型，並且可以對模型進行優化和壓縮。
 
 **GGUF 和模型導出的區別**
+<!--SR:!2025-03-20,3,250-->
 
 - **GGUF**: GGUF 是一個工具，用於模型轉換和優化，GGUF 可以將 PyTorch 模型轉換為 ONNX 模型或 TensorFlow 模型，並且可以對模型進行優化和壓縮。
 - **模型導出**: 模型導出是將模型轉換為其他格式的過程，例如將 PyTorch 模型導出為 ONNX 模型或 TensorFlow 模型。

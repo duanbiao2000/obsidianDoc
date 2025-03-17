@@ -53,8 +53,9 @@ Then, move another step backward and figure out where the info came from.
 
 And so on… 等等…
 
-**Let’s call those connected pieces of code a “chain of actions**.”  
+**Let’s call those connected pieces of code a “chain of actions**.”
 **我们将这些相互连接的代码片段称为“动作链**”。
+<!--SR:!2025-03-20,3,250!2000-01-01,1,250-->
 
 Inevitably, using this approach will lead you through a bunch of different areas of the code. And that will probably give you a good deal of insight into things such as:  
 不可避免地，使用这种方法将引导您完成代码的许多不同区域。这可能会让您对以下事情有深入的了解：
@@ -66,8 +67,9 @@ Inevitably, using this approach will lead you through a bunch of different areas
 -   how the person who wrote the code thinks and problem solves (this is harder to describe, but it comes intuitively the more examples you see)  
     编写代码的人如何思考和解决问题（这很难描述，但你看到的示例越多，它就越直观）
 
-And by doing that, **you’ll gradually begin to understand more and more of that full body of code**. So where you started with:  
+And by doing that, **you’ll gradually begin to understand more and more of that full body of code**. So where you started with:
 通过这样做，**您将逐渐开始理解越来越多的完整代码**。那么你从哪里开始：
+<!--SR:!2000-01-01,1,250!2025-03-21,4,270-->
 
 \[ a big file of code that doesn’t really mean much at all to you \]  
 \[一个大文件的代码对你来说根本没有多大意义\]
@@ -94,26 +96,31 @@ Repeat that process multiple times, and you’ll rapidly increase your understan
 Just as parts of the pitch-black room are gradually illuminated, parts of the code gradually “light up” for you, as you understand how they function.  
 正如漆黑的房间的某些部分逐渐被照亮一样，当您了解它们的功能时，部分代码也会逐渐为您“照亮”。
 
-The reason that works well is that, in all cases, **a body of code is designed to tackle one (or more) complex problems**. So you’ll always have those “chains of actions” throughout.  
+The reason that works well is that, in all cases, **a body of code is designed to tackle one (or more) complex problems**. So you’ll always have those “chains of actions” throughout.
 效果良好的原因是，在所有情况下，**代码体都是为了解决一个（或多个）复杂问题而设计的**。因此，您将始终拥有这些“行动链”。
+<!--SR:!2025-03-20,3,250!2000-01-01,1,250-->
 
-And **the more you can gain an understanding of how different parts of the code are connected, the more you’ll develop an understanding of the entire codebase, as a whole**.  
+And **the more you can gain an understanding of how different parts of the code are connected, the more you’ll develop an understanding of the entire codebase, as a whole**.
 **您对代码不同部分如何连接的了解越多，您对整个代码库的整体理解就越深入**。
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
 
-And, over time, **the more (good) code you see, the easier it becomes to read and understand _all_ code, and the faster you can do so.**  
+And, over time, **the more (good) code you see, the easier it becomes to read and understand _all_ code, and the faster you can do so.**
 而且，随着时间的推移，**您看到的（好）代码越多，阅读和理解_所有_代码就越容易，而且速度也就越快。**
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
 
 ..which leads directly into the second reason I love this question: it highlights the importance of exposure to high quantity, high quality examples of expertise.  
 ..这直接引出了我喜欢这个问题的第二个原因：它强调了接触大量、高质量的专业知识示例的重要性。
 
-In programming, **“high quality examples of expertise” = good code** that other programmers wrote.  
+In programming, **“high quality examples of expertise” = good code** that other programmers wrote.
 在编程中， **“专业知识的高质量示例”=其他程序员编写的优秀代码**。
+<!--SR:!2025-03-20,3,250!2000-01-01,1,250-->
 
 ## The importance of exposing yourself to high quantity, high quality examples of expertise  
 让自己接触大量、高质量的专业知识示例的重要性
 
-In her incredibly poignant new book, _[Badass: Making Users Awesome](http://www.amazon.com/gp/product/1491919019/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491919019&linkCode=as2&tag=alepcol-20&linkId=THNHYVSS752ZYNNU)_, Kathy Sierra states that **exposure to high quantity, high quality examples of expertise is one of the two main factors that dictate how quickly and effectively people learn new skills**. (The other is deliberate practice.)  
+In her incredibly poignant new book, _[Badass: Making Users Awesome](http://www.amazon.com/gp/product/1491919019/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491919019&linkCode=as2&tag=alepcol-20&linkId=THNHYVSS752ZYNNU)_, Kathy Sierra states that **exposure to high quantity, high quality examples of expertise is one of the two main factors that dictate how quickly and effectively people learn new skills**. (The other is deliberate practice.)
 凯西·塞拉 (Kathy Sierra) 在她令人难以置信的辛酸新书_[《Badass: Making Users Awesome](http://www.amazon.com/gp/product/1491919019/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491919019&linkCode=as2&tag=alepcol-20&linkId=THNHYVSS752ZYNNU)_ 》中指出，**接触大量、高质量的专业知识示例是决定人们学习新技能的速度和效率的两个主要因素之一**。 （另一个是刻意练习。）
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
 
 > “The more you watch (or listen) to expert examples, the better you can become. The _less_ exposure you have to experts or results of expert work, the less likely you are to develop expert skills.”  
 > “你看（或听）专家例子越多，你就能变得越好。你接触专家或专家工作成果的机会_越少_，你培养专业技能的可能性就越小。”
@@ -158,8 +165,9 @@ _from pp. 134 of Kathy Sierra’s book, “Badass: Making Users Awesome”
 ## How does that play out in programming?  
 这在编程中是如何发挥作用的？
 
-Most importantly, know that **the longer you’re programming — and thus the more code samples you see, of all different kinds — the easier it gets to understand other people’s code. And the faster you’re able to do it.**  
+Most importantly, know that **the longer you’re programming — and thus the more code samples you see, of all different kinds — the easier it gets to understand other people’s code. And the faster you’re able to do it.**
 最重要的是，要知道**您编程的时间越长（因此您看到的各种不同类型的代码示例越多）就越容易理解其他人的代码。而且你能做到的速度越快。**
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
 
 It’s a wonderfully self-perpetuating cycle: you read more code; you gain the ability to understand it quicker and more effectively; so you are able to consume even _more_ code; and so on.  
 这是一个奇妙的自我延续循环：你阅读更多代码；您能够更快、更有效地理解它；这样您就可以使用_更多_代码；等等。
@@ -177,6 +185,7 @@ Ultimately, that translates to:
 2.  More progress
 
 which = **more fun and more enjoyable**. Win!
+<!--SR:!2025-03-20,3,250-->
 
 And you better believe that…
 
@@ -187,12 +196,14 @@ From Idea To Launch
 
 1.  **includes plenty of real-world, expert code examples alongside each lesson**, to ensure you’re consistently exposed to high quality examples of code.
 2.  **helps you connect with other programmers**, furthering your exposure to examples of others’ code, techniques, and thought processes.
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
 
 I always aim to practice what I preach. Be sure to [read more about the course](https://selftaughtcoders.com/from-idea-to-launch/) if you’re interested in building and launching your own web app.
 
 ___
 
 **Shoutout:** Thanks to Carol, one of our own, for the inspiration for this post! It’s the best when I get to write about things that come from directly within our group.
+<!--SR:!2025-03-20,3,250-->
 
 ___
 

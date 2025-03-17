@@ -24,32 +24,35 @@ _I just updated my [recent essay](https://addyosmani.com/blog/good-code) above o
 
 ## The Language of Love 爱的语言
 
-A love letter is personal, sincere, and considerate. It's a poetic testament of feelings, often meticulously crafted, with the intent to convey emotions accurately. Good code shares these characteristics. It's personal, as it mirrors the logic and approach of the coder. **Good code is sincere and unadorned with unnecessary complexity**. It's considerate, mindful of the next developer who will decipher it. And above all, it's meticulously crafted to solve a problem with utmost efficiency.  
+A love letter is personal, sincere, and considerate. It's a poetic testament of feelings, often meticulously crafted, with the intent to convey emotions accurately. Good code shares these characteristics. It's personal, as it mirrors the logic and approach of the coder. **Good code is sincere and unadorned with unnecessary complexity**. It's considerate, mindful of the next developer who will decipher it. And above all, it's meticulously crafted to solve a problem with utmost efficiency.
 情书是私人的、真诚的、体贴的。这是一种诗意的情感见证，通常是精心制作的，旨在准确地传达情感。好的代码具有这些特征。它是个人的，因为它反映了编码器的逻辑和方法。**好的代码是真诚的、朴素的，没有不必要的复杂性**。它很体贴，考虑到下一个将破译它的开发人员。最重要的是，它经过精心设计，能够以最高效率解决问题。
+<!--SR:!2000-01-01,1,250!2025-03-21,4,270-->
 
 **"Simple code is the hardest kind of code to write. You know you've achieved perfection when you don't have to add anything but take things away."  
 “简单的代码是最难编写的代码。当你不需要添加任何东西而只需删除一些东西时，你就知道你已经达到了完美。”**
 
-> What do I mean by unnecessary complexity?  
+> What do I mean by unnecessary complexity?
 > 不必要的复杂性是什么意思？
-> 
-> -   **Simplicity:** The code is written in the most straightforward way possible, avoiding overly clever or intricate solutions unless truly justified.  
+>
+> -   **Simplicity:** The code is written in the most straightforward way possible, avoiding overly clever or intricate solutions unless truly justified.
 >     **简单性：**代码以最直接的方式编写，避免过于聪明或复杂的解决方案，除非真正合理。
->     
-> -   **Directness:** It follows clear and logical paths, avoiding excessive abstraction or indirection.  
+>
+> -   **Directness:** It follows clear and logical paths, avoiding excessive abstraction or indirection.
 >     **直接性：**遵循清晰且符合逻辑的路径，避免过度抽象或间接。
->     
-> -   **Minimalism:** It uses only the necessary elements to achieve its purpose, avoiding redundancy and excessive features.  
+>
+> -   **Minimalism:** It uses only the necessary elements to achieve its purpose, avoiding redundancy and excessive features.
 >     **极简主义：**只使用实现其目的所必需的元素，避免冗余和过多的功能。
->     
+>
+<!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2025-03-20,3,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ## Patterns and Principles 模式和原则
 
 Just like we have grammar rules and linguistic structures to frame our words and feelings into comprehensible sentences, we have design patterns and principles to shape our code.  
 就像我们有语法规则和语言结构来将我们的单词和感受构建成可理解的句子一样，我们也有设计模式和原则来塑造我们的代码。
 
-Patterns don't just make code scalable, maintainable, and efficient, but also readable and understandable. **Patterns provide a shared vocabulary for developers, enabling them to express intricate software designs with universally recognized structures.**  
+Patterns don't just make code scalable, maintainable, and efficient, but also readable and understandable. **Patterns provide a shared vocabulary for developers, enabling them to express intricate software designs with universally recognized structures.**
 模式不仅使代码可扩展、可维护和高效，而且还具有可读性和可理解性。**模式为开发人员提供了共享词汇表，使他们能够用普遍认可的结构来表达复杂的软件设计。**
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
 
 **"Design patterns are not a silver bullet. They are like spices in a kitchen; a pinch here and there can enhance the flavor, but too much can ruin the dish."  
 “设计图案并不是灵丹妙药。它们就像厨房里的香料；这里捏一下，那里捏一下可以增强味道，但太多就会毁掉这道菜。”**
@@ -62,21 +65,23 @@ SOLID、DRY、KISS 和 YAGNI 不仅是原则，而且是编写优秀代码的基
 
 ## Best Practices 最佳实践
 
-Good code also adheres to established best practices, much like a love letter would follow certain social etiquettes. **Proper naming conventions, modularization, and thorough commenting are all part of this.**  
+Good code also adheres to established best practices, much like a love letter would follow certain social etiquettes. **Proper naming conventions, modularization, and thorough commenting are all part of this.**
 好的代码还遵循既定的最佳实践，就像情书遵循某些社交礼仪一样。正确的命名约定、模块化和彻底的注释都是其中的一部分。
+<!--SR:!2025-03-20,3,250-->
 
-> What do I mean by good social etiquettes?  
+> What do I mean by good social etiquettes?
 > 良好的社交礼仪是什么意思？
-> 
-> -   **Consistent formatting:** Maintaining consistent indentation, spacing, and style is like using clean handwriting and beautiful stationery in your love letter – it enhances readability and aesthetics.  
+>
+> -   **Consistent formatting:** Maintaining consistent indentation, spacing, and style is like using clean handwriting and beautiful stationery in your love letter – it enhances readability and aesthetics.
 >     **一致的格式：**保持一致的缩进、间距和风格就像在情书中使用干净的笔迹和漂亮的信纸——它增强了可读性和美观性。
->     
-> -   **Error handling:** Anticipating and gracefully handling potential problems like a mature partner shows responsibility and reliability in your code.  
+>
+> -   **Error handling:** Anticipating and gracefully handling potential problems like a mature partner shows responsibility and reliability in your code.
 >     **错误处理：**像成熟的合作伙伴一样预测并优雅地处理潜在问题，显示出代码的责任感和可靠性。
->     
-> -   **Testing:** Ensuring your code functions as intended, like verifying its accuracy before sending your love letter, fosters trust and confidence.  
+>
+> -   **Testing:** Ensuring your code functions as intended, like verifying its accuracy before sending your love letter, fosters trust and confidence.
 >     **测试：**确保您的代码按预期运行，例如在发送情书之前验证其准确性，从而培养信任和信心。
->     
+>
+<!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2025-03-20,3,250!2000-01-01,1,250-->
 
 They are not just rules to be followed, but they are the norms that define how considerate the code (or coder) is towards the next developer. They are there to make sure the intent of the coder is not lost in translation.  
 它们不仅仅是要遵循的规则，而且是定义代码（或编码器）对下一个开发人员的考虑程度的规范。他们的作用是确保编码人员的意图不会在翻译中丢失。
@@ -88,13 +93,15 @@ Just as a writer proofreads their letter, so should a developer with their code.
 
 ## Empathy and Respect 同理心和尊重
 
-Above all, the core of a love letter is **empathy and respect for the reader**, and so it is with good code. Writing code that others can read, understand, and maintain, is a form of professional respect.  
+Above all, the core of a love letter is **empathy and respect for the reader**, and so it is with good code. Writing code that others can read, understand, and maintain, is a form of professional respect.
 最重要的是，情书的核心是**对读者的同理心和尊重**，好的代码也是如此。编写其他人可以阅读、理解和维护的代码是一种职业尊重。
+<!--SR:!2025-03-20,3,250!2000-01-01,1,250-->
 
 It signals the coder's understanding that their work is part of a larger, ongoing effort, that software is a living entity that evolves, and that many hands will shape its destiny over time.  
 它标志着编码人员的理解，他们的工作是更大的、持续的努力的一部分，软件是一个不断发展的生命实体，随着时间的推移，许多人的手将塑造它的命运。
 
 ## **Refactoring 重构**
+<!--SR:!2025-03-21,4,270-->
 
 In the world of love letters, one doesn't always get it right on the first draft. There's a beauty in revisiting and refining your words, ensuring they convey the right message. Similarly, in coding, refactoring is an art.  
 在情书的世界里，人们并不总是能在初稿上写出正确的内容。重新审视和完善你的言语，确保它们传达正确的信息是一种美妙的感觉。同样，在编码中，重构也是一门艺术。
@@ -140,6 +147,7 @@ The key to effective use of design patterns lies in pragmatism. Developers shoul
 ## Trade-offs 权衡
 
 ### **Avoid dogma 避免教条**
+<!--SR:!2025-03-20,3,250-->
 
 While design patterns offer undeniable advantages, it's crucial to avoid their dogmatic application. Over-engineering complex solutions for simple problems can lead to unnecessary bloat and hinder performance. The key lies in pragmatism. Approach design patterns as a toolbox, not a rulebook. Choose the right tool for the job, considering the project's specific needs, complexity, and resource constraints.  
 虽然设计模式提供了不可否认的优势，但避免教条式应用至关重要。针对简单问题过度设计复杂的解决方案可能会导致不必要的膨胀并阻碍性能。关键在于务实。将设计模式视为工具箱，而不是规则手册。考虑项目的特定需求、复杂性和资源限制，为工作选择正确的工具。
@@ -149,14 +157,17 @@ While design patterns offer undeniable advantages, it's crucial to avoid their d
 One could argue that design patterns have become obsolete due to the following reasons:  
 有人可能会说，由于以下原因，设计模式已经过时：
 
--   **Overhype and Misuse:** Design patterns were once overhyped and often applied indiscriminately, leading to overly complex and convoluted code.  
+-   **Overhype and Misuse:** Design patterns were once overhyped and often applied indiscriminately, leading to overly complex and convoluted code.
     **过度炒作和滥用：**设计模式曾经被过度炒作，并且经常不加区别地应用，导致代码过于复杂和令人费解。
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
     
--   **Functional Programming Features:** Modern languages like JavaScript offer powerful functional programming features like higher-order functions and immutability, potentially eliminating the need for traditional design patterns.  
+-   **Functional Programming Features:** Modern languages like JavaScript offer powerful functional programming features like higher-order functions and immutability, potentially eliminating the need for traditional design patterns.
     **函数式编程功能：** JavaScript 等现代语言提供了强大的函数式编程功能，例如高阶函数和不变性，可能消除对传统设计模式的需求。
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
     
--   **Cargo-Culting and Political Games:** Some organizations enforce the rigid application of design patterns, leading to cargo-culting and prioritizing patterns over solving actual problems.  
+-   **Cargo-Culting and Political Games:** Some organizations enforce the rigid application of design patterns, leading to cargo-culting and prioritizing patterns over solving actual problems.
     **货物崇拜和政治游戏：**一些组织强制执行设计模式的严格应用，导致货物崇拜和优先考虑模式而不是解决实际问题。
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
     
 
 ### Design Patterns: Pros 设计模式：优点
@@ -164,14 +175,17 @@ One could argue that design patterns have become obsolete due to the following r
 Despite the criticisms, design patterns can still hold significant value:  
 尽管受到批评，设计模式仍然具有重要的价值：
 
--   **Reusable Solutions:** Design patterns represent proven solutions to common problems encountered in software architecture and design.  
+-   **Reusable Solutions:** Design patterns represent proven solutions to common problems encountered in software architecture and design.
     **可重用的解决方案：**设计模式代表了软件架构和设计中遇到的常见问题的经过验证的解决方案。
+<!--SR:!2025-03-20,3,250!2000-01-01,1,250-->
     
--   **Improved Communication:** They provide a common vocabulary for developers to discuss design decisions and architecture, facilitating collaboration and understanding.  
+-   **Improved Communication:** They provide a common vocabulary for developers to discuss design decisions and architecture, facilitating collaboration and understanding.
     **改进的沟通：**它们为开发人员提供了讨论设计决策和架构的通用词汇，从而促进协作和理解。
+<!--SR:!2025-03-20,3,250!2000-01-01,1,250-->
     
--   **Enhanced Maintainability:** Well-chosen and applied design patterns can lead to cleaner, more modular, and easier-to-maintain code bases.  
+-   **Enhanced Maintainability:** Well-chosen and applied design patterns can lead to cleaner, more modular, and easier-to-maintain code bases.
     **增强的可维护性：**精心选择和应用的设计模式可以带来更干净、更模块化且更易于维护的代码库。
+<!--SR:!2000-01-01,1,250!2025-03-20,3,250-->
     
 
 ## Move Forward with Nuance 与 Nuance 一起前进

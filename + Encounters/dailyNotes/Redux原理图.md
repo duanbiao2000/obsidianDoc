@@ -97,6 +97,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(CounterContainer);
 - **清晰的数据流:** 组件之间的数据传递更加明确。
 - **可复用性:** UI 组件可以独立于 Redux store 存在。
 - **可测试性:** 容器组件和 UI 组件可以分别进行测试。
+<!--SR:!2000-01-01,1,250!2000-01-01,1,250!2025-03-21,4,270-->
 
 **需要注意的点：**
 

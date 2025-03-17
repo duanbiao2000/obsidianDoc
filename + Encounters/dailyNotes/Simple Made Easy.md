@@ -31,6 +31,7 @@ Hickey's talk delves into the distinction between _simple_ and _easy_. While oft
 - **Easy:** Relates to **the ease of understanding or execution**, often influenced by external factors.
 
 The ==crux== of the talk is that while achieving simplicity is often challenging, it's essential for building robust, maintainable, and efficient systems. Hickey emphasizes the importance of:
+<!--SR:!2025-03-20,3,250-->
 
 > [!NOTE]
 > - **Understanding the problem domain:** Gaining a deep understanding of the problem before attempting a solution.

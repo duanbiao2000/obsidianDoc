@@ -53,6 +53,7 @@ Based on the provided context from {activeNote}, here are some key questions rel
 2. **Why is fast inference important?** Fast inference matters because it enables real-time decision-making, scalability, reduced latency, improved user experience, cost-effectiveness, and competitive advantage across different industries like autonomous vehicles, medical diagnosis, online gaming, video conferencing, live streaming, edge AI, safety-critical applications, and more.
 3. **What techniques are used to achieve fast inference?** To achieve fast inference, Groq Chat employs various techniques such as model pruning and quantization, knowledge distillation, model parallelism, distributed computing, GPU acceleration, optimized software frameworks, hardware acceleration (e.g., TPUs, FPGAs), efficient algorithms, cache-friendly data layouts, optimized data preprocessing, and encoding.
 为了实现快速推理，Groq Chat 使用了以下技术：
+<!--SR:!2025-03-21,4,270!2000-01-01,1,250!2000-01-01,1,250-->
 
 1. **模型剪裁和量化**（Model Pruning and Quantization）：将模型中的权重和参数减少到最小，以减少计算复杂度和内存占用。
 2. **知识蒸馏**（Knowledge Distillation）：将大模型转换为小模型，以保持大模型的性能，同时减少计算复杂度。

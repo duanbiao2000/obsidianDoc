@@ -36,6 +36,7 @@ J. Guy Davidson presents 30 core guidelines for writing beautiful, efficient, an
 - Avoid macros whenever possible; use inline functions and constexpr instead.
 - Prefer standard containers over custom data structures for better code interoperability.
 - Use std::unique_ptr and std::shared_ptr to manage dynamic memory safely.
+<!--SR:!2025-03-21,3,250-->
 - Understand the cost of dynamic memory allocation and minimize its use.
 - Use type inference (auto) to reduce redundancy and improve code clarity.
 - Prefer algorithms over raw loops for better abstraction and expressiveness.
@@ -108,6 +109,7 @@ J. Guy Davidson presents 30 core guidelines for writing beautiful, efficient, an
 - Rule of Five
 - Resource Acquisition Is Initialization (RAII)
 - Smart pointers (std::unique_ptr, std::shared_ptr)
+<!--SR:!2025-03-21,3,250-->
 - Standard library
 - Modern C++ features (auto, range-based loops)
 - Const-correctness

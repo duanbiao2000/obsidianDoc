@@ -39,6 +39,7 @@ tags:
 
 SUMMARY:
 Mo, an AI researcher and Stanford PhD, shares efficiency tips for engineers, discussing strategy, ==operations==, and tactics to improve productivity and align work with personal values.
+<!--SR:!2025-03-21,3,250-->
 
 IDEAS:
 - Prioritize tasks based on importance and urgency.

@@ -48,6 +48,7 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 | Document 'Google is your friend!' |
 | Revision 3.0 | 2 Feb 2004 | esr |
 | Major addition of stuff about proper etiquette on Web forums. |
+<!--SR:!2025-03-21,4,270-->
 
 ___
 
@@ -206,14 +207,21 @@ On mailing lists, newsgroups or Web forums, the subject header is your golden op
 One good convention for subject headers, used by many tech support organizations, is “object - deviation”. The “object” part specifies what thing or group of things is having a problem, and the “deviation” part describes the deviation from expected behavior.
 
 **Stupid:**
+<!--SR:!2025-03-21,4,270-->
+<!--SR:!2025-03-21,4,270-->
+<!--SR:!2025-03-20,3,250-->
 
 HELP! Video doesn't work properly on my laptop!
 
 **Smart:**
+<!--SR:!2025-03-20,3,250-->
+<!--SR:!2025-03-20,3,250-->
+<!--SR:!2025-03-21,4,270-->
 
 X.org 6.8.1 misshapen mouse cursor, Fooware MV1005 vid. chipset
 
 **Smarter:**
+<!--SR:!2025-03-20,3,250-->
 
 X.org 6.8.1 mouse cursor on Fooware MV1005 vid. chipset - is misshapen
 
@@ -527,26 +535,32 @@ Q: [How can I crack root/steal channel-ops privileges/read someone's e-mail?](ht
 Finally, I'm going to illustrate how to ask questions in a smart way by example; pairs of questions about the same problem, one asked in a stupid way and one in a smart way.
 
 **Stupid:** Where can I find out stuff about the Foonly Flurbamatic?
+<!--SR:!2025-03-20,3,250-->
 
 This question just begs for ["STFW"](http://www.catb.org/~esr/faqs/smart-questions.html#rtfm "RTFM and STFW: How To Tell You've Seriously Screwed Up") as a reply.
 
 **Smart:** I used Google to try to find “Foonly Flurbamatic 2600” on the Web, but I got no useful hits. Can I get a pointer to programming information on this device?
+<!--SR:!2025-03-20,3,250-->
 
 This one has already STFWed, and sounds like there might be a real problem.
 
 **Stupid:** I can't get the code from project foo to compile. Why is it broken?
+<!--SR:!2025-03-20,3,250-->
 
 The querent assumes that somebody else screwed up. Arrogant git...
 
 **Smart:** The code from project foo doesn't compile under Nulix version 6.2. I've read the FAQ, but it doesn't have anything in it about Nulix-related problems. Here's a transcript of my compilation attempt; is it something I did?
+<!--SR:!2025-03-21,4,270-->
 
 The querent has specified the environment, read the FAQ, is showing the error, and is not assuming his problems are someone else's fault. This one might be worth some attention.
 
 **Stupid:** I'm having problems with my motherboard. Can anybody help?
+<!--SR:!2025-03-20,3,250-->
 
 J. Random Hacker's response to this is likely to be “Right. Do you need burping and diapering, too?” followed by a punch of the delete key.
 
 **Smart:** I tried X, Y, and Z on the S2464 motherboard. When that didn't work, I tried A, B, and C. Note the curious symptom when I tried C. Obviously the florbish is grommicking, but the results aren't what one might expect. What are the usual causes of grommicking on Athlon MP motherboards? Anybody got ideas for more tests I can run to pin down the problem?
+<!--SR:!2025-03-20,3,250-->
 
 This person, on the other hand, seems worthy of an answer. He/she has exhibited problem-solving intelligence rather than passively waiting for an answer to drop from on high.
 

@@ -12,6 +12,7 @@ tags: null
 ## [](https://dev.to/cypriantinasheaarons/my-2024-good-links-list-dca#developer-tools-amp-platforms)Developer Tools & Platforms
 
 - **Frameworks / Infrastructure / Backends**
+<!--SR:!2025-03-20,3,250-->
 
   - [Supabase](https://supabase.com/) – Open-source Firebase alternative; Postgres, auth, and storage.
   - [PayloadCMS](https://payloadcms.com/) – Headless CMS built with Node.js, TypeScript, and MongoDB.
@@ -26,6 +27,7 @@ tags: null
   - [Upstash](https://upstash.com/) – Serverless data platform for Redis and Kafka.
   - [Openpanel](https://openpanel.com/) – Event-level analytics for product insights.
 - **Frontend & UI Libraries**
+<!--SR:!2025-03-20,3,250-->
 
   - [Tailwind UI](https://tailwindui.com/) – UI components built with Tailwind CSS.
   - [Shadcn UI](https://ui.shadcn.com/) – Customizable components built on Tailwind CSS.
@@ -34,17 +36,20 @@ tags: null
   - [Syntax UI](https://syntaxui.com/) – Tailwind-based React UI.
   - [Melt-UI](https://www.melt-ui.com/) – Svelte-based component library.
 - **Documentation & Knowledge Bases**
+<!--SR:!2025-03-21,4,270-->
 
   - [Mintlify](https://mintlify.com/) – Docs as code, easy-to-maintain documentation.
   - [PostHog Docs](https://posthog.com/docs) – Self-hosted analytics platform reference.
   - [N8n Docs](https://docs.n8n.io/) – Workflow automation platform documentation.
 - **DevOps & Deployment**
+<!--SR:!2025-03-20,3,250-->
 
   - [Vercel AI SDK](https://sdk.vercel.ai/docs) – Tools for building AI apps on Vercel.
   - [Elest.io](https://elest.io/) – Managed services for open-source software.
   - [Fleetbase API Docs](https://docs.fleetbase.dev/api#metadata) – Logistics API references.
   - [OpenRemote](https://www.openremote.io/developers/) – Open-source IoT platform.
 - **AI & LLM Tools**
+<!--SR:!2025-03-21,4,270-->
 
   - [LlamaIndex](https://www.llamaindex.ai/) – Data framework for LLM applications.
   - [FlowiseAI](https://flowiseai.com/) – Visual drag-and-drop UI to build LangChain flows.
@@ -55,6 +60,7 @@ tags: null
   - [FinancialDatasets.ai](https://www.financialdatasets.ai/) – Financial data for machine learning.
   - [GoAPI.ai](https://www.goapi.ai/) – AI-assisted API building and testing environment.
 - **Automation & Workflows**
+<!--SR:!2025-03-20,3,250-->
 
   - [Make.com Templates](https://eu2.make.com/templates) – Visual automation scenarios.
   - [Axiom.ai](https://axiom.ai/) – Browser automation without coding.
@@ -65,6 +71,7 @@ tags: null
 ## [](https://dev.to/cypriantinasheaarons/my-2024-good-links-list-dca#design-amp-ux-resources)Design & UX Resources
 
 - **UI Kits & Design Systems**
+<!--SR:!2025-03-20,3,250-->
 
   - [UI Shadcn](https://ui.shadcn.com/) – Re-usable UI components for next-gen projects.
   - [UI Colors](https://uicolors.app/create) – Generate color palettes for UIs.
@@ -74,6 +81,7 @@ tags: null
   - [Eldora UI](https://www.eldoraui.site/docs/installation) – UI library for React projects.
   - [LunarUI](https://lunarui.dev/components) – Elegant Tailwind-based components.
 - **Visual Design & Inspiration**
+<!--SR:!2025-03-20,3,250-->
 
   - [Mobbin](https://mobbin.com/) & [Behance](https://www.behance.net/) – Design inspiration and showcases.
   - [Dribbble](https://dribbble.com/) & [LandingFolio](https://www.landingfolio.com/) – Landing page and UI inspiration.
@@ -87,12 +95,14 @@ tags: null
   - [SaaSpo](https://www.saaspo.com/) – SaaS landing page examples.
   - [UIverse.io](https://uiverse.io/) & [CSS FX](https://cssfx.netlify.app/) – CSS components and effects.
 - **UX & Design Articles**
+<!--SR:!2025-03-21,4,270-->
 
   - [10 Principles of Good Web Design (Medium)](https://medium.muz.li/10-principles-of-good-web-design-1b837743ffa8)
   - [Building a Great Website Hero Section (Medium)](https://medium.muz.li/how-to-create-a-great-website-hero-section-f22ec2f6e86a)
   - [What Makes a Brand Iconic (Medium)](https://medium.muz.li/what-makes-a-brand-iconic-4161b9afa6cb)
   - [How Uber Conquered UX Design (Prototypr)](https://blog.prototypr.io/how-uber-conquered-ux-design-1d9c56788a41)
 - **Tooling for Designers**
+<!--SR:!2025-03-20,3,250-->
 
   - [Spline](https://app.spline.design/) – 3D design platform for web experiences.
   - [Figma Plugins](https://dev.ton/A%20link%20but%20recommended) – Extending design capabilities directly in Figma.
@@ -180,5 +190,6 @@ tags: null
 ---
 
 💡 **Want us to work together?**
+<!--SR:!2025-03-21,4,270-->
 
 Feel free to reach out on [Twitter](https://twitter.com/cyprianaarons) or visit my [website](https://cyprianaarons.com/) for more resources and support. Let's build something amazing together! 🌟
