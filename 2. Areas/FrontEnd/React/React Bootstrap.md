@@ -34,7 +34,7 @@ createdAt: 2024-08-03 09:17
 - [[React设计模式与最佳实践]]
 - [[React软件架构]]
 - [[React进阶实战]]
-- [[+ Encounters/dailyNotes/大型 React 应用架构.md]]
+- [[React 应用架构]]
 - [[新手React项目]]
 
 页面结构

@@ -1,16 +1,11 @@
 ---
-aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
-categories: 
-high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
-tags: 
-source: https://www.bilibili.com/video/BV1yp29YSEq2/
+aliases: null
+createdAt: 2025-03-17 16:49
+updateAt: null
+categories: null
+rate: null
+tags: null
 ---
-![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20241012140754.png)
 
 # 🚀 开发全栈AI图像编辑应用：Expo + Strapi + Clerk + Neon & React Native
 
@@ -176,7 +171,9 @@ export default App;
 请确保替换上述示例中的URL为你实际的API地址，并根据实际情况调整代码逻辑。
 
 在 React Native 中，`Dimensions` 是一个非常有用的模块，它可以让你获取到设备屏幕的尺寸信息。你可以使用 `Dimensions.get('screen')` 来获取整个屏幕的宽度和高度，或者使用 `Dimensions.get('window')` 来获取可使用的窗口大小（不包括状态栏等）。
+
 ### Dimensions.get('screen')
+
 你提到的代码片段 `const ColumnWidth = Dimensions.get('screen').width * 0.9;` 是用来计算屏幕宽度的90%。这个值可以用来设置组件的宽度，比如一个列（column）的宽度，以确保它占据屏幕宽度的大部分，同时留有一些边距。
 
 下面是一个完整的示例，展示如何在React Native应用中使用 `Dimensions` 来设置一个视图组件的宽度：
@@ -231,12 +228,15 @@ export default App;
 这样，无论用户的设备屏幕有多宽，你的列都会占据其90%，从而提供一致的用户体验。如果你的应用需要响应屏幕方向的变化（如从纵向变为横向），你还可以监听 `Dimensions` 的变化事件来更新布局。
 
 ### 阴影效果
+
 在 React Native 中，`elevation` 属性用于在 Android 平台上实现阴影效果。`elevation` 对应于 Android 的原生 API，它会影响视图在空间中 z 轴上的顺序，从而创建出阴影效果。这个属性在 Android 5.0 以上版本才支持，并且它会影响到视图的层叠顺序。在 Android 上，如果两个同一层级的定位组件（position: "absolute"）都有 `elevation` 属性，则 `elevation` 大的组件会在上层显示。如果两个组件只有 `zIndex` 属性而没有 `elevation` 属性，则 `zIndex` 大的组件会在上层。如果两个组件都没有 `zIndex` 属性和 `elevation` 属性，则它们的层叠关系由它们在代码中的摆放位置决定，放在下面的组件会在上层显示。
 
 对于 iOS 平台，阴影效果通常通过 `shadowColor`、`shadowOffset`、`shadowOpacity` 和 `shadowRadius` 这些属性来实现，而 `elevation` 属性在 iOS 上是无效的。因此，开发者在编写跨平台应用时需要注意这些差异，并可能需要使用条件语句来为不同的平台应用不同的样式。
 
 此外，还有一些第三方库如 `react-native-shadow` 可以提供一致的阴影效果，无论在 iOS 还是 Android 上，都能实现类似的阴影效果。这些库通常会处理不同平台之间的差异，使得开发者可以写出更少的平台特定代码。
+
 ### FlatList
+
 `FlatList` 是 React Native 中一个非常高效且强大的组件，用于显示长列表数据。它只渲染屏幕上可见的项目，这对于性能优化非常重要，特别是当你的列表很长时。`FlatList` 提供了许多有用的特性，如分页加载、滚动事件处理等。
 
 ### 基本用法
@@ -363,6 +363,7 @@ export default App;
 通过这些基本的配置和选项，你可以构建出非常强大和高效的列表界面。如果你有更复杂的需求，比如不同的布局、动态高度等，`FlatList` 也提供了足够的灵活性来满足这些需求。
 
 ### ActivityIndicator
+
 `ActivityIndicator` 是 React Native 中用于显示加载指示器的组件。它通常用来告诉用户当前正在进行一些处理，比如从网络加载数据或执行一个耗时的操作。`ActivityIndicator` 在 Android 和 iOS 上有不同的默认样式，但你可以通过属性来自定义其外观。
 
 ### 基本用法
@@ -458,6 +459,7 @@ const styles = StyleSheet.create({
 通过合理地使用 `ActivityIndicator`，你可以提高用户体验，让用户知道应用程序正在响应他们的操作。
 
 ### Sonner
+
 `Sonner` 是一个用于 React 的通知组件库，它提供了简单易用的 API 来显示各种类型的通知消息，如成功、警告、错误和信息提示。`Sonner` 的设计简洁且易于定制，支持多种配置选项，并且可以轻松地集成到现有的 React 项目中。
 
 ### 安装 Sonner

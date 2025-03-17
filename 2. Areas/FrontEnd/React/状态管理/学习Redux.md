@@ -63,7 +63,7 @@ updateAt:
 - [[2. Areas/BackEnd/Java/源码阅读/XiaoMiStore.md]]
 - [[@react-oauth/Zustand.md]]
 - [[同步与异步]]
-- [[+ Encounters/dailyNotes/大型 React 应用架构.md]]
+- [[React 应用架构]]
 - [[学习Redux]]
 - [[Extras/textgenerator/generations/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md]]
 - [[+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md]]
