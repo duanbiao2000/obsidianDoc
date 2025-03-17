@@ -7,7 +7,7 @@ updateAt:
 type: 
 high_priority: false
 tags:
-  - IELTS/essay
+  - IELTS/Essay
 ---
 
 > [!NOTE] Title

@@ -3,7 +3,7 @@ aliases:
 categories: 
 high_priority: false
 tags:
-  - Effective/低代码
+  - Effective/VibeCode
   - Effective/Tools
 ---
 #  MybatisX 插件生成对应的实体类、Mapper 接口及 XML 映射文件

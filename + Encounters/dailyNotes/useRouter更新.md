@@ -16,7 +16,7 @@ tags:
 ### 1. 版本兼容性
 
 - **next/router:** 主要用于 Next.js 13 之前的版本，即传统的 Pages Router。
-- **next/navigation:** 专为 Next.js 13 及更高版本设计，与 App Router 深度集成。 #Mindset/new
+- **next/navigation:** 专为 Next.js 13 及更高版本设计，与 App Router 深度集成。 #Mindset/
 
 ### 2. 功能差异
 

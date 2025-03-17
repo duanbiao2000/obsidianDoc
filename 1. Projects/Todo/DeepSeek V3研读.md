@@ -6,7 +6,7 @@ categories:
   - Mindset
 tags:
   - Mindset/Reflection
-  - Action/Code
+  - Tech/Code
   - Action/TODO
   - Action/Writing
 ---
@@ -17,7 +17,7 @@ tags:
 
 - **MoE (Mixture of Experts)**: 混合专家模型，一种神经网络架构，通过将不同的“专家”网络组合起来处理不同的输入，从而提高模型性能。
 - **Dense**: 密集连接层，神经网络中最常见的层类型，每个神经元都与前一层的所有神经元相连。
-- **#Activated Params**: 被激活的参数数量，指模型在运行过程中实际参与计算的参数数量。MoE 模型通常只有一部分参数被激活。
+- **Activated Params**: 被激活的参数数量，指模型在运行过程中实际参与计算的参数数量。MoE 模型通常只有一部分参数被激活。
 - **Total Params**: 总参数数量，指模型中所有参数的总数。
 - **Benchmark (Metric)**: 基准测试（指标），指用于评估模型性能的测试集和相应的评估标准。
 - **EM (Exact Match)**: 精确匹配，指模型答案与标准答案完全一致的比例。

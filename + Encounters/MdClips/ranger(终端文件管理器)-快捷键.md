@@ -1,14 +1,13 @@
 ---
-aliases: ranger(终端文件管理器)-快捷键 | 叶落阁
+aliases:
+  - ranger(终端文件管理器)-快捷键 | 叶落阁
 categories:
   - vim
   - terminal
   - file-manager
 createdAt: 2024-11-18T17:28:48 (UTC +08:00)
 tags:
-  - vim
-  - terminal
-  - file-manager
+  - Effective/Tools
 source: https://yelog.org/2024/08/30/ranger-shortcut/
 author: 叶落阁
 ---
@@ -65,20 +64,20 @@ author: 叶落阁
 | E | 使用vim编辑光标所在的文件 |
 | V | 使用vim编辑输入的文件（可创建 |
 | r | 选择编辑或运行的命令 |
-
 ### [](https://yelog.org/2024/08/30/ranger-shortcut/#%E7%A7%BB%E5%8A%A8%E8%B7%B3%E8%BD%AC "移动跳转")移动跳转
 
-| 快捷键 | 描述 |
-| --- | --- |
-| hjkl | 左(上一层)下上右(下一层) |
-| \[/\] | 上层目录的上/xx |
-| gg/G | 顶部/底部 |
-| H/L | 回到上次浏览文件夹/撤销回退 |
-| f | 模糊搜索当前及递归文件 fzf |
-| zf | 过滤，只显示搜索匹配的文件 |
-| / | 当前目录搜索关键字 输入关键字后可直接 tab 进行查找 |
-| gf | 跳到 f 绑定的目录，这里配置的是 ranger 的配置文件，其他字母可自己配置 |
-| S | 跳到当前文件夹所在的命令行 |
+| 快捷键   | 描述                                       |
+| ----- | ---------------------------------------- |
+| hjkl  | 左(上一层)下上右(下一层)                           |
+| \[/\] | 上层目录的上/xx                                |
+| gg/G  | 顶部/底部                                    |
+| H/L   | 回到上次浏览文件夹/撤销回退                           |
+| f     | 模糊搜索当前及递归文件 fzf                          |
+| zf    | 过滤，只显示搜索匹配的文件                            |
+| /     | 当前目录搜索关键字 输入关键字后可直接 tab 进行查找             |
+| gf    | 跳到 f 绑定的目录，这里配置的是 ranger 的配置文件，其他字母可自己配置 |
+| S     | 跳到当前文件夹所在的命令行                            |
+|       |                                          |
 
 ### [](https://yelog.org/2024/08/30/ranger-shortcut/#%E6%A0%87%E7%AD%BE-tab "标签 tab")标签 tab
 
