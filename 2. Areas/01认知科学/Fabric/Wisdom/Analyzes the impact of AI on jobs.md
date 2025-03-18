@@ -1,21 +1,13 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-original: 
-url: 
-author: 
-date_created: 2024-07-24 13:48
-type: 
-priority: false
-=======
+
 source: 
 author: 
 createdAt: 
 updateAt: 2024-07-24 13:48
 categories: 
 status: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+
 ---
 ## SUMMARY ANALYSIS
 
@@ -27,7 +19,7 @@ This project analyzes the impact of AI on jobs, identifying resilient categories
 *  Human skills like creativity, critical thinking, and social intelligence will be crucial.
 *  Adaptability and continuous learning are essential for future job security.
 *  The timeline for automation varies across industries and job roles.
-*  Individuals with strong interpersonal and problem-solving skills will thrive.
+*  **Individuals with strong interpersonal and problem-solving skills will thrive.**
 
 ## JOB CATEGORY ANALYSIS
 
