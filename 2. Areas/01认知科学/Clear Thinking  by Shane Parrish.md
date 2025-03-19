@@ -9,12 +9,6 @@ tags:
   - Mindset/FCPM/CK
 ---
 
-Here’s a summary of the transcript in bullet points with key timestamps:
-
-- **(00:00)** Major life decisions impact our destiny, but what truly supports those decisions is the quality of our thinking.
-- **(00:24)** The book _Clear Thinking_ by Shane Parrish, a Canadian intelligence expert, emphasizes that everyday decisions matter just as much as major life decisions.
-- **(00:42)** Parrish, a former senior intelligence officer, now trains corporate leaders to optimize decision-making, sharing insights from his experience.
-- **(01:14)** The book helps readers break free from mediocrity by teaching high-quality thinking, overcoming human instincts, and improving decision-making.
 - **(01:38)** ==Parrish identifies four major instincts that hinder clear thinking: _emotional, egotistical, gregarious, and inertia instincts._==
   - **Emotional instinct**: Defensiveness and impulsiveness when challenged (02:04).
 

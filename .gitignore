@@ -34,3 +34,14 @@ _Index_of_*.md
 
 # Ignore Smart Environment folder
 .smart-env
+
+
+# redundant
+.trash
+.codemap
+.makemd
+.smart-env
+.space
+copilot-conversations/*
+copilot-custom-prompts/*
+smart-chats/*
