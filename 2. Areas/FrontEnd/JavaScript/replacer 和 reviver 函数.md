@@ -3,16 +3,11 @@ aliases:
 tags: 
 source: 
 author: 
-<<<<<<< HEAD
-date_created: 2024-07-14 17:02
-type: 
-priority: false
-=======
+
 createdAt: 
 updateAt: 2024-07-14 17:02
 categories: 
 status: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
 ---
 ### 使用 `replacer` 函数
 假设我们有一个对象，其中包含一些我们不想序列化的属性，我们可以使用 `replacer` 函数来排除这些属性。

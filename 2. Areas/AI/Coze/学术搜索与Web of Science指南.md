@@ -3,11 +3,8 @@ categories:
 tags:
   - Effective/Tools
 status: 
-<<<<<<< HEAD
-date_created:
-=======
 createdAt:
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+
 ---
 
 ### 常用学术搜索引擎列表

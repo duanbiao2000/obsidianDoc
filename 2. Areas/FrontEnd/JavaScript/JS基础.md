@@ -84,32 +84,6 @@ for (let value of iterable) {
 1. 使用 `for...in` 循环遍历对象的属性：我们使用 `for...in` 循环迭代 `obj` 对象的属性，通过 `key` 访问属性名，通过 `obj[key]` 访问属性值。
 2. 使用 `forEach` 方法遍历数组的元素：我们使用 `arr.forEach()` 方法迭代数组 `arr` 的每个元素，并通过回调函数访问每个元素的值和索引。
 3. 使用 `for...of` 循环遍历可迭代对象的值：我们使用 `for...of` 循环迭代字符串 `iterable` 的每个字符，通过 `value` 直接访问每个字符的值。
-这些示例展示了不同的迭代方式和用途，您可以根据需要选择适合的迭代方法。
-希望以上示例对您有帮助！如果您还有其他问题，请随时提问。
-
-#### for of迭代数组和对象
-
-在 JavaScript 中，`for...of` 循环主要用于迭代可迭代对象的值，包括数组、字符串、Set、Map 等。
-对于数组的迭代，`for...of` 循环会遍历数组的元素值，而不是索引或键。以下是迭代数组的示例：
-```javascript
-const arr = [1, 2, 3];
-for (let value of arr) {
-  console.log(value);
-}
-```
-在上述示例中，`for...of` 循环遍历了数组 `arr` 的每个元素，将每个元素的值分别输出到控制台。
-对于对象的迭代，由于对象不是可迭代对象，因此不能直接使用 `for...of` 循环来遍历对象的属性。但是，可以通过将对象转换为可迭代对象（如使用 `Object.entries()` 方法或 `Object.keys()` 方法）来实现类似的效果。以下是迭代对象的示例：
-```javascript
-const obj = { name: "John", age: 30 };
-// 使用 Object.entries() 方法将对象转换为可迭代对象，并迭代键值对
-for (let [key, value] of Object.entries(obj)) {
-  console.log(`${key}: ${value}`);
-}
-// 或者使用 Object.keys() 方法迭代对象的属性
-for (let key of Object.keys(obj)) {
-  console.log(`${key}: ${obj[key]}`);
-}
-```
 
 [[响应式设计]]
 

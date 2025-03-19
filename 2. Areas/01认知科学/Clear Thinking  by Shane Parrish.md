@@ -37,6 +37,6 @@ tags:
 
 在这句话中，“inform”用作动词，意思是“提供信息给...，指导...”。整个表达“inform better decisions”可以理解为“为更好的决策提供信息或指导”。换句话说，通过在低风险环境或副业中进行试验，可以收集到一些信息或经验，这些信息或经验有助于做出更好的决策，而不会造成严重的后果。
 
-- **(21:54)** The book helps readers apply systematic thinking frameworks to overcome instincts, build strong mental habits, and make better decisions.
+- **(21:54)** The book helps readers apply [systematic thinking frameworks] to overcome instincts, build strong mental habits, and make better decisions.
 
 This captures the main ideas and key moments of the content!

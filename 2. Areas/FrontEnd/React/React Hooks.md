@@ -51,23 +51,8 @@
   }
   export default Counter;
   ```
-2. Effect Hooks:
-- `useEffect`: Performs side effects after rendering.
-  ```jsx
-  import React, { useState, useEffect } from 'react';
-  function Timer() {
-    const [seconds, setSeconds] = useState(0);
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setSeconds((prevSeconds) => prevSeconds + 1);
-      }, 1000);
-      return () => clearInterval(interval);
-    }, []);
-    return <div>Seconds: {seconds}</div>;
-  }
-  export default Timer;
-  ```
-3. Memoization Hooks:
+
+1. Memoization Hooks:
 - `useMemo`: Memorizes a value based on dependencies.
   ```jsx
   import React, { useMemo } from 'react';
@@ -101,29 +86,6 @@
   export default Parent;
   ```
 
-3. Effect Hooks (`useEffect` and `useLayoutEffect`):
-```jsx
-import React, { useEffect, useLayoutEffect, useState } from 'react';
-function ExampleComponent() {
-  const [count, setCount] = useState(0);
-  useEffect(() => {
-    // Runs after every render
-    console.log('Effect triggered');
-    document.title = `Count: ${count}`;
-  });
-  useLayoutEffect(() => {
-    // Runs synchronously after render but before painting
-    console.log('Layout effect triggered');
-  });
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-    </div>
-  );
-}
-export default ExampleComponent;
-```
 4. Memoization Hooks (`useMemo` and `useCallback`):
 ```jsx
 import React, { useState, useMemo, useCallback } from 'react';
@@ -400,60 +362,3 @@ export default UserList;
 - **简化数据请求**：减少手动管理请求状态和错误处理的工作量。
 - **提升性能**：通过缓存和重新请求机制减少重复的数据获取。
 - **自动化管理**：自动管理数据的生命周期、请求状态、错误处理和数据同步。
-
-`useQuery` 是 `react-query` 的核心之一，它让复杂的异步数据处理变得更加简单和优雅，是 React 现代化开发中非常受欢迎的工具。
-
-
-I'd be glad to provide a comprehensive explanation of the code snippet you provided, incorporating insights from the ratings and addressing potential issues:
-
-**Code Breakdown:**
-
-JavaScript
-
-```
-const { data, isLoading, isError } = useQuery({
-  queryKey: ["user", currentUser?.id, "followInfo"],
-  queryFn: () => getAllFollowersAndFollowings(currentUser?.id),
-  enabled: !!currentUser,
-  staleTime: 1000 * 60 * 20,
-});
-```
-
-**Explanation:**
-
-1. **`useQuery` from `react-query`**: This Hook is used to fetch and manage data in React applications. It returns an object with the following properties:
-    
-    - **`data`**: The fetched data.
-    - **`isLoading`**: Indicates if the data is currently being fetched.
-    - **`isError`**: Indicates if an error occurred during data fetching.
-2. **`queryKey`**: An array of strings that uniquely identifies the query. In this case, it consists of:
-    
-    - `"user"`: A general identifier for user-related data.
-    - `currentUser?.id`: The ID of the current user, if available.
-    - `"followInfo"`: Indicates that the query is related to follow information.
-3. **`queryFn`**: A function that fetches the data. In this case, it calls `getAllFollowersAndFollowings(currentUser?.id)` to retrieve the follow information for the current user.
-    
-4. **`enabled`**: A boolean value that determines whether the query should be executed. It's set to `!!currentUser`, which means the query will only be executed if `currentUser` is not null or undefined.
-    
-5. **`staleTime`**: The time in milliseconds after which the cached data is considered stale. In this case, it's set to 20 minutes (1000 * 60 * 20).
-    
-
-**Key Points:**
-
-- The `queryKey` is essential for caching and invalidation. By using a unique key, React Query can efficiently manage data fetching and updates.
-- The `enabled` option allows you to conditionally execute the query based on certain conditions, such as whether the user is logged in.
-- The `staleTime` option controls how long the cached data remains valid before being refetched.
-
-**Potential Improvements:**
-
-- Consider adding a `refetchOnWindowFocus` option to automatically refetch data when the user switches back to the tab or window.
-- If you need more granular control over data fetching and caching, explore other options provided by `react-query`, such as `select`, `useIsFetching`, and `useQueryClient`.
-- For complex data fetching scenarios, consider using a data fetching library like `swr` or `react-apollo` in conjunction with `react-query`.
-
-**Additional Notes:**
-
-- Make sure you have `react-query` installed in your project.
-- The `getAllFollowersAndFollowings` function should be defined elsewhere in your code and handle the actual data fetching logic.
-- You might want to add error handling and loading indicators to provide a better user experience.
-
-By understanding these aspects, you can effectively use `useQuery` in your React applications to manage data fetching and caching efficiently.

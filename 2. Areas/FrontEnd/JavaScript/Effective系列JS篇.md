@@ -381,4 +381,3 @@ function Person({ name, age, city, country }) {
 
 注释：使用函数组件和解构来简化代码，同时避免了状态的复杂性。
 
-希望这可以为您提供更多启示并且使您在编写 JavaScript 和 React 代码时具有良好的风格。

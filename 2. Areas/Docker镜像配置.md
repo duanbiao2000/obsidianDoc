@@ -1,12 +1,8 @@
 ---
 aliases: 
-<<<<<<< HEAD:Extras/配置类/Docker镜像配置.md
-theme: 
-priority: false
-=======
+
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes):2. Areas/Docker镜像配置.md
 tags:
 ---
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240920102749.png)

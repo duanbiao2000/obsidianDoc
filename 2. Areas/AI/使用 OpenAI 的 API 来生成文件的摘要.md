@@ -56,7 +56,6 @@ def rename_files_in_directory(directory):
                     new_file_path = os.path.join(directory, new_filename)
                     os.rename(file_path, new_file_path)
                     print(f"Renamed {filename} to {new_filename}")
-
 if __name__ == "__main__":
     directory = "@dailyNotes"
     rename_files_in_directory(directory)

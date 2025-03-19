@@ -1,4 +1,4 @@
-好的，很乐意为您提供一份使用 Next.js 和具体技术栈构建企业网站的完整细致的产品需求文档 (PRD)。
+提供一份使用 Next.js 和具体技术栈构建企业网站的完整细致的产品需求文档 (PRD)。
 
 **企业网站产品需求文档 (PRD)**
 
@@ -79,8 +79,6 @@
     - **缓存：** **Redis (或 Memcached)** - 用于缓存热点数据，提升网站性能和响应速度。
     - **日志：** **Winston (或 Morgan, Bunyan)** - 用于 Node.js 后端日志记录和管理。
 - **4.3 开发工具**
-    
-    - **代码编辑器：** **VS Code** - 流行的代码编辑器，功能强大，插件丰富，对 JavaScript, React, Node.js 等技术栈支持良好。
     - **版本控制：** **Git + GitHub/GitLab/Bitbucket** - 用于代码版本管理和团队协作。
     - **包管理器：** **npm 或 yarn 或 pnpm** - 用于 JavaScript 包依赖管理。 pnpm 在性能和磁盘空间优化方面更有优势。
     - **数据库管理工具：** **DataGrip (或 Navicat, DBeaver, MongoDB Compass)** - 用于数据库管理和数据查看。
