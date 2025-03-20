@@ -38,4 +38,6 @@ To apply these principles:
 6. Embrace responsibility by reflecting on mistakes as opportunities for growth rather than failure.
 
 James Sullivan's six discipledges emphasize the importance of cultivating curiosity, initiative, imagination, creativity, innovation, and accountability in self-directed learning journeys. These principles help individuals take ownership of their education while fostering personal growth through exploration, artistic expression, critical thinking, and accountable reflection on their experiences.
-在这句话中，单词"artistic"的含义是指与艺术创作或美学表达相关的。这句话提到的"artistic expression"指的是通过艺术形式进行自我表达，比如绘画、音乐、写作等，来促进个人的成长和发展。中文解释为：艺术表达，即通过艺术的方式来表达个人的想法和情感。
+在这句话中，单词"artistic"的含义是指与艺术创作或美学表达相关的。
+"artistic expression"指的是通过艺术形式进行自我表达，比如绘画、音乐、写作等，来促进个人的成长和发展。
+中文解释为：艺术表达，即通过艺术的方式来表达个人的想法和情感。

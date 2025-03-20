@@ -3,12 +3,6 @@ aliases: null
 updateAt: 2025-03-15 10:17
 ---
 
-20230715 1204
-links: [ React文档](https://zh-hans.react.dev/learn/your-first-component)
-title: React官方文档
-origin:
-tags: #Mindset/Reflection
-
 [React 官方中文文档](https://zh-hans.react.dev/)
 
 从阅读官网文档的角度学习 React 生态链,我推荐的学习顺序和相关链接如下:

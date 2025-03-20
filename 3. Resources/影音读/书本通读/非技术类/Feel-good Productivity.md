@@ -13,7 +13,9 @@ high_priority: false
 
 ## creating your own personalized productivity toolkit
 >
-> What effect does this have on my mood? On my energy? On my productivity? Don't rote-learn your way to feel-good productivity. Experiment your way.
+> What effect does this have on my mood? On my energy? On my productivity? 
+> Don't rote-learn your way to feel-good productivity. 
+> Experiment your way.
 
 > Learning from your failures and celebrating your successes.
 > Transforming your work from a drain on your resources to a source of energy.
