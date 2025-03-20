@@ -4,7 +4,6 @@
  [[1. Projects/电商传媒/快速加入图标、动画等元素|快速加入图标、动画等元素]]
  [[1. Projects/电商传媒/文艺呆与科技宅|文艺呆与科技宅]]
  [[1. Projects/电商传媒/自媒体要素分析|自媒体要素分析]]
- [[1. Projects/电商传媒/AI-assisted task management|AI-assisted task management]]
  [[1. Projects/电商传媒/AI项目详细指导|AI项目详细指导]]
  [[1. Projects/电商传媒/AI主题自媒体内容设计|AI主题自媒体内容设计]]
  [[1. Projects/电商传媒/No B.S. Time Management for Entrepreneurs|No B.S. Time Management for Entrepreneurs]]
