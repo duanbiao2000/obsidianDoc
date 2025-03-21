@@ -1,10 +1,11 @@
 ---
-aliases: null
-theme: null
+aliases: 
+theme: 
 priority: false
 date_created: 2024-12-12 12:21
-date_update: null
-tags: null
+date_update: 
+tags: 
+rate: 8
 ---
 
 [![Cover image for My 2024 Good Links List](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fieick8hlch9i447ja461.png)](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fieick8hlch9i447ja461.png)
@@ -192,4 +193,3 @@ tags: null
 💡 **Want us to work together?**
 <!--SR:!2025-03-21,4,270-->
 
-Feel free to reach out on [Twitter](https://twitter.com/cyprianaarons) or visit my [website](https://cyprianaarons.com/) for more resources and support. Let's build something amazing together! 🌟
