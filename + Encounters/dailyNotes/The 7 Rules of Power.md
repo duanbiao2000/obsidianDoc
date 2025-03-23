@@ -10,11 +10,12 @@ tags:
 # The 7 Rules of Power: Getting Things Done and Advancing Your Career
 以下是一些在来源中指出的 **often-unacknowledged 的事实**：
 - **仅仅做好工作 (performance) 是不够的；为了职业发展和实现工作目标，你需要主动向有权力的人争取你想要和需要的，并且需要奉承上级、相信自己并以有权力的方式行动和说话、建立人脉和支持系统，以及在面对反对和冲突时巧妙地选择战斗的时机和方式**.
-- **许多关于领导力的传统智慧与人类行为社会心理学的研究结果脱节，因此人们常常对实际发生的事情以及看似违反传统智慧的行为的有效性感到惊讶**.
-- **许多关于权力的书籍和研究在本质上对运用使人更有权力的方法持矛盾态度**.
-- **政治领域常常出现一方掌握华丽的辞藻，而另一方则拥有实际权力的情况**.
-- **尽管人们经常谈论权力动态的变化，但基本的权力运作方式并没有发生根本性的改变**.
-- **那些最强烈倡导真实和透明的人，往往最不具备这些品质**.
+- 许多关于领导力的传统智慧与人类行为社会心理学的研究结果脱节，因此人们常常对实际发生的事情以及看似违反传统智慧的行为的有效性感到惊讶.
+- 许多关于权力的书籍和研究在本质上对运用使人更有权力的方法持矛盾态度.
+- 政治领域常常出现一方掌握华丽的辞藻，而另一方则拥有实际权力的情况.
+- 尽管人们经常谈论权力动态的变化，但基本的权力运作方式并没有发生根本性的改变.
+- 
+- ? **那些最强烈倡导真实和透明的人，往往最不具备这些品质**.
 - **权力很少是成功的唯一来源，但它可以帮助放大个人的表现和才能；优秀的业绩需要被注意到才能发挥作用，权力与业绩结合才能取得更大的成就**.
 - **人们未能实现目标或在竞争中失利的一个原因是他们不愿意做获胜所需的事情，包括他们自己设置的限制**.
 - **当人们了解权力时，他们通常会经历否认、愤怒、悲伤和接受等阶段；最初的反应往往是否认这些原则的有效性**.
@@ -72,43 +73,11 @@ Common Communication Obstacles (Chapter 6):
 - Not Letting Others Speak: Submitting in conversations and allowing others to dominate without expressing your own opinion. You have the same right to speak as others
 - Losing Focus: Becoming easily distracted when listening, showing impatience non-verbally, and not concentrating on what others are saying.
 - Interrupting: This is highlighted as the main verbal factor behind irritation and unsuccessful conversations. Conversations should resemble talking on a walkie-talkie, where only one person transmits at a time.
-
 在这句话中，“outward” 用作形容词，意指“外表的”或“表面的”。整个短语“outward appearance”可以理解为“外表”，指的是一个人的外在形象，如着装、打扮等给人的第一印象。
-### Meta Model:
-Understanding Metaprograms: Chapter 16 introduces the concept of metaprograms, which are different ways people filter information. Recognizing these mental filters allows for tailoring messages to have a greater impact
 
-Meta Model: Chapter 17 discusses the Meta Model as a tool for clarifying language, understanding deep structures of thought, and challenging limiting beliefs
-
-好的，以下是一些从来源中提取的关于**隐喻**的例子：
-
-- **“Effective communication is like an engine oil that makes your life run smoothly, getting you wherever you want to be.”** 在这里，作者使用“引擎油”这个隐喻来比喻有效的沟通，强调其对生活的润滑和推动作用。
-    
-- **“Every human has their own map of reality, which is not actual reality.”** 本书的核心概念之一就是将每个人的认知和理解比作一张“地图”，强调这张“地图”并非真实的世界本身，而是个体通过经验、信念和价值观等过滤后形成的。这是一个贯穿本书的重要隐喻。
-    
-- **“These glasses can be black and a source of unhappiness, but they can also be colorful, which will make your life much more passionate and much easier.”** 作者用“有色的眼镜”来比喻人们的“心理过滤器”或信念系统，说明不同的信念会如何影响我们对世界的感知和体验。
-    
-- **“When your partner does not call you for a long time, you can feel anger and accuse them that they don’t care about you. However, if you look deeply at the real cause of your anger, you could realize that you simply need more love signals from your partner. Subconsciously, you decided to treat the stimulus (no phone call) as…”** 虽然这里没有直接的单一隐喻，但“love signals”（爱的信号）可以被视为一个隐喻，代表了伴侣间表达关爱和重视的行为。
-    
-- **“Suppressions of emotional expression does not contribute to reduction of experienced emotional intensity, but rather sooner or later erupt like a lethal volcano.”** 作者使用“致命的火山”来比喻被压抑的情绪，强调它们最终会以强烈且具有破坏性的方式爆发出来。
-    
-- **“A good retort usually goes outside the box in which a message preceding the retort is set.”** 这里用“盒子”来比喻对话或思维的框架，说明好的反驳常常是出人意料、打破常规的。
-    
-- **“Meta Model are these filters of perception, which decide how we develop specific, individual thinking patterns in our brains. They are a little bit like club bouncers, defining which information will be let in and which won’t be allowed to enter.”** 作者使用“夜总会保镖”这个隐喻来解释“元模式”如何筛选信息，影响我们的思维方式。
-    
-- 正如我们之前讨论的，**“My business is not taking off!”** 是一个比喻生意停滞不前的例子，作者建议通过回应这个“飞行”的隐喻来引导对方思考。
-    
-- 第70页提到的例子，**将一个认为“一切都很困难”的朋友比作生活中一事无成的人**，以此来反驳“学习语言很难”的信念，也是一种类比隐喻。
-    
-
-这些例子展示了作者在解释复杂的沟通概念、人的认知方式以及情绪运作时，如何运用生动的隐喻来帮助读者理解和记忆。通过将抽象的概念与具体的形象联系起来，隐喻使得沟通更加有效和引人入胜。
-
-Basis for Behavior: Our mental maps influence our behaviors and reactions. As the book explains, "everyone is right according to their own map of the world"11. People act based on their understanding of reality, even if that understanding differs from yours12. Our reactions are often a reflection of who we think we are and what we believe about the world
-
-###   handling difficult people
+### Handling difficult people
 Based on the sources, handling difficult people is a crucial aspect of effective communication, particularly in professional settings. The book emphasizes several key principles and strategies for managing interactions with individuals exhibiting challenging behaviors.
-
 **General Principles for Handling Difficult People:**
-
 - **Avoid trying to change them**. Their behavior patterns are often deeply rooted, and unless you are a trained psychotherapist, attempts to change them are likely to be ineffective and potentially harmful. The focus should be on managing your own reactions and setting boundaries.
 - **Set your boundaries**. Clearly communicate what behavior you will and will not accept, including disrespect, shouting, or pathological arguments. Be prepared to remove yourself from the situation if necessary and wait until they have calmed down to talk more temperately. Condition others on how to treat you and don't settle for less than you deserve.
 - **Remember different mental maps and positive intentions**. Recognize that there is likely a reason behind their annoying actions, even if you don't agree with their viewpoint. Empathy can help de-escalate situations. Try to think, "They are innocent and they did the best they could in their current situation". Even if they aren't innocent, this perspective can lead to better understanding and communication. Don't take their behavior personally; it often reflects their own level of self-development, emotional intelligence, and current life circumstances.
@@ -121,127 +90,69 @@ Based on the sources, handling difficult people is a crucial aspect of effective
 - **Learn how to fully disengage** physically (exercise), mentally (analyze objective facts, your role, their role, and your options), and verbally (remember different maps and positive intentions) after dealing with a difficult person.
 
 **Specific Types of Difficult People and How to Cope:**
-
 - **The Moralizer:** Avoid this irritating and ineffective communication style.
 - **People Who Don't Let You Speak:** Assert your right to speak politely and change the subject if someone is overwhelming you. Use the phrase **"So, you're telling me..."** to politely interrupt and redirect talkative individuals.
 - **Passive-Aggressive People (The Snipers):** Call them out publicly on their abusive behavior. Use a three-step approach: **repeat what they said, clarify their behavior, and ask a closed question** to confirm or deny their intentions. Be prepared for them to become awkward or defensive. If they admit to insulting you, ask "Interesting, why would you do that?". Remember that people who ask more questions have more perceived power.
+- 
 - **Nosy and Challenging People:** Use the **persistent broken record technique** by repeatedly asking questions like, "Why would you ask that?" and "Are you always this curious?" followed by "What were we talking about?" to frustrate them and get them off their track.
+- 
 - **"Judges":** **Repeat their judgment while super-exaggerating it and then ask a distorted clarifying question**. Follow with a three-second look and change the topic.
+- 
 - **"The Exploder":** **"Do the Unexpected"** by initially agreeing with them and finding a nugget of rationality in their anger. Once they calm down, you can disagree constructively, potentially blaming someone else and asking for their solution.
 - **"The Diverter":** Use the simple script: **"The subject here is not XYZ; the subject is..."** to bring the conversation back on track.
 - **"The Steamroller (or Tank)":** Let them run down initially, then interrupt assertively and call them on their behavior. Maintain eye contact, stay calm, speak loudly enough, and state your opinion using facts, but avoid arguing. Try to get them to sit down and end the conversation as soon as possible.
 - **"The Complainer":** Listen and acknowledge their problem briefly, then interrupt politely and confidently. Provide facts if necessary and, in professional settings, shift the focus to problem-solving and assign them specific tasks. Finish the conversation as soon as possible. Show empathy if their complaints seem legitimate.
-
 **Staying on Track:**
-
 When dealing with difficult people who try to derail your conversation, presentation, or ideas, use the three universal skeleton-key phrases before repeating your point: **"That may be, but..."**, **"I understand, however..."**, and **"I see your point and..."**. This "broken record" technique shows persistence. Avoid using this with people higher in the hierarchy.
 
-The book emphasizes that while these strategies are helpful, they are not magic bullets. Practice and adapting them to different individuals and situations are key. Ultimately, changing your own behavior and understanding how you might be inadvertently rewarding difficult behavior is the most effective long-term approach.
-
 设定明确的界限：
-
-•
-
-清晰表达你的底线： 明确告知对方哪些行为是你不能接受的，例如：“我不接受别人对我大喊大叫。如果你继续提高音量，我将结束这次对话。”1
-
-•
-
-后果告知： 让对方知道如果他们越过界限会发生什么，例如：“如果你再用这样的语气说话，我将不得不离开。”1
-
-•
-
-坚持你的界限： 一旦设定了界限，就要坚决执行。如果他们越界，就按照你之前告知的去做。1
-
+清晰表达你的底线： 明确告知对方哪些行为是你不能接受的，例如：“我不接受别人对我大喊大叫。如果你继续提高音量，我将结束这次对话。”
+后果告知： 让对方知道如果他们越过界限会发生什么，例如：“如果你再用这样的语气说话，我将不得不离开。”
+坚持你的界限： 一旦设定了界限，就要坚决执行。如果他们越界，就按照你之前告知的去做。
 有效沟通技巧：
-
-•
-
-专注于行为而非人身攻击： 不要说“你是个骗子！”，而是说“我们都知道刚才说的与事实不符。”2
-
-•
-
-使用被动语态减少对抗： 与其说“你需要今天完成这份报告！”，不如说“我需要在今天结束前完成这份报告！”2
-
-•
-
-保持简洁： 与难缠的人沟通时，尽量让你的信息简短明了，避免长篇大论。2
-
-•
-
-使用“卡壳唱片”技巧： 坚持重复相同的短语或句子，以表明你不会被转移注意力，例如，在面对一个试图转移话题的人时，不断重复“我们现在讨论的是这个项目，而不是你在之前公司的工作方式。”3...
-
-•
-
+专注于行为而非人身攻击： 不要说“你是个骗子！”，而是说“我们都知道刚才说的与事实不符。”
+使用被动语态减少对抗： 与其说“你需要今天完成这份报告！”，不如说“我需要在今天结束前完成这份报告！”
+保持简洁： 与难缠的人沟通时，尽量让你的信息简短明了，避免长篇大论。
+使用“卡壳唱片”技巧： 坚持重复相同的短语或句子，以表明你不会被转移注意力，例如，在面对一个试图转移话题的人时，不断重复“我们现在讨论的是这个项目，而不是你在之前公司的工作方式。”
 使用“困难人物银弹”：
-
-◦
-
-边界声明： 提供有限的选择，例如：“您是想等冷静下来再谈，还是先喝杯茶？”5
-
-◦
-
-赋能声明： 给他们一个暂停的机会，例如：“您需要几分钟时间再继续我们的谈话吗？”5
-
-◦
-
-“先发制人”： 提前告知对方你将要说的话可能会让他们不快，例如：“史密斯先生，非常抱歉，我知道这会让你非常沮丧，但你的车今天修不好。”5
-
-◦
-
+边界声明： 提供有限的选择，例如：“您是想等冷静下来再谈，还是先喝杯茶？”
+赋能声明： 给他们一个暂停的机会，例如：“您需要几分钟时间再继续我们的谈话吗？”
+“先发制人”： 提前告知对方你将要说的话可能会让他们不快，例如：“史密斯先生，非常抱歉，我知道这会让你非常沮丧，但你的车今天修不好。”
 有效肯定： 即使是对难缠的人，也要尝试表达理解（但不要说“我完全理解你的感受”），例如：“我明白你为什么会生气。”
 ### metaprograms
 根据文本，其中提到了以下几种元程序 (metaprograms)：
-
 - **动机模式：趋近/规避 (Motivation From-To)**：这种元程序描述了人们如何激励自己。“**趋近 (TO)**”模式的人专注于目标和想要实现的事物，而“**规避 (FROM)**”模式的人则更受避免问题和负面结果的驱动。
 - **关注点模式：相似/差异 (Similarities-Differences)**：这种元程序强调了人们主要关注不同情境中的“**相似之处 (similarities)**”还是“**不同之处和新事物 (differences)**”。
 - **选择/步骤 (Options/Procedures)**：这种元程序区分了喜欢拥有“**选择 (choices)**”和能够影响过程的人，以及更喜欢遵循既定“**步骤和模板 (procedures)**”的人。
 - **概括/细节 (General/Detailed)**：这种元程序描述了个人倾向于关注“**整体情况和概念 (general)**”，还是更注重问题的“**具体要素和细节 (detailed)**”。
 - **权威来源：内部/外部 (Internal/External Authority)**：这种元程序指的是人们在哪里寻找“**认可和肯定 (validation)**”。拥有“**内部权威 (internal authority)**”的人依赖自己的判断，而拥有“**外部权威 (external authority)**”的人则寻求他人的认可和指导。
 - **利益关注：自我/他人 (Me/Others)**：这种元程序关注主要考虑谁的利益。“**自我 (me)**”模式的人优先考虑自身的利益，而“**他人 (others)**”模式的人主要关注他人的利益。
-
 文本解释了如何通过观察人们的行为和语言来识别这些元程序，以及如何通过针对他们的特定过滤器调整你的信息，从而更有效地沟通和影响他人。 
-
 根据源文件中的信息，并没有一个专门章节或部分概述“**高效的元程序组合**”。文本主要强调**理解和识别个体的 dominant 元程序**，以便调整你的沟通方式，从而建立更好的融洽关系和影响力。
-
 然而，我们可以从文本中推断出一些潜在有效的方式，将对不同元程序的理解结合起来，以增强沟通：
-
 - **为了说服和激励：**
-    
     - 如果你试图说服一个具有“**趋近 (To)**”动机模式的人采纳一个新的流程（迎合他们对“**步骤 (Procedures)**”的偏好），你可以将这个流程构建成实现他们目标的清晰“**途径 (to)**”。
     - 当向一个关注“**差异 (Differences)**”的人展示一个创新想法时，你也可以强调潜在的“**趋近 (To)**”益处以及他们在采纳新事物方面的“**内部权威 (Internal Authority)**”。
     - 为了激励一个团队，你可以从他们能够“**趋近 (To)**”实现的目标和他们能够“**规避 (From)**”的问题两个方面来构建目标，从而迎合更广泛的动机模式。
 - **为了建立融洽关系：**
-    
     - 在初次交谈中，匹配对方对“**相似 (Similarities)**”的关注点有助于建立共同的基础。一旦建立了融洽关系，你就可以引入“**差异 (Differences)**”来激发他们对新想法的兴趣。
     - 如果有人表现出对“**细节 (Details)**”的偏好，提供具体的例子和数据可能比仅仅呈现“**概括 (General)**”的概述更有效，这表明你关注他们处理信息的方式。
 - **为了领导和团队动态：**
-    
     - 识别团队成员倾向于“**内部 (Internal)**”还是“**外部权威 (External Authority)**”有助于委派任务和提供反馈。具有“**内部权威**”的人可能更欣赏自主性，而具有“**外部权威**”的人可能更看重明确的指导和外部认可。
     - 理解团队内部的“**自我/他人 (Me/Others)**”关注点有助于以能够引起团队成员个人共鸣的方式构建奖励和认可机制。
-
 **关键要点：** 虽然源文件没有给出具体的“组合”，但它强调在特定情境中**保持灵活和善于观察**，以识别个体的元程序集合的重要性。有效性来自于**调整你的沟通**以符合他们特定的过滤器，而不是将固定的元程序组合应用于所有人。
-
 因此，“**有效的策略**”是**敏锐地察觉**个体可能表现出的各种元程序之间的相互作用，并相应地调整你的沟通，以创建更好的理解并实现你的沟通目标。你可能从匹配他们主要的元程序开始，然后根据情况和他们的反应微妙地调整你的方法。
-
 ### 直接营销
-
-
-
 好的，当然！这里列举一些简单又有效的营销方法，希望能帮助你：
-
 **简单有效的营销方法：**
-
 **1. 口碑营销 (Word-of-Mouth Marketing):**
-
 - **简单描述:** 让你的客户帮你宣传！满意的客户会向朋友、家人推荐你的产品或服务。
 - **有效性:** 口碑推荐是最有力的营销方式之一，因为人们更信任朋友和熟人的推荐，而不是广告。
 - **如何操作:**
     - **提供优质的产品和服务:** 这是口碑营销的基础，只有让客户满意，他们才会愿意帮你宣传。
     - **鼓励客户分享体验:** 例如，在社交媒体上分享使用产品的照片、撰写评价、参与用户社区等。
     - **奖励推荐行为:** 提供优惠券、折扣或礼品给推荐新客户的老客户。
-
 **2. 内容营销 (Content Marketing):**
-
 - **简单描述:** 通过创建有价值、有趣的内容（例如文章、博客、视频、信息图表）来吸引潜在客户，并建立信任和品牌权威。
 - **有效性:** 内容营销不直接推销产品，而是通过提供有价值的信息来吸引目标受众，建立长期关系，最终促成销售。
 - **如何操作:**
@@ -250,9 +161,7 @@ The book emphasizes that while these strategies are helpful, they are not magic 
     - **创建高质量的内容:** 内容要原创、有价值、有趣，能够解决用户的问题或满足他们的需求。
     - **定期发布内容:** 保持内容的持续更新，让受众知道你在活跃，并持续提供价值。
     - **优化内容以进行搜索引擎优化 (SEO):** 让你的内容更容易被搜索引擎找到，吸引更多潜在客户。
-
 **3. 社交媒体营销 (Social Media Marketing):**
-
 - **简单描述:** 利用社交媒体平台（如微信、微博、抖音、快手、小红书等）与你的目标受众互动，提升品牌知名度，并促进销售。
 - **有效性:** 社交媒体用户群体庞大，是接触潜在客户的有效渠道。社交媒体营销成本相对较低，效果可衡量。
 - **如何操作:**
@@ -262,9 +171,7 @@ The book emphasizes that while these strategies are helpful, they are not magic 
     - **积极与粉丝互动:** 回复评论、私信，参与话题讨论，建立社区感。
     - **利用社交媒体广告:** 付费推广内容，精准触达目标受众。
     - **举办线上活动:** 抽奖、促销、问答等活动，增加用户参与度和互动性。
-
 **4. 电子邮件营销 (Email Marketing):**
-
 - **简单描述:** 通过电子邮件与客户沟通，发送促销信息、新闻资讯、客户关怀等，维护客户关系，促进重复购买。
 - **有效性:** 电子邮件营销可以直接、个性化地触达客户，成本低，效果可追踪。
 - **如何操作:**
@@ -273,9 +180,7 @@ The book emphasizes that while these strategies are helpful, they are not magic 
     - **撰写吸引人的邮件内容:** 邮件主题要醒目，内容要简洁明了、有价值。
     - **定期发送邮件:** 保持一定的发送频率，但不要过于频繁，以免引起反感。
     - **分析邮件营销效果:** 追踪邮件打开率、点击率、转化率等指标，不断优化邮件营销策略。
-
 **5. 本地化营销 (Local Marketing):**
-
 - **简单描述:** 如果你的业务面向本地客户，可以专注于本地营销，例如参与本地活动、赞助社区组织、在本地媒体投放广告等。
 - **有效性:** 本地化营销可以更精准地触达本地潜在客户，建立本地社区 связи，提升本地知名度和信任度。
 - **如何操作:**
@@ -284,15 +189,9 @@ The book emphasizes that while these strategies are helpful, they are not magic 
     - **与本地企业合作:** 与其他本地企业进行交叉推广，扩大影响力。
     - **利用本地媒体:** 在本地报纸、电台、电视台、本地网站等投放广告。
     - **优化本地搜索引擎优化 (Local SEO):** 让你的业务更容易在本地搜索引擎结果中被找到，例如优化 Google My Business 等。
-
 **简单有效营销的关键在于：**
-
 - **聚焦目标受众:** 了解你的目标受众是谁，他们在哪里，他们需要什么。
 - **持续提供价值:** 无论是产品、服务还是内容，都要能够为你的受众提供真正的价值。
 - **保持一致性:** 营销活动要保持一致性，定期更新、持续沟通。
 - **数据驱动优化:** 追踪营销效果，分析数据，不断优化你的营销策略。
-
 希望这些简单有效的营销方法能给你带来启发！选择适合你的业务和资源的策略，并坚持执行，相信你会看到效果的！
-## 每日一图
-// Random picture with size and query
-![photo by Vincent van Zalinge(https://unsplash.com/@vincentvanzalinge?utm_source=templater_proxy&utm_medium=referral) on Unsplash](https://images.unsplash.com/photo-1506333438925-a6203045b492?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2NDU1OTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNTQzNTR8&ixlib=rb-4.0.3&q=85&w=800&h=800)

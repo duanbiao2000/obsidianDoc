@@ -1,12 +1,9 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
+
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+
 tags:
 ---
 在使用 Jest 进行测试时，`@jest/globals` 提供了全局的 Jest 测试工具，包括 `expect`、`test`（或 `it`）、`describe` 等。这些工具可以帮助你编写和运行单元测试。下面是一个简单的示例，展示如何使用 `expect` 和其他 Jest 工具来编写测试。

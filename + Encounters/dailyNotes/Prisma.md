@@ -51,5 +51,4 @@ model Post {
 在这个例子中，`generator` 块指定了使用 `prisma-client-js` 来生成客户端代码。一旦你运行了 Prisma 的生成命令（通常是 `npx prisma generate` 或者 `yarn prisma generate`），Prisma 就会根据你的数据模型自动生成 JavaScript/TypeScript 客户端代码，这些代码可以用来执行对数据库的操作，比如查询用户信息或者发布文章等。
 - [[+ Encounters/dailyNotes/GraphQL]]
 - [[GraphQL Apollo Prisma]]
-- [[GraphQL关系梳理]]
 - [[GraphQL简介]]

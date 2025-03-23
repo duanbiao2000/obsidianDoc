@@ -52,8 +52,3 @@ Logstash 的核心组件包括：
 ### 总结
 
 Logstash 是一个功能强大、灵活的日志管理工具，可以帮助你轻松地收集、解析和传输日志数据，为后续的数据分析和可视化提供基础。如果你需要对大量的日志数据进行管理和分析，Logstash 是一个非常不错的选择。
-
-**想了解更多关于 Logstash 的信息，可以参考官方文档：** [https://www.elastic.co/guide/en/logstash/current/index.html](https://www.elastic.co/guide/en/logstash/current/index.html)
-
-**你对 Logstash 有哪些具体的问题吗？** 比如，你想了解如何安装 Logstash，如何配置过滤器，或者如何将日志数据发送到 Elasticsearch？
-

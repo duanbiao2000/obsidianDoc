@@ -61,7 +61,7 @@ for i in count(5):
 
 2. **Living Moment-to-Moment**:
    - Focus on the present moment when coding – don't dwell on past mistakes or worry about future challenges.
-   - Write, test, and debug code as if you're experiencing each step for the first time.
+   - **Write, test, and debug code as if you're experiencing each step for the first time.**
 
 Example:
 

@@ -1,14 +1,4 @@
----
-aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
-categories: 
-high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
-tags:
----
+
 1. 明确目标与计划：顶尖学生与运动员一样，有明确的日常计划和目标，不留空间给过度思考。
 2. 专注力训练：如运动员训练耐力，顶尖学生训练的是“专注耐力”。逐渐延长专注时间，用计时器跟踪每次深度学习的持续时间。
 3. 认知负荷：有效学习需要适当的“认知负荷”，确保学习任务既不太简单也不太复杂，找到适合自己的挑战点。
