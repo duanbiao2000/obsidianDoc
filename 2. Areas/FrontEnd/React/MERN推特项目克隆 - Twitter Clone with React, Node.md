@@ -1,12 +1,9 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
+
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+
 tags:
 ---
 # Mongoose标准流程

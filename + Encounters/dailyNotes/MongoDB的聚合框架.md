@@ -14,99 +14,6 @@ MongoDB 的聚合框架是一个强大的工具，用于处理和分析数据。
 
 ### 常见的聚合阶段
 
-以下是一些常见的聚合阶段及其用途：
-
-#### 1. `$match`
-用于过滤文档，类似于 SQL 中的 `WHERE` 子句。
-
-```javascript
-{
-  $match: {
-    age: { $gt: 18 }
-  }
-}
-```
-
-#### 2. `$project`
-用于指定要包含或排除的字段，并可以对字段进行重命名或计算新字段。
-
-```javascript
-{
-  $project: {
-    name: 1,
-    age: 1,
-    fullName: { $concat: ["$firstName", " ", "$lastName"] }
-  }
-}
-```
-
-#### 3. `$group`
-用于将文档分组并进行聚合计算，类似于 SQL 中的 `GROUP BY`。
-
-```javascript
-{
-  $group: {
-    _id: "$category",
-    total: { $sum: "$price" },
-    count: { $sum: 1 }
-  }
-}
-```
-
-#### 4. `$sort`
-用于对文档进行排序，类似于 SQL 中的 `ORDER BY`。
-
-```javascript
-{
-  $sort: {
-    age: -1, // 降序
-    name: 1   // 升序
-  }
-}
-```
-
-#### 5. `$limit`
-用于限制返回的文档数量，类似于 SQL 中的 `LIMIT`。
-
-```javascript
-{
-  $limit: 10
-}
-```
-
-#### 6. `$skip`
-用于跳过一定数量的文档，通常与 `$limit` 结合使用，实现分页功能。
-
-```javascript
-{
-  $skip: 10
-}
-```
-
-#### 7. `$unwind`
-用于将数组字段拆分成多个文档，每个文档包含数组中的一个元素。
-
-```javascript
-{
-  $unwind: "$tags"
-}
-```
-
-#### 8. `$lookup`
-用于从另一个集合中获取相关数据，类似于 SQL 中的 `JOIN`。
-
-```javascript
-{
-  $lookup: {
-    from: "orders",
-    localField: "_id",
-    foreignField: "userId",
-    as: "userOrders"
-  }
-}
-```
-
-### 示例
 
 假设我们有一个 `users` 集合，包含用户的姓名、年龄和兴趣爱好。我们希望找到所有年龄大于 18 岁的用户，按年龄降序排序，然后随机选取 10 个用户，并计算他们的平均年龄。
 
@@ -213,21 +120,6 @@ const users = await User.aggregate([
 ]);
 ```
 
-#### 3. 按特定条件筛选并选取
-
-假设你想选取年龄在 18 到 30 岁之间的用户：
-
-```javascript
-const users = await User.aggregate([
-  {
-    $match: {
-      _id: { $ne: userId },
-      age: { $gte: 18, $lte: 30 }, // 年龄在 18 到 30 之间
-    },
-  },
-  { $sample: { size: 10 } }, // 随机选取 10 个
-]);
-```
 
 #### 4. 按地理位置距离选取
 

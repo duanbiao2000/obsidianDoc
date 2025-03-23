@@ -3,6 +3,10 @@ aliases:
 categories: 
 high_priority: false
 tags:
+  - Tech/Database
+  - 向量数据
+  - 超维映射
+  - 概念网络
 ---
 你提供的代码片段展示了如何使用 `Milvus` 作为向量数据库，并配置它以连接到 Milvus 服务器。这段代码使用了 `HuggingFaceEmbeddings` 作为嵌入函数，并设置了连接参数，包括 URI、用户名、密码和安全连接标志。
 

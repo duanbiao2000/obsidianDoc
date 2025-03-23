@@ -8,27 +8,38 @@ categories:
 high_priority: false
 tags:
 ---
+笔记“练习题目practice question”中提到的6层思考指的是布鲁姆的学习认知层次的六个级别，也称为布鲁姆修订分类法。这六个层次从低到高分别是：
+
+1. **记忆 (Remember):**  指简单的回忆或识别先前学过的信息。例如，记住公式、定义或日期。
+2. **理解 (Understand):**  指掌握学习内容的意义，能够用自己的话解释或总结信息。
+3. **应用 (Apply):**  指将学到的知识应用于新的情况或解决问题。
+4. **分析 (Analyze):**  指将信息分解成各个组成部分，识别它们之间的关系和模式。例如，比较和对比不同的观点，找出因果关系。
+5. **评估 (Evaluate):**  指根据标准对信息进行判断，确定其价值、重要性或有效性。例如，评价一个论点的有效性，选择最佳解决方案。
+6. **创造 (Create):**  指将不同的信息综合起来，创造新的想法、产品或解决方案。例如，写一篇研究论文，设计一个实验，提出一个新的理论。
+
+笔记中强调的是，大多数学生停留在较低的认知层次（例如记忆和理解），而更高层次的思考（例如{{分析}}和**评估**）对于学习的有效性和长期记忆至关重要。 通过从更高的[认知层次]开始学习（例如，**先评估信息的重要性，再进行分析和理解**），可以更有效地掌握知识，并提升学习效率。
+
 SUMMARY:
 The video outlines six cognitive levels essential for academic success, advocating for deliberate thinking at higher levels to achieve better results.
 
 IDEAS:
 - Six levels of thinking determine the level of academic outcome.
-- Most students are stuck in lower levels, leading to suboptimal results.
-- Deliberate thinking at the right level is crucial for success.
+- Most students are stuck in lower levels, leading to {{suboptimal}} results.
+- Deliberate thinking **at the right level** is crucial for success.
 - Memorization is the first level and often ineffective for long-term retention.
 - Comprehension is key to moving beyond mere memorization.
 - Application of knowledge is required to solve simple problems.
-- Analysis involves comparing and contrasting information.   比较和对比信息 comparing and contrasting information
-- Evaluation requires judgment and prioritization of knowledge. 
-- Creativity is about synthesizing new information and hypotheses.
+- Analysis involves {{comparing}} and **contrasting** information.   比较和对比信息 comparing and contrasting information
+- Evaluation requires judgment and {{prioritization}} of knowledge. 
+- Creativity is about synthesizing new information and {{hypotheses}}.
 - Higher levels of thinking are less common but more effective.
 - Starting learning at a higher level can improve retention and understanding.       higher level 更高层级的学习
-- The traditional bottom-up learning approach may not be the most efficient.  传统自下而上的学习不是最优方案
+- The traditional {{bottom-up}} learning approach may not be the most efficient.  传统自下而上的学习不是最优方案
 
 INSIGHTS:
 - Higher levels of thinking lead to deeper understanding and better retention.
-- Effective learning involves active evaluation and synthesis of information.  信息合成 synthesis of information
-- The traditional learning hierarchy can be reversed for more efficient learning.
+- Effective learning involves active evaluation and [synthesis of information].  信息合成 synthesis of information
+- **The traditional learning hierarchy can be reversed for more efficient learning.**
 - Cognitive levels beyond memorization are often underutilized by students.
 - Learning efficiency can be improved by starting with complex problem-solving.
 
@@ -36,42 +47,18 @@ QUOTES:
 - "Each of these six levels leads to a different level of result."
 - "Most students...struggle to reach top results because they are thinking at the wrong level."
 - "Learning how to think deliberately at the right level is one of the main reasons I was able to achieve top academic results."
-- "The second level of learning is about really trying to comprehend what you are learning."  第二层的学习
-- "Level five is all about Judgment...we're asking so what, what does it matter, who cares, why is it important."
+- "The second level of learning is about really trying to **comprehend** what you are learning."  第二层的学习
+- "Level five is all about **Judgment**...we're asking so what, what does it matter, who cares, **why is it important**."
 
 HABITS:
 - Focus on evaluating information to naturally understand and analyze it.
-- Practice applying knowledge to solve problems as a routine study habit.
-- Use techniques like Venn diagrams and mind maps for analysis.
-- Engage in self-reflection to evaluate the importance and relevance of learned material.
-- Reverse the learning process by starting with complex problem-solving.
-
-FACTS:
-- Bloom's revised taxonomy分类系统, first published in 1956, outlines大概描述 six levels of cognitive learning.
-- Higher education and professional roles often require levels four and five thinking.
-- The brain processes and retains information more effectively at higher cognitive levels.
-- The misinterpreted effort hypothesis can hinder students from achieving higher levels of thinking.
-努力假说 effort hypothesis
-REFERENCES:
-- Bloom's revised taxonomy
-- The concept of knowledge decay 知识衰减 and the forgetting curve
-
-ONE-SENTENCE TAKEAWAY:
-Target higher levels of thinking to enhance learning efficiency, retention, and academic achievement.
-
-RECOMMENDATIONS:
-- Aim for evaluating and analyzing information from the start of your study session.
-- Use active learning techniques that challenge you to think at levels four and five.
-- Reverse traditional learning methods by starting with complex problem-solving.
-- Utilize tools like AI to generate practice questions that target higher cognitive levels.
-- Continuously seek mentorship and learning opportunities to refine your thinking skills. 提炼你的思考技能
+- **Practice applying knowledge to solve problems as a routine study habit.**
+- Use techniques like **Venn diagrams** and mind maps for analysis. 
+> Veen diagram是指文氏圖，用重疊的圓圈來表示集合之間的邏輯關係，例如交集、聯集和差集等。
+- Engage in [self-reflection] to evaluate the importance and {{relevance}} of learned material.
+- Reverse the learning process by **starting with complex problem-solving**.
 
 
-Perplexity:
-
-## SUMMARY
-
-The content discusses six levels of thinking essential for effective learning, presented by an educator emphasizing the importance of higher-order thinking for academic success.
 
 ## IDEAS:
 

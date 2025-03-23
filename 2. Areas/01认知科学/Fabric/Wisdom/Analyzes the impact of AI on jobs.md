@@ -67,7 +67,7 @@ This project analyzes the impact of AI on jobs, identifying resilient categories
 * **Develop In-Demand Skills:** Focus on areas where human intelligence is irreplaceable.
 * **Embrace Lifelong Learning:** Continuously update your knowledge and skills through training and education.
 * **Cultivate Creativity and Innovation:** Explore opportunities to generate new ideas and solutions.
-* **Enhance Communication and Collaboration:** Build strong interpersonal skills and teamwork abilities.
+* **Enhance Communication and Collaboration:** [Build strong interpersonal skills] and teamwork abilities.
 * **Be Proactive and Adaptable:**  Stay informed about industry trends and be willing to embrace change. 
 
 

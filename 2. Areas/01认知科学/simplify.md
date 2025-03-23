@@ -6,7 +6,8 @@ author: Noureddine
 tags: Mindset/Reflection, Action/Writing
 version: 0.0.1
 ---
-content: 
+content:
 {{context}}
 prompt:
 make the content very clear and easy to understand
+<!--SR:!2025-03-25,3,250-->

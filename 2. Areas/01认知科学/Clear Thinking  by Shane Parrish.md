@@ -11,6 +11,7 @@ tags:
 
 - **(01:38)** ==Parrish identifies four major instincts that hinder clear thinking: _emotional, egotistical, gregarious, and inertia instincts._==
   - **Emotional instinct**: Defensiveness and impulsiveness when challenged (02:04).
+<!--SR:!2025-03-25,3,250-->
 
 在这句话中，"instinct"指的是本能。具体来说，"Emotional instinct"指的是情感本能，即人在被挑战时表现出的防御性和冲动性的本能反应。这里的"instinct"强调的是人在特定情境下不经思考就做出的自然反应。
 - **Egotistical instinct**: Overestimating abilities, leading to unnecessary risks (02:46).

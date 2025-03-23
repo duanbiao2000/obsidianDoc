@@ -18,6 +18,7 @@ Use these prompts to get started learning how to code from scratch or simply to 
 At the bottom of this doc is a glossary of high-level terms that you may want to plug into the prompts to learn more.
 
 **Important note**: you _**need**_ to use a high-quality model such as **GPT-4 or Claude Opus** to make this work. ==Using GPT-3.5, Llama, or other similar models will only leave you frustrated and stuck. ==High-end models will generate much better code and explain things much more clearly (and correctly!)
+<!--SR:!2025-03-25,3,250-->
 
 ## Exploring Concepts
 
