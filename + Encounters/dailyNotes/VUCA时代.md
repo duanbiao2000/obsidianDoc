@@ -88,8 +88,3 @@ tags:
 
 ### **结语：成为问题炼金术士**  
 在指数级变化的未来，组织的核心竞争力将越来越体现为**问题重构能力**。这需要领导者具备两种看似矛盾的特质：**海盗般的颠覆勇气**与**园丁般的系统耐心**。正如现代管理学家罗杰·马丁所言：“战略不是选择走哪条路，而是决定哪些路值得被建造。” 通过双环学习，我们不仅能回答时代之问，更将获得重新定义问题的权力——而这，正是VUCA时代最稀缺的生存艺术。
-## 每日一图
-![photo by Lex Melony(https://unsplash.com/@lexmelony?utm_source=templater_proxy&utm_medium=referral) on Unsplash](https://images.unsplash.com/photo-1629971459025-2c73de204a6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2NDU1OTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMjI0ODR8&ixlib=rb-4.0.3&q=85&w=800&h=600)
-
-// Random picture with size and query
-![photo by Karl Fredrickson(https://unsplash.com/@kfred?utm_source=templater_proxy&utm_medium=referral) on Unsplash](https://images.unsplash.com/photo-1489589947464-ac72e1abd198?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2NDU1OTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMjI0ODR8&ixlib=rb-4.0.3&q=85&w=800&h=800)

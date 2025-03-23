@@ -10,14 +10,14 @@ tags:
 总结
 
 <!--more-->
-Based on the video transcript, here are some specific actions you can take daily to improve in the ten key areas identified by Jim Rohn:
+
 
 - **Attitude:**
     
     - Work on being a little more **optimistic**.
     - Work on being a little more **patient**.
     - Focus on being a little more **grateful**.
-    - Focus on being a little more **resilient**.
+    - Focus on being a little more {{resilient}}.
     - Focus on **finding solutions instead of dwelling on problems**.
     - Replace limiting beliefs with **empowering ones**. For example, instead of thinking "I can't do this," think "I'm learning how to do this". Instead of thinking "I'll never be successful," think "I'm on the path to success".
     - Practice gratitude each night.
@@ -32,14 +32,14 @@ Based on the video transcript, here are some specific actions you can take daily
     - Discipline yourself to **exercise even if you don't feel like it**.
     - Discipline yourself to **stay focused on your work without getting distracted**.
     - Make it a habit to **read 10 pages of a good book every day**.
-    - Train yourself to **stick with something until it's done** even when it's hard, boring, or you don't feel like it.
-    - Start small by **finishing one little project at a time**.
+    - Train yourself to **{{stick}} with something until it's done** even when it's hard, boring, or you don't feel like it.
+    - {{Start small}} by **finishing one little project at a time**.
 - **Mindset:**
     
     - Work on replacing **limiting beliefs with empowering ones**.
     - Start **reading a few pages of an uplifting book each morning**.
     - Practice **gratitude each night**.
-    - Shift your focus from **problems to solutions**.
+    - Shift your focus from **problems to solutions**. 将你的注意力从问题转移到解决方案上
 - **Time Management:**
     
     - Work on **setting clear priorities**.
@@ -77,12 +77,5 @@ Based on the video transcript, here are some specific actions you can take daily
     - Take a **small step in the direction of your dreams**.
     - **Align your actions with your values**.
     - Look for ways to **serve others and make a difference**.
-- **Gratefulness:**
-    
-    - Take a moment to **appreciate the people in your life who support you**.
-    - Focus on the **small blessings you often take for granted**: your health, your home, your job.
-    - Show a little **gratitude for the challenges that have helped you grow**.
-    - Each day, **write down one thing you are grateful for**, no matter how small.
-    - Reflect on what you are grateful for, even if it's something small like sunshine or having food on the table.
 
-These are concrete actions derived directly from the video transcript that you can incorporate into your daily routine to work on these ten essential areas for improvement. Remember that consistency in these small actions is key.
+

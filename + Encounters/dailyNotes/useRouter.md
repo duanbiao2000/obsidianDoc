@@ -1,45 +1,46 @@
 ---
 aliases: 
-theme: 
 source: 
 author: 
 createdAt: 
 updateAt: 
-type: 
+categories: 
 high_priority: false
+tags:
 ---
-
-## next/router 与 next/navigation 中 useRouter 的深入对比
+[[React Hooks]]
+## next/router 与 next/navigation 中的 useRouter 
 
 在 Next.js 中，`useRouter` 这个 Hook 虽然名称相同，但在 `next/router` 和 `next/navigation` 中的用法和功能却存在一些细微但重要的区别，这主要是因为 Next.js 13 引入了新的 App Router 架构。
 
 ### 1. 版本兼容性
 
 - **next/router:** 主要用于 Next.js 13 之前的版本，即传统的 Pages Router。
-- **next/navigation:** 专为 Next.js 13 及更高版本设计，与 App Router 深度集成。(新)
+- **next/navigation:** 专为 Next.js 13 及更高版本设计，与 App Router 深度集成。 #Mindset/
 
 ### 2. 功能差异
 
-| 特性                   | next/router         | next/navigation                            |
-| -------------------- | ------------------- | ------------------------------------------ |
-| **导航方法**             | push, replace, back | navigate                                   |
-| **数据获取**             | getInitialProps     | 使用 `getServerSideProps` 或 `getStaticProps` |
-| **路由参数**             | query 对象            | useSearchParams、usePathname                |
-| **类型安全**             | 相对较弱                | 更强，提供更好的类型推断                               |
-| **与 App Router 的集成** | 未集成                 | 深度集成，支持嵌套路由、布局等                            |
-| **其他功能**             | pathname, asPath    | usePathname                                |
+|特性|next/router|next/navigation|
+|---|---|---|
+|**导航方法**|push, replace, back|navigate|
+|**数据获取**|getInitialProps|使用 `getServerSideProps` 或 `getStaticProps`|
+|**路由参数**|query 对象|useSearchParams、usePathname|
+|**类型安全**|相对较弱|更强，提供更好的类型推断|
+|**与 App Router 的集成**|未集成|深度集成，支持嵌套路由、布局等|
+|**其他功能**|pathname, asPath|usePathname|
 
 ### 3. 使用场景
 
 - **next/router:**
-  - 适用于 Next.js 13 之前的项目。
-  - 对于简单的路由操作，如页面跳转、参数传递等。
+    - 适用于 Next.js 13 之前的项目。
+    - 对于简单的路由操作，如页面跳转、参数传递等。
 - **next/navigation:**
-  - 适用于 Next.js 13 及更高版本。
-  - 需要利用 App Router 的高级特性，如数据获取、嵌套路由、布局等。
-  - 需要更精细的路由控制。
+    - 适用于 Next.js 13 及更高版本。
+    - 需要利用 App Router 的高级特性，如数据获取、嵌套路由、布局等。
+    - 需要更精细的路由控制。
 
 ### 4. 示例
+
 
 ```js
 // next/router (传统方式)
@@ -94,8 +95,5 @@ const MyComponent = () => {
 - **App Router** 引入了许多新的概念和特性，建议仔细阅读官方文档。
 - **迁移:** 从 `next/router` 迁移到 `next/navigation` 可能需要对代码进行一些调整。
 
+**希望这个更详细的解释能帮助你更好地理解 `next/router` 和 `next/navigation` 之间的区别。**
 
-
-[[Clerk身份验证]]
-
-[[TypeScript React Query]]
