@@ -9,58 +9,137 @@ updateAt: 2024-07-16 14:33
 type:
 high_priority: false
 ---
-# Last word: think like a productive scientist
 
-## creating your own personalized productivity toolkit
->
-> What effect does this have on my mood? On my energy? On my productivity? 
-> Don't rote-learn your way to feel-good productivity. 
-> Experiment your way.
 
-> Learning from your failures and celebrating your successes.
-> Transforming your work from a drain on your resources to a source of energy.
+## 摘要/概览
+本文探讨了如何通过科学的方法来提高个人生产力，重点关注如何通过调整情绪和制定合理目标来实现高效工作。
 
-![Postcard - If It Were Fun.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/Postcard%20-%20If%20It%20Were%20Fun.png)
+## 关键概念
+1. **个性化生产力工具箱**：创建适合个人情绪和能量水平的生产力工具。
+2. **NICE目标**：制定既能提升能量又不过分压倒性的目标。
+3. **预演**：预测可能阻止任务完成的因素，并采取措施预防。
+4. **具体行动步骤**：将大目标分解为小步骤，以减少拖延。
+5. **时间块**：为重要任务分配固定的时间。
 
-Here is a table summarizing the key differences between dopamine, oxytocin, and serotonin:
+## 详细内容
+### 个性化生产力工具箱
+Ali Abdaal 强调，生产力工具应该根据个人的情绪和能量水平来定制。这意味着要关注工作对个人情绪和能量产生的影响，并据此调整工作方式。
 
-|Feature|Dopamine|Oxytocin|Serotonin|
-|---|---|---|---|
-|Primary function|Pleasure, reward|Love, bonding|Mood regulation|
-|Stimuli|Wide range of stimuli|Physical contact|Gut and brain|
-|Effects|Increased motivation, energy levels|Trust, intimacy|Calmness, well-being|
+### NICE目标
+NICE目标（即能实现、相关性、重要性、挑战性和享受性）旨在帮助个人设定合理的目标。这些目标既能提升个人的生产力，又不会因为难以实现而造成不必要的压力。
 
-## NICE GOALS
+### 预演
+通过预演，我们可以想象一周后可能发生的失败情况，并分析原因。这样，我们可以提前采取措施来预防可能的问题，确保任务的完成。
 
-![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240716175127.png)
+### 具体行动步骤
+将大目标分解为小步骤可以减少拖延。例如，如果拖延做瑜伽，下一个行动步骤可以是铺开瑜伽垫并站上去。
 
-![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240716175336.png)
+### 时间块
+时间块是指为特定任务分配固定的时间。这有助于提供结构，确保有足够的时间来处理最重要的事情。
 
-The result will be goals that boost your energy and your feel-good productivity. But which don't ruin your life if you fail to hit them.
+## 图表和视觉辅助
+- ![Postcard - If It Were Fun.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/Postcard%20-%20If%20It%20Were%20Fun.png)
+- ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240716175127.png)
+- ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240716175336.png)
+- ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240716180313.png)
 
-## Pre-mortem
+## 行动点/待办事项
+- 根据上述概念，为你的生产力工具箱添加新的工具。
+- 为你的工作设定NICE目标。
+- 进行预演，以识别可能干扰你完成任务的潜在因素。
+- 将大目标分解为小步骤。
+- 为重要任务分配时间块。
 
-Imagine it's one week later, and you haven't actually started the task you intended to.
+## 引用和资源
+- Ali Abdaal的《How to Do More of What Matters to You》
+- Gollwitzer的关于实现意图的研究
 
-> [!NOTE]
-> What are the top three reasons why you didn't get to it?
->
-> What can you do to help mitigate the risk of those top three reasons derailing you?
->
-> Who can you ask for help in sticking to this commitment?
->
-> What action can you take right now that will help increase the odds that you'll actually do the task?
+## 实例
+- 一个具体的目标可能是：“每天早上进行30分钟的有氧运动，以增加我的能量和注意力。”
+- 预演：想象自己在早上没有进行有氧运动，并分析原因，如缺乏动力、时间管理不善等。
 
-> As General Eisenhower said, 'No battle was ever won according to plan, but no battle was ever won without one.'
 
-> So far, we've examined how to work out our overall purpose – by asking the 'why' – and identifying specific end-goals and tasks – by asking the 'what'. But there's one more question we haven't answered. If you don't know when you're doing something, chances are you won't do it.
+# Gollwitzer关于实现意图的研究
 
-> If you decide beforehand when you're going to do something, you're much more likely to do it. According to Gollwitzer, the best formula for implementation intentions is a conditional statement: 'If X happens, then I will Y.'
 
-> Time blocking isn't about creating a rigid schedule that stresses you out; it's about providing structure and ensuring there's dedicated time for what matters most to you. Once you have that, the fog of uncertainty will be that bit clearer.
+## 摘要/概览
+Gollwitzer的研究专注于实现意图（Implementation Intentions），这是一种行为策略，旨在提高个人完成特定目标的可能性。实现意图的核心是将其分解为一个具体的、情境化的行动计划。
 
-![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240716180313.png)
+## 关键概念
+1. **实现意图**：一种通过将目标转化为具体的行动计划来提高行为发生可能性的策略。
+2. **情境化行动指令**：将行为与特定的情境相结合，提高行动的执行可能性。
+3. **自我监控**：通过监控自己的行为来维持行为习惯。
+4. **自动化**：将行为转化为自动反应，使其更容易执行。
 
-## Define the Next Action Step
+## 详细内容
+### 实现意图的定义
+实现意图是一种将目标转化为具体、情境化的行动计划的方法。这种方法基于一个简单的公式：“如果发生X，那么我将做Y。” 例如，“如果早晨醒来，我就立即进行30分钟的有氧运动。”
 
-Pychyl told me that whenever he finds himself procrastinating from anything, he simply asks himself, 'What's the next action step?' For instance, when he knows he's procrastinating from doing yoga, his next action step is to roll out his yoga mat and stand on it. That's it.
+### 情境化行动指令的重要性
+情境化行动指令是指将行为与特定的情境相联系，从而提高其发生的可能性。例如，将“如果看到咖啡机，我就喝一杯水”作为一个实现意图，有助于减少对咖啡的依赖。
+
+### 自我监控
+自我监控是指通过记录和反思自己的行为来维持习惯。Gollwitzer的研究表明，自我监控是实现意图成功的一个关键因素。
+
+### 自动化
+通过不断重复某个行为，人们可以将它转化为自动反应，从而使行为更容易执行。例如，每天早上刷牙已经成为大多数人的习惯，无需特意去想。
+
+## 研究发现
+- 实现意图可以提高人们完成特定任务的可能性，尤其是在面对压力和诱惑时。
+- 情境化行动指令比一般的目标设定更有效。
+- 自我监控和自动化是实现意图的关键组成部分。
+
+## 应用实例
+- 如果你想要减少糖分摄入，可以将实现意图设置为“如果看到甜食，我就拒绝并吃水果”。
+- 如果你想要提高阅读习惯，可以将实现意图设置为“如果躺在床边，我就阅读20分钟”。
+
+## 结论
+Gollwitzer关于实现意图的研究为人们提供了提高目标实现可能性的实用策略。通过将目标转化为具体、情境化的行动计划，并辅以自我监控和自动化，个人可以更有效地实现他们的目标。
+
+
+**问题1：以下哪个概念不是Ali Abdaal在“Feel-good Productivity”中提到的？**
+??
+A. 个性化生产力工具箱
+B. SMART目标
+C. 预演
+D. 时间块
+<!--SR:!2025-03-28,3,250!2025-03-28,3,250-->
+
+**问题2：在“Feel-good Productivity”中，Ali Abdaal建议如何设定目标？**
+??
+A. 只关注目标的具体性
+B. 使用NICE目标
+C. 制定难以实现的目标
+D. 忽略目标的重要性
+<!--SR:!2025-03-28,3,250!2025-03-28,3,250-->
+
+**问题3：以下哪个不是Gollwitzer关于实现意图的研究中提到的关键概念？**
+??
+A. 实现意图
+B. 情境化行动指令
+C. 时间块
+D. 自我监控
+<!--SR:!2025-03-28,3,250!2025-03-28,3,250-->
+
+**问题4：在“Feel-good Productivity”中，“预演”是用来做什么的？**
+??
+A. 为了增加任务的乐趣
+B. 预测可能阻止任务完成的因素，并采取措施预防
+C. 将大目标分解为小步骤
+D. 为重要任务分配固定的时间
+<!--SR:!2025-03-28,3,250!2025-03-28,3,250-->
+
+**问题5：Gollwitzer的研究表明，以下哪个不是实现意图的关键组成部分？**
+??
+A. 情境化行动指令
+B. 目标设定
+C. 自我监控
+D. 自动化
+<!--SR:!2025-03-28,3,250!2025-03-28,3,250-->
+
+**答案：**
+1. B
+2. B
+3. C
+4. B
+5. B
