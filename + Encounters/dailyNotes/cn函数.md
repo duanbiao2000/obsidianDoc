@@ -1,12 +1,9 @@
 ---
 aliases: 
-<<<<<<< HEAD
-theme: 
-priority: false
-=======
+
 categories: 
 high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+
 tags:
 ---
 这段代码定义了一个名为 `cn` 的函数，它使用了 `twMerge` 和 `clsx` 两个工具来处理和合并类名。让我们逐部分解析这段代码：

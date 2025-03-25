@@ -1,128 +1,87 @@
 ---
-aliases: Untitled
+aliases:
+  - 认知复杂度
+  - 循环复杂度
 createdAt: 2024-11-25 13:57
 categories:
   - Mindset
 tags:
   - Mindset/Reflection
+updateAt: 2025-03-25 10:24
 ---
-以下是关于认知复杂度的核心内容：
 
-1. **认知复杂度的定义**：
-   - 认知复杂度是衡量代码单元直观理解难度的指标，与循环复杂度（Cyclomatic Complexity）不同，后者衡量的是代码测试的难度。
+# 推理扩展：Code Climate
 
-2. **Code Climate工具**：
-   - Code Climate可以帮助识别难以理解的方法，并防止将它们引入代码。
+## 摘要/概览
 
-3. **认知复杂度的规则**：
-   - 代码使用语言提供的简写形式将多个语句合并为一个时，复杂度增加。
-   - 代码中每个“代码流中断”都会增加复杂度。
-   - 当“流中断结构”嵌套时，复杂度增加。
+Code Climate是一个代码质量分析工具，它通过评估代码的可维护性和安全性来帮助团队提高代码质量。以下是对Code Climate的核心概念和功能的推理扩展。
 
-4. **流中断的例子**：
-   - 循环、条件语句、异常捕获、switch或case语句、逻辑运算符序列（例如 `a || b && c || d`）、递归、跳转到标签等。
+## 关键概念
 
-5. **嵌套的影响**：
-   - 代码嵌套得越深，推理就越困难。例如，条件语句、循环、try/catch块等。
+- **认知复杂度**：衡量代码单元直观理解难度的指标，对代码的可维护性和易于理解至关重要。
+- **可维护性**：代码的易于修改和升级的程度，包括技术债务的估算和减少。
+- **技术债务**：积累的未解决的问题和改进，可能导致未来的维护成本增加。
+- **GitHub Issues集成**：Code Climate与GitHub的集成，允许将代码质量分析结果直接转换为GitHub Issues。
 
-6. **认知复杂度的进一步阅读**：
-   - 可以查看SonarSource的白皮书《Cognitive Complexity: A new way of measuring understandability》以获取更多细节和例子。
+## 详细内容
 
-这些核心内容概括了认知复杂度的基本概念、影响因素以及如何通过Code Climate工具来识别和改进代码的认知复杂度。
+### 认知复杂度
 
-以下是关于Code Climate可维护性（Maintainability）功能的详尽笔记：
+- **影响因素**：包括代码嵌套深度、流中断、方法复杂度等。
+- **工具**：Code Climate使用认知复杂度标准来识别和理解代码。
+- **好处**：提高代码的可维护性和可读性。
 
-### 可维护性定义
-- **可维护性**是依据标准化的10点评估，基于代码库中的**复制（Duplication）**、**循环复杂度（Cyclomatic Complexity）**、**认知复杂度（Cognitive Complexity）**和结构问题来估算技术债务。
+### 可维护性
 
-### 技术债务估算
-- Code Climate在10点检查中识别的每个技术债务问题，都会估算解决问题所需的大致时间，称为**整改时间（remediation time）**。
-- 通过聚合这些时间，可以比较不同技术债务项目。
+- **评估方法**：通过复制、循环复杂度、{{认知复杂度}}和结构问题来估算技术债务。
+- **评分**：文件和代码库级别的评分，帮助团队识别最需要改进的部分。
+- **改进**：通过识别{{技术债务}}问题并进行修复来提高代码的可维护性。
 
-### 文件级别评分
-- 根据识别出的技术债务问题的总整改时间，为文件分配A到F的字母等级。
-- 如果问题被标记为“Wontfix”或“Invalid”，则不计入评分。
+### GitHub Issues集成
 
-### 代码库级别度量
-- 代码库级别的可维护性评分更为复杂，因为大型项目往往得分低于小型项目。
-- 为了使代码库级别的可维护性评分更有意义，Code Climate计算技术债务比率，即总估计整改时间除以基于代码库大小的非常高级别的总估计实施时间。技术债务比率越低越好。
+- **流程**：将Code Climate中的问题直接转换为GitHub Issues，便于跟踪和管理。
+- **配置**：生成GitHub OAuth token并配置GitHub集成。
+- **好处**：简化了代码质量问题的跟踪和修复过程。
 
-### 默认启用的检查
-- Code Climate默认启用了10项检查，这些检查将运行在任何支持的可维护性语言编写的文件上。
+## 图表和视觉辅助
 
-### 可维护性检查列表
-1. **参数数量（Argument count）**：定义了大量参数的方法或函数。
-2. **复杂逻辑（Complex logic）**：可能难以理解的布尔逻辑。
-3. **文件长度（File length）**：单个文件中的代码行数过多。
-4. **相同代码块（Identical blocks of code）**：在语法上完全相同但可能格式不同的重复代码。
-5. **方法复杂度（Method complexity）**：可能难以理解的函数或方法（认知复杂度）。
-6. **方法数量（Method count）**：定义了大量函数或方法的类。
-7. **方法长度（Method length）**：单个函数或方法中的代码行数过多。
-8. **嵌套控制流（Nested control flow）**：深层嵌套的控制结构，如if或case。
-9. **返回语句（Return statements）**：有大量返回语句的函数或方法。
-10. **相似代码块（Similar blocks of code）**：结构相同但变量名可能不同的非完全相同的重复代码。
+- 可以使用图表展示不同文件的认知复杂度或可维护性评分。
+- 创建流程图说明如何从Code Climate创建GitHub Issues。
 
-### 高级配置
-- 这些检查都带有默认阈值，可以使用`.codeclimate.yml`或`.codeclimate.json`进行调整。
+## 行动点/待办事项
 
-### 相关链接
-- [复制（Duplication）](https://docs.codeclimate.com/docs/duplication-concept)
-- [循环复杂度（Cyclomatic Complexity）](https://docs.codeclimate.com/docs/cyclomatic-complexity)
-- [认知复杂度（Cognitive Complexity）](https://docs.codeclimate.com/docs/cognitive-complexity)
-- [如何计算可维护性评分？](https://docs.codeclimate.com/docs/maintainability-calculation)
-- [默认可维护性阈值](https://docs.codeclimate.com/docs/default-analysis-configuration#section-maintainability-checks)
+- **审查认知复杂度**：定期审查代码库中的认知复杂度评分，识别并修复复杂部分。
+- **改进代码可维护性**：根据Code Climate的反馈，实施改进措施以减少技术债务。
+- **设置GitHub Issues集成**：为每个项目设置Code Climate与GitHub的集成，以便将问题直接转换为Issues。
 
-### 更新信息
-- 该文档内容最后一次更新是在大约2年前。
+## 引用和资源
 
-这些笔记提供了Code Climate可维护性功能的详细说明，包括技术债务估算、文件和代码库级别的评分方法、默认启用的检查列表以及如何进行高级配置。这些信息有助于理解如何评估和改进代码的可维护性。
+- [Code Climate官网](https://codeclimate.com/)
+- [SonarSource白皮书：Cognitive Complexity](https://docs.sonarsource.com/display/SONARUSER/Cognitive+Complexity+-+A+new+way+of+measuring+understandability)
+- [GitHub Issues集成指南](https://docs.codeclimate.com/docs/github#issues)
 
-以下是关于Code Climate与GitHub Issues集成功能的详尽笔记：
+## 认知复杂度
 
-### GitHub Issues集成概述
-- Code Climate的GitHub Issues集成允许用户将Code Climate中标记的问题快速转换为GitHub Issues。
-- 在Feed页面上，用户可以通过鼠标悬停在一个代码异味（smell）上并点击“ticket”图标来创建GitHub Issue。
+循环复杂度和认知复杂度都是用于评估和理解代码质量的指标，但它们关注的方面有所不同：
 
-### 生成GitHub OAuth Token
-1. 为了使Code Climate能够发帖到你的仓库Issues，需要生成一个GitHub OAuth token。
-2. 访问GitHub的[设置页面](https://github.com/settings/tokens)生成token。
-   - 确保你以具有访问和足够权限的用户身份登录GitHub。
-   - Code Climate将以生成token的用户身份打开Issue。
-3. 点击**Generate new token**。
-4. 如果GitHub提示，可能需要输入密码才能继续。
-5. 为token命名（只要没有其他GitHub token共享此名称即可），确保勾选了**repo**范围，然后点击**Generate Token**。
-6. 点击“复制到剪贴板”按钮。
+### 循环复杂度（Cyclomatic Complexity）
 
-### 在Code Climate中配置GitHub Issues
-1. 在新的浏览器窗口中，导航到你的Code Climate **Dashboard**。
-2. 鼠标悬停在你的仓库名称上并点击**Settings**。
-3. 选择**Integrations**标签。
-4. 点击**GitHub Issues**旁边的**Set Up**。
-5. 在OAuth Token字段中粘贴OAuth token。
-6. 在**Project**字段中输入项目名称（即GitHub上的项目名称，例如`user/myapp`）。
-7. 在**Labels**字段中输入任何标签，这些标签将与Code Climate创建的任何问题关联。
-8. 确保勾选**Active**并点击**Save**。
-9. 点击**Test Service**验证GitHub数据是否有效（这将向你的仓库发布一个测试问题）。如果页面顶部出现绿色消息，则一切正常。如果有红色错误消息，请参见下面的故障排除部分。
+1. **定义**：循环复杂度是一个软件度量，它表示通过程序的至少一个路径执行测试所需的最少测试用例数。
+2. **计算方法**：通常使用图论中的公式计算，如：
+   [ M = E - N + 2P ]
+   其中，( M ) 是循环复杂度，( E ) 是边数，( N ) 是节点数，( P ) 是连通分量数。
+3. **关注点**：循环复杂度关注的是代码路径的多样性，即程序中可能的执行路径数。
+4. **目的**：用于评估代码的测试难度，帮助识别可能需要额外测试用例的复杂路径。
 
-### 故障排除
-- 如果点击**Test Service**后看到红色错误消息：
-  - 确保你提供的token周围没有前后空格。
-  - 确保你生成的token是具有访问仓库权限的GitHub用户。如果你有多个GitHub用户，请确保你以适当的用户身份登录GitHub。
-  - 如果你的仓库是另一个仓库的复刻，请确保你为你的仓库启用了Issues功能。否则，集成将返回404错误。
+### 认知复杂度（Cognitive Complexity）
 
-### GitHub权限请求
-- Code Climate请求以下GitHub权限：
-  - `user:email`：在GitHub注册时请求。需要电子邮件地址来创建Code Climate用户。
-  - `public_repo`：在添加公共仓库到Code Climate时请求。此权限允许我们安装只读SSH密钥、设置webhook并为公共仓库写入提交状态。
-  - `repo`：在添加私有仓库到Code Climate时请求。此权限允许我们安装只读SSH密钥、设置webhook并为私有仓库写入提交状态。
+1. **定义**：认知复杂度是衡量代码单元直观理解难度的指标。
+2. **计算方法**：通常通过算法或规则来估算，例如根据代码中语句的数量、条件语句的数量、嵌套层级等因素。
+3. **关注点**：认知复杂度关注的是代码的可读性和可理解性，即一个人在短时间内能否理解代码的意思。
+4. **目的**：用于评估代码的易读性，帮助开发者编写更简洁、更易于维护的代码。
 
-### GitHub集成
-- Code Climate有两个GitHub集成：一个用于[GitHub Pull Requests](https://docs.codeclimate.com/docs/github#pull-requests)，另一个用于[GitHub Issues](https://docs.codeclimate.com/docs/github#issues)。
-- 两个集成都需要创建GitHub个人访问token，确保token没有读写权限：
-  - **GitHub Pull Requests**：token应由具有访问仓库权限的任何用户生成。生成token时，确保只选择[repo:status scope](https://developer.github.com/v3/oauth/#scopes)。
-  - **GitHub Issues**：token应由具有仓库**只读**访问权限的[GitHub机器用户](https://developer.github.com/guides/managing-deploy-keys/#machine-users)生成。生成token时，确保选择了[repo scope](https://developer.github.com/v3/oauth/#scopes)。
+### 主要区别
 
-### 更新信息
-- 该文档内容最后一次更新是在大约4年前。
-
-这些笔记提供了Code Climate与GitHub Issues集成的详细步骤，包括生成GitHub OAuth Token、在Code Climate中配置集成以及故障排除。这些信息有助于用户将Code Climate中识别的问题有效地转换为GitHub Issues，以便更好地管理和跟踪。
+- **衡量标准**：循环复杂度关注代码的路径和测试难度，而认知复杂度关注代码的理解难度。
+- **应用场景**：循环复杂度主要用于测试和代码审查，而认知复杂度主要用于代码重构和代码质量评估。
+- **结果解读**：循环复杂度高的代码可能意味着需要更多的测试用例，而认知复杂度高的代码可能意味着代码难以理解和维护。
