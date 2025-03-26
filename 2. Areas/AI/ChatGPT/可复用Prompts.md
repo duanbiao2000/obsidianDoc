@@ -22,7 +22,7 @@ tags:
 - 保持语言简洁，避免专业术语滥用
 ### 容错机制
 当模型遇到以下情况时，会主动提示：
-- 识边界
+- 知识边界
    - "需要你提供《XXX》论文原文才能继续"
 - 模糊需求
    - "请明确是否需要保留数学公式推导"
@@ -92,18 +92,18 @@ tags:
 请以段落形式输出每个选题的描述，包括科学性、合理性、可操作性、个体化商业指导价值和前景分析，长度约为150-200字。
 # Examples
 - **选题1**: [具体选题名称]
-*科学性*: [描述]
-*合理性*: [描述]
-*可操作性*: [描述]
-*个体化商业指导价值*: [描述]
-*前景*: [描述]
+		*科学性*: [描述]
+		*合理性*: [描述]
+		*可操作性*: [描述]
+		*个体化商业指导价值*: [描述]
+		*前景*: [描述]
 - **选题2**: [具体选题名称]
-*科学性*: [描述]
-*合理性*: [描述]
-*可操作性*: [描述]
-*个体化商业指导价值*: [描述]
-*前景*: [描述]
-(请确保真实示例的字数和内容与实际研究生水平相符。)
+		*科学性*: [描述]
+		*合理性*: [描述]
+		*可操作性*: [描述]
+		*个体化商业指导价值*: [描述]
+		*前景*: [描述]
+		(请确保真实示例的字数和内容与实际研究生水平相符。)
 # Notes
 选题应结合当前技术趋势，确保具有创新性和实用性。
 ### 推理过程
@@ -112,26 +112,10 @@ I’ll need to ensure the topics are specific, scientific, actionable, and focus
 Okay, let's start brainstorming and considering how they interact.
 Alright, user asks for 3-7 research topics related to "AI-assisted programming best practices" with the DeepSeek and Claude models. First, I’ll need to fully understand what DeepSeek and Claude are. From my search, DeepSeek refers to AI models from China, while Claude is from Anthropic. I’ll propose topics that explore how these models could improve AI-driven coding practices. These topics will need careful analysis, focusing on their feasibility, scientific merit, and potential commercial value. I'll aim for high-level, graduate-level research topics focused on AI’s practical application in programming.
 ### 结果
-**选题1: 基于DeepSeek与Claude模型的协同代码生成与优化系统设计**  
-本选题探讨利用DeepSeek高效代码生成与Claude深度语境理解优势，构建协同工作平台，实现代码自动生成、调试及优化。科学性体现在生成模型与语义推理技术的创新融合；合理性源于解决实际编程场景中复杂问题的迫切需求；可操作性依托现有API与开源实验平台；个体化商业指导价值显著，可为企业打造定制化编程助手；前景广阔，有望推动软件开发自动化革新、降低研发成本、提升效率。
-**选题2: AI辅助编程中的多模态信息融合与语境理解机制研究**  
-本选题旨在研究如何融合DeepSeek的视觉语言解析与Claude的自然语言推理能力，实现多模态信息的高效整合与编程语境理解。科学性体现在跨模态数据处理与语义匹配算法的创新；合理性基于当前编程辅助需求多样化；可操作性依托成熟模型接口与现有平台；个体化商业指导价值在于提供行业定制化编程解决方案；前景看好，将显著提升开发者决策与协同效率。
-**选题3: 基于深度学习的个性化编程助手设计与交互优化研究**  
-本选题聚焦利用DeepSeek与Claude模型构建个性化编程助手，通过用户行为数据反馈不断优化模型输出。科学性体现在对人机交互与自适应学习算法的深入探讨；合理性得益于针对不同开发者需求的定制化改进；可操作性强，依托现有平台开展用户实验与迭代优化；个体化商业指导价值突出，可为企业提供专属辅助工具；前景广阔，推动智能编程助手在企业级应用中普及。
 **选题4: 混合专家架构在AI辅助编程工具中的应用与性能优化研究**  
 本选题探索利用DeepSeek混合专家架构结合Claude规则推理优势，实现编程辅助工具的高效任务分流与性能优化。科学性体现在专家模型与动态路由策略的创新应用；合理性在于降低资源消耗同时保持生成质量；可操作性依靠实验验证与模型微调；个体化商业指导价值明显，可助力企业打造高效定制化开发工具；前景乐观，预示智能编程工具迈向新一代升级方向。
 ### 根据结构化提示词按步骤生成内容
 > [!NOTE] Title
-> 【理解阶段】
-> 
-> 在这一阶段，我们首先需要系统地梳理混合专家架构（MoE）的基本概念与背景知识，为后续探讨其在AI辅助编程工具中的应用与性能优化奠定理论基础。核心文献涵盖了从1991年提出的“Adaptive Mixture-of-Local Experts”到近年来在大语言模型中广泛采用MoE架构的相关论文，如Shazeer等人提出的“Sparsely-Gated Mixture-of-Experts Layer”和Google的GShard、Switch Transformers等工作。此外，来自IBM、Hugging Face以及腾讯云的技术博客和专栏也为我们提供了丰富的实践案例和背景解读，帮助我们了解MoE在降低计算成本、提高预训练效率以及优化推理速度方面的优势与挑战。
-> 
-> 具体来说，混合专家模型将一个复杂任务拆分为多个子任务，由多个“专家”网络各自处理，再通过一个“门控网络”动态决定如何组合这些输出。这样的架构能够在不显著增加计算负担的情况下扩展模型容量，提升处理复杂语境和长上下文的能力，这对于AI辅助编程工具中自动代码生成、调试和优化尤为关键。然而，MoE在负载均衡、训练稳定性以及内存消耗方面也面临一定挑战，需要通过辅助损失（如Router z-loss）和动态容量调节策略来加以解决。
-> 
-> 如果需要进一步深入的核心文献或背景资料，请告知我。接下来，我们将进入筛选阶段，保留上述核心概念，并逐步剔除过于细节化的部分，为后续的结构组织和提炼做准备。
-> 【筛选阶段】
-> 
-> 在这一阶段，我们聚焦保留本研究主题的核心概念，同时舍弃过多的技术实现细节。筛选后，主要保留以下关键点：
 > 
 > 1. **混合专家架构（MoE）的基本原理**
 >     

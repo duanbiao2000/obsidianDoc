@@ -1,3 +1,5 @@
+
+
 ```dataviewjs
 	let ftMd = dv.pages("").file.sort(t => t.cday)[0]
 let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
@@ -10,6 +12,21 @@ let totalTask = allFile.tasks.length+"个待办。 "
 dv.paragraph(
 	totalDays + totalMd + "、" + totalTag + "、" + totalTask
 )
+```
+
+## Dataview 插件示例
+
+最近编辑
+
+任务管理
+
+每月新建文档数
+
+即将到期
+
+## 热力图
+```dataviewjs
+await dv.view('/Extras/Template/Obsidian-Templates/Dataview/Heatmap', {type: 'cday'})
 ```
 
 ## 随机10条笔记
