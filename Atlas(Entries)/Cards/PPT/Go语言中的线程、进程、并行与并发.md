@@ -190,9 +190,9 @@ func main() {
 
 # **Channel**
 
-- `jobs` 通道用于发送任务给工作者 goroutine
+- `jobs` 通道用于发送任务给工作者 [[Goroutine]]
 - `results` 通道用于接收结果
-- 主 goroutine 可以安全地将任务发送给多个 worker goroutine
+- 主 [[Goroutine]] 可以安全地将任务发送给多个 worker [[Goroutine]]
 
 ```go
 package main

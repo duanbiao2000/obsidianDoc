@@ -4,7 +4,7 @@ createdAt: 2025-03-18 00:52
 updateAt: 
 categories:
   - Tools
-rate: 10
+Rating: 10
 tags:
   - Creative/Github
   - 当下时刻的觉察
@@ -39,7 +39,7 @@ tags:
 - [wg-easy / wg-easy](https://github.com/wg-easy/wg-easy): The easiest way to run WireGuard VPN + Web-based Admin UI. ***Star:14533 Fork:1427 Today stars:26***
 ### Go
 - [Forceu / Gokapi](https://github.com/Forceu/Gokapi): Lightweight selfhosted Firefox Send alternative without public upload. AWS S3 supported. ***Star:1514 Fork:57 Today stars:119***
-- [flyteorg / flyte](https://github.com/flyteorg/flyte): Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks. ***Star:5575 Fork:607 Today stars:35***
+- [flyteorg / flyte](https://github.com/flyteorg/flyte): Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and [[Analytics]] stacks. ***Star:5575 Fork:607 Today stars:35***
 - [SagerNet / sing-box](https://github.com/SagerNet/sing-box): The universal proxy platform ***Star:19009 Fork:2274 Today stars:33***
 - [pocketbase / pocketbase](https://github.com/pocketbase/pocketbase): Open Source realtime backend in 1 file ***Star:39410 Fork:1826 Today stars:28***
 - [alist-org / alist](https://github.com/alist-org/alist): 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。 ***Star:42650 Fork:5521 Today stars:27***

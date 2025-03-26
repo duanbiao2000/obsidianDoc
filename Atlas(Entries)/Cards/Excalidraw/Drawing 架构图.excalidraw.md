@@ -68,11 +68,11 @@ React 前端 ^idMjDOFM
 
 Nginx 反向代理 ^zcf0kai0
 
-Spring Boot 后端 ^UfNYj6sH
+[[2. Areas/BackEnd/Java/Spring Boot|Spring Boot]] 后端 ^UfNYj6sH
 
 数据库 ^kMRNFGPH
 
-需求分析 ^ajLcqBRa
+[[需求分析]] ^ajLcqBRa
 
 确定项目范围 ^d9VvRl3J
 
@@ -204,9 +204,9 @@ Browser ^Mr2dnx6i
 
 Browser ^dmUK56eu
 
-Next.js Server ^IR0zGiHf
+[[Next.js]] Server ^IR0zGiHf
 
-Next.js Server ^6rult2Q8
+[[Next.js]] Server ^6rult2Q8
 
 API Route ^QZyOk9XA
 
@@ -372,7 +372,7 @@ Relational Database - Customer Data ^PtGTH9Fv
 
 NoSQL Database - Session Data ^QgLH22Ju
 
-Data Warehouse - Analytics ^PPLlATkq
+Data Warehouse - [[Analytics]] ^PPLlATkq
 
 Cache Layer - Redis/Memcached ^V0Vl0oRQ
 
@@ -382,7 +382,7 @@ External APIs - Payment Gateways, Credit Bureaus ^ueD7AbqL
 
 Mainframe Systems - Legacy Data ^XjrqsIHi
 
-Monitoring ^rgfHYdj4
+[[Monitoring]] ^rgfHYdj4
 
 Infrastructure ^um022ytj
 
@@ -398,13 +398,13 @@ HTML/CSS/JavaScript ^8R9gWhqQ
 
 Webpack/Vite/Parcel ^4wvUlolE
 
-Redux/Vuex/Pinia ^gX8G87t6
+[[Redux]]/Vuex/Pinia ^gX8G87t6
 
 State Management ^bTEFSE4b
 
 Responsive Design ^OcT2b9YI
 
-Spring Boot/Node.js/Django ^Js2Q66qp
+[[2. Areas/BackEnd/Java/Spring Boot|Spring Boot]]/Node.js/Django ^Js2Q66qp
 
 RESTful APIs ^cFqbPgK3
 
@@ -420,7 +420,7 @@ MySQL/PostgreSQL/MongoDB ^aaz4gR6A
 
 Data Storage ^jZojkGqT
 
-ORM - Hibernate/Sequelize ^xQXNMk8H
+[[ORM]] - Hibernate/Sequelize ^xQXNMk8H
 
 Cloud - AWS/Azure/GCP ^db7dtw9s
 
@@ -440,7 +440,7 @@ Logging - ELK/Splunk ^yumfQOdD
 
 这张图详细展示了一个现代Web应用的技术架构和工作流程，从基础设施到前端，再到后端和数据库，每个环节都有明确的分工和协作。下面我们逐一解析： ^gMaA5jkV
 
-**1. 监控与日志 (Monitoring & Logging)** ^ilnJrTx5
+**1. 监控与日志 ([[Monitoring]] & Logging)** ^ilnJrTx5
 
 * **Prometheus/Grafana**: ^Xd3bC74Q
 
@@ -486,7 +486,7 @@ Logging - ELK/Splunk ^yumfQOdD
 
 **3. 后端 (Backend)** ^f3ZoQUck
 
-* **Spring Boot/Node.js/Django**: ^hW21TvlZ
+* **[[2. Areas/BackEnd/Java/Spring Boot|Spring Boot]]/Node.js/Django**: ^hW21TvlZ
 
 * 后端开发框架，用于构建应用的业务逻辑。 ^vtpBnu7W
 
@@ -528,7 +528,7 @@ Logging - ELK/Splunk ^yumfQOdD
 
 * 关系型数据库 (MySQL/PostgreSQL) 或 NoSQL 数据库 (MongoDB)，用于存储应用的数据。 ^y32atOzl
 
-* ORM (Object-Relational Mapping) 框架 (如 Hibernate/Sequelize) 用于简化数据库操作。 ^Isnhx1qY
+* [[ORM]] (Object-Relational Mapping) 框架 (如 Hibernate/Sequelize) 用于简化数据库操作。 ^Isnhx1qY
 
 * **Data Storage**: ^i5S4Mneb
 
@@ -556,7 +556,7 @@ Logging - ELK/Splunk ^yumfQOdD
 
 * 提供了组件化、数据驱动等特性，简化了前端开发。 ^ik7B3QMg
 
-* **Redux/Vuex**: ^V5WAYr2p
+* **[[Redux]]/Vuex**: ^V5WAYr2p
 
 * 状态管理库，用于管理应用的状态。 ^3XGQiDRs
 

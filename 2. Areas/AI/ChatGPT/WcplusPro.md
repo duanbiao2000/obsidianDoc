@@ -3,7 +3,7 @@ aliases:
 createdAt: 2025-03-26 16:55
 updateAt: 
 categories: Tools
-rate: 
+Rating: 
 tags:
   - Effective/Tools
 ---

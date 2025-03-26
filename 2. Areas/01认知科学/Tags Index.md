@@ -22,7 +22,7 @@
 - Growth (personal growth, career growth, skill development)
 - Investments (stocks, real estate, retirement accounts)
 - Life (relationships, health, productivity, work-life balance)
-- Personal (goals, habits, mindset, self-improvement)
+- Personal (goals, [[Habits]], mindset, self-improvement)
  #Mindset
 
 ## By Type

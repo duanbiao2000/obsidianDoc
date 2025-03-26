@@ -1,9 +1,9 @@
 ---
-aliases: null
+aliases: 
 createdAt: 2025-03-17 16:45
 updateAt: 2025-03-24 17:17
-categories: null
-rate: null
+categories: 
+Rating: 
 tags:
   - Effective/Tools
 ---

@@ -8,7 +8,7 @@ tags:
   - Effective/Tools
   - Archive
 ---
-以上配置涵盖了从语法高亮、代码导航、自动补全、自动格式化到 Git 集成等多个方面，可以显著提升开发效率和代码质量。
+以上配置涵盖了从语法高亮、代码导航、自动补全、自动格式化到 [[Git]] 集成等多个方面，可以显著提升开发效率和代码质量。
 <!--more-->
 
 视频链接:
@@ -47,7 +47,7 @@ tags:
    - **telescope.nvim**：模糊查找器插件。
    - **nvim-treesitter**：语法树插件。
    - **nvim-cmp**：自动补全插件。
-   - **gitsigns.nvim**：Git 集成插件。
+   - **gitsigns.nvim**：[[Git]] 集成插件。
 
 8. **LSP 集成**：
    - LSP 提供代码跳转、自动补全、悬停信息等功能。
@@ -59,7 +59,7 @@ tags:
    - 使用 `null-ls` 和 `Mason` 进行自动代码格式化。
 
 10. **其他插件**：
-    - **fidget.nvim**：Git 状态显示插件。
+    - **fidget.nvim**：[[Git]] 状态显示插件。
     - **which-key.nvim**：快捷键提示插件。
     - **vim-sneak**：快速跳转插件。
     - **nvim-autopairs**：自动补全括号和引号插件。
@@ -100,7 +100,7 @@ tags:
 > 4. **配置文件的模块化**
 >    - "since Lua is a programming language it means that we can use programming concepts like variables functions and loops and of course we can also import other files, this allows us to make our config, incredibly modular"
 > 5. **Kickstart nvim的使用**
->    - "let's have a look at the Kickstart GitHub repo if we scroll down a bit in the readme, you can see that Kickstart is not meant to be a neovim distribution it's not fully featured it's meant to be a starting point for your own configuration"
+>    - "let's have a look at the Kickstart GitHub repo if we scroll down a bit in the [[ReadMe]], you can see that Kickstart is not meant to be a neovim distribution it's not fully featured it's meant to be a starting point for your own configuration"
 >    - "if we scroll down a bit further you can find the Clone instructions"
 > 6. **个性化配置**
 >    - "now let's take your config to the next level by having a look at Kickstart"
@@ -130,7 +130,7 @@ tags:
 >     - "the Vim TX Navigator is super essential for my workflow this allows me to seamlessly navigate between vim and t-x splits"
 > 15. **总结**
 >     - "if you found this valuable at all please consider liking and subscribing it really does help the channel"
->     - "I will create a git repository with this entire configuration and leave a link to it in the description box down below for your reference"
+>     - "I will create a [[Git]] repository with this entire configuration and leave a link to it in the description box down below for your reference"
 >
 > 这些引用直接来自作者的原话，证实了讲稿的结构和流程。
 

@@ -28,7 +28,7 @@ MyBatis 是一种持久层框架，用于简化数据库访问的过程。学习
 
 4. **基本的持久化：**
    - 了解基本的持久化概念，包括数据的存储和检索。
-   - 理解对象关系映射（ORM）的基本思想。
+   - 理解对象关系映射（[[ORM]]）的基本思想。
 
 ### 阶段三：入门 MyBatis
 
@@ -57,7 +57,7 @@ MyBatis 是一种持久层框架，用于简化数据库访问的过程。学习
    - 使用 Spring 对 MyBatis 进行事务管理。
 
 10. **整合其他技术：**
-    - 了解如何将 MyBatis 与其他技术整合，如 Spring Boot、Spring MVC。
+    - 了解如何将 MyBatis 与其他技术整合，如 [[2. Areas/BackEnd/Java/Spring Boot|Spring Boot]]、Spring MVC。
     - 学习使用 MyBatis 处理分页、搜索等高级查询。
 
 ### 阶段六：实践和优化

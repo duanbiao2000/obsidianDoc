@@ -186,7 +186,7 @@ Tabs in mobile, from [DeusEx01](https://github.com/xhuajin/obsidian-tabs/issues/
 
 ![showcase-DeusEx01](./assets/tabs-showcase-02-by-DeusEx01.png)
 
-> If you have a usage you'd like to share, feel free to raise an issue or pull a request. I'll add it to readme.
+> If you have a usage you'd like to share, feel free to raise an issue or pull a request. I'll add it to [[ReadMe]].
 
 ## Todo
 

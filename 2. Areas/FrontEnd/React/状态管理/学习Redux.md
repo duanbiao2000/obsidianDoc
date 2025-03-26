@@ -39,7 +39,7 @@ updateAt:
 - [[项目结构和引用关系]]
 - [[API数据请求]]
 - [[2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代.md]]
-- [[2. Areas/BackEnd/RoadMap&Interview/Boss简历迭代-LAPTOP-AAJ6HH4K.md]]
+- [[目标定位与技能迁移策略]]
 - [[+ Encounters/dailyNotes/Dashboard.md]]
 - [[Findlay - React - The Road To Enterprise.pdf]]
 - [[instructions]]

@@ -2,7 +2,7 @@
 
 
 > [!info]
-> 敏捷开发是一种以人为核心、迭代、循序渐进的软件开发方法论。它强调在整个开发过程中的适应性和灵活性。敏捷开发的核心观念和原则主要来源于2001年的《敏捷宣言》（Agile Manifesto），该宣言定义了四个核心价值观和十二条原则。
+> 敏捷开发是一种以人为核心、迭代、循序渐进的软件开发方法论。它强调在整个开发过程中的适应性和灵活性。敏捷开发的核心观念和原则主要来源于2001年的《敏捷宣言》（[[Agile]] Manifesto），该宣言定义了四个核心价值观和十二条原则。
 > 
 > ### 四个核心价值观：
 > 1. **个体和互动** 高于 流程和工具
@@ -29,13 +29,13 @@
 
 57. SOAP（Simple Object Access Protocol）：简单对象访问协议是一种基于XML的消息交换协议，广泛用于分布式计算和Web服务开发中。
 58. AMQP（Advanced Message Queuing Protocol）：高级消息队列协议是一种网络协议，用于在分布式系统中传递异步通知和消息。
-59. Agile（Agile Software Development）：敏捷开发是一种软件开发方法，它强调迭代、自组织和快速响应变化的价值观。
+59. [[Agile]]（[[Agile]] Software Development）：敏捷开发是一种软件开发方法，它强调迭代、自组织和快速响应变化的价值观。
 60. BDD（Behavior Driven Development）：行为驱动开发是一种敏捷开发方法论，以最终用户行为为目标，通过定义和验证标准化的用户场景来推动软件开发流程。
 61. CI/CD（Continuous Integration and Continuous Delivery）：持续集成和持续交付是一种软件交付方法，借助自动化和DevOps实践，使得软件的发布速度和质量得到提高。
 62. DRY（Don't Repeat Yourself）：不要重复自己原则是一种编程原则，它倡导在程序设计中尽量避免重复劳动和重复代码，以提高程序的可维护性和灵活性。
 63. TDD（Test Driven Development）：测试驱动开发是一种敏捷开发方法，要求所有功能实现必须经过自动化测试的验证，在编写代码前先编写针对需求的自动化单元测试，然后编写适当的代码来满足测试条件。
 64. UML（Unified Modeling Language）：统一建模语言是一种用于软件系统分析和设计的标准化图形化表示法。
-66. ==Agile Manifesto（The Agile Manifesto）：敏捷宣言是一份由17位软件开发领域的专家共同起草的文件，旨在提出敏捷开发的核心观念和原则。==
+66. ==[[Agile]] Manifesto（The [[Agile]] Manifesto）：敏捷宣言是一份由17位软件开发领域的专家共同起草的文件，旨在提出敏捷开发的核心观念和原则。==
 67. Code Review（Code Review）：代码审查是指对开发者编写的源代码进行检查和审核的过程，以确保代码质量和符合相关的标准。
 68. Continuous Integration（Continuous Integration）：持续集成是一种软件开发实践，借助自动化构建、单元测试和集成测试等工具，使得开发人员频繁地将代码集成到共享的代码库中，并对构建过程进行自动化测试，以便及时发现和解决问题。
 
@@ -73,7 +73,7 @@
 101. 编码器（Encoder）：将数据从一种格式转换为另一种格式的程序或设备。例如音频编码器可以将声音转换成数字信号。
 
 121. 解码器（Decoder）：将经过编码后的数据解压缩并还原成原始数据的程序或设备。
-122. 进程间通信（Interprocess Communication）：不同进程之间传递信息和共享资源的机制。
+122. 进程间通信（Interprocess [[Communication]]）：不同进程之间传递信息和共享资源的机制。
 123. 线程同步（Thread Synchronization）：用于协调多个线程访问共享资源的机制。
 124. 关联数组（Associative Array）：指一种键值对的数据结构，每个关键字都唯一地对应一个值。
 

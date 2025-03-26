@@ -3,7 +3,7 @@ aliases:
 createdAt: 2025-03-16 09:28
 updateAt: 
 categories: 
-rate: 10
+Rating: 10
 tags:
 ---
 ### **可复用提示词模板**

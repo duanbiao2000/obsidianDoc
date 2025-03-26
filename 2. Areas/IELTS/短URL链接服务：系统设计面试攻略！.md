@@ -16,7 +16,7 @@ Here’s a concise summary of the URL shortener system design content:
 2. **Nonfunctional Requirements**:
    - High availability, rapid redirection, REST APIs for integration.
    - Support for about 8,000 reads per second and storage needs of up to 60 TB over 100 years.
-3. **Traffic and Usage Patterns**:
+3. **Traffic and Usage [[patterns]]**:
    - Expected read-to-write ratio of 200:1, with about 700 million reads per day.
    - Popular links (20% of URLs) account for 80% of traffic, requiring around 70 GB for caching.
 4. **System Scalability and Reliability**:

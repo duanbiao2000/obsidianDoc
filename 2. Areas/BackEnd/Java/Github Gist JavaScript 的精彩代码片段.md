@@ -1,10 +1,10 @@
 ---
-aliases: null
+aliases: 
 createdAt: 2025-03-15 10:50
-updateAt: null
-categories: null
-rate: null
-tags: null
+updateAt: 
+categories: 
+Rating: 
+tags:
 ---
 
 好的，以下是另外 10 处 Github Gist 中 JavaScript 的精彩代码片段及详细解释：

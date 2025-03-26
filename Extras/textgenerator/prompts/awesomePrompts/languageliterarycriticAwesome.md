@@ -27,9 +27,9 @@ The Merry Wives of Windsor is believed to have been written at the request of Qu
 
 The central theme of The Merry Wives of Windsor is the triumph of virtue over vice. Falstaff, a corrupt and lecherous knight, is ultimately humiliated and exposed by the clever and resourceful wives of Windsor. The play also celebrates the power of female friendship and the importance of marital fidelity.
 
-**Plot Structure:**
+**Plot [[Analyze essay structure]]:**
 
-The plot of The Merry Wives of Windsor is a classic example of farce, with a series of increasingly elaborate and hilarious pranks played on Falstaff by the two wives and their friends. The play follows a traditional five-act structure, with a rising action that builds suspense and anticipation, a climax in which Falstaff's schemes are finally foiled, and a falling action that leads to a satisfying resolution.
+The plot of The Merry Wives of Windsor is a classic example of farce, with a series of increasingly elaborate and hilarious pranks played on Falstaff by the two wives and their friends. The play follows a traditional five-act [[Analyze essay structure]], with a rising action that builds suspense and anticipation, a climax in which Falstaff's schemes are finally foiled, and a falling action that leads to a satisfying resolution.
 
 **Characterization:**
 
