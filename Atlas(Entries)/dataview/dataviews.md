@@ -28,16 +28,24 @@ dv.paragraph(
 ```dataviewjs
 await dv.view('/Extras/Template/Obsidian-Templates/Dataview/Heatmap', {type: 'cday'})
 ```
-
-## 随机10条笔记
+## 大小排列
 
 ```dataviewjs
-const pages = dv.pages().array();
-const shuffledPages = pages.sort(() => 0.5 - Math.random());
-const randomPages = shuffledPages.slice(0, 5);
+const pages = dv.pages("")
+  .sort(p => p.file.size, 'desc');
 
-dv.list(randomPages.map(page => page.file.link));
+if (pages.length < 7) {
+  dv.paragraph("Vault 中文件数量少于 7 个，无法执行查询。");
+} else {
+  const slicedPages = pages.slice(2, 7);
+
+  dv.table(
+    ["File", "Size (Bytes)"],
+    slicedPages.map(p => [p.file.link, p.file.size])
+  );
+}
 ```
+
 ## 随机10条笔记table
 ```dataviewjs
 const pages = dv.pages().array();
@@ -46,11 +54,10 @@ const randomPages = shuffledPages.slice(0, 5);
 
 const tableData = randomPages.map(page => [
   page.file.link,
-  page.file.path,
   page.file.tags ? page.file.tags.join(", ") : "无标签"
 ]);
 
-dv.table(["文件", "路径", "标签"], tableData);
+dv.table(["文件", "标签"], tableData);
 ```
 
 ## 高优先级

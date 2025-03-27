@@ -67,7 +67,7 @@ updateAt:
 - [[学习Redux]]
 - [[Extras/textgenerator/generations/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md]]
 - [[+ Encounters/dailyNotes/应用程序模拟与交互设计：多窗口拖拽与动画效果实现.md]]
-- [[2. Areas/BackEnd/RoadMap&Interview/开源模拟.md]]
+- [[React 中高级技术点]]
 - [[时间线设计]]
 - [[2. Areas/AI/ChatGPT/梳理.md]]
 - [[2. Areas/BackEnd/RoadMap&Interview/深度思考-每日时间规划.md]]

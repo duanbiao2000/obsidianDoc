@@ -60,64 +60,7 @@ updateAt:
 | 哈希表 (Hash Table)| `java.util.HashMap`                  | `dict`                                  | 无（对象字面量可用作简单的映射）                |
 
 
-这次加入了常见的一些内置方法进行了比较。不同语言中对于相似的数据结构，一些基本的操作方法可能会有一定的相似性，但具体的语法和用法还是会有差异。
 
-| 数据类型          | Java                    | Python                     | JavaScript                               |
-|-------------------|-------------------------|----------------------------|------------------------------------------|
-| 整数 (Integer)     | `intValue()`, `toString()` | `int()`, `str()`            | `Number()`, `toString()`, `parseInt()`   |
-| 浮点数 (Float)     | `floatValue()`, `toString()` | `float()`, `str()`          | `Number()`, `toString()`, `parseFloat()` |
-| 字符串 (String)    | `length()`, `charAt()`, `substring()` | `len()`, `index()`, `slice()` | `length`, `charAt()`, `substring()`        |
-| 字符串拼接         | `concat()`, `+`            | `+`                        | `+`, `concat()`                          |
-| 大小写转换         | `toLowerCase()`, `toUpperCase()` | `lower()`, `upper()`      | `toLowerCase()`, `toUpperCase()`         |
-| 字符查找           | `indexOf()`, `contains()` | `find()`, `in`              | `indexOf()`, `includes()`                |
-| 字符串替换         | `replace()`               | `replace()`                | `replace()`                              |
-| 字符串分割         | `split()`                 | `split()`                  | `split()`                                |
-| 格式化字符串       | `String.format()`         | `format()`, `f-string`     | `template literals`                      |
-| 字符串比较         | `equals()`, `compareTo()`  | `==`, `!=`, `>, <`         | `===`, `!==`, `>`, `<`                   |
-
-除了基本数据类型，编程语言通常还提供复杂的数据结构和自定义类型，以支持更复杂的数据处理需求。以下是一些在Java、Python和JavaScript中常见的非基本数据类型：
-
-### Java:
-
-1. **数组 (Array):** 用于存储相同类型的元素的集合。
-   
-2. **枚举 (Enum):** 一种特殊的数据类型，用于定义一组命名的常量。
-
-3. **类 (Class):** 用户自定义的数据类型，可以包含属性和方法。
-
-4. **接口 (Interface):** 定义一组方法的抽象类型，类可以实现一个或多个接口。
-
-5. **集合框架 (Collections Framework):** 包括List、Set、Map等接口及其实现类，用于操作和存储集合数据。
-
-6. **日期和时间类 (Date and Time API):** 用于处理日期和时间的类库，如`java.time`包。
-
-### Python:
-
-1. **列表 (List):** 有序的可变容器，可以包含不同类型的元素。
-
-2. **元组 (Tuple):** 有序的不可变容器，用于存储一组元素。
-
-3. **字典 (Dictionary):** 无序的键值对集合。
-
-4. **集合 (Set):** 无序的不重复元素集合。
-
-5. **字符串 (String):** 虽然是基本数据类型，但在Python中字符串有丰富的操作方法，可视为一种复杂类型。
-
-6. **类 (Class):** 用户自定义的数据类型，可以包含属性和方法。
-
-### JavaScript:
-
-1. **数组 (Array):** 有序的可变集合。
-
-2. **对象 (Object):** 用于存储键值对的集合，可以包含不同类型的值。
-
-3. **函数 (Function):** 可以作为变量传递，也可以作为对象的方法。
-
-4. **类 (Class):** 在ES6及更新版本中引入的，用于定义对象的蓝图。
-
-5. **Map 和 Set:** 用于存储键值对或唯一值的集合。
-
-6. **Promise 和 Async/Await:** 用于处理异步操作的机制。
 
 
 
@@ -174,16 +117,12 @@ updateAt:
    - 所有语言都有大小写转换方法，但方法名称略有不同：Java是 `toUpperCase()` 和 `toLowerCase()`，Python是 `upper()` 和 `lower()`，JavaScript 是 `toUpperCase()` 和 `toLowerCase()`。
 
 4. **集合操作：**
-   - 在Python和JavaScript中，都有 `add()` 和 `remove()` 方法用于集合的添加和移除元素，但在Java的 `Set` 接口中使用的是 `add()` 和 `remove()`。
+  
    - JavaScript 中的 `Set` 和 Python 中的 `set` 都有 `has()` 方法来检查元素是否存在，而在Java中使用的是 `contains()`。
 
 5. **类相关操作：**
    - 在Python和JavaScript中，类的构造函数都是 `__init__`，而在Java中是类名本身。
    - 类的方法调用在Java和JavaScript中使用点号 `.`，而在Python中使用点号 `.` 或者 `getattr()` 函数。
-
-总体而言，虽然这些语言之间有相似之处，但由于语言设计的不同，一些方法名称和用法仍然有所不同，使用时需要注意细节。在实际编码中，最好查阅相关语言的官方文档，以确保正确使用方法和属性。
-
-Java、Python 和 JavaScript 是三种流行的编程语言，各自具有一些共性和独特的特性。以下是它们的一些共性和个性：
 
 ### 共性：
 
@@ -212,24 +151,4 @@ Java、Python 和 JavaScript 是三种流行的编程语言，各自具有一些
 - **脚本语言：** 主要用于客户端浏览器环境中，用于实现交互式的Web页面。
 - **异步编程：** 回调函数、Promise 和 Async/Await 支持异步编程。
 - **动态类型语言：** 类型可以在运行时自动转换，无需显式声明。
-
-
-
-### 通用或近似的知识点：
-
-1. **基本编程概念：** 变量、数据类型、运算符、条件语句、循环等。
-
-2. **函数和方法：** 定义和调用函数/方法，参数传递，返回值。
-
-3. **面向对象编程（OOP）：** 类、对象、封装、继承、多态。
-
-4. **异常处理：** 捕获和处理异常。
-
-5. **数据结构和算法：** 数组、链表、栈、队列、搜索算法、排序算法。
-
-6. **文件操作：** 读写文件、流操作。
-
-7. **网络编程基础：** 理解基本的网络通信概念。
-
-8. **并发编程：** 多线程、并发和同步。
 
