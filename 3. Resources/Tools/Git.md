@@ -2,7 +2,6 @@
 - [[Github Gist JavaScript 的精彩代码片段]]
 - [[2. Areas/BackEnd/Java/github上类似项目.md]]
 - [[GitHub中文榜]]
-- [[+ Encounters/dailyNotes/手机github笔记试用.md]]
 ###  git基本用法:
 
 ```bash

@@ -40,7 +40,6 @@
  [[2. Areas/01认知科学/学习策略|学习策略]]
  [[2. Areas/01认知科学/影响行动的潜在能力的知识|影响行动的潜在能力的知识]]
  [[2. Areas/01认知科学/元认知|元认知]]
- [[2. Areas/01认知科学/最高价值的任务|最高价值的任务]]
  [[2. Areas/01认知科学/Clear Thinking  by Shane Parrish|Clear Thinking  by Shane Parrish]]
  [[2. Areas/01认知科学/Fabric/_Index_of_Fabric|_Index_of_Fabric]]
  [[2. Areas/01认知科学/Leetcode模式分类|Leetcode模式分类]]

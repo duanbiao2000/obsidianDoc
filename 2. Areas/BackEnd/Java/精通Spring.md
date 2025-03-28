@@ -1,21 +1,8 @@
-![[assets/img/精通Spring/IMG-精通Spring-20240714124655198.png]]
-
-# 第1章 Spring 5.0
-
-> [!NOTE]
-> 重要模块
-> 
-> 5.0新增功能
-> 
-> 简化了单元测试--依赖注入DI (在持续集成模式下运行)
-> 
-> 减少了衔接代码 (获取数据库连接,异常处理,事务管理,日志记录等)
-
 
 
 ## Spring模块
 
-![[assets/img/精通Spring/IMG-精通Spring-20240714124657000.png]]
+
 - Spring核心容器提供了Spring Framework的核心功能——依赖注入（DI）、IoC（控制反转）容器和应用程序上下文。
 - 横切关注点适用于所有应用程序层——日志记录和安全性等。AOP通常用于实现横切关注点。
 - 除了可以全面集成Struts等常用Web框架外，Spring还拥有自己的MVC框架——Spring MVC。
@@ -190,32 +177,7 @@ Spring AOP用于将横切关注点织入bean。
 Spring还可全面集成不同层中的框架。
 
 ## 什么是微服务
-	<微服务设计>
-
-![[assets/img/精通Spring/IMG-精通Spring-20240714124704332.png]]
-
-![[assets/img/精通Spring/IMG-精通Spring-20240714124704414.png]]
-### 事件驱动方法
-![[assets/img/精通Spring/IMG-精通Spring-20240714124705128.png]]
-
-### 独立团队
-	掌握开发,测试和部署微服务所需的各种技能, 此外还负责生产环境中为微服务提供支持.
-
-### 技术进化
-	使用不同技术开发各种服务
 	
-![[assets/img/精通Spring/IMG-精通Spring-20240714124705656.png]]
-
-### 团队动态
-	敏捷开发提倡围绕微服务组建小型独立团队. 跨职能, 对特定微服务拥有端到端所有权.
-
-## 挑战
-
-1. 自动化需求
-2. 定义子系统边界
-3. 可见性和监视
-4. 容错
-5. 最终一致性
 ## 云原生应用程序
 
 ## Spring项目
@@ -261,56 +223,3 @@ Spring还可全面集成不同层中的框架。
 - @ComponentScan  在这个类的包和所有子包中扫描Spring bean
 ### 自动配置
 
-## 什么是REST,以及RESTful服务
-
-## Spring Initializr
- 自动生成Spring Boot项目
-## 自动配置概述
-
-# 第6章 扩展微服务
-	异常处理
-	HATEOAS
-	缓存
-
-## HATEOAS是REST应用程序架构的约束条件之一
-# 第7章 Boot高级功能
-	应用程序配置外部化
-	部署到云端
-	嵌入式服务器
-	Spring Boot Actuator提供的监视功能
-	生产效率
-### 通过application.properties自定义框架
-1. 日志记录
-2. 嵌入式服务器配置
-3. Spring MVC
-4. Spring Security相关
-5. 数据源,JDBC和JPA
-### YANL配置
-
-## 嵌入式服务器
-	web服务器是应用程序可部署包JAR的一部分
-
-![[assets/img/精通Spring/IMG-精通Spring-20240714124705732.png]]
-
-## 开发者工具 devtools
-	会自动重启
-	  不需要每次停止并启动应用程序
-	  对属性文件做出修改时
-	  刷新浏览器即可实时重载
-
-## Spring Boot Actuator
-应用程序监视 application monitoring
-	是否有某些服务终端或运行速度非常慢
-	是否有任何服务缺乏足够的可用空间或内存
-## 部署应用程序到云端(云平台即服务PaaS)
-
-# 第8章 Spring Data (在云端构建应用程序)
-
-
-# 第9章 Spring Cloud
-
-# 第10章 Data Flow
-
-# 第11章 反应式编程
-
-# 第12章 Spring最佳实践
