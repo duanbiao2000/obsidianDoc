@@ -10,33 +10,6 @@ tags:
 ---
 ## 精选的 MCP 服务器
 
-精选的优秀模型上下文协议 (MCP) 服务器列表。
-
-- [什么是MCP？](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E4%BB%80%E4%B9%88%E6%98%AFMCP%EF%BC%9F)
-- [教程](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E6%95%99%E7%A8%8B)
-- [社区](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E7%A4%BE%E5%8C%BA)
-- [说明](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E8%AF%B4%E6%98%8E)
-- [Server 实现](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0)
-- [框架](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E6%A1%86%E6%9E%B6)
-- [实用工具](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7)
-- [客户端](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E5%AE%A2%E6%88%B7%E7%AB%AF)
-- [提示和技巧](https://github.com/punkpeye/awesome-mcp-servers/blob/main/#%E6%8F%90%E7%A4%BA%E5%92%8C%E6%8A%80%E5%B7%A7)
-
-## 什么是MCP？
-
-[MCP](https://modelcontextprotocol.io/) 是一种开放协议，通过标准化的服务器实现，使 AI 模型能够安全地与本地和远程资源进行交互。此列表重点关注可用于生产和实验性的 MCP 服务器，这些服务器通过文件访问、数据库连接、API 集成和其他上下文服务来扩展 AI 功能。
-
-## 教程
-
-- [Model Context Protocol (MCP) 快速开始](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)
-- [设置 Claude 桌面应用程序以使用 SQLite 数据库](https://youtu.be/wxCCzo9dGj0)
-
-## 社区
-
-- [r/mcp Reddit](https://www.reddit.com/r/mcp)
-- [Discord 服务](https://glama.ai/mcp/discord)
-
-
 ## 服务器实现
 
 Note
@@ -77,13 +50,6 @@ Web 内容访问和自动化功能。支持以 AI 友好格式搜索、抓取和
 - [kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing) 🐍 🏠 - 使用 Azure OpenAI 和 Playwright 的“最小”服务器/客户端 MCP 实现。
 - [@pskill9/web-search](https://github.com/pskill9/web-search) 📇 🏠 - 一个支持使用 Google 搜索结果进行免费网页搜索的 MCP 服务器，无需 API 密钥
 
-### 🎨 艺术与文化
-
-提供艺术收藏、文化遗产和博物馆数据库的访问与探索。让 AI 模型能够搜索和分析艺术文化内容。
-
-- [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) 📹🎬 - 从您的视频集合中添加、分析、搜索和生成视频剪辑
-- [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp) 📇 ☁️ - 荷兰国立博物馆 API 集成，支持艺术品搜索、详情查询和收藏品浏览
-- [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp) 📇 ☁️ - 集成 AniList API 获取动画和漫画信息的 MCP 服务器
 
 ### ☁️ 云平台
 
@@ -104,28 +70,6 @@ Web 内容访问和自动化功能。支持以 AI 友好格式搜索、抓取和
 - [MladenSU/cli-mcp-server](https://github.com/MladenSU/cli-mcp-server) 🐍 🏠 - 具有安全执行和可定制安全策略的命令行界面
 - [tumf/mcp-shell-server](https://github.com/tumf/mcp-shell-server) 实现模型上下文协议 (MCP) 的安全 shell 命令执行服务器
 
-### 💬 社交
-
-与通讯平台集成，实现消息管理和渠道运营。使AI模型能够与团队沟通工具进行交互。
-
-- [zcaceres/gtasks-mcp](https://github.com/zcaceres/gtasks-mcp) - 📇 ☁️ - 用于管理 Google Tasks 的 MCP 服务器
-- [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server) 🐍 🏠 🍎 - MCP 服务器通过模型上下文协议 (MCP) 提供对 iMessage 数据库的安全访问，使 LLM 能够通过适当的电话号码验证和附件处理来查询和分析 iMessage 对话
-- [@modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) 📇 ☁️ - 用于频道管理和消息传递的 Slack 工作区集成
-- [@modelcontextprotocol/server-bluesky](https://github.com/keturiosakys/bluesky-context-server) 📇 ☁️ - Bluesky 实例集成，用于查询和交互
-- [MarkusPfundstein/mcp-gsuite](https://github.com/MarkusPfundstein/mcp-gsuite) - 🐍 ☁️ - 与 Gmail 和 Google 日历集成。
-- [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit) 🐍 ☁️ - 与 Twitter 搜索和时间线进行交互
-- [gotoolkits/wecombot](https://github.com/gotoolkits/mcp-wecombot-server.git) - 🚀 ☁️ - MCP服务器 Tools 应用程序，用于向企业微信群机器人发送各种类型的消息。
-- [AbdelStark/nostr-mcp](https://github.com/AbdelStark/nostr-mcp) - 🌐 ☁️ - Nostr MCP 服务器，支持与 Nostr 交互，可发布笔记等功能。
-- [sawa-zen/vrchat-mcp](https://github.com/sawa-zen/vrchat-mcp) - 📇 🏠 这是一个与VRChat API交互的MCP服务器。您可以获取VRChat的好友、世界、化身等信息。
-
-### 👤 数据平台
-
-提供对客户数据平台内客户资料的访问
-
-- [sergehuber/inoyu-mcp-unomi-server](https://github.com/sergehuber/inoyu-mcp-unomi-server) 📇 ☁️ - MCP 服务器用于访问和更新 Apache Unomi CDP 服务器上的配置文件。
-- [OpenDataMCP/OpenDataMCP](https://github.com/OpenDataMCP/OpenDataMCP) 🐍☁️ - 使用模型上下文协议将任何开放数据连接到任何 LLM。
-- [tinybirdco/mcp-tinybird](https://github.com/tinybirdco/mcp-tinybird) 🐍☁️ - MCP 服务器可从任何 MCP 客户端与 Tinybird Workspace 进行交互。
-- [@iaptic/mcp-server-iaptic](https://github.com/iaptic/mcp-server-iaptic) 🎖️ 📇 ☁️ - 连接 [iaptic](https://www.iaptic.com/) 平台，让您轻松查询客户购买记录、交易数据以及应用营收统计信息。
 
 ### 🗄️ 数据库
 
@@ -207,12 +151,6 @@ Web 内容访问和自动化功能。支持以 AI 友好格式搜索、抓取和
 - [berlinbra/alpha-vantage-mcp](https://github.com/berlinbra/alpha-vantage-mcp) 🐍 ☁️ - Alpha Vantage API 集成，用于获取股票和加密货币信息
 - [ferdousbhai/tasty-agent](https://github.com/ferdousbhai/tasty-agent) 🐍 ☁️ - Tastyworks API 集成，用于管理 Tastytrade 平台的交易活动
 
-### 🎮 游戏
-
-游戏相关数据和服务集成
-
-- [rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/) 🐍 ☁️ - 用于实时 Fantasy Premier League 数据和分析工具的 MCP 服务器。
-- [CoderGamester/mcp-unity](https://github.com/CoderGamester/mcp-unity) 📇 #️TODO 🏠 - Unity3d 游戏引擎集成 MCP 服务器
 
 ### 🧠 知识与记忆
 
@@ -238,16 +176,6 @@ Web 内容访问和自动化功能。支持以 AI 友好格式搜索、抓取和
 用于创建和编辑营销内容、处理网页元数据、产品定位和编辑指南的工具。
 
 - [Open Strategy Partners Marketing Tools](https://github.com/open-strategy-partners/osp_marketing_tools) 🐍 🏠 - Open Strategy Partners 提供的营销工具套件，包含写作风格指南、编辑规范和产品营销价值图谱创建工具
-
-### 📊 监测
-
-访问和分析应用程序监控数据。使 AI 模型能够审查错误报告和性能指标。
-
-- [@modelcontextprotocol/server-sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) 🐍 ☁️ - Sentry.io 集成用于错误跟踪和性能监控
-- [@modelcontextprotocol/server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun) 📇 ☁️ - Raygun API V3 集成用于崩溃报告和真实用户监控
-- [metoro-io/metoro-mcp-server](https://github.com/metoro-io/metoro-mcp-server) 🎖️ 🏎️ ☁️ - 查询并与 Metoro 监控的 kubernetes 环境交互
-- [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana) 🎖️ 🐍 🏠 ☁️ - 在 Grafana 实例中搜索仪表盘、调查事件并查询数据源
-- [seekrays/mcp-monitor](https://github.com/seekrays/mcp-monitor) 🏎️ 🏠 - 监控系统 CPU、Memory、Disk、Network、Host、Process 等信息，并与 LLM 进行交互
 
 ### 🔎 搜索
 
@@ -279,13 +207,6 @@ Web 内容访问和自动化功能。支持以 AI 友好格式搜索、抓取和
 - [VirusTotal MCP Server](https://github.com/BurtTheCoder/mcp-virustotal) 📇 ☁️ - 用于查询 VirusTotal API 的 MCP 服务器。此服务器提供用于扫描 URL、分析文件哈希和检索 IP 地址报告的工具。
 - [ORKL MCP Server](https://github.com/fr0gger/MCP_Security) 📇🛡️☁️ - 用于查询 ORKL API 的 MCP 服务器。此服务器提供获取威胁报告、分析威胁行为者和检索威胁情报来源的工具。
 - [Security Audit MCP Server](https://github.com/qianniuspace/mcp-security-audit) 📇🛡️☁️ 一个强大的 MCP (模型上下文协议) 服务器，审计 npm 包依赖项的安全漏洞。内置远程 npm 注册表集成，以进行实时安全检查。
-
-### 🚆 旅行与交通
-
-访问旅行和交通信息。可以查询时刻表、路线和实时旅行数据。
-
-- [NS Travel Information MCP Server](https://github.com/r-huijts/ns-mcp-server) 📇 ☁️ - 了解荷兰铁路 (NS) 的旅行信息、时刻表和实时更新
-- [KyrieTangSheng/mcp-server-nationalparks](https://github.com/KyrieTangSheng/mcp-server-nationalparks) 📇 ☁️ - 美国国家公园管理局 API 集成，提供美国国家公园的详细信息、警报、游客中心、露营地和活动的最新信息
 
 ### 🔄 版本控制
 
@@ -374,22 +295,4 @@ Web 内容访问和自动化功能。支持以 AI 友好格式搜索、抓取和
 - [sparfenyuk/mcp-proxy](https://github.com/sparfenyuk/mcp-proxy) 🐍 - MCP stdio 到 SSE 的传输网关
 - [upsonic/gpt-computer-assistant](https://github.com/Upsonic/gpt-computer-assistant) 🐍 - 用于构建垂直 AI 代理的框架
 
-## 客户端
 
-Note
-
-寻找 MCP 客户端？请查看 [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) 仓库。
-
-## 提示和技巧
-
-### 官方提示关于 LLM 如何使用 MCP
-
-想让 Claude 回答有关模型上下文协议的问题？
-
-创建一个项目，然后将此文件添加到其中：
-
-[https://modelcontextprotocol.io/llms-full.txt](https://modelcontextprotocol.io/llms-full.txt)
-
-这样 Claude 就能回答关于编写 MCP 服务器及其工作原理的问题了
-
-- [https://www.reddit.com/r/ClaudeAI/comments/1h3g01r/want\_to\_ask\_claude\_about\_model\_context\_protocol/](https://www.reddit.com/r/ClaudeAI/comments/1h3g01r/want_to_ask_claude_about_model_context_protocol/)
