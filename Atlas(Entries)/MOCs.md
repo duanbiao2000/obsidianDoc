@@ -4,7 +4,7 @@
 - [[2. Areas/_Index_of_2. Areas.md]]
 - [[3. Resources/_Index_of_3. Resources.md]]
 - [[3. Resources/影音读/得到听书/_Index_of_得到听书.md]]
-- [[1. Projects/电商传媒/_Index_of_电商传媒.md]]
+- [[_Index_of_电商传媒]]
 - [[2. Areas/剪辑/电影/_Index_of_电影.md]]
 - [[3. Resources/影音读/书本通读/非技术类/_Index_of_非技术类.md]]
 - [[2. Areas/计算机通识/_Index_of_计算机通识.md]]
