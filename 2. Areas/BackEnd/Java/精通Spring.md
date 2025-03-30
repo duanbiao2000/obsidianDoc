@@ -1,29 +1,6 @@
 
 
-## Spring模块
-
-
-- Spring核心容器提供了Spring Framework的核心功能——依赖注入（DI）、IoC（控制反转）容器和应用程序上下文。
-- 横切关注点适用于所有应用程序层——日志记录和安全性等。AOP通常用于实现横切关注点。
-- 除了可以全面集成Struts等常用Web框架外，Spring还拥有自己的MVC框架——Spring MVC。
-- 业务层主要负责执行应用程序的业务逻辑。使用Spring时，通常在简单Java对象（POJO）中实现业务逻辑。Spring Transactions（spring-tx）为POJO和其他类提供声明式事务管理。
-- 数据层通常负责与数据库或外部接口进行交互。
-
-## Spring项目
-
-- Spring Boot 事先提供一组固有设置
-- Spring Cloud 实现通用模式
-- Spring Data 为不同的数据库提供一致的数据访问方法
-- Spring Batch 批处理程序
-- Spring Security 声明式身份验证和授权是
-- Spring HATEOAS 特别针对通过SpringMVC实现的REST服务。
-
-## 5.0新增功能
-
-- 反应式编程支持； 
-- 函数式Web框架；
-- Kotlin支持
-# 第2章 依赖注入
+## 依赖注入
 
 使用Spring时，一个称为控制反转容器（以下简称IoC容器）的新组件负责创建和装配对象。类定义依赖项，IoC容器创建对象并将依赖项装配在一起。众所周知，这个开创性的概念——由容器负责创建和装配依赖项——称为IoC或依赖注入（DI）。
 
@@ -80,7 +57,6 @@ class SpringContext{
 </beans>
 ```
 
-![[assets/img/精通Spring/IMG-精通Spring-20240714124658391.png]]
 
 	使用@Mock注解为DataService创建模拟对象 
 ```java
@@ -124,11 +100,8 @@ public class BusinessServiceImpl {
 }
 ```
 
-# 第3章 Spring MVC
-### Model2前端控制器架构
+##  Spring MVC
 
-![[assets/img/精通Spring/IMG-精通Spring-20240714124701390.png]]
-前端控制器成为 DispatcherServlet
 
 ### 创建Spring MVC控制器
 ```java
@@ -155,71 +128,4 @@ public class BasicControllerTest {
 }
 ```
 
-- 编写Test方法
-![[assets/img/精通Spring/IMG-精通Spring-20240714124701485.png]]
-
-### Spring MVC工作机制
-![[assets/img/精通Spring/IMG-精通Spring-20240714124703000.png]]
-
-
-# 第4章 微服务和云原生应用
-	什么事微服务
-	云端部署微服务
-	微服务相关Spring项目
-## Spring开发典型web应用程序架构
-![[assets/img/精通Spring/IMG-精通Spring-20240714124703065.png]]
-### 数据层
-![[assets/img/精通Spring/IMG-精通Spring-20240714124703734.png]]
-
-Spring Framework在应用程序架构中扮演着重要角色。
-Spring IoC用于将来自不同层的bean装配在一起。(Spring IoC容器将管理bean的整个生命周期——创建、使用、自动装配和销毁。)
-Spring AOP用于将横切关注点织入bean。
-Spring还可全面集成不同层中的框架。
-
-## 什么是微服务
-	
-## 云原生应用程序
-
-## Spring项目
-
-### Spring Boot
-### Spring Cloud
-
-
-
-
-
-# 第5章 Spring Boot构建微服务 (5-7章 通过Boot创建微服务)
-
-	功能
-	Spring Initializr
-	创建基本RESTful服务
-
-## 快速构建微服务器原型 12步
-### 主要目标
-- 采用固定配置. 提供配置选项处理偏离默认设置的情况
-- 开箱即提供一系列非功能性特性
-- 避免大量使用XML配置
-
-## Spring Boot Hello World
-
-1. 在pom.xml中配置spring-boot-starter-parent   (解决框架之间版本兼容性问题)
-2. starter (专为不同目的而定制的简化版依赖项描述符)
-3. spring-boot-maven-plugin (运行Spring Boot应用程序)
-4. Spring Boot启动类
-```java
-创建Spring Boot启动类
-
-@SpringBootApplication public class ApplicationContext {  
-  public static void main(String[] args)
-  {
-    ApplicationContext ctx = SpringApplication.run(Application.class, args)
-  }
-}
-```
-@SpringBootApplication注解是以下3个注解的缩写
-- @Conguration   指出Spring应用程序上下文配置文件
-- @EnableAutoConfiguration  启用自动配置
-- @ComponentScan  在这个类的包和所有子包中扫描Spring bean
-### 自动配置
 
