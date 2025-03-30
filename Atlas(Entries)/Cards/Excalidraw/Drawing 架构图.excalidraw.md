@@ -372,7 +372,7 @@ Relational Database - Customer Data ^PtGTH9Fv
 
 NoSQL Database - Session Data ^QgLH22Ju
 
-Data Warehouse - [[Analytics]] ^PPLlATkq
+Data Warehouse - [[轻量级分析库Analytics]] ^PPLlATkq
 
 Cache Layer - Redis/Memcached ^V0Vl0oRQ
 

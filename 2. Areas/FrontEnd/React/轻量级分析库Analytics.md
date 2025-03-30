@@ -8,7 +8,6 @@ tags:
 
 `@vercel/analytics/react` 是 Vercel 提供的一个轻量级的分析库，用于在 React 应用中添加网站分析功能。它可以帮助你跟踪用户的行为，比如页面访问、点击事件等，而无需集成复杂的第三方分析工具。
 
-要使用 `@vercel/analytics/react`，你需要先安装这个库。如果你已经有一个 React 项目，可以通过 npm 或 yarn 来安装：
 
 ```bash
 npm install @vercel/analytics
@@ -60,59 +59,3 @@ yarn add @vercel/analytics
    ```
 
 通过这种方式，Vercel 的分析服务就会自动开始收集数据了。请注意，为了使分析功能正常工作，你可能需要配置一些环境变量或在 Vercel 控制台中进行设置。具体步骤可以参考 Vercel 官方文档中的相关说明。
-
-```jsx
-{
-
-  return (
-
-    <GreenHouse>
-
-      <html lang="en">
-
-        <head> </head>
-
-        <body className="font-sans">
-
-          {' '}
-
-          <main className="container m-auto min-h-screen flex flex-col px-4 md:px-0">
-
-            <ErrorBoundary>
-
-              <RoomProvider>
-
-                <BuildingProvider>
-
-                  <>
-
-                    <Header />
-
-                    {children}
-
-                    <Footer />
-
-                    <Analytics />
-
-                  </>
-
-                </BuildingProvider>
-
-              </RoomProvider>
-
-            </ErrorBoundary>
-
-          </main>
-
-        </body>
-
-      </html>
-
-    </GreenHouse>
-
-  )
-
-}
-```
-
-[[route.ts作用和调用顺序]]
