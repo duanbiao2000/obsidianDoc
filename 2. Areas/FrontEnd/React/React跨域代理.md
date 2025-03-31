@@ -1,12 +1,12 @@
 ---
 aliases:
   - React中跨域代理
-source:
-author:
-createdAt:
-updateAt:
-categories:
-high_priority: false
+source: 
+author: 
+date: 
+update: 
+categories: 
+important: false
 tags:
 ---
 在React应用中配置跨域代理有几种常见方案。我可以为您概述主要的方法:

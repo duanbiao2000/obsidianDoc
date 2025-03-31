@@ -1,8 +1,7 @@
 ---
 aliases: 
-
 categories: 
-high_priority: false
+important: false
 tags:
 ---
 在前端开发中，处理图片文件时经常需要将图片转换为 Blob URL 或者获取图片的路径。这两种方式都有各自的用途和应用场景。下面分别介绍这两种方式：

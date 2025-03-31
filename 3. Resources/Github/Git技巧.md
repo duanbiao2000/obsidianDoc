@@ -1,12 +1,12 @@
 ---
 aliases: 🔄 13个Git超速技巧：快速提升你的开发流程
-createdAt: 2024-11-10 19:41
+date: 2024-11-10 19:41
 categories:
   - Effective
 tags:
   - Creative/Github
   - Effective/Workflow
-updateAt: 2024-11-10 20:08
+update: 2024-11-10 20:08
 ---
 ```ad-tip
 title: 压缩提交

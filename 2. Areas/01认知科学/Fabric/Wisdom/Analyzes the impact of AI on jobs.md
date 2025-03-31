@@ -1,13 +1,11 @@
 ---
 aliases: 
-
 source: 
 author: 
-createdAt: 
-updateAt: 2024-07-24 13:48
+date: 
+update: 2024-07-24 13:48
 categories: 
 status: false
-
 ---
 ## SUMMARY ANALYSIS
 

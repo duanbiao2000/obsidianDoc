@@ -2,10 +2,10 @@
 aliases: 
 source: https://www.youtube.com/watch?v=5I64NM5ZgUg&t=434s
 author: 
-createdAt: 
-updateAt: 2024-08-05 03:15
+date: 
+update: 2024-08-05 03:15
 categories: 
-high_priority: false
+important: false
 ---
 
 

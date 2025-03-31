@@ -2,10 +2,10 @@
 aliases: 
 source: 
 author: 
-createdAt: 
-updateAt: 2024-07-24 13:48
+date: 
+update: 2024-07-24 13:48
 categories: 
-high_priority: false
+important: false
 tags:
 ---
 《Thinking, Fast and Slow》是丹尼尔·卡尼曼（Daniel Kahneman）所著的一本关于心理学和行为经济学的经典著作。书中卡尼曼详细阐述了人类思维的两种模式：快速思维（系统1）和慢速思维（系统2）。以下是书中的一些主要概念、引言及其意义，以及可执行的建议：

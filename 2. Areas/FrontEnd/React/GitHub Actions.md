@@ -1,11 +1,11 @@
 ---
-aliases: null
-source: null
-author: null
-createdAt: 2024-08-03 13:38
-updateAt: 2025-03-15 10:55
-categories: null
-high_priority: false
+aliases: 
+source: 
+author: 
+date: 2024-08-03 13:38
+update: 2025-03-15 10:55
+categories: 
+important: false
 ---
 
 ## 订阅Hacker News

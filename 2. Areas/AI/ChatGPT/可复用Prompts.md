@@ -1,9 +1,9 @@
 ---
 aliases: 
-createdAt: 2025-03-16 09:28
-updateAt: 
+date: 2025-03-16 09:28
+update: 
 categories: 
-Rating: 10
+rating: 10
 tags:
 ---
 ### **可复用提示词模板**

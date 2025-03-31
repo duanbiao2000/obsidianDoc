@@ -1,9 +1,9 @@
 ---
 aliases: 
-createdAt: 2025-03-16 10:54
-updateAt: 
+date: 2025-03-16 10:54
+update: 
 categories: 
-Rating: 10
+rating: 10
 tags:
   - Creative/Github
   - Mindset/Inspiration

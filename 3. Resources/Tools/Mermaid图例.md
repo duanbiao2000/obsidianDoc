@@ -4,9 +4,9 @@ theme:
 source: 
 author: 
 tags: 
-createdAt: 
-type: 
-high_priority: false
+date: 
+categories: 
+important: false
 ---
 
 

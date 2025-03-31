@@ -1,8 +1,8 @@
 ---
-aliases: null
-categories: null
-high_priority: false
-updateAt: 2025-03-28 00:24
+aliases: 
+categories: 
+important: false
+update: 2025-03-28 00:24
 ---
 
 在 MyBatis 中，`Mapper` 接口和 `XML` 映射文件通常是配合使用的，而不是二选一的关系。虽然理论上你可以只使用其中一种方式来定义 SQL 映射，但实际上，结合使用 `Mapper` 接口和 `XML` 映射文件可以提供更多的灵活性和可维护性。

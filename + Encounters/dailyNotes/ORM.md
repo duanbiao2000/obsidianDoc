@@ -1,7 +1,7 @@
 ---
 aliases: 
 categories: 
-high_priority: false
+important: false
 tags:
   - Tech/Database
 ---

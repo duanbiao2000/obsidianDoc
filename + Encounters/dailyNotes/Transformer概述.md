@@ -1,9 +1,9 @@
 ---
 aliases: 
 categories: 
-high_priority: false
-createdAt: 2024-12-09T12:04:00
-updateAt: 2024-12-09T12:11:00
+important: false
+date: 2024-12-09T12:04:00
+update: 2024-12-09T12:11:00
 tags:
 ---
 好的，这是根据[[&高效学习卡片原则]]以及Zettelkasten和费曼学习原理的要求，对你的 Transformer 笔记进行整理后的版本：

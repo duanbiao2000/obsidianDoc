@@ -1,6 +1,6 @@
 ---
 aliases: Untitled 2
-createdAt: 2025-03-09 17:16
+date: 2025-03-09 17:16
 categories:
   - Mindset
 tags:

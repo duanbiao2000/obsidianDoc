@@ -4,10 +4,10 @@ aliases:
   - IELTS writing
 source: https://www.youtube.com/watch?v=xGtKdsVxV8A
 author: 
-createdAt: 2024-12-11T11:10:00
-updateAt: 2024-12-11T20:50:00
+date: 2024-12-11T11:10:00
+update: 2024-12-11T20:50:00
 categories: 
-high_priority: false
+important: false
 ---
 
 ## IDEAS

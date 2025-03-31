@@ -1,11 +1,11 @@
 ---
-aliases: null
-source: null
-author: null
-createdAt: 2024-08-03 12:59
-updateAt: 2025-03-28 00:11
+aliases: 
+source: 
+author: 
+date: 2024-08-03 12:59
+update: 2025-03-28 00:11
 categories: moon
-high_priority: false
+important: false
 ---
 
 ## JavaScript 深度学习 - 奥卡姆剃刀

@@ -2,10 +2,10 @@
 aliases: 
 source: 
 author: 
-createdAt: 
-updateAt: 
+date: 
+update: 
 categories: 
-high_priority: false
+important: false
 tags: []
 ---
 让我们深入探讨如何构建一个可扩展、可维护的大型 React 应用，涵盖组件拆分、数据流设计、错误边界等关键方面。

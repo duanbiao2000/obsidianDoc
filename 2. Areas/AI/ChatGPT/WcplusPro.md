@@ -1,9 +1,9 @@
 ---
 aliases: 
-createdAt: 2025-03-26 16:55
-updateAt: 
+date: 2025-03-26 16:55
+update: 
 categories: Tools
-Rating: 
+rating: 
 tags:
   - Effective/Tools
 ---

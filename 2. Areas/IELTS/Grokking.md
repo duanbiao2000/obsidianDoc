@@ -1,8 +1,8 @@
 ---
 aliases:
   - 20250128-1601
-createdAt: 2025-01-28 16:39
-updateAt: 2025-01-28 16:39
+date: 2025-01-28 16:39
+update: 2025-01-28 16:39
 categories:
   - Mindset
 tags:

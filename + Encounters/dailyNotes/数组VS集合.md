@@ -1,11 +1,11 @@
 ---
-aliases:
-source:
-author:
-createdAt:
-updateAt:
-categories:
-high_priority: false
+aliases: 
+source: 
+author: 
+date: 
+update: 
+categories: 
+important: false
 tags:
 ---
 ## Java 中数组、集合以及列表的区别

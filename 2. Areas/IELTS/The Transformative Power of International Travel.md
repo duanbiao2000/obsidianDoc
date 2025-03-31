@@ -2,10 +2,10 @@
 aliases: 
 source: 
 author: 
-createdAt: 
-updateAt: 
-type: 
-high_priority: false
+date: 
+update: 
+categories: 
+important: false
 tags:
   - IELTS/Essay
 ---

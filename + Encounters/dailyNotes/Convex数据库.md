@@ -1,7 +1,7 @@
 ---
-aliases: null
-createdAt: 2025-03-12 06:23
-updateAt: null
+aliases: 
+date: 2025-03-12 06:23
+update: 
 categories:
   - Mindset
 tags:

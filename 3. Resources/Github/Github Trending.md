@@ -1,10 +1,10 @@
 ---
 aliases: 
-createdAt: 2025-03-18 00:52
-updateAt: 
+date: 2025-03-18 00:52
+update: 
 categories:
   - Tools
-Rating: 10
+rating: 10
 tags:
   - Creative/Github
   - 当下时刻的觉察

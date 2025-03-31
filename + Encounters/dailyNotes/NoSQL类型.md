@@ -1,6 +1,6 @@
 ---
 aliases: NoSQL数据库
-createdAt: 2024-11-22 15:16
+date: 2024-11-22 15:16
 categories:
   - Mindset
 tags:

@@ -2,8 +2,8 @@
 aliases: 
 source: https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
 author: 
-createdAt: 
-updateAt: 2024-07-24 13:48
+date: 
+update: 2024-07-24 13:48
 categories: 
 status: false
 ---

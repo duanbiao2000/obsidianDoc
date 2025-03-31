@@ -1,11 +1,11 @@
 ---
-aliases: null
-source: null
-author: null
-createdAt: 2024-06-16 20:21
-categories: null
+aliases: 
+source: 
+author: 
+date: 2024-06-16 20:21
+categories: 
 status: false
-updateAt: 2025-03-25 14:56
+update: 2025-03-25 14:56
 ---
 
 ## 推理扩展：The War of Art

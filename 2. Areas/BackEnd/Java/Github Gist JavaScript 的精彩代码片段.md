@@ -1,9 +1,9 @@
 ---
 aliases: 
-createdAt: 2025-03-15 10:50
-updateAt: 
+date: 2025-03-15 10:50
+update: 
 categories: 
-Rating: 
+rating: 
 tags:
 ---
 

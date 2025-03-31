@@ -1,13 +1,13 @@
 ---
 aliases:
   - clarity is power
-theme:
-source:
-author:
-createdAt: 2024-07-24T11:19:00
-updateAt: 2024-07-24 13:48
-type:
-high_priority: false
+theme: 
+source: 
+author: 
+date: 2024-07-24T11:19:00
+update: 2024-07-24 13:48
+categories: 
+important: false
 tags:
 ---
 # 《21 Lessons for the 21st Century》（《21世纪的21堂课》）

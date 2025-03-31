@@ -1,12 +1,12 @@
 ---
-title: "awesome-mcp-servers/README-zh.md at main · punkpeye/awesome-mcp-servers"
-source: "https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-zh.md#browser-automation"
-author:
-published:
-created: 2025-03-27
-description:
+title: awesome-mcp-servers/README-zh.md at main · punkpeye/awesome-mcp-servers
+source: https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-zh.md#browser-automation
+author: 
+published: 
+date: 2025-03-27
+description: 
 tags:
-  - "clippings"
+  - clippings
 ---
 Okay, let's optimize the `awesome-mcp-servers` list to reduce cognitive load, making it easier to scan, understand, and find relevant servers.
 

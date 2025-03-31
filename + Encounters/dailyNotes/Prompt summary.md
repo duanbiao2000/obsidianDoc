@@ -1,10 +1,10 @@
 ---
 aliases: 
 source: 
-createdAt: 
-updateAt: 
+date: 
+update: 
 categories: 
-high_priority: false
+important: false
 tags:
   - Agent/Prompt
 ---

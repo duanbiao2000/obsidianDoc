@@ -1,7 +1,7 @@
 ---
 aliases: 20250130-1501
-createdAt: 2025-01-30 15:34
-updateAt: 2025-01-30 15:34
+date: 2025-01-30 15:34
+update: 2025-01-30 15:34
 categories:
   - Mindset
 tags:

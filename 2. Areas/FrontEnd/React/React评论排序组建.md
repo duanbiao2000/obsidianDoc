@@ -2,10 +2,10 @@
 aliases: 
 source: 
 author: 
-createdAt: 
-updateAt: 
+date: 
+update: 
 categories: 
-high_priority: false
+important: false
 tags:
 ---
 ```js

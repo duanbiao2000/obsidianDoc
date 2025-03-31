@@ -1,7 +1,7 @@
 ---
 aliases: 
 categories: 
-high_priority: false
+important: false
 tags:
 ---
 要实现从RSS订阅源到Notion知识库的自动更新，可以使用Make（以前称为Integromat）来创建一个自动化的工作流程。以下是设计思路和工作流程的一个概述：

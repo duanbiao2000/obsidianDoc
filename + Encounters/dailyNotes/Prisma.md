@@ -1,7 +1,7 @@
 ---
 aliases: 
 categories: 
-high_priority: false
+important: false
 tags:
 ---
 Prisma 是一个现代化的数据库工具和对象关系映射（ORM, Object-Relational Mapping）框架，主要用于简化数据库操作和管理。它提供了以下几个核心功能：

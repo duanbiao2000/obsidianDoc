@@ -1,10 +1,10 @@
 ---
 aliases: <% tp.file.title %>
-createdAt: <% tp.file.creation_date() %>
+date: <% tp.file.creation_date() %>
 categories:
   - Mindset
 tags:
-  - Mindset/Reflection
+  - Reflection
 ---
 核心要点
 <!--more-->

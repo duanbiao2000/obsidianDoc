@@ -1,13 +1,11 @@
 ---
 aliases: 
-
 source: 
 author: 
-createdAt: 2024-08-03 14:25
-updateAt: 
+date: 2024-08-03 14:25
+update: 
 categories: 
-high_priority: false
-
+important: false
 tags:
 ---
 # Redux面试常见提问

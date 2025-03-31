@@ -1,7 +1,7 @@
 ---
 aliases: 
-createdAt: 2025-02-24 11:18
-updateAt: 
+date: 2025-02-24 11:18
+update: 
 categories:
   - Mindset
 tags:

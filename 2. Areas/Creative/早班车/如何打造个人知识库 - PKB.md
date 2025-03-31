@@ -1,13 +1,11 @@
 ---
 aliases: 
-
 source: 
 author: 
-createdAt: 
-updateAt: 2024-07-29 22:14
+date: 
+update: 2024-07-29 22:14
 categories: 
 status: false
-
 ---
 
 ```tg

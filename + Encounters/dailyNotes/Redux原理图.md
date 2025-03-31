@@ -3,10 +3,10 @@ aliases:
   - React-Redux
 source: 
 author: 
-createdAt: 
-updateAt: 
+date: 
+update: 
 categories: 
-high_priority: false
+important: false
 tags:
   - Effective/Tools
 ---

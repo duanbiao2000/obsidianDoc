@@ -1,5 +1,5 @@
 ---
-createdAt: 2024-07-14 16:49
+date: 2024-07-14 16:49
 ---
 ## Condense , filter and distill 压缩炼
 "Condense," "filter," and "distil" are three processes often used in various fields such as writing, information processing, and scientific research.

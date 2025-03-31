@@ -42,6 +42,7 @@
  [[2. Areas/01认知科学/影响行动的潜在能力的知识|影响行动的潜在能力的知识]]
  [[2. Areas/01认知科学/元认知|元认知]]
  [[2. Areas/01认知科学/重构|重构]]
+ [[2. Areas/01认知科学/Build-Rour-Own-X|Build-Rour-Own-X]]
  [[2. Areas/01认知科学/Clear Thinking  by Shane Parrish|Clear Thinking  by Shane Parrish]]
  [[2. Areas/01认知科学/Fabric/_Index_of_Fabric|_Index_of_Fabric]]
  [[2. Areas/01认知科学/Leetcode模式分类|Leetcode模式分类]]

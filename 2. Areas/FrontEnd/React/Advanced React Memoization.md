@@ -1,11 +1,11 @@
 ---
-aliases:
+aliases: 
 source: https://www.goodreads.com/book/show/199277807-advanced-react?ref=rae_0
-author:
-createdAt:
-updateAt:
-categories:
-high_priority: false
+author: 
+date: 
+update: 
+categories: 
+important: false
 tags:
 ---
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20240811123954.png)

@@ -8,8 +8,8 @@ tags:
 aliases:
   - 第二大脑
 source: https://app.khoj.dev/
-createdAt: 2024-12-12T15:40:00.000Z
-updateAt: 2025-03-27 23:32
+date: 2024-12-12T15:40:00.000Z
+update: 2025-03-27 23:32
 ---
 
 [GitHub - BookDanny/khoj: Your AI second brain. ](https://github.com/BookDanny/khoj)

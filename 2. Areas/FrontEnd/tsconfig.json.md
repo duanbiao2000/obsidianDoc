@@ -1,10 +1,10 @@
 ---
-aliases: null
-theme: null
-priority: false
-date_created: 2024-12-14 12:33
-date_update: null
-tags: null
+aliases: 
+theme: 
+important: false
+date: 2024-12-14 12:33
+update: 
+tags:
 ---
 
 ```js

@@ -1,9 +1,9 @@
 ---
 aliases: 
-createdAt: 2025-03-18 10:19
-updateAt: 
+date: 2025-03-18 10:19
+update: 
 categories: 
-Rating: 10
+rating: 10
 tags:
   - Creative/Github
 ---

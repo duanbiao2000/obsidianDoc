@@ -1,6 +1,6 @@
 ---
-aliases: null
-updateAt: 2025-03-15 10:17
+aliases: 
+update: 2025-03-15 10:17
 ---
 
 [React 官方中文文档](https://zh-hans.react.dev/)

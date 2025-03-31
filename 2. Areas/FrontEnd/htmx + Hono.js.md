@@ -1,22 +1,13 @@
 ---
 aliases: 
-<<<<<<< HEAD
 theme: 
 original: 
 url: 
 author: 
-date_created: 
-date_update: 2024-09-02 17:07
-type: 
-priority: false
-=======
-source: 
-author: 
-createdAt: 
-updateAt: 2024-09-02 17:07
+date: 
+update: 2024-09-02 17:07
 categories: 
-high_priority: false
->>>>>>> 93a933e (refactor(dailyNotes): update metadata structure for daily notes)
+important: false
 ---
 
 ## 结合 htmx 和 Hono.js 实现实时聊天室

@@ -1,13 +1,13 @@
 ---
 aliases:
   - How to Do More of What Matters to You
-theme:
-source:
+theme: 
+source: 
 author: Ali Abdaal
-createdAt: 2024-07-16 14:33
-updateAt: 2024-07-16 14:33
-type:
-high_priority: false
+date: 2024-07-16 14:33
+update: 2024-07-16 14:33
+categories: 
+important: false
 ---
 
 

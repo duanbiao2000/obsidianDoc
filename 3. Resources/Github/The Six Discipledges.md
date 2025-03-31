@@ -1,6 +1,6 @@
 ---
 aliases: Six Discipledges
-createdAt: 2024-11-30 16:29
+date: 2024-11-30 16:29
 categories:
   - Diary
 tags:

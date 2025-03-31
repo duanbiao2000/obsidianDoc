@@ -1,7 +1,7 @@
 ---
 aliases: 
 categories: 
-high_priority: false
+important: false
 tags:
 ---
 ### 常用的监控工具和技术

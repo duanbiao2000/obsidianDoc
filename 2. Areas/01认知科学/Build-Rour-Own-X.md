@@ -1,6 +1,6 @@
 ---
 aliases: Build-Rour-Own-X
-createdAt: 2024-11-12 23:14
+date: 2024-11-12 23:14
 categories:
   - Mindset
 tags:
