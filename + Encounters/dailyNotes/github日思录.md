@@ -1,8 +1,16 @@
+---
+categories:
+  - Diary
+tags:
+  - Mindset/Reflection
+  - 当下时刻的觉察
+---
 
 ## 成就与进步
 
 - 我在个人目标/工作/学习方面取得了哪些成就？
 - 我这周做得最好的事情是：
+  - 少就是多, 同时关注项目不大于3个, 对关注仓库进行归类.
   - 发现了hellogithub, 本周开始在git上发力,Wakatime监督,利用star复习项目.
   - 加入Obsidian copilot , 生成和使用了template,这样日记会更加模块化,利于后期持续改进.
   - CodeGeex 的 diagram非常实用, 加了快捷键, 读代码的效率大大提高.
