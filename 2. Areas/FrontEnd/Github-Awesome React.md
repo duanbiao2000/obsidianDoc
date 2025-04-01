@@ -6,5 +6,7 @@
 
 [LinksHub - A hub of ready-to-use tech resources](https://www.linkshub.dev/)
 
+[Good First Issues](https://goodfirstissues.com/)
+
 
 

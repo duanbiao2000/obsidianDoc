@@ -1,7 +1,5 @@
-- [[GitHub Actions]]
-- [[Github Gist JavaScript 的精彩代码片段]]
-- [[2. Areas/BackEnd/Java/github上类似项目.md]]
-- [[GitHub中文榜]]
+
+- [Good First Issues](https://goodfirstissues.com/)
 ###  git基本用法:
 
 ```bash

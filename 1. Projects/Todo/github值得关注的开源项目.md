@@ -8,7 +8,9 @@ tags:
   - Action/TODO
 ---
 
-[github-hot/markdowns at main · duanbiao2000/github-hot · GitHub](https://github.com/duanbiao2000/github-hot/tree/main/markdowns)
+[github-githot/markdowns at main · duanbiao2000/github-hot · GitHub](https://github.com/duanbiao2000/github-hot/tree/main/markdowns)git
+
+[Good First Issues](https://goodfirstissues.com/)
 
 ---
 
