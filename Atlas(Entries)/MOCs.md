@@ -75,7 +75,7 @@
 - [[1. Projects/SymoblicLink/Ubuntu-HexoBlogPosts/_Index_of_Ubuntu-HexoBlogPosts.md]]
 - [[2. Areas/01认知科学/Fabric/Wisdom/_Index_of_Wisdom.md]]
 - [[+ Encounters/Zettelkasten/_Index_of_Zettelkasten.md]]
-- [[2. Areas/BackEnd/阿里云.md]]
+- [[阿里云]]
 - [[+ Encounters/dailyNotes/深度学习架构概念.md]]
 - [[2. Areas/AI/Python/oomol函数作用与处理逻辑.md]]
 - 
