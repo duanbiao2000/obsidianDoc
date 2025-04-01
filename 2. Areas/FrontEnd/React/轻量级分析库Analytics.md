@@ -15,7 +15,7 @@ npm install @vercel/analytics
 yarn add @vercel/analytics
 ```
 
-安装完成后，你可以将 `Analytics` 组件导入到你的应用中，并将其放置在组件树的顶层，通常是 `App.js` 或 `_app.js`（如果你使用的是 Next.js）文件中。这样可以确保所有页面和组件都能被正确地跟踪。
+安装完成后，你可以将 `Analytics` 组件导入到你的应用中，并将其放置在组件树的顶层，通常是 `App.js` 或 `_app.js`（如果你使用的是 [[Next.js]]）文件中。这样可以确保所有页面和组件都能被正确地跟踪。
 
 下面是一个简单的例子，展示如何在 React 应用中使用 `Analytics` 组件：
 
@@ -40,7 +40,7 @@ yarn add @vercel/analytics
    export default App;
    ```
 
-3. 如果你在使用 Next.js，那么通常你会在 `_app.js` 文件中这样做：
+3. 如果你在使用 [[Next.js]]，那么通常你会在 `_app.js` 文件中这样做：
 
    ```javascript
    import '../styles/globals.css';

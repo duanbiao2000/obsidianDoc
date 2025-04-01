@@ -35,7 +35,7 @@ MyPromise.prototype.then = function(onFulfilled, onRejected) {
 };
 ```
 
-这是一个手写 Promise 的示例，用于演示 Promise 的基本原理。Promise 是一种异步编程解决方案，用于处理异步操作的返回值。在上述代码中，MyPromise 是一个 Promise 构造函数，它接收一个函数作为参数，该函数接收 resolve 和 reject 两个回调函数作为参数。MyPromise.prototype.then 方法用于注册 Promise 的回调函数。
+这是一个手写 Promise 的示例，用于演示 Promise 的基本原理。Promise 是一种异步编程解决方案，用于处理异步操作的返回值。在上述代码中，MyPromise 是一个 Promise [[构造函数]]，它接收一个函数作为参数，该函数接收 resolve 和 reject 两个回调函数作为参数。MyPromise.prototype.then 方法用于注册 Promise 的回调函数。
 2. 手写 AJAX
 
 ```javascript

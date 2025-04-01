@@ -96,7 +96,7 @@ export default ImageComponent;
 
 1. **即时生成**：可以在需要时即时生成 Blob URL，而无需提前上传图片到服务器。
 2. **临时使用**：适合一次性使用的图片，如用户上传的头像预览等。
-3. **内存管理**：使用 `URL.revokeObjectURL()` 可以释放不再需要的 Blob URL，节省内存。
+3. **[[内存管理]]**：使用 `URL.revokeObjectURL()` 可以释放不再需要的 Blob URL，节省内存。
 
 #### 图片路径的优点：
 

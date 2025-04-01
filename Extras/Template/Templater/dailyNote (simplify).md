@@ -1,11 +1,12 @@
 ---
 aliases:
   - <% tp.file.title %>
-createdAt: <% tp.file.creation_date() %>
-updateAt: <% tp.file.last_modified_date() %>
+title: <% tp.file.title %>
+date: <% tp.file.creation_date() %>
+update: <% tp.file.last_modified_date() %>
 categories:
   - Mindset
-rate: 
+rating: 
 tags:
   - Mindset/Reflection
 ---
@@ -13,7 +14,7 @@ tags:
 
 
 ## 每日一图
-<% tp.web.random_picture("800x600") %>
+<% tp.web.random_picture("800x600","beauty,sports,activity") %>
 
 // Random picture with size and query
-<% tp.web.random_picture("800x800", "landscape,water") %>
+<% tp.web.random_picture("800x800", "landscape,smile,animal") %>

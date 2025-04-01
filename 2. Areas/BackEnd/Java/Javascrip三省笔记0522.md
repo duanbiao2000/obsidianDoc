@@ -169,9 +169,9 @@ console.log(myDate.getHours());
 ```javascript
 console.log(myDate.getMinutes());
 ```
-2. Lodash
+2. [[Lodash]]
 Lodash是一个流行的JavaScript实用程序库，提供了许多方便的功能来简化开发人员的编码。
-安装： `npm install lodash`
+安装： `npm install [[Lodash]]`
 ```javascript
 import _ from 'lodash';
 _.chunk(['a', 'b', 'c', 'd'], 2); // => [['a', 'b'], ['c', 'd']]

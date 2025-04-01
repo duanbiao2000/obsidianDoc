@@ -1,7 +1,9 @@
 ---
-aliases: <% tp.file.title %>
-createdAt: <% tp.file.creation_date() %>
-updateAt: <% tp.file.last_modified_date() %>
+aliases:
+  - <% tp.file.title %>
+title: <% tp.file.title %>
+date: <% tp.file.creation_date() %>
+update: <% tp.file.last_modified_date() %>
 categories:
   - Mindset
 tags:

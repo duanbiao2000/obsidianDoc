@@ -12,7 +12,7 @@ tags:
 
 <!--more-->
 # flowbite-react
-`flowbite-react` 是一个基于 Tailwind CSS 的 React UI 组件库，它提供了许多预构建的组件，可以帮助你快速搭建现代化的响应式网页。以下是如何在 React 项目中使用 `flowbite-react` 的一些基本步骤和示例代码。
+`flowbite-react` 是一个基于 [[Tailwind]] CSS 的 React UI 组件库，它提供了许多预构建的组件，可以帮助你快速搭建现代化的响应式网页。以下是如何在 React 项目中使用 `flowbite-react` 的一些基本步骤和示例代码。
 
 ### 安装
 
@@ -24,18 +24,18 @@ npm install flowbite-react tailwindcss
 
 ### 配置 Tailwind CSS
 
-1. **创建 Tailwind CSS 配置文件**：
-   如果你还没有 Tailwind CSS 配置文件，可以使用以下命令生成：
+1. **创建 [[Tailwind]] CSS 配置文件**：
+   如果你还没有 [[Tailwind]] CSS 配置文件，可以使用以下命令生成：
 
    ```bash
    npx tailwindcss init
    ```
 
-2. **配置 `tailwind.config.js`**：
-   确保你的 `tailwind.config.js` 文件包含 `flowbite` 插件。你可以通过安装 `@headlessui/react` 和 `@heroicons/react` 来获得更多的组件支持：
+2. **配置 `[[Tailwind]].config.js`**：
+   确保你的 `[[Tailwind]].config.js` 文件包含 `flowbite` 插件。你可以通过安装 `@headlessui/react` 和 `@heroicons/react` 来获得更多的组件支持：
 
    ```javascript
-   // tailwind.config.js
+   // [[Tailwind]].config.js
    module.exports = {
      content: [
        "./src/**/*.{js,jsx,ts,tsx}",
@@ -50,14 +50,14 @@ npm install flowbite-react tailwindcss
    }
    ```
 
-3. **引入 Tailwind CSS**：
-   在你的项目中引入 Tailwind CSS。你可以在 `src/index.css` 或 `src/App.css` 中添加以下内容：
+3. **引入 [[Tailwind]] CSS**：
+   在你的项目中引入 [[Tailwind]] CSS。你可以在 `src/index.css` 或 `src/App.css` 中添加以下内容：
 
    ```css
    /* src/index.css */
-   @tailwind base;
-   @tailwind components;
-   @tailwind utilities;
+   @[[Tailwind]] base;
+   @[[Tailwind]] components;
+   @[[Tailwind]] utilities;
 
    @layer components {
      .btn {
@@ -184,7 +184,7 @@ export default App;
 1. **导入组件**：从 `flowbite-react` 中导入所需的组件，如 `Button`、`Modal`、`Navbar` 和 `Dropdown`。
 2. **状态管理**：使用 `React.useState` 来管理模态框的显示状态。
 3. **事件处理**：定义 `openModal` 和 `closeModal` 函数来控制模态框的显示和隐藏。
-4. **布局**：使用 Tailwind CSS 类来设置样式，确保页面布局美观且响应式。
+4. **布局**：使用 [[Tailwind]] CSS 类来设置样式，确保页面布局美观且响应式。
 5. **导航栏**：使用 `Navbar` 组件创建一个带有品牌标志和链接的导航栏。
 6. **下拉菜单**：使用 `Dropdown` 组件创建一个用户下拉菜单。
 7. **模态框**：使用 `Modal` 组件创建一个模态框，包含标题、内容和底部按钮。

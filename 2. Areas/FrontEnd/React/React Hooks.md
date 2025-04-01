@@ -288,7 +288,7 @@ function MyComponent() {
 - **自定义 Hook:** 如何基于 `useClerk()` 创建自定义的 Hook，以满足特定的需求。
 - **SSR (服务器端渲染):** `useClerk()` 在 SSR 环境下的使用。
 - **错误处理:** 如何处理身份验证过程中出现的错误。
-- **与其他库的集成:** `useClerk()` 与其他库（如 Next.js、React Router）的集成。
+- **与其他库的集成:** `useClerk()` 与其他库（如 [[Next.js]]、React Router）的集成。
 
 `import { useQuery } from "@tanstack/react-query";` 是用来引入 `react-query` 库中的 `useQuery` 钩子（Hook）。`react-query` 是一个强大的数据获取和状态管理库，主要用于处理异步数据请求、缓存、同步和更新操作。它极大简化了在 React 应用中与服务器数据交互的过程，提升了开发体验和应用性能。
 

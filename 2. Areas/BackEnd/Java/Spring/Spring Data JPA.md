@@ -4,9 +4,9 @@
 **问题1：Spring Data JPA 的主要目的是什么？**
 ?
 A. 简化基于 Java Persistence API (JPA) 的数据库操作
-B. 取代 Hibernate 作为唯一的 ORM 框架
+B. 取代 Hibernate 作为唯一的 [[ORM]] 框架
 C. 提供一个全新的数据库查询语言
-D. 管理 Spring Boot 应用的依赖关系
+D. 管理 [[2. Areas/BackEnd/Java/Spring Boot|Spring Boot]] 应用的依赖关系
 
 ---
 **问题2：在 Spring Data JPA 中，开发者通过继承哪个接口可以轻松获得常用的 CRUD 操作方法？**

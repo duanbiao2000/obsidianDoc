@@ -17,7 +17,7 @@ This project analyzes the impact of AI on jobs, identifying resilient categories
 *  Human skills like creativity, critical thinking, and social intelligence will be crucial.
 *  Adaptability and continuous learning are essential for future job security.
 *  The timeline for automation varies across industries and job roles.
-*  **Individuals with strong interpersonal and problem-solving skills will thrive.**
+*  **Individuals with strong interpersonal and [[问题解决]] skills will thrive.**
 
 ## JOB CATEGORY ANALYSIS
 
@@ -29,7 +29,7 @@ This project analyzes the impact of AI on jobs, identifying resilient categories
 **2. Moderately Resilient:**
 
 * **Caregivers:** Nurses, therapists, social workers (demand empathy, emotional intelligence, and physical presence)
-* **Skilled Trades:** Electricians, plumbers, mechanics (require hands-on expertise and problem-solving)
+* **Skilled Trades:** Electricians, plumbers, mechanics (require hands-on expertise and [[问题解决]])
 
 **3. Vulnerable to Automation:**
 
@@ -65,7 +65,7 @@ This project analyzes the impact of AI on jobs, identifying resilient categories
 * **Develop In-Demand Skills:** Focus on areas where human intelligence is irreplaceable.
 * **Embrace Lifelong Learning:** Continuously update your knowledge and skills through training and education.
 * **Cultivate Creativity and Innovation:** Explore opportunities to generate new ideas and solutions.
-* **Enhance Communication and Collaboration:** [Build strong interpersonal skills] and teamwork abilities.
+* **Enhance [[Communication]] and Collaboration:** [Build strong interpersonal skills] and teamwork abilities.
 * **Be Proactive and Adaptable:**  Stay informed about industry trends and be willing to embrace change. 
 
 

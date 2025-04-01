@@ -1,9 +1,10 @@
 ---
 aliases: 
+title: <% tp.file.title %>
 theme: 
 high_priority: false
-createdAt: <% tp.file.creation_date() %>
-updateAt: <% tp.file.last_modified_date() %>
+date: <% tp.file.creation_date() %>
+update: <% tp.file.last_modified_date() %>
 tags:
 ---
 

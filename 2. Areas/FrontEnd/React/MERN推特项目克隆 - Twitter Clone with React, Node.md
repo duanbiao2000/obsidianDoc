@@ -5,7 +5,7 @@ important: false
 tags:
 ---
 # Mongoose标准流程
-Mongoose 提供了一系列强大的功能来与 MongoDB 数据库交互。这里列举一些 Mongoose 中常用的数据库操作示例，包括创建、读取、更新和删除（CRUD）数据等。
+[[Mongoose]] 提供了一系列强大的功能来与 MongoDB 数据库交互。这里列举一些 [[Mongoose]] 中常用的数据库操作示例，包括创建、读取、更新和删除（CRUD）数据等。
 
 ### 1. 定义 Schema 和 Model
 首先需要定义一个 schema 来描述你的文档结构，并基于该 schema 创建一个 model。
@@ -99,7 +99,7 @@ const users = await User.find()
 ```
 
 ### 7. 聚合管道
-Mongoose 支持 MongoDB 的聚合框架，可以用来执行复杂的查询和转换操作。
+[[Mongoose]] 支持 MongoDB 的聚合框架，可以用来执行复杂的查询和转换操作。
 
 ```javascript
 const result = await User.aggregate([
@@ -108,4 +108,4 @@ const result = await User.aggregate([
 ]);
 ```
 
-以上是一些基本的 Mongoose 操作示例。Mongoose 功能非常强大，支持更复杂的数据模型定义、中间件、虚拟属性等功能。对于更详细的信息，建议查阅官方文档。
+以上是一些基本的 [[Mongoose]] 操作示例。[[Mongoose]] 功能非常强大，支持更复杂的数据模型定义、[[中间件]]、虚拟属性等功能。对于更详细的信息，建议查阅官方文档。

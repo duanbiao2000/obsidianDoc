@@ -67,7 +67,7 @@ Express 是一个基于 Node.js 的 web 应用框架，它简化了 Node.js web 
    app.listen(3000, () => console.log('Server is listening on port 3000'));
    ```
 
-6. 中间件（Middleware）：在 Express 中，中间件是一种处理请求和响应的函数。它们可以对请求和响应进行修改，并控制执行流程。
+6. [[中间件]]（Middleware）：在 Express 中，中间件是一种处理请求和响应的函数。它们可以对请求和响应进行修改，并控制执行流程。
 
    示例：
    ```javascript

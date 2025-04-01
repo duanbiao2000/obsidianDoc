@@ -13,7 +13,7 @@
    - **Apache Flink：** 分布式流处理框架，支持事件时间处理和迭代计算。
 4. **数据库中间件：**
    - **Hibernate：** 对象关系映射框架，简化了Java应用程序与关系数据库的交互。
-   - **MyBatis：** 数据持久层框架，将对象与数据库之间的映射配置化。
+   - **[[MyBatis]]：** 数据持久层框架，将对象与数据库之间的映射配置化。
 5. **Web中间件：**
    - **Tomcat：** Apache基金会的开源Servlet容器，用于实现Java Servlet和JavaServer Pages技术。
    - **Jetty：** Eclipse基金会的开源Servlet容器，用于支持Java的HTTP服务器和Servlet容器。
@@ -78,7 +78,7 @@ D. Zookeeper
 ??
 A. Apache Kafka
 B. gRPC
-C. MyBatis
+C. [[MyBatis]]
 D. Hibernate
 
 **问题 5：哪个 Web 中间件是 Apache 基金会的开源 Servlet 容器？**
@@ -106,7 +106,7 @@ D. Zookeeper
 ??
 A. Apache Kafka
 B. gRPC
-C. MyBatis
+C. [[MyBatis]]
 D. Zookeeper
 
 ---

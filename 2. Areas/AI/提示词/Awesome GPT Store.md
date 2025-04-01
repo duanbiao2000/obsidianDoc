@@ -198,7 +198,7 @@ Your stars🌟 and recommendations are what make this community vibrant!
 * [LittleBison](https://chat.openai.com/g/g-glAjAQgqJ-littlebison) - Hypermedia and HATEOAS certified coding assistant. Proficient in HTMX, HyperScript, JavaScript, Python, and Clojure. Won't write React code.
 HATEOAS (Hypermedia as the Engine of Application State) 是一个计算机领域的术语，常用于描述 REST 架构风格中的一个原则。它的中文意思可以解释为“超媒体作为应用状态引擎”，它指的是在 RESTful API 中，通过返回超媒体链接，客户端可以无需硬编码任何资源路径或操作，而是可以通过链接中的信息动态地发现和执行操作。
 * [Grimoire](https://chat.openai.com/g/g-n7Rs0IK86-grimoire) - Coding Wizard: 100x Engineer. Build a website with a sentence. Built for a new era of creativity: Prompt-gramming.
-* [Modern Next.js Assistant](https://chat.openai.com/g/g-5uKZEh1up-modern-next-js-assistant) - Specialized in Next.js, App Router, TypeScript, Shadcn, and Tailwind CSS; avoids pages router. Has preloaded documentation of Next.js version 14.0.2 and shadcn version 0.4.1.
+* [Modern Next.js Assistant](https://chat.openai.com/g/g-5uKZEh1up-modern-next-js-assistant) - Specialized in [[Next.js]], App Router, TypeScript, Shadcn, and [[Tailwind]] CSS; avoids pages router. Has preloaded documentation of [[Next.js]] version 14.0.2 and shadcn version 0.4.1.
 * [WordPress GPT (1.1)](https://chat.openai.com/g/g-Z8RtbJVuE-wordpress-gpt-1-1) - WordPress Developer Assistant.
 * [StreamlitGPT](https://chat.openai.com/g/g-ucLFVBWHR-streamlitgpt) - Code reviews from a Streamlit expert.
 Streamlit GPT 是一个开源的 Python 库，用于快速创建和分享机器学习应用程序。它使得开发者能够轻松地创建交互式的应用程序，这些应用程序可以用来探索数据、训练模型以及与用户共享分析结果。Streamlit 使得机器学习变得更加容易和直观，使得非技术用户也能够访问和理解复杂的模型和数据。

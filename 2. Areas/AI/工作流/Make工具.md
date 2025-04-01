@@ -35,3 +35,44 @@ default: import_notion
 ```
 在这个示例中，我们使用curl和feedparser抓取RSS源，并使用xq（XML query language）工具清理数据。最后，我们使用Notion API将数据导入到Notion中。
 请注意，这个示例仅供参考，可能需要根据具体情况进行修改和优化。
+
+## 补充
+在Makefile中，这段代码的作用是设置一个定期执行的工作流程，以便定时自动执行数据导入到Notion的任务。以下是每个部分的解释：
+
+```makefile
+# 定期执行
+.PHONY: default
+default: import_notion
+	@date > timestamp.txt
+	sleep 60
+	make
+```
+
+- **# 定期执行**：
+  - 这是一行注释，用来描述下面的代码块的目的，表明这部分代码与定期执行有关。
+
+- **.PHONY: default**：
+  - `.PHONY` 语句用于标识一个伪目标（phony target）。在Make中，伪目标不是指特定的文件，而是一个特殊的规则名，比如 `default`。这里将 `default` 标记为伪目标，意味着它不对应于任何实际文件或源代码。
+  - `default` 是Make的默认目标，通常是在没有指定目标时Make会尝试构建的目标。在这里，它被用作一个触发点来定期执行任务。
+
+- **default: import_notion**：
+  - 这设置了 `default` 伪目标的依赖关系。这里，`default` 伪目标依赖于 `import_notion` 规则。这意味着每次运行 `make default` 或简写为 `make` 时，都会执行 `import_notion` 规则。
+
+- **@date > timestamp.txt**：
+  - 这是一条shell命令，使用 `@` 符号前缀以防止Make输出命令本身，只输出命令的结果。
+  - `date` 命令用来获取当前日期和时间。
+  - `>` 是一个重定向操作符，将 `date` 命令的输出（当前日期和时间）写入到 `timestamp.txt` 文件中。
+
+- **sleep 60**：
+  - `sleep` 命令用于暂停执行指定的秒数。这里，它被设置为暂停60秒。
+
+- **make**：
+  - 最后，再次调用 `make` 来执行 `default` 目标所依赖的 `import_notion` 规则。这将执行导入Notion的数据流程。
+
+综合来看，这段代码设置了以下行为：
+
+1. 每隔60秒，会检查一次当前时间。
+2. 如果过了60秒，`make` 命令会被执行，进而执行 `import_notion` 规则。
+3. 将执行 `import_notion` 规则后，再次暂停60秒，然后重复此过程。
+
+这样，`import_notion` 规则会每分钟执行一次，从而实现定期执行数据导入到Notion的目的。

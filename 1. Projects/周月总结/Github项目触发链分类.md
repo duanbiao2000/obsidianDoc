@@ -9,12 +9,12 @@
 %% 
 1.  **发现与评估 (Discovery & Assessment):**
     *   **触发:** 需求驱动（需要某功能/工具/库）、社区推荐、技术趋势、好奇心。
-    *   **行动:** GitHub 搜索/浏览 Trending → 查看项目 README → 评估 Star/Fork/活跃度/社区 → 阅读项目简介、目标、特性。
+    *   **行动:** GitHub 搜索/浏览 Trending → 查看项目 README → 评估 Star/Fork/活跃度/社区 → 阅读项目简介、[[目标]]、特性。
     *   **产出:** 初步判断项目是否符合需求、是否值得投入时间学习。
 
 2.  **环境准备与安装 (Setup & Installation):**
     *   **触发:** 决定深入学习。
-    *   **行动:** `git clone` 或下载 → 阅读安装/环境配置指南 (Installation/Setup Guide) → 安装依赖 (如 `npm install`, `pip install`, `docker build`)。
+    *   **行动:** `[[Git]] clone` 或下载 → 阅读安装/环境配置指南 (Installation/Setup Guide) → 安装依赖 (如 `npm install`, `pip install`, `docker build`)。
     *   **产出:** 本地具备运行或使用项目的基本环境。
  %%
 3.  **快速上手与验证 (Quick Start & Verification):**

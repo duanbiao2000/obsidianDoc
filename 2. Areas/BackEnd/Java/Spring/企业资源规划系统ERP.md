@@ -13,12 +13,12 @@
 ### 技术栈
 
 - **前端**：React或Angular（可选，根据需要）
-- **后端**：Spring Boot
+- **后端**：[[2. Areas/BackEnd/Java/Spring Boot|Spring Boot]]
 - **数据库**：MySQL或PostgreSQL
 - **安全**：Spring Security
 - **缓存**：Redis
 - **消息队列**：RabbitMQ或Kafka（可选，用于处理异步任务）
-- **监控**：Spring Boot Actuator
+- **监控**：[[2. Areas/BackEnd/Java/Spring Boot|Spring Boot]] Actuator
 
 ### 开发步骤
 
