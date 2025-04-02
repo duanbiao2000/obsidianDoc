@@ -7,7 +7,7 @@
 - [[_Index_of_电商传媒]]
 - [[2. Areas/剪辑/电影/_Index_of_电影.md]]
 - [[3. Resources/影音读/书本通读/非技术类/_Index_of_非技术类.md]]
-- [[2. Areas/计算机通识/_Index_of_计算机通识.md]]
+- [[../2. Areas/Compute Sicence/_Index_of_计算机通识]]
 - [[2. Areas/剪辑/技巧/_Index_of_技巧.md]]
 - [[2. Areas/剪辑/_Index_of_剪辑.md]]
 - [[2. Areas/剪辑/脚本/_Index_of_脚本.md]]
@@ -76,6 +76,6 @@
 - [[2. Areas/01认知科学/Fabric/Wisdom/_Index_of_Wisdom.md]]
 - [[+ Encounters/Zettelkasten/_Index_of_Zettelkasten.md]]
 - [[阿里云]]
-- [[+ Encounters/dailyNotes/深度学习架构概念.md]]
+- [[../2. Areas/AI/NomicBertModel建构分析]]
 - [[2. Areas/AI/Python/oomol函数作用与处理逻辑.md]]
 - 

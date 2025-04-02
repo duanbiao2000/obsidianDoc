@@ -26,31 +26,6 @@ tags:
     *   **解码器 (Decoder):** 也由 N 个相同的层堆叠而成，但每层包含三个子层：一个遮蔽的多头自注意力子层（防止看到未来信息）、一个多头注意力子层（关注编码器的输出）和一个前馈神经网络子层。负责根据编码器的输出和已生成的部分，生成目标序列。
 *   🔗 **残差连接与层归一化 (Residual Connection & Layer Normalization):** 应用于每个子层的输出之后。残差连接有助于避免梯度消失，促进深层网络的训练；层归一化则用于稳定训练过程中的激活值。
 
----
-
-**整理说明:**
-
-1.  **主题明确:** 标题直接点明是关于 "Transformer 模型" 的高效学习卡片。
-2.  **核心原则:** 使用 Callout 突出 Transformer 的核心思想（自注意力机制取代 RNN/CNN）和关键优势（并行计算）。
-3.  **关键方法/组件:**
-    *   将原笔记中的关键概念（自注意力、多头注意力、位置编码、编码器-解码器、残差连接与归一化）提炼为关键方法/组件。
-    *   使用了 Emoji 图标进行区分。
-    *   对每个组件进行了简洁的描述，尝试用更易理解的方式解释其作用，符合费曼原理。
-    *   保留了自注意力的核心公式表示。
-4.  **结构清晰:** 遵循了 [[&高效学习卡片原则]] 要求的结构。
-5.  **Zettelkasten 兼容:** 这个整理后的笔记更聚焦于 "Transformer" 这一个核心概念，适合作为一个独立的知识卡片，便于未来与其他相关概念（如 Attention, NLP, BERT, GPT 等）的笔记进行链接。
-6.  **内容取舍:** 移除了原笔记中的元数据（可以在 Obsidian 文件属性中管理）、日期链接、随机名言和图片，使笔记内容更纯粹地聚焦于 Transformer 本身。
-
-## 随机名言
-> [!quote] I can't change the direction of the wind, but I can adjust my sails to always reach my destination.
-> — Jimmy Dean
-
-## 每日一图
-
-![photo by Robert Lukeman(https://unsplash.com/@robertlukeman?utm_source=templater_proxy&utm_medium=referral) on Unsplash](https://images.unsplash.com/photo-1472214103451-9374bd1c798e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2NDU1OTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDM5NDh8&ixlib=rb-4.0.3&q=85&w=800&h=800)
-
-
-
 
 
 
