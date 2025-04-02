@@ -6,102 +6,54 @@ tags:
   - Mindset
 ---
 
-根据提供的结构化笔记模板，以下是对`activeNote`的推理扩展：
 
----
+**核心目标：** 理解 LeetCode 题目的常见解题模式（套路），以便更快地识别问题类型并应用合适的算法。
 
-# 推理扩展：Leetcode模式分类
+1.  **数组/字符串相关模式:**
+    *   **双指针 (Two Pointers):** 用两个“手指”（指针）在数组或字符串上移动，通常一个快一个慢，或者一头一尾，来查找、比较或定位。
+    *   **滑动窗口 (Sliding Window):** 维护一个“窗口”在数据上移动，窗口大小可变或固定，用来处理连续子序列的问题（如找最短/最长/符合条件的子串/子数组）。
+    *   **前缀和 (Prefix Sum):** 提前计算好从头开始到每个位置的累加和，这样就能瞬间（O(1)）算出任意区间的和。
+    *   **哈希表 (Hash Table):** 利用其快速查找（近 O(1)）的特性，来统计频率、判断元素是否存在、建立映射关系等。
 
-摘要/概览：
-本笔记将深入探索LeetCode题目中常见的模式，分析其原理和应用，帮助读者更好地理解和掌握各类算法。
+2.  **链表模式:**
+    *   **链表操作:** 核心是处理 `next` 指针，进行节点的增、删、改、查，以及处理环、合并、反转等。
+    *   **反转链表:** 改变 `next` 指针的指向，使链表顺序颠倒，是很多链表题的基础。
 
-关键概念：
-- `LeetCode模式分类`：涉及题目类型和常见算法的列表。
-- `双指针`：遍历数组或链表，两个指针同时移动，解决各种问题。
-- `滑动窗口`：用于解决数组或字符串中子串相关的问题。
-- `动态规划`：将问题分解为子问题，通过存储子问题的解来避免重复计算。
-- `深度优先搜索（DFS）`：用于遍历树或图，探索所有可能的路径。
-- `广度优先搜索（BFS）`：用于找到最短路径或遍历图的所有节点。
-- `回溯`：用于探索所有可能解的问题，通过逐步构建解决方案，并在不满足条件时回溯。
-- `贪心算法`：在每一步选择局部最优解，期望得到全局最优解。
-- `二分查找`：在有序数组中快速查找目标元素。
+3.  **栈模式 (Stack):**
+    *   **基本栈操作:** 利用其“后进先出”（LIFO）的特性，解决括号匹配、表达式求值、逆序处理等问题。
+    *   **单调栈:** 栈内元素保持单调（递增或递减），用于解决“下一个更大/更小元素”、矩形面积等问题。
 
-详细内容：
-### 1. 数组模式
-- **双指针**：例如，`1. Two Sum`、`15. 3Sum`、`11. Container With Most Water`。
-- **滑动窗口**：例如，`209. Minimum Size Subarray Sum`、`76. Minimum Window Substring`。
-- **前缀和**：例如，`303. Range Sum Query - Immutable`、`560. Subarray SumEquals K`。
+4.  **递归与回溯模式 (Recursion & Backtracking):**
+    *   **递归:** 函数自己调用自己，将大问题分解为结构相同的子问题来解决（如树的遍历）。
+    *   **回溯:** “走不通就退回来”，系统性地搜索问题的所有可能解，常用于排列、组合、子集、棋盘等问题。
 
-### 2. 字符串模式
-- **双指针/滑动窗口**：例如，`3. Longest Substring Without Repeating Characters`、`424. Longest Repeating Character Replacement`。
-- **字符串操作**：例如，`8. String to Integer (atoi)`、`151. Reverse Words in a String`。
-- **哈希表**：例如，`242. Valid Anagram`、`290. Word Pattern`。
+5.  **树模式 (Tree):**
+    *   **树的遍历:** 按特定顺序（前序、中序、后序、层序）访问树的所有节点，是树相关问题基础。
+    *   **二叉搜索树 (BST):** 利用其左<根<右的特性，高效地查找、插入、删除元素。
+    *   **树的构造:** 根据遍历序列（如前序+中序）还原树的结构。
 
-### 3. 链表模式
-- **链表操作**：例如，`2. Add Two Numbers`、`21. Merge Two Sorted Lists`、`141. Linked List Cycle`。
-- **反转链表**：例如，`206. Reverse Linked List`、`92. Reverse Linked List II`。
+6.  **堆模式 (Heap / Priority Queue):**
+    *   **堆操作:** 维护一个优先队列，快速找到最大/最小元素（Top K 问题），或用于需要动态排序的场景。
 
-### 4. 栈模式
-- **基本栈操作**：例如，`20. Valid Parentheses`、`155. Min Stack`。
-- **单调栈**：例如，`84. Largest Rectangle in Histogram`、`739. Daily Temperatures`。
+7.  **动态规划模式 (Dynamic Programming - DP):**
+    *   **核心思想:** 将复杂问题分解为更小的重叠子问题，通过记录子问题的解（通常用数组或哈希表，即 `dp` 表）来避免重复计算，从而找到最优解。适用于求最值、计数、可行性等问题（如爬楼梯、背包问题、最长子序列）。
 
-### 5. 递归与回溯模式
-- **递归**：例如，`111. Minimum Depth of Binary Tree`、`112. Path Sum`。
-- **回溯**：例如，`17. Letter Combinations of a Phone Number`、`78. Subsets`、`46. Permutations`。
+8.  **图模式 (Graph):**
+    *   **图的遍历 (DFS/BFS):** 深度优先搜索（DFS，像走迷宫一条路走到黑再回溯）和广度优先搜索（BFS，像水波纹一层层扩散，常用于找最短路径）。
+    *   **拓扑排序:** 用于有向无环图（DAG），确定任务的执行顺序（如课程安排）。
 
-### 6. 二叉树模式
-- **树的遍历**：例如，`94. Binary Tree Inorder Traversal`、`144. Binary Tree Preorder Traversal`、`145. Binary Tree Postorder Traversal`。
-- **二叉搜索树**：例如，`98. Validate Binary Search Tree`、`230. Kth Smallest Element in a BST`。
-- **树的构造**：例如，`105. Construct Binary Tree from Preorder and Inorder Traversal`、`106. Construct Binary Tree from Inorder and Postorder Traversal`。
+9.  **贪心算法模式 (Greedy):**
+    *   **核心思想:** 每一步都做出当前看起来最好的选择，期望最终得到全局最优解。不一定总能得到最优解，但对某些问题有效（如分发饼干、跳跃游戏）。
 
-### 7. 堆模式
-- **堆操作**：例如，`215. Kth Largest Element in an Array`、`347. Top K Frequent Elements`。
+10. **位操作模式 (Bit Manipulation):**
+    *   **核心思想:** 直接在二进制位上进行运算（与、或、异或、移位等），通常非常高效，用于处理整数相关、状态压缩等特定问题。
 
-### 8. 动态规划模式
-- **子序列**：例如，`70. Climbing Stairs`、`53. Maximum Subarray`。
-- **背包问题**：例如，`416. Partition Equal Subset Sum`、`494. Target Sum`。
+11. **二分查找模式 (Binary Search):**
+    *   **核心思想:** 在**有序**数据中，每次将搜索范围缩小一半，极大地提高查找效率（O(log n)）。适用于查找特定值、满足条件的边界等。
 
-### 9. 图模式
-- **图的遍历**：例如，`200. Number of Islands`、`133. Clone Graph`。
-- **拓扑排序**：例如，`210. Course Schedule II`、`269. Alien Dictionary`。
+12. **其他模式:**
+    *   **模拟 (Simulation):** 按照题目描述的逻辑和过程，直接用代码实现。
+    *   **排序 (Sorting):** 利用排序算法或自定义比较函数来解决问题。
+    *   **数学 (Math):** 运用数学知识、公式或技巧。
+    *   **设计 (Design):** 实现特定的数据结构或满足特定接口要求（如 LRU Cache）。
 
-### 10. 贪心算法模式
-- **贪心选择**：例如，`455. Assign Cookies`、`55. Jump Game`。
-
-### 11. 位操作模式
-- **位运算**：例如，`191. Number of 1 Bits`、`136. Single Number`。
-
-
-### 12. 模拟模式
-- **模拟过程**：例如，`28. Implement strStr()`、`56. Merge Intervals`。
-
-### 13. 排序模式
-- **自定义排序**：例如，`179. Largest Number`、`215. Kth Largest Element in an Array`。
-
-### 14. 二分查找模式
-- **基本二分查找**：例如，`704. Binary Search`、`35. Search Insert Position`。
-- **高级二分查找**：例如，`33. Search in Rotated Sorted Array`、`153. Find Minimum in Rotated Sorted Array`。
-
-### 15. 数学模式
-- **数学计算**：例如，`2. Add Two Numbers`、`50. Pow(x, n)`。
-
-### 16. 位操作模式
-- **位运算**：例如，`191. Number of 1 Bits`、`136. Single Number`。
-
-### 17. 设计模式
-- **设计数据结构**：例如，`146. LRU Cache`、`380. Insert Delete GetRandom O(1)`。
-
-图表和视觉辅助：
-- 可以使用图表来展示每种模式的典型问题和应用场景。
-- 流程图可以用来解释算法的逻辑和执行步骤。
-
-行动点/待办事项：
-- 识别自己在哪些模式上需要更多练习。
-- 制定一个学习计划，专注于弱项模式。
-- 定期回顾和练习已掌握的模式。
-
-引用和资源：
-- 提供参考文献，如LeetCode官方文档、在线教程、书籍等。
-- 列出相关的在线资源和社区论坛，以便进一步学习和讨论。
-
-通过这种结构化的方式，可以系统地学习和理解LeetCode中的各种模式，从而提高解题能力和算法素养。
