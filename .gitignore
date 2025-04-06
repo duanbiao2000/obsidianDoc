@@ -22,11 +22,9 @@
 
 # 忽略工作区配置文件
 workspace.json.obsidian/
-#.obsidian/
 .smart-connections/
 *.ajson
-
-
+.copilot-index/
 
 _Index_of_*.md
 
@@ -37,11 +35,9 @@ _Index_of_*.md
 
 
 # redundant
-.trash
+.trash/
 .codemap
 .makemd
 .smart-env
 .space
-copilot-conversations/*
-copilot-custom-prompts/*
 smart-chats/*
