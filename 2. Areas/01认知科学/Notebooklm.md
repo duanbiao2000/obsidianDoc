@@ -16,12 +16,17 @@ update: 2024-07-24 15:27
 - 记忆：难以忘怀的生活经历；
 - 反思：记录在手册或日记中的个人思考；
 - 冥想：随机浮现在脑海中的所谓浴室灵感。
+
+Share your knowledge! Turn thoughts into tangible forms (stories, insights, memories, reflections, ideas) to share your unique perspective & learn from others. #knowledge #sharing #ideas
+
 ---
 ## 重磅信息
 一个有效的对策则是，**仅记录下震撼人心的重磅信息并保存在可靠的位置，对于其 他内容能省则省即可**。 所谓的==重磅信息==，能够直击你的内心深处。
 聚焦那些可以为我们的生活带来增益的信息，并有意识地忽略其他的冗余 内容。 #重磅信息
 ### 信息抓取标准
 用于筛选最有价值的信息，包括：是否震撼人心、是否{{不可或缺}}、是否具有个性以及是否具有新奇性。
+Capture only impactful, life-changing info that resonates deeply. Ignore the rest! Focus on essential, novel, and personally relevant insights. #InfoOverload #Focus
+
 ### Generation Effect生成效应
 首先，通过自己的语言加以复述的信息，会更加容易记忆，这即所谓的“生成效 应”（Generation Effect）。**研究人员发现，相比单纯阅读文字来说，当人们通过读或写等活动主动生成词语时，那么他们的脑部会有更多的脑区得到激活。**
 举例来说，如果反复抄写对你记忆单词有所帮助，那么你便是这种“逸出增益”的受益者了。总之，**写作既来源于思考，又有助于思考。**
