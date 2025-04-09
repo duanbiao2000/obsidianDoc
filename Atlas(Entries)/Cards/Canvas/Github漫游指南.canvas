@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"main-group","type":"group","x":-400,"y":-800,"width":1000,"height":1880,"label":"高效利用GitHub快速提升前端开发技术"},
+		{"id":"learning-resources","type":"group","x":-360,"y":-500,"width":360,"height":640,"color":"4","label":"学习资源利用"},
+		{"id":"practice-group","type":"group","x":140,"y":-500,"width":360,"height":640,"color":"2","label":"实践与贡献"},
+		{"id":"tools-group","type":"group","x":-360,"y":190,"width":360,"height":610,"color":"3","label":"工具与自动化"},
+		{"id":"networking-group","type":"group","x":140,"y":190,"width":360,"height":610,"color":"5","label":"社区与人脉"},
+		{"id":"documentation","type":"text","text":"## 高质量文档学习\n- 官方文档（React、Vue等）\n- 贡献者编写的Guides\n- README和Wiki页面\n- 代码注释和Examples目录","x":-340,"y":-240,"width":320,"height":180,"color":"4"},
+		{"id":"trending-repos","type":"text","text":"## 热门仓库追踪\n- 关注GitHub Trending分类\n- Star优质前端框架仓库\n- 定期查看release notes和更新\n- 使用GitHub Topics浏览前端主题","x":-340,"y":-460,"width":320,"height":200,"color":"4"},
+		{"id":"own-projects","type":"text","text":"## 个人项目建设\n- 创建前端Demo展示技能\n- 实现开源库常用功能\n- 编写清晰的README文档\n- 使用GitHub Pages部署演示","x":160,"y":-460,"width":320,"height":200,"color":"2"},
+		{"id":"source-code","type":"text","text":"## 源码阅读\n- 热门库核心实现原理\n- PR和Issues中的讨论\n- 测试用例学习最佳实践","x":-340,"y":-40,"width":320,"height":160,"color":"4"},
+		{"id":"github-features","type":"text","text":"## GitHub高级功能\n- Codespaces在线开发环境\n- Discussions社区互动\n- Dependabot依赖管理\n- GitHub CLI命令行工具\n- GitHub Copilot辅助编码","x":-340,"y":520,"width":320,"height":230,"color":"3"},
+		{"id":"personal-branding","type":"text","text":"## 个人品牌建设\n- 完善个人Profile\n- 维护高质量README\n- 记录学习过程(Gist)\n- 分享技术文章链接\n- 定期更新项目进展","x":160,"y":520,"width":320,"height":230,"color":"5"},
+		{"id":"community","type":"text","text":"## 社区参与\n- Follow活跃开发者\n- 加入前端相关组织\n- 参与Discussions讨论\n- 订阅相关主题通知","x":160,"y":245,"width":320,"height":210,"color":"5"},
+		{"id":"github-actions","type":"text","text":"## GitHub Actions自动化\n- 前端项目自动构建流程\n- 自动化测试配置\n- 代码质量检查集成\n- 自动发布npm包","x":-340,"y":245,"width":320,"height":210,"color":"3"},
+		{"id":"core-concept","type":"text","text":"# 高效利用GitHub快速提升前端开发技术\n前端开发者可以通过GitHub系统性提升技术能力，构建个人品牌，加速职业发展。","x":-340,"y":-760,"width":880,"height":120,"color":"6"},
+		{"id":"link-github","type":"link","url":"https://github.com","x":-180,"y":840,"width":550,"height":240,"color":"6"},
+		{"id":"collaboration","type":"text","text":"## 协作技能提升\n- Git工作流熟练应用\n- CI/CD流程体验\n- 代码评审标准学习","x":160,"y":-40,"width":320,"height":160,"color":"2"},
+		{"id":"contributions","type":"text","text":"## 参与开源贡献\n- 修复简单bugs开始\n- 改进文档和注释\n- 参与code review\n- 提交功能增强PR\n- 回答issues中的问题","x":160,"y":-250,"width":320,"height":200,"color":"2"}
+	],
+	"edges":[
+		{"id":"edge-core-learning","fromNode":"core-concept","fromSide":"bottom","toNode":"learning-resources","toSide":"top"},
+		{"id":"edge-core-practice","fromNode":"core-concept","fromSide":"bottom","toNode":"practice-group","toSide":"top"},
+		{"id":"edge-learning-tools","fromNode":"learning-resources","fromSide":"bottom","toNode":"tools-group","toSide":"top"},
+		{"id":"edge-practice-networking","fromNode":"practice-group","fromSide":"bottom","toNode":"networking-group","toSide":"top"},
+		{"id":"edge-contributions-community","fromNode":"contributions","fromSide":"right","toNode":"community","toSide":"left"},
+		{"id":"edge-source-own","fromNode":"source-code","fromSide":"right","toNode":"own-projects","toSide":"left"}
+	]
+}
