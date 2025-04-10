@@ -7,15 +7,15 @@ date: 2025-04-07 21:38
 ![[Pasted image 20250407215032.png]]
 #### **1. 核心技术栈**
 
-|**技术**|**作用与用途**|
-|---|---|
-|**Python 3.11+**|项目基础语言，利用新特性（如数据类、async/await）实现高效异步任务处理。|
-|**Playwright**|浏览器自动化框架，支持Chrome/Firefox/Edge，用于控制浏览器实例、DOM操作和反检测配置。|
-|**LangChain/OpenAI**|集成LLM（如GPT-4o、Gemini），处理自然语言任务，驱动Agent生成指令并执行浏览器操作。|
-|**PostHog**|匿名化数据收集工具，通过`ProductTelemetry`类收集用户行为数据，用于产品优化。|
-|**Gradio**|快速构建交互式UI（如`gradio_demo.py`），提供可视化任务输入和结果展示。|
-|**Pydantic**|数据验证与配置管理，定义模型如`BrowserConfig`、`BrowserContextConfig`，确保参数合法性。|
-|**asyncio**|异步编程框架，处理高并发任务（如浏览器操作与LLM调用并行执行）。|
+| **技术**               | **作用与用途**                                                      |
+| -------------------- | -------------------------------------------------------------- |
+| **Python 3.11+**     | 项目基础语言，利用新特性（如数据类、async/await）实现高效异步任务处理。                      |
+| **Playwright**       | 浏览器自动化框架，支持Chrome/Firefox/Edge，用于控制浏览器实例、DOM操作和反检测配置。          |
+| **LangChain/OpenAI** | 集成LLM（如GPT-4o、Gemini），处理自然语言任务，驱动Agent生成指令并执行浏览器操作。            |
+| **PostHog**          | 匿名化数据收集工具，通过`ProductTelemetry`类收集用户行为数据，用于产品优化。                |
+| **Gradio**           | 快速构建交互式UI（如`gradio_demo.py`），提供可视化任务输入和结果展示。                   |
+| **Pydantic**         | 数据验证与配置管理，定义模型如`BrowserConfig`、`BrowserContextConfig`，确保参数合法性。 |
+| **asyncio**          | 异步编程框架，处理高并发任务（如浏览器操作与LLM调用并行执行）。                              |
 
 ---
 

@@ -34,16 +34,3 @@ default: import_notion
 	make
 ```
 在这个示例中，我们使用curl和feedparser抓取RSS源，并使用xq（XML query language）工具清理数据。最后，我们使用Notion API将数据导入到Notion中。
-请注意，这个示例仅供参考，可能需要根据具体情况进行修改和优化。
-
-## 补充
-在Makefile中，这段代码的作用是设置一个定期执行的工作流程，以便定时自动执行数据导入到Notion的任务。以下是每个部分的解释：
-
-```makefile
-# 定期执行
-.PHONY: default
-default: import_notion
-	@date > timestamp.txt
-	sleep 60
-	make
-```

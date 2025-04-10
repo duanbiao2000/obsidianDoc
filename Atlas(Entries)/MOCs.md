@@ -76,6 +76,6 @@
 - [[2. Areas/01认知科学/Fabric/Wisdom/_Index_of_Wisdom.md]]
 - [[+ Encounters/Zettelkasten/_Index_of_Zettelkasten.md]]
 - [[阿里云]]
-- [[../2. Areas/AI/NomicBertModel建构分析]]
+- [[AI-NomicBertModel-架构分析]]
 - [[2. Areas/AI/Python/oomol函数作用与处理逻辑.md]]
 - 

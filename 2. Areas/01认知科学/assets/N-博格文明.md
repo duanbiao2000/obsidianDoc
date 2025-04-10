@@ -1,4 +1,4 @@
-THREAD START
+prev :: [[人际关系-合作与竞争-行为模式]]
 What's a "n_borg" in tech? 🤔 Think Borg from Star Trek, but for systems! It's about tightly coupled entities working together. #tech #ai #borg
 
 ---

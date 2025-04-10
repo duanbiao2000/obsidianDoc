@@ -18,7 +18,7 @@
 
 ## 行动力核心概念
 
-(Source: [`行动潜在力.md`](assets/行动潜在力.md), [`战胜阻力.md`](assets/战胜阻力.md))
+(Source: [`行动潜在力.md`](个人效能-行动潜在力-心理机制.md), [`战胜阻力.md`](assets/战胜阻力.md))
 
 ### 定义
 
@@ -32,7 +32,7 @@
 
 ## 影响行动力的关键因素
 
-(Source: [`行动潜在力.md`](assets/行动潜在力.md))
+(Source: [`行动潜在力.md`](个人效能-行动潜在力-心理机制.md))
 
 ### 知识技能
 
@@ -59,7 +59,7 @@
 
 ## 提升行动力的策略与方法
 
-(Source: [`战胜阻力.md`](assets/战胜阻力.md), [`埃隆·马斯克的五步工作法 (Elon Musk's 5-Step Process).md`](assets/埃隆·马斯克的五步工作法%20(Elon%20Musk's%205-Step%20Process).md), [`习惯养成.md`](assets/习惯养成.md), [`目标设定.md`](assets/目标设定.md), [`简短建议.md`](assets/简短建议.md))
+(Source: [`战胜阻力.md`](assets/战胜阻力.md), [`埃隆·马斯克的五步工作法 (Elon Musk's 5-Step Process).md`](assets/埃隆·马斯克的五步工作法%20(Elon%20Musk's%205-Step%20Process).md), [`习惯养成.md`](assets/习惯养成.md), [`目标设定.md`](assets/目标设定.md), [`简短建议.md`](个人发展-人生建议-速查手册.md))
 
 ### 心态调整
 
@@ -97,7 +97,7 @@
 
 ## 实用建议精选
 
-(Source: [`简短建议.md`](assets/简短建议.md), [`take daily to improve in the ten key areas.md`](assets/take%20daily%20to%20improve%20in%20the%20ten%20key%20areas.md))
+(Source: [`简短建议.md`](个人发展-人生建议-速查手册.md), [`take daily to improve in the ten key areas.md`](assets/take%20daily%20to%20improve%20in%20the%20ten%20key%20areas.md))
 
 - 主动联系他人，建立连接。
 - 拥有“一无所有，但愿意赚取一切”的心态。
