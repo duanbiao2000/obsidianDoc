@@ -100,7 +100,7 @@ tags:
 ## 关键术语
 1. **{{Clarity}} is Power**
    - 强调在信息泛滥时代辨别重要信息的能力。
-<!--SR:!2025-03-26,3,250-->
+
 2. **Post-Truth (后真相)**
    - 指情感和主观信念比客观事实更能影响舆论的现象。
 1. **Critical Thinking (批判性思维)**
@@ -112,6 +112,7 @@ tags:
 1. **Technological Monopoly (科技垄断)**
    - 掌握新技术的人群获得巨大权力的现象。
 由尤瓦尔·诺亚·赫拉利（Yuval Noah Harari）撰写，通过21个章节讨论了21世纪人类面临的主要问题和挑战。以下是每一节课的主要结论：
+<!--SR:!2025-04-21,7,250-->
 
 ### 4. **Equality (平等)**
 - 结论：技术进步可能加剧社会不平等，掌握新技术和数据的人将获得巨大的权力。社会需要制定政策以防止科技垄断和财富集中。
@@ -150,7 +151,7 @@ tags:
    - **意义**：为了在快速变化的世界中保持心理平衡和理智，我们必须不断适应和学习。这句话揭示了现代生活的高压力和高节奏，提醒读者要注重心理健康和持续学习。
 5. **“The greatest scientific discovery of the twentieth century was the discovery of ignorance.”**
    - **意义**：==20世纪最伟大的科学发现是对无知的认识。==这句话强调了科学探索的核心在于承认自身的无知和不断追求真理，提醒读者保持谦卑和开放的心态。
-<!--SR:!2025-03-30,7,250-->
+
 6. **“The most important thing you can know about the future is that humans will still be human.”**
    - **意义**：对未来最重要的认识是人类依然是人类。这句话提醒我们，无论科技如何进步，人类的基本需求和情感依然不变，必须始终关注人性的本质和价值。
 1. **“To survive and flourish in such a world, you will need a lot of mental flexibility and great reserves of emotional balance.”**
@@ -165,3 +166,4 @@ tags:
 ### 11. **培养自我意识和个人发展**
 - **反思个人价值观和目标**：定期反思自己的价值观和生活目标，确保生活有意义和方向。
 - **寻求内心平静**：通过冥想、阅读和自我反思，找到内心的平静和满足。
+<!--SR:!2025-05-02,18,250-->
