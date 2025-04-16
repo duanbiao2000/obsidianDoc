@@ -14,6 +14,19 @@ dv.paragraph(
 )
 ```
 
+
+## 待实践动作：
+
+```dataview
+TASK
+FROM ""
+WHERE !completed
+SORT file.mtime DESC
+LIMIT 10
+GROUP BY file.folder
+```
+
+
 ## Dataview 插件示例
 
 最近编辑
