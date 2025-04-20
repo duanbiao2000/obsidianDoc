@@ -15,16 +15,16 @@ tags:
 - [lukasz-madon / awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job): A curated list of awesome remote jobs and resources. Inspired by <https://github.com/vinta/awesome-python> ***Star:30352 Fork:3539 Today stars:419***
 - [mendableai / firecrawl](https://github.com/mendableai/firecrawl): 🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API. ***Star:16417 Fork:1168 Today stars:419***
 - [livekit / agents](https://github.com/livekit/agents): Build real-time multimodal AI applications 🤖🎙️📹 ***Star:2361 Fork:272 Today stars:386***
-- [onejs / one](https://github.com/onejs/one): ❶ One is a new React framework that makes cross-platform simple. Target web and native with just Vite. ***Star:1942 Fork:38 Today stars:360***
+- [ ] [onejs / one](https://github.com/onejs/one): ❶ One is a new React framework that makes cross-platform simple. Target web and native with just Vite. ***Star:1942 Fork:38 Today stars:360***
 - [ErikBjare / gptme](https://github.com/ErikBjare/gptme): Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web, vision. ***Star:1472 Fork:91 Today stars:348***
 - [ocornut / imgui](https://github.com/ocornut/imgui): Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies ***Star:60177 Fork:10199 Today stars:111***
 - [nocodb / nocodb](https://github.com/nocodb/nocodb): 🔥 🔥 🔥 Open Source Airtable Alternative ***Star:48523 Fork:3286 Today stars:79***
 ### Python
-- [TheAlgorithms / Python](https://github.com/TheAlgorithms/Python): All Algorithms implemented in Python ***Star:190248 Fork:45023 Today stars:1609***
+- [ ] [TheAlgorithms / Python](https://github.com/TheAlgorithms/Python): All Algorithms implemented in Python ***Star:190248 Fork:45023 Today stars:1609***
 - [livekit / agents](https://github.com/livekit/agents): Build real-time multimodal AI applications 🤖🎙️📹 ***Star:2361 Fork:272 Today stars:386***
 - [ErikBjare / gptme](https://github.com/ErikBjare/gptme): Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web, vision. ***Star:1472 Fork:91 Today stars:348***
-- [zauberzeug / nicegui](https://github.com/zauberzeug/nicegui): Create web-based user interfaces with Python. The nice way. ***Star:9489 Fork:551 Today stars:303***
-- [donnemartin / system-design-primer](https://github.com/donnemartin/system-design-primer): Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. ***Star:271854 Fork:45839 Today stars:116***
+- [ ] [zauberzeug / nicegui](https://github.com/zauberzeug/nicegui): Create web-based user interfaces with Python. The nice way. ***Star:9489 Fork:551 Today stars:303***
+- [ ] [donnemartin / system-design-primer](https://github.com/donnemartin/system-design-primer): Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. ***Star:271854 Fork:45839 Today stars:116***
 ### Java
 - [TheAlgorithms / Java](https://github.com/TheAlgorithms/Java): All Algorithms implemented in Java ***Star:59390 Fork:19145 Today stars:116***
 - [Stirling-Tools / Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF): #1 Locally hosted web application that allows you to perform various operations on PDF files ***Star:43389 Fork:3512 Today stars:68***

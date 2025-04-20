@@ -23,11 +23,3 @@ class AgentCapabilities(BaseModel):
     *   **状态转换历史记录 (state transition history)**：状态转换历史记录是指记录 Agent 状态变化的过程。
     *   **适用场景**：状态转换历史记录适用于需要跟踪 Agent 状态变化的场景，例如调试、监控等。
     *   **`stateTransitionHistory=False`**:  表示 Agent 不支持状态转换历史记录。
-
-**总结**
-
-*   **`streaming=False`**:  表示 Agent 不支持流式传输，即不能将数据分成小块并逐块传输。
-*   **`pushNotifications=False`**:  表示 Agent 不支持推送通知，即不能主动向客户端发送通知消息。
-*   **`stateTransitionHistory=False`**:  表示 Agent 不支持状态转换历史记录，即不能跟踪 Agent 状态变化的过程。
-
-这些能力都是可选的，Agent 可以根据自身的需求来选择支持哪些能力。

@@ -49,10 +49,3 @@ SORT priority DESC
 
 ---
 
-**注意事项**  
-1. 此为数字笔记（Digital Garden）内容，引用时需注明"个人知识管理系统资料"  
-2. 模型参数需根据用户实际数据校准  
-3. 建议配合[[时间日志]]进行持续迭代
-
-如需正式学术引用，建议参考：  
-Cormen, T. H. (2022). *Introduction to Algorithms* (4th ed.). MIT Press. 第16章动态规划相关内容
