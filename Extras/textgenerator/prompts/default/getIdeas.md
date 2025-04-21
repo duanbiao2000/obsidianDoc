@@ -4,7 +4,7 @@ aliases: 💡BrainStorm Ideas
 summary: Brainstorm idea about the context.
 author: Noureddine
 tags:
-  - Agent
+  - Tech/Agent
 version: 0.0.1
 ---
 content: 

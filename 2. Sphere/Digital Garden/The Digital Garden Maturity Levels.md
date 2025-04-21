@@ -3,12 +3,12 @@ dg-publish: true
 update: 2025-04-18 19:49
 date: 2025-04-18T19:36:00.000Z
 tags:
-  - Seedling
-  - Sapling
-  - Tree
+  - DG/Seedling
+  - DG/Sapling
+  - DG/Tree
   - Withered
-  - Stone
-  - Signpost
+  - DG/Stone
+  - DG/Signpost
   - Chest
 ---
 

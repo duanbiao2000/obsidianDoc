@@ -7,7 +7,7 @@ categories:
   - Mindset
 tags:
   - Creative/Github
-  - Tech/项目分析
+  - Tech/Git
 ---
 ## 项目概述
 AI ContentCraft 是一个多功能内容创作工具，集成了文本生成、语音合成和图像生成功能。该项目使用 Node.js 和 Express 构建后端，前端使用原生 HTML/JavaScript，并集成了多种 AI 服务。

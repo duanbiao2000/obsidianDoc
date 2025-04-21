@@ -42,7 +42,7 @@ tags:
 **卡片 1**
 
 **ID:** 202503091716A
-**標籤:** #Zettelkasten #Mindset # daily improvement # 費曼學習法
+**標籤:** #Effective/Zettelkasten #Mindset # daily improvement # 費曼學習法
 **標題:** **每日提升十要領的認知負荷與主動思考** ^3754a8
 
 **內容:**
@@ -62,7 +62,7 @@ tags:
 **卡片 2**
 
 **ID:** 202503091716B
-**標籤:** #Zettelkasten #Mindset #跨領域知識 #交叉引用
+**標籤:** #Effective/Zettelkasten #Mindset #跨領域知識 #交叉引用
 **標題:** **將每日提升要領與跨領域知識交叉引用** ^cdef12
 
 **內容:**
@@ -82,7 +82,7 @@ tags:
 **卡片 3**
 
 **ID:** 202503091716C
-**標籤:** #Zettelkasten #Mindset #知識組織 #主動建構
+**標籤:** #Effective/Zettelkasten #Mindset #知識組織 #主動建構
 **標題:** **知識組織在每日提升過程中的作用** ^567891
 
 **內容:**

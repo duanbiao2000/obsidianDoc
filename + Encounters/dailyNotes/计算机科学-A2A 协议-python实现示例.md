@@ -12,7 +12,7 @@ update: 2025-04-21 00:11
 - `google_adk/`: 包含使用 Google ADK (Agent Development Kit) 实现的 Agent 示例。
 - `langgraph/`: 包含使用 LangGraph 框架实现的 Agent 示例。LangGraph 是一个用于构建 Agent 图的框架。
 
-  #A2A #Python #Agent #CrewAI #GoogleADK #LangGraph
+  #A2A #Python #Tech/Agent #CrewAI #GoogleADK #LangGraph
 
   - `types.py`: 定义 A2A 协议中使用的数据模型类，例如 `Task`、`Message`、`Artifact` 等。
 

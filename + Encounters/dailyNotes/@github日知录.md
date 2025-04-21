@@ -11,7 +11,7 @@ tags:
 - 我在个人目标/工作/学习方面取得了哪些成就？
 - 我这周做得最好的事情是：
     - [ ] https://jzhao.xyz/thoughts/writing 超级赞 #secondBrain  
-    - [ ] https://www.ssp.sh/brain/?ref=ssp.sh #secondBran
+    - [ ] https://www.ssp.sh/brain/?ref=ssp.sh #secondBrain
   - 少就是多, 同时关注项目不大于3个, 对关注仓库进行归类.
   - 发现了hellogithub, 本周开始在git上发力,Wakatime监督,利用star复习项目.
   - 加入Obsidian copilot , 生成和使用了template,这样日记会更加模块化,利于后期持续改进.

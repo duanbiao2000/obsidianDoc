@@ -1,6 +1,6 @@
 ---
 tags:
-  - Signpost
+  - DG/Signpost
 ---
 ## 语气字典分析与梳理
 

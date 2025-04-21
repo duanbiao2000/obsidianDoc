@@ -33,7 +33,7 @@
 - Book notes/Summaries
 - Ideas/Brainstorms
 - Reflections/Journaling
- #Mindset/Reflection #Agent #Mindset/Meta #Mindset #Creative/Tutorial
+ #Mindset/Reflection #Tech/Agent #Mindset/Meta #Mindset #Creative/Tutorial
 
 ## By Time Period
 
