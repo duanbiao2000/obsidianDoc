@@ -4,7 +4,7 @@
 
 - Action/TODO: 待办事项(临时的,灵活的)
 
-%% #Action/TODO: ZK卡片待办内容(围绕知识体系) %%
+%% #Status/TODO: ZK卡片待办内容(围绕知识体系) %%
 
 ---
 

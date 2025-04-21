@@ -4,7 +4,7 @@ date: 2025-04-17T19:56:00
 update: 2025-04-17 19:56
 dg-publish: true
 tags:
-  - Action/TODO
+  - Status/TODO
 ---
 
 ### Beyond Bug Hunts: Cultivating Growth Through Algorithmic Critique

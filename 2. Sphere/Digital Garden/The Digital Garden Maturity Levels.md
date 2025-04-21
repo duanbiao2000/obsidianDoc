@@ -6,7 +6,7 @@ tags:
   - DG/Seedling
   - DG/Sapling
   - DG/Tree
-  - Withered
+  - DG/Withered
   - DG/Stone
   - DG/Signpost
   - Chest
