@@ -12,6 +12,10 @@ tags:
 
 [Good First Issues](https://goodfirstissues.com/)
 
+https://roadmap.sh/computer-science
+
+https://github.com/jwasham/coding-interview-university
+
 ---
 
 **卡片 1**

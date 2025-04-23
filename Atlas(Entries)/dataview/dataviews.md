@@ -37,10 +37,6 @@ GROUP BY file.folder
 
 即将到期
 
-## 热力图
-```dataviewjs
-await dv.view('/Extras/Template/Obsidian-Templates/Dataview/Heatmap', {type: 'cday'})
-```
 ## 大小排列
 
 ```dataviewjs
