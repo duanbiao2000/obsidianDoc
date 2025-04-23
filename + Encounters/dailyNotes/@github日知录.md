@@ -5,6 +5,8 @@ tags:
   - Mindset/Reflection
   - 当下时刻的觉察
 ---
+https://github.com/hydralauncher/hydra/
+![](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20250423220519.png)
 
 ## 成就与进步
 
