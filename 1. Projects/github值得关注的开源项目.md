@@ -7,6 +7,7 @@ tags:
   - Creative/Github
   - Status/TODO
 ---
+https://github.com/bregman-arie/devops-exercises/blob/master/README-zh_CN.md
 
 [github-githot/markdowns at main · duanbiao2000/github-hot · GitHub](https://github.com/duanbiao2000/github-hot/tree/main/markdowns)git
 
@@ -17,6 +18,7 @@ https://roadmap.sh/computer-science
 https://github.com/jwasham/coding-interview-university
 
 ---
+![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20250424232009.png)
 
 **卡片 1**
 

@@ -1,0 +1,1 @@
+根据{activeNote}, 生成对应的TL;DR summary.
