@@ -1,4 +1,4 @@
-- [[_Index_of_+ Encounters]]
+- [[+ Encounters/_Index_of_+ Encounters]]
 - [[_Index_of_1. Projects]]
 - [[_Index_of_01认知科学]]
 - [[_Index_of_2. Areas]]
