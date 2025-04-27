@@ -33,7 +33,7 @@
 
 ## 实用建议精选
 
-(Source: [`简短建议.md`](个人发展-人生建议-速查手册.md), [`take daily to improve in the ten key areas.md`](take%20daily%20to%20improve%20in%20the%20ten%20key%20areas.md))
+(Source: [`简短建议.md`](个人发展-人生建议-速查手册.md), [`take daily to improve in the ten key areas.md`](../../2.%20Areas/01认知科学/take%20daily%20to%20improve%20in%20the%20ten%20key%20areas.md))
 
 - 主动联系他人，建立连接。
 - 拥有“一无所有，但愿意赚取一切”的心态。
