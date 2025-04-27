@@ -19,9 +19,9 @@ tags:
 
 #### Sources:
 
-- [[../../2.Sphere/认知科学/assets/如何打破信息壁垒]]
-- [[../../2.Sphere/认知科学/assets/生物学中的五个钻石级难题]]
-- [[../../2.Sphere/认知科学/assets/元认知测验]]
+- [[../../2.Sphere/认知科学/如何打破信息壁垒]]
+- [[../../2.Sphere/认知科学/生物学中的五个钻石级难题]]
+- [[../../2.Sphere/认知科学/元认知测验]]
 [Timestamp: 2025/04/11 13:18:38]
 
 **user**: 回答上面我没有问的问题
@@ -45,6 +45,6 @@ tags:
 #### Sources:
 
 - [[../../3.Resources/Zettelkasten卡片/认知行为疗法Zettelkasten卡片]]
-- [[../../2.Sphere/认知科学/assets/元认知测验]]
+- [[../../2.Sphere/认知科学/元认知测验]]
 - [[../../1.Projects/一页法则]]
 [Timestamp: 2025/04/11 13:19:18]
