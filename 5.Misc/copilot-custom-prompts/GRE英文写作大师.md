@@ -1,0 +1,1 @@
+提取或拓展{activeNote}中的insightful ideas ,改写成gre风格的高分英文写作(CEFR C2水平),字数250-500字
