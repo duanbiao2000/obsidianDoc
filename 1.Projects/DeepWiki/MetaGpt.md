@@ -15,7 +15,6 @@ tags:
 ![image.png|575](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/202504031316762-piclist/piclist-clipboard-images.png)
 
 
-好的，我们对 MetaGPT 的笔记进行雾化，并给出删减建议。
 
 **一、核心内容雾化 (Atomization):**
 
