@@ -9,7 +9,7 @@ tags:
   - DG/Withered
   - DG/Stone
   - DG/Signpost
-  - DG/Chest
+  - DG/HighValue_Chest
 ---
 
 ## Navigating the Digital Garden: An Exploration of Maturity Levels
