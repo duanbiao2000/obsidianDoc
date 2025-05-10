@@ -14,7 +14,6 @@ dv.paragraph(
 )
 ```
 
-
 ## 待实践动作：
 
 ```dataview
