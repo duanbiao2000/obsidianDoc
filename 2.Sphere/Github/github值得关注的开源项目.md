@@ -17,6 +17,7 @@ tags:
 *   **计算机科学学习路线:** [https://roadmap.sh/computer-science](https://roadmap.sh/computer-science)
 *   **编程面试准备:** [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - 系统的 CS 学习及面试准备计划。
 *   **精选项目列表集合:** [github-githot/markdowns at main · duanbiao2000/github-hot · GitHub](https://github.com/duanbiao2000/github-hot/tree/main/markdowns) - 可能包含更多项目列表。
+* [goldbergyoni/nodebestpractices | DeepWiki --- goldbergyoni/nodebestpractices | DeepWiki](https://deepwiki.com/goldbergyoni/nodebestpractices)
 
 ---
 
