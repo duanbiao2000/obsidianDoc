@@ -6,7 +6,7 @@ categories:
   - Mindset
 tags:
   - Mindset/Reflection
-  - Mindset/FCPM/CK
+  - DG/Seedling
 ---
 好的，根据您提供的笔记 [[Clear Thinking by Shane Parrish]] 的内容，我们可以从前提、假设、逻辑、结论这四个方面进行分析：
 

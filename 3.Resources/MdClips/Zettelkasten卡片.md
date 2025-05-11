@@ -9,7 +9,7 @@ update: "2025-04-21T19:46:27+08:00"
 description: "前言 在 《Day 01 : 導言 - 知識是如何形成的？》 與 《Day 02 : 你所知道的「筆記工具」，早就演化成不同的物種》 我說明了「知識」形成的理論，並且解釋了使用 Obsidian 的原..."
 categories:
 tags:
-  - "clippings"
+  - "Creative/clippings"
 rating:
 ---
 

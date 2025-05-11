@@ -1,7 +1,7 @@
 ---
 date: 2025-05-09 14:21
 tags:
-  - Action/Essensials
+  - DG/HighValue_Chest
   - Action/Review
 ---
 马斯克的五步工作法是一套强大的流程优化模式，其核心在于：**先极致简化和质疑，再优化和自动化。** 这本身就是寻找“捷径”和“重新定义问题”的实用方法。

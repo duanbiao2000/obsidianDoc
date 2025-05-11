@@ -2,7 +2,7 @@
 epoch: 1744348138753
 modelKey: gemini-2.0-flash-lite|google
 tags:
-  - copilot-conversation
+  - Creative/copilot-conversation
 ---
 
 **user**: What insights can I gather about <思维模型> from my notes?

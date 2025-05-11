@@ -2,7 +2,7 @@
 epoch: 1744348707148
 modelKey: gemini-2.0-flash-lite|google
 tags:
-  - copilot-conversation
+  - Creative/copilot-conversation
 ---
 
 **user**: Based on my notes on <认知科学>, what is the question that I should be asking, but am not?

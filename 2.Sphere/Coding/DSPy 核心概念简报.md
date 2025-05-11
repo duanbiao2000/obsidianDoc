@@ -1,6 +1,6 @@
 ---
 tags:
-  - DeepWiki
+  - Tech/DeepWiki
 ---
 把 DSPy 想象成一个[[AI工具汇总|工具箱]]，帮你更容易地用 AI 模型（像 ChatGPT 或搜索工具）来完成任务，还能自动让它们做得更好。
 

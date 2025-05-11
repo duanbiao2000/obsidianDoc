@@ -1,9 +1,9 @@
 ---
 aliases:
-  - "#Mindset/FCPM"
+  - "#DG/Seedling"
 tags:
   - Mindset/Meta
-  - Action/Essensials
+  - DG/HighValue_Chest
   - Action/Review
 ---
 好的，基于您对[[Mindset FCPM]]笔记中关于事实性知识（Factual）、概念性知识（Conceptual）、程序性知识（Procedural）和元认知知识（Meta-cognitive）这四种知识类型的深入分析，我们可以尝试提出一些连接并拓展这些概念的新理论或框架，特别关注它们之间的动态关系和在不同情境下的应用：

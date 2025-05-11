@@ -1,6 +1,6 @@
 ---
 key: value
-tags: Status/TODO
+tags: Action/TODO
 ---
 // Update frontmatter after template finishes executing
 <%*

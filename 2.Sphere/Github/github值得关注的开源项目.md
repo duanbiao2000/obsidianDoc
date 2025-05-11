@@ -5,7 +5,7 @@ categories:
 important: true
 tags:
   - Creative/Github
-  - Status/TODO
+  - Action/TODO
 ---
 
 ### 关键资源与学习路径

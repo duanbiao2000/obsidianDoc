@@ -7,7 +7,7 @@ published:
 created: 2025-04-29
 description: The System Design Primer is a comprehensive resource aimed at helping software engineers learn how to design large-scale systems and prepare for system design interviews. This document provides an ove
 tags:
-  - clippings
+  - Creative/clippings
 ---
 从认知负荷理论的**核心负荷 (Germane Load)** 角度看，该资源最精华的部分在于其帮助学习者构建系统设计**思维框架**和**解决问题流程**的内容。这些是促进深度理解和知识整合的关键：
 

@@ -2,7 +2,7 @@
 date: 2025-05-10 13:24
 tags:
   - Mindset/Reflection
-  - debate
+  - Mindset/Debate
 dg-publish: true
 dg-home: true
 ---
