@@ -21,6 +21,7 @@ tags:
 * [GitDiagram](https://gitdiagram.com/)
 - [duanbiao2000 (Book Danny) · GitHub](https://github.com/duanbiao2000)
 - [LinksHub - A hub of ready-to-use tech resources](https://www.linkshub.dev/)
+- https://github.com/doocs/advanced-java/
 
 
 
