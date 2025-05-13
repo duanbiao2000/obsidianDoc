@@ -22,6 +22,7 @@ tags:
 - [duanbiao2000 (Book Danny) · GitHub](https://github.com/duanbiao2000)
 - [LinksHub - A hub of ready-to-use tech resources](https://www.linkshub.dev/)
 - https://github.com/doocs/advanced-java/
+- [ByteByteGoHq/system-design-101: Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.](https://github.com/ByteByteGoHq/system-design-101)
 
 
 
