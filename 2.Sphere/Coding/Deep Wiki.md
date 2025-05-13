@@ -31,7 +31,7 @@ tags:
 
 **常见模式:**
 
-*   **[[SCQRA模型|ReAct]] (Reasoning + Action):** 代理通过思考（Thought）、选择行动（Action）、观察行动结果（Observation），然后得出最终答案（Answer）来逐步解决问题。
+*   **[[利用SCQRA模型分析解决复杂问题|ReAct]] (Reasoning + Action):** 代理通过思考（Thought）、选择行动（Action）、观察行动结果（Observation），然后得出最终答案（Answer）来逐步解决问题。
 
 **[[WF_工具巧妙运用|工具集成]]:**
 

@@ -65,7 +65,7 @@ source: https://bytebytego.com/guides/top-5-software-architectural-patterns/
 
 - DDD Architecture (领域驱动设计架构)：
 
-- 目的： 侧重于从技术而非领域逻辑理解技术。它强调将业务逻辑建模为领域模型。
+- 目的：**“领域驱动设计强调的是‘从技术而非领域逻辑理解技术’的反面!** 我们不是用技术来限制我们的业务，而是用我们对业务的深刻理解，来指导我们的技术选型和实现。技术只是我们实现业务价值的工具，而不是我们思考的起点！”。它强调将业务逻辑建模为领域模型。
 
 - 图示： 展示了领域模型 (Domain Models) 包含聚合 (Aggregates)、实体 (Entities) 和值对象 (Value Objects) 等。
 
