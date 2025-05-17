@@ -1,4 +1,13 @@
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picutre/20250513155841855.png)
+
+
+想成为一名顶尖的软件开发者吗？👨‍💻👩‍💻
+
+别错过这 10 本经典宝藏书！📚✨ 它们涵盖了从：
+
+**编程哲学**（《[The Pragmatic Programmer](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135957059/)》）🛠️，到**代码整洁**（《[[Clean Code]]》🧼）、**重构**（《[Refactoring](https://martinfowler.com/books/refactoring.html)》🧹），再到**系统设计**（如《[Designing Data-Intensive Applications](https://dataintensive.net/)》💾）和**算法基础**（《[Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-fourth-edition)》🤓）的核心知识！
+
+它们是你构建高质量软件、提升技能的必经之路！🚀🏆
 ### General Advice (通用建议)
 
 1. **The Pragmatic Programmer by Andrew Hunt and David Thomas**
