@@ -3,7 +3,7 @@
 **卡片 1**
 
 **ID:** 202407281001A
-**标签:** #晨间习惯 #深度工作  #长期价值 #Effective 
+**标签:** #Timeframe/晨间习惯 #深度工作  #长期价值 #Domain/Productivity 
 **标题:** **早晨第一件事的核心原则：聚焦重要但不紧急的任务** ^coreprinciple
 
 **内容:**
@@ -20,7 +20,7 @@
 **卡片 2**
 
 **ID:** 202407281001B
-**标签:** #晨间习惯 #战略规划 #目标设定 #复盘 #Action/Focus
+**标签:** #Timeframe/晨间习惯 #战略规划 #目标设定 #复盘 #Status/Focus
 **标题:** **早晨的战略性思考：为高价值的一天定向** ^morningstrategy
 
 **内容:**
@@ -40,7 +40,7 @@
 **卡片 3**
 
 **ID:** 202407281001C
-**标签:** #费曼学习法 #晨间习惯 #Mindset/Atlas  #Effective/Simplify  #知识内化
+**标签:** #费曼学习法 #Timeframe/晨间习惯 #Domain/Mindset/Atlas  #Domain/Productivity/Simplify  #知识内化
 **标题:** **费曼视角：简化理解“早晨第一件事”的核心** ^feynmanmorning
 
 **内容:**
@@ -64,7 +64,7 @@
 **卡片 4**
 
 **ID:** 202407281001D
-**标签:** #晨间习惯 #Action/Focus #结构化思维 #长期价值 #任务管理
+**标签:** #Timeframe/晨间习惯 #Status/Focus #结构化思维 #长期价值 #任务管理
 **标题:** **早晨任务优先级：从战略到生活优化的结构** ^taskpriorities
 
 **内容:**

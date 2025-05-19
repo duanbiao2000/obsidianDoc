@@ -6,7 +6,7 @@ categories:
   - Tools
 rating: 10
 tags:
-  - Creative/Github
+  - Domain/Creativity/Github
   - 当下时刻的觉察
   - 重磅信息
 ---

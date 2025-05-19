@@ -14,6 +14,33 @@ dv.paragraph(
 )
 ```
 
+好的，这是查询 "尚硅谷" 路径下最后更改的 5 条笔记的 Dataview 命令：
+
+```dataview
+LIST
+FROM "2.Sphere/尚硅谷"
+SORT file.mtime DESC
+WHERE !startswith(file.name, "_Index_of")
+LIMIT 5
+```
+
+```dataview
+LIST
+FROM "1.Projects"
+SORT file.mtime DESC
+WHERE !startswith(file.name, "_Index_of")
+LIMIT 5
+```
+
+```dataview
+LIST
+FROM "0.DailyNotes"
+SORT file.mtime DESC
+WHERE !startswith(file.name, "_Index_of")
+LIMIT 5
+```
+
+
 ## 待实践动作：
 
 ```dataview

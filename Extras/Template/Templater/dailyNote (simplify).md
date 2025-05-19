@@ -8,7 +8,7 @@ categories:
   - Mindset
 rating: 
 tags:
-  - Mindset/Reflection
+  - Domain/Mindset/Reflection
 ---
 # <% tp.file.title %>
 

@@ -1,7 +1,7 @@
 ---
 date: 2025-05-17 21:50
 tags:
-  - DG/Seedling
+  - System/DG/Seedling
 source: >-
   https://www.bilibili.com/video/BV13T411372x/?spm_id_from=333.1387.collection.video_card.click&vd_source=7038f96b6bb3b14743531b102b109c43
 update: 2025-05-17 21:59

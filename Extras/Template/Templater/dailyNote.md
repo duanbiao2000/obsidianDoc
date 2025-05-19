@@ -7,7 +7,7 @@ update: <% tp.file.last_modified_date() %>
 categories:
   - Mindset
 tags:
-  - Mindset/Reflection
+  - Domain/Mindset/Reflection
 ---
 
 << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>

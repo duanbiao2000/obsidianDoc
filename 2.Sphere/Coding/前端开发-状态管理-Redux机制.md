@@ -8,7 +8,7 @@ update:
 categories: 
 important: false
 tags:
-  - Effective/Tools
+  - Domain/Productivity/Tools
 ---
 Redux 是一个可预测的状态管理工具，用于集中管理应用的状态。其核心思想是通过单向数据流更新状态：
 1.  **状态 (State)**：应用的单一真实数据源。

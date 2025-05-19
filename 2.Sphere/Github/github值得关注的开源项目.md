@@ -4,8 +4,8 @@ aliases:
 categories: 
 important: true
 tags:
-  - Creative/Github
-  - Action/TODO
+  - Domain/Creativity/Github
+  - Status/TODO
 ---
 
 ### 关键资源与学习路径

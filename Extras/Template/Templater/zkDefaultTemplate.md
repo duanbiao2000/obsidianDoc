@@ -6,7 +6,7 @@ date: <% tp.file.creation_date() %>
 categories:
   - Mindset
 tags:
-  - Mindset/Reflection
+  - Domain/Mindset/Reflection
 ---
 **单个卡片应该包含的要素：**
 

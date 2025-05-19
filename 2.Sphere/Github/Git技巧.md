@@ -4,8 +4,8 @@ date: 2024-11-10 19:41
 categories:
   - Effective
 tags:
-  - Creative/Github
-  - Action/Workflow
+  - Domain/Creativity/Github
+  - Status/Workflow
 update: 2024-11-10 20:08
 ---
 当我回顾这些年使用Git的经历，这些技巧对我的开发工作产生的转变令人感慨... 

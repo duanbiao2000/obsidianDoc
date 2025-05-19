@@ -8,7 +8,7 @@ categories:
   - Mindset
 rating: 
 tags:
-  - Mindset/Reflection
+  - Domain/Mindset/Reflection
 ---
 ## 如何快速学习新技能：运用“三步决定法”
 

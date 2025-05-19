@@ -4,7 +4,7 @@ date: 2024-11-30 16:29
 categories:
   - Diary
 tags:
-  - Creative/Github
+  - Domain/Creativity/Github
   - Tech/Code
 ---
 

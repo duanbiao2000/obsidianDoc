@@ -7,7 +7,7 @@ published:
 created: 2025-04-30
 description: AFFiNE 的后端架构概览，基于 NestJS、GraphQL、Prisma、PostgreSQL 和 Rust 本地模块，重点介绍其 AI 系统和部署模型。
 tags:
-  - Creative/clippings
+  - Domain/Creativity/clippings
   - Tech/AI
 ---
 ## Anki

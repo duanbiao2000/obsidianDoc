@@ -8,8 +8,8 @@ update: 2025-05-10 16:45
 categories: null
 important: false
 tags:
-  - Mindset/Reflection
-  - DG/Seedling
+  - Domain/Mindset/Reflection
+  - System/DG/Seedling
 title: 事后分析的价值
 dg-publish: true
 ---

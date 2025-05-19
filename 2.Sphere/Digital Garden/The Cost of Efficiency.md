@@ -1,8 +1,8 @@
 ---
 date: 2025-05-10 13:24
 tags:
-  - Mindset/Reflection
-  - Mindset/Debate
+  - Domain/Mindset/Reflection
+  - Domain/Mindset/Debate
 dg-publish: true
 dg-home: true
 ---

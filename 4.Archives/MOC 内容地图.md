@@ -1,7 +1,7 @@
 ---
 date: 2025-05-12 23:34
 tags:
-  - "#Archive"
+  - "#Status/Archive"
 ---
 
 ## Map of Content (MOC)

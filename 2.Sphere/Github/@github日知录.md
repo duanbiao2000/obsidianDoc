@@ -2,7 +2,7 @@
 categories:
   - Diary
 tags:
-  - Mindset/Reflection
+  - Domain/Mindset/Reflection
 ---
 https://github.com/hydralauncher/hydra/
 ![](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20250423220519.png)
@@ -11,8 +11,8 @@ https://github.com/hydralauncher/hydra/
 
 - 我在个人目标/工作/学习方面取得了哪些成就？
 - 我这周做得最好的事情是：
-    - [ ] https://jzhao.xyz/thoughts/writing 超级赞 #Creative/SecondBrain  
-    - [ ] https://www.ssp.sh/brain/?ref=ssp.sh #Creative/SecondBrain
+    - [ ] https://jzhao.xyz/thoughts/writing 超级赞 #Domain/Creativity/SecondBrain  
+    - [ ] https://www.ssp.sh/brain/?ref=ssp.sh #Domain/Creativity/SecondBrain
   - 少就是多, 同时关注项目不大于3个, 对关注仓库进行归类.
   - 发现了hellogithub, 本周开始在git上发力,Wakatime监督,利用star复习项目.
   - 加入Obsidian copilot , 生成和使用了template,这样日记会更加模块化,利于后期持续改进.

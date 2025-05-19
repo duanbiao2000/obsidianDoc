@@ -7,8 +7,8 @@ categories:
   - Code
 rating: 
 tags:
-  - Mindset/Reflection
-  - Action/TODO
+  - Domain/Mindset/Reflection
+  - Status/TODO
 ---
 好的，这篇笔记《[[反演-github自学特例]]》运用了“反演思维”这一强大的决策优化工具，来分析大学生在GitHub上自学编程可能遇到的陷阱。
 

@@ -3,7 +3,7 @@ categories:
   - Code
   - Tools
 tags:
-  - Effective/Tools
+  - Domain/Productivity/Tools
 ---
 [GitHub - geekan/MetaGPT: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming](https://github.com/geekan/MetaGPT)
 

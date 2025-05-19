@@ -5,7 +5,7 @@ update:
 categories:
   - Mindset
 tags:
-  - Mindset/Reflection
+  - Domain/Mindset/Reflection
 ---
 用能力有限的AI做复杂任务，老是忘事？🤔🚫
 

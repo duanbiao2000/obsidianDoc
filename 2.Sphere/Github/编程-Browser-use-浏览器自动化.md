@@ -2,7 +2,7 @@
 date: 2025-04-07 20:58
 update: 2025-05-17 11:06
 tags:
-  - DG/Seedling
+  - System/DG/Seedling
 ---
 
 Title: [[编程-Browser-use-浏览器自动化编程能力提升指南]]
