@@ -1,0 +1,1 @@
+根据{activeNote} 笔记内容，并结合DIKW金字塔模型（Data, Information, Knowledge, Wisdom），将笔记中的信息提升至“智慧”层面。
