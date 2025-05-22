@@ -1,47 +1,50 @@
-我们以{activeNote}为核心，运用费曼学习法的原则，生成几张 Zettelkasten (卢曼卡片笔记)格式的笔记卡片：
+## 12 Zettelkasten Card Generator
 
-参考示例:
-**卡片 1**
+Based on {activeNote} as the core source, and applying the principles of the Feynman Learning Technique, generate several note cards in the Zettelkasten (Luhmann's slip-box) format:
+
+### Reference Examples:
+
+**Card 1**
 
 **ID:** `202405241015A`  
-**标签:** `#目标导向` `#费曼学习法` `#第一性原理` `#专注力` `#行动基础` `#信息筛选前提`  
-**标题:** **目标导向：行动的前提与方向盘 (Why Goal First?)** ^goalfirst  
+**Tags:** `#goal-oriented` `#feynman-method` `#first-principles` `#focus` `#action-foundation` `#info-filter-premise`  
+**Title:** **Goal Orientation: The Foundation and Compass for Action (Why Goal First?)** ^goalfirst
 
-**内容:**  
-目标导向性的本质是：在采取任何行动（尤其是信息收集）之前，先**清晰地知道你要去哪里，达成什么成果**。这就像设定导航目的地，没有它，再快的引擎（努力）也可能只是原地打转或南辕北辙。  
+**Content:**  
+The essence of goal orientation is: Before taking any action (especially information gathering), you must **clearly know where you are going and what outcome you want to achieve**. This is like setting a GPS destination; without it, even the fastest engine (effort) might just spin in place or head in the wrong direction.
 
-1.  **核心提问 (费曼检验)**: 你**到底想要什么**？（例如：找到理想工作？精通某项技能？解决特定业务难题？）目标必须具体到能指导你「下一步该做什么」。  
-2.  **作用**:  
-    *   提供**专注的理由**：让你清楚时间和精力应该投向何处。  
-    *   建立**筛选的标准**：明确的目标是判断信息是否相关、是否有价值的**首要依据**。  
-    *   抵抗干扰：帮助你忽略那些看似有趣但与终点无关的信息诱惑。  
+1.  **Core Question (Feynman Test)**: **What do you actually want**? (e.g., Find an ideal job? Master a specific skill? Solve a particular business problem?) Your goal must be specific enough to guide your "what to do next."
+2.  **Purpose**:
+    *   Provides a **reason to focus**: Makes it clear where time and energy should be directed.
+    *   Establishes **filtering criteria**: A clear goal is the **primary basis** for judging if information is relevant or valuable.
+    *   Resists distraction: Helps you ignore information temptations that seem interesting but are irrelevant to your destination.
 
-缺乏清晰目标的努力，往往是低效甚至无效的。先定方向，再谈效率。  
+Effort without a clear goal is often inefficient or even ineffective. Set the direction first, then talk about efficiency.
 
-**链接:** [[#^filternoise]] [[#^synergy]] `[[SMART目标设定]]` `[[专注力管理]]` [[../../1.Projects/信息筛选能力和目标导向性]]  
+**Links:** [[#^filternoise]] [[#^synergy]] `[[SMART Goal Setting]]` `[[Focus Management]]` [[../../1.Projects/信息筛选能力和目标导向性]]
 
 ---
 
-**卡片 2**  
+**Card 2**
 
 **ID:** `202405241015B`  
-**标签:** `#信息筛选` `#费曼学习法` `#认知负荷` `#注意力` `#批判性思维` `#效率`  
-**标题:** **信息筛选：在噪音中找到信号的过滤器 (Filtering Noise)** ^filternoise  
+**Tags:** `#information-filtering` `#feynman-method` `#cognitive-load` `#attention` `#critical-thinking` `#efficiency`  
+**Title:** **Information Filtering: The Signal-from-Noise Filter (Filtering Noise)** ^filternoise
 
-**内容:**  
-信息筛选能力是在信息爆炸环境中保持清醒和高效的关键**过滤机制**。其核心是在面对大量资讯时，能快速有效地挑选出真正**对达成目标有用**的高质量信息。  
+**Content:**  
+Information filtering ability is the key **filtering mechanism** for staying clear-headed and efficient in an information-saturated environment. Its core is the ability to quickly and effectively select high-quality information that is truly **useful for achieving your goals** when faced with a large volume of data.
 
-1.  **筛选原则 (简化)**: 针对每条信息快速提问：  
-    *   与我的**目标相关**吗？  
-    *   来源**可靠**吗？  
-    *   对我**重要**吗？  
-    *   需要**现在就处理**吗？  
-    果断舍弃那些「无关、不可靠、不重要、不紧急」的信息。  
-2.  **重要性**:  
-    *   **保护注意力**: 这是你最稀缺的资源，避免其被无关信息消耗。  
-    *   **提升决策质量**: 基于更高质量、更相关的信息做判断。  
-    *   **释放认知资源**: 为深度思考和学习腾出空间。  
+1.  **Filtering Principles (Simplified)**: For each piece of information, quickly ask:
+    *   Is it **relevant to my goal**?
+    *   Is the source **reliable**?
+    *   Is it **important** to me?
+    *   Does it need **processing now**?
+    Decisively discard information that is "irrelevant, unreliable, unimportant, or not urgent."
+2.  **Importance**:
+    *   **Protects attention**: This is your scarcest resource; prevent it from being consumed by irrelevant information.
+    *   **Improves decision quality**: Make judgments based on higher quality, more relevant information.
+    *   **Frees up cognitive resources**: Creates space for deep thinking and learning.
 
-高效的信息筛选，如同为你的「目标引擎」注入**高纯度燃料**。其有效性**高度依赖**清晰的目标 [[#^goalfirst]]。  
+Efficient information filtering is like fueling your "goal engine" with **high-purity fuel**. Its effectiveness is **highly dependent** on clear goals [[#^goalfirst]].
 
-**链接:** [[#^goalfirst]] [[#^synergy]] [[#^criticaleval]] `[[可信信息源]]` `[[注意力经济]]` `[[认知偏误]]` [[../../1.Projects/信息筛选能力和目标导向性]]
+**Links:** [[#^goalfirst]] [[#^synergy]] [[#^criticaleval]] `[[Reliable Information Sources]]` `[[Attention Economy]]` `[[Cognitive Biases]]` [[../../1.Projects/信息筛选能力和目标导ality]]
