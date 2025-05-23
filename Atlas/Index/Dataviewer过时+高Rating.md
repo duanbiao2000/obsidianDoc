@@ -18,13 +18,15 @@ SORT file.ctime ASC
 LIMIT 10
 ```
 
-好的，这里是一个 Dataview 查询，可以列出你的笔记中 rating 最高的（降序排列）前 10 篇：
+
+
+好的，没问题。如果想在 `rating` 相同的情况下，让修改时间更早的笔记（即 `file.mtime` 更小）排名更靠前，你需要将 `file.mtime` 作为第二个排序条件，并按升序 (`ASC`) 排列。
+
 
 ```dataview
-TABLE rating
+TABLE rating, file.mtime AS "最近更新时间"
 FROM ""
 WHERE rating >= 0 AND rating <= 10
-SORT rating DESC
+SORT rating DESC, file.mtime ASC
 LIMIT 10
 ```
-
