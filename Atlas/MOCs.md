@@ -52,6 +52,6 @@
 - [[_Index_of_工作流]]
 - [[../3.Resources/影音读/_Index_of_影音读]]
 - [[../3.Resources/影音读/得到听书/_Index_of_得到听书]]
-- [[../3.Resources/AI/提示词/_Index_of_提示词]]
+- [[_Index_of_提示词]]
 - [[../3.Resources/社区/_Index_of_社区]]
 - [[../3.Resources/影音读/书本通读/非技术类/_Index_of_非技术类]]
