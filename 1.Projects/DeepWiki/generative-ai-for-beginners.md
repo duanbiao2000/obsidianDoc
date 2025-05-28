@@ -300,12 +300,12 @@ for row in tasks:
 
 ## 📦 延伸用途
 
-|用途|技术栈|实例|
-|---|---|---|
-|可视化日程安排|Dash / Streamlit|将 JSON 生成甘特图或时间线|
-|多 Agent 协作|LangGraph / AutoGen|一个 Agent 输出 JSON，另一个读取任务执行|
-|Prompt Chain 管理|JSON as DAG Node|JSON 变成 prompt 节点流的一部分|
-|云函数触发器|AWS Lambda / GCP Function|根据 JSON 控制执行逻辑|
+| 用途              | 技术栈                       | 实例                         |
+| --------------- | ------------------------- | -------------------------- |
+| 可视化日程安排         | Dash / Streamlit          | 将 JSON 生成甘特图或时间线           |
+| 多 Agent 协作      | LangGraph / AutoGen       | 一个 Agent 输出 JSON，另一个读取任务执行 |
+| Prompt Chain 管理 | JSON as DAG Node          | JSON 变成 prompt 节点流的一部分     |
+| 云函数触发器          | AWS Lambda / GCP Function | 根据 JSON 控制执行逻辑             |
 
 ---
 

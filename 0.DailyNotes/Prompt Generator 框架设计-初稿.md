@@ -125,3 +125,5 @@ def generate_prompt(cognitive_role, scenario):
 ---
 
 需要我将这套系统结构化为前端 app、LLM 内 prompt 结构、Obsidian 模板或其他形式？你可以指定输出介质，我来写代码 / 模板。或者你可提供更多认知模式 / 场景词条，我们一起构建库。
+
+## 协同的本质是路径共识的生成力
