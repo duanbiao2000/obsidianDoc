@@ -2,6 +2,43 @@
 
 ---
 
+
+```mermaid
+erDiagram
+    Phase1_FoundationSkills {
+        string baseSkills "底座能力: 编程, 工程, 云"
+        string aiEngineering "工程化AI能力"
+        string packaging "包装封装能力"
+    }
+    Phase2_AppDevelopment {
+        string promptEngineering "Prompt Engineering"
+        string langchainLanggraph "LangChain/LangGraph"
+        string privateKnowledge "私有知识问答"
+        string multimodalGeneration "多模态生成"
+        string inferencePlatform "推理平台化"
+    }
+    Phase3_AssetizationOutput {
+        string githubProjects "GitHub项目"
+        string blogSystem "博客系统"
+        string videoContent "YouTube/视频"
+        string notesCards "教学笔记/Prompt卡片"
+        string pluginsSaaS "Chrome插件/SaaS"
+    }
+    Phase4_MonetizationReinforcement {
+        string monetizationPath "变现通路"
+        string personalBrand "个人品牌"
+        string feedbackLoop "反馈迭代"
+        string businessBarrier "商业壁垒"
+    }
+
+    Phase1_FoundationSkills ||--o{ Phase2_AppDevelopment : "支撑实战"
+    Phase2_AppDevelopment ||--o{ Phase3_AssetizationOutput : "产出资产"
+    Phase3_AssetizationOutput o{--|| Phase4_MonetizationReinforcement : "转化为变现"
+    Phase4_MonetizationReinforcement ||--|| Phase1_FoundationSkills : "闭环反哺"
+```
+
+
+这个图现在符合 Mermaid ER 图的语法，并能较好地体现笔记中 AIGC 能力飞轮的构建过程：基础能力支撑应用实战，实战产出资产，资产转化为变现，变现反过来强化基础能力，形成闭环。
 ## 🧠 AIGC 能力飞轮学习路线图（v1）
 
 我们将分 4 阶段构建，按能力复利结构设计，从基础到底层、从实战到变现，带动能力互相增强。

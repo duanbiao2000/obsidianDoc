@@ -2,6 +2,42 @@
 
 ---
 
+我来为您修正一下之前的 Mermaid 代码，使其符合语法要求，并仍然反映出笔记的核心概念：
+
+```mermaid
+erDiagram
+    RPC {
+        string protocol "协议: 通常TCP"
+        string serialization "序列化: 框架自定义"
+        string languageSupport "语言支持: 特定"
+        string complexity "复杂度: 相对简单"
+    }
+    GRPC {
+        string protocol "协议: 基于HTTP/2"
+        string serialization "序列化: Protobuf"
+        string languageSupport "语言支持: 跨语言"
+        string complexity "复杂度: 稍复杂(定义)"
+        string coreFeatures "核心功能: 流式/认证"
+    }
+    MicroserviceCommunication {
+        string purpose "目的: 服务间高效互操作"
+    }
+    Dapr {
+        string relevance "相关性: 侧车模式集成"
+        string support "支持: gRPC协议"
+    }
+
+    RPC ||--|{ MicroserviceCommunication : "一种实现"
+    GRPC ||--|{ MicroserviceCommunication : "一种现代实现"
+    Dapr ||--|{ GRPC : "深度集成"
+```
+
+**修正说明：**
+
+*   将属性名（如 `协议`）改为英文标识符（如 `protocol`）。
+*   将原来的中文描述（如 `"通常TCP"`）作为描述字符串放在双引号内，紧跟在英文属性名后面。
+
+这样修改后，Mermaid 应该就能正确解析并绘制出实体关系图了。
 ### 啥是RPC？
 **RPC（Remote Procedure Call，远程过程调用）** 是个老牌概念，简单说就是让你的程序像调用本地函数一样去调用远程服务的方法。它的核心思想是把网络通信的复杂性隐藏起来，让开发者感觉像在本地写代码。
 

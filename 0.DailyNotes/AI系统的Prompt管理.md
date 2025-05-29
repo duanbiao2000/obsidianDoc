@@ -4,6 +4,58 @@
 
 本文将深入探讨构建这一框架的四个关键技术：**Cross-Task Prompt Transfer Mapping (Prompt复用与迁移)**、**Prompt Compression Metrics Design (Prompt压缩与评估)**、**Memory-Aware Prompt Comparison (资源感知的Prompt选择)**，以及 **Nested Behavior Chain Annotation (行为链的追踪与标注)**。它们共同构成了一个旨在提升AI系统效率、鲁棒性和可维护性的Prompt生态系统。
 
+
+
+Mermaid实体关系图代码：
+
+```mermaid
+erDiagram
+    "Prompt Management Framework" {
+        string Name
+    }
+    "Prompt Reuse" {
+        string Name
+    }
+    "Prompt Compression" {
+        string Name
+    }
+    "Resource-Aware Selection" {
+        string Name
+    }
+    "Behavior Chain Tracking" {
+        string Name
+    }
+    "Prompt" {
+        string Name
+    }
+    "Behavior Chain" {
+        string Name
+    }
+    "AI System Capability" {
+        string Name
+    }
+    "Agent/Tool Architecture" {
+         string Name
+    }
+
+    "Prompt Management Framework" ||--o{ "Prompt Reuse" : "includes"
+    "Prompt Management Framework" ||--o{ "Prompt Compression" : "includes"
+    "Prompt Management Framework" ||--o{ "Resource-Aware Selection" : "includes"
+    "Prompt Management Framework" ||--o{ "Behavior Chain Tracking" : "includes"
+
+    "Prompt Reuse" }|--o{ "Prompt" : "generates/reuses"
+    "Prompt Compression" }|--o{ "Prompt" : "evaluates/optimizes"
+    "Resource-Aware Selection" }|--o{ "Prompt" : "selects"
+
+    "Behavior Chain Tracking" }|--o{ "Behavior Chain" : "tracks/annotates"
+    "Prompt" }|--o{ "Behavior Chain" : "drives"
+    "Behavior Chain Tracking" }|--|{ "Prompt" : "evaluates effectiveness of"
+
+    "Prompt Management Framework" ||--|{ "AI System Capability" : "enhances"
+    "Prompt Management Framework" ||--|{ "Agent/Tool Architecture" : "integrates into"
+```
+
+这张修正后的图应该能够正确渲染，并继续展示 Prompt 管理框架的核心概念及其关系。
 ---
 
 ## 🔄 1. Prompt复用与跨任务迁移 (Cross-Task Prompt Transfer Mapping)
