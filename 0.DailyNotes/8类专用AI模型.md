@@ -1,3 +1,73 @@
+
+好的，根据您 [[8类专用AI模型]] 这篇笔记的内容，我为您绘制一个思维导图。
+
+以下是使用 Mermaid 语法绘制的思维导图：
+
+```mermaid
+mindmap
+  root((8类专用AI模型))
+    为什么要区分
+      任务聚焦方向不同
+      输入/处理/输出形式不同
+    1. LLM (语言大模型)
+      输入: Token Embedding
+      结构: Transformer (Encoder-only/Decoder-only)
+      输出: 语言输出 (预测下一个token)
+      代表: GPT, LLaMA, Claude, Gemini
+      用途: 通用语言任务 (问答, 摘要, 对话等)
+    2. LCM (Language-Conditioned Model)
+      输入: Text Prompt + 其他模态
+      结构: 交叉注意力连接语言与非语言
+      输出: 非语言输出 (视频, 图像, 控制指令)
+      本质: 语言驱动的多模态生成器
+    3. LAM (Language-Augmented Model)
+      输入: 语言 & 其他模态联合
+      结构: 语言嵌入参与非语言处理
+      输出: 融合表示 或 控制信号
+      用途: 图像问答, 多模态理解, 医学影像诊断
+    4. MoE (Mixture of Experts)
+      输入: Token序列
+      结构: 多个专家网络 + Router
+      输出: 专家选择后生成token
+      特征: 激活子模型一部分 (节省计算, 提升参数量)
+      用途: 扩展模型容量
+      注意: 参数可扩展架构, 非任务范式
+    5. VLM (Vision Language Model)
+      输入: 图像 + 文本
+      结构: 视觉编码器 + 文本编码器 + 融合模块
+      输出: 语言描述 或 多模态表征
+      代表: BLIP, Flamingo, GPT-4V
+    6. SLM (Speech Language Model)
+      输入: 语音波形 或 特征
+      结构: 语音编码器 + 文本对齐
+      输出: 语音识别结果, 对话, 指令
+      应用于: 语音助手, 实时转录, 多语言交互
+    7. MLM (Masked Language Model)
+      输入: 含mask的文本
+      结构: Encoder-only Transformer
+      输出: 预测被mask的部分
+      用途: 预训练语言理解 (BERT, RoBERTa)
+      不同于LLM: 更注重上下文理解而非生成
+    8. SAM (Segment Anything Model)
+      输入: 图像 + Prompt (点, 框, 文本等)
+      结构: Image Encoder, Prompt Encoder, Mask Decoder
+      输出: 语义分割 mask
+      应用于: 零样本图像分割, 标注工具
+    总结比较维度
+      输入类型
+      输出类型
+      核心任务
+      代表模型
+    启示
+      结构演化反映任务范式分化
+      多模态是未来核心趋势
+      语言模型未来需与感知模型共融
+    额外信息/服务 (如需)
+      Prompt模板: 激发LLM的“自省模式”
+      构造自省模块的系统设计 (元推理链)
+      高级思维偏差检测 Prompt (用于Agent自调优)
+```
+
 这张图展示了 **8类专用AI模型（8 Specialized AI Models）** 的结构对比图。每一类模型都有自己的输入类型、处理流程和输出形式，代表了当前主流AI模型的任务聚焦方向。
 
 我们逐一解析这8类模型的核心架构与定位用途：
