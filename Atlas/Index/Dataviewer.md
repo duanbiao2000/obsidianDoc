@@ -134,14 +134,7 @@ sort file.mtime DESC
 LIMIT 10
 ```
 
-## 15日内新建的笔记(非archive)
-
-```dataview
-TABLE theme AS 主题,tags AS 标签
-FROM !"Archive"
-WHERE (date(today)-(file.ctime)).day<15
-SORT file.ctime DESC
-```
+[[Dataview-7日内新建的笔记]]
 
 ## Todo List
 ```dataview
