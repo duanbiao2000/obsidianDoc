@@ -159,3 +159,5 @@ sequenceDiagram
     Agent->>User: Display new tasks
 
 ```
+
+[[LangChain vs LangGraph - 另则]]
