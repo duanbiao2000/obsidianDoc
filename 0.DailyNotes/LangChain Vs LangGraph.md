@@ -1,6 +1,4 @@
-好问题，Sam。**LangChain** 和 **LangGraph** 是两个高度相关但定位不同的系统。
 
-简单说：
 
 > **LangChain 是框架，LangGraph 是执行引擎。**
 
