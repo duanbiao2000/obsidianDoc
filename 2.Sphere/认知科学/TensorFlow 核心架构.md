@@ -34,23 +34,13 @@ TensorFlow 的核心架构为机器学习操作提供了灵活高效的基础。
 #### Execution Layer (执行层)
 
 *   负责真正运行计算图的层。
-    *   ##### Execution Engines (Session, Distribution)
+    *   Execution Engines (Session, Distribution)
         *   像指挥中心，协调和控制计算图的执行。
         *   **Session（会话）**: 管理计算图的生命周期和资源。
         *   **Distribution（分布式）**: 将计算任务分配到多台机器上进行并行计算。
-    *   ##### Execution Modes
+    *   Execution Modes
         *   **Graph Execution（图执行）**: 整个计算图先构建优化，然后一次性执行。
         *   **Eager Execution（动态执行/立即执行）**: 每个操作立即执行，方便调试和理解。
-
-#### High-Level APIs (高级应用程序编程接口)
-
-*   为开发者提供方便使用的接口，像不同语言的“遥控器”。
-*   允许使用熟悉的语言来控制计算框架。
-*   **示例 APIs**:
-    *   Python API (常用)
-    *   C API
-    *   Go API
-    *   等...
 
 ### 总结架构
 
