@@ -63,13 +63,13 @@ erDiagram
 
 **目标：掌握 AIGC 全链路落地技术，构建 Agent + UI + 推理引擎 + 数据流**
 
-|核心模块|技能要点|推荐项目|
-|---|---|---|
-|📜 Prompt Engineering|Prompt Tree / ReAct / Few-shot / Tool Use|ChatGPT + 插件系统 Prompt 设计|
-|🔗 LangChain / LangGraph|Agent 模型 / 多工具协作 / 状态管理|构建多角色 LLM Agent（多工具调用）|
-|🧠 私有知识问答系统|RAG / 向量库（FAISS / Weaviate）|企业级文档助手 / PDF 文档 Q&A|
-|🛠️ 多模态生成|图像（SDXL）、语音（TTS）、视频（Runway）|图文转视频助手 / 模拟讲师工具|
-|📊 LLM 推理平台化|推理 API、调度、任务池、日志|使用 FastAPI + Redis 构建推理平台|
+| 核心模块                     | 技能要点                                      | 推荐项目                      |
+| ------------------------ | ----------------------------------------- | ------------------------- |
+| 📜 Prompt Engineering    | Prompt Tree / ReAct / Few-shot / Tool Use | ChatGPT + 插件系统 Prompt 设计  |
+| 🔗 LangChain / LangGraph | Agent 模型 / 多工具协作 / 状态管理                   | 构建多角色 LLM Agent（多工具调用）    |
+| 🧠 私有知识问答系统              | RAG / 向量库（FAISS / Weaviate）               | 企业级文档助手 / PDF 文档 Q&A      |
+| 🛠️ 多模态生成                | 图像（SDXL）、语音（TTS）、视频（Runway）               | 图文转视频助手 / 模拟讲师工具          |
+| 📊 LLM 推理平台化             | 推理 API、调度、任务池、日志                          | 使用 FastAPI + Redis 构建推理平台 |
 
 ---
 

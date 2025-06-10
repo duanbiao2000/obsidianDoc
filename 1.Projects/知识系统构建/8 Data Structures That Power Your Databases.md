@@ -1,5 +1,5 @@
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picutre/20250513140313619.png)
-您好！您提供了一段文字和一张图片，图片标题是 **"8 Data Structures That Power Your Databases"**。
+ **"8 Data Structures That Power Your Databases"**。
 
 这段文字和图片共同介绍了数据库中用于索引数据的常见数据结构。选择哪种索引格式取决于具体的用例，包括数据存储在内存还是磁盘、数据格式（数字、字符串、地理坐标等），以及系统是读密集型还是写密集型。
 

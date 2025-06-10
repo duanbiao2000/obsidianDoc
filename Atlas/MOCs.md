@@ -42,7 +42,7 @@
 - [[_Index_of_Templater]]
 - [[_Index_of_templates]]
 - [[_Index_of_textgenerator]]
-- [[../1.Projects/Todo/_Index_of_Todo]]
+- [[_Index_of_Todo]]
 - [[../3.Resources/Tools/_Index_of_Tools]]
 - [[_Index_of_ubuntu]]
 - [[_Index_of_weeklyNotes]]
