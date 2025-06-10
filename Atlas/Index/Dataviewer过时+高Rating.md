@@ -26,7 +26,7 @@ LIMIT 10
 ```dataview
 TABLE rating, file.mtime AS "最近更新时间"
 FROM ""
-WHERE rating >= 0 AND rating <= 10
+WHERE rating >= 0 AND rating <= 20
 SORT rating DESC, file.mtime ASC
 LIMIT 10
 ```
