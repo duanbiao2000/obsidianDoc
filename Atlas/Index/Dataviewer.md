@@ -18,8 +18,8 @@ dv.paragraph(
 
 ```dataview
 LIST
-FROM "2.Sphere/尚硅谷"
-SORT file.mtime DESC
+FROM "2.Sphere"
+SORT file.mtime ASC
 WHERE !startswith(file.name, "_Index_of")
 LIMIT 5
 ```
@@ -27,7 +27,7 @@ LIMIT 5
 ```dataview
 LIST
 FROM "1.Projects"
-SORT file.mtime DESC
+SORT file.mtime ASC
 WHERE !startswith(file.name, "_Index_of")
 LIMIT 5
 ```
@@ -35,7 +35,7 @@ LIMIT 5
 ```dataview
 LIST
 FROM "0.DailyNotes"
-SORT file.mtime DESC
+SORT file.mtime ASC
 WHERE !startswith(file.name, "_Index_of")
 LIMIT 5
 ```
