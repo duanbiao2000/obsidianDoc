@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## ROADMAP
 
-- [ ] example
+- [x] example ✅ 2025-06-18
 
 
 ## TODO

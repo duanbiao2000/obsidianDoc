@@ -1,5 +1,7 @@
 ---
+
 kanban-plugin: board
+
 ---
 
 ## ROADMAP
@@ -17,7 +19,6 @@ kanban-plugin: board
 - [ ] 分析 LangGraph 的 async 节点控制与恢复机制（4h | ★★★★☆）
 - [ ] 设计基于 LangGraph 的嵌套 Prompt 流程图（4h | ★★★★★）
 - [ ] 学习 Dify 的 API Proxy & 插件开发流程（5h | ★★★★☆）
-- [ ] 设计原型 prompt 流程 + 链式思维模板（3h | ★★★★★）
 - [ ] 测试 LangGraph + Dify 联合流程部署（5h | ★★★★☆）【依赖：两者核心掌握】
 
 
@@ -40,6 +41,7 @@ kanban-plugin: board
 
 ## ARCHIVE
 
+- [x] 设计原型 prompt 流程 + 链式思维模板（3h | ★★★★★） ✅ 2025-06-18
 - [x] 比较 LangChain、LangGraph 适配架构（已总结）
 - [x] 创建 langgraph-dify 联合实验 repo 并初步部署（已 GitHub 推送）
 - [x] 快速复现 Dify 项目模板与 vector store 接入脚本（已验证）
@@ -48,9 +50,9 @@ kanban-plugin: board
 ## 🧠 使用建议：
 
 - [ ] 可以每周 Sprint 回顾时把 `ROADMAP` 中项目推入 `TODO`；
-- [ ] `RESOURCES` 中挂实际链接或 `[[内部笔记]]`；
-- [ ] `ARCHIVE` 支持收录版本发布、实验完成的子任务；
-- [ ] 使用 `Templater` 可自动打标签和日期，更易追踪每项工作。
+- [x] `RESOURCES` 中挂实际链接或 `[[内部笔记]]`； ✅ 2025-06-18
+- [x] `ARCHIVE` 支持收录版本发布、实验完成的子任务； ✅ 2025-06-18
+- [x] 使用 `Templater` 可自动打标签和日期，更易追踪每项工作。 ✅ 2025-06-18
 
 
 

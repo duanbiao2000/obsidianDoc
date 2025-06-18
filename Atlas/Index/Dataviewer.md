@@ -45,10 +45,11 @@ LIMIT 5
 
 ```dataview
 TASK
-FROM ""
+// FROM -"Atlas/kanban"
+FROM "1.Projects"
 WHERE !completed
 SORT file.mtime DESC
-LIMIT 10
+LIMIT 20
 GROUP BY file.folder
 ```
 
