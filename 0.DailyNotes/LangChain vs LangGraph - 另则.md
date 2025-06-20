@@ -142,3 +142,141 @@ graph TD
 *   **Tutorials/Cookbooks:** 官方或社区提供的逐步教程，它们通常会围绕一个具体的应用场景展开，通过实践来理解概念。
 
 快速掌握的关键在于**抓主干、抛细节**（初期），**理解接口、注重组合**，以及**动手实践、迭代优化**。将复杂的整体分解为可控的局部，再逐步学习如何高效地将这些局部“整合”起来，这正是解决任何复杂问题的普适之道，也同样适用于征服LangChain和LangGraph。
+
+---
+
+## LangChain 的核心设计理念
+
+LangChain 的核心设计理念是帮助开发者构建**复杂的大语言模型（LLM）应用程序**。它通过提供一套工具、组件和接口，使得将 LLMs 与外部数据源、计算过程和其他工具结合起来变得更加容易。
+
+简而言之，其核心理念可以概括为以下几点：
+
+1. **组合性（Composability）**: LangChain 将 LLM 应用程序的各个部分（如模型调用、提示模板、解析器、工具等）视为独立的、可组合的模块。你可以像乐高积木一样，将这些小模块灵活地组合起来，构建出复杂的工作流。
+    
+2. **可观测性（Observability）**: 强调对 LLM 应用程序运行过程的透明化。LangChain 提供了一系列工具（如 LangSmith），帮助开发者追踪、调试和优化 LLM 调用链中的每一步，理解模型是如何做出决策的。
+    
+3. **代理（Agents）**: LangChain 引入了“代理”的概念，它是一个能够根据 LLM 的思考和对工具的访问来决定下一步行动的系统。代理能够进行多步推理和决策，使得 LLM 应用程序能够执行更复杂的任务。
+    
+4. **数据感知（Data-Awareness）**: LLMs 自身可能不具备最新或特定领域的数据。LangChain 旨在方便地将 LLMs 与外部数据源（如数据库、文档、API）连接起来，让 LLM 能够访问和利用这些数据来生成更准确、相关的回答。
+    
+5. **LLM 编排（LLM Orchestration）**: LangChain 的最终目标是简化 LLM 应用程序的开发和部署，通过提供标准化的接口和工作流，让开发者能够专注于业务逻辑而不是底层模型的集成细节。
+    
+
+---
+
+## 代码示例
+
+为了更好地理解 LangChain 的核心设计理念，我们来看一个简单的代码示例：**构建一个能够回答关于特定文档问题的问答系统。**
+
+这个示例将展示如何组合 LLM、提示模板、文档加载和检索功能。
+
+Python
+
+```
+from langchain_community.document_loaders import TextLoader
+from langchain_community.embeddings import OllamaEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_community.llms import Ollama
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
+
+# 假设你有一个名为 'example.txt' 的文档
+# 请在运行前创建一个 example.txt 文件，并添加一些内容，例如：
+# --- example.txt ---
+# LangChain is a framework designed to make building applications with large language models (LLMs) easier.
+# It provides tools for chaining together different components, allowing for more complex applications.
+# Key features include prompt management, chains, agents, and integrations with various data sources.
+# --- end example.txt ---
+
+# --- 1. 数据加载 ---
+# 使用 TextLoader 加载本地文本文件
+loader = TextLoader("example.txt")
+docs = loader.load()
+print("--- 1. 文档加载完成 ---")
+
+# --- 2. 文本嵌入和向量存储 ---
+# 使用 OllamaEmbeddings 作为嵌入模型 (你需要本地运行 Ollama 并下载一个模型，例如 'llama2')
+# 如果没有 Ollama，可以替换为 OpenAIEmbeddings 等
+embeddings = OllamaEmbeddings(model="llama2")
+
+# 使用 Chroma 作为向量存储，并从文档创建向量
+# 这里的 from_documents 会自动进行文本分块和嵌入
+vectorstore = Chroma.from_documents(documents=docs, embedding=embeddings)
+print("--- 2. 向量存储创建完成 ---")
+
+# 创建一个检索器，用于从向量存储中查找相关文档
+retriever = vectorstore.as_retriever()
+print("--- 2. 检索器创建完成 ---")
+
+
+# --- 3. LLM 初始化 ---
+# 使用 Ollama 本地运行 LLM (例如 'llama2')
+# 确保你的 Ollama 服务器已启动，并且 'llama2' 模型已下载
+llm = Ollama(model="llama2")
+print("--- 3. LLM 初始化完成 ---")
+
+# --- 4. 提示模板定义 ---
+# 定义一个聊天提示模板，包含上下文和用户问题
+template = """你是一个问答助手。请根据提供的上下文信息来回答问题。
+如果问题无法从上下文中得到答案，请说明你无法找到相关信息。
+
+上下文:
+{context}
+
+问题: {question}
+"""
+prompt = ChatPromptTemplate.from_template(template)
+print("--- 4. 提示模板定义完成 ---")
+
+# --- 5. 输出解析器 ---
+# 定义一个简单的字符串输出解析器
+output_parser = StrOutputParser()
+print("--- 5. 输出解析器定义完成 ---")
+
+# --- 6. 构建链 (Chain) ---
+# 这是 LangChain 组合性的核心体现：使用 Runnable 接口将各个组件连接起来
+# RunnablePassthrough 允许输入直接传递给链的下一个组件，同时可以在字典中添加新的键
+# 这里我们将原始问题传递给检索器，同时将检索到的上下文和问题传递给提示模板
+chain = (
+    {"context": retriever, "question": RunnablePassthrough()}
+    | prompt
+    | llm
+    | output_parser
+)
+print("--- 6. 链构建完成 ---")
+
+# --- 7. 运行链 ---
+question = "What is LangChain designed for?"
+print(f"\n--- 7. 提出问题: {question} ---")
+answer = chain.invoke(question)
+print("\n--- 回答 ---")
+print(answer)
+
+# 清理向量存储资源 (可选)
+vectorstore.delete_collection()
+print("\n--- 向量存储已清理 ---")
+
+```
+
+---
+
+### 示例解析：
+
+这个示例展示了 LangChain 如何实现其核心理念：
+
+- **组合性**:
+    
+    - 我们看到了 `TextLoader` (加载数据), `OllamaEmbeddings` (生成向量), `Chroma` (向量存储), `retriever` (检索器), `Ollama` (LLM), `ChatPromptTemplate` (提示模板), `StrOutputParser` (输出解析器) 等模块。
+    - 这些独立的模块通过 `|` 运算符（LangChain 的 **LCEL - LangChain Expression Language**）被**链式组合**在一起，形成一个完整的问答工作流。`chain = {"context": retriever, "question": RunnablePassthrough()} | prompt | llm | output_parser` 是组合性的最佳体现。
+- **数据感知**:
+    
+    - 通过 `TextLoader` 加载本地 `example.txt` 文档，并使用 `Chroma` 向量存储和 `retriever`，使得 LLM 能够访问并理解文档中的特定信息。这是将 LLM 与外部数据结合的典型模式。
+- **LLM 编排**:
+    
+    - LangChain 负责协调整个流程：首先检索相关上下文，然后将上下文和问题格式化到提示中，接着调用 LLM，最后解析 LLM 的输出。开发者无需手动管理这些步骤之间的复杂交互。
+- **模块化**:
+    
+    - 每个组件（如加载器、嵌入模型、向量存储、LLM、提示、解析器）都是独立的，可以轻松替换为其他实现（例如，将 `Ollama` 替换为 `OpenAI`，将 `Chroma` 替换为 `FAISS`）。
+
+这个例子虽然简单，但它涵盖了构建大多数 RAG (Retrieval-Augmented Generation) 应用程序所需的核心 LangChain 组件和设计模式，清晰地体现了 LangChain 致力于简化复杂 LLM 应用程序开发的理念。
