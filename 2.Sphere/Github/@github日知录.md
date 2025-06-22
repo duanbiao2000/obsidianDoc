@@ -11,8 +11,8 @@ https://github.com/hydralauncher/hydra/
 
 - 我在个人目标/工作/学习方面取得了哪些成就？
 - 我这周做得最好的事情是：
-    - [ ] https://jzhao.xyz/thoughts/writing 超级赞 #Domain/Creativity/SecondBrain  
-    - [ ] https://www.ssp.sh/brain/?ref=ssp.sh #Domain/Creativity/SecondBrain
+    - [x] https://jzhao.xyz/thoughts/writing 超级赞 #Domain/Creativity/SecondBrain ✅ 2025-06-22
+    - [x] https://www.ssp.sh/brain/?ref=ssp.sh #Domain/Creativity/SecondBrain ✅ 2025-06-22
   - 少就是多, 同时关注项目不大于3个, 对关注仓库进行归类.
   - 发现了hellogithub, 本周开始在git上发力,Wakatime监督,利用star复习项目.
   - 加入Obsidian copilot , 生成和使用了template,这样日记会更加模块化,利于后期持续改进.
@@ -23,9 +23,9 @@ https://github.com/hydralauncher/hydra/
 
 - 本周有哪些事情没有完成或做得不够好？
   - [x] Neovim 等配置类后面再说
-  - [ ] 代码的标注方式尽量保存,以便复习,挖掘,markdown格式(在notation 分支中完成)
+  - [x] 代码的标注方式尽量保存,以便复习,挖掘,markdown格式(在notation 分支中完成) ✅ 2025-06-22
 - 我从这些不完美的经历中学到了什么？
-  - [ ] 效率比精度优先
+  - [x] 效率比精度优先 ✅ 2025-06-22
   - 自己开发还为时尚早,效率低下,无思路.
 - 下周我计划改进哪些方面？
   - 代码投入时间要更多. 笔记要保留下来.
