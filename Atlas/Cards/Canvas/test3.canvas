@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"node_01","type":"group","x":-720,"y":-300,"width":1960,"height":940,"color":"2","label":"01认知科学核心内容"},
+		{"id":"node_04","type":"text","label":"思维模型","text":"思维模型是简化复杂现实、辅助决策的工具。核心模型包括第一性原理、帕累托法则、系统思维、反演、成长型思维等。应用场景涵盖问题解决、创新、深度理解和决策优化。","x":-680,"y":-40,"width":485,"height":120},
+		{"id":"node_05","type":"text","label":"笔记方法论","text":"笔记方法论强调原子化、连接性、用自己的话表述、知识诚实和成长型思维。关键实践包括卡片笔记法、费曼技巧、MOC（内容地图）和渐进式总结。","x":40,"y":-220,"width":480,"height":120},
+		{"id":"node_06","type":"text","label":"行动力提升","text":"行动力提升的核心在于克服阻力、优化流程和习惯养成。关键策略包括心态调整、目标与规划、马斯克五步法和反演应用。","x":72,"y":500,"width":570,"height":100},
+		{"id":"node_03","type":"text","label":"信息管理","text":"信息管理的核心在于主动性与价值导向、少即是多的精简原则、结构化与连接、输出驱动理解和持续迭代优化。关键策略包括高效信息获取、信息处理与整合、知识管理和效率提升。","x":620,"y":140,"width":570,"height":120},
+		{"id":"a1264f1e4d833222","x":72,"y":170,"width":285,"height":70,"type":"text","text":"# 认知科学"},
+		{"id":"node_02","type":"text","label":"元认知","text":"元认知是对自身思考过程的认知和调控。核心循环包括：认识、规划、执行与监控、调整、评估与反思。关键杠杆包括刻意反思、主动实践、寻求反馈与多元视角、专注力训练和保持好奇。","x":-680,"y":400,"width":570,"height":100}
+	],
+	"edges":[
+		{"id":"edge_01","fromNode":"a1264f1e4d833222","fromSide":"left","toNode":"node_02","toSide":"top","color":"1","label":"元认知"},
+		{"id":"edge_02","fromNode":"a1264f1e4d833222","fromSide":"right","toNode":"node_03","toSide":"top","color":"2","label":"信息管理"},
+		{"id":"edge_03","fromNode":"a1264f1e4d833222","fromSide":"top","toNode":"node_04","toSide":"top","color":"3","label":"思维模型"},
+		{"id":"edge_04","fromNode":"a1264f1e4d833222","fromSide":"right","toNode":"node_05","toSide":"top","color":"4","label":"笔记方法论"},
+		{"id":"edge_05","fromNode":"a1264f1e4d833222","fromSide":"bottom","toNode":"node_06","toSide":"top","color":"5","label":"行动力提升"}
+	]
+}

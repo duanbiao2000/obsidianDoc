@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"77ada4d29ff2546d","type":"file","file":"5.Misc/Attachments/Pasted image 20250409103911.png","x":-600,"y":-420,"width":755,"height":460},
+		{"id":"f43a8f8e4fa6aea8","type":"text","text":"```mermaid\nflowchart TD\n    START([开始])\n    CHECK_BUN[\"检查Bun环境\"]\n    CONNECT_DB[\"连接数据库\"]\n    SYNC_INDEX[\"同步索引\"]\n    CREATE_APP[\"创建Express应用\"]\n    APP_SERVICE[\"应用服务中间件\"]\n    READ_HTML[\"读取HTML文件\"]\n    HEALTH_ROUTE[\"定义健康检查路由\"]\n    APPLY_MIDDLEWARE[\"应用中间件\"]\n    OAUTH_LDAP[\"OAuth和LDAP认证\"]\n    SOCIAL_LOGIN[\"配置社交登录\"]\n    API_ROUTES[\"定义API路由\"]\n    HANDLE_UNMATCHED[\"处理未匹配的路由\"]\n    START --> CHECK_BUN\n    CHECK_BUN --> CONNECT_DB\n    CONNECT_DB --> SYNC_INDEX\n    SYNC_INDEX --> CREATE_APP\n    CREATE_APP --> APP_SERVICE\n    APP_SERVICE --> READ_HTML\n    READ_HTML --> HEALTH_ROUTE\n    HEALTH_ROUTE --> APPLY_MIDDLEWARE\n    APPLY_MIDDLEWARE --> OAUTH_LDAP\n    OAUTH_LDAP --> SOCIAL_LOGIN\n    SOCIAL_LOGIN --> API_ROUTES\n    API_ROUTES --> HANDLE_UNMATCHED\n    HANDLE_UNMATCHED --> START\n    END((\"结束\"))\n    HANDLE_UNMATCHED --> END\n```\n","x":-100,"y":80,"width":320,"height":800},
+		{"id":"7cd9b293ab24ebbf","type":"file","file":"3.Resources/Github/Github仓库掌握二八法则.md","x":-800,"y":80,"width":660,"height":800},
+		{"id":"5e07b592a57629d4","type":"file","file":"2.Sphere/认知科学/关注点分离原则.md","x":-740,"y":-1120,"width":795,"height":636}
+	],
+	"edges":[]
+}

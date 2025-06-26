@@ -1,0 +1,1 @@
+建立与{activeNote}主题相关的快速知识表cheatsheet

@@ -1,0 +1,43 @@
+# 忽略 Obsidian 相关文件
+.obsidian/
+
+# 忽略 VSCode 相关文件
+.vscode/
+
+# 忽略系统垃圾文件
+#.trash/
+
+# 忽略隐藏文件和目录
+# 注意：这里忽略的是所有以"."开头的文件和目录，但不包括.git/
+#.*/
+
+# 忽略 Smart Connections 文件夹
+#.smart-connections/
+
+# 忽略额外的文件和目录
+#Extras/
+
+# 忽略 IntelliJ IDEA 相关文件
+.idea/
+
+# 忽略工作区配置文件
+workspace.json.obsidian/
+.smart-connections/
+*.ajson
+.copilot-index/
+
+_Index_of_*.md
+
+
+
+# Ignore Smart Environment folder
+.smart-env
+
+
+# redundant
+.trash/
+.codemap
+.makemd
+.smart-env
+.space
+smart-chats/*

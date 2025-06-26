@@ -1,0 +1,1 @@
+Give me a quick recap of {activeNote} in two sentences.
