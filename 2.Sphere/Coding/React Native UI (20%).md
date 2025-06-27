@@ -4,14 +4,6 @@ tags:
   - Tech/Code
 ---
 
-好的，当我们谈论 React Native UI 组件的"**二八定律**"时，意味着作为一名 React Native 开发者，你只需要**掌握大约 20% 的核心 UI 组件和概念，就能解决大约 80% 的 UI 布局和交互需求**。
-
-这 20% 的核心组件是构建绝大多数 React Native 应用程序用户界面的基石。
-
-以下是根据二八定律，你**必须掌握**的 React Native UI 组件和相关概念：
-
----
-
 ### **核心基础构建块 (Fundamental Building Blocks)**
 
 1. **`View`**
