@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 利用nlp技术,对{activeNote}进行句法分析
 进行NLP技术驱动的分析，侧重于解析其文本结构、核心概念及其关系。
 

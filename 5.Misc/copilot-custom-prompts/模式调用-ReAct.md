@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 你是一个强大的AI助手，能够通过思考、行动和观察来完成任务。
 任务目标：[用户给出的具体任务]
 

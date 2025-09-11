@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 根据{activeNote}的结构与内容，请生成：
 1）该领域当前研究/应用中 可能的盲点或未解之谜
 2）5 个你觉得值得深入研究的问题，其中至少两个需要跨学科思考

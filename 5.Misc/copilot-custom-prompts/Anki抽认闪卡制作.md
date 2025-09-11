@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 请根据我提供的文本{activeNote}，制作一套抽认卡。
 
 在制作抽认卡时，请遵循下述要求：

@@ -1,0 +1,22 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+      - file.folder
+      - aliases
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 246
+      file.mtime: 166
+      file.folder: 112
+      note.aliases: 206
+  - type: cards
+    name: 视图
+    cardSize: 200
+    imageFit: ""

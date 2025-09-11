@@ -1,7 +1,7 @@
 ---
 tags:
   - Timeframe/daily
-created: 2025-05-03 07:07
+date: 2025-05-03 07:07
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading

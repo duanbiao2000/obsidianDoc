@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 请你扮演一个高效的信息提炼者，为那些没有时间阅读全文的人，根据以下内容（标记为 `{activeNote}`）生成一个极致简洁的TL;DR（太长不读）总结。
 
 **请严格遵循以下步骤和要求进行生成，最终只输出提炼后的TL;DR文本，不包含任何额外内容。**

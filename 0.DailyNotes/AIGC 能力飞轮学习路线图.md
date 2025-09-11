@@ -49,13 +49,13 @@ erDiagram
 
 **目标：掌握所有 AIGC 应用的通用技能底层，快速适配任何新技术趋势。**
 
-|核心模块|技能要点|推荐任务|
-|---|---|---|
-|🧱 编程基础|Python、JS、Shell（熟练建模、API 构建、异步处理）|编写 LLM 推理服务（FastAPI）|
-|🧩 系统工程力|Git、Docker、CI/CD、Makefile、任务调度|构建 Docker 化 AI 应用，部署到本地 / 云|
-|🔧 云原生入门|K3s / EKS、Helm、Ingress、服务治理|用 Helm 一键部署一个 LangChain 应用|
-|⚙️ 工程化 AI 能力|OpenAI SDK、LangChain、RAG、Embeddings|搭建 RAG pipeline + 快速迭代 Prompt|
-|📦 包装封装能力|抽象出 API/SDK/微服务组件|编写可复用 Python 包（eg. `aigc-utils`）|
+| 核心模块         | 技能要点                                | 推荐任务                             |
+| ------------ | ----------------------------------- | -------------------------------- |
+| 🧱 编程基础      | Python、JS、Shell（熟练建模、API 构建、异步处理）   | 编写 LLM 推理服务（FastAPI）             |
+| 🧩 系统工程力     | Git、Docker、CI/CD、Makefile、任务调度      | 构建 Docker 化 AI 应用，部署到本地 / 云      |
+| 🔧 云原生入门     | K3s / EKS、Helm、Ingress、服务治理         | 用 Helm 一键部署一个 LangChain 应用       |
+| ⚙️ 工程化 AI 能力 | OpenAI SDK、LangChain、RAG、Embeddings | 搭建 RAG pipeline + 快速迭代 Prompt    |
+| 📦 包装封装能力    | 抽象出 API/SDK/微服务组件                   | 编写可复用 Python 包（eg. `aigc-utils`） |
 
 ---
 

@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 你是一个知识结构师。我接下来会给你一段文本{activeNote}。请帮我：
 1）分析其主要主题与逻辑结构
 2）提取潜在可以转化为代码/工具/模型的点

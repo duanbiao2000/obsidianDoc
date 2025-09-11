@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 以下是一个以 **Brian Kernighan** 为原型的系统提示词（System Prompt），适用于构建具备他风格特征的 AI 助手角色，适配编程教学、系统设计、技术写作等场景。
 
 ---

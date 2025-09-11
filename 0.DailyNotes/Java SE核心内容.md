@@ -1,74 +1,62 @@
-Java SE（Java Platform, Standard Edition）是Java语言的核心组成部分，提供了构建通用应用程序的基础。以下是Java SE的核心内容总结，适合你这样正在深入学习Java框架和并发编程的开发者：
+### [[Java SE 核心内容 - 团队技术卓越指南]]
+
+**前言：** 这份文档是我们团队对 Java SE 核心能力的共识。它不仅是知识的罗列，更是我们对**代码质量、可维护性和团队协作**的承诺。掌握这些内容，是我们能够持续、快速地交付高质量价值的基础。
 
 ---
 
-## 🧱 Java SE 核心内容概览
+### 1. 🧰 面向对象编程（OOP） - 我们构建可维护代码的基石
 
-### 1. 🧠 Java 基础语法
-- 数据类型：基本类型（int, float, char, boolean）与引用类型（类、接口、数组）
-- 运算符：算术、关系、逻辑、位运算、赋值等
-- 控制结构：if-else、switch、for、while、do-while、break、continue
-- 方法定义与调用：参数传递、返回值、方法重载
-- 数组：一维、二维数组及其操作
+*   **核心概念**: 封装、继承、多态、抽象类、接口。
+*   **敏捷视角**: OOP 是我们应对变化的核心武器。遵循 **SOLID** 原则的 OOP 设计，能让我们在后续的 Sprint 中轻松地修改和扩展功能，而不会引发大规模重构。这直接**降低了变更的成本**，是我们保持敏捷的关键。
+*   **团队约定**:
+    *   **优先使用组合而非继承**，以获得更灵活的设计。
+    *   在 Code Review 中，我们会关注代码是否遵循**单一职责原则**。
 
-### 2. 🧰 面向对象编程（OOP）
-- 类与对象：构造方法、成员变量、成员方法
-- 封装：private、getter/setter
-- 继承：extends 关键字，super 调用父类构造器
-- 多态：方法重写（override）、向上转型、动态绑定
-- 抽象类与接口：abstract class、interface、实现多态性
-- 内部类、匿名类、Lambda 表达式（Java 8+）
+### 2. 📦 Java 核心类库 - 高效开发的工具箱
 
-### 3. 📦 Java 核心类库
-- java.lang：Object、String、Math、System、Wrapper 类等
-- java.util：集合框架（List、Set、Map）、Date、Calendar、Random、Scanner
-- java.io：文件读写、字节流与字符流、缓冲流、对象序列化
-- java.nio：非阻塞IO，Buffer、Channel、Selector
-- java.net：Socket 编程、URL、HTTP 通信
-- java.time：Java 8 引入的现代日期时间 API（LocalDate、LocalTime、ZonedDateTime）
+*   **核心内容**: 集合框架 (List, Set, Map), IO/NIO, `java.time` API。
+*   **敏捷视角**: “不重复造轮子”是提升开发速率的有效手段。熟练运用核心类库，特别是选择最合适的数据结构（如 `ArrayList` vs `LinkedList`），能显著提升应用性能和开发效率，让我们能更快地完成用户故事。
+*   **Code Review 焦点**:
+    *   是否使用了最恰当的集合类型来解决问题？
+    *   是否使用了现代且线程安全的 `java.time` API 来处理日期和时间？
 
-### 4. 🔄 异常处理机制
-- 异常分类：Checked vs Unchecked
-- try-catch-finally 结构
-- throws 与 throw 关键字
-- 自定义异常类
+### 3. 🔄 异常处理机制 - 构建健壮系统的安全网
 
-### 5. 🧵 多线程与并发
-- Thread 类与 Runnable 接口
-- 线程生命周期与状态
-- 同步机制：synchronized、锁（Lock 接口）
-- 线程通信：wait/notify/notifyAll
-- Java 并发工具包（java.util.concurrent）：
-  - Executor 框架
-  - Callable/Future
-  - CountDownLatch、CyclicBarrier、Semaphore
-  - ReentrantLock、ReadWriteLock
-  - ConcurrentHashMap、BlockingQueue
+*   **核心内容**: `try-catch-finally`, Checked vs Unchecked 异常, `throws`。
+*   **敏捷视角**: 健壮的异常处理是我们 **“完成的定义”（Definition of Done）** 的重要组成部分。它保证了我们的产品在面对意外情况时依然稳定可靠。一个未被妥善处理的异常可能导致生产事故，这将严重影响 Sprint 目标的达成。
+*   **团队约定**:
+    *   禁止捕获宽泛的 `Exception` 或 `Throwable`。
+    *   异常日志必须清晰、有意义，足以帮助我们快速定位问题。
 
-### 6. ☕ Java 虚拟机（JVM）基础
-- 类加载机制：类加载器、双亲委派模型
-- 内存模型：堆、栈、方法区、本地方法栈、程序计数器
-- 垃圾回收（GC）机制：标记-清除、复制、分代收集
-- 性能调优：JVM 参数、JIT 编译、内存分析工具（如 jvisualvm）
+### 4. 🧵 多线程与并发 - 打造高性能应用的核心竞争力
 
-### 7. 🧪 单元测试与调试
-- JUnit 框架：断言、测试用例、测试套件
-- 日志系统：Log4j、SLF4J、Logback
-- 调试技巧：断点、堆栈跟踪、内存分析
+*   **核心内容**: `Thread` & `Runnable`, `synchronized`, `Lock`, `java.util.concurrent` 包。
+*   **敏捷视角**: 性能和响应速度是重要的**非功能性需求**。对并发编程的深刻理解，是满足这些需求、提升用户体验的保障。并发相关的 Bug 极难排查，会成为团队交付的巨大风险。
+*   **团队约定**:
+    *   **优先使用 `java.util.concurrent` 包提供的高级工具**（如 Executor 框架, `ConcurrentHashMap`），而不是底层的 `synchronized` 和 `wait/notify`。
+    *   任何涉及并发修改的代码，都必须经过严格的 Code Review，并附带相应的并发测试。
+
+### 5. ☕ Java 虚拟机（JVM）基础 - 理解我们代码的运行环境
+
+*   **核心内容**: 内存模型, 类加载机制, 垃圾回收 (GC)。
+*   **敏捷视角**: 理解 JVM 让我们具备了**对应用全生命周期的掌控能力**。这对于诊断生产环境的性能瓶颈和内存问题至关重要。这种深度的技术洞察力，是我们团队能够独立、快速解决复杂问题的基础。
+
+### 6. 🧪 单元测试与调试 - 我们自信交付的基石
+
+*   **核心内容**: JUnit, 日志系统 (SLF4J), 断点调试。
+*   **敏捷视角**: **单元测试是敏捷开发的命脉**。它为我们的代码提供了安全网，使我们能够大胆地进行重构、持续集成，并有信心在每个 Sprint 结束时交付一个可工作的软件增量。没有高质量的自动化测试，敏捷就无从谈起。
+*   **我们的“完成的定义” (Our Definition of Done) 中明确包含**:
+    *   所有新的业务逻辑都必须被有意义的单元测试所覆盖。
+    *   提交代码前，必须确保所有测试都能通过。
 
 ---
 
-## 📚 推荐学习路径
+### 🚀 我们的成长路径
 
-| 阶段 | 内容 |
-|------|------|
-| 入门 | Java 基础语法、OOP、数组、方法 |
-| 提升 | 集合框架、异常处理、IO/NIO |
-| 进阶 | 多线程与并发、JVM 原理、Lambda 表达式 |
-| 实战 | 项目开发、单元测试、调优 |
+这份指南也是我们团队的**技能成长地图**。我们鼓励：
 
-你可以参考这篇[JavaSE核心知识总结](https://www.cnblogs.com/mh20131118/p/11070787.html)或[Oracle 官方文档](https://www.oracle.com/technetwork/cn/java/javase/tech/index-jsp-137187-zhs.html)获取更详细的官方资料。
+*   **知识分享**: 定期举办 Tech Talk，由团队成员分享对某一领域的深入理解。
+*   **结对编程**: 在处理复杂模块（如并发、NIO）时，通过结对编程共同攻克难关，并促进知识传递。
+*   **持续学习**: 将这份指南作为个人发展的参考，不断夯实基础，追求卓越的工程技艺。
 
----
-
-如果你想结合 Jakarta EE 或 Spring Boot 继续深入企业级开发，我也可以帮你规划学习路线。你对哪一块内容最感兴趣？我们可以深入聊聊。
+让我们共同努力，将这些原则内化于心，外化于行，打造一个高效、专业、值得信赖的开发团队！

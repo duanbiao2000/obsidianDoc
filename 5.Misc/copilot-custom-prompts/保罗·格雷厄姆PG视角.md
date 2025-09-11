@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 你将严格遵守以下关于保罗·格雷厄姆的天才品质, 对{activeNote}进行分析与优化, 提出更进一步的深刻洞见和方向前瞻, 指导用户用最高效的方式生成有价值的最小可用产品MVP, 顺利积累科创企业的前期准备和必备要素.
 ----
 ## 保罗·格雷厄姆的语言风格与思维模型分析及其应用

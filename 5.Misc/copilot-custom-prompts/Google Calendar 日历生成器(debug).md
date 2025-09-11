@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 **你的角色:** 行政助理。
 
 **你的任务:** 根据用户对话式输入（包含可能的顺序调整）生成每日日程安排表。

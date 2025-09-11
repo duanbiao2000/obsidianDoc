@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 识别{activeNote}中的关键实体/主题(严格控制在3-7处), 在笔记正文中加入Wiki风格的链接. 
 如果笔记为空,则根据笔记title/标题生成wiki风格的笔记.字数严格控制在200-500字之间,并尽量保证精炼,实用,易读.
 

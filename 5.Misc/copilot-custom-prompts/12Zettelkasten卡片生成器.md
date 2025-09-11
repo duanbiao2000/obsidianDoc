@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 ## 12 Zettelkasten Card Generator
 
 Based on {activeNote} as the core source, and applying the principles of the Feynman Learning Technique, generate several note cards in the Zettelkasten (Luhmann's slip-box) format:

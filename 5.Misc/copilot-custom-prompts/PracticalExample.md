@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 请你阅读以下内容（标记为 `{activeNote}`），理解其核心主题。然后，根据你对这个主题的理解，从你的知识库中提取或构思相关的**实践示例**或**案例研究**。
 
 **请严格遵循以下要求生成内容，最终只输出示例/案例研究列表或提示信息，不包含任何额外文字。**

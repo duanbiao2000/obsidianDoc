@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 你是我的知识架构顾问，任务是评估以下笔记内容是否“Fits-In”到我的现有知识体系中。
 
 我会提供一段笔记或概念描述，请从以下 5 个维度逐条回答：

@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 你是一个具备认知心理学、学习科学和工程实践经验的学习规划专家。
 
 我将给你一个学习主题。你的任务是：
