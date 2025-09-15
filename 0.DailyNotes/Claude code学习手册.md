@@ -247,18 +247,196 @@ rating:
 
 通过对比能更清晰理解其定位：
 
-| 维度 | 无头模式（Headless Mode） | 常规交互式模式（Interactive Mode） |
-
-|--------------------|---------------------------------------------------|---------------------------------------------------|
-
-| 核心目标 | 适配自动化流程（机器调用） | 方便人工操作（人类直接使用） |
-
-| 交互方式 | 非交互式，通过参数/脚本传递指令 | 交互式，人工逐轮输入指令、查看结果 |
-
-| 会话状态 | 无状态，每次调用独立，不保留历史 | 有状态，保留会话历史，可基于前序对话继续交互 |
-
-| 输出格式 | 结构化（如 JSON），适合机器解析 | 非结构化（如纯文本），适合人类阅读 |
-
-| 典型使用场景 | CI 流水线、预提交钩子、自动化脚本 | 手动代码调试、临时生成代码、人工查询语法 |
+| 维度     | 无头模式（Headless Mode） | 常规交互式模式（Interactive Mode） |
+| ------ | ------------------- | ------------------------- |
+| 核心目标   | 适配自动化流程（机器调用）       | 方便人工操作（人类直接使用）            |
+| 交互方式   | 非交互式，通过参数/脚本传递指令    | 交互式，人工逐轮输入指令、查看结果         |
+| 会话状态   | 无状态，每次调用独立，不保留历史    | 有状态，保留会话历史，可基于前序对话继续交互    |
+| 输出格式   | 结构化（如 JSON），适合机器解析  | 非结构化（如纯文本），适合人类阅读         |
+| 典型使用场景 | CI 流水线、预提交钩子、自动化脚本  | 手动代码调试、临时生成代码、人工查询语法      |
 
 总结来说，Claude Code 的无头模式本质是“为机器设计的运行形态”——它去掉了人类交互所需的界面和状态，通过参数化指令和结构化输出，让工具能无缝嵌入各类自动化工作流，成为“无需人工看管”的代码处理环节。
+
+
+---
+
+结合 Claude Code 的最佳实践（尤其是“编写测试、提交；代码、迭代、提交”的 TDD 工作流）和 **Repository etiquette（仓库礼仪）**，以下为 `foo.py` 中“用户注销”功能编写测试用例，重点覆盖边缘场景，同时遵循仓库协作规范：
+
+
+### 一、前提假设（确保测试场景明确）
+假设 `foo.py` 中包含 `UserAuth` 类，其 `logout` 方法负责用户注销，核心逻辑包括：
+1. 验证用户当前是否处于“已登录”状态；
+2. 清除用户会话（Session）中的身份凭证；
+3. 记录注销日志（写入本地 `auth_logs.txt`）；
+4. 返回注销结果（成功/失败提示）。
+
+需覆盖的 **注销边缘场景**（非模拟、基于真实环境依赖）：
+- 场景1：用户未登录时触发注销（无会话可清除）；
+- 场景2：用户会话已过期（Session 超时后调用注销）；
+- 场景3：注销时日志文件 `auth_logs.txt` 无写入权限；
+- 场景4：多线程并发注销（同一用户同时发起2次注销请求）。
+
+
+### 二、测试用例实现（基于 Python `unittest`，避免模拟）
+#### 1. 测试文件命名与目录（遵循仓库礼仪）
+- 按仓库规范将测试文件放在 `test/` 目录下，命名为 `test_foo_auth.py`（与被测试文件 `foo.py` 对应，便于团队定位）；
+- 不提交无关文件（如 IDE 配置、测试临时日志，通过 `.gitignore` 过滤 `auth_logs.test.txt` 等临时文件）。
+
+#### 2. 测试用例代码（无模拟，依赖真实环境）
+```python
+# test/test_foo_auth.py
+import unittest
+import os
+import threading
+import time
+from foo import UserAuth  # 从被测试文件导入核心类
+from pathlib import Path
+
+# 全局配置（遵循仓库中「开发环境 setup」规范，如日志路径）
+TEST_LOG_PATH = Path(__file__).parent / "auth_logs.test.txt"  # 测试专用日志文件
+USER_SESSION_STORAGE = {}  # 模拟仓库中真实的「会话存储」（非模拟逻辑，仅复用存储结构）
+
+
+class TestUserLogoutEdgeCases(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        """测试类初始化：创建测试日志文件，确保环境一致（仓库礼仪：测试前统一环境）"""
+        # 清除历史测试日志（避免干扰当前测试）
+        if TEST_LOG_PATH.exists():
+            os.remove(TEST_LOG_PATH)
+        # 初始化 UserAuth（传入测试专用日志路径，与生产环境路径隔离）
+        cls.user_auth = UserAuth(log_path=TEST_LOG_PATH, session_storage=USER_SESSION_STORAGE)
+
+    @classmethod
+    def tearDownClass(cls):
+        """测试类清理：删除测试日志，还原环境（仓库礼仪：不残留测试垃圾文件）"""
+        if TEST_LOG_PATH.exists():
+            os.remove(TEST_LOG_PATH)
+        # 清空会话存储
+        USER_SESSION_STORAGE.clear()
+
+    def setUp(self):
+        """每个测试用例前：确保会话存储为空（避免用例间干扰）"""
+        USER_SESSION_STORAGE.clear()
+
+    def test_logout_when_user_not_logged_in(self):
+        """边缘场景1：用户未登录时调用注销"""
+        # 1. 准备：确保用户未登录（会话存储为空）
+        self.assertNotIn("user_123", USER_SESSION_STORAGE)
+        
+        # 2. 执行注销操作
+        result = self.user_auth.logout(user_id="user_123")
+        
+        # 3. 断言结果（无会话时应返回「未登录」提示，且不报错）
+        self.assertEqual(result, "注销失败：用户未登录")
+        # 断言日志：记录「未登录用户尝试注销」的信息
+        with open(TEST_LOG_PATH, "r", encoding="utf-8") as f:
+            log_content = f.read()
+        self.assertIn("user_123 尝试注销，但当前未登录", log_content)
+
+    def test_logout_when_session_expired(self):
+        """边缘场景2：用户会话已过期（模拟会话超时，无模拟逻辑）"""
+        # 1. 准备：先登录用户，再手动设置会话为「过期」（复用仓库中会话过期的判断逻辑）
+        self.user_auth.login(user_id="user_456", password="valid_pwd")  # 真实登录操作
+        USER_SESSION_STORAGE["user_456"]["expire_time"] = time.time() - 3600  # 会话过期（1小时前）
+        
+        # 2. 执行注销操作
+        result = self.user_auth.logout(user_id="user_456")
+        
+        # 3. 断言结果（过期会话应注销成功，且清除会话）
+        self.assertEqual(result, "注销成功：已清除过期会话")
+        self.assertNotIn("user_456", USER_SESSION_STORAGE)
+        # 断言日志：记录「过期会话注销」
+        with open(TEST_LOG_PATH, "r", encoding="utf-8") as f:
+            log_content = f.read()
+        self.assertIn("user_456 过期会话注销成功", log_content)
+
+    def test_logout_when_log_file_no_permission(self):
+        """边缘场景3：日志文件无写入权限（模拟真实权限问题，无模拟工具）"""
+        # 1. 准备：先登录用户，再设置日志文件为「只读」（真实文件权限操作）
+        self.user_auth.login(user_id="user_789", password="valid_pwd")
+        TEST_LOG_PATH.touch(exist_ok=True)
+        os.chmod(TEST_LOG_PATH, 0o444)  # 只读权限（无写入权限）
+        
+        # 2. 执行注销操作（预期：注销成功，但日志写入失败）
+        result = self.user_auth.logout(user_id="user_789")
+        
+        # 3. 断言结果：会话已清除，返回「日志写入失败」提示
+        self.assertEqual(result, "注销成功，但日志写入失败：权限不足")
+        self.assertNotIn("user_789", USER_SESSION_STORAGE)
+        
+        # 4. 还原权限（仓库礼仪：测试后恢复环境，避免影响其他用例）
+        os.chmod(TEST_LOG_PATH, 0o644)
+
+    def test_concurrent_logout_same_user(self):
+        """边缘场景4：多线程并发注销同一用户（模拟真实并发，无模拟工具）"""
+        # 1. 准备：先登录用户
+        self.user_auth.login(user_id="user_000", password="valid_pwd")
+        self.assertIn("user_000", USER_SESSION_STORAGE)
+        
+        # 2. 定义并发注销函数
+        logout_results = []
+        def concurrent_logout():
+            result = self.user_auth.logout(user_id="user_000")
+            logout_results.append(result)
+        
+        # 3. 启动2个线程并发注销
+        thread1 = threading.Thread(target=concurrent_logout)
+        thread2 = threading.Thread(target=concurrent_logout)
+        thread1.start()
+        thread2.start()
+        thread1.join()
+        thread2.join()
+        
+        # 4. 断言结果：仅1次注销成功，1次失败（避免重复清除会话）
+        self.assertCountEqual(logout_results, ["注销成功", "注销失败：用户已注销"])
+        self.assertNotIn("user_000", USER_SESSION_STORAGE)
+        # 断言日志：记录2次注销尝试（1次成功，1次失败）
+        with open(TEST_LOG_PATH, "r", encoding="utf-8") as f:
+            log_lines = f.readlines()
+        self.assertEqual(len([l for l in log_lines if "user_000" in l]), 2)
+
+
+if __name__ == "__main__":
+    unittest.main()
+```
+
+
+### 三、遵循 Repository etiquette 的关键细节
+#### 1. 测试文件与环境规范
+- **目录一致性**：测试文件放在仓库约定的 `test/` 目录，不随意放在 `src/` 或根目录，便于团队统一维护；
+- **环境隔离**：使用测试专用日志文件 `auth_logs.test.txt`，不干扰生产环境日志，且测试后自动清理（`tearDownClass`）；
+- **权限还原**：测试“无写入权限”场景后，立即将文件权限还原为 `0o644`（避免影响后续测试或其他开发者）。
+
+#### 2. 提交与协作规范
+- **提交信息清晰**：提交测试代码时，按仓库约定写提交信息，如 `test: 为 foo.py UserAuth.logout 新增4个边缘场景测试（覆盖未登录/会话过期等）`；
+- **不提交临时文件**：在 `.gitignore` 中添加 `test/auth_logs.test.txt`，避免测试临时日志被误提交；
+- **PR 描述完整**：发起 PR 时，说明测试覆盖的场景、依赖的真实环境（如无需模拟工具），便于 Code Review 时快速理解。
+
+#### 3. 测试逻辑规范
+- **无模拟依赖**：未使用 `unittest.mock` 或 `pytest-mock` 等工具，而是通过真实文件操作（权限修改）、线程（并发）、会话存储（过期设置）模拟边缘场景，确保测试结果贴近生产环境；
+- **用例独立性**：每个测试用例通过 `setUp` 清空会话存储，避免用例间数据干扰（仓库协作中需确保测试可重复执行）。
+
+
+### 四、结合 Claude Code 的执行建议（按最佳实践）
+1. **先提交测试代码**：按 TDD 工作流，先运行 `python -m unittest test/test_foo_auth.py` 确认测试失败（因 `foo.py` 可能未处理边缘场景），然后提交测试代码：
+   ```bash
+   git add test/test_foo_auth.py
+   git commit -m "test: 为 foo.py logout 新增边缘场景测试（未登录/会话过期等）"
+   git push origin feature/logout-test  # 按仓库分支命名规范（如 feature/功能名）
+   ```
+2. **让 Claude 实现代码**：在 Claude Code 中执行 `claude`，输入指令：
+   > 请基于 `test/test_foo_auth.py` 中的测试用例，完善 `foo.py` 中 `UserAuth.logout` 方法，确保所有边缘场景测试通过。要求：
+   > 1. 处理“未登录用户注销”“会话过期”“日志无权限”“并发注销”4种场景；
+   > 2. 不使用任何模拟工具，遵循仓库中 `USER_SESSION_STORAGE` 和日志路径的规范；
+   > 3. 完成后运行测试，确保全部通过，再提交代码。
+3. **提交实现代码**：Claude 完成后，验证测试通过，按仓库礼仪提交 `foo.py`：
+   ```bash
+   git add foo.py
+   git commit -m "feat: 完善 UserAuth.logout 处理4种边缘场景（适配测试用例）"
+   git push origin feature/logout-test
+   ```
+4. **发起 PR 并 Review**：按仓库约定发起 PR，指定同事进行 Code Review，确认代码符合规范后合并到 `develop` 分支（避免直接推送到 `main`）。
+
+
+通过以上流程，既确保测试覆盖边缘场景，又严格遵循仓库礼仪，同时利用 Claude Code 提升开发效率。
