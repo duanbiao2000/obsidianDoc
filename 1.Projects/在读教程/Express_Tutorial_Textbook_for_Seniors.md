@@ -123,6 +123,8 @@
   });
   ```
 - **实践**：用Postman发送`{"text": "这很好"}`，确认返回`{"prediction": "正面"}`。
+<!--ID: 1761111104794-->
+
 
 ---
 
@@ -134,6 +136,8 @@
   ```javascript
   const WebSocket = require('ws');
   const wss = new WebSocket.Server({ port: 8080 });
+<!--ID: 1761111104801-->
+
 
   wss.on('connection', ws => {
       ws.on('message', message => {
@@ -153,6 +157,8 @@
   const app = express();
   const server = http.createServer(app);
   const wss = new WebSocket.Server({ server });
+<!--ID: 1761111104817-->
+
 
   wss.on('connection', ws => {
       ws.on('message', message => {
@@ -176,6 +182,8 @@
   </script>
   ```
 - **实践**：发送WebSocket消息，确认实时返回预测。
+<!--ID: 1761111104825-->
+
 
 ---
 
@@ -326,6 +334,8 @@ sentiment_app/
       }
   }
   ```
+<!--ID: 1761111104839-->
+
 
 ### 6.4 测试
 - 运行：`npm start`。

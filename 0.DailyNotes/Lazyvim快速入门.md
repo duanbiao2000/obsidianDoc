@@ -173,6 +173,8 @@ LazyVim 默认使用 <code>tokyonight</code>，可在 <code>config/options.lua</
 添加插件到 <code>plugins/theme.lua</code>，例如：<br>
 <code>{ "folke/gruvbox.nvim", lazy = false, priority = 1000 }</code>
 </details>
+<!--ID: 1761111102084-->
+
 
 <details>
 <summary>13. 如何配置 LSP（语言服务器）？</summary>
@@ -206,6 +208,8 @@ LazyVim 集成 <code>nvim-lspconfig</code>，支持自动配置常见语言服�
 在 <code>config/lsp.lua</code> 中设置：<br>
 <code>format = { enabled = false }</code>
 </details>
+<!--ID: 1761111102094-->
+
 
 <details>
 <summary>19. 如何配置键绑定（Keymaps）？</summary>
@@ -429,6 +433,8 @@ LazyVim 集成 <code>nvim-dap</code>，需安装对应语言的调试器（通�
 LazyVim 默认不启用，可添加 autocmd：<br>
 <code>vim.api.nvim_create_autocmd("BufWritePre", { command = "write" })</code>
 </details>
+<!--ID: 1761111102111-->
+
 
 <details>
 <summary>62. 如何启用自动切换工作目录？</summary>
@@ -530,6 +536,8 @@ LazyVim 默认不启用，可添加 autocmd：<br>
 <summary>80. 如何覆盖 LazyVim 默认配置？</summary>
 在对应模块文件中 return 新配置，或使用 <code>setup = { ... }</code> 覆盖。
 </details>
+<!--ID: 1761111102118-->
+
 
 <details>
 <summary>81. 如何查看插件加载性能？</summary>
@@ -551,6 +559,8 @@ LazyVim 默认不启用，可添加 autocmd：<br>
 在 <code>plugins/</code> 目录创建 Lua 文件，返回插件表：<br>
 <code>{ "user/plugin", event = "VeryLazy" }</code>
 </details>
+<!--ID: 1761111102133-->
+
 
 <details>
 <summary>85. 如何卸载插件？</summary>

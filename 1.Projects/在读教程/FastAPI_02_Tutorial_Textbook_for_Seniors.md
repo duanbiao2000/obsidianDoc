@@ -40,6 +40,8 @@
   3. 运行：`uvicorn main:app --reload`，访问`http://localhost:8000`。
 - **实践**：运行代码，确认返回`{"message": "Hello, AI World!"}`。
 - **访问文档**：打开`http://localhost:8000/docs`，体验Swagger UI。
+<!--ID: 1761111104719-->
+
 
 ---
 
@@ -122,6 +124,8 @@
           raise HTTPException(status_code=400, detail=str(e))
   ```
 - **实践**：发送空输入，确认返回400错误。
+<!--ID: 1761111104732-->
+
 
 ---
 
@@ -155,6 +159,8 @@
   ```
 - **实践**：测试异步端点，确认性能提升。
 - **反直觉洞察**：异步在单用户场景收益有限，但在多用户高并发场景（如你的AI服务）显著。
+<!--ID: 1761111104750-->
+
 
 ---
 
@@ -290,6 +296,8 @@ sentiment_api/
   requests==2.31.0
   jinja2==3.1.2
   ```
+<!--ID: 1761111104770-->
+
 
 ### 7.4 测试
 - 运行：`uvicorn main:app --reload`。

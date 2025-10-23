@@ -199,6 +199,8 @@ sentiment-serverless/
   from transformers import pipeline
   import functions_framework
   from google.cloud import storage
+<!--ID: 1761111103978-->
+
 
   classifier = pipeline('sentiment-analysis', model='distilbert-base-uncased-finetuned-sst-2-english')
   storage_client = storage.Client()
@@ -266,6 +268,8 @@ sentiment-serverless/
   google-cloud-storage==2.10.0  # GCP only
   functions-framework==3.5.0  # GCP only
   ```
+<!--ID: 1761111103987-->
+
 
 ### 5.4 测试
 - **AWS**：

@@ -395,6 +395,8 @@ done
 > ✅ **参数说明**：  
 > - `-q:v 80`：质量 80%（1-100，数值越小压缩越强）  
 > - `scale=800:-1`：-1 自动保持宽高比
+<!--ID: 1761111102437-->
+
 
 ---
 
@@ -465,6 +467,8 @@ ffmpeg -i input.mp4 -i watermark.png -filter_complex "overlay=main_w-overlay_w-1
 INPUT="$1"
 OUTPUT="$2"
 WIDTH="${3:-640}"  # 默认宽度 640
+<!--ID: 1761111102443-->
+
 
 ffmpeg -i "$INPUT" -vf "fps=12,scale=${WIDTH}:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -c:v gif "$OUTPUT"
 echo "✅ GIF 生成完成: $OUTPUT"
@@ -1157,6 +1161,7 @@ echo "1. 写 100 字" > ~/Desktop/DO_THIS_TODAY.txt
 - **适用场景**：决策制定、风险管理、关系维护、健康管理  
 
 > ✅ **Action**：立即停止问“如何成功”，改为问“什么会导致我失败？”
+<!--SR:!2025-10-20,3,250-->
 
 ---
 
@@ -1603,6 +1608,8 @@ function processOrder(order) {
   const total = order.items.reduce((sum, item) => sum + item.price, 0);
   return { total };
 }
+<!--ID: 1761111102460-->
+
 
 // 倒推评审发现的问题：
 // 1. order.items可能为null → reduce报错

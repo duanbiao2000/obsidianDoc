@@ -163,6 +163,8 @@ func CreateUser(db *gorm.DB, name string) (*User, error) {
     }
     return user, nil
 }
+<!--ID: 1761111102332-->
+
 
 func GetUsers(db *gorm.DB) ([]User, error) {
     var users []User
@@ -345,6 +347,8 @@ func TestCreateUser(t *testing.T) {
    curl http://localhost:8080/hello
    # 查看日志输出（JSON格式）
    ```
+<!--ID: 1761111102349-->
+
 
 > ✅ **完成**：你已掌握Go开发的**最核心三要素**：  
 > - 日志（Zap）  
@@ -2896,6 +2900,8 @@ go run cmd/server/main.go
 curl -X POST http://localhost:8080/api/v1/users \
   -H "Content-Type: application/json" \
   -d '{"name":"Alice","email":"alice@example.com","age":30}'
+<!--ID: 1761111102369-->
+
 
 # 获取用户列表
 curl http://localhost:8080/api/v1/users

@@ -410,6 +410,8 @@ const searchAlgorithms = {
     return fuse.search(query);
   }
 };
+<!--ID: 1761111099784-->
+
 
 // 性能测试
 const performanceTest = (algorithm, data, query, iterations = 1000) => {
@@ -448,6 +450,8 @@ const ProductList = ({ products, searchTerm }) => {
     </div>
   );
 };
+<!--ID: 1761111099790-->
+
 
 // 优化后的组件（使用useMemo和React.memo）
 const ProductList = React.memo(({ products, searchTerm }) => {

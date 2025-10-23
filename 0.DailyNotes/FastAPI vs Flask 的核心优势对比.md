@@ -31,6 +31,8 @@
          return {"item": item.dict()}
      ```
    - **Flask**：实现同等功能需 50+ 行（手动验证 + 文档维护）。
+<!--ID: 1761111102487-->
+
 
 2. **现代化需求覆盖**
    - FastAPI 直接支持：WebSocket、GraphQL、OAuth2、JWT 等。

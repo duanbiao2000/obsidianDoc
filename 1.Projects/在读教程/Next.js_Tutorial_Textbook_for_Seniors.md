@@ -180,6 +180,8 @@
       return {"label": result['label'], "score": result['score']}
   ```
 - **测试**：访问`http://localhost:3000/sentiment`，输入“I love AI!”，确认结果显示。
+<!--ID: 1761111104337-->
+
 
 ---
 
@@ -356,6 +358,8 @@ sentiment-frontend/
   ```python
   from fastapi import FastAPI
   from transformers import pipeline
+<!--ID: 1761111104344-->
+
 
   app = FastAPI()
   classifier = pipeline('sentiment-analysis', model='distilbert-base-uncased-finetuned-sst-2-english')
@@ -381,6 +385,8 @@ sentiment-frontend/
   transformers==4.35.0
   torch==2.1.0
   ```
+<!--ID: 1761111104360-->
+
 
 ### 6.4 测试
 - **运行**：
@@ -406,6 +412,8 @@ sentiment-frontend/
 - **懒加载**：
   ```javascript
   import dynamic from "next/dynamic";
+<!--ID: 1761111104377-->
+
 
   const SentimentInput = dynamic(() => import("../components/SentimentInput"), { ssr: false });
   ```

@@ -569,6 +569,8 @@ Docker Compose 允许您使用一个 YAML 文件定义和运行多容器 Docker 
             result = structured_llm.invoke(formatted_prompt)
             return {"query_list": result.query}
         ```
+<!--ID: 1761111105078-->
+
 
 *   **网络搜索 (`web_research` 节点)**:
     *   Google Search API 调用与结果处理。
@@ -595,6 +597,8 @@ Docker Compose 允许您使用一个 YAML 文件定义和运行多容器 Docker 
             citations = get_citations(response, resolved_urls)
             modified_text = insert_citation_markers(response.text, citations)
             sources_gathered = [item for citation in citations for item in citation["segments"]]
+<!--ID: 1761111105085-->
+
 
             return {
                 "sources_gathered": sources_gathered,

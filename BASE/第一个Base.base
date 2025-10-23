@@ -14,7 +14,7 @@ views:
     columnSize:
       file.name: 246
       file.mtime: 166
-      file.folder: 112
+      file.folder: 213
       note.aliases: 206
   - type: cards
     name: 视图

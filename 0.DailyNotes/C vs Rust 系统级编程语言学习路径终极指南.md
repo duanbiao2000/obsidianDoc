@@ -64,6 +64,8 @@ fn main() {
   - **借用检查器**：编译时验证引用有效性
   - **生命周期标注**：确保引用不超出值的生命周期
   - **零成本抽象**：安全机制不牺牲运行时性能
+<!--ID: 1761111102981-->
+
 
 [High] 证据：Rust项目中内存安全错误减少85%（Mozilla研究）
 
@@ -101,6 +103,8 @@ int main() {
 // Rust安全并发模型
 use std::sync::{Arc, Mutex};
 use std::thread;
+<!--ID: 1761111102997-->
+
 
 fn main() {
     let counter = Arc::new(Mutex::new(0));
@@ -129,6 +133,8 @@ fn main() {
   - **Mutex设计**：数据竞争在编译时捕获
   - **Arc/Rc类型**：安全共享所有权
   - **无数据竞争保证**：Rust核心承诺
+<!--ID: 1761111103014-->
+
 
 [Medium] 证据：Rust项目中并发错误减少76%（Microsoft研究）
 
@@ -801,6 +807,8 @@ fn process_string(input: &str) -> String {
     // 自动管理内存，防止溢出
     format!("Processed: {}", input)
 }
+<!--ID: 1761111103033-->
+
 
 fn main() {
     let input = "This is a very long string that might exceed buffer size";
@@ -854,6 +862,8 @@ int main() {
 ```rust
 use std::sync::{Arc, Mutex};
 use std::thread;
+<!--ID: 1761111103041-->
+
 
 fn main() {
     // 线程安全的共享状态

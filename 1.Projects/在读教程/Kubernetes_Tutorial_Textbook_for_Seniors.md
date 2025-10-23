@@ -120,6 +120,8 @@
   kubectl apply -f deployment.yaml
   kubectl get pods
   ```
+<!--ID: 1761111104546-->
+
 
 ---
 
@@ -381,6 +383,8 @@ sentiment_k8s/
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
   );
   ```
+<!--ID: 1761111104553-->
+
 
 ### 6.4 测试
 - **部署**：

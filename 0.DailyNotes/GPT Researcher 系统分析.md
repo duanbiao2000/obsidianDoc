@@ -752,12 +752,16 @@ async def run(self, on_progress=None) -> str:
     (follow_up_questions)
 
     qa_pairs = [f"Q: {q}\nA: {a}" for q, a in zip
+<!--ID: 1761111102176-->
+
 
     (follow_up_questions, answers)]
 
     combined_query = f"""
 
     Initial Query: {self.researcher.query}\nFollow - up 
+<!--ID: 1761111102183-->
+
 
     Questions and Answers:\n
 
@@ -917,10 +921,14 @@ Copy
 async def plan_research(self, query, query_domains=None):
 
     self.logger.info(f"Planning research for query: {query}")
+<!--ID: 1761111102199-->
+
 
     if query_domains:
 
         self.logger.info(f"Query domains: {query_domains}")
+<!--ID: 1761111102216-->
+
 
     await stream_output(
 
@@ -931,6 +939,8 @@ async def plan_research(self, query, query_domains=None):
         f"🌐 Browsing the web to learn more about the task: 
 
         {query}...",
+<!--ID: 1761111102224-->
+
 
         self.researcher.websocket,
 
@@ -975,6 +985,8 @@ async def plan_research(self, query, query_domains=None):
     )
 
     self.logger.info(f"Research outline planned: {outline}")
+<!--ID: 1761111102238-->
+
 
     return outline
 
@@ -1112,6 +1124,8 @@ None):
     """
 
     self.logger.info(f"Starting web search for query: {query}")
+<!--ID: 1761111102254-->
+
 
     if scraped_data is None:
 
@@ -1128,6 +1142,8 @@ None):
     query_domains)
 
     self.logger.info(f"Generated sub-queries: {sub_queries}")
+<!--ID: 1761111102263-->
+
 
     # If this is not part of a sub researcher, add original 
 
@@ -1162,6 +1178,8 @@ None):
     except Exception as e:
 
         self.logger.error(f"Error during web search: {e}", 
+<!--ID: 1761111102277-->
+
 
         exc_info=True)
 
@@ -1209,6 +1227,8 @@ scraped_data: list = [], query_domains: list = []):
             "running_subquery_research",
 
             f"\n🔍 Running research for '{sub_query}'...",
+<!--ID: 1761111102292-->
+
 
             self.researcher.websocket,
 
@@ -1243,6 +1263,8 @@ scraped_data: list = [], query_domains: list = []):
         self.logger.error(f"Error processing sub-query 
 
         {sub_query}: {e}", exc_info=True)
+<!--ID: 1761111102309-->
+
 
         return ""
 
@@ -1275,6 +1297,8 @@ async def get_similar_content_by_query(self, query, pages):
             f"📚 Getting relevant content based on query: 
 
             {query}...",
+<!--ID: 1761113422309-->
+
 
             self.researcher.websocket,
 

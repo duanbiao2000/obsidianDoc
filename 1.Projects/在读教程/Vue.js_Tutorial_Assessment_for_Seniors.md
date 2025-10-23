@@ -98,6 +98,8 @@
     <Input @predict="handlePredict" />
     <p>{{ result }}</p>
   </template>
+<!--ID: 1761111103803-->
+
 
   <script>
   import Input from './components/Input.vue';
@@ -124,6 +126,8 @@
   - 事件处理（10分）：触发与显示正常。
   - 代码结构（5分）：清晰、可读。
   - 测试验证（5分）：功能运行正常。
+<!--ID: 1761111103810-->
+
 
 ### 编程题2：API集成与Docker（40分）
 - **任务**：构建Vue.js AI情感分析前端：
@@ -167,6 +171,8 @@
   // src/stores/sentiment.js
   import { defineStore } from 'pinia';
   import axios from 'axios';
+<!--ID: 1761111103826-->
+
 
   export const useSentimentStore = defineStore('sentiment', {
     state: () => ({
@@ -230,6 +236,8 @@
   - Docker配置（10分）：容器化成功。
   - Actions配置（10分）：CI/CD运行正常。
   - 错误处理（5分）：处理API错误。
+<!--ID: 1761111103843-->
+
 
 ---
 

@@ -145,6 +145,8 @@
   @Service
   public class SentimentService {
       private final RestTemplate restTemplate;
+<!--ID: 1761111103941-->
+
 
       public SentimentService(RestTemplate restTemplate) {
           this.restTemplate = restTemplate;
@@ -371,6 +373,8 @@ sentiment-service/
   transformers==4.35.0
   torch==2.1.0
   ```
+<!--ID: 1761111103948-->
+
 
 ### 6.4 测试
 - **运行**：

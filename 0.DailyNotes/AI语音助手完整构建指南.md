@@ -169,6 +169,8 @@ export async function post({ request }) {
   if (vapySignature !== expectedSignature) {
     return new Response('Unauthorized', { status: 401 })
   }
+<!--ID: 1761111103229-->
+
 
   // 2. 解析请求数据
   const data = await request.json()
@@ -277,6 +279,8 @@ async function getCallResults() {
 ```jsx
 // src/components/CallResults.jsx
 import { getCallResults } from '../lib/database'
+<!--ID: 1761111103252-->
+
 
 export default async function CallResults() {
   const results = await getCallResults()
@@ -643,6 +647,8 @@ const vapiConfig = {
 // src/pages/api/vapi-callback.ts
 import { db } from 'db';
 import { VAPI_SECRET } from 'env';
+<!--ID: 1761111103258-->
+
 
 export async function post({ request }) {
   // 1. 验证请求来源（关键安全措施）

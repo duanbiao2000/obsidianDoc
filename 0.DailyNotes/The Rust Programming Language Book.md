@@ -68,6 +68,8 @@ fn main() {
     change(&mut s);
     println!("{}", s); // → "hello, world"
 }
+<!--ID: 1761111099649-->
+
 
 fn change(s: &mut String) {
     s.push_str(", world");
@@ -113,6 +115,8 @@ fn main() {
 fn divide(a: f64, b: f64) -> Option<f64> {
     if b == 0.0 { None } else { Some(a / b) }
 }
+<!--ID: 1761111099659-->
+
 
 fn main() {
     match divide(10.0, 0.0) {
@@ -239,6 +243,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 ---
 
 ### 3. 并发执行多个异步任务（`tokio::join!`）
+<!--ID: 1761111099617-->
+
 ```rust
 use tokio;
 
@@ -255,6 +261,8 @@ async fn main() {
 ---
 
 ### 4. 生成并发任务（`tokio::spawn`）
+<!--ID: 1761111099622-->
+
 ```rust
 use tokio;
 
@@ -276,6 +284,8 @@ async fn main() {
 ### 5. 异步流（`Stream`）—— 处理多个异步值
 ```rust
 use futures::stream::{self, StreamExt};
+<!--ID: 1761111099668-->
+
 
 #[tokio::main]
 async fn main() {
@@ -421,6 +431,8 @@ fn main() {
     // println!("{}", s1); 
     println!("{}", s2); // 正确：s2有效
 }
+<!--ID: 1761111099674-->
+
 
 // 函数所有权转移
 fn takes_ownership(some_string: String) {
@@ -472,6 +484,8 @@ graph LR
 fn calculate_length(s: &String) -> usize { // &String是不可变引用
     s.len()
 } // 引用离开作用域，但不释放所指向的数据
+<!--ID: 1761111099684-->
+
 
 fn main() {
     let s1 = String::from("hello");
@@ -542,6 +556,8 @@ graph LR
 fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
     if x.len() > y.len() { x } else { y }
 }
+<!--ID: 1761111099694-->
+
 
 fn main() {
     let string1 = String::from("long string is long");
@@ -789,6 +805,8 @@ fn process_file(path: &str) -> Result<(), AppError> {
 **教学要点**：
 - 使用`thiserror`或`anyhow`库简化错误定义
 - 实现`std::error::Error` trait使错误可转换
+<!--ID: 1761111099633-->
+
 - 使用`From` trait实现错误自动转换
 - 错误应提供有意义的显示信息
 
@@ -878,6 +896,8 @@ async fn process_stream() {
 - `async fn`返回`impl Future`，不立即执行
 - `.await`挂起当前任务，让出执行权
 - `tokio::main`宏设置Tokio运行时
+<!--ID: 1761113712385-->
+
 - `tokio::join!`并行执行多个Future
 
 [High] 证据：async/await模型使异步代码可读性提高3.8倍，错误率降低67%（异步编程研究）

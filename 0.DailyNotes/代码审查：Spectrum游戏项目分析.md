@@ -428,6 +428,8 @@ class AssetManager {
 >
 > - 加载速度提升 50x（哈希查找 vs 字符串比较）
 > - 消除拼写错误风险（`AssetType::Font` vs "fnt"）
+<!--ID: 1761113422142-->
+
 > - 易扩展（新增资源类型只需添加映射）
 
 ---
@@ -2189,19 +2191,20 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 )
 ```
 
-> ✅ **行动清单**：  
-> 1. 创建`ResourceManager`类统一管理路径  
-> 2. 在CMake中设置正确的工作目录：  
+> ✅ **行动清单**：
+> 1. 创建`ResourceManager`类统一管理路径
+> 2. 在CMake中设置正确的工作目录：
 >    ```cmake
->    set_target_properties(${PROJECT_NAME} PROPERTIES 
+>    set_target_properties(${PROJECT_NAME} PROPERTIES
 >        VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}/assets"
 >    )
 >    ```
-> 3. 使用相对路径加载资源：  
+> 3. 使用相对路径加载资源：
 >    ```cpp
 >    Texture texture = resources.loadTexture("textures/sprite.png");
 >    ```
-> 4. 测试不同构建配置（Debug/Release）下的资源加载  
+> 4. 测试不同构建配置（Debug/Release）下的资源加载
+<!--SR:!2025-10-20,3,250-->
 
 > 💡 **真实收益**：  
 > - 资源加载错误减少100%  

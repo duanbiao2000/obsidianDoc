@@ -463,6 +463,8 @@ def generate_compliance_tag(content_type, sources):
         "music": "🎹 本曲含人类混音，原始 MIDI 来源："
     }
     return f"{tags[content_type]} {', '.join(sources)}"
+<!--ID: 1761111103315-->
+
 
 # 自动生成描述栏标注
 video_description += generate_compliance_tag("history", ["大英图书馆 MS123", "国家档案馆 UK-1985"])

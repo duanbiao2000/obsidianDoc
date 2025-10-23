@@ -1,7 +1,6 @@
 ---
-aliases: 
-title: <% tp.file.title %>
-theme: 
+aliases: <% tp.file.title %>
+theme:
 high_priority: false
 date: <% tp.file.creation_date() %>
 update: <% tp.file.last_modified_date() %>

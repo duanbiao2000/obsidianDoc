@@ -99,6 +99,8 @@
   ```javascript
   // app/health/page.js
   import HealthCheck from "../components/HealthCheck";
+<!--ID: 1761111104405-->
+
 
   export default function Health() {
     const handleCheck = (text) => {
@@ -169,6 +171,8 @@
   ```javascript
   // app/components/SentimentInput.js
   "use client";
+<!--ID: 1761111104413-->
+
 
   import { useState } from "react";
 
@@ -231,6 +235,8 @@
   - React Query（10分）：数据获取与错误处理正常。
   - Docker配置（10分）：容器化成功。
   - CI/CD配置（5分）：自动化运行正常。
+<!--ID: 1761111104429-->
+
 
 ---
 

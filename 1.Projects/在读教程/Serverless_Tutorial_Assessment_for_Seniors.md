@@ -100,6 +100,8 @@
   - 触发器配置（10分）：API Gateway正常调用。
   - 代码结构（5分）：清晰、可读。
   - 测试验证（5分）：返回正确结果。
+<!--ID: 1761111104004-->
+
 
 ### 编程题2：Serverless AI API（40分）
 - **任务**：构建Serverless AI情感分析API：
@@ -134,6 +136,8 @@
   from transformers import pipeline
   import functions_framework
   from google.cloud import storage
+<!--ID: 1761111104023-->
+
 
   classifier = pipeline('sentiment-analysis', model='distilbert-base-uncased-finetuned-sst-2-english')
   storage_client = storage.Client()
@@ -189,6 +193,8 @@
   - 存储集成（10分）：结果保存到S3/Cloud Storage。
   - CI/CD配置（10分）：自动化部署正常。
   - 错误处理（5分）：处理推理错误。
+<!--ID: 1761111104040-->
+
 
 ---
 

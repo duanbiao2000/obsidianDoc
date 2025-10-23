@@ -1,5 +1,5 @@
 ---
-title: claude-task-master/scripts/modules/prompt-manager.js at main · eyaltoledano/claude-task-master
+aliases: claude-task-master/scripts/modules/prompt-manager.js at main · eyaltoledano/claude-task-master
 source: https://github.com/eyaltoledano/claude-task-master/blob/main/src/constants/task-status.js
 author:
   - "[[Crunchyman-ralph]]"
@@ -10,7 +10,8 @@ description: An AI-powered task-management system you can drop into Cursor, Lova
 tags:
   - clippings
 ---
-export const TASK_STATUS_OPTIONS = [
+
+export const TASK\_STATUS\_OPTIONS = [
 
 'pending',
 

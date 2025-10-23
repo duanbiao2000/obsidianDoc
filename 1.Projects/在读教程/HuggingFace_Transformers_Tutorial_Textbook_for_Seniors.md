@@ -38,6 +38,8 @@
   print(result)  # [{'label': 'POSITIVE', 'score': 0.999}]
   ```
 - **实践**：运行Pipeline，测试情感分析。
+<!--ID: 1761111104623-->
+
 
 ---
 
@@ -287,6 +289,8 @@ sentiment-image-app/
   torch==2.1.0
   datasets==2.14.0
   ```
+<!--ID: 1761111104630-->
+
 
 ### 6.4 测试
 - **运行**：

@@ -132,6 +132,8 @@ sentiment_project/
   ```python
   from fastapi.testclient import TestClient
   from app import app
+<!--ID: 1761111104667-->
+
 
   client = TestClient(app)
 

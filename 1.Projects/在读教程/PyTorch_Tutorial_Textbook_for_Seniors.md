@@ -322,6 +322,8 @@ sentiment-app/
   transformers==4.35.0
   datasets==2.14.0
   ```
+<!--ID: 1761111104255-->
+
 
 ### 6.4 测试
 - **运行**：

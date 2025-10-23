@@ -999,6 +999,7 @@ model = AutoModelForCausalLM.from_pretrained(
 >
 > - 多语言任务需包含`language`专家
 > - 代码+翻译任务：`expert_filter=["code", "translation"]`
+<!--SR:!2000-01-01,1,250!2025-10-21,4,270-->
 
 ---
 

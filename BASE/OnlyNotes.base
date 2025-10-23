@@ -1,0 +1,36 @@
+filters:
+  and:
+    - and:
+        - '!file.inFolder("3.Resources")'
+        - '!file.inFolder("4.Archives")'
+        - '!file.inFolder("5.Misc")'
+        - '!file.inFolder("Atlas")'
+        - '!file.inFolder("Extras")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+      - file.size
+      - file.backlinks
+      - file.basename
+      - file.ctime
+      - file.embeds
+      - aliases
+    sort:
+      - property: file.size
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 227
+      file.folder: 189
+      file.backlinks: 282
+      file.embeds: 124
+  - type: cards
+    name: Cards
+    imageFit: ""
+    cardSize: 280
+    imageAspectRatio: 0.55

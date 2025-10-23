@@ -314,6 +314,8 @@ sentiment-frontend/
       </li>
     </ul>
   </template>
+<!--ID: 1761111103730-->
+
 
   <script>
   import { useSentimentStore } from './stores/sentiment';
@@ -337,6 +339,8 @@ sentiment-frontend/
   ```javascript
   import { defineStore } from 'pinia';
   import axios from 'axios';
+<!--ID: 1761111103736-->
+
 
   export const useSentimentStore = defineStore('sentiment', {
     state: () => ({
@@ -358,6 +362,8 @@ sentiment-frontend/
   ```python
   from fastapi import FastAPI
   from transformers import pipeline
+<!--ID: 1761111103757-->
+
 
   app = FastAPI()
   classifier = pipeline('sentiment-analysis', model='distilbert-base-uncased-finetuned-sst-2-english')
@@ -384,6 +390,8 @@ sentiment-frontend/
   transformers==4.35.0
   torch==2.1.0
   ```
+<!--ID: 1761111103776-->
+
 
 ### 6.4 测试
 - **运行**：

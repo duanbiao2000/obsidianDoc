@@ -9,6 +9,8 @@ class Base {
 public:
     ~Base() {} // 非virtual析构函数
 };
+<!--ID: 1761111102843-->
+
 
 class Derived : public Base {
 public:
@@ -32,6 +34,8 @@ public:
 };
 ```
 [High] 证据：非virtual析构函数导致资源泄漏在生产代码中占内存问题的23%（2024 C++安全报告）
+<!--ID: 1761111102850-->
+
 
 #### ✅ 2. 手动管理资源（new/delete）[Critical]
 ```cpp
@@ -62,6 +66,8 @@ for (auto it = vec.begin(); it != vec.end(); ++it) {
         vec.push_back(6); // 可能导致迭代器失效
     }
 }
+<!--ID: 1761111102868-->
+
 
 // 正确做法 - 使用erase-remove模式
 vec.erase(
@@ -110,6 +116,8 @@ int getCount(const std::map<std::string, int>& counts, const std::string& word) 
 [High] 证据：const正确性使代码可维护性提升34%（IEEE软件工程研究）
 
 #### ✅ 5. 使用std::endl在循环中 [Medium]
+<!--ID: 1761111102724-->
+
 ```cpp
 // 错误示例（性能问题）
 for (int i = 0; i < 1000; ++i) {
@@ -123,6 +131,8 @@ for (int i = 0; i < 1000; ++i) {
 std::cout << std::flush; // 在适当位置手动刷新
 ```
 [Medium] 证据：在循环中使用std::endl使I/O操作慢3-5倍（实测10,000行输出）
+<!--ID: 1761111102731-->
+
 
 #### ✅ 6. 不使用标准算法 [Medium]
 ```cpp
@@ -135,12 +145,16 @@ for (size_t i = 0; i < vec.size(); ++i) {
         break;
     }
 }
+<!--ID: 1761111102888-->
+
 
 // 正确做法（使用标准算法）
 auto it = std::find_if(vec.begin(), vec.end(), [](int x) { return x > 0; });
 int firstPositiveIndex = (it != vec.end()) ? std::distance(vec.begin(), it) : -1;
 ```
 [Medium] 证据：标准算法使代码简洁度提升40%，错误率降低27%（C++标准库使用研究）
+<!--ID: 1761111102897-->
+
 
 ### 轻微问题（代码风格与最佳实践）
 
@@ -220,6 +234,8 @@ std::vector<int> createVector() {
     // 正确：直接返回，让编译器优化
     return v; 
 }
+<!--ID: 1761111102913-->
+
 
 // std::move的实现（简化版）
 template <typename T>
@@ -318,13 +334,21 @@ const int* const p3 = &x; // 两者兼有
 | 场景 | 推荐智能指针 | 理由 |
 |------|-------------|------|
 | 独占所有权 | `std::unique_ptr` | 零开销，明确所有权 |
+<!--ID: 1761111102745-->
+
 | 共享所有权 | `std::shared_ptr` | 引用计数，可能有性能开销 |
+<!--ID: 1761111102764-->
+
 | 观察者指针 | 原始指针 | 不参与所有权管理 |
 | 避免循环引用 | `std::weak_ptr` | 破坏shared_ptr循环引用 |
+<!--ID: 1761111102785-->
+
 
 2. **C++17/20改进点** [Medium]
    - **C++17**: 保证嵌套表达式求值顺序（如`a.b()`中a先求值）
    - **C++20**: `std::bit_cast`替代`reinterpret_cast`用于类型转换
+<!--ID: 1761111102804-->
+
 ```cpp
 // 旧方式（有问题）
 float f = 3.14f;
@@ -350,6 +374,8 @@ private:
 	 Resource resource;
 	 Deleter deleter;
 };
+<!--ID: 1761111102933-->
+
 
 // 使用示例：文件操作
 auto file = RAIIWrapper(fopen("file.txt", "r"), fclose);
@@ -406,6 +432,8 @@ std::vector<int> numbers;
 **危害**: 污染全局命名空间，可能导致命名冲突
 
 ### 2. 使用std::endl
+<!--ID: 1761111102810-->
+
 ❌ **错误做法**
 ```cpp
 for (int i = 0; i < 1000; ++i) {
@@ -471,6 +499,8 @@ if (it != numbers.end()) {
 **优势**: 更清晰，更不容易出错
 
 ### 5. C风格数组 vs std::array
+<!--ID: 1761111102826-->
+
 ❌ **错误做法**
 ```cpp
 int arr[5] = {1, 2, 3, 4, 5};
@@ -501,6 +531,8 @@ std::map<std::string, std::string> colors = {
     {"red", "#FF0000"},
     {"green", "#00FF00"}
 };
+<!--ID: 1761111102953-->
+
 
 for (const auto& pair : colors) {
     std::cout << pair.first << ": " << pair.second << '\n';
@@ -513,6 +545,8 @@ std::map<std::string, std::string> colors = {
     {"red", "#FF0000"},
     {"green", "#00FF00"}
 };
+<!--ID: 1761111102961-->
+
 
 for (const auto& [name, hex] : colors) {
     std::cout << name << ": " << hex << '\n';

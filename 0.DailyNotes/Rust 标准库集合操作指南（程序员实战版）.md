@@ -41,6 +41,8 @@ vec.clear();          // 清空所有元素
 
 #### 💡 **性能优化**  
 - 预分配内存：`Vec::with_capacity(n)` 避免频繁扩容（尤其大数据量时）  
+<!--ID: 1761111100916-->
+
 - 尾部操作优先：`push()`/`pop()` 比中间插入删除快 100x+  
 
 ---
@@ -123,6 +125,8 @@ map.clear();          // 清空
 #### 💡 **性能优化**  
 - 自定义哈希：对非标准类型实现 `Hash` trait（如自定义结构体）  
 - 预分配容量：`HashMap::with_capacity(n)` 减少扩容开销  
+<!--ID: 1761111100934-->
+
 
 ---
 
@@ -159,6 +163,8 @@ for (k, v) in range {
 #### ✅ **核心操作**  
 ```rust
 use std::collections::{HashSet, BTreeSet};
+<!--ID: 1761111101184-->
+
 
 // HashSet（无序）
 let mut set = HashSet::new();
@@ -333,6 +339,8 @@ graph TD
 | 操作 | 时间复杂度 | 最佳实践 | 陷阱 |
 |------|-----------|---------|------|
 | **尾部插入** | O(1) | `Vec::with_capacity` | 无 |
+<!--ID: 1761111100949-->
+
 | **头部插入** | O(n) | 使用`VecDeque` | 避免频繁操作 |
 | **随机访问** | O(1) | 直接索引 | 越界检查开销 |
 | **中间插入** | O(n) | 预分配+批量操作 | 大量数据时性能差 |
@@ -385,12 +393,18 @@ v1.extend(v2); // O(1) 如果容量足够
   ```rust
   // 错误：无预分配
   let mut v = Vec::new();
+<!--ID: 1761111100957-->
+
   for i in 0..10000 { v.push(i); }
   
   // 正确：预分配
   let mut v = Vec::with_capacity(10000);
+<!--ID: 1761113422237-->
+
   for i in 0..10000 { v.push(i); }
   ```
+<!--ID: 1761113422253-->
+
 
 ### 陷阱2：迭代中修改
 - **症状**：编译错误"cannot borrow `v` as mutable because it is also borrowed as immutable"
@@ -419,10 +433,14 @@ v1.extend(v2); // O(1) 如果容量足够
   ```rust
   // 错误：不必要的克隆
   let v1 = vec![String::from("hello")];
+<!--ID: 1761111100984-->
+
   let v2 = v1.clone(); // 克隆所有字符串
   
   // 正确：使用引用或所有权转移
   let v1 = vec![String::from("hello")];
+<!--ID: 1761113422241-->
+
   let v2 = v1; // 所有权转移，无克隆
   ```
 ```
@@ -489,16 +507,24 @@ map1.extend(map2); // map1现在有a:1, b:3, c:4
 - **性能敏感场景**：XxHash, AHash（更快）
   ```rust
   use ahash::AHasher;
+<!--ID: 1761111101003-->
+
   use std::hash::BuildHasherDefault;
+<!--ID: 1761111101021-->
+
   
   type FastMap<K, V> = HashMap<K, V, BuildHasherDefault<AHasher>>;
   let mut map: FastMap<&str, i32> = HashMap::default();
+<!--ID: 1761111101038-->
+
   ```
 
 ### 2. 预分配容量
 - **计算公式**：`capacity = expected_size * 1.33`（避免频繁重新哈希）
   ```rust
   let mut map = HashMap::with_capacity((10000 as f64 * 1.33) as usize);
+<!--ID: 1761111101046-->
+
   ```
 
 ### 3. 自定义键类型
@@ -508,6 +534,8 @@ map1.extend(map2); // map1现在有a:1, b:3, c:4
   struct UserId(u64);
   
   let mut users = HashMap::new();
+<!--ID: 1761111101059-->
+
   users.insert(UserId(123), "Alice");
   ```
 
@@ -515,7 +543,11 @@ map1.extend(map2); // map1现在有a:1, b:3, c:4
 - **使用字符串切片**：当可能时
   ```rust
   let mut map = HashMap::new();
+<!--ID: 1761113422244-->
+
   let key = String::from("key");
+<!--ID: 1761111101078-->
+
   map.insert(&*key, 42); // 使用&str作为键
   ```
 
@@ -553,6 +585,8 @@ map1.extend(map2); // map1现在有a:1, b:3, c:4
 // 1. 高效拼接字符串（避免多次分配）
 let s = String::from("hello");
 let s2 = format!("{} {}!", s, "world"); // 仅一次分配
+<!--ID: 1761111101200-->
+
 
 // 2. 安全分割字符串
 let text = "hello,world,rust";
@@ -607,13 +641,19 @@ fn to_uppercase(s: &str) -> Cow<str> {
   // 错误：不必要的克隆
   fn process(s: String) { /* ... */ }
   let s = String::from("hello");
+<!--ID: 1761111101094-->
+
   process(s.clone()); // 克隆
   
   // 正确：使用引用
   fn process(s: &str) { /* ... */ }
   let s = String::from("hello");
+<!--ID: 1761113422248-->
+
   process(&s); // 无克隆
   ```
+<!--ID: 1761113422257-->
+
 
 ### 陷阱3：错误的拼接方式
 - **症状**：多次分配导致性能下降
@@ -621,6 +661,8 @@ fn to_uppercase(s: &str) -> Cow<str> {
   ```rust
   // 错误：多次push_str
   let mut s = String::new();
+<!--ID: 1761111101115-->
+
   s.push_str("hello");
   s.push_str(" ");
   s.push_str("world"); // 3次可能的分配
@@ -628,6 +670,8 @@ fn to_uppercase(s: &str) -> Cow<str> {
   // 正确：使用format!
   let s = format!("{} {} {}", "hello", "world", "rust"); // 1次分配
   ```
+<!--ID: 1761113422261-->
+
 
 ### 陷阱4：UTF-8处理不当
 - **症状**：字符串操作产生意外结果
@@ -664,6 +708,8 @@ fn to_uppercase(s: &str) -> Cow<str> {
 #### ✅ 有序集合高级实战技巧
 ```rust
 use std::collections::{BTreeMap, BTreeSet};
+<!--ID: 1761111101218-->
+
 
 // 1. 范围查询（核心优势）
 let mut map = BTreeMap::new();
@@ -805,6 +851,8 @@ use std::collections::{HashMap, VecDeque};
 use std::time::{Duration, SystemTime};
 use std::hash::BuildHasherDefault;
 use ahash::AHasher;
+<!--ID: 1761111101226-->
+
 
 type FastHashMap<K, V> = HashMap<K, V, BuildHasherDefault<AHasher>>;
 
@@ -1105,9 +1153,17 @@ impl LogAnalyzer {
 | 集合类型 | 预分配公式 | 说明 | 示例 |
 |---------|-----------|------|------|
 | **Vec** | `expected_size` | 精确大小 | `Vec::with_capacity(1000)` |
+<!--ID: 1761111101131-->
+
 | **HashMap** | `expected_size * 1.33` | 避免重新哈希 | `HashMap::with_capacity(1330)` |
+<!--ID: 1761111101139-->
+
 | **BTreeMap** | `expected_size` | B树不需要额外空间 | `BTreeMap::new()` |
+<!--ID: 1761111101156-->
+
 | **String** | `expected_size` | 预分配字符容量 | `String::with_capacity(100)` |
+<!--ID: 1761111101176-->
+
 
 - ✅ **关键指标**：
   - 重新分配次数 = 0

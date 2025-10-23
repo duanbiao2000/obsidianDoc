@@ -1,5 +1,5 @@
 ---
-title: BMAD-METHOD/docs/user-guide.md at main · bmad-code-org/BMAD-METHOD
+aliases: BMAD-METHOD/docs/user-guide.md at main · bmad-code-org/BMAD-METHOD
 source: https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/user-guide.md
 author:
   - "[[GitHub]]"

@@ -119,6 +119,8 @@
   docker-compose up
   ```
 - **测试**：访问`http://localhost:8000/predict?text=I love AI!`。
+<!--ID: 1761111104929-->
+
 
 ---
 

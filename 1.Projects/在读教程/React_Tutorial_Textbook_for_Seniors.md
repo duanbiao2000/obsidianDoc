@@ -66,6 +66,8 @@
   function Prediction({ result }) {
       return <p>预测：{result || '无结果'}</p>;
   }
+<!--ID: 1761111104068-->
+
 
   function App() {
       return <Prediction result="正面" />;
@@ -81,6 +83,8 @@
 - **概念**：管理组件状态。
   ```javascript
   import React, { useState } from 'react';
+<!--ID: 1761111104075-->
+
 
   function InputForm() {
       const [text, setText] = useState('');
@@ -104,6 +108,8 @@
   ```javascript
   import React, { useState, useEffect } from 'react';
   import axios from 'axios';
+<!--ID: 1761111104092-->
+
 
   function PredictionForm() {
       const [text, setText] = useState('');
@@ -131,6 +137,8 @@
   ```
 - **实践**：结合Express后端，输入文本，显示模拟预测。
 - **技术债务提示**：Hooks嵌套过多会导致代码混乱，保持单一职责。
+<!--ID: 1761111104099-->
+
 
 ---
 
@@ -140,6 +148,8 @@
 - **概念**：轻量级全局状态管理。
   ```javascript
   import React, { createContext, useContext, useState } from 'react';
+<!--ID: 1761111104113-->
+
 
   const PredictionContext = createContext();
 
@@ -227,6 +237,8 @@
   ```javascript
   import { useState, useEffect } from 'react';
   import axios from 'axios';
+<!--ID: 1761111104131-->
+
 
   function PredictionForm() {
       const [text, setText] = useState('');
@@ -259,6 +271,8 @@
 - **代码**：
   ```javascript
   import { useState, useEffect } from 'react';
+<!--ID: 1761111104147-->
+
 
   function RealTimePrediction() {
       const [text, setText] = useState('');
@@ -315,6 +329,8 @@ sentiment_app/
   ```javascript
   import { useState } from 'react';
   import axios from 'axios';
+<!--ID: 1761111104155-->
+
 
   export default function Home() {
       const [text, setText] = useState('');
@@ -368,6 +384,8 @@ sentiment_app/
       }
   }
   ```
+<!--ID: 1761111104170-->
+
 
 ### 7.4 测试
 - 运行：`npm run dev`。

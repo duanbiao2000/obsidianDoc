@@ -67,6 +67,8 @@
 *   **元数据 (Explicit Fields - YAML Frontmatter or Inline Fields)**:
     *   直接使用字段名，如 `priority`, `status`, `rating`, `due_date`。
     *   **Inline Fields**: `Key:: Value`
+<!--ID: 1761111098432-->
+
 *   **比较操作符**: ` =`, `!=`, `>`, `<`, ` >=`, `<=`
 *   **字符串函数**:
     *   `contains(field, "value")`: 字段包含 "value"

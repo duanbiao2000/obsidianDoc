@@ -497,6 +497,7 @@ Gemini 会：
 4. 配置Tailwind CSS
 
 **启动应用**：
+<!--SR:!2025-10-21,4,270-->
 
 ```
 ! npm run dev

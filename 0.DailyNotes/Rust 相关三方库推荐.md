@@ -27,6 +27,8 @@
 
 - **async-std**  
   - 功能：另一个异步运行时，API 设计贴近 Rust 标准库（如 `async_std::fs` 对应 `std::fs`），降低学习成本。  
+<!--ID: 1761111101242-->
+
   - 优势：易用性优先，适合快速上手异步编程，Stars 约 12k+。  
   - 地址：[github.com/async-rs/async-std](https://github.com/async-rs/async-std)
 
@@ -35,6 +37,8 @@
 - **reqwest**  
   - 功能：HTTP 客户端库（支持同步/异步），支持 HTTPS、Cookie、表单提交、文件上传等。  
   - 优势：API 简洁（如 `reqwest::get("url").await?.text()`），生态依赖度极高，Stars 约 18k+。  
+<!--ID: 1761111101257-->
+
   - 场景：调用第三方 API、开发爬虫、后端服务间通信。  
   - 地址：[github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
 
@@ -122,6 +126,8 @@ serde_json = "1.0"
 用 `#[derive(Serialize, Deserialize, Debug)]` 标注结构体，同时添加 `Debug` 便于打印调试：
 ```rust
 use serde::{Serialize, Deserialize};
+<!--ID: 1761111101294-->
+
 
 // 定义用户结构体，字段类型需支持 Serialize/Deserialize（Rust 基础类型均支持）
 #[derive(Serialize, Deserialize, Debug)]
@@ -136,6 +142,8 @@ struct User {
 
 #### 步骤 2：序列化（Rust 结构体 → JSON 字符串）
 调用 `serde_json::to_string()` 或 `to_string_pretty()`（带格式化的 JSON），将结构体转为 JSON 文本：
+<!--ID: 1761111101274-->
+
 ```rust
 fn serialize_example() -> Result<(), Box<dyn std::error::Error>> {
     // 1. 创建 Rust 结构体实例
@@ -180,6 +188,8 @@ fn serialize_example() -> Result<(), Box<dyn std::error::Error>> {
 
 #### 步骤 3：反序列化（JSON 字符串 → Rust 结构体）
 调用 `serde_json::from_str()`，将 JSON 文本转为 Rust 结构体，自动校验格式和类型匹配：
+<!--ID: 1761113422217-->
+
 ```rust
 fn deserialize_example() -> Result<(), Box<dyn std::error::Error>> {
     // 1. 准备 JSON 字符串（可来自文件、网络请求等）
@@ -232,6 +242,8 @@ enum Payment {
     Alipay { trade_no: String, amount: f64 },
     Cash(f64), // 单值变体
 }
+<!--ID: 1761111101308-->
+
 
 // 序列化枚举示例
 let payment = Payment::Wechat {

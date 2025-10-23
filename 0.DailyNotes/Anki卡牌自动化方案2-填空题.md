@@ -79,8 +79,12 @@ await tp.file.append("\n\n✅ 已同步至 Anki");
 - **AnkiConnect** 插件需运行且监听端口 `8765`
     
 - Cloze 填空需使用 `{{c1::...}}` 的格式
+<!--ID: 1761111103126-->
+
     
 - `modelName: "Cloze"` 必须确保你的 Anki 模板支持 Cloze
     
+<!--ID: 1761111103141-->
+
 
 如需进一步扩展（如自动分类 deck 或 cloze 多段处理），我也可以继续优化。是否需要嵌套多个 cloze 自动编号支持？

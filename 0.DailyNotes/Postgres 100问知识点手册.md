@@ -1260,6 +1260,7 @@ A: Extension for spatial data, GIS functions.
     *   回收由已删除或已过时的行版本占用的存储空间，使其可以被重用。
     *   更新表的统计信息，供查询规划器使用。
     *   防止事务ID回卷（Transaction ID Wraparound）导致的数据丢失。
+<!--SR:!2025-10-21,4,270!2000-01-01,1,250-->
 
 **61. 问：`VACUUM` 和 `VACUUM FULL` 有什么区别？**
     **答：**

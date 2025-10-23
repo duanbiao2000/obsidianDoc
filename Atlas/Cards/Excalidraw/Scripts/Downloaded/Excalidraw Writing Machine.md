@@ -8,6 +8,8 @@ You can download the demo PDF document showcased in the video from [here](https:
 ```js*/
 const selectedElements = ea.getViewSelectedElements();
 if (selectedElements.length !== 1 || selectedElements[0].type === "arrow") {
+<!--ID: 1761111098527-->
+
     new Notice("Select a single element that is not an arrow and not a frame");
     return;
 }
@@ -182,6 +184,8 @@ async function getElementText(el) {
       if(!ea.isExcalidrawFile(f)) return f.name + (INCLUDE_IMG_LINK ? `\n${getImageLink(f)}\n` : "");
       let source = await getSectionText(f, ZK_SOURCE);
       source = source ? ` (source:: ${source})` : "";
+<!--ID: 1761111098521-->
+
       const summary = await getSectionText(f, ZK_SECTION) ;
 
       if(summary) return (INCLUDE_IMG_LINK ? `${getImageLink(f)}\n${summary + source}` :  summary + source) + "\n";

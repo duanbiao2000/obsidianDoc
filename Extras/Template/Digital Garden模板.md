@@ -1,7 +1,7 @@
 ---
-title: 
-date: 
-update: 
-tags: 
+aliases:
+date:
+update:
+tags:
 dg-publish: false
 ---

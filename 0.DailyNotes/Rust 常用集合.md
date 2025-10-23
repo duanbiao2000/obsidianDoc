@@ -68,6 +68,8 @@ for c in s4.chars() {
 - 查找、插入、删除的平均时间复杂度为 O(1)
 - 键（K）必须实现 `Hash` 和 `Eq` trait
 - 元素无序存储（Rust 1.53+ 可通过 `HashMap::into_iter_sorted` 排序）
+<!--ID: 1761111101490-->
+
 
 **基本用法**：
 ```rust
@@ -339,6 +341,8 @@ for item in &ordered_set {
 ```rust
 // Web应用中的用户管理
 use std::collections::{HashMap, HashSet};
+<!--ID: 1761111101508-->
+
 
 struct UserManager {
     users: HashMap<String, User>,

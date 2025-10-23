@@ -159,6 +159,8 @@ graph TD
 // 使用Firebase Firestore
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
+<!--ID: 1761111099707-->
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -176,6 +178,8 @@ const docRef = await addDoc(collection(db, "messages"), {
 ```javascript
 // Firebase Auth示例
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+<!--ID: 1761111099719-->
+
 
 const auth = getAuth();
 signInWithEmailAndPassword(auth, email, password)
@@ -207,6 +211,8 @@ exports.sendWelcomeEmail = functions.auth.user().onCreate((user) => {
 ```javascript
 // Stripe支付集成
 import { loadStripe } from '@stripe/stripe-js';
+<!--ID: 1761111099724-->
+
 
 const stripe = await loadStripe('pk_test_...');
 const { error } = await stripe.redirectToCheckout({
@@ -215,6 +221,8 @@ const { error } = await stripe.redirectToCheckout({
 ```
 - **为什么**：专注核心业务，避免重复造轮子
 - **何时升级**：当第三方服务无法满足需求时
+<!--ID: 1761111099734-->
+
 
 ### ✅ 步骤6：监控与优化（仅当必要）
 - **工具**：Firebase Analytics、Sentry

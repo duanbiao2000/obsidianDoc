@@ -106,6 +106,8 @@
   - 下载验证（10分）：文件正确下载。
   - 错误处理（5分）：处理权限错误。
   - 代码结构（5分）：清晰、可读。
+<!--ID: 1761111105019-->
+
 
 ### Programming Question 2: SageMaker and Vertex AI Deployment (40 points)
 - **Task**: Write a Python script to:
@@ -151,6 +153,8 @@
   ```python
   # Vertex AI (Bonus)
   from google.cloud import aiplatform
+<!--ID: 1761111105038-->
+
 
   try:
       aiplatform.init(project="my-project", location="us-central1")
@@ -178,6 +182,8 @@
   - Deployment (10 points): Successful endpoint deployment.
   - Inference (10 points): Correct prediction output.
   - Error Handling (5 points): Handle role or connection errors.
+<!--ID: 1761111105059-->
+
 
 ---
 
@@ -212,6 +218,8 @@
 
 3.  **定义 IAM 角色**：
     *   `role = "arn:aws:iam::account-id:role/SageMakerRole"`: 指定一个IAM（身份和访问管理）角色的ARN（Amazon Resource Name）。这个角色必须拥有足够的权限，允许SageMaker访问S3存储桶中的数据、创建和管理EC2实例进行训练和推理，并将日志写入CloudWatch等。这里的 `account-id` 是一个占位符，实际使用时需要替换为你的AWS账户ID。
+<!--ID: 1761111105011-->
+
 
 4.  **配置 Hugging Face Estimator (训练器)**：
     *   `huggingface_estimator = HuggingFace(...)`: 这一步是设置机器学习训练任务的关键。它定义了训练环境和任务的各种参数：

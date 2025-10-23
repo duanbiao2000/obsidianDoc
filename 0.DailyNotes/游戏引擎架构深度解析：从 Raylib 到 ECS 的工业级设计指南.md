@@ -115,6 +115,8 @@ void loadGlobalAssets(const std::vector<GlobalAsset>& assets) {
 **重构方案**：  
 ```cpp
 enum class AssetType { Font, AudioStream, Texture };
+<!--ID: 1761111099235-->
+
 
 using AssetLoader = std::function<void(const std::filesystem::path&)>;
 
@@ -135,6 +137,8 @@ class AssetManager {
 > ✅ **收益**：  
 > - 加载速度提升 50x（哈希查找 vs 字符串比较）  
 > - 消除拼写错误风险（`AssetType::Font` vs "fnt"）  
+<!--ID: 1761111099230-->
+
 > - 易扩展（新增资源类型只需添加映射）
 
 ---
@@ -397,6 +401,8 @@ class Game {
     void init() { impl->init(); } // 无意义的间接调用
     void registerScene() { impl->registerScene(); }
 };
+<!--ID: 1761111099247-->
+
 
 // ❌ 问题：无实际价值的间接层
 // - 增加调用开销（虽然编译器会优化）
@@ -468,6 +474,8 @@ std::vector<std::pair<std::string, std::string>> global_assets = {
     {"font", "assets/fonts/roboto.ttf"},
     {"audio_stream", "assets/sounds/music.ogg"}
 };
+<!--ID: 1761111099252-->
+
 
 void loadGlobalAssets() {
     for (auto& asset : global_assets) {
@@ -490,6 +498,8 @@ void loadGlobalAssets() {
 ```cpp
 // ✅ 正确：枚举类型 + 策略模式
 enum class AssetType { Font, Audio, Texture, Shader };
+<!--ID: 1761111099262-->
+
 
 // 策略接口
 class AssetLoader {

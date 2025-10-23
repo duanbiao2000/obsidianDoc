@@ -540,6 +540,8 @@ const createPresentationNavigationPanel = () => {
 	  });
 	});
 }
+<!--ID: 1761111098493-->
+
 
 //--------------------
 // keyboard navigation
@@ -579,6 +581,8 @@ const keydownListener = (e) => {
       break;
   }
 }
+<!--ID: 1761111098498-->
+
 
 //---------------------
 // slideshow panel drag
@@ -731,6 +735,8 @@ const exitPresentation = async (openForEdit = false) => {
     excalidrawAPI.setActiveTool({type: "selection"});
   })
 }
+<!--ID: 1761111098509-->
+
 
 //--------------------------
 // Start presentation or open presentation settings on double click

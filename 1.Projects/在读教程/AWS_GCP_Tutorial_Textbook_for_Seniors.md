@@ -258,6 +258,8 @@ sentiment_cloud/
   transformers==4.35.0
   torch==2.1.0
   ```
+<!--ID: 1761111104984-->
+
 
 ### 6.4 测试
 - 运行：执行`app.py`，调用AWS和GCP端点。

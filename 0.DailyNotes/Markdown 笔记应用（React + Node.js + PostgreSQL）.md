@@ -728,6 +728,8 @@ app.listen(PORT, () => {
 #### 旧代码（含 SQL）：
 ```js
 const { query } = require('../db');
+<!--ID: 1761111102063-->
+
 
 const result = await query(
   `INSERT INTO notes (title, content, created_at, updated_at)

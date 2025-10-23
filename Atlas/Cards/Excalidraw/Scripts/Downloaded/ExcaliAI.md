@@ -246,6 +246,8 @@ const generateCanvasDataURL = async (view, targetDalleImageEdit=false) => {
     ea.style.strokeColor = strokeColor;
     ea.style.backgroundColor = backgroundColor;
     ea.getElements().filter(el=>el.type === "image").forEach(el=>{el.isDeleted = true});
+<!--ID: 1761111098539-->
+
 
     dalleWidth = parseInt(imageSize.split("x")[0]);
     scale = dalleWidth/squareBB.width;
@@ -257,6 +259,8 @@ const generateCanvasDataURL = async (view, targetDalleImageEdit=false) => {
     ea.getElements().filter(el=>el.type === "image").forEach(el=>{el.isDeleted = false});
     ea.getElements().filter(el=>el.type !== "image" && el.id !== rectID).forEach(el=>{el.isDeleted = true});
   }
+<!--ID: 1761111098549-->
+
 
   const imageDataURL = await ea.createPNGBase64(
     null, scale, exportSettings, loader, "light", PADDING
@@ -264,8 +268,12 @@ const generateCanvasDataURL = async (view, targetDalleImageEdit=false) => {
   ea.clear();
   return {imageDataURL, maskDataURL};
 }
+<!--ID: 1761111098561-->
+
 
 let {imageDataURL, maskDataURL} = await generateCanvasDataURL(ea.targetView, systemPrompts[agentTask].type === "image-edit");
+<!--ID: 1761111098566-->
+
 
 // --------------------------------------
 // Support functions - embeddable spinner and error
@@ -378,6 +386,8 @@ const generateImage = async(text, spinnerID, bb, silent=false) => {
     closable: true
   });
 }
+<!--ID: 1761111098576-->
+
 
 const run = async (text) => {
   if(!text && !imageDataURL) {
@@ -446,6 +456,8 @@ const run = async (text) => {
   //Get result from GPT
   const result = await ea.postOpenAI(requestObject);
   console.log({result, json:result?.json});
+<!--ID: 1761111098588-->
+
 
   //checking that EA has completed. Because the postOpenAI call is an async await
   //I don't expect EA not to be completed by now. However the devil never sleeps.
@@ -474,6 +486,8 @@ const run = async (text) => {
     });
     return;
   }
+<!--ID: 1761111098605-->
+
 
   if(!result?.json?.hasOwnProperty("choices")) {
     await errorMessage(spinnerID, result?.json?.error?.message);
@@ -511,6 +525,8 @@ const run = async (text) => {
       if(content.startsWith("mermaid")) {
         content = content.replace(/^mermaid/,"").trim();
       }
+<!--ID: 1761111098610-->
+
 
       try {
         result = await ea.addMermaid(content);
@@ -529,6 +545,8 @@ const run = async (text) => {
       break;
   }
 }
+<!--ID: 1761111098620-->
+
 
 // --------------------------------------
 // User Interface
@@ -554,6 +572,8 @@ const addPreviewImage = () => {
     });
   }
 }
+<!--ID: 1761111098631-->
+
 
 const configModal = new ea.obsidian.Modal(app);
 configModal.modalEl.style.width="100%";
@@ -562,6 +582,8 @@ configModal.modalEl.style.maxWidth="1000px";
 configModal.onOpen = async () => {
   const contentEl = configModal.contentEl;
   contentEl.createEl("h1", {text: "ExcaliAI"});
+<!--ID: 1761111098636-->
+
 
   let systemPromptTextArea, systemPromptDiv, imageSizeSetting, imageSizeSettingDropdown, helpEl;
   
@@ -597,6 +619,8 @@ configModal.onOpen = async () => {
         }
       });
    })
+<!--ID: 1761111098646-->
+
 
   helpEl = contentEl.createEl("p");
   helpEl.innerHTML = `<b>Help: </b>` + systemPrompts[agentTask].help;
@@ -619,6 +643,8 @@ configModal.onOpen = async () => {
   systemPromptSetting.nameEl.style.display = "none";
   systemPromptSetting.descEl.style.display = "none";
   systemPromptSetting.infoEl.style.display = "none";
+<!--ID: 1761111098659-->
+
 
   contentEl.createEl("h4", {text: "User Prompt"});
   const userPromptSetting = new ea.obsidian.Setting(contentEl)
@@ -634,6 +660,8 @@ configModal.onOpen = async () => {
   userPromptSetting.nameEl.style.display = "none";
   userPromptSetting.descEl.style.display = "none";
   userPromptSetting.infoEl.style.display = "none";
+<!--ID: 1761111098664-->
+
 
   imageSizeSetting = new ea.obsidian.Setting(contentEl)
     .setName("Select image size")
@@ -676,6 +704,8 @@ configModal.onOpen = async () => {
       })
     );
 }
+<!--ID: 1761111098675-->
+
 
 configModal.onClose = () => {
   if(dirty) {

@@ -45,6 +45,8 @@
              print(f"{func.__name__} 耗时: {time.time() - start:.2f}秒")
              return result
          return wrapper
+<!--ID: 1761111102034-->
+
 
      @log_time
      def heavy_computation():
@@ -94,6 +96,8 @@
 2. **Python 的 @property**
    - 用装饰器将方法伪装成属性
 3. **C++ STL 的 `std::enable_if`**
+<!--ID: 1761111102027-->
+
    - 编译期条件选择模板
 
 ---

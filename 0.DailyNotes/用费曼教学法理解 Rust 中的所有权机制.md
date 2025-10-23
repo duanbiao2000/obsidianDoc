@@ -92,9 +92,17 @@ Tokio 依赖底层的 **epoll（Linux）、kqueue（macOS）、IOCP（Windows）
 3. **核心工具库**
 Tokio 提供了大量开箱即用的异步组件，避免开发者重复造轮子，例如：
 - `tokio::net`：异步 TCP/UDP 网络编程（如 `TcpListener`、`UdpSocket`）；
+<!--ID: 1761111099086-->
+
 - `tokio::fs`：异步文件读写；
+<!--ID: 1761113422093-->
+
 - `tokio::time`：异步定时器（替代同步的 `std::time`，避免阻塞）；
+<!--ID: 1761111099099-->
+
 - `tokio::sync`：异步同步原语（如 `Mutex`、`Channel`，区别于 `std::sync` 的同步原语，不会阻塞线程）。
+<!--ID: 1761111099104-->
+
 ### 关键特性：为何成为 Rust 异步首选？
 - **零成本抽象**：Tokio 的调度逻辑、IO 处理几乎无额外性能开销，贴合 Rust“不付出未使用功能的代价”的理念；
 - **内存安全**：依托 Rust 的所有权系统，避免异步编程中常见的“数据竞争”“野指针”问题；
@@ -273,6 +281,8 @@ fn main() {
     makes_copy(x);       // x自动克隆
     println!("{}", x);   // 正常，x仍然有效
 }
+<!--ID: 1761111099119-->
+
 
 fn takes_ownership(some_string: String) {
     println!("{}", some_string);
@@ -310,6 +320,8 @@ fn main() {
     let len = calculate_length(&s1);  // 借用，不转移所有权
     println!("The length of '{}' is {}.", s1, len);
 }
+<!--ID: 1761111099129-->
+
 
 fn calculate_length(s: &String) -> usize {
     s.len()  // s是引用，不获取所有权
@@ -323,6 +335,8 @@ fn main() {
     change(&mut s);  // 可变借用
     println!("{}", s);
 }
+<!--ID: 1761111099138-->
+
 
 fn change(some_string: &mut String) {
     some_string.push_str(", world");
@@ -385,6 +399,8 @@ fn main() {
     // 切片借用原始数据，不获取所有权
     println!("{} {}", hello, world);
 }
+<!--ID: 1761111099143-->
+
 
 fn first_word(s: &String) -> &str {
     let bytes = s.as_bytes();
@@ -588,6 +604,8 @@ fn main() {
     data.push(4);  // 编译错误！
     println!("The first element is: {}", first);
 }
+<!--ID: 1761111099153-->
+
 
 // 解决方案1：重新组织代码
 fn main() {
@@ -617,6 +635,8 @@ fn main() {
     }
     println!("result: {}", result);
 }
+<!--ID: 1761111099164-->
+
 
 // 解决方案：返回所有权
 fn main() {
@@ -694,6 +714,8 @@ Rust的所有权系统虽然学习曲线陡峭，但一旦掌握，就能写出�
 ### 3. **容器相关宏**
 - **`vec!`**（同上，最常用的容器宏）
 - **`hashmap!` / `hashset!`**（来自 `std::collections`，需手动导入）：快速创建哈希表/哈希集合
+<!--ID: 1761111099113-->
+
   ```rust
   use std::collections::HashMap;
   
@@ -945,6 +967,8 @@ let s1 = gives_ownership(); // ownership moved to s1
 > 🔄 Take and return:
 ```rust
 fn takes_and_gives_back(s: String) -> String { s }
+<!--ID: 1761111099169-->
+
 
 let s3 = takes_and_gives_back(s2); // s2 moved in → s3 moved out
 ```
@@ -960,6 +984,8 @@ let s3 = takes_and_gives_back(s2); // s2 moved in → s3 moved out
 fn calculate_len(s: &String) -> usize { // s is a reference
     s.len()
 }
+<!--ID: 1761111099179-->
+
 
 let len = calculate_len(&s); // pass reference → s still owned by main
 println!("len: {}, s: {}", len, s); // ✅ s still valid
@@ -1222,6 +1248,8 @@ let s2 = s1.clone(); // 克隆，s1和s2都有效
 let x = 5;
 let y = x; // 复制，x和y都有效
 println!("x = {}, y = {}", x, y); // 正确
+<!--ID: 1761111099191-->
+
 
 // 未实现Copy Trait的类型（堆上数据）
 let s1 = String::from("hello");

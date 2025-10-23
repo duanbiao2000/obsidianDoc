@@ -1,0 +1,30 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.inFolder("Extras/Template")'
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+      - aliases
+      - categories
+      - date
+      - update
+      - file.folder
+      - important
+      - rating
+    sort:
+      - property: rating
+        direction: DESC
+      - property: update
+        direction: ASC
+    columnSize:
+      file.name: 265
+      file.ctime: 183
+      file.mtime: 179
+      note.aliases: 216
+      note.date: 144
+      note.update: 185
+      file.folder: 202

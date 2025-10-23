@@ -127,6 +127,8 @@ Dubbo 的配置加载支持多种方式（注解、YML、XML、代码），Sprin
   }
   ```
 - **YML 配置**（见上文 artifact）。
+<!--ID: 1761111102506-->
+
 
 #### 我的体验
 YML 配置简单，配合注解几分钟搞定。但 X 上有人吐槽 YML 写错（比如 `registry.address` 格式），启动报错，建议用 Dubbo Admin 检查配置。

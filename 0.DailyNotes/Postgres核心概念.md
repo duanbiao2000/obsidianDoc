@@ -1,13 +1,16 @@
 ---
 source:
   - https://www.bilibili.com/video/BV1FUYQz7E4H/
-updated: 2025-08-22
+update: 2025-08-22
 tags:
   - Tech/Database
   - DB/Postgres
   - concept/core
 status: evergreen
-aliases: [PostgreSQL核心概念, PG核心概念]
+aliases:
+  - PostgreSQL核心概念
+  - PG核心概念
+date: 2025-08-18T10:30:00
 ---
 
 # [[Postgres核心概念]]
@@ -163,6 +166,8 @@ PostgreSQL 会在某些情况下自动进行隐式类型转换（如将 `integer
   SELECT * FROM users WHERE id = '123';
   ```
   PostgreSQL 会自动将 `id` 转为 `text` 类型（`id::text = '123'`），导致 `id` 上的索引失效，触发全表扫描。
+<!--ID: 1761111101760-->
+
 
 - **影响**：查询性能大幅下降，尤其对大表影响显著。
 
@@ -227,6 +232,8 @@ PostgreSQL 会在某些情况下自动进行隐式类型转换（如将 `integer
 ### 如何正确处理数据类型差异？
 1. **显式类型转换**：  
    避免依赖隐式转换，用 `::` 或 `CAST()` 显式转换类型，确保逻辑清晰且索引可用。
+<!--ID: 1761111101800-->
+
    ```sql
    -- 显式转换字符串为整数，确保使用 id 上的索引
    SELECT * FROM users WHERE id = '123'::int;

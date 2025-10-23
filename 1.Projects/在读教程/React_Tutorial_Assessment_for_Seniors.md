@@ -77,6 +77,8 @@
 - **参考代码**：
   ```javascript
   import { useState, useEffect } from 'react';
+<!--ID: 1761111104196-->
+
 
   function PredictionForm() {
       const [text, setText] = useState('');
@@ -127,6 +129,8 @@
   // pages/index.js
   import { useState } from 'react';
   import axios from 'axios';
+<!--ID: 1761111104202-->
+
 
   export default function Home() {
       const [text, setText] = useState('');
@@ -189,6 +193,8 @@
   - API集成（15分）：Hugging Face API工作。
   - 错误处理（10分）：处理无效输入。
   - 代码结构（5分）：清晰、注释完善。
+<!--ID: 1761111104218-->
+
 
 ---
 

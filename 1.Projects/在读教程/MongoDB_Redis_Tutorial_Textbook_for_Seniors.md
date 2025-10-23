@@ -63,6 +63,8 @@
 - **Redis示例**：
   ```python
   import redis
+<!--ID: 1761111104458-->
+
 
   r = redis.Redis(host="localhost", port=6379, decode_responses=True)
   r.set("tweet:1", "POSITIVE")
@@ -122,6 +124,8 @@
       print(doc)
   ```
 - **测试**：确认数据插入和查询。
+<!--ID: 1761111104464-->
+
 
 ---
 
@@ -167,6 +171,8 @@
   print(json.loads(r.get("tweet:1")))
   ```
 - **测试**：确认缓存和订阅正常。
+<!--ID: 1761111104479-->
+
 
 ---
 
@@ -330,6 +336,8 @@ sentiment-prototype/
           echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
           docker push ghcr.io/coleam00/sentiment-prototype:latest
   ```
+<!--ID: 1761111104487-->
+
 
 ### 5.4 测试
 - **运行**：

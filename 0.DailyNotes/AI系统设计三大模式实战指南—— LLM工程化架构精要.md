@@ -309,6 +309,8 @@ def create_agent_cached(strategy_type: str) -> Agent:
            context=context
        )
        return context  # 返回更新后的上下文
+<!--ID: 1761111103273-->
+
 
    def handle_flight(user_input, dependencies, context: TripContext):
        context.arrival_time = ai_agent.run(
@@ -318,6 +320,8 @@ def create_agent_cached(strategy_type: str) -> Agent:
        return context
    ```
    > 🔑 **关键细节**：每个函数必须接收相同参数（`user_input`, `dependencies`, `context`），且直接修改`context`对象（Python引用传递）
+<!--ID: 1761111103288-->
+
 
 3. **链式执行引擎（动态扩展步骤）**  
    ```python
@@ -345,10 +349,11 @@ def create_agent_cached(strategy_type: str) -> Agent:
    print(result.destination)  # 输出：Utrecht（荷兰）
    ```
 
-##### ⚠️ **避坑指南**  
-- **错误处理**：必须在链式循环中捕获异常，避免单点故障导致整体崩溃  
-- **上下文一致性**：所有处理函数必须操作**同一上下文对象**（勿新建对象）  
-- **动态扩展**：新增步骤只需在`handlers`列表插入函数，无需修改`plan_trip`逻辑  
+##### ⚠️ **避坑指南**
+- **错误处理**：必须在链式循环中捕获异常，避免单点故障导致整体崩溃
+- **上下文一致性**：所有处理函数必须操作**同一上下文对象**（勿新建对象）
+- **动态扩展**：新增步骤只需在`handlers`列表插入函数，无需修改`plan_trip`逻辑
+<!--SR:!2000-01-01,1,250!2025-10-20,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 

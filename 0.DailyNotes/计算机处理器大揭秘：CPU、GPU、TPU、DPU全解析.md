@@ -497,6 +497,8 @@ for (int i = 0; i < n; i++) {
         result += data[i];
     }
 }
+<!--ID: 1761111098815-->
+
 
 // 正解：数据预排序 → 提升分支预测准确率
 std::sort(data.begin(), data.end());  // 同类数据聚集

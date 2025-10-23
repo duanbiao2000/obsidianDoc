@@ -58,6 +58,8 @@ aws configure set default.region us-east-1
    - **安全加固**：  
      - 关闭公共访问权限（通过Bucket Policy）  
      - 使用CloudFront + WAF过滤恶意请求（`AWS::WAFv2::WebACL`模板）
+<!--ID: 1761111103077-->
+
 
 2. **SNS订阅确认的自动化处理**  
    ```javascript

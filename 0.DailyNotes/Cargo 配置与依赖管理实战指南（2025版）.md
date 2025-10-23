@@ -569,6 +569,8 @@ graph LR
 [patch.crates-io]
 # 用本地路径覆盖serde_json
 serde_json = { path = "../serde_json" }
+<!--ID: 1761111102677-->
+
 
 # 用GitHub特定提交覆盖tokio
 tokio = { git = "https://github.com/tokio-rs/tokio", rev = "a1b2c3d4" }
@@ -754,10 +756,17 @@ rand = "0.8"
 serde = { version = "1.0", features = ["derive"] }
 tokio = { version = "1", features = ["full"] }
 ' >> Cargo.toml
+<!--ID: 1761111102691-->
+
 
 # 3. 创建简单测试代码
 echo 'use rand::Rng;
+<!--ID: 1761111102630-->
+
 use serde::{Serialize, Deserialize};
+<!--ID: 1761111102636-->
+<!--ID: 1761111102707-->
+
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Data {
@@ -767,6 +776,8 @@ struct Data {
 
 pub fn generate_data() -> Data {
     let mut rng = rand::thread_rng();
+<!--ID: 1761111102653-->
+
     Data {
         id: rng.gen(),
         value: "test".to_string(),
@@ -776,6 +787,8 @@ pub fn generate_data() -> Data {
 #[cfg(test)]
 mod tests {
     use super::*;
+<!--ID: 1761111102660-->
+
 
     #[test]
     fn test_generate_data() {
