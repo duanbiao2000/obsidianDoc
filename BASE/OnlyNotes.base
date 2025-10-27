@@ -11,9 +11,9 @@ views:
     name: Table
     order:
       - file.name
+      - file.size
       - file.folder
       - file.mtime
-      - file.size
       - file.backlinks
       - file.basename
       - file.ctime

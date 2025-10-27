@@ -1,46 +1,6 @@
 ## Next.js 新手到高手必备100个实战练习（附答案）
 
-这份练习集旨在通过100个精心设计的、循序渐进的实战任务，帮助你从Next.js新手成长为能够驾驭复杂企业级项目的高手。所有练习都围绕最新的Next.js特性（如App Router, Server Components, Server Actions等）展开，侧重于解决工程实践中的真实问题。
 
----
-
-### **第一部分：入门基础 (练习 1-25)**
-
-本阶段重点掌握Next.js的基础设置、App Router的核心概念以及基本组件的构建。
-
-**环境与项目搭建**
-1.  **练习 1: 初始化项目**
-    *   **要求**: 使用`create-next-app`创建一个新的Next.js项目，包含TypeScript, ESLint和Tailwind CSS。
-    *   **答案**: 在终端运行 `npx create-next-app@latest my-app --typescript --eslint --tailwind`。
-
-2.  **练习 2: 运行与调试**
-    *   **要求**: 成功启动开发服务器并能在浏览器中看到默认欢迎页面。
-    *   **答案**: `cd my-app` 然后运行 `npm run dev`。在浏览器打开 `http://localhost:3000`。
-
-3.  **练习 3: 理解项目结构**
-    *   **要求**: 解释 `app`, `public`, 和 `next.config.mjs` 目录及文件的作用。
-    *   **答案**: `app` 是App Router的核心，用于定义路由和页面。`public` 用于存放静态资源（如图片、favicon）。`next.config.mjs` 是Next.js的配置文件。
-
-**App Router基础**
-4.  **练习 4: 创建第一个页面**
-    *   **要求**: 创建一个 `/about` 路由，页面显示 "关于我们"。
-    *   **答案**: 在 `app` 目录下创建 `about` 文件夹，然后在其中创建 `page.tsx` 文件，并导出一个返回 `<h1>关于我们</h1>` 的React组件。
-
-5.  **练习 5: 创建嵌套路由**
-    *   **要求**: 创建一个 `/dashboard/settings` 路由。
-    *   **答案**: 在 `app` 目录下创建 `dashboard` 文件夹，再在 `dashboard` 内创建 `settings` 文件夹，最后在 `settings` 内创建 `page.tsx`。
-
-6.  **练习 6: 理解 `layout.tsx`**
-    *   **要求**: 创建一个全局的`Header`组件，并让它显示在所有页面上。
-    *   **答案**: 在 `app` 目录下创建 `components/Header.tsx` 组件。然后在根目录 `app/layout.tsx` 中导入并将其放置在 `{children}` 之前。
-
-7.  **练习 7: 创建嵌套布局**
-    *   **要求**: 为所有 `/dashboard/` 下的路由创建一个侧边栏布局，但不影响其他页面。
-    *   **答案**: 在 `app/dashboard` 目录下创建 `layout.tsx` 文件，并在其中实现侧边栏布局结构，将 `{children}` 放置在主内容区域。
-
-8.  **练习 8: 页面导航 (`<Link>`)**
-    *   **要求**: 在首页添加两个链接，分别指向 `/about` 和 `/dashboard/settings`。
-    *   **答案**: 在 `app/page.tsx` 中，从 `next/link` 导入 `Link` 组件，并使用 `<Link href="/about">关于</Link>` 和 `<Link href="/dashboard/settings">设置</Link>`。
 
 **组件与样式**
 9.  **练习 9: 使用Tailwind CSS**
