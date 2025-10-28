@@ -5,5 +5,5 @@ tags:
 source:
   - https://github.com/trimstray/the-book-of-secret-knowledge
 update:
-rating:
+rating: 10
 ---
