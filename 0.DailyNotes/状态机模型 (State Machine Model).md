@@ -1,28 +1,3 @@
-好的，我们来深入剖析**状态机模型 (State Machine Model)**，以及为什么这个看似基础的计算理论工具，是顶尖工程师用于解构复杂系统、实现深度知识内化的核心“解码器”。
-
-简单地“知道”一个概念和真正“理解”一个系统，其差别就在于你是否能在脑中为其构建一个精确、可运行的状态机模型。
-
-### 什么是状态机模型？
-
-在计算机科学中，有限状态机（Finite State Machine, FSM）是一个数学计算模型。它是一个抽象的机器，在任何给定时间点，它只能处于有限个状态中的一个。它通过响应一系列的**事件（Events）**或**输入（Inputs）**，从一个**状态（State）**转换到另一个**状态（Transition）**。
-
-一个形式化的状态机可以由一个五元组定义：$(\Sigma, S, s_0, \delta, F)$
-*   $\Sigma$: 输入符号的有限集合 (Events/Inputs)。
-*   $S$: 有限的状态集合 (States)。
-*   $s_0$: 初始状态 (Initial State)。
-*   $\delta$: 状态转移函数 (Transition Function)，其形式为 $\delta: S \times \Sigma \rightarrow S$。即 `(当前状态, 输入事件) -> 下一个状态`。
-*   $F$: 最终状态的集合 (Final States)，虽然在很多系统（如服务器）中，系统是持续运行的，没有“最终”状态。
-
-**为什么这个模型如此强大？**
-因为它强迫你放弃模糊的、描述性的语言，转而使用精确的、逻辑完备的语言来定义一个系统。你必须明确地回答以下问题：
-1.  系统总共有哪几个**确切的状态**？不多不少。
-2.  是什么**外部事件**或**内部条件**（如计时器）会触发状态的改变？
-3.  从每个状态出发，当某个特定事件发生时，系统会**精确地**转移到哪个新状态？
-4.  在状态转移的瞬间，或者在某个状态持续期间，系统会执行哪些**确切的动作（Actions）**？
-
-这种思考方式能瞬间将你的理解深度从“用户级”提升到“设计者级”。
-
----
 
 ### 应用案例：用状态机模型解构Raft共识协议
 
@@ -77,28 +52,77 @@
 将上述逻辑可视化，可以得到一个清晰的状态机图。这比任何文字描述都更有力。
 
 ```mermaid
-stateDiagram-v2
-    [*] --> Follower
+---
 
-    state Follower {
-        [*] --> Idle
-        Idle --> Idle: on AppendEntries RPC
-        Idle --> Idle: on RequestVote RPC
-    }
-    Follower --> Candidate: on Election Timeout
+config:
 
-    state Candidate {
-        [*] --> Voting
-        Voting --> Voting: on Candidacy Timeout (start new election)
-        Voting --> Follower: on AppendEntries RPC (from new leader)
-    }
-    Candidate --> Leader: on Majority Votes Received
+  theme: base
 
-    state Leader {
-        [*] --> Replicating
-        Replicating --> Replicating: on Client Request
-    }
-    Leader --> Follower: on Discovering Higher Term
+  themeVariables:
+
+    fontSize: 15px
+
+---
+
+stateDiagram
+
+  direction BT
+
+  classDef followerState fill:#E9ECEF,stroke:#495057,stroke-width:2px;
+
+  classDef candidateState fill:#FFF3BF,stroke:#F59F00,stroke-width:2px;
+
+  classDef leaderState fill:#D8F5A2,stroke:#5C940D,stroke-width:3px;
+
+  [*] --> Follower:系统启动
+
+  Follower --> Candidate:⏰ 选举超时 (Election Timeout)
+
+  Candidate --> Follower:✉️ 发现新 Leader (AppendEntries RPC)
+
+  Candidate --> Candidate:🔄 选举超时, 发起新一轮投票
+
+  Candidate --> Leader:✅ 获得大多数选票
+
+  Leader --> Follower:❗ 发现任期号更高的服务器
+
+  Follower --> Follower:维持 Follower 状态(响应 Leader 或 Candidate 的 RPC)
+
+  Follower:被动角色, 等待 Leader 心跳
+
+  Candidate:候选人, 尝试竞选 Leader
+
+  Leader:主动角色, 管理集群
+
+  note left of Follower
+
+  默认状态。
+
+        所有服务器启动时都是 Follower。
+
+  end note
+
+  note right of Candidate
+
+  当选举超时后, Follower 会转变为 Candidate,
+
+        并向其他服务器请求投票。
+
+  end note
+
+  note right of Leader
+
+  负责处理客户端请求,
+
+        并向所有 Follower 同步日志。
+
+  end note
+
+  class Follower followerState
+
+  class Candidate candidateState
+
+  class Leader leaderState
 ```
 
 ### 如何将此模型运用到个人发展中

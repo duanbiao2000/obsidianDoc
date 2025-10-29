@@ -46,19 +46,6 @@
 点击左上角视图名称旁边的“+”号，或者在视图下拉菜单中选择“New view”。
 </details>
 
-<details>
-<summary>19. 如何将一个表格视图（Table）切换为卡片视图（Cards）？</summary>
-**答案:**
-1.  点击左上角的视图名称，选择“Configure view”。
-2.  在“Layout”选项中，选择“Cards”。
-</details>
-
-<details>
-<summary>20. 在卡片视图中，如何设置卡片的封面图片？</summary>
-**答案:**
-在卡片视图的配置中，“Image property”选项选择一个包含图片链接的属性（例如，一个名为`cover`的属性，其值为`[[cover.jpg]]`或一个URL）。
-</details>
-
 ---
 
 ### 第二部分：进阶练习 (21-50)
