@@ -1,0 +1,6 @@
+2025-11-04T11:58:49.175Z INFO Setting model to gemini-2.5-pro|google
+2025-11-04T11:58:49.330Z INFO Loaded existing chunked semantic index database from disk.
+2025-11-04T11:58:55.155Z ERROR Error processing custom command creation: 5.Misc/copilot-custom-prompts/_Index_of_copilot-custom-prompts.md A block sequence may not be used as an implicit map key at line 7, column 1:\ntags: [MOC]\n  - MOC\n^\nYAMLParseError: A block sequence may not be used as an implicit map key at line 7, column 1:\ntags: [MOC]\n  - MOC\n^\n    at constructor.onError (app://obsidian.md/app.js:1:755512)\n    at app://obsidian.md/app.js:1:739394\n    at hy (app://obsidian.md/app.js:1:740948)\n    at app://obsidian.md/app.js:1:753440\n    at ky (app://obsidian.md/app.js:1:753984)\n    at app://obsidian.md/app.js:1:757102\n    at My.next (app://obsidian.md/app.js:1:757245)\n    at next (&lt;anonymous&gt;)\n    at My.compose (app://obsidian.md/app.js:1:756358)\n    at compose.next (&lt;anonymous&gt;)
+2025-11-04T12:00:27.365Z INFO Setting model to gemini-2.5-pro|google
+2025-11-04T12:00:33.009Z INFO VaultDataManager: Cleaning up event listeners
+2025-11-04T12:00:33.009Z INFO [AutocompleteCache] Cleared autocomplete cache
