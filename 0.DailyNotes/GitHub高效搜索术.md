@@ -1,3 +1,13 @@
+---
+aliases: null
+date: 2025-12-02 18:26
+tags: null
+source: null
+update: null
+rating: null
+related: null
+---
+
 在GitHub上，除了“100 days”外，还有许多高效实用的搜索关键字和技巧可以帮助你找到适合快速提升的项目。以下是一些常见的关键字和搜索方法：
 
 - **按项目基本信息搜索**：
@@ -39,6 +49,7 @@
 ---
 
 除了“awesome”“100 days”外，GitHub上还有许多类似的高效实用搜索关键字，例如“tutorial”“guide”“handbook”“starter”“boilerplate”等，以下是具体介绍：
+
 - **tutorial**：意为“教程”，很多项目会以“tutorial”命名或在描述中提及，用于表示该项目是相关技术或领域的教程。如搜索“python tutorial”，可找到Python相关教程项目，帮助快速学习Python知识与技能。
 - **guide**：表示“指南”，带有此关键字的项目通常是对某一技术、工具或流程的详细指南。搜索“机器学习 guide”，能获取机器学习相关的指导文档或项目示例，有助于系统学习机器学习。
 - **handbook**：即“手册”，这类项目一般是较为全面的参考资料，如同手册一样可供随时查阅。如“前端开发 handbook”，会包含前端开发的各种知识点、技巧等内容。
