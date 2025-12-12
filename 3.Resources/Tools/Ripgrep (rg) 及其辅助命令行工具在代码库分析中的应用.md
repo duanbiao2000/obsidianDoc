@@ -2,6 +2,7 @@
 date: 2025-06-10 19:10
 tags:
   - Domain/Productivity/Tools
+view-count: 3
 ---
 遵照您的要求，已将 [[Ripgrep (rg) 及其辅助命令行工具在代码库分析中的应用]] 笔记内容改写为中文，并采用类似于 IEEE 风格的结构和语言。
 
