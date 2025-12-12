@@ -1,3 +1,6 @@
+---
+view-count: 3
+---
 
 ### **PostgreSQL 核心实战指南：开发者必备**
 
@@ -97,39 +100,3 @@
 | `\du`      | 列出所有用户 (角色)                  | `\du`                   |
 | `\timing`  | 开启/关闭 SQL 执行时间显示             | `\timing`               |
 | `\x`       | 开启/关闭“扩展显示”(将宽表竖向展示) | `\x`                    |
-
----
-
-#### **6. 备份与恢复 (最简实践)**
-
-*   **逻辑备份 (最常用)**:
-    ```bash
-    # 备份单个数据库
-    pg_dump -U username -h host -W -F c -f backup.dump dbname
-    ```
-    * `-F c`: 使用自定义压缩格式，更灵活。
-*   **逻辑恢复**:
-    ```bash
-    # 恢复到一个新的空数据库
-    pg_restore -U username -h host -d new_dbname -v backup.dump
-    ```
-
-> **黄金法则**: **没有经过测试的备份，等于没有备份。** 必须定期演练恢复流程。
-
----
-
-#### **7. 配置文件核心**
-
-所有配置文件都在数据目录 (`PGDATA`) 下。
-
-*   `postgresql.conf`: 主配置文件。最需要关注的几个参数：
-    *   `listen_addresses`: 监听的 IP 地址，设为 `*` 以允许远程连接。
-    *   `shared_buffers`: 核心内存缓存，通常设为系统内存的 25%。
-    *   `work_mem`: 单个查询操作（如排序）可用的内存。
-*   `pg_hba.conf`: 客户端认证文件。控制哪个用户可以从哪个 IP 以何种方式连接。
-```
-# TYPE  DATABASE        USER            ADDRESS                 METHOD
-host    all             all             192.168.1.0/24          scram-sha-256
-```
-
-> **行动指南**: 修改任何配置后，都需要执行 `SELECT pg_reload_conf();` 或重启服务才能生效。

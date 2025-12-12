@@ -1,3 +1,6 @@
+---
+view-count: 2
+---
 # PostgreSQL教程大纲：面向大四学生的AI元数据管理
 
 ## 目标

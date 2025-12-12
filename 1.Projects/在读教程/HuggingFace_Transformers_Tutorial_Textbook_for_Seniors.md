@@ -1,3 +1,6 @@
+---
+view-count: 4
+---
 # Hugging Face Transformers教材：面向大四学生的AI应用开发
 
 ## 目标

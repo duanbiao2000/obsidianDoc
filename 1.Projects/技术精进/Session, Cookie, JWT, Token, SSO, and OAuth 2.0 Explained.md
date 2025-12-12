@@ -1,3 +1,6 @@
+---
+view-count: 2
+---
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picutre/20250513181024910.png)
 当然！您上传的图片标题是 **"Session, JWT, Token, SSO, OAuth 2.0"**，同样是 ByteByteGo 的图解，它概括了软件系统中几种重要的认证和授权机制。
 
