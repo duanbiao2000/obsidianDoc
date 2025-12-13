@@ -2,7 +2,7 @@
 date: 2025-06-10 19:10
 tags:
   - Domain/Productivity/Tools
-view-count: 3
+view-count: 5
 ---
 遵照您的要求，已将 [[Ripgrep (rg) 及其辅助命令行工具在代码库分析中的应用]] 笔记内容改写为中文，并采用类似于 IEEE 风格的结构和语言。
 
@@ -136,20 +136,21 @@ E. 结构化数据处理
 
 **参考文献/资源**
 
-*   ripgrep (rg): [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-*   fd: [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-*   ag (The Silver Searcher): [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
-*   fzf: [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-*   zoxide: [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-*   eza: [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
-*   bat: [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-*   delta: [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
-*   tldr: [https://tldr.sh/](https://tldr.sh/)
-*   htop: [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
-*   btop: [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
-*   jq: [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
-*   Algorithm Visualizer: [https://algorithm-visualizer.org/](https://algorithm-visualizer.org/)
-*   trekhleb/javascript-algorithms: [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
-*   keon/algorithms: [https://github.com/keon/algorithms](https://github.com/keon/algorithms)
-
----
+> [!NOTE]
+> 
+> *   ripgrep (rg): [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
+> *   fd: [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
+> *   ag (The Silver Searcher): [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
+> *   fzf: [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
+> *   zoxide: [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
+> *   eza: [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
+> *   bat: [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
+> *   delta: [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
+> *   tldr: [https://tldr.sh/](https://tldr.sh/)
+> *   htop: [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
+> *   btop: [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
+> *   jq: [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
+> *   Algorithm Visualizer: [https://algorithm-visualizer.org/](https://algorithm-visualizer.org/)
+> *   trekhleb/javascript-algorithms: [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+> *   keon/algorithms: [https://github.com/keon/algorithms](https://github.com/keon/algorithms)
+> 

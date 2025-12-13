@@ -6,9 +6,8 @@ source:
   - https://github.com/duanbiao2000/awesome-copilot
 update:
 rating:
+view-count: 2
 ---
-
-[GitHub - duanbiao2000/awesome-copilot: Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.](https://github.com/duanbiao2000/awesome-copilot)
 
 ## Awesome GitHub Copilot 贡献指南总结  
   

@@ -1,8 +1,5 @@
 ---
-view-count: 5
----
-以下是关于 **Vue.js（主要为 Vue 3）** 的 50 道选择题（每题 2 分，总分 100 分），覆盖核心语法、组件机制、Composition API、响应式系统、生命周期、路由、状态管理（Pinia / Vuex）、性能优化、SSR 等模块。适合面试、培训或系统性自测。
-
+view-count: 6
 ---
 
 ## 🧠 Vue.js 选择题测试（共 50 题，每题 2 分，总分 100 分）
@@ -10,27 +7,6 @@ view-count: 5
 ---
 
 ### ✅ 基础语法与核心机制（1–10）
-
-**1. Vue 模板中使用 `{{ message }}` 实现的是哪种绑定？**  
-A. 单向文本绑定  
-B. 双向数据绑定  
-C. 属性绑定  
-D. 事件绑定  
-**答案：A**
-
-**3. 以下哪个指令用于事件绑定？**  
-A. `v-if`  
-B. `v-bind`  
-C. `v-model`  
-D. `v-on`  
-**答案：D**
-
-**4. `v-model` 在 `<input>` 元素上实现的是哪种数据流？**  
-A. 由父到子  
-B. 双向绑定  
-C. 只读  
-D. 一次性绑定  
-**答案：B**
 
 **5. Vue 响应式系统的底层依赖是？**  
 A. Object.defineProperty  
@@ -46,20 +22,6 @@ C. 是否触发 watch
 D. 是否触发 computed  
 **答案：B**
 
-
-**9. 下列哪个生命周期钩子在组件首次渲染后触发？**  
-A. `beforeCreate`  
-B. `created`  
-C. `mounted`  
-D. `beforeMount`  
-**答案：C**
-
-**10. 在 Vue 中动态绑定 class 的正确语法是？**  
-A. `v-class`  
-B. `:class="{ active: isActive }"`  
-C. `v-bind:style="active"`  
-D. `class-binding="true"`  
-**答案：B**
 
 ---
 
@@ -115,12 +77,7 @@ C. 绑定函数
 D. `ref.get()`  
 **答案：B**
 
-**19. 以下哪个钩子函数可在组件每次更新后触发？**  
-A. `onUpdated`  
-B. `onBeforeMount`  
-C. `onCreated`  
-D. `onRender`  
-**答案：A**
+
 
 ---
 
@@ -141,12 +98,6 @@ C. 管理事件流
 D. 实现插槽机制  
 **答案：A**
 
-**24. 如何监听子组件事件？**  
-A. 使用 `v-on` 绑定事件名  
-B. 使用 props  
-C. 使用 `v-model`  
-D. 使用 router-view  
-**答案：A**
 
 **25. 在子组件中接收 props 正确方式是？**  
 A. 在 data 中定义  
@@ -194,27 +145,6 @@ D. bindValue
 
 ### 🧭 路由与状态管理（31–40）
 
-**31. Vue Router 的基本作用是？**  
-A. 管理 DOM 渲染  
-B. 提供组件切换机制  
-C. 实现异步请求  
-D. 控制权限访问  
-**答案：B**
-
-**32. 以下哪个语法用于配置路由？**  
-A. `createRouter()`  
-B. `useRoute()`  
-C. `defineRouter()`  
-D. `initRouter()`  
-**答案：A**
-
-**33. `<router-link>` 的作用是？**  
-A. 动态注册组件  
-B. 发起数据请求  
-C. 渲染路由跳转链接  
-D. 修改 store  
-**答案：C**
-
 **34. 在 `<router-view />` 中渲染的是？**  
 A. 模板字符串  
 B. 当前路由组件  
@@ -222,12 +152,6 @@ C. 路由路径
 D. 插槽内容  
 **答案：B**
 
-**35. 使用 Pinia 定义 store 时使用的函数是？**  
-A. `createStore()`  
-B. `defineStore()`  
-C. `initState()`  
-D. `useState()`  
-**答案：B**
 
 **36. Vuex 中的 mutation 作用是？**  
 A. 发起异步操作  
@@ -236,19 +160,6 @@ C. 定义组件
 D. 管理路由  
 **答案：B**
 
-**37. 在 Vue Router 中重定向配置字段是？**  
-A. `redirect`  
-B. `routeTo`  
-C. `next()`  
-D. `forwardTo`  
-**答案：A**
-
-**38. 路由守卫 `beforeEach` 的触发时机是？**  
-A. DOM 渲染后  
-B. 路由解析后  
-C. 每次路由跳转前  
-D. 路由错误时  
-**答案：C**
 
 **39. Pinia 的 store 访问方式是？**  
 A. `store.get()`  
@@ -289,19 +200,7 @@ C. 防止重新计算
 D. 持久缓存  
 **答案：B**
 
-**44. Vue 项目中代码拆分可通过？**  
-A. 动态组件 + import()  
-B. CDN 引入  
-C. props 传参  
-D. mixins  
-**答案：A**
 
-**45. 使用 `<Suspense>` 标签的目的是？**  
-A. 实现延迟加载和 fallback UI  
-B. 管理缓存  
-C. 控制动画  
-D. 优化样式  
-**答案：A**
 
 **46. 使用 defineAsyncComponent 的目的？**  
 A. 创建 ref  
@@ -331,13 +230,4 @@ C. 避免卸载
 D. 以上皆是  
 **答案：D**
 
-**50. Vue 应用在部署生产环境前需执行哪些操作？**  
-A. 运行 `npm run serve`  
-B. 开启 Hot Reload  
-C. 执行 `npm run build` 构建产物  
-D. 修改 Vite 配置文件  
-**答案：C**
 
----
-
-如需导出为 Excel、Moodle、Anki 或 Google 表单，或生成解析讲解版本、分层难度（初/中/高）版本，可继续指示。是否还需要 React / Next.js / Tailwind CSS 等前端题库？
