@@ -1,5 +1,5 @@
 ---
-view-count: 2
+view-count: 5
 ---
 在软件开发（包括Claude等AI编程）过程中，`specify`（明确需求）、`plan`（制定计划）、`task`（分解任务）和`implement`（执行实现）是四个递进且关联的阶段，彼此衔接但侧重点不同。以下结合Claude AI编程的具体场景说明它们的区别：
 

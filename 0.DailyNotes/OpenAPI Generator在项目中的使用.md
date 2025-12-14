@@ -1,3 +1,6 @@
+---
+view-count: 2
+---
 OpenAPI Generator（或类似的代码生成工具）通常根据 API 规范（如 OpenAPI/Swagger）生成与 API 交互相关的核心代码，主要包括以下几类：
 
 ### 1. **客户端代码（Client Code）**

@@ -1,5 +1,5 @@
 ---
-view-count: 6
+view-count: 8
 ---
 
 ## 🧠 Vue.js 选择题测试（共 50 题，每题 2 分，总分 100 分）
@@ -83,13 +83,6 @@ D. `ref.get()`
 
 ### 🧩 组件与通信（21–30）
 
-**21. Vue 中的插槽 slot 用于？**  
-A. 提供组件样式  
-B. 向组件传递子内容  
-C. 控制路由加载  
-D. 管理权限  
-**答案：B**
-
 
 **23. 在 Vue 组件通信中使用 `provide/inject` 的作用是？**  
 A. 跨层级组件数据传递  
@@ -98,13 +91,6 @@ C. 管理事件流
 D. 实现插槽机制  
 **答案：A**
 
-
-**25. 在子组件中接收 props 正确方式是？**  
-A. 在 data 中定义  
-B. 在 `props: []` 中声明  
-C. 使用 emit  
-D. 使用 watch  
-**答案：B**
 
 **26. `v-bind="$attrs"` 的主要用途是？**  
 A. 动态绑定所有属性  
@@ -134,12 +120,7 @@ C. 字符串
 D. 以上皆可  
 **答案：D**
 
-**30. `v-model` 在子组件中默认绑定的 prop 名称是？**  
-A. value  
-B. input  
-C. modelValue  
-D. bindValue  
-**答案：C**
+
 
 ---
 
@@ -152,21 +133,6 @@ C. 路由路径
 D. 插槽内容  
 **答案：B**
 
-
-**36. Vuex 中的 mutation 作用是？**  
-A. 发起异步操作  
-B. 更新状态  
-C. 定义组件  
-D. 管理路由  
-**答案：B**
-
-
-**39. Pinia 的 store 访问方式是？**  
-A. `store.get()`  
-B. `useStore()`  
-C. `inject('store')`  
-D. `$pinia.get()`  
-**答案：B**
 
 **40. Vue Router 中动态参数访问方式为？**  
 A. `$route.param.id`  

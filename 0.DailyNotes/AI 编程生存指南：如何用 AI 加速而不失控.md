@@ -1,10 +1,11 @@
 ---
-aliases: null
+aliases:
 date: 2025-09-15 23:01
-tags: null
-source: null
-update: null
-rating: null
+tags:
+source:
+update:
+rating:
+view-count: 4
 ---
 
 

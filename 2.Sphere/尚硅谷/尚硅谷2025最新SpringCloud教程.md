@@ -2,9 +2,9 @@
 date: 2025-05-17 12:58
 tags:
   - System/DG/Seedling
-source: >-
-  https://www.bilibili.com/video/BV1UJc2ezEFU/?spm_id_from=333.1387.upload.video_card.click&vd_source=7038f96b6bb3b14743531b102b109c43
+source: https://www.bilibili.com/video/BV1UJc2ezEFU/?spm_id_from=333.1387.upload.video_card.click&vd_source=7038f96b6bb3b14743531b102b109c43
 update: 2025-05-17 13:19
+view-count: 2
 ---
 ### 一、 微服务架构的核心挑战 (Core Challenges of Microservice Architecture)
 

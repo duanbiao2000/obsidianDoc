@@ -43,7 +43,7 @@
 - [[_Index_of_templates]]
 - [[_Index_of_textgenerator]]
 - [[_Index_of_Todo]]
-- [[../3.Resources/Tools/_Index_of_Tools]]
+- [[_Index_of_Tools]]
 - [[_Index_of_ubuntu]]
 - [[_Index_of_weeklyNotes]]
 - [[../3.Resources/Zettelkasten卡片/_Index_of_Zettelkasten卡片]]

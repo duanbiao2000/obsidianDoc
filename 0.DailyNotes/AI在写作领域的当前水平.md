@@ -1,5 +1,5 @@
 ---
-view-count: 2
+view-count: 6
 ---
 
 ## 第一部分：核心能力分层
