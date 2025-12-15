@@ -1,3 +1,6 @@
+---
+view-count: 2
+---
 
 ### **一、 Prime Video 團隊的新人入職實踐**
 

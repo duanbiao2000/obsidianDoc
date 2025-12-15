@@ -1,3 +1,6 @@
+---
+view-count: 2
+---
 以下是对这段 Dockerfile 代码的逐行注释，结合 Node.js 项目（如 Next.js、React 等）的容器化场景，解释每一步的作用、目的及技术细节：
 
 ```dockerfile

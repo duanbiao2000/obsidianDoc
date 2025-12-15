@@ -6,6 +6,7 @@ source:
   - https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt
 update:
 rating:
+view-count: 3
 ---
 
 # 🧩《Rust 异步与并发系统学习路径》九维批判性阅读报告
@@ -108,45 +109,6 @@ Rust 异步与并发学习路径
 
 ---
 
-## ⑥ 🔍 观点延伸（Perspective Research）
-
-相关学术与社区观点表明：
-
-- **Carl Lerche (Tokio 作者, 2022)** 在 RustConf 演讲中指出：Tokio 的目标并非成为唯一 runtime，而是成为 async 生态的基石。
-    
-- **Jon Gjengset (MIT)** 提出：Rust async 的“零成本”更多指无 GC 和动态分配，而非零开销。
-    
-- **Cambridge PL Group (2023)** 的论文指出：Rust 的类型系统与 ownership 模型在形式化验证下显著降低并发错误率。
-    
-- **Go 团队报告（2021）** 则强调 runtime 抢占带来更平滑的延迟分布，这在 Rust async 中需手动设计。
-    
-
----
-
-## ⑦ 💬 引文反思（Reflective Quotation）
-
-> “Rust 的并发设计目标不是更快，而是更安全与更显式。”  
-> → 这句话揭示了 Rust 的哲学核心：性能是结果，安全是前提。
-
-> “异步即状态机。”  
-> → 精准揭示 async 的编译原理，但也意味着每个 `await` 都是潜在性能断点。
-
-> “最小可运行原型优先。”  
-> → 强调学习方法的工程思维：Rust 学习曲线陡峭，唯有实验驱动可破。
-
----
-
-## ⑧ ❌ 事实核查（Fact Check）
-
-|陈述|核查结果|说明|
-|---|---|---|
-|“Rust async 不带 runtime”|✅ 正确|编译生成 Future，需外部 executor 执行|
-|“Tokio 是异步生态唯一选择”|❌ 不完全正确|async-std、smol 也是活跃替代方案|
-|“await 不阻塞线程”|✅ 正确|仅切换状态机执行权|
-|“Rust async 零成本抽象”|⚠️ 部分正确|编译期无 GC 但有状态切换与堆栈成本|
-|“Send/Sync 确保线程安全”|✅ 正确|类型系统层面保证数据竞争安全|
-
----
 
 ## ⑨ 🧐 假设识别（Assumption Identification）
 

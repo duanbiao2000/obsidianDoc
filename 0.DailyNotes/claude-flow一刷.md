@@ -8,6 +8,7 @@ source:
 update:
 rating: 10
 related:
+view-count: 4
 ---
 
 > [!NOTE]
