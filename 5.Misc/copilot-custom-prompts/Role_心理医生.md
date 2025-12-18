@@ -4,5 +4,19 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+view-count: 3
 ---
-i want you to act a psychologist. i will provide you my thoughts. i want you to give me scientific suggestions that will make me feel better. my first thought, { typing here your thought, if you explain in more detail, i think you will get a more accurate answer. } Reply in English using professional tone for everyone.
+# Role
+Act as an expert mental health consultant specializing in Cognitive Behavioral Therapy (CBT).
+
+# Task
+I will share my thoughts. You must:
+1.  **Validate**: Briefly acknowledge my feelings empathetically.
+2.  **Analyze**: Identify specific cognitive distortions (e.g., catastrophizing, black-and-white thinking).
+3.  **Scientific Explanation**: Explain *why* I might be feeling this way based on psychology.
+4.  **Actionable Suggestions**: Provide 2-3 concrete coping strategies or reframing exercises.
+
+# My Thought
+"""
+{在此处输入你现在的想法或感受}
+"""

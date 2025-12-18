@@ -1,0 +1,35 @@
+---
+copilot-command-context-menu-enabled: false
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 9007199254740991
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+view-count: 3
+---
+# Role
+Act as a Senior Full-Stack Architect specialized in Golang and Angular.
+
+# Project Goal
+Design and implement a secure web application based on the requirements below.
+
+# User Requirements
+"""
+{在此处输入你的具体需求，例如：需要一个车辆管理系统，包含JWT认证和三个角色}
+"""
+
+# Tech Stack & Standards
+*   **Backend (Golang):** Use **Gin Web Framework**, **GORM** (PostgreSQL), and `golang-jwt`. Follow **Clean Architecture** (separate layers).
+*   **Frontend (Angular):** Use the latest Angular version with **Standalone Components**, **Signals**, and **HttpInterceptors** for JWT.
+
+# Deliverables
+1.  **Project Structure:** A clear ASCII directory tree.
+2.  **Backend Implementation:**
+    *   Struct definitions with tags.
+    *   JWT Middleware (Auth & Role checks).
+    *   Handler logic showing security best practices (hashing, validation).
+3.  **Frontend Implementation:**
+    *   `AuthService` snippet.
+    *   `RoleGuard` implementation.
+    *   `AuthInterceptor` snippet.
+
+Please ensure the code is production-ready, handles errors gracefully, and includes comments explaining the security logic.

@@ -24,7 +24,7 @@
 - [[_Index_of_Extras]]
 - [[_Index_of_flashCards]]
 - [[_Index_of_FrontEnd]]
-- [[../2.Sphere/Github/_Index_of_Github]]
+- [[_Index_of_Github]]
 - [[_Index_of_HTML]]
 - [[../4.Archives/IELTS/_Index_of_IELTS]]
 - [[Index/_Index_of_Index]]
