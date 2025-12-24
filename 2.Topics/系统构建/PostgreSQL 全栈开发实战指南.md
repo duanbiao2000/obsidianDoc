@@ -1,5 +1,5 @@
 ---
-view-count: 2
+view-count: 3
 ---
 # PostgreSQL 单一数据库技术选型栈（Architecture-Only）
 
