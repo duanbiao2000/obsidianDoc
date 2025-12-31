@@ -6,7 +6,7 @@ source:
 update: 2025-12-12 14:37
 rating:
 related:
-view-count: 6
+view-count: 7
 ---
 # Kubernetes 实战路径
 

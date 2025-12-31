@@ -1,5 +1,5 @@
 ---
-view-count: 2
+view-count: 5
 ---
 # Python 代码注释规范自适应提示词
 

@@ -9,7 +9,7 @@ update:
 rating:
 related:
   - "[[Plan文档比较与实例]]"
-view-count: 2
+view-count: 4
 ---
 # Plan写作的结构优化方案
 
