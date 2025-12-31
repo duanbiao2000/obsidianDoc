@@ -1,5 +1,5 @@
 ---
-view-count: 2
+view-count: 3
 ---
 
 ## ★ 数学与本质（Mathematical Depth）【1–10】

@@ -1,0 +1,1 @@
+好 YouTube 上有几档节目专讲单个 GitHub 开源仓库--每集就拆一个 适合你参考.搜这些频道 点热门视频试试 1. Dreams of Code -- 每集挑一个 repo 深挖 比如 Building a CLI Tool from Scratch 代码走一遍 超清晰. 2. Fireship -- 100 秒系列 速拆热门仓库如 Next.js 或一个 AI lib 火爆但简短--学节奏. 3. ThePrimeagen -- 常 live code 一个项目 边吐槽边改 真实感满分 像外企 debug 会. 4. freeCodeCamp.org -- 有长教程如 Build a Full App with This Repo 步步教 但挑单仓库的看. 这些够起步--别全抄 偷点动画和结尾 CTA.下一个想深挖哪个
