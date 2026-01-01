@@ -1,5 +1,5 @@
 ---
-view-count: 4
+view-count: 6
 ---
 # Prompt 管理科学(极简实用版)
 
