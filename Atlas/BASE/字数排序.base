@@ -6,6 +6,7 @@ views:
     filters:
       and:
         - file.ext == "md"
+        - file.folder == "5.Misc/copilot-custom-prompts"
     order:
       - file.name
       - file.size

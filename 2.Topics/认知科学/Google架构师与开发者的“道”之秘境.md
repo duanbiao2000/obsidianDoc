@@ -1,5 +1,5 @@
 ---
-view-count: 3
+view-count: 5
 ---
 
 ## ★ 数学与本质（Mathematical Depth）【1–10】
@@ -64,13 +64,7 @@ view-count: 3
 ## ★ 一句话自检公式
 
 > **World-class Engineer = Mathematical clarity × Architectural foresight × Human leverage**
-
+   世界级工程师应兼具数学的清晰思维、建筑学般的前瞻视野以及对人力资源的有效运用能力。
 ---
 
-如果你愿意，下一步我可以继续帮你做更狠的延展之一：
 
-* 🧠 **把这 30 条映射成“成长路径图（Junior → Principal）”**
-* 🤖 **重写为 AI / Agent 时代的 World-class Engineer Checklist**
-* 📐 **把它变成面试 / 晋升用的 evaluation rubric**
-
-你选哪一个继续？
