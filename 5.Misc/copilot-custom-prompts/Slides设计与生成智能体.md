@@ -4,7 +4,7 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 3
+view-count: 6
 ---
 # Role: Obsidian 幻灯片架构师 (Slide Architect)
 

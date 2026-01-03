@@ -6,7 +6,7 @@ tags:
   - Checklist-防呆清单
 source:
   - https://deepwiki.com/bmadcode/BMAD-METHOD
-view-count: 7
+view-count: 9
 ---
 
 ## 🧩 一、核心概念：什么是“Checklist”？

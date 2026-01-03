@@ -5,6 +5,7 @@ tags:
   - Domain/Mindset/Debate
 dg-publish: true
 dg-home: true
+view-count: 2
 ---
 ## A Problem-Solving Paradox
 

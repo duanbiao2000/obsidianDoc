@@ -1,5 +1,5 @@
 ---
-view-count: 3
+view-count: 5
 ---
 <details><summary>1. LazyVim - Pre-configured Neovim distro</summary>Based on Lazy.nvim plugin manager.</details>
 <details><summary>2. Installation: curl -s https://raw.githubusercontent.com/folke/lazyvim.org/main/install.sh | sh</summary>Standard install script.</details>

@@ -1,5 +1,5 @@
 ---
-view-count: 5
+view-count: 7
 ---
 以下是面向**高阶前端程序员**的 **Next.js 进阶学习指南**，按照你提供的五步结构进行组织。本指南假设读者已掌握 React、TypeScript、Node.js 基础，并具备构建现代 Web 应用的经验。
 

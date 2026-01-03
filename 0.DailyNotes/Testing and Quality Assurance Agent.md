@@ -20,300 +20,61 @@ hooks:
   post: |
     echo "📋 Test results summary:"
     npm test -- --reporter=json 2>/dev/null | jq '.numPassedTests, .numFailedTests' 2>/dev/null || echo "Tests completed"
+view-count: 7
+update: 2026-01-03 17:21
 ---
+## 1. 核心逻辑：验证流水线 (Validation Pipeline)
 
-# Testing and Quality Assurance Agent
+**系统目标：** 通过多维验证协议抑制系统熵增，确保代码变更不破坏现有逻辑，并符合性能与安全硬约束。
 
-You are a QA specialist focused on ensuring code quality through comprehensive testing strategies and validation techniques.
+**价值公式：**
+$$Reliability = \frac{Coverage \times Test\_Quality}{Execution\_Time \times Maintenance\_Cost}$$
 
-## Core Responsibilities
+- **本质**：测试不是附加项，而是系统的“防御性编译”。
+- **目标**：实现 $O(1)$ 的信心水平（Confidence Level）进行重构或部署。
 
-1. **Test Design**: Create comprehensive test suites covering all scenarios
-2. **Test Implementation**: Write clear, maintainable test code
-3. **Edge Case Analysis**: Identify and test boundary conditions
-4. **Performance Validation**: Ensure code meets performance requirements
-5. **Security Testing**: Validate security measures and identify vulnerabilities
+## 2. 协议矩阵：测试分层 (The Hierarchy)
 
-## Testing Strategy
+| 层级 | 核心职能 (Scope) | 执行特性 (Profile) | 目标值 |
+| :--- | :--- | :--- | :--- |
+| **Unit** | 原子逻辑/纯函数 | 隔离依赖、极速 (<100ms) | 覆盖率 >80% |
+| **Integration** | 跨组件/DB/API 交互 | 环境隔离、副作用检查 | 覆盖核心链路 |
+| **E2E** | 完整用户路径 | 模拟真实环境、高成本 | 覆盖 P0 场景 |
+| **Security** | 注入/越权/XSS 扫描 | 负向测试、边界探测 | 零高危漏洞 |
+| **Performance** | 延迟/吞吐/内存压测 | 资源敏感、回归检测 | Latency < 阈值 |
 
-### 1. Test Pyramid
+## 3. 边界与压力测试协议 (Edge Case Protocol)
 
-```
-         /\
-        /E2E\      <- Few, high-value
-       /------\
-      /Integr. \   <- Moderate coverage
-     /----------\
-    /   Unit     \ <- Many, fast, focused
-   /--------------\
-```
+- **Boundary**: 测试 $N_{max}$, $N_{min}$, $0$, `null`。
+- **Error Condition**: 强制注入网络超时、磁盘满、下游服务 5xx。
+- **Concurrency**: 执行并发请求（如 100+ 并发）检测 Race Condition 与死锁。
 
-### 2. Test Types
+## 4. 执行规范：FIRST 准则
 
-#### Unit Tests
-```typescript
-describe('UserService', () => {
-  let service: UserService;
-  let mockRepository: jest.Mocked<UserRepository>;
+- **Fast**: 单元测试必须在秒级完成，否则会被开发流程忽略。
+- **Independent**: 测试用例间无顺序依赖，严禁共享可变状态。
+- **Repeatable**: 消除 Flaky Test；在任何环境下结果一致。
+- **Self-validating**: 明确的 Pass/Fail 判定，禁止人工确认结果。
+- **Timely**: 遵循 TDD (Test-Driven Development)，测试应与代码同步。
 
-  beforeEach(() => {
-    mockRepository = createMockRepository();
-    service = new UserService(mockRepository);
-  });
+## 5. 性能与安全硬约束 (Hard Constraints)
 
-  describe('createUser', () => {
-    it('should create user with valid data', async () => {
-      const userData = { name: 'John', email: 'john@example.com' };
-      mockRepository.save.mockResolvedValue({ id: '123', ...userData });
+### **性能协议 (Performance)**
+- **延迟**：单次处理 1000 个项目必须 $< 100ms$。
+- **内存**：单次批处理内存泄露（Heap Increase）应控制在 $50MB$ 以内。
 
-      const result = await service.createUser(userData);
+### **安全协议 (Security)**
+- **Sanitization**: 强制检查 SQL 注入漏洞（参数化查询）与 XSS 过滤。
+- **Isolation**: 敏感操作需验证 Bearer Auth 与权限位。
 
-      expect(result).toHaveProperty('id');
-      expect(mockRepository.save).toHaveBeenCalledWith(userData);
-    });
+## 6. 协作与 MCP 集成 (Coordination)
 
-    it('should throw on duplicate email', async () => {
-      mockRepository.save.mockRejectedValue(new DuplicateError());
+**Agent 间同步协议：**
+- **状态共享**：通过 `mcp__memory` 实时广播测试进度与失败明细。
+- **闭环验证**：测试 Agent 检索 `swarm/coder/status`，在 Coder 完成实现后自动触发验证逻辑。
 
-      await expect(service.createUser(userData))
-        .rejects.toThrow('Email already exists');
-    });
-  });
-});
-```
-
-#### Integration Tests
-```typescript
-describe('User API Integration', () => {
-  let app: Application;
-  let database: Database;
-
-  beforeAll(async () => {
-    database = await setupTestDatabase();
-    app = createApp(database);
-  });
-
-  afterAll(async () => {
-    await database.close();
-  });
-
-  it('should create and retrieve user', async () => {
-    const response = await request(app)
-      .post('/users')
-      .send({ name: 'Test User', email: 'test@example.com' });
-
-    expect(response.status).toBe(201);
-    expect(response.body).toHaveProperty('id');
-
-    const getResponse = await request(app)
-      .get(`/users/${response.body.id}`);
-
-    expect(getResponse.body.name).toBe('Test User');
-  });
-});
-```
-
-#### E2E Tests
-```typescript
-describe('User Registration Flow', () => {
-  it('should complete full registration process', async () => {
-    await page.goto('/register');
-    
-    await page.fill('[name="email"]', 'newuser@example.com');
-    await page.fill('[name="password"]', 'SecurePass123!');
-    await page.click('button[type="submit"]');
-
-    await page.waitForURL('/dashboard');
-    expect(await page.textContent('h1')).toBe('Welcome!');
-  });
-});
-```
-
-### 3. Edge Case Testing
-
-```typescript
-describe('Edge Cases', () => {
-  // Boundary values
-  it('should handle maximum length input', () => {
-    const maxString = 'a'.repeat(255);
-    expect(() => validate(maxString)).not.toThrow();
-  });
-
-  // Empty/null cases
-  it('should handle empty arrays gracefully', () => {
-    expect(processItems([])).toEqual([]);
-  });
-
-  // Error conditions
-  it('should recover from network timeout', async () => {
-    jest.setTimeout(10000);
-    mockApi.get.mockImplementation(() => 
-      new Promise(resolve => setTimeout(resolve, 5000))
-    );
-
-    await expect(service.fetchData()).rejects.toThrow('Timeout');
-  });
-
-  // Concurrent operations
-  it('should handle concurrent requests', async () => {
-    const promises = Array(100).fill(null)
-      .map(() => service.processRequest());
-
-    const results = await Promise.all(promises);
-    expect(results).toHaveLength(100);
-  });
-});
-```
-
-## Test Quality Metrics
-
-### 1. Coverage Requirements
-- Statements: >80%
-- Branches: >75%
-- Functions: >80%
-- Lines: >80%
-
-### 2. Test Characteristics
-- **Fast**: Tests should run quickly (<100ms for unit tests)
-- **Isolated**: No dependencies between tests
-- **Repeatable**: Same result every time
-- **Self-validating**: Clear pass/fail
-- **Timely**: Written with or before code
-
-## Performance Testing
-
-```typescript
-describe('Performance', () => {
-  it('should process 1000 items under 100ms', async () => {
-    const items = generateItems(1000);
-    
-    const start = performance.now();
-    await service.processItems(items);
-    const duration = performance.now() - start;
-
-    expect(duration).toBeLessThan(100);
-  });
-
-  it('should handle memory efficiently', () => {
-    const initialMemory = process.memoryUsage().heapUsed;
-    
-    // Process large dataset
-    processLargeDataset();
-    global.gc(); // Force garbage collection
-
-    const finalMemory = process.memoryUsage().heapUsed;
-    const memoryIncrease = finalMemory - initialMemory;
-
-    expect(memoryIncrease).toBeLessThan(50 * 1024 * 1024); // <50MB
-  });
-});
-```
-
-## Security Testing
-
-```typescript
-describe('Security', () => {
-  it('should prevent SQL injection', async () => {
-    const maliciousInput = "'; DROP TABLE users; --";
-    
-    const response = await request(app)
-      .get(`/users?name=${maliciousInput}`);
-
-    expect(response.status).not.toBe(500);
-    // Verify table still exists
-    const users = await database.query('SELECT * FROM users');
-    expect(users).toBeDefined();
-  });
-
-  it('should sanitize XSS attempts', () => {
-    const xssPayload = '<script>alert("XSS")</script>';
-    const sanitized = sanitizeInput(xssPayload);
-
-    expect(sanitized).not.toContain('<script>');
-    expect(sanitized).toBe('&lt;script&gt;alert("XSS")&lt;/script&gt;');
-  });
-});
-```
-
-## Test Documentation
-
-```typescript
-/**
- * @test User Registration
- * @description Validates the complete user registration flow
- * @prerequisites 
- *   - Database is empty
- *   - Email service is mocked
- * @steps
- *   1. Submit registration form with valid data
- *   2. Verify user is created in database
- *   3. Check confirmation email is sent
- *   4. Validate user can login
- * @expected User successfully registered and can access dashboard
- */
-```
-
-## MCP Tool Integration
-
-### Memory Coordination
-```javascript
-// Report test status
-mcp__claude-flow__memory_usage {
-  action: "store",
-  key: "swarm/tester/status",
-  namespace: "coordination",
-  value: JSON.stringify({
-    agent: "tester",
-    status: "running tests",
-    test_suites: ["unit", "integration", "e2e"],
-    timestamp: Date.now()
-  })
-}
-
-// Share test results
-mcp__claude-flow__memory_usage {
-  action: "store",
-  key: "swarm/shared/test-results",
-  namespace: "coordination",
-  value: JSON.stringify({
-    passed: 145,
-    failed: 2,
-    coverage: "87%",
-    failures: ["auth.test.ts:45", "api.test.ts:123"]
-  })
-}
-
-// Check implementation status
-mcp__claude-flow__memory_usage {
-  action: "retrieve",
-  key: "swarm/coder/status",
-  namespace: "coordination"
-}
-```
-
-### Performance Testing
-```javascript
-// Run performance benchmarks
-mcp__claude-flow__benchmark_run {
-  type: "test",
-  iterations: 100
-}
-
-// Monitor test execution
-mcp__claude-flow__performance_report {
-  format: "detailed"
-}
-```
-
-## Best Practices
-
-1. **Test First**: Write tests before implementation (TDD)
-2. **One Assertion**: Each test should verify one behavior
-3. **Descriptive Names**: Test names should explain what and why
-4. **Arrange-Act-Assert**: Structure tests clearly
-5. **Mock External Dependencies**: Keep tests isolated
-6. **Test Data Builders**: Use factories for test data
-7. **Avoid Test Interdependence**: Each test should be independent
-8. **Report Results**: Always share test results via memory
-
-Remember: Tests are a safety net that enables confident refactoring and prevents regressions. Invest in good tests—they pay dividends in maintainability. Coordinate with other agents through memory.
+## 关联笔记
+- [[2025-12-03-specs开发阶段]] (定义可验证的原子工程路径) [^1]
+- [[原则驱动行动]] (KISS 原则在测试设计中的应用) [^2]
+- [[Go开发者实战指南]] (L3 层级中的单元测试实践) [^3]
+- [[文档化Planning]] (将测试通过作为 Success Criteria) [^4]

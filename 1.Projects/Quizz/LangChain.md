@@ -1,11 +1,6 @@
 ---
-view-count: 3
+view-count: 5
 ---
-以下是围绕 **LangChain** 的 50 道精选 **选择题**（每题 2 分），涵盖其核心架构、模块机制、Agent 设计、多模态接入、链式构建、工具集成、流控制等方面，旨在全面测试使用者对 LangChain 的理解与实操能力。
-![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/20250619222919.png)
-
----
-
 ## 🧠 LangChain 选择题测试（共 50 题，每题 2 分，总分 100 分）
 
 ### ✅ 基础架构（1-10）
@@ -31,33 +26,12 @@ C. OpenAI LLM
 D. RasaModel  
 **答案：C**
 
-**4. LangChain 是用什么语言实现的？**  
-A. Java  
-B. Go  
-C. Python  
-D. Rust  
-**答案：C**
-
 **5. LangChain 的 Prompt 模块作用是？**  
 A. 自动生成提示词  
 B. 控制模型并发  
 C. 构建和格式化输入模板  
 D. 编写 API 接口  
 **答案：C**
-
-**6. LangChain 的文档加载组件属于哪个模块？**  
-A. LLMs  
-B. Tools  
-C. Document Loaders  
-D. Agents  
-**答案：C**
-
-**7. LangChain 中的 Memory 机制作用是？**  
-A. 提高响应速度  
-B. 存储长对话上下文  
-C. 管理模型权限  
-D. 控制 token 长度  
-**答案：B**
 
 **8. LangChain 支持的主流 LLM 接入方式不包括：**  
 A. OpenAI  

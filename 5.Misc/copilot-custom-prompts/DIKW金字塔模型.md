@@ -4,115 +4,42 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 1760669857046
-view-count: 2
+view-count: 6
 ---
-为了将您的笔记从“碎片化的记录”升维到“指导人生的智慧”，我们需要引导 AI 严格遵循 **DIKW 模型**的层级逻辑，一步步完成“清洗-关联-提炼-升华”的过程。
+# 🔼 Prompt: DIKW Stack Architect
 
-以下为您设计了三个不同侧重点的 Prompt（提示词）：
-
-### 选项一：层级进化版（推荐：最清晰展现思维跃迁的过程）
-
-这个版本要求 AI 明确展示每一个层级的转化过程，让你看到“数据”是如何一步步变成“智慧”的。
-
-> **优化后的 Prompt：**
-> 
-> **角色**：你是一位资深的知识管理专家和哲学顾问。  
-> **任务**：请阅读笔记 {activeNote}，并利用 **DIKW 模型**对其进行深度加工，严格按照以下四个层级逐级提升，直到提炼出核心智慧。
-> 
-> **分析框架**：
-> 
-> 1. **Data (数据层 - 原始素材)**：
->     
->     - 提取笔记中零散的、客观的**事实、符号、数字或关键词**。不要做任何解释，仅罗列原始点。
->         
-> 2. **Information (信息层 - 赋予背景)**：
->     
->     - 这些数据在说什么？请通过**Who, What, When, Where**将上述数据串联成有逻辑的叙述，理清笔记的背景和表层含义。
->         
-> 3. **Knowledge (知识层 - 寻找规律)**：
->     
->     - 这背后的机制是什么？(How)。
->         
->     - 请识别笔记中体现的**模式、因果关系或操作方法**。如果这一情况再次发生，我们该如何应用这些经验？
->         
-> 4. **Wisdom (智慧层 - 洞察本质)**：
->     
->     - 这到底意味着什么？(Why & Future)。
->         
->     - 请跳出具体事件，提炼出具有**普适性、指导性或哲学性**的原则。
->         
->     - **关键提问**：这件事对长远的人生/战略有何启示？它是否揭示了某种人性或世界的底层逻辑？
->         
-> 
-> **输出要求**：请用层级分明的格式输出，重点打磨“Wisdom”部分，使其读起来像一句深刻的格言或战略判断。
+**Role**: Knowledge Architect.
+**Task**: Ascend `{activeNote}` from raw entropy to structural wisdom.
 
 ---
 
-### 选项二：第一性原理版（适合复杂问题或深度复盘）
+### 🛠️ Ascension Algorithm (L1-L4)
 
-如果你的笔记在探讨一个难题，这个版本侧重于通过 DIKW 模型挖掘问题的“根源”和“最优解”，强调判断力和预见性。
-
-> **优化后的 Prompt：**
-> 
-> **任务**：利用 DIKW 金字塔模型，对 {activeNote} 进行本质还原。
-> 
-> **核心指令**：  
-> 请忽略表面的噪音（Data），快速整合背景（Information），通过逻辑推演（Knowledge），最终帮我抵达**智慧（Wisdom）**的彼岸。请重点回答以下关于“智慧”层面的问题：
-> 
-> - **价值判断**：根据笔记内容，什么是真正值得做的？什么是应该放弃的？（智慧是知道在什么时候不做什么）。
->     
-> - **底层模型**：这段经历背后符合哪种更高维度的思维模型（如熵增定律、复利效应、二八法则等）？
->     
-> - **未来推演**：基于目前的认知，未来5年内这一智慧将如何指导我的决策？
->     
-> 
-> **输出格式**：  
-> 请先用一段话概括笔记的“知识点（Knowledge）”，然后用**“智慧锦囊”**的形式，输出 3 条由该笔记引发的深刻洞见。
+1.  **L1: Data ⚪ (Symbols)**: Extract irreducible facts, nodes, and keywords. **Strictly no interpretation.**
+2.  **L2: Information 🔵 (Context)**: Map the narrative. `[Nodes] + [Context] = Narrative`. (Who, What, When, Where).
+3.  **L3: Knowledge 🟢 (Mechanism)**: Decode the "How". Identify causal chains, repeatable patterns, and heuristics.
+4.  **L4: Wisdom 🔴 (Axiom)**: Distill the "Why". Extract universal principles and first-principles strategies for future decision-making.
 
 ---
 
-### 选项三：极简洞察版（适合快速提炼核心观点）
+### 📤 Output Format
 
-适合快速将一段流水账变成一句“金句”。
+**[1. The DIKW Stack]**
+- **Data ⚪**: {Fact A, Node B, Metric C}
+- **Information 🔵**: {The logic of the current state}
+- **Knowledge 🟢**: {The repeatable mechanism/causality}
+- **Wisdom 🔴**: {The universal principle/Axiom}
 
-> **优化后的 Prompt：**
-> 
-> 请分析 {activeNote}。  
-> 不要复述内容，直接运用 DIKW 模型进行升维：
-> 
-> 1. **从 Data 到 Information**：用一句话概括笔记描述的客观事实。
->     
-> 2. **从 Knowledge 到 Wisdom**：
->     
->     - **Pattern (规律)**：识别出笔记中隐藏的重复模式。
->         
->     - **Principle (原则)**：将这个具体事件抽象为一个通用的**人生/商业原则**。
->         
-> 
-> **最终输出**：请模仿《纳瓦尔宝典》或查理·芒格的风格，将这段笔记提炼为一句**“绝对智慧”**。
+**[2. Absolute Wisdom]**
+> {A Naval-Ravikant style punchline: One high-density sentence reflecting the core truth of `{activeNote}`.}
+
+**[3. Strategy Matrix]**
+- **Stop doing**: {Low-leverage action/Noise}
+- **Start doing**: {High-leverage principle/Signal}
 
 ---
 
-### 💡 为什么这样设计？（DIKW 模型解析）
-
-在提示词中，我们针对 DIKW 的每个层级做了如下定义，以确保 AI 不会跑偏：
-
-1. **Data (数据)** = **离散的事实**（AI 容易忽略这一步直接开始总结，所以要强制它先“罗列”）。
-    
-2. **Information (信息)** = **结构化的叙述**（赋予数据上下文）。
-    
-3. **Knowledge (知识)** = **可复用的经验**（重点在于 How 和 Pattern，即“下次怎么做”）。
-    
-4. **Wisdom (智慧)** = **价值观与预判**（重点在于 Why 和 Principle，即“为什么要做”以及“什么是对的”）。
-    
-
-**示例效果：**  
-如果笔记是：“今天跑步跑了5公里，膝盖很疼，可能姿势不对。”
-
-- **Data**: 5公里，膝盖疼。
-    
-- **Information**: 作者今天跑步后出现膝盖疼痛，怀疑是姿势问题。
-    
-- **Knowledge**: 跑步姿势不当会导致关节损伤；需要学习正确的生物力学跑姿。
-    
-- **Wisdom (AI 提炼)**：**“系统的可持续性优于短期爆发力。在任何长期主义的实践中，修正错误的成本远低于预防错误的成本；未掌握正确方法前的努力，往往是某种形式的自我伤害。”**
+### ⚖️ Quality Constraints
+- **Strict Isolation**: No L4 insights in L1. Each layer must be a logical derivative of the layer below.
+- **Minimalism**: No filler adjectives. High insight-to-word ratio.
+- **Accuracy**: 100% grounded in `{activeNote}` logic.
