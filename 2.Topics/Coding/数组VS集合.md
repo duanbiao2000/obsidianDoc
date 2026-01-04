@@ -1,12 +1,13 @@
 ---
-aliases: 
-source: 
-author: 
-date: 
-update: 
-categories: 
+aliases:
+source:
+author:
+date:
+update:
+categories:
 important: false
 tags:
+view-count: 2
 ---
 
 

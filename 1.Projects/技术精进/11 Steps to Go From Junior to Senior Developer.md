@@ -1,3 +1,6 @@
+---
+view-count: 3
+---
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picutre/20250513155613503.png)
 您好！您提供了一段文字和一张图片，图片标题是 **"Full Stack Developer - Skills to Master in 2024"**（2024 年全栈开发者需要掌握的技能）。
 

@@ -1,3 +1,6 @@
+---
+view-count: 4
+---
 **TLDR**: 图展示 Transformer 编码器块的内部结构，从输入嵌入（Input Embedding）开始，结合位置编码（Positional Encoding），通过多头注意力（Multi-Head Attention）和前馈网络（Feed Forward）处理，加入残差连接和层归一化（Add & Norm），生成输出。
 
 ---

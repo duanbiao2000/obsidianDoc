@@ -1,7 +1,8 @@
 ---
-description: 
-globs: 
+description:
+globs:
 alwaysApply: false
+view-count: 2
 ---
 
 # 规则：从 PRD 生成任务列表

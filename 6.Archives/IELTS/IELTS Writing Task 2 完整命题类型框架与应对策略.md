@@ -1,3 +1,6 @@
+---
+view-count: 2
+---
 # IELTS Writing Task 2 完整命题类型框架与应对策略
 
 ## **核心分类体系**

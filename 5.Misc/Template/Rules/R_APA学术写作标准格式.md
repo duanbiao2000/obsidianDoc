@@ -1,3 +1,6 @@
+---
+view-count: 3
+---
 APA（American Psychological Association）格式是一种用于学术写作的标准格式，特别是在社会科学领域。它包括以下几个主要方面：
 
 标题页：包括标题、作者姓名、学校、课程信息和提交日期。

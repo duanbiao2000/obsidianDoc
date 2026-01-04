@@ -1,5 +1,5 @@
-好的，Sam。下面是将前面提到的结构化「模糊需求 → 精确定义」**封装成一个用于 ChatGPT / Claude / 自定义 Agent 的 _Copilot Prompt Generator_** 的 **元提示词（Meta-Prompt）**。
-
+---
+view-count: 6
 ---
 
 # 🧠 Meta Prompt for “需求精准表达 Copilot Prompt Generator”

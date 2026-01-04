@@ -4,6 +4,7 @@ tags:
   - Status/TODO
 source:
   - https://www.bilibili.com/video/BV13mfTYcEJg?spm_id_from=333.788.videopod.sections&vd_source=7038f96b6bb3b14743531b102b109c43
+view-count: 4
 ---
 
 [🧜‍♀️ Mermaid 功能探究 · Refly](https://refly.ai/share/canvas/can-ut29sdt61c0ujktd2uhm2o3b)

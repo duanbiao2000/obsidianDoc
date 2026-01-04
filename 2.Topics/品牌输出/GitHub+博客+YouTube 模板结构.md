@@ -1,6 +1,8 @@
 ---
 date: 2025-05-29 13:04
-tags: 技术影响力, 个人品牌, 工程师成长, GitHub, 博客, YouTube
+tags:
+  - Status/TODO
+view-count: 4
 ---
 ## [[L6/L7 工程师技术影响力模板结构：GitHub+博客+YouTube]]
 

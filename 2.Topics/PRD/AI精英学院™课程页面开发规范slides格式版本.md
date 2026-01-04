@@ -4,18 +4,7 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 3
----
-### **📘 AI 精英学院™ Slides Extended 开发规范 v1.1**
-
-#### **v1.1 版本更新日志 (Changelog):**
-
-1.  **【修复】内容宽度问题**: 在全局样式中引入了 `.reveal .slides > section` 选择器，将幻灯片内容的最大宽度从默认的 `960px` 提升至 `1200px`，并增加了内边距，为多列布局提供了更充足的空间。
-2.  **【修复】主题颜色不一致**: 在“设计美学标准”中，将对背景色的规定从“建议”提升为“**必须**”，并明确了全局背景色应在 `reveal.initialize` 中设定，或通过 `data-background-color` 属性在每页幻灯片中保持一致，以杜绝颜色不统一的问题。
-3.  **【修复】卡片底部对齐**: 在多列布局的 CSS 样式中，将 `display: flex` 升级为 `display: grid`，并为卡片容器 `.col` 增加了 `display: flex; flex-direction: column;`。这利用了现代 CSS 的强大能力，确保了无论内容多少，同一行的卡片都能保持等高且底部对齐。
-4.  **【修复】文字两端对齐**: 在全局样式中，明确为 `.reveal .slides` 设定了 `text-align: left;`，并为需要居中的元素（如主标题）单独设置 `text-align: center;`。这从根本上避免了浏览器在 flex/grid 布局中可能产生的、不美观的 `text-align: justify;` 效果。
-5.  **【优化】规范结构**: 将“扩展组件库”中的 CSS 样式直接整合进了“标准模板结构”的 `<style>` 块中，使其更具即用性，并增加了对三栏布局的支持。
-
+view-count: 6
 ---
 
 ### **AI精英学院™课程页面开发规范slides格式版本 v1.1**

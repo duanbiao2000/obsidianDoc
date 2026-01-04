@@ -1,11 +1,12 @@
 ---
-aliases: 
+aliases:
 source: https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
-author: 
-date: 
+author:
+date:
 update: 2024-07-24 13:48
-categories: 
+categories:
 status: false
+view-count: 4
 ---
 
 

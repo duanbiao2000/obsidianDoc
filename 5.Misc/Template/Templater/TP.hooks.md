@@ -1,6 +1,7 @@
 ---
 key: value
 tags: Status/TODO
+view-count: 3
 ---
 // Update frontmatter after template finishes executing
 <%*

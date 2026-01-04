@@ -1,355 +1,43 @@
 ---
-view-count: 5
+view-count: 10
 ---
-## 🧠 LangChain 选择题测试（共 50 题，每题 2 分，总分 100 分）
+# LangChain：组件化 AI 架构极简协议
 
-### ✅ 基础架构（1-10）
+## 核心范式
+- **本质**：语言模型应用的组件化框架 (Building blocks for LLMs)。
+- **逻辑流**：Prompt + LLM + OutputParser $\rightarrow$ Chain $\rightarrow$ Agent。
 
-**1. LangChain 的核心设计理念是：**  
-A. 高性能并发执行  
-B. 构建语言模型应用的组件化框架  
-C. 封装传统规则引擎  
-D. 多语言翻译服务平台  
-**答案：B**
+## 架构矩阵 (Components)
+| 模块 | 核心类/接口 | 极简职能 |
+| :--- | :--- | :--- |
+| **Model** | `ChatOpenAI` / `LLM` | 逻辑执行核心。 |
+| **Prompt** | `PromptTemplate` | 输入格式化与变量注入。 |
+| **Parser** | `OutputParser` | 文本 $\rightarrow$ 结构化数据 (JSON/Pydantic)。 |
+| **Memory** | `ConversationBufferMemory` | 对话上下文状态持久化。 |
+| **Tool** | `name` + `description` + `run()` | LLM 可调用的外部函数/API。 |
 
-**2. LangChain 中的 `Chain` 是指：**  
-A. 单个语言模型的推理过程  
-B. 一组工具的聚合  
-C. 一种将多个模块串联的逻辑结构  
-D. HTTP 请求链  
-**答案：C**
+## 数据增强 (RAG) 流程
+- **Load**: `DocumentLoader` (读取 PDF/Web/Wiki)。
+- **Storage**: `Vectorstores` (向量数据库集成)。
+- **Search**: `Retriever` (相似度搜索逻辑)。
+- **Chain**: `ConversationalRetrievalChain` (带记忆的检索问答)。
 
-**3. LangChain 默认推荐使用的基础模型类是：**  
-A. LlamaModel  
-B. HuggingfacePipeline  
-C. OpenAI LLM  
-D. RasaModel  
-**答案：C**
+## 执行逻辑：Chain vs Agent
+- **Chain (预定义)**：
+    - `SimpleSequentialChain`：线性 A $\rightarrow$ B。
+    - `RouterChain`：条件分支导航。
+    - `MapReduceChain`：大规模文档摘要/聚合。
+- **Agent (动态推理)**：
+    - **核心循环**：ReAct 框架 (Reason + Act)。
+    - **控制器**：`AgentExecutor`。
+    - **决策流**：`AgentOutputParser` $\rightarrow$ `AgentAction` (调工具) 或 `AgentFinish` (给结果)。
 
-**5. LangChain 的 Prompt 模块作用是？**  
-A. 自动生成提示词  
-B. 控制模型并发  
-C. 构建和格式化输入模板  
-D. 编写 API 接口  
-**答案：C**
-
-**8. LangChain 支持的主流 LLM 接入方式不包括：**  
-A. OpenAI  
-B. Anthropic  
-C. Huggingface Hub  
-D. Stable Diffusion  
-**答案：D**
-
-**9. LangChain 的 `LLMChain` 中，核心执行组件是？**  
-A. PromptTemplate  
-B. Memory  
-C. Tool  
-D. LLM  
-**答案：D**
-
-**10. LangChain 中用于格式化输入提示的类是？**  
-A. PromptFormatter  
-B. PromptTemplate  
-C. PromptEncoder  
-D. InputWrapper  
-**答案：B**
+## 生产级特性
+- **LCEL (Runnable)**：统一接口，原生支持 `Async` (异步), `Batch` (批处理), `Streaming` (流式)。
+- **Callbacks**：`CallbackHandler` 追踪中间过程 (on_tool_start, on_chain_end)。
+- **Evaluation**：`langchain.evaluation` 自动化评估输出质量。
 
 ---
-
-### 🔧 工具与中间件（11-20）
-
-**11. LangChain 的 Tool 模块主要用于？**  
-A. 进行数据清洗  
-B. 向 LLM 提供可调用函数或 API  
-C. 渲染 UI  
-D. 管理链路关系  
-**答案：B**
-
-**12. LangChain 的工具系统（Tools）本质上可视为：**  
-A. WebHook 接口  
-B. 抽象函数调用对象  
-C. 日志存储模块  
-D. 后处理组件  
-**答案：B**
-
-**13. 使用 LangChain 构建可调用工具时，必须定义的字段包括：**  
-A. `name` 和 `description`  
-B. `timeout` 和 `retry`  
-C. `auth` 和 `token`  
-D. `template` 和 `tokens`  
-**答案：A**
-
-**14. LangChain 的工具执行依赖于哪个模型特性？**  
-A. 并行性  
-B. 函数调用（function-calling）能力  
-C. prompt injection  
-D. response streaming  
-**答案：B**
-
-**15. LangChain 的 `Tool` 类必须包含一个什么函数？**  
-A. `handle()`  
-B. `callback()`  
-C. `__call__()`  
-D. `run()`  
-**答案：D**
-
-**16. LangChain 的 DocumentLoader 用于：**  
-A. 读取和解析外部文档数据  
-B. 上传文件到模型  
-C. 自动创建 Chain  
-D. 提取 URL 域名  
-**答案：A**
-
-**17. 哪个是 LangChain 官方提供的文档加载器？**  
-A. WebPageLoader  
-B. WikipediaLoader  
-C. PDFLoader  
-D. 以上都是  
-**答案：D**
-
-**18. LangChain 中的 Retriever 的作用是？**  
-A. 检索 Web 内容  
-B. 实现向量相似度搜索  
-C. 分割文本段落  
-D. 分析模型参数  
-**答案：B**
-
-**19. LangChain 的向量数据库集成模块名为：**  
-A. langchain.vectorhub  
-B. langchain.embeddings  
-C. langchain.vectorstores  
-D. langchain.database  
-**答案：C**
-
-**20. LangChain 支持的嵌入模型不包括？**  
-A. OpenAIEmbeddings  
-B. CohereEmbeddings  
-C. GPT4Embeddings  
-D. HuggingFaceEmbeddings  
-**答案：C**
-
----
-
-### 🧠 Agent 机制（21-30）
-
-**21. LangChain 的 Agent 机制核心目标是？**  
-A. 建立多线程并发系统  
-B. 构建具有工具使用能力的 LLM 控制器  
-C. 加速模型推理  
-D. 管理数据库连接  
-**答案：B**
-
-**22. LangChain 的 Agent 最初基于哪种推理循环？**  
-A. for-loop 结构  
-B. ReAct 框架（Reason + Act）  
-C. FSM 状态机  
-D. 图结构遍历  
-**答案：B**
-
-**23. 以下哪个组件是 Agent 所必须的？**  
-A. Tool  
-B. Retriever  
-C. Memory  
-D. Callback  
-**答案：A**
-
-**24. Agent 使用模型调用工具时的链路执行结构是？**  
-A. 直线  
-B. 树状  
-C. 回环 + 观察（observe-act）  
-D. 批量处理  
-**答案：C**
-
-**25. LangChain 中支持自定义 Agent 逻辑的类是？**  
-A. ZeroShotAgent  
-B. ConversationalAgent  
-C. CustomAgent  
-D. BaseSingleActionAgent  
-**答案：D**
-
-**26. AgentAction 对象的作用是？**  
-A. 记录 LLM 执行日志  
-B. 表示一次工具调用意图  
-C. 管理 UI 接口  
-D. 设定提示词  
-**答案：B**
-
-**27. 如果你想实现一个不重复调用失败工具的 Agent，应该实现？**  
-A. ToolLoopDetector  
-B. RetryHandler  
-C. AgentExecutor 的中断逻辑  
-D. CallbackObserver  
-**答案：C**
-
-**28. LangChain 中的 AgentExecutor 实现了？**  
-A. 多模型融合执行  
-B. LLM 与 Tool 的调用中枢控制  
-C. 前端展示模块  
-D. 图神经网络框架  
-**答案：B**
-
-**29. LangChain 的工具调用失败通常抛出什么类型的异常？**  
-A. LangToolError  
-B. ToolExecutionError  
-C. OutputParserException  
-D. InvalidToolCall  
-**答案：C**
-
-**30. LangChain 中 `AgentOutputParser` 的功能是？**  
-A. 提取 Prompt 模板  
-B. 解析 LLM 输出为 AgentAction/Finish  
-C. 输出语音结果  
-D. 追踪系统日志  
-**答案：B**
-
----
-
-### 🔄 Chain 逻辑与控制流（31-40）
-
-**31. `SimpleSequentialChain` 的作用是？**  
-A. 管理并发任务  
-B. 线性执行多个子链  
-C. 批量创建 Prompt  
-D. 提取文档段落  
-**答案：B**
-
-**32. `LLMChain` 的默认输入变量名通常为？**  
-A. text  
-B. input  
-C. question  
-D. prompt  
-**答案：B**
-
-**33. LangChain 中执行带分支控制的链使用哪种结构？**  
-A. DecisionChain  
-B. RouterChain  
-C. CondChain  
-D. ToolChain  
-**答案：B**
-
-**34. 以下哪个模块用于组合多个 Chain 的执行结果？**  
-A. AggregateChain  
-B. SimpleRouter  
-C. SequentialChain  
-D. MapReduceChain  
-**答案：D**
-
-**35. MapReduceChain 通常用于？**  
-A. 多模态生成  
-B. 文档摘要或聚合处理  
-C. HTTP 接口包装  
-D. Token 过滤  
-**答案：B**
-
-**36. LangChain 的 `ConversationalRetrievalChain` 是一种：**  
-A. 具上下文记忆的 RAG 结构  
-B. 传统问答系统  
-C. 多模型融合代理  
-D. Prompt 优化器  
-**答案：A**
-
-**37. LangChain 的 Chain 组合中常用的 I/O 映射器是？**  
-A. IOMapper  
-B. MultiInputChain  
-C. TransformChain  
-D. RunnableMap  
-**答案：D**
-
-**38. 想要实现对任意 Chain 的异步调用，应使用？**  
-A. `chain.run_async()`  
-B. `await chain.acall()`  
-C. `chain.async()`  
-D. `threading.run()`  
-**答案：B**
-
-**39. LangChain 的 `Runnable` 接口提供了哪种执行模式？**  
-A. 串行  
-B. 并行  
-C. 数据流式（Streaming）  
-D. 全部支持  
-**答案：D**
-
-**40. LangChain 中输出格式控制组件是？**  
-A. OutputFormatter  
-B. OutputParser  
-C. LLMOutput  
-D. PromptValidator  
-**答案：B**
-
----
-
-### 📦 应用与部署（41-50）
-
-**41. LangChain 的 callback 机制用于？**  
-A. UI 动态刷新  
-B. 模型训练  
-C. 跟踪中间执行过程  
-D. 下载模型权重  
-**答案：C**
-
-**42. CallbackHandler 中的 on_tool_start 会在何时被调用？**  
-A. Tool 被定义时  
-B. Tool 开始执行前  
-C. Tool 成功后  
-D. Tool 失败时  
-**答案：B**
-
-**43. 想将 LangChain 应用部署为 REST API，推荐使用？**  
-A. Flask  
-B. FastAPI  
-C. Gradio  
-D. Streamlit  
-**答案：B**
-
-**44. LangChain 的 Streaming 功能要求模型必须支持？**  
-A. Token-by-token 输出  
-B. JSON 格式返回  
-C. 多线程  
-D. 大文件加载  
-**答案：A**
-
-**45. LangChain 的 streaming 回调类是？**  
-A. StdOutCallback  
-B. StreamCallbackHandler  
-C. TokenStream  
-D. CallbackChain  
-**答案：B**
-
-**46. 想让 LangChain 支持多轮对话上下文，推荐使用的 Memory 类是？**  
-A. ConversationBufferMemory  
-B. SimpleMemory  
-C. TokenCounterMemory  
-D. FileMemory  
-**答案：A**
-
-**47. 使用 `LLMCheckerChain` 可以实现？**  
-A. 代码审查  
-B. 对输出内容进行验证  
-C. Prompt 自动微调  
-D. Agent 多路调度  
-**答案：B**
-
-**48. LangChain 社区工具列表托管于？**  
-A. langchain.tools.io  
-B. langchain-hub  
-C. huggingface.co/langchain  
-D. openai.com/tools  
-**答案：B**
-
-**49. LangChain 中用于评估输出质量的模块是？**  
-A. ChainEvaluator  
-B. EvalChain  
-C. langchain.evaluation  
-D. QualityAssessor  
-**答案：C**
-
-**50. 想构建自定义 Chain 最基础的父类应继承？**  
-A. BaseLangChain  
-B. Runnable  
-C. Chain  
-D. BaseTool  
-**答案：C**
-
----
-
-是否需要生成答题卡、解释版或导入到考试系统的格式（如 Moodle XML、CSV 或 Google 表单）？
+**关联笔记**
+- [[个人知识管理系统]]
+- [[2025-12-14-经典软件测试方法]]
