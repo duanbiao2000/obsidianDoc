@@ -1,5 +1,9 @@
 ---
-view-count: 6
+view-count: 10
+related:
+  - "[[精英研究-說話之道-行为洞察]]"
+  - "[[工程能力与认知之道]]"
+  - "[[问题解决-复杂问题-分解之道]]"
 ---
 # Code Verbalization Prompt 库
 

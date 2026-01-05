@@ -1,5 +1,5 @@
 ---
-view-count: 2
+view-count: 4
 ---
 # Python 高并发异步工程手册 (10k+ 并发)
 
