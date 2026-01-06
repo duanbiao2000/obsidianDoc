@@ -1,5 +1,5 @@
 ---
-view-count: 12
+view-count: 14
 ---
 ## 1. 核心逻辑：熵减开发流水线 (Entropy Reduction Pipeline)
 
