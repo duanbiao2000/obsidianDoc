@@ -1,5 +1,5 @@
 ---
-view-count: 2
+view-count: 4
 ---
 ## 保罗·格雷厄姆（PG）风格 + 思维模型（用于文档研究）— brutally minimal
 
