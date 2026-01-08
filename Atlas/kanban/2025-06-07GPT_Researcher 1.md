@@ -1,6 +1,12 @@
 ---
 kanban-plugin: board
-view-count: 4
+view-count: 8
+update: 2026-01-08 21:37
+related:
+  - "[[2025-06-07GPT_Researcher]]"
+  - "[[2025-06-01LangGraph]]"
+  - "[[研究笔记模板]]"
+  - "[[Prompt管理科学]]"
 ---
 
 ## To Do
@@ -21,22 +27,18 @@ view-count: 4
 - [ ] Task 6.2: 研究 Docker 配置、構建流程及容器化部署 (Phase 6: 部署和優化)
 - [ ] Task 6.3: 分析系統瓶頸，實現快取/並行處理優化並測試 (Phase 6: 部署和優化)
 
-
 ## Doing
 
 - [ ] Task 1.1: 分析 gpt_researcher 主模組結構及配置系統 (Phase 1: 基礎架構理解)
 - [ ] Task 1.2: 研究 llm_provider 模組及不同 LLM 提供商的集成機制 (Phase 1: 基礎架構理解)
 - [ ] Task 1.3: 研究 scraper 模組、搜索引擎集成及網頁內容處理流程 (Phase 1: 基礎架構理解)
 
-
 ## Done
 
-
-
-
-
 %% kanban:settings
+
 ```
 {"kanban-plugin":"board","show-checkboxes":true,"show-relative-date":true,"link-date-to-daily-note":false,"date-colors":[{"isToday":false,"distance":1,"unit":"days","direction":"after"}]}
 ```
+
 %%

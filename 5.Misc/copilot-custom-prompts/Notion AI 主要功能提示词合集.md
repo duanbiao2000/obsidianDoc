@@ -4,6 +4,13 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+view-count: 3
+update: 2026-01-08 23:52
+related:
+  - "[[Hierarchy is  everything]]"
+  - "[[TL;DR summary]]"
+  - "[[a straightforward tone]]"
+  - "[[技术文本简化]]"
 ---
 
 学习并记忆以下提示词,将Notion AI的主要功能以有序列表的格式给出, 等待我按照给出列表的序号(1-8)进行调用. 以对{activeNote}进行优化.

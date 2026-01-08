@@ -4,8 +4,15 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 2
+view-count: 5
+update: 2026-01-08 23:42
+related:
+  - "[[Anki闪卡]]"
+  - "[[Anki抽认闪卡制作]]"
+  - "[[Anki 闪卡生成器和知识萃取专家-flashcard语法]]"
+  - "[[Critical Thinking]]"
 ---
+
 ## 03 FQA Frequent Questions
 
 Generate multiple-choice questions based on {activeNote} to test students' understanding of the note.
@@ -26,24 +33,26 @@ Options should be misleading to avoid making the answer too obvious.
 After all questions have been generated, append the answers and their explanations.
 
 ---
-Reference Format:
-**Question 1: Which of the following is NOT a key element of Cost-Benefit Analysis (CBA)?**  
-?  
-A. Costs  
-B. Benefits  
-C. Time  
-D. Risk  
 
-Answer: D. Risk  
+Reference Format:
+**Question 1: Which of the following is NOT a key element of Cost-Benefit Analysis (CBA)?**\
+?\
+A. Costs\
+B. Benefits\
+C. Time\
+D. Risk
+
+Answer: D. Risk\
 Explanation: Cost-Benefit Analysis primarily focuses on costs, benefits, and time. While important, risk is not a core element of CBA itself.
 
 ---
-**Question 2: Which ability of the right brain is primarily relied upon for processing three-dimensional spatial information and perceiving object size, shape, and position?**  
-?  
-A. Language/Text Ability  
-B. Logical Analysis Ability  
-C. Spatial Perception Ability  
-D. Sequential Processing Ability  
+
+**Question 2: Which ability of the right brain is primarily relied upon for processing three-dimensional spatial information and perceiving object size, shape, and position?**\
+?\
+A. Language/Text Ability\
+B. Logical Analysis Ability\
+C. Spatial Perception Ability\
+D. Sequential Processing Ability
 
 Answer: C. Spatial Perception Ability
 Explanation: The right brain's spatial perception ability is responsible for processing three-dimensional spatial information and perceiving object size, shape, and position.

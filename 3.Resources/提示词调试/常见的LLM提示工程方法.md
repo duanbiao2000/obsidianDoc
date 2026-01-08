@@ -1,5 +1,5 @@
 ---
-view-count: 7
+view-count: 11
 ---
 
 ## 0. 本质 (The Essence)
@@ -63,3 +63,34 @@ view-count: 7
 ---
 
 **原则**：简单任务不加戏。提示工程是为了解决复杂度，不是为了炫耀技术。
+
+# 提示词工程（Prompt Engineering）核心方法：极简版
+
+### 1. 基础逻辑类
+*   **CoT (Chain of Thought)**：**分步推导**。拆解逻辑 $\rightarrow$ 模拟人类思考。
+*   **Rephrase**：**语义对齐**。改写描述 $\rightarrow$ 消除歧义。
+*   **Step-back**：**抽象本质**。先升维思考本质 $\rightarrow$ 再回归具体任务。
+
+### 2. 自动化与目标类
+*   **APE (Automatic Prompt Optimization)**：**自动迭代**。反馈验证 $\rightarrow$ 减少人工调参。
+*   **OPRO (Optimization Prompt)**：**目标驱动**。最大化特定指标 $\rightarrow$ 效果导向设计。
+*   **PromptGen**：**批量生成**。变体产出 $\rightarrow$ 择优筛选。
+
+### 3. 进化与自举类
+*   **PromptBreeder**：**生物进化**。变异 + 繁殖 $\rightarrow$ 多代进化提示词。
+*   **SPO (Structured Prompt Optimization)**：**闭环自举 (Bootstrapping)**。模型自演“工程师 + 执行者 + 裁判” $\rightarrow$ 迭代优化。
+
+---
+
+### SPO 算法深挖 (Algorithm 1)
+**核心机制：LLM 自我迭代闭环**
+
+1.  **初始化**：设定初始提示词 $P_0$ + 考题数据集 $D$。
+2.  **迭代循环 ($N_{max}$ 次)**：
+    *   **$\phi_{opt}$ (优化)**：模型反思旧提示词与答案 $\rightarrow$ 生成新提示词 $P'$。
+    *   **$\phi_{exe}$ (执行)**：使用新提示词跑题 $\rightarrow$ 产出新答案 $A'$。
+    *   **$\phi_{eval}$ (评估)**：模型自任裁判 $\rightarrow$ 比较新旧答案优劣。
+3.  **更新**：若评估成功 $\rightarrow$ 替换最佳提示词 $P^*$。
+4.  **产出**：输出进化后的结构化提示词。
+
+**结论**：SPO 是将 **“手动调优”** 封装为 **“模型自动化反思”** 的递归工厂。

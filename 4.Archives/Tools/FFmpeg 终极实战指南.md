@@ -1,113 +1,101 @@
 ---
-view-count: 3
+view-count: 4
+related:
+  - "[[视频质量评定手册]]"
+  - "[[剪辑技能核心技术栈]]"
+  - "[[Prompt管理科学]]"
 ---
+# FFmpeg 视频压缩 · 无脑上手一页清
 
-### ✅ 4. 压缩视频（15MB → 3.3MB，几乎无损）
+## 0. 只记这一条就够了（通用压缩）
+
 ```bash
-ffmpeg -i large-video.mp4 -c:v libx264 -crf 23 -c:a aac output.mp4
-```
-- `libx264`：业界最广泛使用的 H.264 编码器  
-- `-crf 23`：默认最佳平衡值（0=无损，63=极低质量）  
-- **压缩比**：15.2MB → **3.3MB**（**减少 78%**）  
-- **画质感知**：普通用户无法分辨差异
-
-✅ **CRF 值参考表**：
-
-| CRF | 质量 | 文件大小 | 适用场景 |
-|-----|------|-----------|----------|
-| 18 | 极高 | 大 | 专业存档 |
-| 23 | 高 | 中 | **推荐日常使用** |
-| 28 | 中 | 小 | 网络分享 |
-| 35 | 低 | 很小 | 社交媒体上传 |
-
-## ⚠️ 四、FFmpeg 使用避坑指南（血泪教训）
-
-| 错误做法 | 正确做法 | 原因 |
-|----------|----------|------|
-| 使用在线 GIF 制作网站 | 用 FFmpeg 本地生成 | 避免隐私泄露、广告插件、恶意脚本 |
-| 用 HandBrake 压缩视频 | 用 FFmpeg 直接控制 | HandBrake 是封装工具，无法精细调节 |
-| 用 Photoshop 批量压缩图片 | 用 FFmpeg 一行命令 | 一次处理 100 张图，耗时 < 30 秒 |
-| 拖拽视频到 Premiere 导出 | 用 `-c copy` 快速裁剪 | 无需重新编码，节省 90% 时间 |
-| 用 Obsidian 录屏 | 用 `ffmpeg -f avfoundation` | 更稳定、更高帧率、无延迟 |
-
-## 🌐 五、FFmpeg 在互联网中的真实地位（震撼数据）
-
-| 平台 | 是否使用 FFmpeg | 说明 |
-|------|------------------|------|
-| YouTube | ✅ 是 | 所有上传视频均经 FFmpeg 转码 |
-| Netflix | ✅ 是 | 海量视频转码引擎 |
-| TikTok | ✅ 是 | 视频压缩、滤镜、特效底层 |
-| Zoom | ✅ 是 | 录屏、音频编码 |
-| OBS Studio | ✅ 是 | 核心编解码库 |
-| VLC | ✅ 是 | 播放器内核 |
-| Adobe Premiere | ✅ 是 | 内部调用 FFmpeg 插件 |
-| WhatsApp | ✅ 是 | 视频压缩与格式转换 |
-
-> 🌟 **真相**：  
-> **“你每天观看的每一个视频，至少被 FFmpeg 处理过 3 次。”**
-
----
-
-### 4. 📦 视频压缩（平衡画质与体积）
-```bash
-# H.264 压缩（推荐默认参数）
 ffmpeg -i input.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k output.mp4
-
-# 极致压缩（适合网络传输）
-ffmpeg -i input.mp4 -c:v libx264 -crf 28 -preset fast -c:a aac -b:a 64k output_small.mp4
 ```
-> ✅ **CRF 值指南**：  
-> - 18-23：高质量（适合存档）  
-> - 24-28：平衡（适合网络）  
-> - 29-35：高压缩（适合移动端）  
+
+- `-c:v libx264`：最常用 H.264 编码器  
+- `-crf 23`：画质好 + 体积小，日常推荐  
+- 一般能压掉 60%–80% 体积，画质肉眼几乎无差
 
 ---
 
-## 🛡️ 四、专业级技巧（提升 10 倍效率）
+## 1. CRF 快速心法（越大越糊，文件越小）
 
-### 1. 硬件加速（NVIDIA/Intel）
+| 场景       | 命令里用的 CRF |
+|------------|----------------|
+| 质量优先（存档） | 18–20         |
+| 日常使用     | 23（默认用它） |
+| 只求小（发朋友圈） | 28           |
+
+示例：  
 ```bash
-# NVIDIA GPU 加速
-ffmpeg -hwaccel cuda -i input.mp4 -c:v h264_nvenc -preset p7 -c:a copy output.mp4
+# 高质量
+ffmpeg -i in.mp4 -c:v libx264 -crf 18 -c:a aac out_high.mp4
 
-# Intel Quick Sync
-ffmpeg -hwaccel qsv -i input.mp4 -c:v h264_qsv -preset medium -c:a copy output.mp4
-```
-
-### 2. 无损剪辑（精确到帧）
-```bash
-# 从 00:01:30 开始，截取 30 秒
-ffmpeg -ss 00:01:30 -i input.mp4 -t 30 -c copy output_clip.mp4
-
-# 精确到帧（避免音画不同步）
-ffmpeg -ss 00:01:30 -i input.mp4 -t 30 -c:v libx264 -c:a aac output_sync.mp4
-```
-
-### 3. 修复抖动视频
-```bash
-# 启用去抖动滤镜
-ffmpeg -i shaky_video.mp4 -vf "vidstabdetect=shakiness=10:accuracy=15,vidstabtransform=input=transforms.trf:smoothing=30" -c:a copy stabilized.mp4
+# 极致压缩
+ffmpeg -i in.mp4 -c:v libx264 -crf 28 -c:a aac -b:a 64k out_small.mp4
 ```
 
 ---
 
-## 📊 五、参数速查表
+## 2. 三个最常用场景命令
 
-| 场景 | 核心参数 | 推荐值 |
-|------|----------|--------|
-| **视频压缩** | `-crf` | 23（平衡）/ 18（高质量） |
-| **GIF 生成** | `fps` | 10-15（流畅度） |
-| **图片缩放** | `scale` | `1920:-1`（自动高度） |
-| **音频提取** | `-vn -c:a` | `libmp3lame -q:a 2` |
-| **屏幕录制** | `-f avfoundation` | `"1:0"`（macOS 设备号） |
-| **硬件加速** | `-hwaccel` | `cuda` / `qsv` |
+### 2.1 压缩视频（最常用）
+
+```bash
+ffmpeg -i in.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k out.mp4
+```
+
+### 2.2 无损裁剪一段（快，剪片段用）
+
+```bash
+# 从 1分30秒 开始，截 30 秒
+ffmpeg -ss 00:01:30 -i in.mp4 -t 30 -c copy out_clip.mp4
+```
+
+### 2.3 提取音频（做播客 / 语音）
+
+```bash
+ffmpeg -i in.mp4 -vn -c:a libmp3lame -q:a 2 out.mp3
+```
 
 ---
 
-## 💡 终极心法
+## 3. 提速：有独显就开硬件加速（可选）
 
-> **“不要记忆参数，要理解管道”**  
-> FFmpeg 的本质是 **媒体处理流水线**：  
-> 输入 → 滤镜链 → 编码器 → 输出  
->   
-> 掌握这个思维，任何需求都能拆解组合！
+```bash
+# NVIDIA 显卡
+ffmpeg -hwaccel cuda -i in.mp4 -c:v h264_nvenc -preset p7 -c:a copy out.mp4
+```
+
+- 同等体积下速度可快数倍，画质略差一点，一般够用
+
+---
+
+## 4. 避坑指南（少走弯路版）
+
+| 别这么干                    | 改成这样                         | 为什么                    |
+|-----------------------------|----------------------------------|---------------------------|
+| 上各种在线压缩 / GIF 网站     | 本地用 FFmpeg                   | 隐私风险 + 广告 + 不可控      |
+| 为压缩打开大型剪辑软件（PR 等） | 直接一行 FFmpeg 命令             | 只压缩不剪辑，用 FFmpeg 最快  |
+| 手动一张张压图片             | 用 FFmpeg 批量处理              | 一行命令搞定几十张，省时间     |
+| 只会 GUI 工具不懂参数         | 固定用上面几条模板命令 + 改文件名 | 够用就行，不必记全参数        |
+
+---
+
+## 5. 核心参数速查（只记这 4 个）
+
+| 参数       | 作用             | 记法                        |
+|------------|------------------|-----------------------------|
+| `-c:v`     | 视频编码器       | 日常用 `libx264` 或 `h264_nvenc` |
+| `-crf`     | 控制画质 & 体积  | 数值越大越糊，23 万金油        |
+| `-preset`  | 编码速度 vs 体积 | `medium` 通用，`fast` 更快点  |
+| `-ss`/`-t` | 起始时间 / 时长  | 剪片段用                     |
+
+---
+
+## 6. 一句话心法
+
+> 不用学 FFmpeg 全家桶。  
+> 先把「压缩一条」「裁剪一段」「提取音频」这三条命令用熟，  
+> 你已经超过 90% 用户的效率。

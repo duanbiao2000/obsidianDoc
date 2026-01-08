@@ -4,8 +4,14 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 3
+view-count: 7
+update: 2026-01-08 23:27
+related:
+  - "[[科学记忆阅读法助手]]"
+  - "[[认知审计员 (Cognitive Auditor)]]"
+  - "[[基于 CIS 架构的 ToT 扩展]]"
 ---
+
 你是我的知识架构顾问，任务是评估以下笔记内容是否“Fits-In”到我的现有知识体系中。
 
 我会提供一段笔记或概念描述，请从以下 5 个维度逐条回答：
