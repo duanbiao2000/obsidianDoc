@@ -10,7 +10,7 @@ related:
   - "[[Hierarchy is  everything]]"
   - "[[TL;DR summary]]"
   - "[[a straightforward tone]]"
-  - "[[技术文本简化]]"
+  - "[[认知降噪专家]]"
 ---
 
 学习并记忆以下提示词,将Notion AI的主要功能以有序列表的格式给出, 等待我按照给出列表的序号(1-8)进行调用. 以对{activeNote}进行优化.

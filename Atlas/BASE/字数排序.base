@@ -12,7 +12,7 @@ views:
       - file.folder
       - file.mtime
     sort:
-      - property: file.mtime
-        direction: ASC
       - property: file.size
         direction: DESC
+      - property: file.mtime
+        direction: ASC

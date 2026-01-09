@@ -1,8 +1,8 @@
 ---
-view-count: 4
+view-count: 6
 related:
-  - "[[LFSP（Language For Smart People）概念笔记]]"
   - "[[LFSP风格AI助手]]"
+  - "[[跨文化技术领导力]]"
 ---
 Of course. Here is the adapted version of your note, converted into concise, professional Western workplace English, following the rules you provided.
 

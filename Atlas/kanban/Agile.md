@@ -36,7 +36,7 @@ kanban-plugin: board
 - [x] 2024-11-15 00:27 [[Agile methodologies and Jira workflows]] ⏫ ➕ 2024-11-14 ✅ 2024-11-15
 - [x] 风格改写 ✅ 2025-06-18
 	[[R_通用知识指导模型]]
-	[[极限问题_反向论证审计专家]]
+	[[红队逻辑审计师]]
 
 
 

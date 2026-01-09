@@ -1,6 +1,12 @@
 ---
-view-count: 3
+view-count: 6
+update: 2026-01-09 13:32
+related:
+  - "[[研究笔记模板]]"
+  - "[[抽象与钻研提示词模板]]"
+  - "[[PARACAP项目管理结构]]"
 ---
+
 APA（American Psychological Association）格式是一种用于学术写作的标准格式，特别是在社会科学领域。它包括以下几个主要方面：
 
 标题页：包括标题、作者姓名、学校、课程信息和提交日期。

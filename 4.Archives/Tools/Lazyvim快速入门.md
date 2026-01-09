@@ -1,6 +1,10 @@
 ---
-view-count: 6
-update: 2026-01-03 23:39
+view-count: 9
+update: 2026-01-09 13:26
+related:
+  - "[[Anki卡牌仓库]]"
+  - "[[PostgreSQL开发者实战指南]]"
+  - "[[学习框架]]"
 ---
 
 # LazyVim 精华 (Brutally Minimal)

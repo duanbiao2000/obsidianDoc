@@ -4,10 +4,17 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 4
+view-count: 7
+update: 2026-01-09 13:10
+related:
+  - "[[快速知识表cheatsheet]]"
+  - "[[上下文工程专家]]"
+  - "[[Notion AI 主要功能提示词合集]]"
+  - "[[文章分析与续写]]"
 ---
 
 ### 选项 1：结构化增强版（推荐用于制作完整讲义）
+
 这个版本增加了**主题变量**、**题目数量**以及**答案键**，并规范了Markdown格式，方便直接复制粘贴。
 
 ```markdown
@@ -35,6 +42,7 @@ Please generate the worksheet now.
 ---
 
 ### 选项 2：语法专项训练版（推荐用于语法填空）
+
 这个版本专注于语法点（如介词、动词变位），而不是通用词汇。
 
 ```markdown
@@ -64,6 +72,7 @@ Generate the worksheet now.
 ---
 
 ### 选项 3：交互模式（如果你想让AI来引导你）
+
 这个版本将提示词转化为一个“生成器程序”，AI 会先询问你想要什么，然后再生成。
 
 ```markdown
@@ -85,6 +94,7 @@ Please ask me the setup questions to get started.
 ```
 
 ### 如何使用：
-1.  选择一个最适合你需求的版本。
-2.  将大括号 `{}` 中的内容替换为你想要的主题（或者在使用**选项3**时直接运行，让AI问你）。
-3.  复制到 ChatGPT/Claude 中运行。
+
+1. 选择一个最适合你需求的版本。
+2. 将大括号 `{}` 中的内容替换为你想要的主题（或者在使用**选项3**时直接运行，让AI问你）。
+3. 复制到 ChatGPT/Claude 中运行。

@@ -7,7 +7,7 @@ copilot-command-last-used: 1754500309653
 view-count: 5
 update: 2026-01-08 22:44
 related:
-  - "[[极限问题_反向论证审计专家]]"
+  - "[[红队逻辑审计师]]"
   - "[[知识架构顾问-Fits-in核查]]"
   - "[[第一性原理思考者]]"
   - "[[Roast writing  and give actionable feedback]]"

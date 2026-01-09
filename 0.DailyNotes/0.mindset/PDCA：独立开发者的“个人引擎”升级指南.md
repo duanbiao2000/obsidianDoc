@@ -5,7 +5,7 @@ related:
   - "[[独立开发陷阱]]"
   - "[[精益生产Lean Manufacturing]]"
   - "[[12-Factor App 故障排查手册]]"
-  - "[[架构师心智 v1.0：个人操作系统重构指南]]"
+  - "[[个人操作系统重构指南]]"
   - "[[The Quiet Craft-How Micro-Decisions Forge Our Path-Especially in Code]]"
 aliases:
   - 知所向，方能致远

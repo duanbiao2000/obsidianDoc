@@ -4,12 +4,15 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 4
+view-count: 7
 update: 2026-01-08 23:39
 related:
   - "[[web design consultant]]"
   - "[[Excalidraw图表生成PROMPT]]"
   - "[[知识架构顾问-Fits-in核查]]"
+  - "[[独立开发者产品创意]]"
+  - "[[上下文工程思维模式应用蓝图生成器]]"
+  - "[[快速理解代码的实战提示词]]"
 ---
 
 # Role: 首席数字体验架构师 & 电商增长顾问 (Chief Digital Experience Architect)

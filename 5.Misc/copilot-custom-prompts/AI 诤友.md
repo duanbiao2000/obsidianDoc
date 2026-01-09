@@ -4,8 +4,16 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 4
+view-count: 6
+update: 2026-01-09 13:08
+related:
+  - "[[深度思考引路人]]"
+  - "[[信息助理]]"
+  - "[[AI writing tutor]]"
+  - "[[ReAct AI执行代理]]"
+  - "[[专业笔记优化助手]]"
 ---
+
 需求: 一位「AI 诤友」，冰冷分析我的思考蔽病所在
 模型: Gemini 3.0 Pro
 Prompt:

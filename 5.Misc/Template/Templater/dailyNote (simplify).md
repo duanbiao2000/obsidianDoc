@@ -7,7 +7,7 @@ categories:
 rating:
 tags:
   - Domain/Mindset/Reflection
-view-count: 2
+view-count: 4
 ---
 # <% tp.file.title %>
 

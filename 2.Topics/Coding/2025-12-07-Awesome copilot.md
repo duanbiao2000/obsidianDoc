@@ -8,7 +8,12 @@ source:
 update:
 rating:
 related:
-view-count: 5
+  - "[[prompts、instructions 和 chat modes]]"
+  - "[[快速理解代码的实战提示词]]"
+  - "[[两阶段聚焦工作流]]"
+  - "[[Prompt管理科学]]"
+  - "[[独立开发者兼产品创意]]"
+view-count: 8
 ---
 
 你提到的“项目规划与管理”主题下有 17 个项目，标签包括：planning, project-management, epic, feature, implementation, task, architecture, technical-spike。这些关键词代表了软件项目从宏观到微观、从战略到执行的一整套流程。

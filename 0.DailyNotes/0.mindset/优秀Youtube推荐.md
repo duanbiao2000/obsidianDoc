@@ -1,10 +1,15 @@
 ---
-aliases: null
+aliases:
 date: 2025-11-16 13:15
-tags: null
-source: null
-rating: null
-related: null
+source:
+rating:
+related:
+  - "[[视频质量评定手册]]"
+  - "[[100个1%DAU提升策略]]"
+  - "[[檀东东Tango风格定位]]"
+  - "[[Google Gem - Brain Storm]]"
+view-count: 3
+update: 2026-01-09 11:12
 ---
 
 以下是数学、英语、编程相关的YouTube博主推荐：

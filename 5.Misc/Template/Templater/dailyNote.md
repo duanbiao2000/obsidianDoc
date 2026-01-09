@@ -6,6 +6,7 @@ categories:
   - Mindset
 tags:
   - Domain/Mindset/Reflection
+view-count: 3
 ---
 
 << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>

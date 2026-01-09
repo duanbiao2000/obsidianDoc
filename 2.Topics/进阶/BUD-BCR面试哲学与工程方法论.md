@@ -1,11 +1,20 @@
 ---
-view-count: 6
+view-count: 10
+update: 2026-01-09 12:12
+related:
+  - "[[基本数据结构]]"
+  - "[[The Quiet Craft-How Micro-Decisions Forge Our Path-Especially in Code]]"
+  - "[[从编码员到问题解决者]]"
+  - "[[2025-12-07-2026开发思维模型转变]]"
+  - "[[文档化Planning]]"
 ---
+
 # BUD-BCR 面试哲学 (Brutally Minimal)
 
 ## 核心定义
 
 **BUD (优化检查表)**
+
 - **B (Bottleneck)**: 瓶颈
 - **U (Unnecessary work)**: 无用功
 - **D (Duplicated work)**: 重复工作
@@ -58,18 +67,21 @@ view-count: 6
 ## 实战应用
 
 **1. 算法题** (Two Sum)
+
 - **B**: 重复查找 → 哈希表
 - **D**: 遍历重复检查 → 一遍扫描
 - **U**: 排序不必要 → 移除
 - **BCR**: O(n) → HashMap 直接命中
 
 **2. Code Review**
+
 - **B**: 逻辑分散 → 提取 middleware
 - **D**: 对象序列化重复 → 统一 BaseModel
 - **U**: 遗留分支 → 移除
 - **BCR**: 可读性最优，认知负荷最低
 
 **3. System Design** (电商)
+
 - **B**: 数据库单点 → 读写分离 + 缓存
 - **D**: 重复鉴权 → 统一 AuthService
 - **U**: 过度容错 → 优先高频路径
@@ -93,6 +105,7 @@ view-count: 6
 ## 终极洞见
 
 卓越工程师的底层逻辑：
+
 1. 识别资源瓶颈 (B)
 2. 消除浪费 (U+D)
 3. 朝向理论最优迭代 (BCR)
@@ -100,7 +113,7 @@ view-count: 6
 **应用范围**: 算法 → 代码 → 系统 → 决策 → 管理
 **核心**
 
-BUD识别低效 + BCR确立目标 = 工程师思维方式  
-过程 > 完美答案  
-优化内建于设计 ≠ 事后补救  
+BUD识别低效 + BCR确立目标 = 工程师思维方式\
+过程 > 完美答案\
+优化内建于设计 ≠ 事后补救\
 所有工程问题 = 资源瓶颈识别 + 浪费消除 + 目标优化
