@@ -1,5 +1,5 @@
 ---
-view-count: 3
+view-count: 4
 update: 2026-01-08 22:15
 related:
   - "[[Agent Engineering]]"
@@ -42,7 +42,7 @@ related:
 >    - *Section 2*: 自动化会议闭环（Teams/Slack集成）。
 >    - *Section 3*: 质量门禁（AI Reviewer）。
 >    - *Meta*: 提示词工程工厂。
-> 6. **Refining (润色 - 高 RIO 风格)**:
+> 6. **Refining (润色 - 高 ROI 风格)**:
 >    - 把“元提示”具象化为 `Prompt Generator`。
 >    - 把“人机协作”具象化为 `Human-in-the-Loop` 检查点。
 >    - 增加具体的 `YAML` 或 `Prompt` 伪代码示例，增强可执行性。

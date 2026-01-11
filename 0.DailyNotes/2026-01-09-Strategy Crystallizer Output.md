@@ -8,7 +8,7 @@ related:
   - "[[2026-01-06-HNW 审美开发选题]]"
   - "[[策略结晶采集器]]"
   - "[[策略结晶容器]]"
-view-count: 3
+view-count: 5
 ---
 
 # Strategy Crystallizer Output

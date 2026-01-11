@@ -1,5 +1,5 @@
 ---
-view-count: 11
+view-count: 12
 update: 2026-01-08 19:44
 related:
   - "[[2025-12-07-2026开发思维模型转变]]"
@@ -201,7 +201,7 @@ tags:
 >    - **关联 Context (历史记忆)**:
 >      - Vertex OS：局部状态优化、超级步、容错。
 >      - PDCA：Plan-Do-Check-Act 循环。
->      - RIO / ROI：追求高产出。
+>      - ROI / ROI：追求高产出。
 >      - MVA：最小可行性行动。
 > 3. **逻辑构建 (Logical Construction)**:
 >    - **宏观框架**：认知升级（内功） + 系统构建（外功）。
