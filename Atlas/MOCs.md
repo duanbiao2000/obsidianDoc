@@ -26,7 +26,7 @@
 - [[_Index_of_FrontEnd]]
 - [[_Index_of_Github]]
 - [[_Index_of_HTML]]
-- [[../4.Archives/IELTS/_Index_of_IELTS]]
+- [[_Index_of_IELTS]]
 - [[Index/_Index_of_Index]]
 - [[kanban/_Index_of_kanban]]
 - [[_Index_of_local]]
