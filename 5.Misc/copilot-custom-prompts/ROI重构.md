@@ -3,15 +3,8 @@ copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
-copilot-command-last-used: 0
-view-count: 4
-update: 2026-01-06 23:13
-related:
-  - "[[可复用的知识单元风格改写]]"
-  - "[[无脑get重点的改写建议]]"
-  - "[[Next Step]]"
+copilot-command-last-used: 1768801296150
 ---
-
 ## 优化目标
 
 提升 {activeNote} 的投资回报率（ROI），定义为：

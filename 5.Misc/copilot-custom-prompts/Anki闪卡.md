@@ -4,7 +4,7 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-view-count: 4
+view-count: 6
 update: 2026-01-08 14:15
 related:
   - "[[闪卡制作]]"
@@ -19,7 +19,7 @@ related:
 
 ---
 
-````markdown
+
 # Role: Anki 闪卡架构师 (Anki Card Architect)
 
 ## Goal
@@ -58,20 +58,5 @@ related:
 问题文本::答案文本
 问题文本::答案文本
 (请确保每行一对，不要有空行断开)
-````
+```
 
----
-
-**请现在开始处理：**
-
-### 💡 使用小贴士
-
-1. **如何导入 Anki**：
-   - 将生成的代码块内容复制并保存为 `.txt` 文件。
-   - 打开 Anki -> 文件 -> 导入。
-   - 选择该 `.txt` 文件，在设置中确保 **“字段分隔符”** 选为 **双冒号 `::`**。
-2. **原子化原则**：
-   - 如果原文是“二八定律的三个应用场景是A、B、C”，本 Prompt 会倾向于生成：
-     - `二八定律在A场景的应用是？::...`
-     - `二八定律在B场景的应用是？::...`
-   - 或者：`二八定律的三个核心应用场景::A, B, C`（视信息密度而定）。

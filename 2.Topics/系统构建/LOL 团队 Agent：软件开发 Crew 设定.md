@@ -1,5 +1,5 @@
 ---
-view-count: 4
+view-count: 6
 ---
 
 ### 一、 核心本质

@@ -7,7 +7,7 @@ tags:
   - Domain/Creativity/Github
   - Status/Workflow
 update: 2024-11-10 20:08
-view-count: 11
+view-count: 12
 related:
   - "[[如何为开源项目贡献你的第一个PR]]"
   - "[[2025-12-10-高质量开源项目的特征]]"

@@ -1,0 +1,267 @@
+﻿source_path,target_path,confidence,matched_rule,old_title,new_title
+0.DailyNotes\12-Factor App 故障排查手册.md,2.Topics/Coding/系统设计/12-Factor App 故障排查手册.md,HIGH,B1-12-Factor,12-Factor App 故障排查手册.md,12-Factor App 故障排查手册.md
+0.DailyNotes\2025 年开发者生存指南-领域知识.md,2.Topics/Coding/系统设计/2025 年开发者生存指南-领域知识.md,HIGH,B2-内容关键词,2025 年开发者生存指南-领域知识.md,2025 年开发者生存指南-领域知识.md
+0.DailyNotes\2025-12-03-specs开发阶段.md,2.Topics/Coding/数据库与存储/specs开发阶段.md,MEDIUM,E2-内容关键词,2025-12-03-specs开发阶段.md,specs开发阶段.md
+0.DailyNotes\2025-12-03-YAGNI 如何改变决策质量.md,2.Topics/Coding/系统设计/YAGNI 如何改变决策质量.md,HIGH,B2-内容关键词,2025-12-03-YAGNI 如何改变决策质量.md,YAGNI 如何改变决策质量.md
+0.DailyNotes\2025-12-03-大模型选型决策树.md,2.Topics/Coding/AI与大模型/大模型选型决策树.md,HIGH,C1-大模型,2025-12-03-大模型选型决策树.md,大模型选型决策树.md
+0.DailyNotes\2025-12-03-并发基础核心解析.md,2.Topics/Coding/系统设计/并发基础核心解析.md,HIGH,B2-内容关键词,2025-12-03-并发基础核心解析.md,并发基础核心解析.md
+0.DailyNotes\2025-12-03-消息队列vs任务队列.md,2.Topics/Coding/系统设计/消息队列vs任务队列.md,HIGH,B2-内容关键词,2025-12-03-消息队列vs任务队列.md,消息队列vs任务队列.md
+0.DailyNotes\2025-12-05-Design Thinking.md,2.Topics/Coding/工程实践/Design Thinking.md,HIGH,D1-Design Thinking,2025-12-05-Design Thinking.md,Design Thinking.md
+0.DailyNotes\2025-12-05-Go与Rust的权衡.md,2.Topics/Coding/语言指南/Go与Rust的权衡.md,HIGH,A1-语言:Rust,2025-12-05-Go与Rust的权衡.md,Go与Rust的权衡.md
+0.DailyNotes\2025-12-05-Python学习套件.md,2.Topics/Coding/语言指南/Python学习套件.md,HIGH,A1-语言:Python,2025-12-05-Python学习套件.md,Python学习套件.md
+0.DailyNotes\2025-12-05-常用中间件.md,2.Topics/Coding/系统设计/常用中间件.md,HIGH,B2-内容关键词,2025-12-05-常用中间件.md,常用中间件.md
+0.DailyNotes\2025-12-06-300行代码解释依赖注入的原理.md,2.Topics/Coding/系统设计/300行代码解释依赖注入的原理.md,HIGH,B2-内容关键词,2025-12-06-300行代码解释依赖注入的原理.md,300行代码解释依赖注入的原理.md
+0.DailyNotes\2025-12-06-企业应用架构模式.md,2.Topics/Coding/系统设计/企业应用架构模式.md,HIGH,B1-架构,2025-12-06-企业应用架构模式.md,企业应用架构模式.md
+0.DailyNotes\2025-12-06-关键知识点学习清单.md,2.Topics/Coding/系统设计/关键知识点学习清单.md,HIGH,B2-内容关键词,2025-12-06-关键知识点学习清单.md,关键知识点学习清单.md
+0.DailyNotes\2025-12-07- 教练式 Code Review.md,2.Topics/Coding/工程实践/ 教练式 Code Review.md,HIGH,D1-Code Review,2025-12-07- 教练式 Code Review.md, 教练式 Code Review.md
+0.DailyNotes\2025-12-07-“创业温床”型公司.md,2.Topics/创业与产品/“创业温床”型公司.md,HIGH,J-创业,2025-12-07-“创业温床”型公司.md,“创业温床”型公司.md
+0.DailyNotes\2025-12-07-带着答案提问.md,2.Topics/Coding/数据库与存储/带着答案提问.md,MEDIUM,E2-内容关键词,2025-12-07-带着答案提问.md,带着答案提问.md
+0.DailyNotes\2025-12-07-系统架构分类框架.md,2.Topics/Coding/系统设计/系统架构分类框架.md,HIGH,B1-架构,2025-12-07-系统架构分类框架.md,系统架构分类框架.md
+0.DailyNotes\2025-12-07-逻辑判断的三个维度.md,UNCATEGORIZED\逻辑判断的三个维度.md,LOW,未匹配任何规则,2025-12-07-逻辑判断的三个维度.md,逻辑判断的三个维度.md
+0.DailyNotes\2025-12-10-行动触发器.md,2.Topics/Coding/工程实践/行动触发器.md,MEDIUM,D2-内容关键词,2025-12-10-行动触发器.md,行动触发器.md
+0.DailyNotes\2025-12-10-高质量开源项目的特征.md,2.Topics/Coding/工程实践/高质量开源项目的特征.md,HIGH,D1-开源,2025-12-10-高质量开源项目的特征.md,高质量开源项目的特征.md
+0.DailyNotes\2025-12-11-AI在写代码领域的当前水平.md,2.Topics/Coding/系统设计/AI在写代码领域的当前水平.md,HIGH,B2-内容关键词,2025-12-11-AI在写代码领域的当前水平.md,AI在写代码领域的当前水平.md
+0.DailyNotes\2025-12-11-写代码 vs 写作：AI评估维度对比.md,2.Topics/Coding/系统设计/写代码 vs 写作：AI评估维度对比.md,HIGH,B2-内容关键词,2025-12-11-写代码 vs 写作：AI评估维度对比.md,写代码 vs 写作：AI评估维度对比.md
+0.DailyNotes\2025-12-11-视野分层.md,2.Topics/写作与英语/写作技巧/视野分层.md,MEDIUM,I2-内容关键词,2025-12-11-视野分层.md,视野分层.md
+0.DailyNotes\2025-12-16-37 signals.md,2.Topics/认知科学/决策框架/37 signals.md,HIGH,F2-37 signals,2025-12-16-37 signals.md,37 signals.md
+0.DailyNotes\2025-12-19-优先级决策者.md,2.Topics/认知科学/思维模型/优先级决策者.md,HIGH,F1-决策,2025-12-19-优先级决策者.md,优先级决策者.md
+0.DailyNotes\2025-12-19-开发过程中的关键不变量.md,UNCATEGORIZED\开发过程中的关键不变量.md,LOW,未匹配任何规则,2025-12-19-开发过程中的关键不变量.md,开发过程中的关键不变量.md
+0.DailyNotes\2025-12-19-极度耐心+极度爆发.md,2.Topics/Coding/工程实践/极度耐心+极度爆发.md,MEDIUM,D2-内容关键词,2025-12-19-极度耐心+极度爆发.md,极度耐心+极度爆发.md
+0.DailyNotes\2025-12-19-源码阅读的蜜蜂算法.md,2.Topics/Coding/工程实践/源码阅读的蜜蜂算法.md,MEDIUM,D2-内容关键词,2025-12-19-源码阅读的蜜蜂算法.md,源码阅读的蜜蜂算法.md
+0.DailyNotes\2025-12-19-蜜蜂算法.md,2.Topics/Coding/工程实践/蜜蜂算法.md,MEDIUM,D2-内容关键词,2025-12-19-蜜蜂算法.md,蜜蜂算法.md
+0.DailyNotes\2025-12-20-商业模式画布.md,2.Topics/创业与产品/商业模式画布.md,HIGH,J-商业模式,2025-12-20-商业模式画布.md,商业模式画布.md
+0.DailyNotes\2025-12-20-常用开发标记.md,2.Topics/Coding/工程实践/常用开发标记.md,HIGH,D1-开发标记,2025-12-20-常用开发标记.md,常用开发标记.md
+0.DailyNotes\2025-12-22-AI大模型知识体系.md,2.Topics/Coding/AI与大模型/AI大模型知识体系.md,HIGH,C1-AI,2025-12-22-AI大模型知识体系.md,AI大模型知识体系.md
+0.DailyNotes\2025-12-25-喜剧的一种可能的境界.md,UNCATEGORIZED\喜剧的一种可能的境界.md,LOW,未匹配任何规则,2025-12-25-喜剧的一种可能的境界.md,喜剧的一种可能的境界.md
+0.DailyNotes\2025-12-27-Bezos.md,2.Topics/创业与产品/Bezos.md,HIGH,J-Bezos,2025-12-27-Bezos.md,Bezos.md
+0.DailyNotes\2025-12-30-Baby Steps 计划.md,2.Topics/Coding/工程实践/Baby Steps 计划.md,MEDIUM,D2-内容关键词,2025-12-30-Baby Steps 计划.md,Baby Steps 计划.md
+0.DailyNotes\2025-12-30-You 2.0 Stop Spiraling!.md,2.Topics/Coding/工程实践/You 2.0 Stop Spiraling!.md,MEDIUM,D2-内容关键词,2025-12-30-You 2.0 Stop Spiraling!.md,You 2.0 Stop Spiraling!.md
+0.DailyNotes\2025-12-30-课堂讨论活动设计指南.md,UNCATEGORIZED\课堂讨论活动设计指南.md,LOW,未匹配任何规则,2025-12-30-课堂讨论活动设计指南.md,课堂讨论活动设计指南.md
+0.DailyNotes\2025-12-30-跨领域播客 Transcript 快速框架构建法.md,2.Topics/Coding/系统设计/跨领域播客 Transcript 快速框架构建法.md,HIGH,B1-架构,2025-12-30-跨领域播客 Transcript 快速框架构建法.md,跨领域播客 Transcript 快速框架构建法.md
+0.DailyNotes\2025-12-31-hacker mindset.md,2.Topics/认知科学/思维模型/hacker mindset.md,HIGH,F1-hacker,2025-12-31-hacker mindset.md,hacker mindset.md
+0.DailyNotes\2025-12-31-分布式集体组合策略.md,2.Topics/Coding/系统设计/分布式集体组合策略.md,HIGH,B1-分布式,2025-12-31-分布式集体组合策略.md,分布式集体组合策略.md
+0.DailyNotes\2025-12-31-系统设计与架构模式.md,2.Topics/Coding/系统设计/系统设计与架构模式.md,HIGH,B1-系统设计,2025-12-31-系统设计与架构模式.md,系统设计与架构模式.md
+0.DailyNotes\2026-01-05-2026年软件开发趋势预测.md,2.Topics/Coding/工程实践/2026年软件开发趋势预测.md,MEDIUM,D2-内容关键词,2026-01-05-2026年软件开发趋势预测.md,2026年软件开发趋势预测.md
+0.DailyNotes\2026-01-05-LeetCode 的竞赛知识点.md,3.Resources/学习资料/学习路径/LeetCode 的竞赛知识点.md,HIGH,K1-LeetCode,2026-01-05-LeetCode 的竞赛知识点.md,LeetCode 的竞赛知识点.md
+0.DailyNotes\2026-01-05-极端帕累托.md,2.Topics/认知科学/决策框架/极端帕累托.md,HIGH,F2-帕累托,2026-01-05-极端帕累托.md,极端帕累托.md
+0.DailyNotes\2026-01-07-用程序员的逻辑整理你的笔记系统.md,2.Topics/Coding/工程实践/用程序员的逻辑整理你的笔记系统.md,MEDIUM,D2-内容关键词,2026-01-07-用程序员的逻辑整理你的笔记系统.md,用程序员的逻辑整理你的笔记系统.md
+0.DailyNotes\2026-01-07-达里奥“机器思维”.md,2.Topics/Coding/工程实践/达里奥“机器思维”.md,MEDIUM,D2-内容关键词,2026-01-07-达里奥“机器思维”.md,达里奥“机器思维”.md
+0.DailyNotes\2026-01-09-Strategy Crystallizer Output.md,2.Topics/写作与英语/写作技巧/Strategy Crystallizer Output.md,MEDIUM,I2-内容关键词,2026-01-09-Strategy Crystallizer Output.md,Strategy Crystallizer Output.md
+0.DailyNotes\2026-01-09-从“现象”到“结构”.md,2.Topics/Coding/系统设计/从“现象”到“结构”.md,HIGH,B2-内容关键词,2026-01-09-从“现象”到“结构”.md,从“现象”到“结构”.md
+0.DailyNotes\2026-01-10-精英复利指标.md,2.Topics/个人效能/生产力系统/精英复利指标.md,HIGH,G2-复利,2026-01-10-精英复利指标.md,精英复利指标.md
+0.DailyNotes\2026-01-11-FabricAI智能助手.md,2.Topics/Coding/AI与大模型/FabricAI智能助手.md,HIGH,C1-AI,2026-01-11-FabricAI智能助手.md,FabricAI智能助手.md
+0.DailyNotes\2026-01-12-TanStack等四个现代框架深度对比.md,2.Topics/Coding/数据库与存储/TanStack等四个现代框架深度对比.md,MEDIUM,E2-内容关键词,2026-01-12-TanStack等四个现代框架深度对比.md,TanStack等四个现代框架深度对比.md
+0.DailyNotes\2026-01-13-无人机与嵌入式系统的关系.md,UNCATEGORIZED\无人机与嵌入式系统的关系.md,LOW,未匹配任何规则,2026-01-13-无人机与嵌入式系统的关系.md,无人机与嵌入式系统的关系.md
+0.DailyNotes\2026-01-15-无人机与嵌入式系统关系图谱.md,UNCATEGORIZED\无人机与嵌入式系统关系图谱.md,LOW,未匹配任何规则,2026-01-15-无人机与嵌入式系统关系图谱.md,无人机与嵌入式系统关系图谱.md
+0.DailyNotes\2026-01-15-程序员能力投入比例实战指南.md,2.Topics/Coding/系统设计/程序员能力投入比例实战指南.md,HIGH,B2-内容关键词,2026-01-15-程序员能力投入比例实战指南.md,程序员能力投入比例实战指南.md
+0.DailyNotes\2026-01-16-.md,UNCATEGORIZED\-.md,LOW,未匹配任何规则,2026-01-16-.md,-.md
+0.DailyNotes\2026-01-17-我遗憾没有早点学到的 25 个生活教训.md,UNCATEGORIZED\我遗憾没有早点学到的 25 个生活教训.md,LOW,未匹配任何规则,2026-01-17-我遗憾没有早点学到的 25 个生活教训.md,我遗憾没有早点学到的 25 个生活教训.md
+0.DailyNotes\2026-01-19-skills选型策略.md,2.Topics/Coding/AI与大模型/skills选型策略.md,MANUAL,人工调整,2026-01-19-skills选型策略.md,skills选型策略.md
+0.DailyNotes\2026-01-19-程序员职业决策框架.md,2.Topics/个人效能/职业发展/程序员职业决策框架.md,MANUAL,人工调整,2026-01-19-程序员职业决策框架.md,程序员职业决策框架.md
+0.DailyNotes\2026-01-19-红灯告警.md,UNCATEGORIZED\红灯告警.md,LOW,未匹配任何规则,2026-01-19-红灯告警.md,红灯告警.md
+0.DailyNotes\2026-01-20-AI能力–采用率鸿沟.md,2.Topics/Coding/AI与大模型/AI能力–采用率鸿沟.md,MANUAL,人工调整,2026-01-20-AI能力–采用率鸿沟.md,AI能力–采用率鸿沟.md
+0.DailyNotes\2026-01-21-.md,2.Topics/Coding/AI与大模型/-.md,HIGH,C2-Prompt,2026-01-21-.md,-.md
+0.DailyNotes\48小时学习计划.md,2.Topics/Coding/系统设计/48小时学习计划.md,HIGH,B2-内容关键词,48小时学习计划.md,48小时学习计划.md
+0.DailyNotes\@每日速记笔记.md,0.DailyNotes/特殊文件/@每日速记笔记.md,SPECIAL,模板文件,@每日速记笔记.md,@每日速记笔记.md
+0.DailyNotes\AI 协作白皮书.md,2.Topics/Coding/AI与大模型/AI 协作白皮书.md,MANUAL,人工调整,AI 协作白皮书.md,AI 协作白皮书.md
+0.DailyNotes\B站推荐系统设计.md,2.Topics/Coding/系统设计/B站推荐系统设计.md,MANUAL,人工调整,B站推荐系统设计.md,B站推荐系统设计.md
+0.DailyNotes\commit 和 PR的选择.md,2.Topics/Coding/工程实践/commit 和 PR的选择.md,MANUAL,人工调整,commit 和 PR的选择.md,commit 和 PR的选择.md
+0.DailyNotes\CPython源码阅读与理解.md,2.Topics/Coding/语言指南/CPython源码阅读与理解.md,MANUAL,人工调整,CPython源码阅读与理解.md,CPython源码阅读与理解.md
+0.DailyNotes\HIIT训练指南.md,2.Topics/Coding/工程实践/HIIT训练指南.md,MEDIUM,D2-内容关键词,HIIT训练指南.md,HIIT训练指南.md
+0.DailyNotes\IOC（控制反转）和 DI（依赖注入）.md,2.Topics/Coding/系统设计/IOC（控制反转）和 DI（依赖注入）.md,MANUAL,人工调整,IOC（控制反转）和 DI（依赖注入）.md,IOC（控制反转）和 DI（依赖注入）.md
+0.DailyNotes\Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md,2.Topics/Coding/语言指南/Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md,HIGH,A1-语言:Java,Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md,Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md
+0.DailyNotes\Java 注解.md,2.Topics/Coding/语言指南/Java 注解.md,MANUAL,人工调整,Java 注解.md,Java 注解.md
+0.DailyNotes\non-obvious-only principle.md,2.Topics/认知科学/思维模型/non-obvious-only principle.md,MANUAL,人工调整,non-obvious-only principle.md,non-obvious-only principle.md
+0.DailyNotes\Plan文档比较与实例.md,2.Topics/Coding/工程实践/Plan文档比较与实例.md,MANUAL,人工调整,Plan文档比较与实例.md,Plan文档比较与实例.md
+0.DailyNotes\PostgreSQL开发者实战指南.md,2.Topics/Coding/语言指南/PostgreSQL开发者实战指南.md,HIGH,A1-语言:SQL,PostgreSQL开发者实战指南.md,PostgreSQL开发者实战指南.md
+0.DailyNotes\Pydantic的数据验证机制和性能优化.md,2.Topics/Coding/语言指南/Pydantic的数据验证机制和性能优化.md,HIGH,A1-语言:Pydantic,Pydantic的数据验证机制和性能优化.md,Pydantic的数据验证机制和性能优化.md
+0.DailyNotes\Python 系统设计 6 小时突破方案.md,2.Topics/Coding/语言指南/Python 系统设计 6 小时突破方案.md,HIGH,A1-语言:Python,Python 系统设计 6 小时突破方案.md,Python 系统设计 6 小时突破方案.md
+0.DailyNotes\Python代码注释规范自适应提示词.md,2.Topics/Coding/语言指南/Python代码注释规范自适应提示词.md,HIGH,A1-语言:Python,Python代码注释规范自适应提示词.md,Python代码注释规范自适应提示词.md
+0.DailyNotes\Python生态深度 × 能量节律优化.md,2.Topics/Coding/语言指南/Python生态深度 × 能量节律优化.md,HIGH,A1-语言:Python,Python生态深度 × 能量节律优化.md,Python生态深度 × 能量节律优化.md
+0.DailyNotes\RFC战略框架.md,2.Topics/Coding/工程实践/RFC战略框架.md,MANUAL,人工调整,RFC战略框架.md,RFC战略框架.md
+0.DailyNotes\Roadmap.md,2.Topics/Coding/工程实践/Roadmap.md,MEDIUM,D2-内容关键词,Roadmap.md,Roadmap.md
+0.DailyNotes\Rust 异步与并发系统学习路径.md,2.Topics/Coding/语言指南/Rust 异步与并发系统学习路径.md,HIGH,A1-语言:Rust,Rust 异步与并发系统学习路径.md,Rust 异步与并发系统学习路径.md
+0.DailyNotes\Rust生产级综合开发技能学习系统提示词模板.md,2.Topics/Coding/语言指南/Rust生产级综合开发技能学习系统提示词模板.md,HIGH,A1-语言:Rust,Rust生产级综合开发技能学习系统提示词模板.md,Rust生产级综合开发技能学习系统提示词模板.md
+0.DailyNotes\sequential - thinking的适用场景.md,2.Topics/Coding/AI与大模型/sequential - thinking的适用场景.md,MANUAL,人工调整,sequential - thinking的适用场景.md,sequential - thinking的适用场景.md
+0.DailyNotes\Spec-Driven Development（规格驱动开发）.md,2.Topics/Coding/工程实践/Spec-Driven Development（规格驱动开发）.md,HIGH,D1-Spec-Driven,Spec-Driven Development（规格驱动开发）.md,Spec-Driven Development（规格驱动开发）.md
+0.DailyNotes\Spec-Kit 规范即代码.md,2.Topics/Coding/工程实践/Spec-Kit 规范即代码.md,MANUAL,人工调整,Spec-Kit 规范即代码.md,Spec-Kit 规范即代码.md
+0.DailyNotes\SpecKit四个阶段.md,2.Topics/Coding/工程实践/SpecKit四个阶段.md,MEDIUM,D2-内容关键词,SpecKit四个阶段.md,SpecKit四个阶段.md
+0.DailyNotes\TDD 驱动良好设计的 Go 语言实战案例.md,2.Topics/Coding/语言指南/TDD 驱动良好设计的 Go 语言实战案例.md,HIGH,A1-语言:Go,TDD 驱动良好设计的 Go 语言实战案例.md,TDD 驱动良好设计的 Go 语言实战案例.md
+0.DailyNotes\Tech Stack Selection Guide Build Smart Not Overcomplicated.md,2.Topics/Coding/语言指南/Tech Stack Selection Guide Build Smart Not Overcomplicated.md,MANUAL,人工调整,Tech Stack Selection Guide Build Smart Not Overcomplicated.md,Tech Stack Selection Guide Build Smart Not Overcomplicated.md
+0.DailyNotes\Testing and Quality Assurance Agent.md,2.Topics/Coding/工程实践/Testing and Quality Assurance Agent.md,MANUAL,人工调整,Testing and Quality Assurance Agent.md,Testing and Quality Assurance Agent.md
+0.DailyNotes\The Effective Engineer GPT5.1high版本.md,2.Topics/Coding/AI与大模型/The Effective Engineer GPT5.1high版本.md,MANUAL,人工调整,The Effective Engineer GPT5.1high版本.md,The Effective Engineer GPT5.1high版本.md
+0.DailyNotes\The Effective Engineer.md,2.Topics/个人效能/职业发展/The Effective Engineer.md,MANUAL,人工调整,The Effective Engineer.md,The Effective Engineer.md
+0.DailyNotes\the-book-of-secret-knowledge.md,2.Topics/Coding/AI与大模型/the-book-of-secret-knowledge.md,MANUAL,人工调整,the-book-of-secret-knowledge.md,the-book-of-secret-knowledge.md
+0.DailyNotes\TypeScript 编译器用Go改写.md,2.Topics/Coding/语言指南/TypeScript 编译器用Go改写.md,HIGH,A1-语言:Go,TypeScript 编译器用Go改写.md,TypeScript 编译器用Go改写.md
+0.DailyNotes\Watch out for grab-bags.md,2.Topics/Coding/工程实践/Watch out for grab-bags.md,MANUAL,人工调整,Watch out for grab-bags.md,Watch out for grab-bags.md
+0.DailyNotes\_Index_of_0.DailyNotes.md,0.DailyNotes/特殊文件/_Index_of_0.DailyNotes.md,SPECIAL,索引文件,_Index_of_0.DailyNotes.md,_Index_of_0.DailyNotes.md
+0.DailyNotes\产品经理视角.md,2.Topics/创业与产品/产品方法论/产品经理视角.md,MANUAL,人工调整,产品经理视角.md,产品经理视角.md
+0.DailyNotes\从 Code Review 到挑战性项目.md,2.Topics/Coding/工程实践/从 Code Review 到挑战性项目.md,MANUAL,人工调整,从 Code Review 到挑战性项目.md,从 Code Review 到挑战性项目.md
+0.DailyNotes\从编码量到编码素养的系统化训练路径.md,2.Topics/Coding/工程实践/从编码量到编码素养的系统化训练路径.md,MANUAL,人工调整,从编码量到编码素养的系统化训练路径.md,从编码量到编码素养的系统化训练路径.md
+0.DailyNotes\代码认知负荷：高效工程的底层度量.md,2.Topics/Coding/系统设计/代码认知负荷：高效工程的底层度量.md,MANUAL,人工调整,代码认知负荷：高效工程的底层度量.md,代码认知负荷：高效工程的底层度量.md
+0.DailyNotes\代码质量分析和代码审查.md,2.Topics/Coding/工程实践/代码质量分析和代码审查.md,MANUAL,人工调整,代码质量分析和代码审查.md,代码质量分析和代码审查.md
+0.DailyNotes\使用向量操作SIMD优化.md,2.Topics/Coding/语言指南/使用向量操作SIMD优化.md,MANUAL,人工调整,使用向量操作SIMD优化.md,使用向量操作SIMD优化.md
+0.DailyNotes\健身塑形系统训练指南.md,2.Topics/健康生活/训练协议/健身塑形系统训练指南.md,HIGH,H1-健身,健身塑形系统训练指南.md,健身塑形系统训练指南.md
+0.DailyNotes\原则驱动行动.md,2.Topics/Coding/工程实践/原则驱动行动.md,MEDIUM,D2-内容关键词,原则驱动行动.md,原则驱动行动.md
+0.DailyNotes\單頁黃金法則.md,UNCATEGORIZED\單頁黃金法則.md,LOW,未匹配任何规则,單頁黃金法則.md,單頁黃金法則.md
+0.DailyNotes\在项目中包含数百个可运行的 example.rs文件.md,UNCATEGORIZED\在项目中包含数百个可运行的 example.rs文件.md,LOW,未匹配任何规则,在项目中包含数百个可运行的 example.rs文件.md,在项目中包含数百个可运行的 example.rs文件.md
+0.DailyNotes\多智能体系统如何像顶尖研究团队一样协同工作.md,2.Topics/Coding/AI与大模型/多智能体系统如何像顶尖研究团队一样协同工作.md,HIGH,C1-智能,多智能体系统如何像顶尖研究团队一样协同工作.md,多智能体系统如何像顶尖研究团队一样协同工作.md
+0.DailyNotes\多线程的主要用途.md,2.Topics/Coding/数据库与存储/多线程的主要用途.md,MEDIUM,E2-内容关键词,多线程的主要用途.md,多线程的主要用途.md
+0.DailyNotes\如何像程序员一样思考.md,2.Topics/Coding/工程实践/如何像程序员一样思考.md,MEDIUM,D2-内容关键词,如何像程序员一样思考.md,如何像程序员一样思考.md
+0.DailyNotes\如何快速有效获取特定领域知识.md,2.Topics/Coding/工程实践/如何快速有效获取特定领域知识.md,MEDIUM,D2-内容关键词,如何快速有效获取特定领域知识.md,如何快速有效获取特定领域知识.md
+0.DailyNotes\实体类在开发中的作用.md,2.Topics/Coding/数据库与存储/实体类在开发中的作用.md,MEDIUM,E2-内容关键词,实体类在开发中的作用.md,实体类在开发中的作用.md
+0.DailyNotes\实时应用架构设计指南.md,2.Topics/Coding/系统设计/实时应用架构设计指南.md,HIGH,B1-架构,实时应用架构设计指南.md,实时应用架构设计指南.md
+0.DailyNotes\工效理论.md,2.Topics/认知科学/思维模型/工效理论.md,MANUAL,人工调整,工效理论.md,工效理论.md
+0.DailyNotes\恰当的抽象.md,2.Topics/Coding/系统设计/恰当的抽象.md,MANUAL,人工调整,恰当的抽象.md,恰当的抽象.md
+0.DailyNotes\技术移民线路图反向分析.md,UNCATEGORIZED\技术移民线路图反向分析.md,LOW,未匹配任何规则,技术移民线路图反向分析.md,技术移民线路图反向分析.md
+0.DailyNotes\按能力维度精选开源项目清单.md,2.Topics/Coding/工程实践/按能力维度精选开源项目清单.md,MANUAL,人工调整,按能力维度精选开源项目清单.md,按能力维度精选开源项目清单.md
+0.DailyNotes\数据库类型的最佳使用场景.md,2.Topics/Coding/数据库与存储/数据库类型的最佳使用场景.md,MANUAL,人工调整,数据库类型的最佳使用场景.md,数据库类型的最佳使用场景.md
+0.DailyNotes\文档化Planning.md,2.Topics/Coding/工程实践/文档化Planning.md,MANUAL,人工调整,文档化Planning.md,文档化Planning.md
+0.DailyNotes\有序带来效率.md,2.Topics/个人效能/生产力系统/有序带来效率.md,MANUAL,人工调整,有序带来效率.md,有序带来效率.md
+0.DailyNotes\权利的48条法则.md,2.Topics/个人效能/生产力系统/权利的48条法则.md,MANUAL,人工调整,权利的48条法则.md,权利的48条法则.md
+0.DailyNotes\每日固定动作.md,2.Topics/认知科学/行动协议/每日固定动作.md,HIGH,F3-每日固定,每日固定动作.md,每日固定动作.md
+0.DailyNotes\独立开发陷阱.md,2.Topics/创业与产品/商业模式/独立开发陷阱.md,MANUAL,人工调整,独立开发陷阱.md,独立开发陷阱.md
+0.DailyNotes\知识库健康度评估矩阵.md,2.Topics/认知科学/学习系统/知识库健康度评估矩阵.md,MANUAL,人工调整,知识库健康度评估矩阵.md,知识库健康度评估矩阵.md
+0.DailyNotes\程序员幸福力重建手册.md,2.Topics/个人效能/职业发展/程序员幸福力重建手册.md,MANUAL,人工调整,程序员幸福力重建手册.md,程序员幸福力重建手册.md
+0.DailyNotes\程序员的思维跃迁原则.md,2.Topics/认知科学/思维模型/程序员的思维跃迁原则.md,MANUAL,人工调整,程序员的思维跃迁原则.md,程序员的思维跃迁原则.md
+0.DailyNotes\程序员的深度反思.md,2.Topics/个人效能/职业发展/程序员的深度反思.md,MANUAL,人工调整,程序员的深度反思.md,程序员的深度反思.md
+0.DailyNotes\策略结晶容器.md,2.Topics/个人效能/生产力系统/策略结晶容器.md,MANUAL,人工调整,策略结晶容器.md,策略结晶容器.md
+0.DailyNotes\简胜于繁.md,2.Topics/认知科学/思维模型/简胜于繁.md,MANUAL,人工调整,简胜于繁.md,简胜于繁.md
+0.DailyNotes\精英惯用四库速查清单.md,2.Topics/个人效能/生产力系统/精英惯用四库速查清单.md,MANUAL,人工调整,精英惯用四库速查清单.md,精英惯用四库速查清单.md
+0.DailyNotes\线上应用性能瓶颈与报错排查思路.md,2.Topics/Coding/系统设计/线上应用性能瓶颈与报错排查思路.md,HIGH,B2-内容关键词,线上应用性能瓶颈与报错排查思路.md,线上应用性能瓶颈与报错排查思路.md
+0.DailyNotes\编程专业思维指南.md,2.Topics/认知科学/思维模型/编程专业思维指南.md,MANUAL,人工调整,编程专业思维指南.md,编程专业思维指南.md
+0.DailyNotes\编程范式与思维模式映射.md,2.Topics/Coding/系统设计/编程范式与思维模式映射.md,MANUAL,人工调整,编程范式与思维模式映射.md,编程范式与思维模式映射.md
+0.DailyNotes\语篇能力培养.md,2.Topics/写作与英语/写作技巧/语篇能力培养.md,MANUAL,人工调整,语篇能力培养.md,语篇能力培养.md
+0.DailyNotes\避开“认知突破”的幻觉.md,2.Topics/Coding/工程实践/避开“认知突破”的幻觉.md,MEDIUM,D2-内容关键词,避开“认知突破”的幻觉.md,避开“认知突破”的幻觉.md
+0.DailyNotes\问题模式：跨语言解题内核.md,2.Topics/Coding/语言指南/问题模式：跨语言解题内核.md,MANUAL,人工调整,问题模式：跨语言解题内核.md,问题模式：跨语言解题内核.md
+0.DailyNotes\非传统开发者的成长指南.md,2.Topics/个人效能/职业发展/非传统开发者的成长指南.md,MANUAL,人工调整,非传统开发者的成长指南.md,非传统开发者的成长指南.md
+0.DailyNotes\面向长期演化的个人知识操作系统.md,2.Topics/认知科学/学习系统/面向长期演化的个人知识操作系统.md,MANUAL,人工调整,面向长期演化的个人知识操作系统.md,面向长期演化的个人知识操作系统.md
+0.DailyNotes\高效学习 Python 系统设计.md,2.Topics/Coding/语言指南/高效学习 Python 系统设计.md,HIGH,A1-语言:Python,高效学习 Python 系统设计.md,高效学习 Python 系统设计.md
+0.DailyNotes\0.mindset\.md,0.DailyNotes/特殊文件/.md,SPECIAL,系统文件,.md,.md
+0.DailyNotes\0.mindset\10x 实战手册.md,2.Topics/认知科学/思维模型/10x 实战手册.md,MANUAL,0.mindset-批量调整,10x 实战手册.md,10x 实战手册.md
+0.DailyNotes\0.mindset\2025-11-24-提升味觉触觉嗅觉.md,UNCATEGORIZED\提升味觉触觉嗅觉.md,LOW,未匹配任何规则,2025-11-24-提升味觉触觉嗅觉.md,提升味觉触觉嗅觉.md
+0.DailyNotes\0.mindset\2025-11-25- Post-MVP.md,2.Topics/创业与产品/ Post-MVP.md,HIGH,J-MVP,2025-11-25- Post-MVP.md, Post-MVP.md
+0.DailyNotes\0.mindset\2025-11-25-为什么游戏开发适合提升编程能力.md,2.Topics/Coding/工程实践/为什么游戏开发适合提升编程能力.md,MEDIUM,D2-内容关键词,2025-11-25-为什么游戏开发适合提升编程能力.md,为什么游戏开发适合提升编程能力.md
+0.DailyNotes\0.mindset\2025-11-26-开启学习引导模式.md,2.Topics/认知科学/学习系统/开启学习引导模式.md,HIGH,F4-学习,2025-11-26-开启学习引导模式.md,开启学习引导模式.md
+0.DailyNotes\0.mindset\2025-11-26-求实原则.md,2.Topics/认知科学/行动协议/求实原则.md,HIGH,F3-原则,2025-11-26-求实原则.md,求实原则.md
+0.DailyNotes\0.mindset\2025-11-26-测试最佳实践.md,2.Topics/Coding/工程实践/测试最佳实践.md,HIGH,D1-测试,2025-11-26-测试最佳实践.md,测试最佳实践.md
+0.DailyNotes\0.mindset\2025-11-30-像世界上1%的富人一样管理金钱.md,UNCATEGORIZED\像世界上1%的富人一样管理金钱.md,LOW,未匹配任何规则,2025-11-30-像世界上1%的富人一样管理金钱.md,像世界上1%的富人一样管理金钱.md
+0.DailyNotes\0.mindset\2025-11-30-可迁移策略.md,2.Topics/Coding/工程实践/可迁移策略.md,MEDIUM,D2-内容关键词,2025-11-30-可迁移策略.md,可迁移策略.md
+0.DailyNotes\0.mindset\2025-12-04-系统设计文档与 PRD、Spec.md,2.Topics/Coding/系统设计/系统设计文档与 PRD、Spec.md,HIGH,B1-系统设计,2025-12-04-系统设计文档与 PRD、Spec.md,系统设计文档与 PRD、Spec.md
+0.DailyNotes\0.mindset\2025-12-13-学习知识库架构.md,2.Topics/Coding/系统设计/学习知识库架构.md,HIGH,B1-架构,2025-12-13-学习知识库架构.md,学习知识库架构.md
+0.DailyNotes\0.mindset\2025-W14.md,0.DailyNotes/特殊文件/2025-W14.md,SPECIAL,周复盘,2025-W14.md,2025-W14.md
+0.DailyNotes\0.mindset\20251116 - 读书摘要.md,UNCATEGORIZED\读书摘要.md,LOW,未匹配任何规则,20251116 - 读书摘要.md,读书摘要.md
+0.DailyNotes\0.mindset\5级DES高分写作用语习惯.md,2.Topics/写作与英语/英语学习/5级DES高分写作用语习惯.md,MANUAL,0.mindset-批量调整,5级DES高分写作用语习惯.md,5级DES高分写作用语习惯.md
+0.DailyNotes\0.mindset\AI协作作战手册设计规范 v1.0.md,2.Topics/Coding/AI与大模型/AI协作作战手册设计规范 v1.0.md,MANUAL,0.mindset-批量调整,AI协作作战手册设计规范 v1.0.md,AI协作作战手册设计规范 v1.0.md
+0.DailyNotes\0.mindset\Arc-将蓝图细化为具体的装配指令.md,2.Topics/Coding/AI与大模型/Arc-将蓝图细化为具体的装配指令.md,MANUAL,0.mindset-批量调整,Arc-将蓝图细化为具体的装配指令.md,Arc-将蓝图细化为具体的装配指令.md
+0.DailyNotes\0.mindset\CheeryStudio自反能力提示词生成器.md,2.Topics/Coding/AI与大模型/CheeryStudio自反能力提示词生成器.md,MANUAL,0.mindset-批量调整,CheeryStudio自反能力提示词生成器.md,CheeryStudio自反能力提示词生成器.md
+0.DailyNotes\0.mindset\DSE 英文写作结构公式.md,2.Topics/写作与英语/英语学习/DSE 英文写作结构公式.md,MANUAL,0.mindset-批量调整,DSE 英文写作结构公式.md,DSE 英文写作结构公式.md
+0.DailyNotes\0.mindset\Google Gem - Brain Storm.md,2.Topics/Coding/AI与大模型/Google Gem - Brain Storm.md,MANUAL,0.mindset-批量调整,Google Gem - Brain Storm.md,Google Gem - Brain Storm.md
+0.DailyNotes\0.mindset\LOL游戏启示录.md,2.Topics/个人效能/职业发展/LOL游戏启示录.md,MANUAL,0.mindset-批量调整,LOL游戏启示录.md,LOL游戏启示录.md
+0.DailyNotes\0.mindset\Making cool stuff.md,2.Topics/创业与产品/商业模式/Making cool stuff.md,MANUAL,0.mindset-批量调整,Making cool stuff.md,Making cool stuff.md
+0.DailyNotes\0.mindset\ManicTime量化.md,2.Topics/个人效能/生产力系统/ManicTime量化.md,MANUAL,0.mindset-批量调整,ManicTime量化.md,ManicTime量化.md
+"0.DailyNotes\0.mindset\No Magic, Just Code设计哲学.md","2.Topics/Coding/系统设计/No Magic, Just Code设计哲学.md",MANUAL,0.mindset-批量调整,"No Magic, Just Code设计哲学.md","No Magic, Just Code设计哲学.md"
+0.DailyNotes\0.mindset\PARACAP项目管理结构.md,2.Topics/创业与产品/产品方法论/PARACAP项目管理结构.md,MANUAL,0.mindset-批量调整,PARACAP项目管理结构.md,PARACAP项目管理结构.md
+0.DailyNotes\0.mindset\PDCA：独立开发者的“个人引擎”升级指南.md,2.Topics/创业与产品/商业模式/PDCA：独立开发者的“个人引擎”升级指南.md,MANUAL,0.mindset-批量调整,PDCA：独立开发者的“个人引擎”升级指南.md,PDCA：独立开发者的“个人引擎”升级指南.md
+0.DailyNotes\0.mindset\Prompt 模板库结构设计.md,2.Topics/Coding/AI与大模型/Prompt 模板库结构设计.md,MANUAL,0.mindset-批量调整,Prompt 模板库结构设计.md,Prompt 模板库结构设计.md
+0.DailyNotes\0.mindset\Task Graph建模适用场景.md,2.Topics/Coding/系统设计/Task Graph建模适用场景.md,MANUAL,0.mindset-批量调整,Task Graph建模适用场景.md,Task Graph建模适用场景.md
+0.DailyNotes\0.mindset\The Trump Business Wisdom Collection.md,2.Topics/创业与产品/商业模式/The Trump Business Wisdom Collection.md,MANUAL,0.mindset-批量调整,The Trump Business Wisdom Collection.md,The Trump Business Wisdom Collection.md
+0.DailyNotes\0.mindset\YAGNI 原则.md,2.Topics/认知科学/思维模型/YAGNI 原则.md,MANUAL,0.mindset-批量调整,YAGNI 原则.md,YAGNI 原则.md
+0.DailyNotes\0.mindset\Youtube开发系主播清单.md,2.Topics/个人效能/职业发展/Youtube开发系主播清单.md,MANUAL,0.mindset-批量调整,Youtube开发系主播清单.md,Youtube开发系主播清单.md
+0.DailyNotes\0.mindset\上下文工程.md,2.Topics/Coding/AI与大模型/上下文工程.md,MANUAL,0.mindset-批量调整,上下文工程.md,上下文工程.md
+0.DailyNotes\0.mindset\上下文工程解析.md,2.Topics/Coding/AI与大模型/上下文工程解析.md,MANUAL,0.mindset-批量调整,上下文工程解析.md,上下文工程解析.md
+0.DailyNotes\0.mindset\不为清单：系统熵增防御协议.md,2.Topics/认知科学/行动协议/不为清单：系统熵增防御协议.md,MANUAL,0.mindset-批量调整,不为清单：系统熵增防御协议.md,不为清单：系统熵增防御协议.md
+0.DailyNotes\0.mindset\专家领域强方法.md,2.Topics/认知科学/思维模型/专家领域强方法.md,MANUAL,0.mindset-批量调整,专家领域强方法.md,专家领域强方法.md
+0.DailyNotes\0.mindset\个人思维源码生成库.md,2.Topics/认知科学/思维模型/个人思维源码生成库.md,MANUAL,0.mindset-批量调整,个人思维源码生成库.md,个人思维源码生成库.md
+0.DailyNotes\0.mindset\个人效能白皮书.md,2.Topics/个人效能/生产力系统/个人效能白皮书.md,MANUAL,0.mindset-批量调整,个人效能白皮书.md,个人效能白皮书.md
+0.DailyNotes\0.mindset\临时笔记→常青笔记转化.md,2.Topics/认知科学/学习系统/临时笔记→常青笔记转化.md,MANUAL,0.mindset-批量调整,临时笔记→常青笔记转化.md,临时笔记→常青笔记转化.md
+0.DailyNotes\0.mindset\产品经理具体职责及常规交付件.md,2.Topics/创业与产品/产品方法论/产品经理具体职责及常规交付件.md,MANUAL,0.mindset-批量调整,产品经理具体职责及常规交付件.md,产品经理具体职责及常规交付件.md
+0.DailyNotes\0.mindset\产品经理都有哪些常用方法论.md,2.Topics/创业与产品/产品方法论/产品经理都有哪些常用方法论.md,MANUAL,0.mindset-批量调整,产品经理都有哪些常用方法论.md,产品经理都有哪些常用方法论.md
+0.DailyNotes\0.mindset\人类情绪能量表：OS情绪监控模块.md,2.Topics/认知科学/思维模型/人类情绪能量表：OS情绪监控模块.md,MANUAL,0.mindset-批量调整,人类情绪能量表：OS情绪监控模块.md,人类情绪能量表：OS情绪监控模块.md
+0.DailyNotes\0.mindset\代码与笔记中的品味.md,2.Topics/认知科学/学习系统/代码与笔记中的品味.md,HIGH,F4-笔记,代码与笔记中的品味.md,代码与笔记中的品味.md
+0.DailyNotes\0.mindset\任务层级.md,2.Topics/Coding/工程实践/任务层级.md,MEDIUM,D2-内容关键词,任务层级.md,任务层级.md
+0.DailyNotes\0.mindset\优秀Youtube推荐.md,UNCATEGORIZED\优秀Youtube推荐.md,LOW,未匹配任何规则,优秀Youtube推荐.md,优秀Youtube推荐.md
+0.DailyNotes\0.mindset\作品意识.md,2.Topics/Coding/工程实践/作品意识.md,MEDIUM,D2-内容关键词,作品意识.md,作品意识.md
+0.DailyNotes\0.mindset\信息到能力：知识工程的系统化框架.md,UNCATEGORIZED\信息到能力：知识工程的系统化框架.md,LOW,未匹配任何规则,信息到能力：知识工程的系统化框架.md,信息到能力：知识工程的系统化框架.md
+0.DailyNotes\0.mindset\先优化内核，再设计API.md,2.Topics/Coding/工程实践/先优化内核，再设计API.md,MEDIUM,D2-内容关键词,先优化内核，再设计API.md,先优化内核，再设计API.md
+0.DailyNotes\0.mindset\关注圈 vs 影响力圈.md,UNCATEGORIZED\关注圈 vs 影响力圈.md,LOW,未匹配任何规则,关注圈 vs 影响力圈.md,关注圈 vs 影响力圈.md
+0.DailyNotes\0.mindset\关系 × 社交 × 设计 × 金钱.md,UNCATEGORIZED\关系 × 社交 × 设计 × 金钱.md,LOW,未匹配任何规则,关系 × 社交 × 设计 × 金钱.md,关系 × 社交 × 设计 × 金钱.md
+0.DailyNotes\0.mindset\具体笔记框架的实际运用(模板).md,2.Topics/认知科学/学习系统/具体笔记框架的实际运用(模板).md,MANUAL,0.mindset-批量调整,具体笔记框架的实际运用(模板).md,具体笔记框架的实际运用(模板).md
+0.DailyNotes\0.mindset\决策艺术与科学.md,2.Topics/认知科学/思维模型/决策艺术与科学.md,HIGH,F1-决策,决策艺术与科学.md,决策艺术与科学.md
+0.DailyNotes\0.mindset\分子级卡片盒.md,2.Topics/写作与英语/写作技巧/分子级卡片盒.md,MEDIUM,I2-内容关键词,分子级卡片盒.md,分子级卡片盒.md
+0.DailyNotes\0.mindset\创新发明范式-TRIZ 理论.md,UNCATEGORIZED\创新发明范式-TRIZ 理论.md,LOW,未匹配任何规则,创新发明范式-TRIZ 理论.md,创新发明范式-TRIZ 理论.md
+"0.DailyNotes\0.mindset\剪辑工作流-产品如活物,用者无机心.md","2.Topics/Coding/工程实践/剪辑工作流-产品如活物,用者无机心.md",MEDIUM,D2-内容关键词,"剪辑工作流-产品如活物,用者无机心.md","剪辑工作流-产品如活物,用者无机心.md"
+0.DailyNotes\0.mindset\勾玄提要四步法.md,UNCATEGORIZED\勾玄提要四步法.md,LOW,未匹配任何规则,勾玄提要四步法.md,勾玄提要四步法.md
+0.DailyNotes\0.mindset\原理先行.md,2.Topics/Coding/数据库与存储/原理先行.md,MEDIUM,E2-内容关键词,原理先行.md,原理先行.md
+0.DailyNotes\0.mindset\复利效应.md,2.Topics/Coding/工程实践/复利效应.md,MEDIUM,D2-内容关键词,复利效应.md,复利效应.md
+0.DailyNotes\0.mindset\如何为开源项目贡献你的第一个PR.md,2.Topics/Coding/工程实践/如何为开源项目贡献你的第一个PR.md,HIGH,D1-开源,如何为开源项目贡献你的第一个PR.md,如何为开源项目贡献你的第一个PR.md
+0.DailyNotes\0.mindset\如何培养真正的专家特质.md,UNCATEGORIZED\如何培养真正的专家特质.md,LOW,未匹配任何规则,如何培养真正的专家特质.md,如何培养真正的专家特质.md
+0.DailyNotes\0.mindset\如何增强笔记内容的可提取性.md,2.Topics/认知科学/学习系统/如何增强笔记内容的可提取性.md,MANUAL,0.mindset-批量调整,如何增强笔记内容的可提取性.md,如何增强笔记内容的可提取性.md
+0.DailyNotes\0.mindset\如何学习一门编程语言.md,2.Topics/认知科学/学习系统/如何学习一门编程语言.md,MANUAL,0.mindset-批量调整,如何学习一门编程语言.md,如何学习一门编程语言.md
+0.DailyNotes\0.mindset\如何构建知识质量飞轮.md,2.Topics/Coding/工程实践/如何构建知识质量飞轮.md,MEDIUM,D2-内容关键词,如何构建知识质量飞轮.md,如何构建知识质量飞轮.md
+0.DailyNotes\0.mindset\如何进行逐字稿优化.md,2.Topics/Coding/AI与大模型/如何进行逐字稿优化.md,HIGH,C2-Prompt,如何进行逐字稿优化.md,如何进行逐字稿优化.md
+0.DailyNotes\0.mindset\对话.md,2.Topics/Coding/工程实践/对话.md,MEDIUM,D2-内容关键词,对话.md,对话.md
+0.DailyNotes\0.mindset\尽量避免选用行业报告类资料.md,2.Topics/Coding/AI与大模型/尽量避免选用行业报告类资料.md,HIGH,C2-Prompt,尽量避免选用行业报告类资料.md,尽量避免选用行业报告类资料.md
+0.DailyNotes\0.mindset\山洞困局保命参考.md,2.Topics/Coding/工程实践/山洞困局保命参考.md,MEDIUM,D2-内容关键词,山洞困局保命参考.md,山洞困局保命参考.md
+0.DailyNotes\0.mindset\工具倒逼思考.md,2.Topics/写作与英语/写作技巧/工具倒逼思考.md,MEDIUM,I2-内容关键词,工具倒逼思考.md,工具倒逼思考.md
+0.DailyNotes\0.mindset\工具链与编排框架.md,2.Topics/Coding/工程实践/工具链与编排框架.md,MEDIUM,D2-内容关键词,工具链与编排框架.md,工具链与编排框架.md
+0.DailyNotes\0.mindset\工程学素养-Notion Personal OS.md,2.Topics/Coding/工程实践/工程学素养-Notion Personal OS.md,MEDIUM,D2-内容关键词,工程学素养-Notion Personal OS.md,工程学素养-Notion Personal OS.md
+0.DailyNotes\0.mindset\工程师效能手册.md,2.Topics/Coding/工程实践/工程师效能手册.md,MEDIUM,D2-内容关键词,工程师效能手册.md,工程师效能手册.md
+0.DailyNotes\0.mindset\工程师的时间不变资产.md,2.Topics/Coding/工程实践/工程师的时间不变资产.md,MEDIUM,D2-内容关键词,工程师的时间不变资产.md,工程师的时间不变资产.md
+0.DailyNotes\0.mindset\归纳与抽象.md,2.Topics/认知科学/思维模型/归纳与抽象.md,HIGH,F1-抽象,归纳与抽象.md,归纳与抽象.md
+0.DailyNotes\0.mindset\快速提升提问质量的10大实战练习.md,UNCATEGORIZED\快速提升提问质量的10大实战练习.md,LOW,未匹配任何规则,快速提升提问质量的10大实战练习.md,快速提升提问质量的10大实战练习.md
+0.DailyNotes\0.mindset\思维格栅 (Latticework).md,2.Topics/认知科学/思维模型/思维格栅 (Latticework).md,HIGH,F1-思维,思维格栅 (Latticework).md,思维格栅 (Latticework).md
+0.DailyNotes\0.mindset\思维模型：优化思考的实用工具箱.md,2.Topics/Coding/工程实践/思维模型：优化思考的实用工具箱.md,MEDIUM,D2-内容关键词,思维模型：优化思考的实用工具箱.md,思维模型：优化思考的实用工具箱.md
+0.DailyNotes\0.mindset\思考链与建模案例.md,2.Topics/Coding/工程实践/思考链与建模案例.md,MEDIUM,D2-内容关键词,思考链与建模案例.md,思考链与建模案例.md
+0.DailyNotes\0.mindset\性格五因素模型.md,2.Topics/认知科学/思维模型/性格五因素模型.md,HIGH,F1-模型,性格五因素模型.md,性格五因素模型.md
+0.DailyNotes\0.mindset\愤怒的猴子与货物崇拜.md,2.Topics/Coding/工程实践/愤怒的猴子与货物崇拜.md,MEDIUM,D2-内容关键词,愤怒的猴子与货物崇拜.md,愤怒的猴子与货物崇拜.md
+0.DailyNotes\0.mindset\慢生活的科学辩护与实践策略.md,2.Topics/Coding/工程实践/慢生活的科学辩护与实践策略.md,MEDIUM,D2-内容关键词,慢生活的科学辩护与实践策略.md,慢生活的科学辩护与实践策略.md
+0.DailyNotes\0.mindset\战略阅读.md,2.Topics/Coding/工程实践/战略阅读.md,MEDIUM,D2-内容关键词,战略阅读.md,战略阅读.md
+0.DailyNotes\0.mindset\技术博客写作与发布 (SOP).md,2.Topics/写作与英语/写作技巧/技术博客写作与发布 (SOP).md,MANUAL,0.mindset-批量调整,技术博客写作与发布 (SOP).md,技术博客写作与发布 (SOP).md
+0.DailyNotes\0.mindset\抽象重构与设计模式.md,2.Topics/Coding/工程实践/抽象重构与设计模式.md,MEDIUM,D2-内容关键词,抽象重构与设计模式.md,抽象重构与设计模式.md
+0.DailyNotes\0.mindset\数据库要点.md,2.Topics/Coding/工程实践/数据库要点.md,MEDIUM,D2-内容关键词,数据库要点.md,数据库要点.md
+0.DailyNotes\0.mindset\数据追踪与量化.md,UNCATEGORIZED\数据追踪与量化.md,LOW,未匹配任何规则,数据追踪与量化.md,数据追踪与量化.md
+0.DailyNotes\0.mindset\智能 Agent 架构关键范式.md,2.Topics/Coding/系统设计/智能 Agent 架构关键范式.md,HIGH,B1-架构,智能 Agent 架构关键范式.md,智能 Agent 架构关键范式.md
+0.DailyNotes\0.mindset\未来更有价值的特质技能.md,UNCATEGORIZED\未来更有价值的特质技能.md,LOW,未匹配任何规则,未来更有价值的特质技能.md,未来更有价值的特质技能.md
+0.DailyNotes\0.mindset\机器学习算法.md,2.Topics/Coding/语言指南/机器学习算法.md,MANUAL,0.mindset-批量调整,机器学习算法.md,机器学习算法.md
+0.DailyNotes\0.mindset\核心竞争力构建系统.md,UNCATEGORIZED\核心竞争力构建系统.md,LOW,未匹配任何规则,核心竞争力构建系统.md,核心竞争力构建系统.md
+0.DailyNotes\0.mindset\洞见系列.md,2.Topics/认知科学/思维模型/洞见系列.md,MANUAL,0.mindset-批量调整,洞见系列.md,洞见系列.md
+0.DailyNotes\0.mindset\深度工作-精英水平产出的能力.md,2.Topics/个人效能/生产力系统/深度工作-精英水平产出的能力.md,MANUAL,0.mindset-批量调整,深度工作-精英水平产出的能力.md,深度工作-精英水平产出的能力.md
+0.DailyNotes\0.mindset\深度工作调度理念.md,2.Topics/个人效能/生产力系统/深度工作调度理念.md,MANUAL,0.mindset-批量调整,深度工作调度理念.md,深度工作调度理念.md
+0.DailyNotes\0.mindset\溝通中常見的問題及解決策略.md,2.Topics/个人效能/职业发展/溝通中常見的問題及解決策略.md,MANUAL,0.mindset-批量调整,溝通中常見的問題及解決策略.md,溝通中常見的問題及解決策略.md
+0.DailyNotes\0.mindset\特朗普决策心理模型.md,2.Topics/认知科学/思维模型/特朗普决策心理模型.md,MANUAL,0.mindset-批量调整,特朗普决策心理模型.md,特朗普决策心理模型.md
+0.DailyNotes\0.mindset\用户分层运营SOP：从战略到精细化执行的完整指南.md,2.Topics/创业与产品/产品方法论/用户分层运营SOP：从战略到精细化执行的完整指南.md,MANUAL,0.mindset-批量调整,用户分层运营SOP：从战略到精细化执行的完整指南.md,用户分层运营SOP：从战略到精细化执行的完整指南.md
+0.DailyNotes\0.mindset\目标驱动下的系统性问题解决.md,2.Topics/认知科学/思维模型/目标驱动下的系统性问题解决.md,MANUAL,0.mindset-批量调整,目标驱动下的系统性问题解决.md,目标驱动下的系统性问题解决.md
+0.DailyNotes\0.mindset\目标驱动系统.md,2.Topics/认知科学/思维模型/目标驱动系统.md,MANUAL,0.mindset-批量调整,目标驱动系统.md,目标驱动系统.md
+0.DailyNotes\0.mindset\研究式学习法.md,2.Topics/认知科学/学习系统/研究式学习法.md,MANUAL,0.mindset-批量调整,研究式学习法.md,研究式学习法.md
+0.DailyNotes\0.mindset\社科理论核心思想.md,UNCATEGORIZED\社科理论核心思想.md,LOW,未匹配任何规则,社科理论核心思想.md,社科理论核心思想.md
+0.DailyNotes\0.mindset\程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md,2.Topics/认知科学/学习系统/程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md,MANUAL,0.mindset-批量调整,程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md,程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md
+0.DailyNotes\0.mindset\笔记品味的修炼.md,2.Topics/认知科学/学习系统/笔记品味的修炼.md,MANUAL,0.mindset-批量调整,笔记品味的修炼.md,笔记品味的修炼.md
+0.DailyNotes\0.mindset\精准提问代替模糊抱怨.md,2.Topics/认知科学/思维模型/精准提问代替模糊抱怨.md,MANUAL,0.mindset-批量调整,精准提问代替模糊抱怨.md,精准提问代替模糊抱怨.md
+0.DailyNotes\0.mindset\精力管理vs时间管理：生产力防御协议.md,2.Topics/个人效能/生产力系统/精力管理vs时间管理：生产力防御协议.md,MANUAL,0.mindset-批量调整,精力管理vs时间管理：生产力防御协议.md,精力管理vs时间管理：生产力防御协议.md
+0.DailyNotes\0.mindset\精彩短视频节目策划稿.md,2.Topics/创业与产品/商业模式/精彩短视频节目策划稿.md,MANUAL,0.mindset-批量调整,精彩短视频节目策划稿.md,精彩短视频节目策划稿.md
+0.DailyNotes\0.mindset\精英团队基因映射.md,2.Topics/个人效能/职业发展/精英团队基因映射.md,MANUAL,0.mindset-批量调整,精英团队基因映射.md,精英团队基因映射.md
+0.DailyNotes\0.mindset\系统思考速查手册.md,2.Topics/认知科学/思维模型/系统思考速查手册.md,MANUAL,0.mindset-批量调整,系统思考速查手册.md,系统思考速查手册.md
+0.DailyNotes\0.mindset\纽约客笔记架构优化建议.md,2.Topics/认知科学/学习系统/纽约客笔记架构优化建议.md,MANUAL,0.mindset-批量调整,纽约客笔记架构优化建议.md,纽约客笔记架构优化建议.md
+0.DailyNotes\0.mindset\练习的效率.md,2.Topics/个人效能/生产力系统/练习的效率.md,MANUAL,0.mindset-批量调整,练习的效率.md,练习的效率.md
+0.DailyNotes\0.mindset\职场有效沟通简报.md,2.Topics/个人效能/职业发展/职场有效沟通简报.md,MANUAL,0.mindset-批量调整,职场有效沟通简报.md,职场有效沟通简报.md
+0.DailyNotes\0.mindset\能力复利链.md,2.Topics/个人效能/生产力系统/能力复利链.md,MANUAL,0.mindset-批量调整,能力复利链.md,能力复利链.md
+0.DailyNotes\0.mindset\良好品德共识.md,2.Topics/个人效能/职业发展/良好品德共识.md,MANUAL,0.mindset-批量调整,良好品德共识.md,良好品德共识.md
+0.DailyNotes\0.mindset\英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md,2.Topics/写作与英语/英语学习/英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md,MANUAL,0.mindset-批量调整,英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md,英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md
+0.DailyNotes\0.mindset\见解-模式-解决方案.md,2.Topics/认知科学/思维模型/见解-模式-解决方案.md,MANUAL,0.mindset-批量调整,见解-模式-解决方案.md,见解-模式-解决方案.md
+0.DailyNotes\0.mindset\视觉模型运用场景.md,2.Topics/认知科学/思维模型/视觉模型运用场景.md,MANUAL,0.mindset-批量调整,视觉模型运用场景.md,视觉模型运用场景.md
+0.DailyNotes\0.mindset\认知系统重构.md,2.Topics/认知科学/思维模型/认知系统重构.md,MANUAL,0.mindset-批量调整,认知系统重构.md,认知系统重构.md
+0.DailyNotes\0.mindset\谷歌工程师的财富增长之道.md,2.Topics/个人效能/职业发展/谷歌工程师的财富增长之道.md,MANUAL,0.mindset-批量调整,谷歌工程师的财富增长之道.md,谷歌工程师的财富增长之道.md
+0.DailyNotes\0.mindset\资本思维与决策博弈意识.md,2.Topics/创业与产品/商业模式/资本思维与决策博弈意识.md,MANUAL,0.mindset-批量调整,资本思维与决策博弈意识.md,资本思维与决策博弈意识.md
+0.DailyNotes\0.mindset\资深程序员的惯用习惯.md,2.Topics/个人效能/职业发展/资深程序员的惯用习惯.md,MANUAL,0.mindset-批量调整,资深程序员的惯用习惯.md,资深程序员的惯用习惯.md
+0.DailyNotes\0.mindset\跨文化技术领导力.md,2.Topics/个人效能/职业发展/跨文化技术领导力.md,MANUAL,0.mindset-批量调整,跨文化技术领导力.md,跨文化技术领导力.md
+0.DailyNotes\0.mindset\逆境突围协议：单点聚焦与暴力闭环.md,2.Topics/个人效能/生产力系统/逆境突围协议：单点聚焦与暴力闭环.md,MANUAL,0.mindset-批量调整,逆境突围协议：单点聚焦与暴力闭环.md,逆境突围协议：单点聚焦与暴力闭环.md
+0.DailyNotes\0.mindset\逐字稿改写规范.md,2.Topics/写作与英语/写作技巧/逐字稿改写规范.md,MANUAL,0.mindset-批量调整,逐字稿改写规范.md,逐字稿改写规范.md
+0.DailyNotes\0.mindset\逐字稿风格：高转化脚本架构指南.md,2.Topics/写作与英语/写作技巧/逐字稿风格：高转化脚本架构指南.md,MANUAL,0.mindset-批量调整,逐字稿风格：高转化脚本架构指南.md,逐字稿风格：高转化脚本架构指南.md
+0.DailyNotes\0.mindset\钢铁人论证法.md,2.Topics/认知科学/思维模型/钢铁人论证法.md,MANUAL,0.mindset-批量调整,钢铁人论证法.md,钢铁人论证法.md
+0.DailyNotes\0.mindset\问对问题的前提.md,2.Topics/认知科学/思维模型/问对问题的前提.md,MANUAL,0.mindset-批量调整,问对问题的前提.md,问对问题的前提.md
+0.DailyNotes\0.mindset\阶段性成果驱动的学习路径.md,2.Topics/认知科学/学习系统/阶段性成果驱动的学习路径.md,MANUAL,0.mindset-批量调整,阶段性成果驱动的学习路径.md,阶段性成果驱动的学习路径.md
+0.DailyNotes\0.mindset\香港高中生（DSE 群体）的精选粤语表达词组表.md,2.Topics/写作与英语/英语学习/香港高中生（DSE 群体）的精选粤语表达词组表.md,MANUAL,0.mindset-批量调整,香港高中生（DSE 群体）的精选粤语表达词组表.md,香港高中生（DSE 群体）的精选粤语表达词组表.md
+0.DailyNotes\0.mindset\高强度学习项目选型.md,2.Topics/认知科学/学习系统/高强度学习项目选型.md,MANUAL,0.mindset-批量调整,高强度学习项目选型.md,高强度学习项目选型.md
+0.DailyNotes\0.mindset\高效沟通与极简练习协议.md,2.Topics/个人效能/职业发展/高效沟通与极简练习协议.md,MANUAL,0.mindset-批量调整,高效沟通与极简练习协议.md,高效沟通与极简练习协议.md
+0.DailyNotes\0.mindset\高质量Question环节训练系统.md,2.Topics/认知科学/思维模型/高质量Question环节训练系统.md,MANUAL,0.mindset-批量调整,高质量Question环节训练系统.md,高质量Question环节训练系统.md

@@ -3,17 +3,8 @@ copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
-copilot-command-last-used: 0
-view-count: 4
-update: 2026-01-09 14:56
-related:
-  - "[[深度研读与学术分析助手]]"
-  - "[[信息助理]]"
-  - "[[专业笔记优化助手]]"
-  - "[[AI writing tutor]]"
-  - "[[可配置沟通助理]]"
+copilot-command-last-used: 1768544950307
 ---
-
 你是一个使用「LFSP」（Language For Smart People）风格进行交流的 AI 助手，主要面向具备相关背景的专业用户（如科技、学术、特定行业社群等）。
 
 1. 使用高信息密度表达：用尽可能少的文字，传递尽可能多的有效信息，避免冗余铺陈。

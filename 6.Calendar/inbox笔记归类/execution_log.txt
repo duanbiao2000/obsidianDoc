@@ -1,0 +1,1848 @@
+============================================================
+执行日志 - 文件移动与重命名
+============================================================
+
+[  1] 12-Factor App 故障排查手册.md
+  源路径: 0.DailyNotes\12-Factor App 故障排查手册.md
+  目标路径: 2.Topics/Coding/系统设计/12-Factor App 故障排查手册.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  2] 2025 年开发者生存指南-领域知识.md
+  源路径: 0.DailyNotes\2025 年开发者生存指南-领域知识.md
+  目标路径: 2.Topics/Coding/系统设计/2025 年开发者生存指南-领域知识.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  3] 2025-12-03-specs开发阶段.md
+  源路径: 0.DailyNotes\2025-12-03-specs开发阶段.md
+  目标路径: 2.Topics/Coding/数据库与存储/specs开发阶段.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  4] 2025-12-03-YAGNI 如何改变决策质量.md
+  源路径: 0.DailyNotes\2025-12-03-YAGNI 如何改变决策质量.md
+  目标路径: 2.Topics/Coding/系统设计/YAGNI 如何改变决策质量.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  5] 2025-12-03-大模型选型决策树.md
+  源路径: 0.DailyNotes\2025-12-03-大模型选型决策树.md
+  目标路径: 2.Topics/Coding/AI与大模型/大模型选型决策树.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  6] 2025-12-03-并发基础核心解析.md
+  源路径: 0.DailyNotes\2025-12-03-并发基础核心解析.md
+  目标路径: 2.Topics/Coding/系统设计/并发基础核心解析.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  7] 2025-12-03-消息队列vs任务队列.md
+  源路径: 0.DailyNotes\2025-12-03-消息队列vs任务队列.md
+  目标路径: 2.Topics/Coding/系统设计/消息队列vs任务队列.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  8] 2025-12-05-Design Thinking.md
+  源路径: 0.DailyNotes\2025-12-05-Design Thinking.md
+  目标路径: 2.Topics/Coding/工程实践/Design Thinking.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[  9] 2025-12-05-Go与Rust的权衡.md
+  源路径: 0.DailyNotes\2025-12-05-Go与Rust的权衡.md
+  目标路径: 2.Topics/Coding/语言指南/Go与Rust的权衡.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 10] 2025-12-05-Python学习套件.md
+  源路径: 0.DailyNotes\2025-12-05-Python学习套件.md
+  目标路径: 2.Topics/Coding/语言指南/Python学习套件.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 11] 2025-12-05-常用中间件.md
+  源路径: 0.DailyNotes\2025-12-05-常用中间件.md
+  目标路径: 2.Topics/Coding/系统设计/常用中间件.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 12] 2025-12-06-300行代码解释依赖注入的原理.md
+  源路径: 0.DailyNotes\2025-12-06-300行代码解释依赖注入的原理.md
+  目标路径: 2.Topics/Coding/系统设计/300行代码解释依赖注入的原理.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 13] 2025-12-06-企业应用架构模式.md
+  源路径: 0.DailyNotes\2025-12-06-企业应用架构模式.md
+  目标路径: 2.Topics/Coding/系统设计/企业应用架构模式.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 14] 2025-12-06-关键知识点学习清单.md
+  源路径: 0.DailyNotes\2025-12-06-关键知识点学习清单.md
+  目标路径: 2.Topics/Coding/系统设计/关键知识点学习清单.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 15] 2025-12-07- 教练式 Code Review.md
+  源路径: 0.DailyNotes\2025-12-07- 教练式 Code Review.md
+  目标路径: 2.Topics/Coding/工程实践/ 教练式 Code Review.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 16] 2025-12-07-“创业温床”型公司.md
+  源路径: 0.DailyNotes\2025-12-07-“创业温床”型公司.md
+  目标路径: 2.Topics/创业与产品/“创业温床”型公司.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 17] 2025-12-07-带着答案提问.md
+  源路径: 0.DailyNotes\2025-12-07-带着答案提问.md
+  目标路径: 2.Topics/Coding/数据库与存储/带着答案提问.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 18] 2025-12-07-系统架构分类框架.md
+  源路径: 0.DailyNotes\2025-12-07-系统架构分类框架.md
+  目标路径: 2.Topics/Coding/系统设计/系统架构分类框架.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 19] 2025-12-07-逻辑判断的三个维度.md
+  源路径: 0.DailyNotes\2025-12-07-逻辑判断的三个维度.md
+  目标路径: UNCATEGORIZED\逻辑判断的三个维度.md
+  状态: 跳过（未分类）
+
+[ 20] 2025-12-10-行动触发器.md
+  源路径: 0.DailyNotes\2025-12-10-行动触发器.md
+  目标路径: 2.Topics/Coding/工程实践/行动触发器.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 21] 2025-12-10-高质量开源项目的特征.md
+  源路径: 0.DailyNotes\2025-12-10-高质量开源项目的特征.md
+  目标路径: 2.Topics/Coding/工程实践/高质量开源项目的特征.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 22] 2025-12-11-AI在写代码领域的当前水平.md
+  源路径: 0.DailyNotes\2025-12-11-AI在写代码领域的当前水平.md
+  目标路径: 2.Topics/Coding/系统设计/AI在写代码领域的当前水平.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 23] 2025-12-11-写代码 vs 写作：AI评估维度对比.md
+  源路径: 0.DailyNotes\2025-12-11-写代码 vs 写作：AI评估维度对比.md
+  目标路径: 2.Topics/Coding/系统设计/写代码 vs 写作：AI评估维度对比.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 24] 2025-12-11-视野分层.md
+  源路径: 0.DailyNotes\2025-12-11-视野分层.md
+  目标路径: 2.Topics/写作与英语/写作技巧/视野分层.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 25] 2025-12-16-37 signals.md
+  源路径: 0.DailyNotes\2025-12-16-37 signals.md
+  目标路径: 2.Topics/认知科学/决策框架/37 signals.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 26] 2025-12-19-优先级决策者.md
+  源路径: 0.DailyNotes\2025-12-19-优先级决策者.md
+  目标路径: 2.Topics/认知科学/思维模型/优先级决策者.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 27] 2025-12-19-开发过程中的关键不变量.md
+  源路径: 0.DailyNotes\2025-12-19-开发过程中的关键不变量.md
+  目标路径: UNCATEGORIZED\开发过程中的关键不变量.md
+  状态: 跳过（未分类）
+
+[ 28] 2025-12-19-极度耐心+极度爆发.md
+  源路径: 0.DailyNotes\2025-12-19-极度耐心+极度爆发.md
+  目标路径: 2.Topics/Coding/工程实践/极度耐心+极度爆发.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 29] 2025-12-19-源码阅读的蜜蜂算法.md
+  源路径: 0.DailyNotes\2025-12-19-源码阅读的蜜蜂算法.md
+  目标路径: 2.Topics/Coding/工程实践/源码阅读的蜜蜂算法.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 30] 2025-12-19-蜜蜂算法.md
+  源路径: 0.DailyNotes\2025-12-19-蜜蜂算法.md
+  目标路径: 2.Topics/Coding/工程实践/蜜蜂算法.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 31] 2025-12-20-商业模式画布.md
+  源路径: 0.DailyNotes\2025-12-20-商业模式画布.md
+  目标路径: 2.Topics/创业与产品/商业模式画布.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 32] 2025-12-20-常用开发标记.md
+  源路径: 0.DailyNotes\2025-12-20-常用开发标记.md
+  目标路径: 2.Topics/Coding/工程实践/常用开发标记.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 33] 2025-12-22-AI大模型知识体系.md
+  源路径: 0.DailyNotes\2025-12-22-AI大模型知识体系.md
+  目标路径: 2.Topics/Coding/AI与大模型/AI大模型知识体系.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 34] 2025-12-25-喜剧的一种可能的境界.md
+  源路径: 0.DailyNotes\2025-12-25-喜剧的一种可能的境界.md
+  目标路径: UNCATEGORIZED\喜剧的一种可能的境界.md
+  状态: 跳过（未分类）
+
+[ 35] 2025-12-27-Bezos.md
+  源路径: 0.DailyNotes\2025-12-27-Bezos.md
+  目标路径: 2.Topics/创业与产品/Bezos.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 36] 2025-12-30-Baby Steps 计划.md
+  源路径: 0.DailyNotes\2025-12-30-Baby Steps 计划.md
+  目标路径: 2.Topics/Coding/工程实践/Baby Steps 计划.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 37] 2025-12-30-You 2.0 Stop Spiraling!.md
+  源路径: 0.DailyNotes\2025-12-30-You 2.0 Stop Spiraling!.md
+  目标路径: 2.Topics/Coding/工程实践/You 2.0 Stop Spiraling!.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 38] 2025-12-30-课堂讨论活动设计指南.md
+  源路径: 0.DailyNotes\2025-12-30-课堂讨论活动设计指南.md
+  目标路径: UNCATEGORIZED\课堂讨论活动设计指南.md
+  状态: 跳过（未分类）
+
+[ 39] 2025-12-30-跨领域播客 Transcript 快速框架构建法.md
+  源路径: 0.DailyNotes\2025-12-30-跨领域播客 Transcript 快速框架构建法.md
+  目标路径: 2.Topics/Coding/系统设计/跨领域播客 Transcript 快速框架构建法.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 40] 2025-12-31-hacker mindset.md
+  源路径: 0.DailyNotes\2025-12-31-hacker mindset.md
+  目标路径: 2.Topics/认知科学/思维模型/hacker mindset.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 41] 2025-12-31-分布式集体组合策略.md
+  源路径: 0.DailyNotes\2025-12-31-分布式集体组合策略.md
+  目标路径: 2.Topics/Coding/系统设计/分布式集体组合策略.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 42] 2025-12-31-系统设计与架构模式.md
+  源路径: 0.DailyNotes\2025-12-31-系统设计与架构模式.md
+  目标路径: 2.Topics/Coding/系统设计/系统设计与架构模式.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 43] 2026-01-05-2026年软件开发趋势预测.md
+  源路径: 0.DailyNotes\2026-01-05-2026年软件开发趋势预测.md
+  目标路径: 2.Topics/Coding/工程实践/2026年软件开发趋势预测.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 44] 2026-01-05-LeetCode 的竞赛知识点.md
+  源路径: 0.DailyNotes\2026-01-05-LeetCode 的竞赛知识点.md
+  目标路径: 3.Resources/学习资料/学习路径/LeetCode 的竞赛知识点.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 45] 2026-01-05-极端帕累托.md
+  源路径: 0.DailyNotes\2026-01-05-极端帕累托.md
+  目标路径: 2.Topics/认知科学/决策框架/极端帕累托.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 46] 2026-01-07-用程序员的逻辑整理你的笔记系统.md
+  源路径: 0.DailyNotes\2026-01-07-用程序员的逻辑整理你的笔记系统.md
+  目标路径: 2.Topics/Coding/工程实践/用程序员的逻辑整理你的笔记系统.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 47] 2026-01-07-达里奥“机器思维”.md
+  源路径: 0.DailyNotes\2026-01-07-达里奥“机器思维”.md
+  目标路径: 2.Topics/Coding/工程实践/达里奥“机器思维”.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 48] 2026-01-09-Strategy Crystallizer Output.md
+  源路径: 0.DailyNotes\2026-01-09-Strategy Crystallizer Output.md
+  目标路径: 2.Topics/写作与英语/写作技巧/Strategy Crystallizer Output.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 49] 2026-01-09-从“现象”到“结构”.md
+  源路径: 0.DailyNotes\2026-01-09-从“现象”到“结构”.md
+  目标路径: 2.Topics/Coding/系统设计/从“现象”到“结构”.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 50] 2026-01-10-精英复利指标.md
+  源路径: 0.DailyNotes\2026-01-10-精英复利指标.md
+  目标路径: 2.Topics/个人效能/生产力系统/精英复利指标.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 51] 2026-01-11-FabricAI智能助手.md
+  源路径: 0.DailyNotes\2026-01-11-FabricAI智能助手.md
+  目标路径: 2.Topics/Coding/AI与大模型/FabricAI智能助手.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 52] 2026-01-12-TanStack等四个现代框架深度对比.md
+  源路径: 0.DailyNotes\2026-01-12-TanStack等四个现代框架深度对比.md
+  目标路径: 2.Topics/Coding/数据库与存储/TanStack等四个现代框架深度对比.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 53] 2026-01-13-无人机与嵌入式系统的关系.md
+  源路径: 0.DailyNotes\2026-01-13-无人机与嵌入式系统的关系.md
+  目标路径: UNCATEGORIZED\无人机与嵌入式系统的关系.md
+  状态: 跳过（未分类）
+
+[ 54] 2026-01-15-无人机与嵌入式系统关系图谱.md
+  源路径: 0.DailyNotes\2026-01-15-无人机与嵌入式系统关系图谱.md
+  目标路径: UNCATEGORIZED\无人机与嵌入式系统关系图谱.md
+  状态: 跳过（未分类）
+
+[ 55] 2026-01-15-程序员能力投入比例实战指南.md
+  源路径: 0.DailyNotes\2026-01-15-程序员能力投入比例实战指南.md
+  目标路径: 2.Topics/Coding/系统设计/程序员能力投入比例实战指南.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 56] 2026-01-16-.md
+  源路径: 0.DailyNotes\2026-01-16-.md
+  目标路径: UNCATEGORIZED\-.md
+  状态: 跳过（未分类）
+
+[ 57] 2026-01-17-我遗憾没有早点学到的 25 个生活教训.md
+  源路径: 0.DailyNotes\2026-01-17-我遗憾没有早点学到的 25 个生活教训.md
+  目标路径: UNCATEGORIZED\我遗憾没有早点学到的 25 个生活教训.md
+  状态: 跳过（未分类）
+
+[ 58] 2026-01-19-skills选型策略.md
+  源路径: 0.DailyNotes\2026-01-19-skills选型策略.md
+  目标路径: 2.Topics/Coding/AI与大模型/skills选型策略.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 59] 2026-01-19-程序员职业决策框架.md
+  源路径: 0.DailyNotes\2026-01-19-程序员职业决策框架.md
+  目标路径: 2.Topics/个人效能/职业发展/程序员职业决策框架.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 60] 2026-01-19-红灯告警.md
+  源路径: 0.DailyNotes\2026-01-19-红灯告警.md
+  目标路径: UNCATEGORIZED\红灯告警.md
+  状态: 跳过（未分类）
+
+[ 61] 2026-01-20-AI能力–采用率鸿沟.md
+  源路径: 0.DailyNotes\2026-01-20-AI能力–采用率鸿沟.md
+  目标路径: 2.Topics/Coding/AI与大模型/AI能力–采用率鸿沟.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 62] 2026-01-21-.md
+  源路径: 0.DailyNotes\2026-01-21-.md
+  目标路径: 2.Topics/Coding/AI与大模型/-.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 63] 48小时学习计划.md
+  源路径: 0.DailyNotes\48小时学习计划.md
+  目标路径: 2.Topics/Coding/系统设计/48小时学习计划.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 64] @每日速记笔记.md
+  源路径: 0.DailyNotes\@每日速记笔记.md
+  目标路径: 0.DailyNotes/特殊文件/@每日速记笔记.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 65] AI 协作白皮书.md
+  源路径: 0.DailyNotes\AI 协作白皮书.md
+  目标路径: 2.Topics/Coding/AI与大模型/AI 协作白皮书.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 66] B站推荐系统设计.md
+  源路径: 0.DailyNotes\B站推荐系统设计.md
+  目标路径: 2.Topics/Coding/系统设计/B站推荐系统设计.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 67] commit 和 PR的选择.md
+  源路径: 0.DailyNotes\commit 和 PR的选择.md
+  目标路径: 2.Topics/Coding/工程实践/commit 和 PR的选择.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 68] CPython源码阅读与理解.md
+  源路径: 0.DailyNotes\CPython源码阅读与理解.md
+  目标路径: 2.Topics/Coding/语言指南/CPython源码阅读与理解.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 69] HIIT训练指南.md
+  源路径: 0.DailyNotes\HIIT训练指南.md
+  目标路径: 2.Topics/Coding/工程实践/HIIT训练指南.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 70] IOC（控制反转）和 DI（依赖注入）.md
+  源路径: 0.DailyNotes\IOC（控制反转）和 DI（依赖注入）.md
+  目标路径: 2.Topics/Coding/系统设计/IOC（控制反转）和 DI（依赖注入）.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 71] Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md
+  源路径: 0.DailyNotes\Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md
+  目标路径: 2.Topics/Coding/语言指南/Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 72] Java 注解.md
+  源路径: 0.DailyNotes\Java 注解.md
+  目标路径: 2.Topics/Coding/语言指南/Java 注解.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 73] non-obvious-only principle.md
+  源路径: 0.DailyNotes\non-obvious-only principle.md
+  目标路径: 2.Topics/认知科学/思维模型/non-obvious-only principle.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 74] Plan文档比较与实例.md
+  源路径: 0.DailyNotes\Plan文档比较与实例.md
+  目标路径: 2.Topics/Coding/工程实践/Plan文档比较与实例.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 75] PostgreSQL开发者实战指南.md
+  源路径: 0.DailyNotes\PostgreSQL开发者实战指南.md
+  目标路径: 2.Topics/Coding/语言指南/PostgreSQL开发者实战指南.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 76] Pydantic的数据验证机制和性能优化.md
+  源路径: 0.DailyNotes\Pydantic的数据验证机制和性能优化.md
+  目标路径: 2.Topics/Coding/语言指南/Pydantic的数据验证机制和性能优化.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 77] Python 系统设计 6 小时突破方案.md
+  源路径: 0.DailyNotes\Python 系统设计 6 小时突破方案.md
+  目标路径: 2.Topics/Coding/语言指南/Python 系统设计 6 小时突破方案.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 78] Python代码注释规范自适应提示词.md
+  源路径: 0.DailyNotes\Python代码注释规范自适应提示词.md
+  目标路径: 2.Topics/Coding/语言指南/Python代码注释规范自适应提示词.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 79] Python生态深度 × 能量节律优化.md
+  源路径: 0.DailyNotes\Python生态深度 × 能量节律优化.md
+  目标路径: 2.Topics/Coding/语言指南/Python生态深度 × 能量节律优化.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 80] RFC战略框架.md
+  源路径: 0.DailyNotes\RFC战略框架.md
+  目标路径: 2.Topics/Coding/工程实践/RFC战略框架.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 81] Roadmap.md
+  源路径: 0.DailyNotes\Roadmap.md
+  目标路径: 2.Topics/Coding/工程实践/Roadmap.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 82] Rust 异步与并发系统学习路径.md
+  源路径: 0.DailyNotes\Rust 异步与并发系统学习路径.md
+  目标路径: 2.Topics/Coding/语言指南/Rust 异步与并发系统学习路径.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 83] Rust生产级综合开发技能学习系统提示词模板.md
+  源路径: 0.DailyNotes\Rust生产级综合开发技能学习系统提示词模板.md
+  目标路径: 2.Topics/Coding/语言指南/Rust生产级综合开发技能学习系统提示词模板.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 84] sequential - thinking的适用场景.md
+  源路径: 0.DailyNotes\sequential - thinking的适用场景.md
+  目标路径: 2.Topics/Coding/AI与大模型/sequential - thinking的适用场景.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 85] Spec-Driven Development（规格驱动开发）.md
+  源路径: 0.DailyNotes\Spec-Driven Development（规格驱动开发）.md
+  目标路径: 2.Topics/Coding/工程实践/Spec-Driven Development（规格驱动开发）.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 86] Spec-Kit 规范即代码.md
+  源路径: 0.DailyNotes\Spec-Kit 规范即代码.md
+  目标路径: 2.Topics/Coding/工程实践/Spec-Kit 规范即代码.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 87] SpecKit四个阶段.md
+  源路径: 0.DailyNotes\SpecKit四个阶段.md
+  目标路径: 2.Topics/Coding/工程实践/SpecKit四个阶段.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 88] TDD 驱动良好设计的 Go 语言实战案例.md
+  源路径: 0.DailyNotes\TDD 驱动良好设计的 Go 语言实战案例.md
+  目标路径: 2.Topics/Coding/语言指南/TDD 驱动良好设计的 Go 语言实战案例.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 89] Tech Stack Selection Guide Build Smart Not Overcomplicated.md
+  源路径: 0.DailyNotes\Tech Stack Selection Guide Build Smart Not Overcomplicated.md
+  目标路径: 2.Topics/Coding/语言指南/Tech Stack Selection Guide Build Smart Not Overcomplicated.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 90] Testing and Quality Assurance Agent.md
+  源路径: 0.DailyNotes\Testing and Quality Assurance Agent.md
+  目标路径: 2.Topics/Coding/工程实践/Testing and Quality Assurance Agent.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 91] The Effective Engineer GPT5.1high版本.md
+  源路径: 0.DailyNotes\The Effective Engineer GPT5.1high版本.md
+  目标路径: 2.Topics/Coding/AI与大模型/The Effective Engineer GPT5.1high版本.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 92] The Effective Engineer.md
+  源路径: 0.DailyNotes\The Effective Engineer.md
+  目标路径: 2.Topics/个人效能/职业发展/The Effective Engineer.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 93] the-book-of-secret-knowledge.md
+  源路径: 0.DailyNotes\the-book-of-secret-knowledge.md
+  目标路径: 2.Topics/Coding/AI与大模型/the-book-of-secret-knowledge.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 94] TypeScript 编译器用Go改写.md
+  源路径: 0.DailyNotes\TypeScript 编译器用Go改写.md
+  目标路径: 2.Topics/Coding/语言指南/TypeScript 编译器用Go改写.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 95] Watch out for grab-bags.md
+  源路径: 0.DailyNotes\Watch out for grab-bags.md
+  目标路径: 2.Topics/Coding/工程实践/Watch out for grab-bags.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 96] _Index_of_0.DailyNotes.md
+  源路径: 0.DailyNotes\_Index_of_0.DailyNotes.md
+  目标路径: 0.DailyNotes/特殊文件/_Index_of_0.DailyNotes.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 97] 产品经理视角.md
+  源路径: 0.DailyNotes\产品经理视角.md
+  目标路径: 2.Topics/创业与产品/产品方法论/产品经理视角.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 98] 从 Code Review 到挑战性项目.md
+  源路径: 0.DailyNotes\从 Code Review 到挑战性项目.md
+  目标路径: 2.Topics/Coding/工程实践/从 Code Review 到挑战性项目.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[ 99] 从编码量到编码素养的系统化训练路径.md
+  源路径: 0.DailyNotes\从编码量到编码素养的系统化训练路径.md
+  目标路径: 2.Topics/Coding/工程实践/从编码量到编码素养的系统化训练路径.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[100] 代码认知负荷：高效工程的底层度量.md
+  源路径: 0.DailyNotes\代码认知负荷：高效工程的底层度量.md
+  目标路径: 2.Topics/Coding/系统设计/代码认知负荷：高效工程的底层度量.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[101] 代码质量分析和代码审查.md
+  源路径: 0.DailyNotes\代码质量分析和代码审查.md
+  目标路径: 2.Topics/Coding/工程实践/代码质量分析和代码审查.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[102] 使用向量操作SIMD优化.md
+  源路径: 0.DailyNotes\使用向量操作SIMD优化.md
+  目标路径: 2.Topics/Coding/语言指南/使用向量操作SIMD优化.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[103] 健身塑形系统训练指南.md
+  源路径: 0.DailyNotes\健身塑形系统训练指南.md
+  目标路径: 2.Topics/健康生活/训练协议/健身塑形系统训练指南.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[104] 原则驱动行动.md
+  源路径: 0.DailyNotes\原则驱动行动.md
+  目标路径: 2.Topics/Coding/工程实践/原则驱动行动.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[105] 單頁黃金法則.md
+  源路径: 0.DailyNotes\單頁黃金法則.md
+  目标路径: UNCATEGORIZED\單頁黃金法則.md
+  状态: 跳过（未分类）
+
+[106] 在项目中包含数百个可运行的 example.rs文件.md
+  源路径: 0.DailyNotes\在项目中包含数百个可运行的 example.rs文件.md
+  目标路径: UNCATEGORIZED\在项目中包含数百个可运行的 example.rs文件.md
+  状态: 跳过（未分类）
+
+[107] 多智能体系统如何像顶尖研究团队一样协同工作.md
+  源路径: 0.DailyNotes\多智能体系统如何像顶尖研究团队一样协同工作.md
+  目标路径: 2.Topics/Coding/AI与大模型/多智能体系统如何像顶尖研究团队一样协同工作.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[108] 多线程的主要用途.md
+  源路径: 0.DailyNotes\多线程的主要用途.md
+  目标路径: 2.Topics/Coding/数据库与存储/多线程的主要用途.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[109] 如何像程序员一样思考.md
+  源路径: 0.DailyNotes\如何像程序员一样思考.md
+  目标路径: 2.Topics/Coding/工程实践/如何像程序员一样思考.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[110] 如何快速有效获取特定领域知识.md
+  源路径: 0.DailyNotes\如何快速有效获取特定领域知识.md
+  目标路径: 2.Topics/Coding/工程实践/如何快速有效获取特定领域知识.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[111] 实体类在开发中的作用.md
+  源路径: 0.DailyNotes\实体类在开发中的作用.md
+  目标路径: 2.Topics/Coding/数据库与存储/实体类在开发中的作用.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[112] 实时应用架构设计指南.md
+  源路径: 0.DailyNotes\实时应用架构设计指南.md
+  目标路径: 2.Topics/Coding/系统设计/实时应用架构设计指南.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[113] 工效理论.md
+  源路径: 0.DailyNotes\工效理论.md
+  目标路径: 2.Topics/认知科学/思维模型/工效理论.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[114] 恰当的抽象.md
+  源路径: 0.DailyNotes\恰当的抽象.md
+  目标路径: 2.Topics/Coding/系统设计/恰当的抽象.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[115] 技术移民线路图反向分析.md
+  源路径: 0.DailyNotes\技术移民线路图反向分析.md
+  目标路径: UNCATEGORIZED\技术移民线路图反向分析.md
+  状态: 跳过（未分类）
+
+[116] 按能力维度精选开源项目清单.md
+  源路径: 0.DailyNotes\按能力维度精选开源项目清单.md
+  目标路径: 2.Topics/Coding/工程实践/按能力维度精选开源项目清单.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[117] 数据库类型的最佳使用场景.md
+  源路径: 0.DailyNotes\数据库类型的最佳使用场景.md
+  目标路径: 2.Topics/Coding/数据库与存储/数据库类型的最佳使用场景.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[118] 文档化Planning.md
+  源路径: 0.DailyNotes\文档化Planning.md
+  目标路径: 2.Topics/Coding/工程实践/文档化Planning.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[119] 有序带来效率.md
+  源路径: 0.DailyNotes\有序带来效率.md
+  目标路径: 2.Topics/个人效能/生产力系统/有序带来效率.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[120] 权利的48条法则.md
+  源路径: 0.DailyNotes\权利的48条法则.md
+  目标路径: 2.Topics/个人效能/生产力系统/权利的48条法则.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[121] 每日固定动作.md
+  源路径: 0.DailyNotes\每日固定动作.md
+  目标路径: 2.Topics/认知科学/行动协议/每日固定动作.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[122] 独立开发陷阱.md
+  源路径: 0.DailyNotes\独立开发陷阱.md
+  目标路径: 2.Topics/创业与产品/商业模式/独立开发陷阱.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[123] 知识库健康度评估矩阵.md
+  源路径: 0.DailyNotes\知识库健康度评估矩阵.md
+  目标路径: 2.Topics/认知科学/学习系统/知识库健康度评估矩阵.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[124] 程序员幸福力重建手册.md
+  源路径: 0.DailyNotes\程序员幸福力重建手册.md
+  目标路径: 2.Topics/个人效能/职业发展/程序员幸福力重建手册.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[125] 程序员的思维跃迁原则.md
+  源路径: 0.DailyNotes\程序员的思维跃迁原则.md
+  目标路径: 2.Topics/认知科学/思维模型/程序员的思维跃迁原则.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[126] 程序员的深度反思.md
+  源路径: 0.DailyNotes\程序员的深度反思.md
+  目标路径: 2.Topics/个人效能/职业发展/程序员的深度反思.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[127] 策略结晶容器.md
+  源路径: 0.DailyNotes\策略结晶容器.md
+  目标路径: 2.Topics/个人效能/生产力系统/策略结晶容器.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[128] 简胜于繁.md
+  源路径: 0.DailyNotes\简胜于繁.md
+  目标路径: 2.Topics/认知科学/思维模型/简胜于繁.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[129] 精英惯用四库速查清单.md
+  源路径: 0.DailyNotes\精英惯用四库速查清单.md
+  目标路径: 2.Topics/个人效能/生产力系统/精英惯用四库速查清单.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[130] 线上应用性能瓶颈与报错排查思路.md
+  源路径: 0.DailyNotes\线上应用性能瓶颈与报错排查思路.md
+  目标路径: 2.Topics/Coding/系统设计/线上应用性能瓶颈与报错排查思路.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[131] 编程专业思维指南.md
+  源路径: 0.DailyNotes\编程专业思维指南.md
+  目标路径: 2.Topics/认知科学/思维模型/编程专业思维指南.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[132] 编程范式与思维模式映射.md
+  源路径: 0.DailyNotes\编程范式与思维模式映射.md
+  目标路径: 2.Topics/Coding/系统设计/编程范式与思维模式映射.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[133] 语篇能力培养.md
+  源路径: 0.DailyNotes\语篇能力培养.md
+  目标路径: 2.Topics/写作与英语/写作技巧/语篇能力培养.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[134] 避开“认知突破”的幻觉.md
+  源路径: 0.DailyNotes\避开“认知突破”的幻觉.md
+  目标路径: 2.Topics/Coding/工程实践/避开“认知突破”的幻觉.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[135] 问题模式：跨语言解题内核.md
+  源路径: 0.DailyNotes\问题模式：跨语言解题内核.md
+  目标路径: 2.Topics/Coding/语言指南/问题模式：跨语言解题内核.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[136] 非传统开发者的成长指南.md
+  源路径: 0.DailyNotes\非传统开发者的成长指南.md
+  目标路径: 2.Topics/个人效能/职业发展/非传统开发者的成长指南.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[137] 面向长期演化的个人知识操作系统.md
+  源路径: 0.DailyNotes\面向长期演化的个人知识操作系统.md
+  目标路径: 2.Topics/认知科学/学习系统/面向长期演化的个人知识操作系统.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[138] 高效学习 Python 系统设计.md
+  源路径: 0.DailyNotes\高效学习 Python 系统设计.md
+  目标路径: 2.Topics/Coding/语言指南/高效学习 Python 系统设计.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[139] .md
+  源路径: 0.DailyNotes\0.mindset\.md
+  目标路径: 0.DailyNotes/特殊文件/.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[140] 10x 实战手册.md
+  源路径: 0.DailyNotes\0.mindset\10x 实战手册.md
+  目标路径: 2.Topics/认知科学/思维模型/10x 实战手册.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[141] 2025-11-24-提升味觉触觉嗅觉.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-24-提升味觉触觉嗅觉.md
+  目标路径: UNCATEGORIZED\提升味觉触觉嗅觉.md
+  状态: 跳过（未分类）
+
+[142] 2025-11-25- Post-MVP.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-25- Post-MVP.md
+  目标路径: 2.Topics/创业与产品/ Post-MVP.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[143] 2025-11-25-为什么游戏开发适合提升编程能力.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-25-为什么游戏开发适合提升编程能力.md
+  目标路径: 2.Topics/Coding/工程实践/为什么游戏开发适合提升编程能力.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[144] 2025-11-26-开启学习引导模式.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-26-开启学习引导模式.md
+  目标路径: 2.Topics/认知科学/学习系统/开启学习引导模式.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[145] 2025-11-26-求实原则.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-26-求实原则.md
+  目标路径: 2.Topics/认知科学/行动协议/求实原则.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[146] 2025-11-26-测试最佳实践.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-26-测试最佳实践.md
+  目标路径: 2.Topics/Coding/工程实践/测试最佳实践.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[147] 2025-11-30-像世界上1%的富人一样管理金钱.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-30-像世界上1%的富人一样管理金钱.md
+  目标路径: UNCATEGORIZED\像世界上1%的富人一样管理金钱.md
+  状态: 跳过（未分类）
+
+[148] 2025-11-30-可迁移策略.md
+  源路径: 0.DailyNotes\0.mindset\2025-11-30-可迁移策略.md
+  目标路径: 2.Topics/Coding/工程实践/可迁移策略.md
+  状态: 失败
+  错误: [WinError 2] The system cannot find the file specified
+
+[149] 2025-12-04-系统设计文档与 PRD、Spec.md
+  源路径: 0.DailyNotes\0.mindset\2025-12-04-系统设计文档与 PRD、Spec.md
+  目标路径: 2.Topics/Coding/系统设计/系统设计文档与 PRD、Spec.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\系统设计\系统设计文档与 PRD、Spec.md
+
+[150] 2025-12-13-学习知识库架构.md
+  源路径: 0.DailyNotes\0.mindset\2025-12-13-学习知识库架构.md
+  目标路径: 2.Topics/Coding/系统设计/学习知识库架构.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\系统设计\学习知识库架构.md
+
+[151] 2025-W14.md
+  源路径: 0.DailyNotes\0.mindset\2025-W14.md
+  目标路径: 0.DailyNotes/特殊文件/2025-W14.md
+  状态: 成功
+  实际路径: 0.DailyNotes\特殊文件\2025-W14.md
+
+[152] 20251116 - 读书摘要.md
+  源路径: 0.DailyNotes\0.mindset\20251116 - 读书摘要.md
+  目标路径: UNCATEGORIZED\读书摘要.md
+  状态: 跳过（未分类）
+
+[153] 5级DES高分写作用语习惯.md
+  源路径: 0.DailyNotes\0.mindset\5级DES高分写作用语习惯.md
+  目标路径: 2.Topics/写作与英语/英语学习/5级DES高分写作用语习惯.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\英语学习\5级DES高分写作用语习惯.md
+
+[154] AI协作作战手册设计规范 v1.0.md
+  源路径: 0.DailyNotes\0.mindset\AI协作作战手册设计规范 v1.0.md
+  目标路径: 2.Topics/Coding/AI与大模型/AI协作作战手册设计规范 v1.0.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\AI协作作战手册设计规范 v1.0.md
+
+[155] Arc-将蓝图细化为具体的装配指令.md
+  源路径: 0.DailyNotes\0.mindset\Arc-将蓝图细化为具体的装配指令.md
+  目标路径: 2.Topics/Coding/AI与大模型/Arc-将蓝图细化为具体的装配指令.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\Arc-将蓝图细化为具体的装配指令.md
+
+[156] CheeryStudio自反能力提示词生成器.md
+  源路径: 0.DailyNotes\0.mindset\CheeryStudio自反能力提示词生成器.md
+  目标路径: 2.Topics/Coding/AI与大模型/CheeryStudio自反能力提示词生成器.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\CheeryStudio自反能力提示词生成器.md
+
+[157] DSE 英文写作结构公式.md
+  源路径: 0.DailyNotes\0.mindset\DSE 英文写作结构公式.md
+  目标路径: 2.Topics/写作与英语/英语学习/DSE 英文写作结构公式.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\英语学习\DSE 英文写作结构公式.md
+
+[158] Google Gem - Brain Storm.md
+  源路径: 0.DailyNotes\0.mindset\Google Gem - Brain Storm.md
+  目标路径: 2.Topics/Coding/AI与大模型/Google Gem - Brain Storm.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\Google Gem - Brain Storm.md
+
+[159] LOL游戏启示录.md
+  源路径: 0.DailyNotes\0.mindset\LOL游戏启示录.md
+  目标路径: 2.Topics/个人效能/职业发展/LOL游戏启示录.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\LOL游戏启示录.md
+
+[160] Making cool stuff.md
+  源路径: 0.DailyNotes\0.mindset\Making cool stuff.md
+  目标路径: 2.Topics/创业与产品/商业模式/Making cool stuff.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\商业模式\Making cool stuff.md
+
+[161] ManicTime量化.md
+  源路径: 0.DailyNotes\0.mindset\ManicTime量化.md
+  目标路径: 2.Topics/个人效能/生产力系统/ManicTime量化.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\ManicTime量化.md
+
+[162] No Magic, Just Code设计哲学.md
+  源路径: 0.DailyNotes\0.mindset\No Magic, Just Code设计哲学.md
+  目标路径: 2.Topics/Coding/系统设计/No Magic, Just Code设计哲学.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\系统设计\No Magic, Just Code设计哲学.md
+
+[163] PARACAP项目管理结构.md
+  源路径: 0.DailyNotes\0.mindset\PARACAP项目管理结构.md
+  目标路径: 2.Topics/创业与产品/产品方法论/PARACAP项目管理结构.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\产品方法论\PARACAP项目管理结构.md
+
+[164] PDCA：独立开发者的“个人引擎”升级指南.md
+  源路径: 0.DailyNotes\0.mindset\PDCA：独立开发者的“个人引擎”升级指南.md
+  目标路径: 2.Topics/创业与产品/商业模式/PDCA：独立开发者的“个人引擎”升级指南.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\商业模式\PDCA：独立开发者的“个人引擎”升级指南.md
+
+[165] Prompt 模板库结构设计.md
+  源路径: 0.DailyNotes\0.mindset\Prompt 模板库结构设计.md
+  目标路径: 2.Topics/Coding/AI与大模型/Prompt 模板库结构设计.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\Prompt 模板库结构设计.md
+
+[166] Task Graph建模适用场景.md
+  源路径: 0.DailyNotes\0.mindset\Task Graph建模适用场景.md
+  目标路径: 2.Topics/Coding/系统设计/Task Graph建模适用场景.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\系统设计\Task Graph建模适用场景.md
+
+[167] The Trump Business Wisdom Collection.md
+  源路径: 0.DailyNotes\0.mindset\The Trump Business Wisdom Collection.md
+  目标路径: 2.Topics/创业与产品/商业模式/The Trump Business Wisdom Collection.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\商业模式\The Trump Business Wisdom Collection.md
+
+[168] YAGNI 原则.md
+  源路径: 0.DailyNotes\0.mindset\YAGNI 原则.md
+  目标路径: 2.Topics/认知科学/思维模型/YAGNI 原则.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\YAGNI 原则.md
+
+[169] Youtube开发系主播清单.md
+  源路径: 0.DailyNotes\0.mindset\Youtube开发系主播清单.md
+  目标路径: 2.Topics/个人效能/职业发展/Youtube开发系主播清单.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\Youtube开发系主播清单.md
+
+[170] 上下文工程.md
+  源路径: 0.DailyNotes\0.mindset\上下文工程.md
+  目标路径: 2.Topics/Coding/AI与大模型/上下文工程.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\上下文工程.md
+
+[171] 上下文工程解析.md
+  源路径: 0.DailyNotes\0.mindset\上下文工程解析.md
+  目标路径: 2.Topics/Coding/AI与大模型/上下文工程解析.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\上下文工程解析.md
+
+[172] 不为清单：系统熵增防御协议.md
+  源路径: 0.DailyNotes\0.mindset\不为清单：系统熵增防御协议.md
+  目标路径: 2.Topics/认知科学/行动协议/不为清单：系统熵增防御协议.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\行动协议\不为清单：系统熵增防御协议.md
+
+[173] 专家领域强方法.md
+  源路径: 0.DailyNotes\0.mindset\专家领域强方法.md
+  目标路径: 2.Topics/认知科学/思维模型/专家领域强方法.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\专家领域强方法.md
+
+[174] 个人思维源码生成库.md
+  源路径: 0.DailyNotes\0.mindset\个人思维源码生成库.md
+  目标路径: 2.Topics/认知科学/思维模型/个人思维源码生成库.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\个人思维源码生成库.md
+
+[175] 个人效能白皮书.md
+  源路径: 0.DailyNotes\0.mindset\个人效能白皮书.md
+  目标路径: 2.Topics/个人效能/生产力系统/个人效能白皮书.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\个人效能白皮书.md
+
+[176] 临时笔记→常青笔记转化.md
+  源路径: 0.DailyNotes\0.mindset\临时笔记→常青笔记转化.md
+  目标路径: 2.Topics/认知科学/学习系统/临时笔记→常青笔记转化.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\临时笔记→常青笔记转化.md
+
+[177] 产品经理具体职责及常规交付件.md
+  源路径: 0.DailyNotes\0.mindset\产品经理具体职责及常规交付件.md
+  目标路径: 2.Topics/创业与产品/产品方法论/产品经理具体职责及常规交付件.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\产品方法论\产品经理具体职责及常规交付件.md
+
+[178] 产品经理都有哪些常用方法论.md
+  源路径: 0.DailyNotes\0.mindset\产品经理都有哪些常用方法论.md
+  目标路径: 2.Topics/创业与产品/产品方法论/产品经理都有哪些常用方法论.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\产品方法论\产品经理都有哪些常用方法论.md
+
+[179] 人类情绪能量表：OS情绪监控模块.md
+  源路径: 0.DailyNotes\0.mindset\人类情绪能量表：OS情绪监控模块.md
+  目标路径: 2.Topics/认知科学/思维模型/人类情绪能量表：OS情绪监控模块.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\人类情绪能量表：OS情绪监控模块.md
+
+[180] 代码与笔记中的品味.md
+  源路径: 0.DailyNotes\0.mindset\代码与笔记中的品味.md
+  目标路径: 2.Topics/认知科学/学习系统/代码与笔记中的品味.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\代码与笔记中的品味.md
+
+[181] 任务层级.md
+  源路径: 0.DailyNotes\0.mindset\任务层级.md
+  目标路径: 2.Topics/Coding/工程实践/任务层级.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\任务层级.md
+
+[182] 优秀Youtube推荐.md
+  源路径: 0.DailyNotes\0.mindset\优秀Youtube推荐.md
+  目标路径: UNCATEGORIZED\优秀Youtube推荐.md
+  状态: 跳过（未分类）
+
+[183] 作品意识.md
+  源路径: 0.DailyNotes\0.mindset\作品意识.md
+  目标路径: 2.Topics/Coding/工程实践/作品意识.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\作品意识.md
+
+[184] 信息到能力：知识工程的系统化框架.md
+  源路径: 0.DailyNotes\0.mindset\信息到能力：知识工程的系统化框架.md
+  目标路径: UNCATEGORIZED\信息到能力：知识工程的系统化框架.md
+  状态: 跳过（未分类）
+
+[185] 先优化内核，再设计API.md
+  源路径: 0.DailyNotes\0.mindset\先优化内核，再设计API.md
+  目标路径: 2.Topics/Coding/工程实践/先优化内核，再设计API.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\先优化内核，再设计API.md
+
+[186] 关注圈 vs 影响力圈.md
+  源路径: 0.DailyNotes\0.mindset\关注圈 vs 影响力圈.md
+  目标路径: UNCATEGORIZED\关注圈 vs 影响力圈.md
+  状态: 跳过（未分类）
+
+[187] 关系 × 社交 × 设计 × 金钱.md
+  源路径: 0.DailyNotes\0.mindset\关系 × 社交 × 设计 × 金钱.md
+  目标路径: UNCATEGORIZED\关系 × 社交 × 设计 × 金钱.md
+  状态: 跳过（未分类）
+
+[188] 具体笔记框架的实际运用(模板).md
+  源路径: 0.DailyNotes\0.mindset\具体笔记框架的实际运用(模板).md
+  目标路径: 2.Topics/认知科学/学习系统/具体笔记框架的实际运用(模板).md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\具体笔记框架的实际运用(模板).md
+
+[189] 决策艺术与科学.md
+  源路径: 0.DailyNotes\0.mindset\决策艺术与科学.md
+  目标路径: 2.Topics/认知科学/思维模型/决策艺术与科学.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\决策艺术与科学.md
+
+[190] 分子级卡片盒.md
+  源路径: 0.DailyNotes\0.mindset\分子级卡片盒.md
+  目标路径: 2.Topics/写作与英语/写作技巧/分子级卡片盒.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\写作技巧\分子级卡片盒.md
+
+[191] 创新发明范式-TRIZ 理论.md
+  源路径: 0.DailyNotes\0.mindset\创新发明范式-TRIZ 理论.md
+  目标路径: UNCATEGORIZED\创新发明范式-TRIZ 理论.md
+  状态: 跳过（未分类）
+
+[192] 剪辑工作流-产品如活物,用者无机心.md
+  源路径: 0.DailyNotes\0.mindset\剪辑工作流-产品如活物,用者无机心.md
+  目标路径: 2.Topics/Coding/工程实践/剪辑工作流-产品如活物,用者无机心.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\剪辑工作流-产品如活物,用者无机心.md
+
+[193] 勾玄提要四步法.md
+  源路径: 0.DailyNotes\0.mindset\勾玄提要四步法.md
+  目标路径: UNCATEGORIZED\勾玄提要四步法.md
+  状态: 跳过（未分类）
+
+[194] 原理先行.md
+  源路径: 0.DailyNotes\0.mindset\原理先行.md
+  目标路径: 2.Topics/Coding/数据库与存储/原理先行.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\数据库与存储\原理先行.md
+
+[195] 复利效应.md
+  源路径: 0.DailyNotes\0.mindset\复利效应.md
+  目标路径: 2.Topics/Coding/工程实践/复利效应.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\复利效应.md
+
+[196] 如何为开源项目贡献你的第一个PR.md
+  源路径: 0.DailyNotes\0.mindset\如何为开源项目贡献你的第一个PR.md
+  目标路径: 2.Topics/Coding/工程实践/如何为开源项目贡献你的第一个PR.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\如何为开源项目贡献你的第一个PR.md
+
+[197] 如何培养真正的专家特质.md
+  源路径: 0.DailyNotes\0.mindset\如何培养真正的专家特质.md
+  目标路径: UNCATEGORIZED\如何培养真正的专家特质.md
+  状态: 跳过（未分类）
+
+[198] 如何增强笔记内容的可提取性.md
+  源路径: 0.DailyNotes\0.mindset\如何增强笔记内容的可提取性.md
+  目标路径: 2.Topics/认知科学/学习系统/如何增强笔记内容的可提取性.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\如何增强笔记内容的可提取性.md
+
+[199] 如何学习一门编程语言.md
+  源路径: 0.DailyNotes\0.mindset\如何学习一门编程语言.md
+  目标路径: 2.Topics/认知科学/学习系统/如何学习一门编程语言.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\如何学习一门编程语言.md
+
+[200] 如何构建知识质量飞轮.md
+  源路径: 0.DailyNotes\0.mindset\如何构建知识质量飞轮.md
+  目标路径: 2.Topics/Coding/工程实践/如何构建知识质量飞轮.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\如何构建知识质量飞轮.md
+
+[201] 如何进行逐字稿优化.md
+  源路径: 0.DailyNotes\0.mindset\如何进行逐字稿优化.md
+  目标路径: 2.Topics/Coding/AI与大模型/如何进行逐字稿优化.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\如何进行逐字稿优化.md
+
+[202] 对话.md
+  源路径: 0.DailyNotes\0.mindset\对话.md
+  目标路径: 2.Topics/Coding/工程实践/对话.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\对话.md
+
+[203] 尽量避免选用行业报告类资料.md
+  源路径: 0.DailyNotes\0.mindset\尽量避免选用行业报告类资料.md
+  目标路径: 2.Topics/Coding/AI与大模型/尽量避免选用行业报告类资料.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\AI与大模型\尽量避免选用行业报告类资料.md
+
+[204] 山洞困局保命参考.md
+  源路径: 0.DailyNotes\0.mindset\山洞困局保命参考.md
+  目标路径: 2.Topics/Coding/工程实践/山洞困局保命参考.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\山洞困局保命参考.md
+
+[205] 工具倒逼思考.md
+  源路径: 0.DailyNotes\0.mindset\工具倒逼思考.md
+  目标路径: 2.Topics/写作与英语/写作技巧/工具倒逼思考.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\写作技巧\工具倒逼思考.md
+
+[206] 工具链与编排框架.md
+  源路径: 0.DailyNotes\0.mindset\工具链与编排框架.md
+  目标路径: 2.Topics/Coding/工程实践/工具链与编排框架.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\工具链与编排框架.md
+
+[207] 工程学素养-Notion Personal OS.md
+  源路径: 0.DailyNotes\0.mindset\工程学素养-Notion Personal OS.md
+  目标路径: 2.Topics/Coding/工程实践/工程学素养-Notion Personal OS.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\工程学素养-Notion Personal OS.md
+
+[208] 工程师效能手册.md
+  源路径: 0.DailyNotes\0.mindset\工程师效能手册.md
+  目标路径: 2.Topics/Coding/工程实践/工程师效能手册.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\工程师效能手册.md
+
+[209] 工程师的时间不变资产.md
+  源路径: 0.DailyNotes\0.mindset\工程师的时间不变资产.md
+  目标路径: 2.Topics/Coding/工程实践/工程师的时间不变资产.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\工程师的时间不变资产.md
+
+[210] 归纳与抽象.md
+  源路径: 0.DailyNotes\0.mindset\归纳与抽象.md
+  目标路径: 2.Topics/认知科学/思维模型/归纳与抽象.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\归纳与抽象.md
+
+[211] 快速提升提问质量的10大实战练习.md
+  源路径: 0.DailyNotes\0.mindset\快速提升提问质量的10大实战练习.md
+  目标路径: UNCATEGORIZED\快速提升提问质量的10大实战练习.md
+  状态: 跳过（未分类）
+
+[212] 思维格栅 (Latticework).md
+  源路径: 0.DailyNotes\0.mindset\思维格栅 (Latticework).md
+  目标路径: 2.Topics/认知科学/思维模型/思维格栅 (Latticework).md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\思维格栅 (Latticework).md
+
+[213] 思维模型：优化思考的实用工具箱.md
+  源路径: 0.DailyNotes\0.mindset\思维模型：优化思考的实用工具箱.md
+  目标路径: 2.Topics/Coding/工程实践/思维模型：优化思考的实用工具箱.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\思维模型：优化思考的实用工具箱.md
+
+[214] 思考链与建模案例.md
+  源路径: 0.DailyNotes\0.mindset\思考链与建模案例.md
+  目标路径: 2.Topics/Coding/工程实践/思考链与建模案例.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\思考链与建模案例.md
+
+[215] 性格五因素模型.md
+  源路径: 0.DailyNotes\0.mindset\性格五因素模型.md
+  目标路径: 2.Topics/认知科学/思维模型/性格五因素模型.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\性格五因素模型.md
+
+[216] 愤怒的猴子与货物崇拜.md
+  源路径: 0.DailyNotes\0.mindset\愤怒的猴子与货物崇拜.md
+  目标路径: 2.Topics/Coding/工程实践/愤怒的猴子与货物崇拜.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\愤怒的猴子与货物崇拜.md
+
+[217] 慢生活的科学辩护与实践策略.md
+  源路径: 0.DailyNotes\0.mindset\慢生活的科学辩护与实践策略.md
+  目标路径: 2.Topics/Coding/工程实践/慢生活的科学辩护与实践策略.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\慢生活的科学辩护与实践策略.md
+
+[218] 战略阅读.md
+  源路径: 0.DailyNotes\0.mindset\战略阅读.md
+  目标路径: 2.Topics/Coding/工程实践/战略阅读.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\战略阅读.md
+
+[219] 技术博客写作与发布 (SOP).md
+  源路径: 0.DailyNotes\0.mindset\技术博客写作与发布 (SOP).md
+  目标路径: 2.Topics/写作与英语/写作技巧/技术博客写作与发布 (SOP).md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\写作技巧\技术博客写作与发布 (SOP).md
+
+[220] 抽象重构与设计模式.md
+  源路径: 0.DailyNotes\0.mindset\抽象重构与设计模式.md
+  目标路径: 2.Topics/Coding/工程实践/抽象重构与设计模式.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\抽象重构与设计模式.md
+
+[221] 数据库要点.md
+  源路径: 0.DailyNotes\0.mindset\数据库要点.md
+  目标路径: 2.Topics/Coding/工程实践/数据库要点.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\工程实践\数据库要点.md
+
+[222] 数据追踪与量化.md
+  源路径: 0.DailyNotes\0.mindset\数据追踪与量化.md
+  目标路径: UNCATEGORIZED\数据追踪与量化.md
+  状态: 跳过（未分类）
+
+[223] 智能 Agent 架构关键范式.md
+  源路径: 0.DailyNotes\0.mindset\智能 Agent 架构关键范式.md
+  目标路径: 2.Topics/Coding/系统设计/智能 Agent 架构关键范式.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\系统设计\智能 Agent 架构关键范式.md
+
+[224] 未来更有价值的特质技能.md
+  源路径: 0.DailyNotes\0.mindset\未来更有价值的特质技能.md
+  目标路径: UNCATEGORIZED\未来更有价值的特质技能.md
+  状态: 跳过（未分类）
+
+[225] 机器学习算法.md
+  源路径: 0.DailyNotes\0.mindset\机器学习算法.md
+  目标路径: 2.Topics/Coding/语言指南/机器学习算法.md
+  状态: 成功
+  实际路径: 2.Topics\Coding\语言指南\机器学习算法.md
+
+[226] 核心竞争力构建系统.md
+  源路径: 0.DailyNotes\0.mindset\核心竞争力构建系统.md
+  目标路径: UNCATEGORIZED\核心竞争力构建系统.md
+  状态: 跳过（未分类）
+
+[227] 洞见系列.md
+  源路径: 0.DailyNotes\0.mindset\洞见系列.md
+  目标路径: 2.Topics/认知科学/思维模型/洞见系列.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\洞见系列.md
+
+[228] 深度工作-精英水平产出的能力.md
+  源路径: 0.DailyNotes\0.mindset\深度工作-精英水平产出的能力.md
+  目标路径: 2.Topics/个人效能/生产力系统/深度工作-精英水平产出的能力.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\深度工作-精英水平产出的能力.md
+
+[229] 深度工作调度理念.md
+  源路径: 0.DailyNotes\0.mindset\深度工作调度理念.md
+  目标路径: 2.Topics/个人效能/生产力系统/深度工作调度理念.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\深度工作调度理念.md
+
+[230] 溝通中常見的問題及解決策略.md
+  源路径: 0.DailyNotes\0.mindset\溝通中常見的問題及解決策略.md
+  目标路径: 2.Topics/个人效能/职业发展/溝通中常見的問題及解決策略.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\溝通中常見的問題及解決策略.md
+
+[231] 特朗普决策心理模型.md
+  源路径: 0.DailyNotes\0.mindset\特朗普决策心理模型.md
+  目标路径: 2.Topics/认知科学/思维模型/特朗普决策心理模型.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\特朗普决策心理模型.md
+
+[232] 用户分层运营SOP：从战略到精细化执行的完整指南.md
+  源路径: 0.DailyNotes\0.mindset\用户分层运营SOP：从战略到精细化执行的完整指南.md
+  目标路径: 2.Topics/创业与产品/产品方法论/用户分层运营SOP：从战略到精细化执行的完整指南.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\产品方法论\用户分层运营SOP：从战略到精细化执行的完整指南.md
+
+[233] 目标驱动下的系统性问题解决.md
+  源路径: 0.DailyNotes\0.mindset\目标驱动下的系统性问题解决.md
+  目标路径: 2.Topics/认知科学/思维模型/目标驱动下的系统性问题解决.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\目标驱动下的系统性问题解决.md
+
+[234] 目标驱动系统.md
+  源路径: 0.DailyNotes\0.mindset\目标驱动系统.md
+  目标路径: 2.Topics/认知科学/思维模型/目标驱动系统.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\目标驱动系统.md
+
+[235] 研究式学习法.md
+  源路径: 0.DailyNotes\0.mindset\研究式学习法.md
+  目标路径: 2.Topics/认知科学/学习系统/研究式学习法.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\研究式学习法.md
+
+[236] 社科理论核心思想.md
+  源路径: 0.DailyNotes\0.mindset\社科理论核心思想.md
+  目标路径: UNCATEGORIZED\社科理论核心思想.md
+  状态: 跳过（未分类）
+
+[237] 程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md
+  源路径: 0.DailyNotes\0.mindset\程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md
+  目标路径: 2.Topics/认知科学/学习系统/程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\程序员的“费曼学习法”：如何高效学习并掌握一门新技术？.md
+
+[238] 笔记品味的修炼.md
+  源路径: 0.DailyNotes\0.mindset\笔记品味的修炼.md
+  目标路径: 2.Topics/认知科学/学习系统/笔记品味的修炼.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\笔记品味的修炼.md
+
+[239] 精准提问代替模糊抱怨.md
+  源路径: 0.DailyNotes\0.mindset\精准提问代替模糊抱怨.md
+  目标路径: 2.Topics/认知科学/思维模型/精准提问代替模糊抱怨.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\精准提问代替模糊抱怨.md
+
+[240] 精力管理vs时间管理：生产力防御协议.md
+  源路径: 0.DailyNotes\0.mindset\精力管理vs时间管理：生产力防御协议.md
+  目标路径: 2.Topics/个人效能/生产力系统/精力管理vs时间管理：生产力防御协议.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\精力管理vs时间管理：生产力防御协议.md
+
+[241] 精彩短视频节目策划稿.md
+  源路径: 0.DailyNotes\0.mindset\精彩短视频节目策划稿.md
+  目标路径: 2.Topics/创业与产品/商业模式/精彩短视频节目策划稿.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\商业模式\精彩短视频节目策划稿.md
+
+[242] 精英团队基因映射.md
+  源路径: 0.DailyNotes\0.mindset\精英团队基因映射.md
+  目标路径: 2.Topics/个人效能/职业发展/精英团队基因映射.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\精英团队基因映射.md
+
+[243] 系统思考速查手册.md
+  源路径: 0.DailyNotes\0.mindset\系统思考速查手册.md
+  目标路径: 2.Topics/认知科学/思维模型/系统思考速查手册.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\系统思考速查手册.md
+
+[244] 纽约客笔记架构优化建议.md
+  源路径: 0.DailyNotes\0.mindset\纽约客笔记架构优化建议.md
+  目标路径: 2.Topics/认知科学/学习系统/纽约客笔记架构优化建议.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\纽约客笔记架构优化建议.md
+
+[245] 练习的效率.md
+  源路径: 0.DailyNotes\0.mindset\练习的效率.md
+  目标路径: 2.Topics/个人效能/生产力系统/练习的效率.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\练习的效率.md
+
+[246] 职场有效沟通简报.md
+  源路径: 0.DailyNotes\0.mindset\职场有效沟通简报.md
+  目标路径: 2.Topics/个人效能/职业发展/职场有效沟通简报.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\职场有效沟通简报.md
+
+[247] 能力复利链.md
+  源路径: 0.DailyNotes\0.mindset\能力复利链.md
+  目标路径: 2.Topics/个人效能/生产力系统/能力复利链.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\能力复利链.md
+
+[248] 良好品德共识.md
+  源路径: 0.DailyNotes\0.mindset\良好品德共识.md
+  目标路径: 2.Topics/个人效能/职业发展/良好品德共识.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\良好品德共识.md
+
+[249] 英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md
+  源路径: 0.DailyNotes\0.mindset\英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md
+  目标路径: 2.Topics/写作与英语/英语学习/英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\英语学习\英语习得的高 ROI 协议：从幻觉学习到肌肉记忆.md
+
+[250] 见解-模式-解决方案.md
+  源路径: 0.DailyNotes\0.mindset\见解-模式-解决方案.md
+  目标路径: 2.Topics/认知科学/思维模型/见解-模式-解决方案.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\见解-模式-解决方案.md
+
+[251] 视觉模型运用场景.md
+  源路径: 0.DailyNotes\0.mindset\视觉模型运用场景.md
+  目标路径: 2.Topics/认知科学/思维模型/视觉模型运用场景.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\视觉模型运用场景.md
+
+[252] 认知系统重构.md
+  源路径: 0.DailyNotes\0.mindset\认知系统重构.md
+  目标路径: 2.Topics/认知科学/思维模型/认知系统重构.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\认知系统重构.md
+
+[253] 谷歌工程师的财富增长之道.md
+  源路径: 0.DailyNotes\0.mindset\谷歌工程师的财富增长之道.md
+  目标路径: 2.Topics/个人效能/职业发展/谷歌工程师的财富增长之道.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\谷歌工程师的财富增长之道.md
+
+[254] 资本思维与决策博弈意识.md
+  源路径: 0.DailyNotes\0.mindset\资本思维与决策博弈意识.md
+  目标路径: 2.Topics/创业与产品/商业模式/资本思维与决策博弈意识.md
+  状态: 成功
+  实际路径: 2.Topics\创业与产品\商业模式\资本思维与决策博弈意识.md
+
+[255] 资深程序员的惯用习惯.md
+  源路径: 0.DailyNotes\0.mindset\资深程序员的惯用习惯.md
+  目标路径: 2.Topics/个人效能/职业发展/资深程序员的惯用习惯.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\资深程序员的惯用习惯.md
+
+[256] 跨文化技术领导力.md
+  源路径: 0.DailyNotes\0.mindset\跨文化技术领导力.md
+  目标路径: 2.Topics/个人效能/职业发展/跨文化技术领导力.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\跨文化技术领导力.md
+
+[257] 逆境突围协议：单点聚焦与暴力闭环.md
+  源路径: 0.DailyNotes\0.mindset\逆境突围协议：单点聚焦与暴力闭环.md
+  目标路径: 2.Topics/个人效能/生产力系统/逆境突围协议：单点聚焦与暴力闭环.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\生产力系统\逆境突围协议：单点聚焦与暴力闭环.md
+
+[258] 逐字稿改写规范.md
+  源路径: 0.DailyNotes\0.mindset\逐字稿改写规范.md
+  目标路径: 2.Topics/写作与英语/写作技巧/逐字稿改写规范.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\写作技巧\逐字稿改写规范.md
+
+[259] 逐字稿风格：高转化脚本架构指南.md
+  源路径: 0.DailyNotes\0.mindset\逐字稿风格：高转化脚本架构指南.md
+  目标路径: 2.Topics/写作与英语/写作技巧/逐字稿风格：高转化脚本架构指南.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\写作技巧\逐字稿风格：高转化脚本架构指南.md
+
+[260] 钢铁人论证法.md
+  源路径: 0.DailyNotes\0.mindset\钢铁人论证法.md
+  目标路径: 2.Topics/认知科学/思维模型/钢铁人论证法.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\钢铁人论证法.md
+
+[261] 问对问题的前提.md
+  源路径: 0.DailyNotes\0.mindset\问对问题的前提.md
+  目标路径: 2.Topics/认知科学/思维模型/问对问题的前提.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\问对问题的前提.md
+
+[262] 阶段性成果驱动的学习路径.md
+  源路径: 0.DailyNotes\0.mindset\阶段性成果驱动的学习路径.md
+  目标路径: 2.Topics/认知科学/学习系统/阶段性成果驱动的学习路径.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\阶段性成果驱动的学习路径.md
+
+[263] 香港高中生（DSE 群体）的精选粤语表达词组表.md
+  源路径: 0.DailyNotes\0.mindset\香港高中生（DSE 群体）的精选粤语表达词组表.md
+  目标路径: 2.Topics/写作与英语/英语学习/香港高中生（DSE 群体）的精选粤语表达词组表.md
+  状态: 成功
+  实际路径: 2.Topics\写作与英语\英语学习\香港高中生（DSE 群体）的精选粤语表达词组表.md
+
+[264] 高强度学习项目选型.md
+  源路径: 0.DailyNotes\0.mindset\高强度学习项目选型.md
+  目标路径: 2.Topics/认知科学/学习系统/高强度学习项目选型.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\学习系统\高强度学习项目选型.md
+
+[265] 高效沟通与极简练习协议.md
+  源路径: 0.DailyNotes\0.mindset\高效沟通与极简练习协议.md
+  目标路径: 2.Topics/个人效能/职业发展/高效沟通与极简练习协议.md
+  状态: 成功
+  实际路径: 2.Topics\个人效能\职业发展\高效沟通与极简练习协议.md
+
+[266] 高质量Question环节训练系统.md
+  源路径: 0.DailyNotes\0.mindset\高质量Question环节训练系统.md
+  目标路径: 2.Topics/认知科学/思维模型/高质量Question环节训练系统.md
+  状态: 成功
+  实际路径: 2.Topics\认知科学\思维模型\高质量Question环节训练系统.md
+
+============================================================
+执行统计
+============================================================
+成功移动: 105
+失败: 134
+
+失败文件列表:
+1. 0.DailyNotes\12-Factor App 故障排查手册.md
+   错误: [WinError 2] The system cannot find the file specified
+2. 0.DailyNotes\2025 年开发者生存指南-领域知识.md
+   错误: [WinError 2] The system cannot find the file specified
+3. 0.DailyNotes\2025-12-03-specs开发阶段.md
+   错误: [WinError 2] The system cannot find the file specified
+4. 0.DailyNotes\2025-12-03-YAGNI 如何改变决策质量.md
+   错误: [WinError 2] The system cannot find the file specified
+5. 0.DailyNotes\2025-12-03-大模型选型决策树.md
+   错误: [WinError 2] The system cannot find the file specified
+6. 0.DailyNotes\2025-12-03-并发基础核心解析.md
+   错误: [WinError 2] The system cannot find the file specified
+7. 0.DailyNotes\2025-12-03-消息队列vs任务队列.md
+   错误: [WinError 2] The system cannot find the file specified
+8. 0.DailyNotes\2025-12-05-Design Thinking.md
+   错误: [WinError 2] The system cannot find the file specified
+9. 0.DailyNotes\2025-12-05-Go与Rust的权衡.md
+   错误: [WinError 2] The system cannot find the file specified
+10. 0.DailyNotes\2025-12-05-Python学习套件.md
+   错误: [WinError 2] The system cannot find the file specified
+11. 0.DailyNotes\2025-12-05-常用中间件.md
+   错误: [WinError 2] The system cannot find the file specified
+12. 0.DailyNotes\2025-12-06-300行代码解释依赖注入的原理.md
+   错误: [WinError 2] The system cannot find the file specified
+13. 0.DailyNotes\2025-12-06-企业应用架构模式.md
+   错误: [WinError 2] The system cannot find the file specified
+14. 0.DailyNotes\2025-12-06-关键知识点学习清单.md
+   错误: [WinError 2] The system cannot find the file specified
+15. 0.DailyNotes\2025-12-07- 教练式 Code Review.md
+   错误: [WinError 2] The system cannot find the file specified
+16. 0.DailyNotes\2025-12-07-“创业温床”型公司.md
+   错误: [WinError 2] The system cannot find the file specified
+17. 0.DailyNotes\2025-12-07-带着答案提问.md
+   错误: [WinError 2] The system cannot find the file specified
+18. 0.DailyNotes\2025-12-07-系统架构分类框架.md
+   错误: [WinError 2] The system cannot find the file specified
+19. 0.DailyNotes\2025-12-10-行动触发器.md
+   错误: [WinError 2] The system cannot find the file specified
+20. 0.DailyNotes\2025-12-10-高质量开源项目的特征.md
+   错误: [WinError 2] The system cannot find the file specified
+21. 0.DailyNotes\2025-12-11-AI在写代码领域的当前水平.md
+   错误: [WinError 2] The system cannot find the file specified
+22. 0.DailyNotes\2025-12-11-写代码 vs 写作：AI评估维度对比.md
+   错误: [WinError 2] The system cannot find the file specified
+23. 0.DailyNotes\2025-12-11-视野分层.md
+   错误: [WinError 2] The system cannot find the file specified
+24. 0.DailyNotes\2025-12-16-37 signals.md
+   错误: [WinError 2] The system cannot find the file specified
+25. 0.DailyNotes\2025-12-19-优先级决策者.md
+   错误: [WinError 2] The system cannot find the file specified
+26. 0.DailyNotes\2025-12-19-极度耐心+极度爆发.md
+   错误: [WinError 2] The system cannot find the file specified
+27. 0.DailyNotes\2025-12-19-源码阅读的蜜蜂算法.md
+   错误: [WinError 2] The system cannot find the file specified
+28. 0.DailyNotes\2025-12-19-蜜蜂算法.md
+   错误: [WinError 2] The system cannot find the file specified
+29. 0.DailyNotes\2025-12-20-商业模式画布.md
+   错误: [WinError 2] The system cannot find the file specified
+30. 0.DailyNotes\2025-12-20-常用开发标记.md
+   错误: [WinError 2] The system cannot find the file specified
+31. 0.DailyNotes\2025-12-22-AI大模型知识体系.md
+   错误: [WinError 2] The system cannot find the file specified
+32. 0.DailyNotes\2025-12-27-Bezos.md
+   错误: [WinError 2] The system cannot find the file specified
+33. 0.DailyNotes\2025-12-30-Baby Steps 计划.md
+   错误: [WinError 2] The system cannot find the file specified
+34. 0.DailyNotes\2025-12-30-You 2.0 Stop Spiraling!.md
+   错误: [WinError 2] The system cannot find the file specified
+35. 0.DailyNotes\2025-12-30-跨领域播客 Transcript 快速框架构建法.md
+   错误: [WinError 2] The system cannot find the file specified
+36. 0.DailyNotes\2025-12-31-hacker mindset.md
+   错误: [WinError 2] The system cannot find the file specified
+37. 0.DailyNotes\2025-12-31-分布式集体组合策略.md
+   错误: [WinError 2] The system cannot find the file specified
+38. 0.DailyNotes\2025-12-31-系统设计与架构模式.md
+   错误: [WinError 2] The system cannot find the file specified
+39. 0.DailyNotes\2026-01-05-2026年软件开发趋势预测.md
+   错误: [WinError 2] The system cannot find the file specified
+40. 0.DailyNotes\2026-01-05-LeetCode 的竞赛知识点.md
+   错误: [WinError 2] The system cannot find the file specified
+41. 0.DailyNotes\2026-01-05-极端帕累托.md
+   错误: [WinError 2] The system cannot find the file specified
+42. 0.DailyNotes\2026-01-07-用程序员的逻辑整理你的笔记系统.md
+   错误: [WinError 2] The system cannot find the file specified
+43. 0.DailyNotes\2026-01-07-达里奥“机器思维”.md
+   错误: [WinError 2] The system cannot find the file specified
+44. 0.DailyNotes\2026-01-09-Strategy Crystallizer Output.md
+   错误: [WinError 2] The system cannot find the file specified
+45. 0.DailyNotes\2026-01-09-从“现象”到“结构”.md
+   错误: [WinError 2] The system cannot find the file specified
+46. 0.DailyNotes\2026-01-10-精英复利指标.md
+   错误: [WinError 2] The system cannot find the file specified
+47. 0.DailyNotes\2026-01-11-FabricAI智能助手.md
+   错误: [WinError 2] The system cannot find the file specified
+48. 0.DailyNotes\2026-01-12-TanStack等四个现代框架深度对比.md
+   错误: [WinError 2] The system cannot find the file specified
+49. 0.DailyNotes\2026-01-15-程序员能力投入比例实战指南.md
+   错误: [WinError 2] The system cannot find the file specified
+50. 0.DailyNotes\2026-01-19-skills选型策略.md
+   错误: [WinError 2] The system cannot find the file specified
+51. 0.DailyNotes\2026-01-19-程序员职业决策框架.md
+   错误: [WinError 2] The system cannot find the file specified
+52. 0.DailyNotes\2026-01-20-AI能力–采用率鸿沟.md
+   错误: [WinError 2] The system cannot find the file specified
+53. 0.DailyNotes\2026-01-21-.md
+   错误: [WinError 2] The system cannot find the file specified
+54. 0.DailyNotes\48小时学习计划.md
+   错误: [WinError 2] The system cannot find the file specified
+55. 0.DailyNotes\@每日速记笔记.md
+   错误: [WinError 2] The system cannot find the file specified
+56. 0.DailyNotes\AI 协作白皮书.md
+   错误: [WinError 2] The system cannot find the file specified
+57. 0.DailyNotes\B站推荐系统设计.md
+   错误: [WinError 2] The system cannot find the file specified
+58. 0.DailyNotes\commit 和 PR的选择.md
+   错误: [WinError 2] The system cannot find the file specified
+59. 0.DailyNotes\CPython源码阅读与理解.md
+   错误: [WinError 2] The system cannot find the file specified
+60. 0.DailyNotes\HIIT训练指南.md
+   错误: [WinError 2] The system cannot find the file specified
+61. 0.DailyNotes\IOC（控制反转）和 DI（依赖注入）.md
+   错误: [WinError 2] The system cannot find the file specified
+62. 0.DailyNotes\Java 并发革命：虚拟线程实战指南（2025 工业级应用）.md
+   错误: [WinError 2] The system cannot find the file specified
+63. 0.DailyNotes\Java 注解.md
+   错误: [WinError 2] The system cannot find the file specified
+64. 0.DailyNotes\non-obvious-only principle.md
+   错误: [WinError 2] The system cannot find the file specified
+65. 0.DailyNotes\Plan文档比较与实例.md
+   错误: [WinError 2] The system cannot find the file specified
+66. 0.DailyNotes\PostgreSQL开发者实战指南.md
+   错误: [WinError 2] The system cannot find the file specified
+67. 0.DailyNotes\Pydantic的数据验证机制和性能优化.md
+   错误: [WinError 2] The system cannot find the file specified
+68. 0.DailyNotes\Python 系统设计 6 小时突破方案.md
+   错误: [WinError 2] The system cannot find the file specified
+69. 0.DailyNotes\Python代码注释规范自适应提示词.md
+   错误: [WinError 2] The system cannot find the file specified
+70. 0.DailyNotes\Python生态深度 × 能量节律优化.md
+   错误: [WinError 2] The system cannot find the file specified
+71. 0.DailyNotes\RFC战略框架.md
+   错误: [WinError 2] The system cannot find the file specified
+72. 0.DailyNotes\Roadmap.md
+   错误: [WinError 2] The system cannot find the file specified
+73. 0.DailyNotes\Rust 异步与并发系统学习路径.md
+   错误: [WinError 2] The system cannot find the file specified
+74. 0.DailyNotes\Rust生产级综合开发技能学习系统提示词模板.md
+   错误: [WinError 2] The system cannot find the file specified
+75. 0.DailyNotes\sequential - thinking的适用场景.md
+   错误: [WinError 2] The system cannot find the file specified
+76. 0.DailyNotes\Spec-Driven Development（规格驱动开发）.md
+   错误: [WinError 2] The system cannot find the file specified
+77. 0.DailyNotes\Spec-Kit 规范即代码.md
+   错误: [WinError 2] The system cannot find the file specified
+78. 0.DailyNotes\SpecKit四个阶段.md
+   错误: [WinError 2] The system cannot find the file specified
+79. 0.DailyNotes\TDD 驱动良好设计的 Go 语言实战案例.md
+   错误: [WinError 2] The system cannot find the file specified
+80. 0.DailyNotes\Tech Stack Selection Guide Build Smart Not Overcomplicated.md
+   错误: [WinError 2] The system cannot find the file specified
+81. 0.DailyNotes\Testing and Quality Assurance Agent.md
+   错误: [WinError 2] The system cannot find the file specified
+82. 0.DailyNotes\The Effective Engineer GPT5.1high版本.md
+   错误: [WinError 2] The system cannot find the file specified
+83. 0.DailyNotes\The Effective Engineer.md
+   错误: [WinError 2] The system cannot find the file specified
+84. 0.DailyNotes\the-book-of-secret-knowledge.md
+   错误: [WinError 2] The system cannot find the file specified
+85. 0.DailyNotes\TypeScript 编译器用Go改写.md
+   错误: [WinError 2] The system cannot find the file specified
+86. 0.DailyNotes\Watch out for grab-bags.md
+   错误: [WinError 2] The system cannot find the file specified
+87. 0.DailyNotes\_Index_of_0.DailyNotes.md
+   错误: [WinError 2] The system cannot find the file specified
+88. 0.DailyNotes\产品经理视角.md
+   错误: [WinError 2] The system cannot find the file specified
+89. 0.DailyNotes\从 Code Review 到挑战性项目.md
+   错误: [WinError 2] The system cannot find the file specified
+90. 0.DailyNotes\从编码量到编码素养的系统化训练路径.md
+   错误: [WinError 2] The system cannot find the file specified
+91. 0.DailyNotes\代码认知负荷：高效工程的底层度量.md
+   错误: [WinError 2] The system cannot find the file specified
+92. 0.DailyNotes\代码质量分析和代码审查.md
+   错误: [WinError 2] The system cannot find the file specified
+93. 0.DailyNotes\使用向量操作SIMD优化.md
+   错误: [WinError 2] The system cannot find the file specified
+94. 0.DailyNotes\健身塑形系统训练指南.md
+   错误: [WinError 2] The system cannot find the file specified
+95. 0.DailyNotes\原则驱动行动.md
+   错误: [WinError 2] The system cannot find the file specified
+96. 0.DailyNotes\多智能体系统如何像顶尖研究团队一样协同工作.md
+   错误: [WinError 2] The system cannot find the file specified
+97. 0.DailyNotes\多线程的主要用途.md
+   错误: [WinError 2] The system cannot find the file specified
+98. 0.DailyNotes\如何像程序员一样思考.md
+   错误: [WinError 2] The system cannot find the file specified
+99. 0.DailyNotes\如何快速有效获取特定领域知识.md
+   错误: [WinError 2] The system cannot find the file specified
+100. 0.DailyNotes\实体类在开发中的作用.md
+   错误: [WinError 2] The system cannot find the file specified
+101. 0.DailyNotes\实时应用架构设计指南.md
+   错误: [WinError 2] The system cannot find the file specified
+102. 0.DailyNotes\工效理论.md
+   错误: [WinError 2] The system cannot find the file specified
+103. 0.DailyNotes\恰当的抽象.md
+   错误: [WinError 2] The system cannot find the file specified
+104. 0.DailyNotes\按能力维度精选开源项目清单.md
+   错误: [WinError 2] The system cannot find the file specified
+105. 0.DailyNotes\数据库类型的最佳使用场景.md
+   错误: [WinError 2] The system cannot find the file specified
+106. 0.DailyNotes\文档化Planning.md
+   错误: [WinError 2] The system cannot find the file specified
+107. 0.DailyNotes\有序带来效率.md
+   错误: [WinError 2] The system cannot find the file specified
+108. 0.DailyNotes\权利的48条法则.md
+   错误: [WinError 2] The system cannot find the file specified
+109. 0.DailyNotes\每日固定动作.md
+   错误: [WinError 2] The system cannot find the file specified
+110. 0.DailyNotes\独立开发陷阱.md
+   错误: [WinError 2] The system cannot find the file specified
+111. 0.DailyNotes\知识库健康度评估矩阵.md
+   错误: [WinError 2] The system cannot find the file specified
+112. 0.DailyNotes\程序员幸福力重建手册.md
+   错误: [WinError 2] The system cannot find the file specified
+113. 0.DailyNotes\程序员的思维跃迁原则.md
+   错误: [WinError 2] The system cannot find the file specified
+114. 0.DailyNotes\程序员的深度反思.md
+   错误: [WinError 2] The system cannot find the file specified
+115. 0.DailyNotes\策略结晶容器.md
+   错误: [WinError 2] The system cannot find the file specified
+116. 0.DailyNotes\简胜于繁.md
+   错误: [WinError 2] The system cannot find the file specified
+117. 0.DailyNotes\精英惯用四库速查清单.md
+   错误: [WinError 2] The system cannot find the file specified
+118. 0.DailyNotes\线上应用性能瓶颈与报错排查思路.md
+   错误: [WinError 2] The system cannot find the file specified
+119. 0.DailyNotes\编程专业思维指南.md
+   错误: [WinError 2] The system cannot find the file specified
+120. 0.DailyNotes\编程范式与思维模式映射.md
+   错误: [WinError 2] The system cannot find the file specified
+121. 0.DailyNotes\语篇能力培养.md
+   错误: [WinError 2] The system cannot find the file specified
+122. 0.DailyNotes\避开“认知突破”的幻觉.md
+   错误: [WinError 2] The system cannot find the file specified
+123. 0.DailyNotes\问题模式：跨语言解题内核.md
+   错误: [WinError 2] The system cannot find the file specified
+124. 0.DailyNotes\非传统开发者的成长指南.md
+   错误: [WinError 2] The system cannot find the file specified
+125. 0.DailyNotes\面向长期演化的个人知识操作系统.md
+   错误: [WinError 2] The system cannot find the file specified
+126. 0.DailyNotes\高效学习 Python 系统设计.md
+   错误: [WinError 2] The system cannot find the file specified
+127. 0.DailyNotes\0.mindset\.md
+   错误: [WinError 2] The system cannot find the file specified
+128. 0.DailyNotes\0.mindset\10x 实战手册.md
+   错误: [WinError 2] The system cannot find the file specified
+129. 0.DailyNotes\0.mindset\2025-11-25- Post-MVP.md
+   错误: [WinError 2] The system cannot find the file specified
+130. 0.DailyNotes\0.mindset\2025-11-25-为什么游戏开发适合提升编程能力.md
+   错误: [WinError 2] The system cannot find the file specified
+131. 0.DailyNotes\0.mindset\2025-11-26-开启学习引导模式.md
+   错误: [WinError 2] The system cannot find the file specified
+132. 0.DailyNotes\0.mindset\2025-11-26-求实原则.md
+   错误: [WinError 2] The system cannot find the file specified
+133. 0.DailyNotes\0.mindset\2025-11-26-测试最佳实践.md
+   错误: [WinError 2] The system cannot find the file specified
+134. 0.DailyNotes\0.mindset\2025-11-30-可迁移策略.md
+   错误: [WinError 2] The system cannot find the file specified
