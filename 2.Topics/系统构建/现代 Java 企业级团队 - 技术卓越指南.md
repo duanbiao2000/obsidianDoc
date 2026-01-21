@@ -1,6 +1,13 @@
 ---
 view-count: 3
+tags:
+  - Practical
+  - Methodology
+  - Backend
+  - Agile
+  - CloudNative
 ---
+ 
 当然可以。基于之前 [[Java SE核心内容]] 的技术卓越指南，我们可以构建一个面向现代 Java 企业级（Enterprise Edition, 如今的 Jakarta EE 生态）开发的团队指南。
 
 这份指南将更侧重于构建可扩展、可维护、高可用的后端服务，并深度融合 DevOps 和云原生理念，这正是现代 Java 开发团队的核心竞争力所在。

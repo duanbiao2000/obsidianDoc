@@ -1,5 +1,10 @@
 ---
 view-count: 12
+tags:
+  - Cognition
+  - Growth
+  - DecisionFramework
+  - CareerPlanning
 related:
   - "[[精通思维+快速实现]]"
   - "[[AI時代的財富創造機會與關鍵技能]]"
