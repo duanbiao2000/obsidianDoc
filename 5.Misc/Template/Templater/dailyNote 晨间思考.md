@@ -6,7 +6,7 @@ categories:
   - Mindset
 tags:
   - Domain/Mindset/Reflection
-view-count: 6
+view-count: 17
 collections:
 source:
   - 聪明人的个人成长
