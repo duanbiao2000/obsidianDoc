@@ -1,0 +1,10 @@
+./1.Projects/AI知识IP打造/CLAUDE.md
+./1.Projects/技术能力晋升/CLAUDE.md
+./2.Topics/02.认知系统/CLAUDE.md
+./2.Topics/06.语言与移民/CLAUDE.md
+./3.Resources/Prompt工程/CLAUDE.md
+./Atlas/BASE/CLAUDE.md
+./Atlas/Cards/CLAUDE.md
+./Atlas/Index/CLAUDE.md
+./Atlas/kanban/CLAUDE.md
+./CLAUDE.md
