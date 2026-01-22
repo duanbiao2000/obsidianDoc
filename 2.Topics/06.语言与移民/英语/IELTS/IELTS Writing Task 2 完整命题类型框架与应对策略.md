@@ -181,8 +181,14 @@ P4: Complementing this, [方案2] offers additional leverage.
 P5: Only through a multi-pronged approach combining [1] and [2] 
 can we effectively mitigate [问题].
 ```
+[雅思](https://zh.wikipedia.org/wiki/%E9%9B%85%E6%80%9D)
+
+
+
+### 雅思考试分为4部分
 
 ---
+![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picture/202601222256950.png)
 
 ## **四、Two-Part Question (双问题类)**
 

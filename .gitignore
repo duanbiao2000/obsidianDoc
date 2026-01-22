@@ -41,3 +41,6 @@ _Index_of_*.md
 .smart-env
 .space
 smart-chats/*
+.claude/settings.local.json
+nul
+.claude/settings.local.json

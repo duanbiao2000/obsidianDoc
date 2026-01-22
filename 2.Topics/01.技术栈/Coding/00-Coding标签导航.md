@@ -107,7 +107,7 @@ view-count: 7
 [[B站推荐系统设计]] #SystemDesign #Recommendation
 [[PostgreSQL开发者实战指南]] #Database #PostgreSQL
 [[CPython源码阅读与理解]] #Python #SourceCode
-[[Google Gem - Brain Storm]] #AI #Brainstorming
+[[编程内容创作]] #AI #Brainstorming
 [[为什么游戏开发适合提升编程能力]] #Gamedev #Learning
 [[无人机与嵌入式系统关系图谱]] #EmbeddedSystems #Drone
 [[无人机与嵌入式系统的关系]] #EmbeddedSystems #Drone
