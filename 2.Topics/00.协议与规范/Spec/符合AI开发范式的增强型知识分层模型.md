@@ -1,15 +1,19 @@
 ---
-aliases:
+aliases: null
 date: 2026-01-08 13:05
 tags:
-source:
-rating:
+  - AI-Assisted-Development
+  - Knowledge-Code-Integration
+  - AI-Agent-Development
+  - Algorithm
+source: null
+rating: null
 related:
-  - "[[AI 辅助编程全流程指南]]"
-  - "[[2020年代技术趋势 (2025更新版)]]"
-  - "[[SpecKit四个阶段]]"
-  - "[[2025-12-22-AI大模型知识体系]]"
-  - "[[学习框架]]"
+  - '[[AI 辅助编程全流程指南]]'
+  - '[[2020年代技术趋势 (2025更新版)]]'
+  - '[[SpecKit四个阶段]]'
+  - '[[2025-12-22-AI大模型知识体系]]'
+  - '[[学习框架]]'
 view-count: 5
 ---
 

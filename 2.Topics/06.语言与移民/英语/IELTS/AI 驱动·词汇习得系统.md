@@ -2,10 +2,15 @@
 view-count: 5
 update: 2026-01-08 22:11
 related:
-  - "[[语言能力日练计划]]"
-  - "[[2025-12-12-主题库vs问题驱动]]"
-  - "[[AI语言学习伴侣]]"
-  - "[[极简AI友好技术笔记系统]]"
+  - '[[语言能力日练计划]]'
+  - '[[2025-12-12-主题库vs问题驱动]]'
+  - '[[AI语言学习伴侣]]'
+  - '[[极简AI友好技术笔记系统]]'
+tags:
+  - lexical-density
+  - contextual-encoding
+  - language-learning
+  - ai
 ---
 
 # 🚀 AI 驱动·词汇习得系统 (F/C/P/M 2.0)

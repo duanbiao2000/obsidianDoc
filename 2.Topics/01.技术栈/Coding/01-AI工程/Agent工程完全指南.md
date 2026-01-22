@@ -1,15 +1,15 @@
 ---
 view-count: 10
-update: 2026-01-22
+update: 2026-01-22T00:00:00.000Z
 tags:
-  - Agent
-  - AI
-  - Collaboration
-  - MultiAgent
+  - agent-architecture
+  - multi-agent-systems
+  - agent
+  - ai
 related:
-  - "[[AI协作完全指南]]"
-  - "[[上下文工程完全指南]]"
-  - "[[AI能力–采用率鸿沟]]"
+  - '[[AI协作完全指南]]'
+  - '[[上下文工程完全指南]]'
+  - '[[AI能力–采用率鸿沟]]'
 ---
 
 # Agent工程完全指南

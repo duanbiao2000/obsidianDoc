@@ -1,7 +1,10 @@
 ---
 date: 2025-05-19 13:58
 tags:
-  - DG/Seedling
+  - spring-boot-skills
+  - microservices-architecture
+  - Domain/Creativity
+  - Domain/Mindset
 update: 2025-05-22 18:15
 ---
 ### 一、 阶段一：能用 (入门)

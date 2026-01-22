@@ -2,15 +2,15 @@
 view-count: 11
 update: 2026-01-03 23:46
 tags:
-  - Growth
-  - AITransition
-  - EngineeringMindset
+  - system-architecting
+  - human-in-the-loop
   - AI
+  - EngineeringMindset
 related:
-  - "[[2025-12-19-开发过程中的关键不变量]]"
-  - "[[破局而出]]"
-  - "[[2025-12-07-系统架构分类框架]]"
-  - "[[见解-模式-解决方案]]"
+  - '[[2025-12-19-开发过程中的关键不变量]]'
+  - '[[破局而出]]'
+  - '[[2025-12-07-系统架构分类框架]]'
+  - '[[见解-模式-解决方案]]'
 ---
 # [[AI 时代工程师转型]] | Minimal
 

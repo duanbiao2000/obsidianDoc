@@ -2,8 +2,12 @@
 aliases:
   - 雅思评分标准
   - IELTS Score criteria
-categories:
+categories: null
 tags:
+  - language-tests
+  - ielts-preparation
+  - ielts
+  - english-language
 view-count: 2
 ---
 

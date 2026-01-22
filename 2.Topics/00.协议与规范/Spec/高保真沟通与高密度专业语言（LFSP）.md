@@ -2,11 +2,16 @@
 view-count: 9
 update: 2026-01-09 12:50
 related:
-  - "[[01清晰度架构师]]"
-  - "[[明确意图-沟通价值与可维护]]"
-  - "[[每日固定动作]]"
-  - "[[与读者的有效沟通]]"
-  - "[[微服务通信方案]]"
+  - '[[01清晰度架构师]]'
+  - '[[明确意图-沟通价值与可维护]]'
+  - '[[每日固定动作]]'
+  - '[[与读者的有效沟通]]'
+  - '[[微服务通信方案]]'
+tags:
+  - HighFidelityCommunication
+  - ComplexityCommunication
+  - Communication
+  - TechnicalCommunication
 ---
 ### 高保真沟通与高密度专业语言（LFSP）  
 ——在复杂场景中，如何既说得准，又说得懂

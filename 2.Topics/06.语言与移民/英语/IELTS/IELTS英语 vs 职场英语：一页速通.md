@@ -1,7 +1,12 @@
 ---
 view-count: 4
 related:
-  - "[[区分理论与工程实践]]"
+  - '[[区分理论与工程实践]]'
+tags:
+  - business-communication
+  - decision-making-efficiency
+  - ielts
+  - english-writing
 ---
 # IELTS英语 vs 职场英语：一页速通
 

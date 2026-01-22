@@ -1,5 +1,10 @@
 ---
 view-count: 8
+tags:
+  - semantic-safety
+  - information-density
+  - KnowledgeManagement
+  - AI
 ---
 
 

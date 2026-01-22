@@ -1,3 +1,11 @@
+---
+tags:
+  - digital-indexing
+  - resource-organization
+  - note-taking
+  - task-management
+---
+
 - [[+ Encounters/_Index_of_+ Encounters]]
 - [[../1.Projects/_Index_of_1. Projects]]
 - [[_Index_of_01认知科学]]

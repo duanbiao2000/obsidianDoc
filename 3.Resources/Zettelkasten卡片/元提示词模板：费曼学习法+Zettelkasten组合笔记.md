@@ -1,3 +1,11 @@
+---
+tags:
+  - knowledge-engineering
+  - cognitive-science
+  - Domain/Creativity
+  - Method/Feynman
+---
+
 
 
 

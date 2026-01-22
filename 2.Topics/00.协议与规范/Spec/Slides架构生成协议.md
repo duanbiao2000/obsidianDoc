@@ -1,7 +1,11 @@
 ---
 aliases: null
 date: 2026-01-08 22:37
-tags: null
+tags:
+  - slides-automation
+  - presentation-protocol
+  - algorithm
+  - cognitive-science
 source: null
 rating: null
 related: null

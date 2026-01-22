@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - atomic-knowledge-anchor
+  - markdown-output
+  - KnowledgeManagement
+  - AI
 ---
 
 ## 🧠 **KAN v2：极简AI友好技术笔记系统**

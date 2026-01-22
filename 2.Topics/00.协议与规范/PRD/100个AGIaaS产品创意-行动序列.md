@@ -1,3 +1,11 @@
+---
+tags:
+  - agi-assistants
+  - cross-domain-applications
+  - AI
+  - AI-Agent-Development
+---
+
 
 以下是针对“[[100个AGIaaS产品创意]]”的行动序列，以 `- [ ]` 格式呈现，旨在指导您生成、评估和深化这些创意：
 

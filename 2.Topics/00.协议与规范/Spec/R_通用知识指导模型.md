@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - knowledge-guidance-model
+  - multilevel-learning
+  - academic-research
+  - cognitive-science
 ---
 ### 通用知识指导模型
 

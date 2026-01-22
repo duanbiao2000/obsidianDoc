@@ -1,5 +1,10 @@
 ---
 view-count: 4
+tags:
+  - DocstringStandards
+  - CommentBestPractices
+  - TechnicalWriting
+  - CodeQualityAssessment
 ---
 
 # 代码文档化协议：Docstring vs. Comment

@@ -1,3 +1,11 @@
+---
+tags:
+  - cognitive-probing-framework
+  - meta-prompt-design
+  - Domain/Creativity
+  - KnowledgeManagement
+---
+
 当然！这是一个非常棒的想法，它将人机交互从简单的“一问一答”提升到了“结构化探索”。构建一个泛化性能良好的追问框架，关键在于它必须是**系统性的、多维度的、且与认知过程相符的**。
 
 以下我为你设计一个名为 **“5C+A 认知追问框架” (The 5C+A Cognitive Probing Framework)**。这个框架旨在系统化地“压榨”LLM的信息，确保你获得的回应是**清晰、深入、全面且可执行的**。

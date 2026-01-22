@@ -1,3 +1,11 @@
+---
+tags:
+  - function-components
+  - hooks-optimization
+  - react
+  - ui-design
+---
+
 ### 一、 核心思想与思维模型 (`Core Philosophy & Mental Model`)
 
 - **`Declarative UI` (声明式UI)**:

@@ -1,5 +1,10 @@
 ---
 view-count: 5
+tags:
+  - TechAssetCompounding
+  - BusinessAutomation
+  - Domain/Creativity
+  - SoftwareEngineering
 ---
 ### 一、 核心本质
 **能力飞轮 = 技术资产的复利增长**。

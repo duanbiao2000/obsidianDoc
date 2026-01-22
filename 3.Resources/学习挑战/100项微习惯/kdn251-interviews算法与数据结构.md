@@ -1,7 +1,10 @@
 ---
 date: 2025-05-15 18:27
 tags:
-  - 算法
+  - complexity-theory
+  - graph-theory
+  - algorithm
+  - data-structures
 source: https://deepwiki.com/kdn251/interviews/
 view-count: 7
 ---

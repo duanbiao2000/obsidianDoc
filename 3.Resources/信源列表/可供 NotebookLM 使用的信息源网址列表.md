@@ -1,3 +1,11 @@
+---
+tags:
+  - AcademicResearch
+  - ScientificPublications
+  - KnowledgeManagement
+  - Research
+---
+
 
 ### 1. 学术与科学研究
 - **谷歌学术 (Google Scholar)**: `https://scholar.google.com/`

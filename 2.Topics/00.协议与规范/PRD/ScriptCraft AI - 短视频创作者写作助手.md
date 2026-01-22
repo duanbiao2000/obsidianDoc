@@ -3,10 +3,14 @@ aliases:
   - kimi ok compute
 date: 2025-10-01 13:50
 tags:
+  - video-content-creation
+  - scriptwriting-ai
+  - ai-content-creation-process
+  - content-creation
 source:
   - https://www.kimi.com/chat/
-update:
-rating:
+update: null
+rating: null
 ---
 好的，我将根据您提供的 "ScriptCraft AI" 产品文档，为您生成结构化、原子化的 Anki 闪卡。
 

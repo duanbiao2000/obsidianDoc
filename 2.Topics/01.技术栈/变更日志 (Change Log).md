@@ -1,7 +1,10 @@
 ---
 date: 2025-05-09 14:02
 tags:
-  - Status/Review
+  - ChangeLog-Structure
+  - VersionControl
+  - Documentation
+  - SoftwareEngineering
 ---
 **定义**：
 **变更日志 (Change Log)** 是一个按时间顺序排列的、记录了软件项目各版本之间所有重要变更的文档。它如同产品的“履历表”或“大事记”，旨在以人类可读的方式，告知用户和开发者每个新版本带来了什么。

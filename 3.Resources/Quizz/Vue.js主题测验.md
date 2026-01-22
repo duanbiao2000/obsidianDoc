@@ -1,5 +1,10 @@
 ---
 view-count: 7
+tags:
+  - component-architecture
+  - ui-framework
+  - react
+  - vuejs
 ---
 # Vue.js 3 核心工程：极简评估协议
 

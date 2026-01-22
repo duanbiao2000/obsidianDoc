@@ -1,11 +1,15 @@
 ---
-aliases:
+aliases: null
 date: 2025-10-29 16:04
 tags:
+  - GitHub-Copilot-Contributions
+  - Code-Formatting-Standards
+  - GitHub
+  - CodeQualityAssessment
 source:
   - https://github.com/duanbiao2000/awesome-copilot
-update:
-rating:
+update: null
+rating: null
 view-count: 2
 ---
 

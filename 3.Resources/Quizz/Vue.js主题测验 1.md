@@ -1,5 +1,10 @@
 ---
 view-count: 8
+tags:
+  - vue-testing
+  - vue-performance
+  - vue
+  - react
 ---
 
 ## 🧠 Vue.js 选择题测试（共 50 题，每题 2 分，总分 100 分）

@@ -1,6 +1,10 @@
 ---
 date: 2025-05-30 14:38
 tags:
+  - structured-documentation
+  - contextual-encoding
+  - ai-content-creation-process
+  - ai-agent-development
 source:
   - https://www.youtube.com/watch?v=MBaTuJfICP4
 view-count: 7

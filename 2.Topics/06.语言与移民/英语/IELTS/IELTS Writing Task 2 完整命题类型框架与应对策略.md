@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - ielts-essay-structure
+  - task-2-approach
+  - ielts
+  - writing-skills
 ---
 # IELTS Writing Task 2 完整命题类型框架与应对策略
 

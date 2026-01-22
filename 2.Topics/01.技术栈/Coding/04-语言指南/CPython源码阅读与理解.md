@@ -1,12 +1,16 @@
 ---
 aliases: []
 date: 2025-12-04 22:12
-tags: []
-collections:
-source:
-rating:
+tags:
+  - cpython-performance
+  - runtime-optimization
+  - python
+  - source-code-inspection
+collections: null
+source: null
+rating: null
 related:
-  - "[[Python生态深度 × 能量节律优化]]"
+  - '[[Python生态深度 × 能量节律优化]]'
 view-count: 4
 ---
 # [[CPython源码阅读与理解]]

@@ -1,3 +1,11 @@
+---
+tags:
+  - sql-query-optimization
+  - database-performance
+  - database-indexing
+  - performance-optimization
+---
+
 
 
 * **为什么需要优化SQL语句（为什么烹饪方法很重要）：**

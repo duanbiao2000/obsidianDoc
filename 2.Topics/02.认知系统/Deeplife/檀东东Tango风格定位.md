@@ -1,6 +1,10 @@
 ---
 date: 2025-07-21 22:29
-tags: null
+tags:
+  - PracticalSkillVideos
+  - AIApplicatonTutorials
+  - ContentCreation
+  - CognitiveModeling
 ---
 
 从该哔哩哔哩页面信息来看，檀东东Tango是一位具有较高专业度和广泛影响力的知名UP主，其特点可总结为以下几点：

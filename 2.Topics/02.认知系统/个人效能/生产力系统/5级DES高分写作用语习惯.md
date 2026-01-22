@@ -1,18 +1,22 @@
 ---
-aliases:
+aliases: null
 date: 2025-11-08 17:02
 tags:
+  - DSE-English-Writing
+  - Cognitive-Language-Use
+  - Content-Translation
+  - English
 source:
   - https://www.youtube.com/watch?v=mFL88c0R_R4
-rating:
+rating: null
 related:
-  - "[[香港高中生（DSE 群体）的精选粤语表达词组表]]"
-  - "[[从优秀中学习-用分析深度换取实践效率]]"
-  - "[[快速提升提问质量的10大实战练习]]"
-  - "[[认知解构师 Adrian Morris]]"
-  - "[[香港 DSE 顶流补习名师]]"
-  - "[[目标驱动下的系统性问题解决]]"
-  - "[[良好品德共识]]"
+  - '[[香港高中生（DSE 群体）的精选粤语表达词组表]]'
+  - '[[从优秀中学习-用分析深度换取实践效率]]'
+  - '[[快速提升提问质量的10大实战练习]]'
+  - '[[认知解构师 Adrian Morris]]'
+  - '[[香港 DSE 顶流补习名师]]'
+  - '[[目标驱动下的系统性问题解决]]'
+  - '[[良好品德共识]]'
 view-count: 4
 ---
 

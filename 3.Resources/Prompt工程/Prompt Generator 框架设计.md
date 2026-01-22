@@ -1,15 +1,18 @@
 ---
 date: 2025-07-19 22:40
 tags:
-  - System/DG/HighValue_Chest
+  - embodied-prompts-generator
+  - prompt-template-creation
+  - System/DG/HighValue-Chest
+  - KnowledgeManagement
 rating: 10
 view-count: 5
 update: 2026-01-06 19:14
 related:
-  - "[[Master Prompt逆向工程提示词生成器]]"
-  - "[[专业代码生成提示词协议]]"
-  - "[[专业认知激活提示词创建框架]]"
-  - "[[Meta Prompt 元提示词表达式]]"
+  - '[[Master Prompt逆向工程提示词生成器]]'
+  - '[[专业代码生成提示词协议]]'
+  - '[[专业认知激活提示词创建框架]]'
+  - '[[Meta Prompt 元提示词表达式]]'
 ---
 
 明白，我们来构建一个可快速组合生成**具身提示词（Embodied Prompt）** 的生成器框架。

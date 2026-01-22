@@ -5,6 +5,11 @@ source: null
 update: 2025-11-04 20:50
 rating: null
 related: null
+tags:
+  - document-minimalism
+  - non-obvious-information-documentation
+  - content-translation
+  - cognitive-content-delivery
 ---
 
 # 遵循“仅记录非显而易见信息”原则的精简高价值文档撰写指南

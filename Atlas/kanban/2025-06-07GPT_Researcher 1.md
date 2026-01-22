@@ -3,10 +3,15 @@ kanban-plugin: board
 view-count: 8
 update: 2026-01-08 21:37
 related:
-  - "[[2025-06-07GPT_Researcher]]"
-  - "[[2025-06-01LangGraph]]"
-  - "[[研究笔记模板]]"
-  - "[[Prompt管理科学]]"
+  - '[[2025-06-07GPT_Researcher]]'
+  - '[[2025-06-01LangGraph]]'
+  - '[[研究笔记模板]]'
+  - '[[Prompt管理科学]]'
+tags:
+  - research-workflow
+  - module-integration
+  - task-management
+  - task-organization
 ---
 
 ## To Do

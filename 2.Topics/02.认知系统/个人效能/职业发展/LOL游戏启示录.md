@@ -4,10 +4,14 @@ aliases:
   - 最小可行团队
 date: 2025-11-26 12:42
 tags:
-collections:
-source:
-rating:
-related:
+  - minimum-viable-team
+  - game-theory-models
+  - team-management
+  - business-strategy
+collections: null
+source: null
+rating: null
+related: null
 ---
 
 ### [[用LOL阵容模型构建高效团队]]

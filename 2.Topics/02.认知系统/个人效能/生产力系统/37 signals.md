@@ -1,12 +1,16 @@
 ---
-aliases:
+aliases: null
 date: 2025-12-16 19:18
 tags:
+  - boundary-setting
+  - proposal-quality
+  - productivity
+  - work-life-balance
 source:
   - https://37signals.com
-update:
-rating:
-related:
+update: null
+rating: null
+related: null
 view-count: 8
 ---
 

@@ -1,10 +1,15 @@
 ---
-aliases:
+aliases: null
 date: 2025-10-27 23:27
-source:
+source: null
 update: 2025-10-27 23:27
 rating: 10
 view-count: 5
+tags:
+  - rust-architecture
+  - microservices-optimization
+  - rust
+  - software-engineering
 ---
 # [[Rust生产级综合开发技能学习系统提示词模板]]
 

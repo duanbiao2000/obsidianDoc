@@ -2,11 +2,16 @@
 view-count: 4
 update: 2026-01-08 22:15
 related:
-  - "[[Agent Engineering]]"
-  - "[[AI 辅助编程全流程指南]]"
-  - "[[提示词-IT顾问-工作流]]"
-  - "[[2025-12-07-2026开发思维模型转变]]"
-  - "[[Prompt管理科学]]"
+  - '[[Agent Engineering]]'
+  - '[[AI 辅助编程全流程指南]]'
+  - '[[提示词-IT顾问-工作流]]'
+  - '[[2025-12-07-2026开发思维模型转变]]'
+  - '[[Prompt管理科学]]'
+tags:
+  - parallel-agent-workflows
+  - meta-prompt-optimization
+  - ai-agent-development
+  - ai-content-creation-process
 ---
 
 > 💭 **Thinking Process**

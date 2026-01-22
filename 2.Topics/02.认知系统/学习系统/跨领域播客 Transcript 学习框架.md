@@ -1,5 +1,10 @@
 ---
 view-count: 7
+tags:
+  - cross-domain-mapping
+  - rapid-framework-creation
+  - algorithm
+  - cognitive-modeling
 ---
 # [[2025-12-30-跨领域播客 Transcript 快速框架构建法]]
 

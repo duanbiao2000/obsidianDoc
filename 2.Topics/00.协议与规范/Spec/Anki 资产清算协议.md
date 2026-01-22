@@ -1,5 +1,10 @@
 ---
 view-count: 5
+tags:
+  - memory-optimization
+  - cognitive-efficiency
+  - cognitive-science
+  - knowledge-management
 ---
 
 # Anki 资产清算协议：从知识囤积到认知增值

@@ -1,12 +1,18 @@
 ---
-aliases:
-source: https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
-author:
-date:
+aliases: null
+source: >-
+  https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
+author: null
+date: null
 update: 2024-07-24 13:48
-categories:
+categories: null
 status: false
 view-count: 4
+tags:
+  - InformationExtraction
+  - WisdomMining
+  - KnowledgeManagement
+  - Personal-Development
 ---
 
 

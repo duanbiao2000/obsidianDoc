@@ -1,13 +1,17 @@
 ---
-aliases:
+aliases: null
 date: 2026-01-09 20:31
 tags:
-source:
-rating:
+  - content-validation
+  - content-sustainability
+  - Domain/Creativity
+  - Domain/Productivity
+source: null
+rating: null
 related:
-  - "[[2026-01-06-HNW 审美开发选题]]"
-  - "[[策略结晶采集器]]"
-  - "[[策略结晶容器]]"
+  - '[[2026-01-06-HNW 审美开发选题]]'
+  - '[[策略结晶采集器]]'
+  - '[[策略结晶容器]]'
 view-count: 5
 ---
 

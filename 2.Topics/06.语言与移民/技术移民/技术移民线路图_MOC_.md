@@ -6,6 +6,11 @@ source: null
 update: 2026-01-01 19:02
 rating: null
 view-count: 5
+tags:
+  - ImmigrationPathways
+  - DynamicNavigationSystem
+  - Agent
+  - Algorithm
 ---
 
 # [[技术移民线路图_MOC_]] | Minimal

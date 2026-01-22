@@ -1,20 +1,22 @@
 ---
 tags:
-  - Tech/DeepWiki
-  - Method
-  - Domain/Creativity/Product
-  - Checklist-防呆清单
-  - clippings
-source: https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/working-in-the-brownfield.md
+  - agile-ai-development
+  - decision-protocol-optimization
+  - tech/deepwiki
+  - method
+source: >-
+  https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/working-in-the-brownfield.md
 view-count: 20
 update: 2026-01-08 23:13
-related:
+related: null
 aliases: BMAD-METHOD/docs/user-guide.md at main · bmad-code-org/BMAD-METHOD
 author:
-  - "[[GitHub]]"
-published:
-date: 2025-08-17
-description: Breakthrough Method for Agile Ai Driven Development - BMAD-METHOD/docs/user-guide.md at main · bmad-code-org/BMAD-METHOD
+  - '[[GitHub]]'
+published: null
+date: 2025-08-17T00:00:00.000Z
+description: >-
+  Breakthrough Method for Agile Ai Driven Development -
+  BMAD-METHOD/docs/user-guide.md at main · bmad-code-org/BMAD-METHOD
 ---
 根据你的 ROI 优化策略，对 [[BMAD-METHOD]] 的三篇整合笔记进行重构，将清单、指令集与决策流压缩为高密度的**工程防御协议**。
 

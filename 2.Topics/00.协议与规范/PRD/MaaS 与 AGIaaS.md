@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - agi-as-service
+  - ai-model-ecosystem
+  - ai
+  - ai-agent-development
 ---
 思考过程：
 1.  **用户核心主题：** MaaS (Model as a Service) / AGIaaS。要求围绕这个主题谈一谈。

@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - tdd-driven-design
+  - interface-design
+  - software-engineering
+  - system-design
 ---
 ## TDD 驱动的设计演进**
 

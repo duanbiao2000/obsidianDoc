@@ -1,12 +1,15 @@
 ---
-aliases:
+aliases: null
 date: 2025-12-03 10:19
 tags:
-  - Domain/Creativity/Product
-source:
-update:
-rating:
-related:
+  - AI-Chat-Engagement
+  - Language-Proficiency-Training
+  - AI-Agent-Development
+  - Content-Translation
+source: null
+update: null
+rating: null
+related: null
 view-count: 6
 ---
 ## 0. 本质 (The Essence)

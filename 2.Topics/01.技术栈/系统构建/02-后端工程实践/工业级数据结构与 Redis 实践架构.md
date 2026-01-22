@@ -2,15 +2,16 @@
 view-count: 12
 update: 2026-01-06 23:24
 tags:
-  - Practical
+  - RedisOptimization
+  - AdaptiveEncoding
   - DataStorage
   - Performance
 related:
-  - "[[Rust生产级综合开发技能学习系统提示词模板]]"
-  - "[[Python 系统设计 6 小时突破方案]]"
-  - "[[区分理论与工程实践]]"
-  - "[[PostgreSQL开发者实战指南]]"
-  - "[[高阶开发权衡框架]]"
+  - '[[Rust生产级综合开发技能学习系统提示词模板]]'
+  - '[[Python 系统设计 6 小时突破方案]]'
+  - '[[区分理论与工程实践]]'
+  - '[[PostgreSQL开发者实战指南]]'
+  - '[[高阶开发权衡框架]]'
 ---
  
 ## 工业级数据结构与 Redis 实践架构 (ROI 优化版)

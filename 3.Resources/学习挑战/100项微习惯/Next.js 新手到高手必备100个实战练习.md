@@ -1,5 +1,10 @@
 ---
 view-count: 5
+tags:
+  - typescript
+  - tailwind-css
+  - react
+  - next-js
 ---
 ### **Next.js 核心能力20题实战 (App Router 版)**
 

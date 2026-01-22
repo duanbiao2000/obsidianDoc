@@ -1,12 +1,15 @@
 ---
-aliases:
+aliases: null
 date: 2025-12-02 18:25
 tags:
-  - Status/TODO
-source:
-update:
-rating:
-related:
+  - bioenergetic-timing
+  - work-recovery-ratio
+  - fitness
+  - exercise
+source: null
+update: null
+rating: null
+related: null
 view-count: 7
 ---
 ## 1. 核心逻辑：生物能时分复用 (Bio-energetic TDM)

@@ -2,10 +2,15 @@
 view-count: 9
 update: 2026-01-06 22:41
 related:
-  - "[[程序员必做的挑战性项目]]"
-  - "[[原则驱动行动]]"
-  - "[[2025-12-30-跨领域播客 Transcript 快速框架构建法]]"
-  - "[[0.DailyNotes/见解-模式-解决方案]]"
+  - '[[程序员必做的挑战性项目]]'
+  - '[[原则驱动行动]]'
+  - '[[2025-12-30-跨领域播客 Transcript 快速框架构建法]]'
+  - '[[0.DailyNotes/见解-模式-解决方案]]'
+tags:
+  - cognitive-skill-building
+  - code-review-principles
+  - cognitive-modeling
+  - system-thinking
 ---
 
 ## 1. 核心逻辑：技术认知螺旋 (The Cognition Spiral)

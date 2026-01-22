@@ -1,5 +1,10 @@
 ---
 view-count: 5
+tags:
+  - preemptive-scheduling
+  - cognitive-load-reduction
+  - time-management
+  - productivity
 ---
 # 早晨黄金时段：个人系统调度指南
 

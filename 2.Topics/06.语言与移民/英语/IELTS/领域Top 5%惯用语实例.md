@@ -1,8 +1,13 @@
 ---
 view-count: 6
 related:
-  - "[[LFSP风格AI助手]]"
-  - "[[跨文化技术领导力]]"
+  - '[[LFSP风格AI助手]]'
+  - '[[跨文化技术领导力]]'
+tags:
+  - Domain/Business
+  - Domain/Investment
+  - CommunicationSkills
+  - EffectiveCommunication
 ---
 Of course. Here is the adapted version of your note, converted into concise, professional Western workplace English, following the rules you provided.
 

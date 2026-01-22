@@ -1,5 +1,10 @@
 ---
 view-count: 5
+tags:
+  - language-mastery-levels
+  - linguistic-skills-assessment
+  - Language
+  - English
 ---
 # [[R_欧洲语言共同参考框架 (CEFR)]] | Minimal
 

@@ -1,7 +1,10 @@
 ---
-
 kanban-plugin: board
-
+tags:
+  - langgraph-integration
+  - prompt-engineering-principles
+  - kanban
+  - task-management
 ---
 
 ## ROADMAP

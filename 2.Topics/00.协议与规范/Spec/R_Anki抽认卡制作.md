@@ -2,8 +2,13 @@
 view-count: 6
 update: 2026-01-08 14:13
 related:
-  - "[[Anki抽认闪卡制作]]"
-  - "[[Anki 闪卡生成器和知识萃取专家-flashcard语法]]"
+  - '[[Anki抽认闪卡制作]]'
+  - '[[Anki 闪卡生成器和知识萃取专家-flashcard语法]]'
+tags:
+  - card-making
+  - mnemonic-techniques
+  - cognitive-science
+  - memory-retention
 ---
 
 请根据我提供的文本，制作一套抽认卡。

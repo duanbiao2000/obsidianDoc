@@ -1,5 +1,10 @@
 ---
-view-count: 5
+view-count: 6
+tags:
+  - langchain-components
+  - ai-protocol
+  - ai
+  - agent-architecture
 ---
 # LangChain：组件化 AI 架构极简协议
 

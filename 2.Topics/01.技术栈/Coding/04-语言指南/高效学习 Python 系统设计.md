@@ -1,3 +1,11 @@
+---
+tags:
+  - microservices-architecture
+  - high-concurrency
+  - system-design
+  - learning-objectives
+---
+
 ### **1. 学习背景与目标**
 
 - 你已经掌握了什么？（如：基础 Python、某个框架、分布式系统概念？）

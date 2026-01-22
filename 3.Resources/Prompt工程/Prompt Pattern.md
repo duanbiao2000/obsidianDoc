@@ -1,10 +1,15 @@
 ---
 view-count: 7
 related:
-  - "[[2.Topics/Deeplife/思想工具模板库]]"
-  - "[[抽象建模]]"
-  - "[[DIKW金字塔模型]]"
-  - "[[FQA反复提问选择题]]"
+  - '[[2.Topics/Deeplife/思想工具模板库]]'
+  - '[[抽象建模]]'
+  - '[[DIKW金字塔模型]]'
+  - '[[FQA反复提问选择题]]'
+tags:
+  - prompt-patterns
+  - cognitive-models
+  - ThoughtFramework
+  - KnowledgeManagement
 ---
 
 # [[Prompt Pattern]] | Minimal

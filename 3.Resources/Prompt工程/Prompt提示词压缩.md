@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - prompt-optimization
+  - token-compression
+  - content-creation
+  - information-structure
 ---
 ## ★ Prompt压缩核心目标
 

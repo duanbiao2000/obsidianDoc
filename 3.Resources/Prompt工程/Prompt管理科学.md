@@ -4,12 +4,15 @@ aliases:
   - Git的意义在于diff
 date: 2025-12-14 13:43
 tags:
-  - Status/TODO
+  - prompt-asset-management
+  - prompt-optimization-workflow
+  - PromptEngineering
+  - PromptManagement
 source:
   - https://claude.ai/public/artifacts/0a767ddd-3d55-4f7a-9c66-f5023e8457d8
-update:
-rating:
-related:
+update: null
+rating: null
+related: null
 ---
 # Prompt 工程管理：极简资产协议
 

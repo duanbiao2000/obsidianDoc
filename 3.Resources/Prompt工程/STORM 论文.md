@@ -1,9 +1,10 @@
 ---
-date: 2024-10-27
+date: 2024-10-27T00:00:00.000Z
 tags:
+  - agent-team-collaboration
+  - knowledge-production-process
   - paper/ai
   - concept/agentic-ai
-  - framework/collaboration
 status: evergreen
 aliases:
   - STORM

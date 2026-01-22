@@ -1,3 +1,11 @@
+---
+tags:
+  - agi-apis
+  - ai-democratization
+  - ai-agent-development
+  - ai-content-creation-process
+---
+
 
 ### **25句濃縮版本**
 

@@ -3,15 +3,21 @@ view-count: 6
 date: 2025-12-12 14:35
 update: 2025-12-12 14:37
 related:
-  - "[[云原生微服务架构]]"
-  - "[[并发分布式容器化]]"
-  - "[[持续部署]]"
-  - "[[云原生微服务架构]]"
-  - "[[领域驱动设计]]"
-aliases:
+  - '[[云原生微服务架构]]'
+  - '[[并发分布式容器化]]'
+  - '[[持续部署]]'
+  - '[[云原生微服务架构]]'
+  - '[[领域驱动设计]]'
+aliases: null
 source:
-  - https://www.perplexity.ai/search/kubernetes-bi-bei-de-50ge-he-x-CZkpNuqoRcmXAZCJiE1uvQ
-rating:
+  - >-
+    https://www.perplexity.ai/search/kubernetes-bi-bei-de-50ge-he-x-CZkpNuqoRcmXAZCJiE1uvQ
+rating: null
+tags:
+  - kubernetes-pod-management
+  - kubernetes-service-discovery
+  - container-orchestration
+  - cloud-native-architecture
 ---
 
 ## 🧠 一、Kubernetes 的本质是什么？

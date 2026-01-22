@@ -1,11 +1,12 @@
 ---
-date: 2025-04-27
+date: 2025-04-27T00:00:00.000Z
 tags:
-  - Digital Garden
+  - learning-methodology
+  - systematic-study
+  - Digital-Garden
   - Learning
-  - Innovation
 type: 系统
-update: 2026-01-21
+update: 2026-01-21T00:00:00.000Z
 aliases:
   - DigitalGarden
   - DG精选

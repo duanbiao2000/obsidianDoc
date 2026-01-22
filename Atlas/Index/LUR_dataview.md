@@ -1,5 +1,5 @@
 ---
-view-count: 4
+view-count: 5
 update: 2026-01-09 18:35
 related:
   - "[[Dataview-7日内新建的笔记]]"
@@ -7,6 +7,11 @@ related:
   - "[[Dataviewer过时+高Rating]]"
   - "[[Obsidian Base 100练]]"
   - "[[2025-12-13-学习知识库架构]]"
+tags:
+  - note-maintenance-strategy
+  - knowledge-base-simplification
+  - note-taking
+  - dataview
 ---
 
 根据您提及的“Lau策略”来生成最优先删除的笔记列表，由于“Lau策略”的具体标准在此上下文中并未明确，我将基于常见的笔记维护和知识库精简原则，为您构建一个Dataview查询。

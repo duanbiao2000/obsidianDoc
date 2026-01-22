@@ -1,11 +1,16 @@
 ---
 view-count: 4
 related:
-  - "[[IELTS-style essay]]"
-  - "[[debate辩论性分析]]"
-  - "[[从优秀中学习-用分析深度换取实践效率]]"
-  - "[[2.Topics/Deeplife/思想工具模板库]]"
-  - "[[5级DES高分写作用语习惯]]"
+  - '[[IELTS-style essay]]'
+  - '[[debate辩论性分析]]'
+  - '[[从优秀中学习-用分析深度换取实践效率]]'
+  - '[[2.Topics/Deeplife/思想工具模板库]]'
+  - '[[5级DES高分写作用语习惯]]'
+tags:
+  - argumentative-writing-framework
+  - paradigm-extraction
+  - IELTS
+  - debate
 ---
 
 # 基于此文的IELTS写作复用框架与范式提炼

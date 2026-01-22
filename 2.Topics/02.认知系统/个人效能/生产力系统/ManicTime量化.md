@@ -2,10 +2,15 @@
 view-count: 3
 update: 2026-01-08 23:02
 related:
-  - "[[信源构建策略]]"
-  - "[[临时笔记→常青笔记转化]]"
-  - "[[语言能力日练计划]]"
-  - "[[empirical evidence风格重写]]"
+  - '[[信源构建策略]]'
+  - '[[临时笔记→常青笔记转化]]'
+  - '[[语言能力日练计划]]'
+  - '[[empirical evidence风格重写]]'
+tags:
+  - sleep-optimization
+  - work-life-balance
+  - time-management
+  - productivity
 ---
 
 好的，遵照您的要求，這就利用符號改寫法對筆記 [[ManicTime量化]] 進行優化。

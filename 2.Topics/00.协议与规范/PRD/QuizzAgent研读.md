@@ -3,6 +3,10 @@ aliases:
   - 试题生成器
 date: 2025-09-01 10:35
 tags:
+  - quiz-automation
+  - knowledge-unit-extraction
+  - agent-architecture
+  - algorithm
 source:
   - https://zread.ai/floatDreamWithSong/QuizAgent
 view-count: 5

@@ -1,14 +1,15 @@
 ---
-aliases:
+aliases: null
 date: 2025-03-18 00:52
-update:
+update: null
 categories:
   - Tools
 rating: 10
 tags:
+  - github-trending-analysis
+  - programming-language-trends
   - Domain/Creativity/Github
-  - 当下时刻的觉察
-  - 重磅信息
+  - code-quality
 view-count: 2
 ---
 **不同语言的趋势项目有什么特点？** 例如，Python 趋势榜中常出现算法、AI/ML 相关项目；Java 趋势榜中可能有实用工具或服务器项目；JavaScript 趋势榜中多为前端框架或开发工具；Go 趋势榜中常见后端、网络或CLI工具。这种分类是否稳定，背后反映了什么技术发展趋势？

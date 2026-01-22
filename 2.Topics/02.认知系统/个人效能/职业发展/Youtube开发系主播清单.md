@@ -1,5 +1,10 @@
 ---
 view-count: 3
+tags:
+  - video-tutorial-series
+  - developer-learning-path
+  - YouTube
+  - video-content-metrics
 ---
 # YouTube 开发系主播学习协议：从地图到实战
 

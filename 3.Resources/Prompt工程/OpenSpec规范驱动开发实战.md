@@ -1,5 +1,10 @@
 ---
 view-count: 3
+tags:
+  - open-specification
+  - specification-driven-dev
+  - specification
+  - ai-protocol
 ---
 为开发者提炼自OpenSpec规范驱动开发实战视频的操作指导，具体内容如下：
 

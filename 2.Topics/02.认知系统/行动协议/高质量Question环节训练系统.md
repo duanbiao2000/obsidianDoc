@@ -1,11 +1,16 @@
 ---
-aliases: [从模糊困惑到精准提问]
+aliases:
+  - 从模糊困惑到精准提问
 date: 2025-12-04 17:35
-tags: []
-collections:
-source:
-rating:
-related:
+tags:
+  - question-quality-improvement
+  - problem-formulation-technique
+  - training
+  - problem-solving
+collections: null
+source: null
+rating: null
+related: null
 ---
 
 ## 高质量Question环节训练系统

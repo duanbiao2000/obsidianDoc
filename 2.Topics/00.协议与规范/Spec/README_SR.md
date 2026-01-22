@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - spaced-repetition-plugin
+  - knowledge-barrier-overcoming
+  - information-indexing
+  - cognitive-complexity
 ---
 # Obsidian Spaced Repetition Plugin
 ## 卡片语法

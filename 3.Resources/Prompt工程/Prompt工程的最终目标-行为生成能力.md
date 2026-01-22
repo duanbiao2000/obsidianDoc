@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - prompt-engineering
+  - llm-agent-system
+  - AI
+  - Agent
 ---
 ## ★ 核心目标定义
 

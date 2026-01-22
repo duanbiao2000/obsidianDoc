@@ -1,5 +1,10 @@
 ---
 view-count: 4
+tags:
+  - agent-task-system
+  - specification-based-execution
+  - agent-architecture
+  - algorithm
 ---
 ## 1. Agent 核心哲学（Spec → Task → 执行）
 

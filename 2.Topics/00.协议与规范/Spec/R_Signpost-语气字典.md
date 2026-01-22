@@ -1,6 +1,9 @@
 ---
 tags:
-  - System/DG/Signpost
+  - tone-analysis
+  - language-use
+  - communication
+  - writing-skills
 ---
 
 本笔记旨在梳理和分析`tone_map`字典中定义的多种语气类型，帮助理解每种语气的功能、特点及其适用场景，以便在写作和交流中更有效地选择和运用。

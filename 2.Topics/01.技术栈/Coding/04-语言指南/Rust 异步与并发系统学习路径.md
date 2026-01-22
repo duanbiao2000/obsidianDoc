@@ -1,11 +1,15 @@
 ---
-aliases:
+aliases: null
 date: 2025-10-27 21:27
 tags:
+  - async-programming
+  - tokio-runtime
+  - rust
+  - concurrency
 source:
   - https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt
-update:
-rating:
+update: null
+rating: null
 view-count: 7
 ---
 # [[Rust 异步与并发系统学习路径]]

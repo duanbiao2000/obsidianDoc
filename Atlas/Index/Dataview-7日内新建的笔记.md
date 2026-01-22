@@ -1,5 +1,10 @@
 ---
-view-count: 3
+view-count: 4
+tags:
+  - note-filtering
+  - date-sorting
+  - dataview
+  - table
 ---
 ## 7日内新建的笔记(非archive)
 

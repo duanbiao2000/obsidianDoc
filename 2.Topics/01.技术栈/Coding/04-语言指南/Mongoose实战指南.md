@@ -1,5 +1,10 @@
 ---
 view-count: 4
+tags:
+  - mongoose-usage
+  - mongodb-integration
+  - database
+  - software-engineering
 ---
 
 

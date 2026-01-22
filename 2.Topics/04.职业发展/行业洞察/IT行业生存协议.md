@@ -1,5 +1,10 @@
 ---
 view-count: 8
+tags:
+  - career-transition
+  - programming-education
+  - education
+  - job-market
 ---
 
 ## 1. 用户画像与动力模型

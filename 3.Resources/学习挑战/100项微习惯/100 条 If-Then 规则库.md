@@ -2,8 +2,13 @@
 view-count: 25
 update: 2026-01-16 14:26
 related:
-  - "[[每日固定动作]]"
-  - "[[2025-12-14执行力自检]]"
+  - '[[每日固定动作]]'
+  - '[[2025-12-14执行力自检]]'
+tags:
+  - daily-routine-management
+  - productivity-templates
+  - time-blocking
+  - task-optimization
 ---
 
 ## Active-Core 20（日常看板）

@@ -1,7 +1,10 @@
 ---
-
 kanban-plugin: board
-
+tags:
+  - gpt-researcher-configuration
+  - multi-agent-systems
+  - task-management
+  - task-organization
 ---
 
 ## To Do

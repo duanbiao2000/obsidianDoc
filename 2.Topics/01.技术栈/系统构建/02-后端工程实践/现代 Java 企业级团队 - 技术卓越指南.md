@@ -1,11 +1,10 @@
 ---
 view-count: 3
 tags:
-  - Practical
-  - Methodology
+  - Jakarta-EE
+  - DevOps-Culture
   - Backend
   - Agile
-  - CloudNative
 ---
  
 当然可以。基于之前 [[Java SE核心内容]] 的技术卓越指南，我们可以构建一个面向现代 Java 企业级（Enterprise Edition, 如今的 Jakarta EE 生态）开发的团队指南。

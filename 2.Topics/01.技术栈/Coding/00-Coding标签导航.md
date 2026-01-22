@@ -1,12 +1,14 @@
 ---
 tags:
+  - AI-Prompt-Engineering
+  - System-Architecture-Principles
   - Navigation
   - Coding
 related:
-  - "[[01-AI工程知识库]]"
-  - "[[02-工程实践集]]"
-  - "[[03-系统设计集]]"
-  - "[[04-语言选型与指南]]"
+  - '[[01-AI工程知识库]]'
+  - '[[02-工程实践集]]'
+  - '[[03-系统设计集]]'
+  - '[[04-语言选型与指南]]'
 view-count: 7
 ---
 

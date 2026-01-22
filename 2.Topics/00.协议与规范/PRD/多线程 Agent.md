@@ -1,8 +1,10 @@
 ---
 date: 2025-05-23 23:05
 tags:
-  - Status/Urgent
+  - multi-threading-agent
+  - agent-performance-bottlenecks
   - Tech/AI/LLM
+  - agent-architecture
 view-count: 2
 ---
 

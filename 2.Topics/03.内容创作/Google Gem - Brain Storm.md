@@ -1,11 +1,16 @@
 ---
 view-count: 2
 related:
-  - "[[2025-12-07-2026开发思维模型转变]]"
-  - "[[100项适合程序员的深度工作示例]]"
-  - "[[可量化的成果]]"
-  - "[[认知系统重构]]"
-  - "[[每日固定动作]]"
+  - '[[2025-12-07-2026开发思维模型转变]]'
+  - '[[100项适合程序员的深度工作示例]]'
+  - '[[可量化的成果]]'
+  - '[[认知系统重构]]'
+  - '[[每日固定动作]]'
+tags:
+  - CrossIndustryContent
+  - RealEmotionEngagement
+  - ContentCreation
+  - Algorithm
 ---
 
 ## 编程内容 ROI 优化：[[Google Gem - Brain Storm]]

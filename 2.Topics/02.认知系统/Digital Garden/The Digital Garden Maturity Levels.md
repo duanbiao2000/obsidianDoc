@@ -3,13 +3,10 @@ dg-publish: true
 update: 2025-04-18 19:49
 date: 2025-04-18T19:36:00.000Z
 tags:
-  - System/DG/Seedling
-  - System/DG/Sapling
-  - System/DG/Tree
-  - System/DG/Withered
-  - System/DG/Stone
-  - System/DG/Signpost
-  - System/DG/HighValue_Chest
+  - Knowledge-Maturity-Level
+  - Content-Evolution-Stage
+  - System-DG-Seedling
+  - System-DG-Sapling
 ---
 **核心主题：** 建立一套比喻性的“成熟度”和“功能”等级系统，用于组织、理解和管理数字花园中的知识和内容，反映思想的演化过程和花园的结构元素。
 

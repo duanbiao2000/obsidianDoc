@@ -1,15 +1,15 @@
 ---
 view-count: 10
-update: 2026-01-22
+update: 2026-01-22T00:00:00.000Z
 related:
-  - "[[Java 注解]]"
-  - "[[Java 并发革命：虚拟线程实战指南（2025 工业级应用）]]"
-  - "[[JVM内存模型]]"
+  - '[[Java 注解]]'
+  - '[[Java 并发革命：虚拟线程实战指南（2025 工业级应用）]]'
+  - '[[JVM内存模型]]'
 tags:
-  - Java
-  - Microservices
-  - SpringBoot
-  - SpringCloud
+  - spring-boot-configuration
+  - distributed-system-design
+  - java
+  - microservices
 ---
 
 # Java微服务工程实践

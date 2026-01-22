@@ -1,7 +1,11 @@
 ---
-
 kanban-plugin: board
-
+tags:
+  - github-guide
+  - video-organization
+  - kanban
+  - task-management
+view-count: 4
 ---
 
 ## Rodermap

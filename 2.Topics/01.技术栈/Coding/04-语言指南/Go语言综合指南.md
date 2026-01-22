@@ -1,14 +1,15 @@
 ---
 view-count: 10
-update: 2026-01-22
+update: 2026-01-22T00:00:00.000Z
 tags:
-  - Go
-  - Design
-  - Programming
+  - go-concurrency
+  - go-memory-model
+  - programming
+  - design
 related:
-  - "[[TypeScript 编译器用Go改写]]"
-  - "[[Go与Rust的权衡]]"
-  - "[[TDD 驱动良好设计的 Go 语言实战案例]]"
+  - '[[TypeScript 编译器用Go改写]]'
+  - '[[Go与Rust的权衡]]'
+  - '[[TDD 驱动良好设计的 Go 语言实战案例]]'
 ---
 
 # Go语言综合指南

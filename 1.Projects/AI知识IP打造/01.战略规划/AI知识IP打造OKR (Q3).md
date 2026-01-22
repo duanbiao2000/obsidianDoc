@@ -1,5 +1,10 @@
 ---
 view-count: 6
+tags:
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
 ---
 
 ### **OKR 拆解分析：从执行目标到战略成果**

@@ -1,16 +1,20 @@
 ---
-aliases:
+aliases: null
 date: 2025-09-20 11:37
 tags:
-source:
+  - postgresql-optimization
+  - middleware-replacement
+  - database
+  - software-engineering
+source: null
 update: 2026-01-09 11:32
-rating:
+rating: null
 view-count: 12
 related:
-  - "[[Postgres 100问知识点手册]]"
-  - "[[200组开发选题]]"
-  - "[[数据库类型的最佳使用场景]]"
-  - "[[Database and Storage]]"
+  - '[[Postgres 100问知识点手册]]'
+  - '[[200组开发选题]]'
+  - '[[数据库类型的最佳使用场景]]'
+  - '[[Database and Storage]]'
 ---
 
 ## 1. 核心逻辑：架构坍缩公理 (Architecture Consolidation Axiom)

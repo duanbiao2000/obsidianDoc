@@ -2,11 +2,16 @@
 view-count: 7
 update: 2026-01-08 21:33
 related:
-  - "[[保罗·格雷厄姆PG视角]]"
-  - "[[哈佛超级学霸洞见]]"
-  - "[[empirical evidence风格重写]]"
-  - "[[知识基构建指南]]"
-  - "[[文档化Planning]]"
+  - '[[保罗·格雷厄姆PG视角]]'
+  - '[[哈佛超级学霸洞见]]'
+  - '[[empirical evidence风格重写]]'
+  - '[[知识基构建指南]]'
+  - '[[文档化Planning]]'
+tags:
+  - first-principles-thinking
+  - mvp-implementation
+  - writing-style
+  - mindset
 ---
 
 ## 保罗·格雷厄姆（PG）风格 + 思维模型（用于文档研究）

@@ -2,9 +2,14 @@
 view-count: 10
 update: 2026-01-07 00:25
 related:
-  - "[[2025-12-04-系统设计文档与 PRD、Spec]]"
-  - "[[RFC战略框架]]"
-  - "[[文档化Planning]]"
+  - '[[2025-12-04-系统设计文档与 PRD、Spec]]'
+  - '[[RFC战略框架]]'
+  - '[[文档化Planning]]'
+tags:
+  - real-time-collaboration
+  - websocket-implementation
+  - system-design
+  - documentation
 ---
 
 # 技术文档：极简矩阵

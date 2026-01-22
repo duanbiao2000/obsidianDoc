@@ -1,3 +1,11 @@
+---
+tags:
+  - cantonese-phrases
+  - youth-culture
+  - education
+  - language-learning
+---
+
 好，下面是一份面向 **香港高中生（DSE 群体）** 的精选粤语表达词组表，共 30 组。  
 这些词多见于口语、教学视频、社交对话中，涵盖校园、情绪、学习与日常表达。  
 每项附上 **标准粤拼（Jyutping）** 与 **简要英文释义**。

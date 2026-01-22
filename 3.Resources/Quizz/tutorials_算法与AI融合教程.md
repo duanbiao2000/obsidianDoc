@@ -1,5 +1,10 @@
 ---
 view-count: 4
+tags:
+  - algorithm-ai-integration
+  - adaptive-algorithm-design
+  - Tech/AI
+  - Algorithm
 ---
 # 算法与 AI 融合：从确定性到自适应
 

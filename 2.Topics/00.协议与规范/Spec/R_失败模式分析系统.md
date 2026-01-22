@@ -1,5 +1,10 @@
 ---
 view-count: 5
+tags:
+  - failure-mode-mitigation
+  - system-resilience
+  - system-thinking
+  - risk-management
 ---
 # 失败模式分析系统 (FMEA)
 

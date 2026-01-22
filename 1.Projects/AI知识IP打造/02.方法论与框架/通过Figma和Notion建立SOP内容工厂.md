@@ -1,5 +1,10 @@
 ---
 view-count: 3
+tags:
+  - content-optimization
+  - workflow-standardization
+  - content-creation
+  - document-structure
 ---
 好的，我将遵循**选项1：聚焦SOP，打造“内容工厂”蓝图**的策略，对您的笔记进行重构。
 

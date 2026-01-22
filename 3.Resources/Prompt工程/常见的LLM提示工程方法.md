@@ -1,9 +1,14 @@
 ---
 view-count: 13
 related:
-  - "[[AI 时代工程师转型]]"
-  - "[[实战-逆向工程提示词解构]]"
-  - "[[Prompt Pattern]]"
+  - '[[AI 时代工程师转型]]'
+  - '[[实战-逆向工程提示词解构]]'
+  - '[[Prompt Pattern]]'
+tags:
+  - prompt-optimization
+  - thought-path-activation
+  - PromptEngineering
+  - AI
 ---
 
 ## 0. 本质 (The Essence)

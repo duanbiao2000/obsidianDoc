@@ -1,5 +1,10 @@
 ---
 view-count: 4
+tags:
+  - go-rust-comparison
+  - java-evolution
+  - programming-languages
+  - software-engineering
 ---
 # [[2025-12-05-Go与Rust的权衡]]：极简版
 

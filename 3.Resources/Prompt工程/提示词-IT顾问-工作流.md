@@ -1,5 +1,10 @@
 ---
 view-count: 2
+tags:
+  - ci-cd-process
+  - worklow-optimization
+  - workflow
+  - software-development
 ---
 ```Prompt
 # 角色

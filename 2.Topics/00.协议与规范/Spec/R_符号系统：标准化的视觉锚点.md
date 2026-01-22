@@ -3,11 +3,16 @@ date: 2025-04-20 09:48
 view-count: 5
 update: 2026-01-07 18:33
 related:
-  - "[[2.Topics/Digital Garden/系统化提问|系统化提问]]"
-  - "[[文本清晰度评测]]"
-  - "[[科技前哨·内容炼金术]]"
-  - "[[2025-12-11-视野分层]]"
-  - 
+  - '[[2.Topics/Digital Garden/系统化提问|系统化提问]]'
+  - '[[文本清晰度评测]]'
+  - '[[科技前哨·内容炼金术]]'
+  - '[[2025-12-11-视野分层]]'
+  - null
+tags:
+  - visual-protocol
+  - meta-data-symbols
+  - visual-thinking
+  - symbolic-matrix
 ---
 
 # 视觉化思考协议：高密度元数据符号系统 (VTPS)

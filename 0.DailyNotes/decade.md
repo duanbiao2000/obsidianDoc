@@ -1,5 +1,10 @@
 ---
-view-count: 2
+view-count: 463
+tags:
+  - life-goals
+  - self-reflection
+  - personal-development
+  - life-philosophy
 ---
 1. 如果生命只剩下最後六個月，你會做些什麼？和现在一样....
 2. 如果你擁有數十億的財富，你會做些什麼？先花一个亿找感觉

@@ -1,3 +1,11 @@
+---
+tags:
+  - knowledge-base-restructuring
+  - document-compression
+  - knowledge-management
+  - system-design
+---
+
 # Knowledge Base Consolidation: 认知系统重组总结
 
 **Session ID:** ses_41e949e72ffepQk0tBjBzaLFNH

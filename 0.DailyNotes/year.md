@@ -1,5 +1,10 @@
 ---
-view-count: 4
+view-count: 6
+tags:
+  - lifestyle-changes
+  - goal-setting
+  - personal-development
+  - career-growth
 ---
 1. 今年你做了哪些過去從未嘗試過的事？
 2. 你有遵守年初設定的目標嗎？7-8分

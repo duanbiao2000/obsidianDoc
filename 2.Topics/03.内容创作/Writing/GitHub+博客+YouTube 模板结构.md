@@ -1,7 +1,10 @@
 ---
 date: 2025-05-29 13:04
 tags:
-  - Status/TODO
+  - personal-branding
+  - technical-content-creation
+  - GitHub
+  - YouTube
 view-count: 4
 ---
 ## [[L6/L7 工程师技术影响力模板结构：GitHub+博客+YouTube]]

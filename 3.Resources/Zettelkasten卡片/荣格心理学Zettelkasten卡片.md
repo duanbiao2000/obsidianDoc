@@ -1,7 +1,12 @@
 ---
-view-count: 3
+view-count: 4
 related:
   - "[[MOC - 抽象思维]]"
+tags:
+  - collective-unconscious
+  - archetypal-theory
+  - Jungian
+  - Psychology
 ---
 ## 荣格心理学Zettelkasten卡片
 

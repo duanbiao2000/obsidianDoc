@@ -1,17 +1,20 @@
 ---
-aliases:
+aliases: null
 date: 2025-10-15 16:10
 tags:
-  - Perplexity_Comet
-source:
+  - language-protocol
+  - memory-reinforcement
+  - english-learning
+  - language-acquisition
+source: null
 view-count: 7
 rating: 10
 update: 2026-01-07 13:20
 related:
-  - "[[阶段性成果驱动的学习路径]]"
-  - "[[破局而出]]"
-  - "[[2.Topics/Deeplife/思想工具模板库]]"
-  - "[[2025-12-13-学习知识库架构]]"
+  - '[[阶段性成果驱动的学习路径]]'
+  - '[[破局而出]]'
+  - '[[2.Topics/Deeplife/思想工具模板库]]'
+  - '[[2025-12-13-学习知识库架构]]'
 ---
 
 # 英语习得的高 ROI 协议：从幻觉学习到肌肉记忆

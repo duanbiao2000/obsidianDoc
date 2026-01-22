@@ -1,8 +1,13 @@
 ---
-description:
-globs:
+description: null
+globs: null
 alwaysApply: false
 view-count: 2
+tags:
+  - markdown-documentation
+  - developer-guidance
+  - product-management
+  - task-creation
 ---
 
 # 规则：从 PRD 生成任务列表

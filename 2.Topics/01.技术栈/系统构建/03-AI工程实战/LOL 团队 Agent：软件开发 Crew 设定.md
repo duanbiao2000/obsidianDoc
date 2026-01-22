@@ -1,6 +1,8 @@
 ---
 view-count: 6
 tags:
+  - game-mechanics-integration
+  - cross-functional-teams
   - Methodology
   - DevProcess
   - AI

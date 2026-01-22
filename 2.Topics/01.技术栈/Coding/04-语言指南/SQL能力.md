@@ -1,5 +1,10 @@
 ---
 view-count: 3
+tags:
+  - sql-optimization
+  - performance-tuning
+  - sql
+  - database
 ---
 ## ★ 高阶 SQL 能力总目标
 - ★ SQL专家→问题解决者
