@@ -1,46 +1,102 @@
-# 忽略 Obsidian 相关文件
+# ========================================
+# Obsidian 相关
+# ========================================
 .obsidian/
+workspace.json.obsidian/
 
-# 忽略 VSCode 相关文件
+# ========================================
+# 开发工具配置
+# ========================================
+# VSCode
 .vscode/
 
-# 忽略系统垃圾文件
-#.trash/
-
-# 忽略隐藏文件和目录
-# 注意：这里忽略的是所有以"."开头的文件和目录，但不包括.git/
-#.*/
-
-# 忽略 Smart Connections 文件夹
-#.smart-connections/
-
-# 忽略额外的文件和目录
-#Extras/
-
-# 忽略 IntelliJ IDEA 相关文件
+# IntelliJ IDEA
 .idea/
 
-# 忽略工作区配置文件
-workspace.json.obsidian/
-.smart-connections/
-*.ajson
+# Copilot
 .copilot-index/
 
-_Index_of_*.md
-
-
-
-# Ignore Smart Environment folder
-.smart-env
-
-
-# redundant
-.trash/
-.codemap
-.makemd
-.smart-env
-.space
+# Smart Connections
+.smart-connections/
 smart-chats/*
+
+# AI 辅助工具
+.claude/
 .claude/settings.local.json
+.agent/
+.opencode/
+.smart-env/
+
+# 其他工具目录
+.codemap/
+.makemd
+.mdajson
+.space
+.ruff_cache/
+
+# ========================================
+# Python 相关
+# ========================================
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+
+# ========================================
+# 系统文件
+# ========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ========================================
+# 编辑器临时文件
+# ========================================
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+./\#*\#
+
+# 通用临时文件
+*.bak
+*.tmp
+*.temp
+*.log
+
+# ========================================
+# 其他文件和目录
+# ========================================
+# 自动生成的索引文件（由 Zoottelkeeper 插件生成）
+# _Index_of_*.md
+
+# 特殊文件
+
 nul
-.claude/settings.local.json
+
+# 文档目录
+docs/
+
+# 垃圾箱
+.trash/
