@@ -14,6 +14,7 @@ tags:
   - Domain/KnowledgeManagement
   - Type/Tool
   - Status/Done
+copilot-command-last-used: 0
 ---
 
 # 万能笔记重构引擎

@@ -14,6 +14,7 @@ tags:
   - Domain/PromptEngineering
   - Type/Reference
   - Status/Done
+copilot-command-last-used: 0
 ---
 
 # 多维度追问框架

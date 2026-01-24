@@ -13,6 +13,7 @@ tags:
   - Domain/KnowledgeManagement
   - Type/Tool
   - Status/Done
+copilot-command-last-used: 0
 ---
 
 # 全能知识精炼大师
