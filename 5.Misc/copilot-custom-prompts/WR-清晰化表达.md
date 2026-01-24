@@ -6,9 +6,8 @@ copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 9
 related:
-  - "[[01清晰度架构师]]"
-  - "[[概念剖析机]]"
-  - "[[明确意图-沟通价值与可维护]]"
+  - "[[TH-清晰度架构师]]"
+  - "[[KM-清晰度审计与重构器]]"
 update: 2026-01-09 16:21
 ---
 

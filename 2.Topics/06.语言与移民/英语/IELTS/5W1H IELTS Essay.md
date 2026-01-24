@@ -4,7 +4,7 @@ related:
   - "[[IELTS-style essay]]"
   - "[[debate辩论性分析]]"
   - "[[从优秀中学习-用分析深度换取实践效率]]"
-  - "[[5级DES高分写作用语习惯]]"
+  - "[[5级DSE高分写作用语习惯]]"
 tags:
   - argumentative-writing-framework
   - paradigm-extraction

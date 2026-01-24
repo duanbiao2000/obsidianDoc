@@ -1,0 +1,205 @@
+原文件名,分类代码,新文件名,分类说明
+04推理扩展.md,TH,TH-04推理扩展.md,思维框架
+10%核心要素识别.md,KM,KM-10%核心要素识别.md,知识管理
+200字卡片笔记.md,KM,KM-200字卡片笔记.md,知识管理
+4D 笔记重构助手.md,KM,KM-4D 笔记重构助手.md,知识管理
+AI writing tutor.md,WR,WR-AI writing tutor.md,写作表达
+AI 诤友.md,RL,RL-AI 诤友.md,角色扮演
+AI精英学院™课程页面开发规范.md,TD,TD-AI精英学院课程页面开发规范.md,技术开发
+Alias-系统基础设施栈.md,TD,TD-Alias-系统基础设施栈.md,技术开发
+Anki 闪卡生成器和知识萃取专家-flashcard语法.md,LR,LR-Anki闪卡生成器和知识萃取专家.md,学习记忆
+Canvas笔记生成器.md,KM,KM-Canvas笔记生成器.md,知识管理
+Cheat Sheet.md,META,META-Cheat Sheet.md,元工具
+C-level知识架构顾问-Fits-in核查.md,RL,RL-C-level知识架构顾问.md,角色扮演
+Compare&Contrast.md,TH,TH-Compare&Contrast.md,思维框架
+CoT 增强版系统提示词.md,META,META-CoT增强版系统提示词.md,元工具
+debate辩论性分析.md,TH,TH-debate辩论性分析.md,思维框架
+DIKW金字塔模型.md,TH,TH-DIKW金字塔模型.md,思维框架
+empirical evidence风格重写.md,WR,WR-empirical evidence风格重写.md,写作表达
+Excalidraw图表生成PROMPT.md,TD,TD-Excalidraw图表生成PROMPT.md,技术开发
+For High-IQ one-screen summary.md,KM,KM-For High-IQ one-screen summary.md,知识管理
+FQA反复提问选择题.md,LR,LR-FQA反复提问选择题.md,学习记忆
+FQA反复提问间隔复习版.md,LR,LR-FQA反复提问间隔复习版.md,学习记忆
+Google Calendar 日历生成器(debug).md,MISC,MISC-Google Calendar日历生成器.md,杂项
+GRE英文写作大师.md,WR,WR-GRE英文写作大师.md,写作表达
+Hierarchy is  everything.md,TH,TH-Hierarchy is everything.md,思维框架
+HTML页面生成与排版优化.md,TD,TD-HTML页面生成与排版优化.md,技术开发
+IELTS-style essay.md,WR,WR-IELTS-style essay.md,写作表达
+LFSP风格AI助手.md,TD,TD-LFSP风格AI助手.md,技术开发
+life coach.md,RL,RL-life coach.md,角色扮演
+Lisa对知识充满渴望和好奇的机器人助理.md,RL,RL-Lisa知识渴望助理.md,角色扮演
+LLM指令架构师.md,META,META-LLM指令架构师.md,元工具
+manictime今日活动日志分析.md,DA,DA-manictime今日活动日志分析.md,数据分析
+Master Prompt逆向工程提示词生成器.md,META,META-Master Prompt逆向工程提示词生成器.md,元工具
+Mermaid-实体关系图.md,TD,TD-Mermaid实体关系图.md,技术开发
+Next Step.md,MISC,MISC-Next Step.md,杂项
+Notion AI 主要功能提示词合集.md,MISC,MISC-Notion AI主要功能提示词合集.md,杂项
+NPL语义分析.md,DA,DA-NPL语义分析.md,数据分析
+Obsidian2Anki题目生成.md,LR,LR-Obsidian2Anki题目生成.md,学习记忆
+O'Reilly传奇技术编辑.md,RL,RL-OReilly传奇技术编辑.md,角色扮演
+PALC结构分析器.md,TH,TH-PALC结构分析器.md,思维框架
+PERE元认知引擎-结构化目标.md,TH,TH-PERE元认知引擎.md,思维框架
+PracticalExample.md,MISC,MISC-PracticalExample.md,杂项
+PRD全链路分析与设计.md,TD,TD-PRD全链路分析与设计.md,技术开发
+python之禅三原则(reflective).md,TD,TD-python之禅三原则.md,技术开发
+ReAct AI执行代理.md,META,META-ReAct AI执行代理.md,元工具
+Roast writing  and give actionable feedback.md,WR,WR-Roast writing and feedback.md,写作表达
+ROI重构.md,TH,TH-ROI重构.md,思维框架
+Role_ 资深全栈架构师 (GolangAngular).md,RL,RL-Role_资深全栈架构师.md,角色扮演
+Role_ 运动教练.md,RL,RL-Role_运动教练.md,角色扮演
+Role_CEO沉浸式模拟版.md,RL,RL-Role_CEO沉浸式模拟版.md,角色扮演
+Role_完型填空生成.md,WR,WR-Role_完型填空生成.md,写作表达
+Role_心理医生.md,RL,RL-Role_心理医生.md,角色扮演
+Role_提示词增强_Senior Prompt Engineering Consultant.md,META,META-Role_提示词增强顾问.md,元工具
+Role_网站设计顾问.md,RL,RL-Role_网站设计顾问.md,角色扮演
+SCQRA提问框架.md,TH,TH-SCQRA提问框架.md,思维框架
+spoken English teacher and improver.md,WR,WR-spoken English teacher.md,写作表达
+Steve Jobs (Visionary Storyteller).md,RL,RL-Steve Jobs Storyteller.md,角色扮演
+Storyteller.md,WR,WR-Storyteller.md,写作表达
+storyteller-结构化故事生成引擎.md,WR,WR-storyteller结构化故事生成引擎.md,写作表达
+TL;DR summary.md,KM,KM-TL;DR summary.md,知识管理
+TodoList.md,MISC,MISC-TodoList.md,杂项
+Top1%程序员的硬核视角与逻辑思维.md,TD,TD-Top1%程序员视角与逻辑.md,技术开发
+ToT策略优化.md,TH,TH-ToT策略优化.md,思维框架
+web design consultant.md,RL,RL-web design consultant.md,角色扮演
+Zettelkasten 卡片生成器.md,KM,KM-Zettelkasten卡片生成器.md,知识管理
+Zettelkasten_洞见笔记.md,KM,KM-Zettelkasten洞见笔记.md,知识管理
+Zettelkasten英文卡片生成器.md,KM,KM-Zettelkasten英文卡片生成器.md,知识管理
+一句话论文.md,WR,WR-一句话论文.md,写作表达
+一页法则战略顾问.md,RL,RL-一页法则战略顾问.md,角色扮演
+三阶思考.md,TH,TH-三阶思考.md,思维框架
+上下文工程专家.md,TD,TD-上下文工程专家.md,技术开发
+专业笔记优化助手.md,KM,KM-专业笔记优化助手.md,知识管理
+专业认知激活提示词创建框架.md,META,META-专业认知激活提示词创建框架.md,元工具
+两阶段聚焦工作流.md,TH,TH-两阶段聚焦工作流.md,思维框架
+严谨且善于解释的助手附思路与推理过程.md,TH,TH-严谨解释助手附推理过程.md,思维框架
+个体发展刻意练习理论CLO.md,LR,LR-个体发展刻意练习理论.md,学习记忆
+主题追问问题生成器.md,TH,TH-主题追问问题生成器.md,思维框架
+二八定律+实用主义.md,TH,TH-二八定律实用主义.md,思维框架
+交互式探索者Lisa.md,RL,RL-交互式探索者Lisa.md,角色扮演
+交互式苏格拉底诘问引擎.md,TH,TH-交互式苏格拉底诘问引擎.md,思维框架
+产品经理式问题解决方案.md,TD,TD-产品经理式问题解决方案.md,技术开发
+代码审查专家.md,TD,TD-代码审查专家.md,技术开发
+代码解释.md,TD,TD-代码解释.md,技术开发
+以 Brian Kernighan 为原型的 AI 助手角色设定.md,RL,RL-Brian Kernighan AI助手.md,角色扮演
+任务分解专家.md,TH,TH-任务分解专家.md,思维框架
+作者认知与方法论审阅者.md,KM,KM-作者认知与方法论审阅者.md,知识管理
+保罗·格雷厄姆PG视角.md,TH,TH-保罗格雷厄姆PG视角.md,思维框架
+借助已有经验使得抽象概念可感知.md,TH,TH-借助经验使抽象概念可感知.md,思维框架
+全维度批判性审计师.md,TH,TH-全维度批判性审计师.md,思维框架
+关键概念提取与应用路径分析.md,KM,KM-关键概念提取与应用路径分析.md,知识管理
+决策科学顾问.md,TH,TH-决策科学顾问.md,思维框架
+分层知识重构引擎.md,KM,KM-分层知识重构引擎.md,知识管理
+分治法笔记重构专家.md,KM,KM-分治法笔记重构专家.md,知识管理
+动态规划知识架构师.md,KM,KM-动态规划知识架构师.md,知识管理
+升维思考.md,TH,TH-升维思考.md,思维框架
+南科大每日三技能点.md,LR,LR-南科大每日三技能点.md,学习记忆
+原子代理内容生成器.md,META,META-原子代理内容生成器.md,元工具
+可复用的知识单元风格改写.md,KM,KM-可复用的知识单元风格改写.md,知识管理
+可配置沟通助理.md,RL,RL-可配置沟通助理.md,角色扮演
+图式思考.md,TH,TH-图式思考.md,思维框架
+基于 CIS 架构的 ToT 扩展.md,TH,TH-基于CIS架构的ToT扩展.md,思维框架
+复杂性分析-分层抽象.md,TH,TH-复杂性分析分层抽象.md,思维框架
+多Agent自适应内容生成.md,META,META-多Agent自适应内容生成.md,元工具
+大纲格式结构化笔记.md,KM,KM-大纲格式结构化笔记.md,知识管理
+如何有效地学习和传授知识.md,LR,LR-如何有效地学习和传授知识.md,学习记忆
+学术情报分析师.md,KM,KM-学术情报分析师.md,知识管理
+审视者角度更清晰高效.md,TH,TH-审视者角度更清晰高效.md,思维框架
+对文件夹进行语义分析.md,DA,DA-对文件夹进行语义分析.md,数据分析
+工程学思维通用提示词.md,TH,TH-工程学思维通用提示词.md,思维框架
+建模分析.md,TH,TH-建模分析.md,思维框架
+引入名人名言.md,WR,WR-引入名人名言.md,写作表达
+归纳推理引擎.md,TH,TH-归纳推理引擎.md,思维框架
+心智模型-原子笔记.md,KM,KM-心智模型原子笔记.md,知识管理
+心理认知助手.md,RL,RL-心理认知助手.md,角色扮演
+快速内容价值评估.md,KM,KM-快速内容价值评估.md,知识管理
+快速理解代码的实战提示词.md,TD,TD-快速理解代码的实战提示词.md,技术开发
+思想精炼与重塑.md,TH,TH-思想精炼与重塑.md,思维框架
+思维导图大纲.md,KM,KM-思维导图大纲.md,知识管理
+技术术语表构建器.md,TD,TD-技术术语表构建器.md,技术开发
+技术知识萃取专家.md,TD,TD-技术知识萃取专家.md,技术开发
+抽象层次分析器.md,TH,TH-抽象层次分析器.md,思维框架
+提问-通用思维模式-元认知式提问.md,TH,TH-通用思维模式元认知式提问.md,思维框架
+文本视觉优化专家.md,WR,WR-文本视觉优化专家.md,写作表达
+明确意图-沟通价值与可维护.md,TH,TH-明确意图沟通价值与可维护.md,思维框架
+智能笔记诊断师.md,KM,KM-智能笔记诊断师.md,知识管理
+条件性反射提问.md,TH,TH-条件性反射提问.md,思维框架
+极简主义技术文档专家.md,WR,WR-极简主义技术文档专家.md,写作表达
+极简版.md,MISC,MISC-极简版.md,杂项
+案例驱动学习系统.md,LR,LR-案例驱动学习系统.md,学习记忆
+概念剖析机.md,TH,TH-概念剖析机.md,思维框架
+概念压缩包.md,KM,KM-概念压缩包.md,知识管理
+模式调用-Plan then Execution.md,TH,TH-模式调用Plan then Execution.md,思维框架
+求实型问题分析助手.md,TH,TH-求实型问题分析助手.md,思维框架
+洞见提取器.md,TH,TH-洞见提取器.md,思维框架
+深度复盘私人教练.md,LR,LR-深度复盘私人教练.md,学习记忆
+深度思考引路人.md,TH,TH-深度思考引路人.md,思维框架
+深度提问并Wiki回答.md,TH,TH-深度提问并Wiki回答.md,思维框架
+深度文本架构师.md,WR,WR-深度文本架构师.md,写作表达
+深度研读与学术分析助手.md,KM,KM-深度研读与学术分析助手.md,知识管理
+深度笔记精炼师.md,KM,KM-深度笔记精炼师.md,知识管理
+深度系统架构师.md,TD,TD-深度系统架构师.md,技术开发
+清晰化表达.md,WR,WR-清晰化表达.md,写作表达
+清晰度审计与重构器.md,KM,KM-清晰度审计与重构器.md,知识管理
+清晰度架构师.md,TH,TH-清晰度架构师.md,思维框架
+狐狸博士教师型AI.md,RL,RL-狐狸博士教师型AI.md,角色扮演
+独立开发者兼产品创意.md,RL,RL-独立开发者兼产品创意.md,角色扮演
+独立理解重构.md,KM,KM-独立理解重构.md,知识管理
+知识产品设计师.md,KM,KM-知识产品设计师.md,知识管理
+知识图谱构建分析师.md,KM,KM-知识图谱构建分析师.md,知识管理
+知识架构师：对笔记进行深度重构与升华.md,RL,RL-知识架构师笔记深度重构与升华.md,角色扮演
+知识架构顾问-Fits-in核查.md,RL,RL-知识架构顾问Fits-in核查.md,角色扮演
+知识爆破手.md,KM,KM-知识爆破手.md,知识管理
+知识精炼.md,KM,KM-知识精炼.md,知识管理
+知识蒸馏架构师.md,KM,KM-知识蒸馏架构师.md,知识管理
+知识解构.md,KM,KM-知识解构.md,知识管理
+知识重构工程师.md,KM,KM-知识重构工程师.md,知识管理
+硅谷技术布道师.md,RL,RL-硅谷技术布道师.md,角色扮演
+科学记忆阅读法助手.md,LR,LR-科学记忆阅读法助手.md,学习记忆
+笔记反向工程分析师.md,KM,KM-笔记反向工程分析师.md,知识管理
+笔记核心要点速览.md,KM,KM-笔记核心要点速览.md,知识管理
+笔记模块化-正交设计原则.md,KM,KM-笔记模块化正交设计原则.md,知识管理
+笔记深度重构与洞察提取.md,KM,KM-笔记深度重构与洞察提取.md,知识管理
+笔记结构化处理器.md,KM,KM-笔记结构化处理器.md,知识管理
+笔记降熵重构.md,KM,KM-笔记降熵重构.md,知识管理
+第一性原理思考者.md,TH,TH-第一性原理思考者.md,思维框架
+策略结晶采集器.md,TH,TH-策略结晶采集器.md,思维框架
+系统化提问.md,TH,TH-系统化提问.md,思维框架
+系统思考架构师.md,TH,TH-系统思考架构师.md,思维框架
+系统架构演进.md,TD,TD-系统架构演进.md,技术开发
+红队逻辑审计师.md,TH,TH-红队逻辑审计师.md,思维框架
+结构化思维专家.md,TH,TH-结构化思维专家.md,思维框架
+结构化拆解能力-Task Grpah建模(工程,战略,心理三维视角).md,TH,TH-结构化拆解能力Task Graph建模.md,思维框架
+自动化方案设计助手.md,TD,TD-自动化方案设计助手.md,技术开发
+自定义风格写作编辑.md,WR,WR-自定义风格写作编辑.md,写作表达
+苏格拉底式提问.md,TH,TH-苏格拉底式提问.md,思维框架
+苏菲式认知重构元提示词.md,TH,TH-苏菲式认知重构元提示词.md,思维框架
+英文严谨性表达理论框架.md,WR,WR-英文严谨性表达理论框架.md,写作表达
+认知审计员 (Cognitive Auditor).md,TH,TH-认知审计员.md,思维框架
+认知追问框架.md,TH,TH-认知追问框架.md,思维框架
+认知降噪专家.md,TH,TH-认知降噪专家.md,思维框架
+记忆增强专家.md,LR,LR-记忆增强专家.md,学习记忆
+记忆测验-选择与论述.md,LR,LR-记忆测验选择与论述.md,学习记忆
+论题与结论.md,TH,TH-论题与结论.md,思维框架
+证伪分析提示词.md,TH,TH-证伪分析提示词.md,思维框架
+语义压缩高价值内容提取器.md,KM,KM-语义压缩高价值内容提取器.md,知识管理
+语义建模与知识工程专家.md,KM,KM-语义建模与知识工程专家.md,知识管理
+费曼与第一性原理笔记精简.md,KM,KM-费曼与第一性原理笔记精简.md,知识管理
+费曼学习法教学专家.md,LR,LR-费曼学习法教学专家.md,学习记忆
+费曼第一原理排除法.md,TH,TH-费曼第一原理排除法.md,思维框架
+资深文本挖掘与知识管理专家.md,KM,KM-资深文本挖掘与知识管理专家.md,知识管理
+跨学科审核校对.md,KM,KM-跨学科审核校对.md,知识管理
+跨界策略顾问模式.md,RL,RL-跨界策略顾问模式.md,角色扮演
+追问式提问.md,TH,TH-追问式提问.md,思维框架
+退后提示 (Step-back Prompting).md,TH,TH-退后提示Step-back Prompting.md,思维框架
+适时追问.md,TH,TH-适时追问.md,思维框架
+逻辑审计流水线.md,TH,TH-逻辑审计流水线.md,思维框架
+长青笔记重构器.md,KM,KM-长青笔记重构器.md,知识管理
+领域专家.md,RL,RL-领域专家.md,角色扮演
+首席战略架构师.md,RL,RL-首席战略架构师.md,角色扮演
+首席技术专家.md,RL,RL-首席技术专家.md,角色扮演
+首席智库专家.md,RL,RL-首席智库专家.md,角色扮演
+首席逻辑官.md,TH,TH-首席逻辑官.md,思维框架
+香港DSE顶流补习名师.md,RL,RL-香港DSE顶流补习名师.md,角色扮演
+高效学习卡片生成器.md,KM,KM-高效学习卡片生成器.md,知识管理
+高级学术研究与分析系统.md,KM,KM-高级学术研究与分析系统.md,知识管理

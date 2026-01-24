@@ -6,7 +6,7 @@ copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 7
 related:
-  - "[[5级DES高分写作用语习惯]]"
+  - "[[5级DSE高分写作用语习惯]]"
   - "[[自定义风格写作编辑]]"
   - "[[目标导向的跨文化转译器]]"
   - "[[分层组织和简化]]"

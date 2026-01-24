@@ -1,19 +1,10 @@
 ---
-copilot-command-context-menu-enabled: false
+copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
-copilot-command-context-menu-order: 9007199254740991
+copilot-command-context-menu-order: 0
 copilot-command-model-key: ""
-copilot-command-last-used: 0
-view-count: 7
-update: 2026-01-08 21:14
-related:
-  - "[[建模分析]]"
-  - "[[PRD全链路分析与设计]]"
-  - "[[web design consultant]]"
-  - "[[专业笔记优化助手]]"
-  - "[[深度研读与学术分析助手]]"
+copilot-command-last-used: 1769234952043
 ---
-
 # Role
 
 Act as a Senior Full-Stack Architect specialized in Golang and Angular.
