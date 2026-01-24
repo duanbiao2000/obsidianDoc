@@ -8,6 +8,8 @@ tags:
   - prompt-optimization-workflow
   - PromptEngineering
   - PromptManagement
+  - Domain/Technology/Git
+  - Domain/Technology/DevOps
 source:
   - https://claude.ai/public/artifacts/0a767ddd-3d55-4f7a-9c66-f5023e8457d8
 update: null

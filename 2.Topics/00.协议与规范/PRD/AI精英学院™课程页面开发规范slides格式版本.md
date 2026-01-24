@@ -15,6 +15,9 @@ tags:
   - course-content-design
   - technical-writing
   - ai-agent-development
+  - Domain/AI
+  - Domain/AI/ContentCreation
+  - Type/Reference
 ---
 
 ### **AI精英学院™课程页面开发规范slides格式版本 v1.1**

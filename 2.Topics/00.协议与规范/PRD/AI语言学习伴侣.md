@@ -6,6 +6,10 @@ tags:
   - Language-Proficiency-Training
   - AI-Agent-Development
   - Content-Translation
+  - Domain/AI
+  - Domain/AI/Agent
+  - Domain/Language
+  - Type/Reference
 source: null
 update: null
 rating: null

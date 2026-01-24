@@ -9,6 +9,9 @@ tags:
   - design-motivation
   - PromptEngineering
   - SystemDesign
+  - Domain/AI
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Code Verbalization Prompt 库
 

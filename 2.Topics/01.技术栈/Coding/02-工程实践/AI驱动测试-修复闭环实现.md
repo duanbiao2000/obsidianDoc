@@ -5,6 +5,10 @@ tags:
   - code-optimization
   - AI
   - AI-content-creation-process
+  - Domain/AI
+  - Domain/AI/Agent
+  - Domain/Technology/DevOps
+  - Type/Reference
 ---
 # AI驱动测试-修复闭环实现 (Brutally Minimal)
 

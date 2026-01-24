@@ -5,6 +5,9 @@ tags:
   - linguistic-skills-assessment
   - Language
   - English
+  - Domain/Language
+  - Domain/Language/English
+  - Type/Reference
 ---
 # [[R_欧洲语言共同参考框架 (CEFR)]] | Minimal
 

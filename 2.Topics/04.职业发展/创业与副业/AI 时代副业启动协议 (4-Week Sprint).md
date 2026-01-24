@@ -9,6 +9,9 @@ tags:
   - ROI-Optimization
   - Productivity
   - PromptEngineering
+  - Domain/Professional
+  - Domain/Professional/SideHustle
+  - Type/Action
 ---
 
 # AI 时代副业启动协议 (4-Week Sprint)

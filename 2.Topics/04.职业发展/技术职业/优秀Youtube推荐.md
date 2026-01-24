@@ -15,6 +15,8 @@ tags:
   - programming-tutorials
   - YouTube
   - video-content-metrics
+  - Domain/Professional
+  - Type/Resource
 ---
 
 以下是数学、英语、编程相关的YouTube博主推荐：

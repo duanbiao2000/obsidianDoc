@@ -5,6 +5,9 @@ tags:
   - agent-performance-bottlenecks
   - Tech/AI/LLM
   - agent-architecture
+  - Domain/AI
+  - Domain/AI/Agent
+  - Type/Reference
 view-count: 2
 ---
 

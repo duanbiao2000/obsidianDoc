@@ -4,6 +4,9 @@ tags:
   - action-plan-creation
   - knowledge-management
   - system-thinking
+  - Domain/AI
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 
 ```

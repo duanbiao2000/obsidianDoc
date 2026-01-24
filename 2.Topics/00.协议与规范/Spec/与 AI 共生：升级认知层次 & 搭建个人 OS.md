@@ -13,6 +13,11 @@ tags:
   - personal-ai-integration
   - Cognitive-Design
   - AI-Agent-Development
+  - Domain/AI
+  - Domain/AI/Agent
+  - Domain/Cognitive
+  - Type/Reference
+  - Status/Done
 ---
 
 # 与 AI 共生：升级认知层次 & 搭建个人 OS · 带思维过程

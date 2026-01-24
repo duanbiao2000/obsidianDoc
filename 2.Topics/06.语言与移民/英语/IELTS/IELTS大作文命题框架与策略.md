@@ -5,6 +5,10 @@ tags:
   - task-2-approach
   - ielts
   - writing-skills
+  - Domain/Language/IELTS
+  - Domain/Language/English
+  - Type/Reference
+  - Status/Review
 ---
 # IELTS Writing Task 2 完整命题类型框架与应对策略
 

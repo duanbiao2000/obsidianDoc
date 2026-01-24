@@ -7,6 +7,9 @@ tags:
   - scriptwriting-ai
   - ai-content-creation-process
   - content-creation
+  - Domain/AI
+  - Domain/AI/ContentCreation
+  - Type/Reference
 source:
   - https://www.kimi.com/chat/
 update: null

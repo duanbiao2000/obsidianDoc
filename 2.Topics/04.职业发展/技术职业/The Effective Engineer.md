@@ -11,6 +11,10 @@ tags:
   - high-impact-activities
   - productivity
   - system-thinking
+  - Domain/Professional
+  - Domain/Professional/Skill
+  - Status/Mastered
+  - Type/Reference
 ---
 
 # 《The Effective Engineer》核心思想与方法

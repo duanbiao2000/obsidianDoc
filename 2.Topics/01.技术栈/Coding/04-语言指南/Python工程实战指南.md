@@ -14,6 +14,10 @@ tags:
   - performance-optimization
   - python
   - programming
+  - Domain/Technology
+  - Domain/Technology/Python
+  - Type/Reference
+  - Status/Review
 ---
 
 # Python工程实战指南

@@ -11,6 +11,10 @@ tags:
   - DynamicNavigationSystem
   - Agent
   - Algorithm
+  - Domain/Language/Immigration
+  - Type/MOC
+  - Type/Reference
+  - Status/Done
 ---
 
 # [[技术移民线路图_MOC_]] | Minimal

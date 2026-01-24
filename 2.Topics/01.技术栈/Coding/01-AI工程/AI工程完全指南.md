@@ -10,6 +10,9 @@ tags:
   - Collaboration
   - PromptEngineering
   - AgentArchitecture
+  - Domain/AI
+  - Domain/AI/Agent
+  - Type/Reference
 related:
   - '[[AI 协作白皮书]]'
   - '[[上下文工程完全指南]]'

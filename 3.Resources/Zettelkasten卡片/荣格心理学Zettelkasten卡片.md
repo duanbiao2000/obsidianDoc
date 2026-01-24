@@ -7,6 +7,10 @@ tags:
   - archetypal-theory
   - Jungian
   - Psychology
+  - Domain/Cognitive
+  - Domain/Cognitive/MentalModel
+  - Type/Reference
+  - Status/Review
 ---
 ## 荣格心理学Zettelkasten卡片
 

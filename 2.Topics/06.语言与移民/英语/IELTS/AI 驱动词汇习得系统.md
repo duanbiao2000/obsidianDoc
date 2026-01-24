@@ -11,6 +11,10 @@ tags:
   - contextual-encoding
   - language-learning
   - ai
+  - Domain/Language/IELTS
+  - Domain/AI/ContentCreation
+  - Type/LearningSystem
+  - Status/Review
 ---
 
 # 🚀 AI 驱动·词汇习得系统 (F/C/P/M 2.0)

@@ -4,6 +4,10 @@ tags:
   - System-Architecture-Principles
   - Navigation
   - Coding
+  - Domain/AI
+  - Domain/AI/PromptEngineering
+  - Type/Index
+  - Status/Review
 related:
   - '[[01-AI工程知识库]]'
   - '[[02-工程实践集]]'

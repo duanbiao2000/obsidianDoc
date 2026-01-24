@@ -2,8 +2,10 @@
 tags:
   - agi-assistants
   - cross-domain-applications
-  - AI
-  - AI-Agent-Development
+  - Domain/AI
+  - Domain/AI/Agent
+  - Type/Action
+  - Status/TODO
 ---
 
 

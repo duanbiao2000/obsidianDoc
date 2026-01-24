@@ -5,7 +5,9 @@ tags:
   - mental-models
   - productivity-systems
   - behavioral-psychology
----
+  - Domain/Cognitive
+  - Type/SystemGuide
+  - Status/Done
 
 # CLAUDE.md - 认知系统领域
 

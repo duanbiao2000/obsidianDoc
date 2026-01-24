@@ -6,6 +6,11 @@ tags:
   - Knowledge-Code-Integration
   - AI-Agent-Development
   - Algorithm
+  - Domain/AI
+  - Domain/AI/Agent
+  - Domain/Technology/Programming
+  - Type/Reference
+  - Status/Done
 source: null
 rating: null
 related:

@@ -2,6 +2,8 @@
 aliases:
 date: 2026-01-12 11:06
 tags:
+  - '#Domain/Technology/Git'
+  - '#Domain/Technology/DevOps'
 source:
 rating:
 related:

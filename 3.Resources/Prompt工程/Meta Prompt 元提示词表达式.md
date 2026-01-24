@@ -5,6 +5,9 @@ tags:
   - prompt-design
   - KnowledgeManagement
   - Problem-Solving
+  - Domain/AI
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 
 # 🧠 Meta Prompt for “需求精准表达 Copilot Prompt Generator”

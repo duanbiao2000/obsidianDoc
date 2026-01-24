@@ -11,6 +11,9 @@ tags:
   - agent-architecture-comparison
   - Tech/AI
   - KnowledgeManagement
+  - Domain/AI
+  - Domain/AI/Agent
+  - Type/Reference
 ---
 
 LangChain、LlamaIndex 和 AutoGen 都是当前构建 LLM (大型语言模型) 应用的热门框架，但它们各自侧重于不同的应用场景和设计理念。理解它们的区别可以帮助你选择最适合你项目需求的工具。

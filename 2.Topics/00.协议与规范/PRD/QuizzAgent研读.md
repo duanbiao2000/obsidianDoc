@@ -7,6 +7,9 @@ tags:
   - knowledge-unit-extraction
   - agent-architecture
   - algorithm
+  - Domain/AI
+  - Domain/AI/Agent
+  - Type/Reference
 source:
   - https://zread.ai/floatDreamWithSong/QuizAgent
 view-count: 5

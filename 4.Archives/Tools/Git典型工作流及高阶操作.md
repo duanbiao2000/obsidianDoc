@@ -4,14 +4,11 @@ date: 2024-11-10 19:41
 categories:
   - Effective
 tags:
-  - Domain/Creativity/Github
+  - Domain/Technology/Git
   - Status/Workflow
 update: 2024-11-10 20:08
 view-count: 12
 related:
-  - "[[如何为开源项目贡献你的第一个PR]]"
-  - "[[2025-12-10-高质量开源项目的特征]]"
-  - "[[2025-12-20-常用开发标记]]"
   - "[[从编码员到问题解决者]]"
 ---
 # [[Git典型工作流及高阶操作]] | Minimal

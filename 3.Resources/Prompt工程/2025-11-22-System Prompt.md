@@ -6,6 +6,9 @@ tags:
   - gemini-3-ide
   - agent-architecture
   - agile
+  - Domain/AI
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 collections:
   - Antigravity
 source:

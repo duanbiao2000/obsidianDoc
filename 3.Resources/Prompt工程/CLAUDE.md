@@ -5,6 +5,8 @@ tags:
   - ai-automation
   - agent-architecture
   - version-control
+  - Domain/AI
+  - Type/SystemGuide
 ---
 
 # CLAUDE.md - Prompt工程资源

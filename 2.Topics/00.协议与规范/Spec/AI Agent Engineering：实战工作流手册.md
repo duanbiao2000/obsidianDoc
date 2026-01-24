@@ -12,6 +12,11 @@ tags:
   - meta-prompt-optimization
   - ai-agent-development
   - ai-content-creation-process
+  - Domain/AI
+  - Domain/AI/Agent
+  - Domain/AI/ContentCreation
+  - Type/Reference
+  - Status/Review
 ---
 
 > 💭 **Thinking Process**

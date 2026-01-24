@@ -6,6 +6,10 @@ tags:
   - tokio-runtime
   - rust
   - concurrency
+  - Domain/Technology
+  - Domain/Technology/Rust
+  - Type/Reference
+  - Status/Review
 source:
   - https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt
 update: null

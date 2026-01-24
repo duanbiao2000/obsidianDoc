@@ -8,6 +8,9 @@ tags:
   - game-theory-models
   - team-management
   - business-strategy
+  - Domain/Professional
+  - Domain/Professional/Skill
+  - Type/Note
 collections: null
 source: null
 rating: null

@@ -5,6 +5,10 @@ tags:
   - immigration
   - test-preparation
   - progress-tracking
+  - Domain/Language
+  - Domain/Language/Immigration
+  - Type/SystemGuide
+  - Status/Done
 ---
 
 # CLAUDE.md - 语言与移民领域

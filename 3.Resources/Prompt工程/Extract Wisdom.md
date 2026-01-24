@@ -13,6 +13,9 @@ tags:
   - WisdomMining
   - KnowledgeManagement
   - Personal-Development
+  - Domain/AI
+  - Domain/AI/ContentCreation
+  - Type/Reference
 ---
 
 

@@ -5,6 +5,9 @@ tags:
   - specification-driven-dev
   - specification
   - ai-protocol
+  - Domain/AI
+  - Domain/AI/Agent
+  - Type/Reference
 ---
 为开发者提炼自OpenSpec规范驱动开发实战视频的操作指导，具体内容如下：
 

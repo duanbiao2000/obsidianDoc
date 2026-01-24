@@ -10,6 +10,10 @@ tags:
   - paradigm-extraction
   - IELTS
   - debate
+  - Domain/Language/IELTS
+  - Domain/Language/English
+  - Type/Essay
+  - Status/Done
 ---
 
 # 基于此文的IELTS写作复用框架与范式提炼

@@ -5,6 +5,12 @@ tags:
   - contextual-encoding
   - ai-content-creation-process
   - ai-agent-development
+  - Domain/AI
+  - Domain/AI/Agent
+  - Domain/AI/ContentCreation
+  - Domain/Technology/Programming
+  - Type/Reference
+  - Status/Done
 source:
   - https://www.youtube.com/watch?v=MBaTuJfICP4
 view-count: 7

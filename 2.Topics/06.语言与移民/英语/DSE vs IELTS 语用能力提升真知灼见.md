@@ -6,13 +6,15 @@ categories:
   - 语言学习策略
   - 考试对比分析
 tags:
-  - Domain/English
-  - Domain/Mindset
-  - Domain/Education
   - DSE
   - IELTS
   - 语用能力
   - Critical-thinking
+  - Domain/Language/English
+  - Domain/Language/IELTS
+  - Domain/Cognitive/MentalModel
+  - Type/Reference
+  - Status/Review
 rating: 10
 related:
   - "[[DSE 英文写作结构公式]]"

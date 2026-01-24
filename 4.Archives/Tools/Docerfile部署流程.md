@@ -1,5 +1,10 @@
 ---
 view-count: 6
+tags:
+  - Domain/Technology/Docker
+  - Domain/Technology/DevOps
+  - Type/Reference
+  - Status/Done
 ---
 # Dockerfile 部署流程：极简流水线指南
 

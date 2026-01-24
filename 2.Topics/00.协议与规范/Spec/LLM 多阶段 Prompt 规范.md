@@ -5,6 +5,9 @@ tags:
   - specification-based-execution
   - agent-architecture
   - algorithm
+  - Domain/AI
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ## 1. Agent 核心哲学（Spec → Task → 执行）
 

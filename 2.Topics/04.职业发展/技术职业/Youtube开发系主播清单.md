@@ -5,6 +5,8 @@ tags:
   - developer-learning-path
   - YouTube
   - video-content-metrics
+  - Domain/Professional
+  - Type/Resource
 ---
 # YouTube 开发系主播学习协议：从地图到实战
 
