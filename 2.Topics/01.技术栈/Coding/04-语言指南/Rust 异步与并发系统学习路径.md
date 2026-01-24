@@ -56,6 +56,60 @@ view-count: 7
 - **内存稳定性**：针对自引用结构必须显式使用 `Pin<Box<T>>`。
 - **数据竞争对冲**：优先使用 `mpsc/oneshot` 通道通信，次选 `Arc<Mutex<T>>` 锁机制。
 
+---
+
+## 6. 实战模式详解 (Practical Patterns)
+
+### OS 线程协议 (CPU-Bound)
+
+**模式 A：安全数据共享 (Arc + Mutex)**
+- **场景**：多个线程需要同时修改同一个计数器或状态。
+- **代码**：
+```rust
+let counter = Arc::new(Mutex::new(0));
+for _ in 0..10 {
+    let c = Arc::clone(&counter);
+    thread::spawn(move || {
+        let mut num = c.lock().unwrap();
+        *num += 1;
+    });
+}
+```
+
+**模式 B：消息传递 (mpsc)**
+- **原则**：**不要通过共享内存来通信，而要通过通信来共享内存。**
+```rust
+let (tx, rx) = mpsc::channel();
+thread::spawn(move || tx.send("数据").unwrap());
+let data = rx.recv().unwrap();
+```
+
+### Tokio 异步协议 (I/O-Bound)
+
+**模式 C：并发任务管理 (tokio::spawn)**
+- **场景**：同时处理数千个 TCP 连接。
+```rust
+#[tokio::main]
+async fn main() {
+    let handle = tokio::spawn(async { "结果" });
+    let res = handle.await.unwrap();
+}
+```
+
+**模式 D：跨越阻塞红线 (spawn_blocking)**
+- **红线**：禁止在 `async` 函数中调用 `std::thread::sleep` 或耗时计算。
+```rust
+let res = tokio::task::spawn_blocking(|| {
+    std::thread::sleep(Duration::from_secs(1));
+}).await;
+```
+
+### 避坑指南
+
+- **死锁预防**：异步 `Mutex` 的锁守卫 (`lock().await`) 不能跨越 `.await` 点
+- **性能陷阱**：线程池大小默认等于 CPU 核心数，不要创建过多线程
+- **所有权**：`thread::spawn` 和 `tokio::spawn` 的闭包必须是 `move`
+
 ## 关联笔记
 - [[Go开发者实战指南]] (跨语言并发模型深度对比)
 - [[多线程的主要用途]] (并行计算基础与硬件约束)

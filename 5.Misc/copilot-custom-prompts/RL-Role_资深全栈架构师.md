@@ -5,9 +5,9 @@ copilot-command-context-menu-order: 0
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 tags:
-  - #Domain/AI
-  - #Type/Prompt
-  - #Domain/技术栈
+  - 
+  - 
+  - 
 view-count: 0
 update: 2026-01-24
 related:
