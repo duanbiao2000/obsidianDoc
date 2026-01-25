@@ -36,6 +36,21 @@ tags: ["Type/Reference"]
 - 已有Domain标签的文件自动跳过
 - 读取错误会记录但不中断处理
 
+### 5. Include模式（安全性优先）
+
+**只处理指定的笔记目录**,自动排除所有配置文件:
+
+- ✅ **处理目录**: `0.DailyNotes`, `1.Projects`, `2.Topics`, `3.Resources`, `4.Archives`, `5.Misc`, `6.Calendar`, `Atlas`
+- ❌ **自动排除**: `.agent`, `.claude`, `.git`, `.obsidian`, `.idea` 等所有配置目录
+
+**为什么用include模式?**
+
+- **更安全**: 配置文件数量变化不会影响脚本
+- **更明确**: 一眼看出哪些目录会被处理
+- **更健壮**: 不需要维护exclude列表
+
+**配置位置**: 脚本开头的 `INCLUDE_DIRS` 列表可按需修改
+
 ## 🚀 使用方法
 
 ### 方法1: 直接运行脚本（推荐）
