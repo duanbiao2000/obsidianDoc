@@ -7,6 +7,15 @@ tags:
   - Productivity
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**相关主题**:
+- [[3.Resources\Prompt工程|Prompt工程]]
+- [[2.Topics/03.内容创作/AI|03.内容创作]]
+
+---
+
 ### **OKR 拆解分析：从执行目标到战略成果**
 
 #### **第一步：将执行目标升级为战略目标 (Objective)**

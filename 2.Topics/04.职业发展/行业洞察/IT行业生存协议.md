@@ -8,6 +8,19 @@ tags:
   - Type/Reference
   - Domain/Technology
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\04.职业发展\_Index_of_04.职业发展.md|04.职业发展]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+**相关主题**:
+- [[2.Topics\04.职业发展\行业洞察]]
+- [[1.Projects\技术能力晋升]]
+
+---
+
 ## 1. 用户画像与动力模型
 
 | 类型 | 核心背景 | 动力源 | 选型偏好 |

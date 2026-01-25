@@ -12,6 +12,14 @@ tags:
   - Type/Reference
 rating: 10
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 ## 一、阶段 0：Prompt（当下主流，但天生不稳）
 
 ### Prompt 的真实定位

@@ -9,6 +9,21 @@ tags:
   - Type/Reference
 view-count: 111
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\02.认知系统\Deeplife\_Index_of_Deeplife.md|Deeplife]]
+- [[2.Topics\02.认知系统\_Index_of_02.认知系统.md|02.认知系统]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+**相关主题**:
+- [[2.Topics\01.技术栈\Coding\04-语言指南]]
+- [[2.Topics\02.认知系统\思维模型]]
+- [[2.Topics\02.认知系统]]
+
+---
+
 根据 **ROI 优化框架**，通过**结论前置**、**公式视觉化**和**冗余剔除**，实现了认知负载的最小化。
 
 ---

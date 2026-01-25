@@ -9,6 +9,14 @@ tags:
   - Domain/AI/Agent
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 为开发者提炼自OpenSpec规范驱动开发实战视频的操作指导，具体内容如下：
 
 **OpenSpec开发流程五大阶段**（适用于AI辅助开发）：

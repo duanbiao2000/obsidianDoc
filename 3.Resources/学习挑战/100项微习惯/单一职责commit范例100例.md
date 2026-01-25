@@ -15,6 +15,19 @@ update: null
 rating: null
 related: null
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\学习挑战\100项微习惯\_Index_of_100项微习惯.md|100项微习惯]]
+- [[3.Resources\学习挑战\_Index_of_学习挑战.md|学习挑战]]
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+**相关主题**:
+- [[2.Topics\02.认知系统\学习系统]]
+
+---
+
 ## 一、Docs（文档类，20 条）
 
 1. `docs: add code review report for yaml parser`

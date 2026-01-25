@@ -9,6 +9,16 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\00.协议与规范\Spec\_Index_of_Rules.md|Rules]]
+- [[2.Topics\00.协议与规范\_Index_of_00.协议与规范.md|00.协议与规范]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+---
+
 ## 1. Agent 核心哲学（Spec → Task → 执行）
 
 - 把 LLM 当成「高能但死板的执行引擎」，只按 **Spec + Task** 行动。  

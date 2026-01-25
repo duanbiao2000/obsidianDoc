@@ -8,6 +8,16 @@ tags:
   - Type/Reference
   - Domain/Technology
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\00.协议与规范\Spec\_Index_of_Rules.md|Rules]]
+- [[2.Topics\00.协议与规范\_Index_of_00.协议与规范.md|00.协议与规范]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+---
+
 ### 通用知识指导模型
 
 **核心主题：** 任何特定的**学科 / 领域 / 技能 / 概念** (例如：气候变化、项目管理理论、批判性思维、摄影技巧)

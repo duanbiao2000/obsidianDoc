@@ -7,6 +7,16 @@ tags:
   - Type/Reference
   - Domain/Technology
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\00.协议与规范\PRD\_Index_of_PRD.md|PRD]]
+- [[2.Topics\00.协议与规范\_Index_of_00.协议与规范.md|00.协议与规范]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+---
+
 ### **25句濃縮版本**
 
 1.  這份筆記基於AGIaaS（通用人工智能即服務）理念，提出了100個創新產品創意，旨在將AI能力API化並普及。

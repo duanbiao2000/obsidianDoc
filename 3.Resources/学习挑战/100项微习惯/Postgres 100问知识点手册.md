@@ -8,6 +8,19 @@ tags:
   - Type/Reference
   - Domain/Technology
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\学习挑战\100项微习惯\_Index_of_100项微习惯.md|100项微习惯]]
+- [[3.Resources\学习挑战\_Index_of_学习挑战.md|学习挑战]]
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+**相关主题**:
+- [[2.Topics\02.认知系统\学习系统]]
+
+---
+
 ### **PostgreSQL 核心实战指南：开发者必备**
 
 > **核心哲学**: **PostgreSQL 不仅仅是一个数据库，更是一个强大的数据处理平台。** 本指南聚焦于开发者最需要掌握的核心功能和最佳实践，助你构建高效、可靠的应用。

@@ -4,6 +4,15 @@ view-count: 3
 tags: ["Domain/Cognitive/Tools", "Type/Reference"]
 
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[4.Archives\Tools\_Index_of_Tools.md|Tools]]
+- [[4.Archives\_Index_of_4.Archives.md|4.Archives]]
+
+---
+
 # 折叠相关
 zo：展开当前折叠区域。
 zm：折叠当前折叠区域。

@@ -8,6 +8,14 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 ## ★ Prompt压缩核心目标
 
 - ★ Token计费→压缩=降本直接手段  

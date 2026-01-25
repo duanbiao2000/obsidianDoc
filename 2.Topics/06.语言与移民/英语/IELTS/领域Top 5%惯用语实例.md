@@ -9,6 +9,14 @@ tags:
   - CommunicationSkills
   - EffectiveCommunication
 ---
+
+## 🔗 相关链接
+
+**相关主题**:
+- [[2.Topics\06.语言与移民\英语\IELTS\雅思口语知识库.md|雅思口语知识库]]
+
+---
+
 Of course. Here is the adapted version of your note, converted into concise, professional Western workplace English, following the rules you provided.
 
 ***

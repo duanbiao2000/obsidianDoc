@@ -8,6 +8,14 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 ```Prompt
 # 角色
 你是一名IT顾问，专门负责解释和解答关于工作流和软件开发流程的问题。

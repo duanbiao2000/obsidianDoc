@@ -8,6 +8,14 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 ## ★ 核心目标定义
 
 - ★ Prompt工程终极目标→行为生成能力  
