@@ -1,10 +1,11 @@
 ---
+rating: 2.5
 tags:
-  - knowledge-base-structure
-  - ai-knowledge-ip
-  - content-factory
-  - okr-management
-  - Type/Reference
+- knowledge-base-structure
+- ai-knowledge-ip
+- content-factory
+- okr-management
+- Type/Reference
 ---
 # CLAUDE.md - AI知识IP打造项目
 

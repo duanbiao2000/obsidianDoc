@@ -1,17 +1,17 @@
 ---
-view-count: 5
+rating: 3.0
 related:
-  - '[[任务层级]]'
-  - '[[L6-L7 级别技术简历]]'
-  - '[[从开发者到架构师：12 周实战转型指南]]'
+- '[[任务层级]]'
+- '[[L6-L7 级别技术简历]]'
+- '[[从开发者到架构师：12 周实战转型指南]]'
 tags:
-  - career-growth-path
-  - technical-leadership
-  - role-engineer
-  - role-founder
-  - Type/Reference
+- career-growth-path
+- technical-leadership
+- role-engineer
+- role-founder
+- Type/Reference
 update: 2026-01-25
-
+view-count: 5
 ---
 ## IC 职级演进 ROI 优化：[[IC 职级演进]]
 

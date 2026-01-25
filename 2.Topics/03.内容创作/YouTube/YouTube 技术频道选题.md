@@ -1,18 +1,19 @@
 ---
-view-count: 14
-update: 2026-01-06 16:40
+rating: 3.5
 related:
-  - '[[200组开发选题]]'
-  - '[[100项适合程序员的深度工作]]'
-  - '[[学习框架]]'
-  - '[[程序员圈 LFSP Top 100]]'
+- '[[200组开发选题]]'
+- '[[100项适合程序员的深度工作]]'
+- '[[学习框架]]'
+- '[[程序员圈 LFSP Top 100]]'
 tags:
-  - new-dev-tools
-  - practical-tutorials
-  - programming
-  - coding
-  - Type/Reference
-  - Domain/Technology
+- new-dev-tools
+- practical-tutorials
+- programming
+- coding
+- Type/Reference
+- Domain/Technology
+update: 2026-01-06 16:40
+view-count: 14
 ---
 下面这 100 个选题都满足两个约束：\
 1）**制作周期短**：适合做成一篇文章 / 一期视频 / 一次小课；\

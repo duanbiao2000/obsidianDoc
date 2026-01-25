@@ -1,23 +1,24 @@
 ---
 copilot-command-context-menu-enabled: false
-copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
-copilot-command-model-key: ''
 copilot-command-last-used: 0
-view-count: 9
-update: 2026-01-07 00:20
+copilot-command-model-key: ''
+copilot-command-slash-enabled: true
+rating: 3.0
 related:
-  - '[[AI精英学院™课程页面开发规范]]'
-  - '[[B站知识视频文案生成器]]'
-  - '[[HTML页面生成与排版优化]]'
+- '[[AI精英学院™课程页面开发规范]]'
+- '[[B站知识视频文案生成器]]'
+- '[[HTML页面生成与排版优化]]'
 tags:
-  - slides-extended-plugin
-  - course-content-design
-  - technical-writing
-  - ai-agent-development
-  - Domain/AI
-  - Domain/AI/ContentCreation
-  - Type/Reference
+- slides-extended-plugin
+- course-content-design
+- technical-writing
+- ai-agent-development
+- Domain/AI
+- Domain/AI/ContentCreation
+- Type/Reference
+update: 2026-01-07 00:20
+view-count: 9
 ---
 
 ### **AI精英学院™课程页面开发规范slides格式版本 v1.1**

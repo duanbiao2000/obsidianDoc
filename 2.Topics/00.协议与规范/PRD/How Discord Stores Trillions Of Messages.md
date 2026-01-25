@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 3.0
 tags:
-  - discord-message-storage
-  - mongodb-to-cassandra-migration
-  - database-evolution
-  - scylla-db
-  - Type/Reference
-  - Domain/Technology
+- discord-message-storage
+- mongodb-to-cassandra-migration
+- database-evolution
+- scylla-db
+- Type/Reference
+- Domain/Technology
+view-count: 2
 ---
 
 ## 🔗 相关链接

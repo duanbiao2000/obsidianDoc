@@ -1,18 +1,19 @@
 ---
-tags:
-  - AI-Prompt-Engineering
-  - System-Architecture-Principles
-  - Navigation
-  - Coding
-  - Domain/AI
-  - Domain/AI/PromptEngineering
-  - Type/Index
-  - Status/Review
+rating: 3.0
 related:
-  - '[[01-AI工程知识库]]'
-  - '[[02-工程实践集]]'
-  - '[[03-系统设计集]]'
-  - '[[04-语言选型与指南]]'
+- '[[01-AI工程知识库]]'
+- '[[02-工程实践集]]'
+- '[[03-系统设计集]]'
+- '[[04-语言选型与指南]]'
+tags:
+- AI-Prompt-Engineering
+- System-Architecture-Principles
+- Navigation
+- Coding
+- Domain/AI
+- Domain/AI/PromptEngineering
+- Type/Index
+- Status/Review
 view-count: 7
 ---
 

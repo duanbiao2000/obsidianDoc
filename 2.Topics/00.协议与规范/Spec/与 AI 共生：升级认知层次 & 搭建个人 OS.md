@@ -1,23 +1,24 @@
 ---
-view-count: 12
-update: 2026-01-08 19:44
+rating: 3.5
 related:
-  - '[[2025-12-07-2026开发思维模型转变]]'
-  - '[[严谨且善于解释的助手附思路与推理过程]]'
-  - '[[CoT 增强版系统提示词]]'
-  - '[[每日固定动作]]'
-  - '[[Arc-将蓝图细化为具体的装配指令]]'
-  - '[[如何构建并发布高价值知识资产]]'
+- '[[2025-12-07-2026开发思维模型转变]]'
+- '[[严谨且善于解释的助手附思路与推理过程]]'
+- '[[CoT 增强版系统提示词]]'
+- '[[每日固定动作]]'
+- '[[Arc-将蓝图细化为具体的装配指令]]'
+- '[[如何构建并发布高价值知识资产]]'
 tags:
-  - cognitive-enhancement
-  - personal-ai-integration
-  - Cognitive-Design
-  - AI-Agent-Development
-  - Domain/AI
-  - Domain/AI/Agent
-  - Domain/Cognitive
-  - Type/Reference
-  - Status/Done
+- cognitive-enhancement
+- personal-ai-integration
+- Cognitive-Design
+- AI-Agent-Development
+- Domain/AI
+- Domain/AI/Agent
+- Domain/Cognitive
+- Type/Reference
+- Status/Done
+update: 2026-01-08 19:44
+view-count: 12
 ---
 
 # 与 AI 共生：升级认知层次 & 搭建个人 OS · 带思维过程

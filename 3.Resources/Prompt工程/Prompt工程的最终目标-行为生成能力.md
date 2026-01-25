@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 3.0
 tags:
-  - prompt-engineering
-  - llm-agent-system
-  - AI
-  - Agent
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- prompt-engineering
+- llm-agent-system
+- AI
+- Agent
+- Domain/AI/PromptEngineering
+- Type/Reference
+view-count: 2
 ---
 
 ## 🔗 相关链接

@@ -1,11 +1,12 @@
 ---
+rating: 3.0
 tags:
-  - tone-analysis
-  - language-use
-  - communication
-  - writing-skills
-  - Type/Reference
-  - Domain/Technology
+- tone-analysis
+- language-use
+- communication
+- writing-skills
+- Type/Reference
+- Domain/Technology
 ---
 
 ## 🔗 相关链接

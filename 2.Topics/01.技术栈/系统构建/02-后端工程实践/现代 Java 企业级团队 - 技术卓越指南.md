@@ -1,12 +1,13 @@
 ---
-view-count: 3
+rating: 3.0
 tags:
-  - Jakarta-EE
-  - DevOps-Culture
-  - Backend
-  - Agile
-  - Type/Reference
-  - Domain/Technology
+- Jakarta-EE
+- DevOps-Culture
+- Backend
+- Agile
+- Type/Reference
+- Domain/Technology
+view-count: 3
 ---
 当然可以。基于之前 [[Java SE核心内容]] 的技术卓越指南，我们可以构建一个面向现代 Java 企业级（Enterprise Edition, 如今的 Jakarta EE 生态）开发的团队指南。
 

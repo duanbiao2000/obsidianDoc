@@ -1,11 +1,12 @@
 ---
+rating: 2.5
 tags:
-  - cantonese-phrases
-  - youth-culture
-  - education
-  - language-learning
-  - Type/Reference
-  - Domain/Technology
+- cantonese-phrases
+- youth-culture
+- education
+- language-learning
+- Type/Reference
+- Domain/Technology
 ---
 
 ## 🔗 相关链接

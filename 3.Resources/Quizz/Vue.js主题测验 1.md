@@ -1,12 +1,13 @@
 ---
-view-count: 8
+rating: 2.5
 tags:
-  - vue-testing
-  - vue-performance
-  - vue
-  - react
-  - Type/Reference
-  - Domain/Technology
+- vue-testing
+- vue-performance
+- vue
+- react
+- Type/Reference
+- Domain/Technology
+view-count: 8
 ---
 
 ## 🔗 相关链接

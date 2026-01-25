@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 2.0
 tags:
-  - tdd-driven-design
-  - interface-design
-  - software-engineering
-  - system-design
-  - Domain/Technology/Go
-  - Type/Reference
+- tdd-driven-design
+- interface-design
+- software-engineering
+- system-design
+- Domain/Technology/Go
+- Type/Reference
+view-count: 2
 ---
 ## TDD 驱动的设计演进**
 

@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 2.0
 tags:
-  - agi-as-service
-  - ai-model-ecosystem
-  - ai
-  - ai-agent-development
-  - Type/Reference
-  - Domain/Technology
+- agi-as-service
+- ai-model-ecosystem
+- ai
+- ai-agent-development
+- Type/Reference
+- Domain/Technology
+view-count: 2
 ---
 思考过程：
 1.  **用户核心主题：** MaaS (Model as a Service) / AGIaaS。要求围绕这个主题谈一谈。

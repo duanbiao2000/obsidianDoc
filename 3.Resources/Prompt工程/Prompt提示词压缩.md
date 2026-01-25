@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 3.0
 tags:
-  - prompt-optimization
-  - token-compression
-  - content-creation
-  - information-structure
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- prompt-optimization
+- token-compression
+- content-creation
+- information-structure
+- Domain/AI/PromptEngineering
+- Type/Reference
+view-count: 2
 ---
 
 ## 🔗 相关链接

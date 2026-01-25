@@ -1,13 +1,14 @@
 ---
 date: 2025-05-15 18:27
-tags:
-  - complexity-theory
-  - graph-theory
-  - algorithm
-  - data-structures
-  - Type/Reference
-  - Domain/Technology
+rating: 2.5
 source: https://deepwiki.com/kdn251/interviews/
+tags:
+- complexity-theory
+- graph-theory
+- algorithm
+- data-structures
+- Type/Reference
+- Domain/Technology
 view-count: 7
 ---
 

@@ -1,14 +1,15 @@
 ---
-view-count: 2
+rating: 3.5
 tags:
-  - ielts-essay-structure
-  - task-2-approach
-  - ielts
-  - writing-skills
-  - Domain/Language/IELTS
-  - Domain/Language/English
-  - Type/Reference
-  - Status/Review
+- ielts-essay-structure
+- task-2-approach
+- ielts
+- writing-skills
+- Domain/Language/IELTS
+- Domain/Language/English
+- Type/Reference
+- Status/Review
+view-count: 2
 ---
 
 ## 🔗 相关链接

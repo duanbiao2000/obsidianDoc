@@ -1,17 +1,18 @@
 ---
-date: 2025-04-27T00:00:00.000Z
-tags:
-  - learning-methodology
-  - systematic-study
-  - Digital-Garden
-  - Learning
-  - Domain/Technology/Git
-  - Type/Reference
-type: 系统
-update: 2026-01-21T00:00:00.000Z
 aliases:
-  - DigitalGarden
-  - DG精选
+- DigitalGarden
+- DG精选
+date: 2025-04-27 00:00:00+00:00
+rating: 3.5
+tags:
+- learning-methodology
+- systematic-study
+- Digital-Garden
+- Learning
+- Domain/Technology/Git
+- Type/Reference
+type: 系统
+update: 2026-01-21 00:00:00+00:00
 ---
 # Digital Garden 精选
 

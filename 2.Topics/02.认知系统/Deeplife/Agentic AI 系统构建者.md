@@ -1,11 +1,12 @@
 ---
+rating: 3.0
 tags:
-  - cross-disciplinary-thinking
-  - systematic-mindset
-  - CognitiveScience
-  - Programming
-  - Domain/AI/Agent
-  - Type/Reference
+- cross-disciplinary-thinking
+- systematic-mindset
+- CognitiveScience
+- Programming
+- Domain/AI/Agent
+- Type/Reference
 ---
 
 ## 🔗 相关链接

@@ -1,17 +1,18 @@
 ---
-view-count: 10
+rating: 2.5
 related:
-  - '[[精英研究-說話之道-行为洞察]]'
-  - '[[工程能力与认知之道]]'
-  - '[[复杂问题分解之道]]'
+- '[[精英研究-說話之道-行为洞察]]'
+- '[[工程能力与认知之道]]'
+- '[[复杂问题分解之道]]'
 tags:
-  - code-verbalization
-  - design-motivation
-  - PromptEngineering
-  - SystemDesign
-  - Domain/AI
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- code-verbalization
+- design-motivation
+- PromptEngineering
+- SystemDesign
+- Domain/AI
+- Domain/AI/PromptEngineering
+- Type/Reference
+view-count: 10
 ---
 # Code Verbalization Prompt 库
 

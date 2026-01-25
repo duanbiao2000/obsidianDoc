@@ -1,12 +1,13 @@
 ---
-view-count: 8
+rating: 2.5
 tags:
-  - career-transition
-  - programming-education
-  - education
-  - job-market
-  - Type/Reference
-  - Domain/Technology
+- career-transition
+- programming-education
+- education
+- job-market
+- Type/Reference
+- Domain/Technology
+view-count: 8
 ---
 
 ## 🔗 相关链接

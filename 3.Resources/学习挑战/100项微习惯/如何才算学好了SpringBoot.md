@@ -1,10 +1,11 @@
 ---
 date: 2025-05-19 13:58
+rating: 2.5
 tags:
-  - spring-boot-skills
-  - microservices-architecture
-  - Domain/Creativity
-  - Domain/Mindset
+- spring-boot-skills
+- microservices-architecture
+- Domain/Creativity
+- Domain/Mindset
 update: 2025-05-22 18:15
 ---
 

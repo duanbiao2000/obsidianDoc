@@ -1,18 +1,19 @@
 ---
-date: 2024-10-27T00:00:00.000Z
-tags:
-  - agent-team-collaboration
-  - knowledge-production-process
-  - paper/ai
-  - concept/agentic-ai
-  - Domain/AI/PromptEngineering
-  - Type/Reference
-status: evergreen
 aliases:
-  - STORM
-  - STORM论文
-  - Synthesis of Topic Outlines and RAG
+- STORM
+- STORM论文
+- Synthesis of Topic Outlines and RAG
+date: 2024-10-27 00:00:00+00:00
+rating: 3.0
 source: https://arxiv.org/abs/2402.14217
+status: evergreen
+tags:
+- agent-team-collaboration
+- knowledge-production-process
+- paper/ai
+- concept/agentic-ai
+- Domain/AI/PromptEngineering
+- Type/Reference
 view-count: 6
 ---
 # [[STORM (论文)]]

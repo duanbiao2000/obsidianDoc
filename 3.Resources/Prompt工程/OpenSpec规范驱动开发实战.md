@@ -1,13 +1,14 @@
 ---
-view-count: 3
+rating: 2.0
 tags:
-  - open-specification
-  - specification-driven-dev
-  - specification
-  - ai-protocol
-  - Domain/AI
-  - Domain/AI/Agent
-  - Type/Reference
+- open-specification
+- specification-driven-dev
+- specification
+- ai-protocol
+- Domain/AI
+- Domain/AI/Agent
+- Type/Reference
+view-count: 3
 ---
 
 ## 🔗 相关链接

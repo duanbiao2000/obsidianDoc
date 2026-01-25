@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 2.5
 tags:
-  - spaced-repetition-plugin
-  - knowledge-barrier-overcoming
-  - information-indexing
-  - cognitive-complexity
-  - Type/Reference
-  - Domain/Technology
+- spaced-repetition-plugin
+- knowledge-barrier-overcoming
+- information-indexing
+- cognitive-complexity
+- Type/Reference
+- Domain/Technology
+view-count: 2
 ---
 
 ## 🔗 相关链接

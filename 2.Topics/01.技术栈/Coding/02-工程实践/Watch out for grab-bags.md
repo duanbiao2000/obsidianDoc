@@ -1,12 +1,13 @@
 ---
-view-count: 4
+rating: 1.5
 tags:
-  - Fixed-Phrases
-  - ReputationManagement
-  - Content-Translation
-  - CommunicationSkills
-  - Type/Reference
-  - Domain/Technology
+- Fixed-Phrases
+- ReputationManagement
+- Content-Translation
+- CommunicationSkills
+- Type/Reference
+- Domain/Technology
+view-count: 4
 ---
 “小心那些内容不明、质量参差不齐的东西。”
 “提防那些看似便宜实则可能有问题的混合包。

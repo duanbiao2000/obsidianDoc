@@ -1,12 +1,13 @@
 ---
-view-count: 3
+rating: 2.5
 tags:
-  - video-tutorial-series
-  - developer-learning-path
-  - YouTube
-  - video-content-metrics
-  - Domain/Professional
-  - Type/Resource
+- video-tutorial-series
+- developer-learning-path
+- YouTube
+- video-content-metrics
+- Domain/Professional
+- Type/Resource
+view-count: 3
 ---
 # YouTube 开发系主播学习协议：从地图到实战
 

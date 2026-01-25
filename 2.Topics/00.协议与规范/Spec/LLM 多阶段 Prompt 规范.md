@@ -1,13 +1,14 @@
 ---
-view-count: 4
+rating: 3.0
 tags:
-  - agent-task-system
-  - specification-based-execution
-  - agent-architecture
-  - algorithm
-  - Domain/AI
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- agent-task-system
+- specification-based-execution
+- agent-architecture
+- algorithm
+- Domain/AI
+- Domain/AI/PromptEngineering
+- Type/Reference
+view-count: 4
 ---
 
 ## 🔗 相关链接

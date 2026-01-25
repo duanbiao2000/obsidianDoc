@@ -1,21 +1,21 @@
 ---
 aliases: null
-source: >-
-  https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
 author: null
-date: null
-update: 2024-07-24 13:48
 categories: null
+date: null
+rating: 2.5
+source: https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
 status: false
-view-count: 4
 tags:
-  - InformationExtraction
-  - WisdomMining
-  - KnowledgeManagement
-  - Personal-Development
-  - Domain/AI
-  - Domain/AI/ContentCreation
-  - Type/Reference
+- InformationExtraction
+- WisdomMining
+- KnowledgeManagement
+- Personal-Development
+- Domain/AI
+- Domain/AI/ContentCreation
+- Type/Reference
+update: 2024-07-24 13:48
+view-count: 4
 ---
 
 

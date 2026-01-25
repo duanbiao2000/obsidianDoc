@@ -1,18 +1,19 @@
 ---
-view-count: 2
-update: 2026-01-06 18:51
+rating: 3.0
 related:
-  - '[[通过Figma和Notion建立SOP内容工厂]]'
-  - '[[12期总纲 Notion从入门到精通]]'
-  - '[[学习框架]]'
-  - '[[Prompt管理科学]]'
+- '[[通过Figma和Notion建立SOP内容工厂]]'
+- '[[12期总纲 Notion从入门到精通]]'
+- '[[学习框架]]'
+- '[[Prompt管理科学]]'
 tags:
-  - course-structure
-  - learning-progress-tracking
-  - Documentation
-  - SystemDesign
-  - Domain/AI/ContentCreation
-  - Type/Reference
+- course-structure
+- learning-progress-tracking
+- Documentation
+- SystemDesign
+- Domain/AI/ContentCreation
+- Type/Reference
+update: 2026-01-06 18:51
+view-count: 2
 ---
 构建「结构化课程/训练营体系」的 Notion 系统，目标是实现以下四个核心能力：
 

@@ -1,12 +1,13 @@
 ---
-view-count: 5
+rating: 2.5
 tags:
-  - failure-mode-mitigation
-  - system-resilience
-  - system-thinking
-  - risk-management
-  - Type/Reference
-  - Domain/Technology
+- failure-mode-mitigation
+- system-resilience
+- system-thinking
+- risk-management
+- Type/Reference
+- Domain/Technology
+view-count: 5
 ---
 # 失败模式分析系统 (FMEA)
 

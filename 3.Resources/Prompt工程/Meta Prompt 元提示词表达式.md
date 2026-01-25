@@ -1,13 +1,14 @@
 ---
-view-count: 6
+rating: 3.0
 tags:
-  - structured-documentation
-  - prompt-design
-  - KnowledgeManagement
-  - Problem-Solving
-  - Domain/AI
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- structured-documentation
+- prompt-design
+- KnowledgeManagement
+- Problem-Solving
+- Domain/AI
+- Domain/AI/PromptEngineering
+- Type/Reference
+view-count: 6
 ---
 
 

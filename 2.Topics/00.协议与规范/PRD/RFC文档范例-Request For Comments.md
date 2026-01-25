@@ -1,17 +1,18 @@
 ---
-view-count: 4
-update: 2026-01-09 17:52
+rating: 2.0
 related:
-  - '[[RFC阅读计划]]'
-  - '[[RFC战略框架]]'
-  - '[[Plan文档比较与实例]]'
+- '[[RFC阅读计划]]'
+- '[[RFC战略框架]]'
+- '[[Plan文档比较与实例]]'
 tags:
-  - real-time-data-processing
-  - stream-processing-architecture
-  - data-structure
-  - algorithm
-  - Type/Reference
-  - Domain/Technology
+- real-time-data-processing
+- stream-processing-architecture
+- data-structure
+- algorithm
+- Type/Reference
+- Domain/Technology
+update: 2026-01-09 17:52
+view-count: 4
 ---
 ### **25句濃縮版本**
 

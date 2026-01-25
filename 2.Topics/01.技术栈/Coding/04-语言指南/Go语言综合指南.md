@@ -1,17 +1,18 @@
 ---
-view-count: 10
-update: 2026-01-22T00:00:00.000Z
-tags:
-  - go-concurrency
-  - go-memory-model
-  - programming
-  - design
-  - Domain/Technology/Go
-  - Type/Reference
+rating: 3.0
 related:
-  - '[[TypeScript 编译器用Go改写]]'
-  - '[[Go与Rust的权衡]]'
-  - '[[TDD 驱动良好设计的 Go 语言实战案例]]'
+- '[[TypeScript 编译器用Go改写]]'
+- '[[Go与Rust的权衡]]'
+- '[[TDD 驱动良好设计的 Go 语言实战案例]]'
+tags:
+- go-concurrency
+- go-memory-model
+- programming
+- design
+- Domain/Technology/Go
+- Type/Reference
+update: 2026-01-22 00:00:00+00:00
+view-count: 10
 ---
 # Go语言综合指南
 

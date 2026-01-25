@@ -1,13 +1,14 @@
 ---
-view-count: 5
+rating: 2.5
 tags:
-  - language-mastery-levels
-  - linguistic-skills-assessment
-  - Language
-  - English
-  - Domain/Language
-  - Domain/Language/English
-  - Type/Reference
+- language-mastery-levels
+- linguistic-skills-assessment
+- Language
+- English
+- Domain/Language
+- Domain/Language/English
+- Type/Reference
+view-count: 5
 ---
 # [[R_欧洲语言共同参考框架 (CEFR)]] | Minimal
 

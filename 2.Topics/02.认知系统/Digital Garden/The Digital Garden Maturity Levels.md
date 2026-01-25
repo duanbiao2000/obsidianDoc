@@ -1,14 +1,15 @@
 ---
+date: 2025-04-18 19:36:00+00:00
 dg-publish: true
-update: 2025-04-18 19:49
-date: 2025-04-18T19:36:00.000Z
+rating: 3.0
 tags:
-  - Knowledge-Maturity-Level
-  - Content-Evolution-Stage
-  - System-DG-Seedling
-  - System-DG-Sapling
-  - Domain/Technology/Git
-  - Type/Reference
+- Knowledge-Maturity-Level
+- Content-Evolution-Stage
+- System-DG-Seedling
+- System-DG-Sapling
+- Domain/Technology/Git
+- Type/Reference
+update: 2025-04-18 19:49
 ---
 
 ## 🔗 相关链接

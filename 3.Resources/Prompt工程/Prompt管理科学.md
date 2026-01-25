@@ -1,130 +1,18 @@
 ---
-view-count: 14
 aliases:
-  - Git的意义在于diff
+- Git的意义在于diff
 date: 2025-12-14 13:43
-tags:
-  - prompt-asset-management
-  - prompt-optimization-workflow
-  - PromptEngineering
-  - PromptManagement
-  - Domain/Technology/Git
-  - Domain/Technology/DevOps
-source:
-  - https://claude.ai/public/artifacts/0a767ddd-3d55-4f7a-9c66-f5023e8457d8
-update: null
-rating: null
+rating: 1.0
 related: null
+source:
+- https://claude.ai/public/artifacts/0a767ddd-3d55-4f7a-9c66-f5023e8457d8
+tags:
+- prompt-asset-management
+- prompt-optimization-workflow
+- PromptEngineering
+- PromptManagement
+- Domain/Technology/Git
+- Domain/Technology/DevOps
+update: null
+view-count: 14
 ---
-# Prompt 工程管理：极简资产协议
-
-## 0. 核心范式
-- **本质**：Prompt 管理 = 个人 AI 逻辑资产积累。
-- **目标**：从“临时搜索”转向“系统复用”，实现高 ROI 的智能调度 [^1]。
-- **公式**：$智能产出 = (元模板 \times 结构化上下文) / 调试耗时$。
-
-## 1. 架构矩阵 (Management Matrix)
-
-| 层次 | 极简职能 | 核心输出 | 逻辑内核 |
-| :--- | :--- | :--- | :--- |
-| **存储层** | 集中化资产管理 | 本地化/版本化库 (Obsidian/Git)。 | 确保资产主权与持久化 [^1]。 |
-| **标签层** | 高效检索索引 | 5 维体系 (#场景 #任务 #模型 #评级 #频率)。 | 降低检索熵值。 |
-| **模板层** | 逻辑结构复用 | 元提示词 (Meta-Prompt) 框架。 | 模块化编排，提高确定性 [^2]。 |
-| **优化层** | 闭环迭代演进 | A/B 测试记录 + 失败日志。 | 持续提升系统胜率 [^3]。 |
-
-## 2. 元模板标准 (Meta-Prompt SOP)
-1. **角色定义**：`你是 [专家角色]，擅长 [具体技能]`。
-2. **目标对齐**：`执行 [核心任务]，旨在实现 [终态目标]`。
-3. **输入/输出约束**：
-    - **输入**：格式说明 + 示例 (Few-shot)。
-    - **输出**：结构 (JSON/MD) + 风格 (简洁/专业) + 长度。
-4. **强制负向约束**：明确禁止项 (Negative Constraints)，划定逻辑边界 [^3]。
-5. **验证清单 (Eval)**：自检项，确保输出符合验收标准 [^4]。
-
-## 3. 执行工作流：5 步循环 (Workflow SOP)
-- **捕获 (Capture)**：用完即存入“收件箱”，防止灵感流失 [^1]。
-- **整理 (Organize)**：每周分类打标，转化为结构化资产。
-- **精简 (Prune)**：每月剔除低频/冗余项，对抗“囤积癖”陷阱 [^1]。
-- **优化 (Optimize)**：根据失败日志迭代版本（v1.0 $\rightarrow$ v2.0）。
-- **复用 (Reuse)**：一键调用历史最优版本。
-
-## 4. 效能审计 (ROI & Audit)
-- **版本控制**：强制执行 `命名_版本_日期` 规范，拒绝孤立存储。
-- **ROI 计算**：$ROI = 节省总时间 / (建库时间 + 维护时间)$ [^1]。
-- **链式编排**：复杂任务分解为独立子任务，通过主 Prompt 串联执行 [^5]。
-
-## 5. 避坑指南 (Via Negativa)
-- **拒绝过度泛化**：万能提示效果最差，优先场景细分。
-- **拒绝无反馈记录**：不复盘失败原因的库只是“垃圾堆”。
-- **拒绝手动重复**：高频变量必须使用占位符 `{Variable}` 实例化。
-
-#### Sources
-[^1]: [[Prompt管理科学]]
-[^2]: [[LLM 多阶段 Prompt 规范]]
-[^3]: [[不为清单：系统熵增防御协议]] (反向规则与边界管理)
-[^4]: [[通用思维模式 - 测验题]] (评估即规范)
-[^5]: [[LangChain]] (组件化编排)
-
-**生成时间**：2026-01-04 | **版本**：1.0 | **用途**：Prompt 资产管理/AI 工作流优化
-
-# [[Prompt 管理系统(todo)]] | Minimal
-
----
-
-## 0. 本质 (The Essence)
-- **核心逻辑**：Prompt 即代码 (Prompt as Code)。
-- **价值点**：Markdown 固化逻辑 + Git 追踪演进 + 跨平台即插即用。
-- **定位**：拒绝散落在对话记录里的“一次性灵感”，建立可迭代的指令资产库。
-
----
-
-## 1. 核心架构 (The Hierarchy)
-
-| 目录层级 | 内容 | 作用 |
-| :--- | :--- | :--- |
-| **00_META/** | INDEX / STANDARDS | 全局索引与质量规范 |
-| **01_DOCS/** | 文档分析类 Prompt | 场景化指令分库 |
-| **02_CODE/** | 代码审查类 Prompt | 场景化指令分库 |
-| **05_CUSTOM/** | 个人特定领域 | 扩展分区 |
-| **TEMPLATE.md**| 标准化模板 | 保持所有 Prompt 结构一致 |
-
----
-
-## 2. 逻辑骨架 (Minimal Schema)
-
-每个 Prompt 文件必须包含的四个核心区块：
-
-- **元数据 (Metadata)**：版本号、适配模型（Claude/GPT-4）、标签。
-- **效果记录 (Metrics)**：成功率、节省时间、质量评分。
-- **版本演进 (Evolution)**：记录 `v1.0 -> v2.0` 改进了什么，解决了哪个坑。
-- **正文 (Body)**：**角色 + 目标 + 输入格式 + 输出要求 + 约束条件**。
-
----
-
-## 3. 避坑指南 (Brutal Truths)
-
-- **别相信记忆**：不在 Markdown 里记录失败案例，下次还会犯同样的错。
-- **拒绝“万能 Prompt”**：越通用的指令效果越平庸。按需拆分，链式调用（Chaining）。
-- **「_current」原则**：始终保持一个 `v_current.md` 文件，避免在几十个版本文件中翻找。
-- **Git 不是用来备份的**：Git 的意义在于 `diff`，通过对比不同版本的输出差异来精准调优。
-
----
-
-## 4. 执行工作流 (Execution Map)
-
-1. **初始化**：创建目录结构，执行 `git init`。
-2. **规范化**：将笔记、收藏夹里的 Prompt 填入 `TEMPLATE.md`。
-3. **索引化**：在 `INDEX.md` 建立场景映射表。
-4. **迭代循环**：`使用 -> 发现不满意 -> 复制新版本 -> 修改记录改进点 -> 更新 _current`。
-
----
-
-## 5. 决策树：如何命名版本？
-
-1. **只是修补错别字/微调格式？** → `v1.0.1` (Patch)。
-2. **新增了评估维度/优化了逻辑？** → `v1.1.0` (Minor)。
-3. **彻底重构了角色或流程？** → `v2.0.0` (Major)。
-
----
-
-**原则**：极简胜过复杂。没有版本控制的 Prompt 只是文字，有版本控制的 Prompt 才是生产力工具。

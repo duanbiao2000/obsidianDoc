@@ -1,20 +1,20 @@
 ---
-aliases:
+aliases: null
 date: 2025-11-08 17:02
-tags:
-  - DSE-English-Writing
-  - Cognitive-Language-Use
-  - Content-Translation
-  - English
-  - Type/Reference
-  - Domain/Technology
-source:
-  - https://www.youtube.com/watch?v=mFL88c0R_R4
-rating:
+rating: 3.0
 related:
-  - "[[香港高中生（DSE 群体）的精选粤语表达词组表]]"
-  - "[[从优秀中学习-用分析深度换取实践效率]]"
-  - "[[良好品德共识]]"
+- '[[香港高中生（DSE 群体）的精选粤语表达词组表]]'
+- '[[从优秀中学习-用分析深度换取实践效率]]'
+- '[[良好品德共识]]'
+source:
+- https://www.youtube.com/watch?v=mFL88c0R_R4
+tags:
+- DSE-English-Writing
+- Cognitive-Language-Use
+- Content-Translation
+- English
+- Type/Reference
+- Domain/Technology
 view-count: 4
 ---
 以下是将原笔记内容重构为 **“可复用的协议规范”** 风格的版本。

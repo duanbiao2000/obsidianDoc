@@ -1,17 +1,18 @@
 ---
 aliases:
-  - 试题生成器
+- 试题生成器
 date: 2025-09-01 10:35
-tags:
-  - quiz-automation
-  - knowledge-unit-extraction
-  - agent-architecture
-  - algorithm
-  - Domain/AI
-  - Domain/AI/Agent
-  - Type/Reference
+rating: 2.5
 source:
-  - https://zread.ai/floatDreamWithSong/QuizAgent
+- https://zread.ai/floatDreamWithSong/QuizAgent
+tags:
+- quiz-automation
+- knowledge-unit-extraction
+- agent-architecture
+- algorithm
+- Domain/AI
+- Domain/AI/Agent
+- Type/Reference
 view-count: 5
 ---
 # [[QuizAgent_Architecture]] - 自动化测验生成协议

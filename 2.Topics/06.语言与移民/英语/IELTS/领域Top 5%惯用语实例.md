@@ -1,13 +1,14 @@
 ---
-view-count: 6
+rating: 2.0
 related:
-  - '[[LFSP风格AI助手]]'
-  - '[[跨文化技术领导力]]'
+- '[[LFSP风格AI助手]]'
+- '[[跨文化技术领导力]]'
 tags:
-  - Domain/Business
-  - Domain/Investment
-  - CommunicationSkills
-  - EffectiveCommunication
+- Domain/Business
+- Domain/Investment
+- CommunicationSkills
+- EffectiveCommunication
+view-count: 6
 ---
 
 ## 🔗 相关链接

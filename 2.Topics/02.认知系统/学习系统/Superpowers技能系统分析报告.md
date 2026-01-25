@@ -1,14 +1,15 @@
 ---
+created: 2026-01-22 00:00:00+00:00
+rating: 2.5
 tags:
-  - AI-Agent-Development
-  - Structured-Skill-Repository
-  - Skills
-  - Superpowers
-  - 代码质量
-  - 调试
-  - Type/Reference
-  - Domain/Technology
-created: 2026-01-22T00:00:00.000Z
+- AI-Agent-Development
+- Structured-Skill-Repository
+- Skills
+- Superpowers
+- 代码质量
+- 调试
+- Type/Reference
+- Domain/Technology
 type: analysis
 ---
 # Superpowers技能系统分析报告

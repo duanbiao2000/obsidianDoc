@@ -1,12 +1,13 @@
 ---
+rating: 3.0
 tags:
-  - knowledge-base-structure
-  - prompt-engineering
-  - ai-automation
-  - agent-architecture
-  - version-control
-  - Domain/AI
-  - Type/SystemGuide
+- knowledge-base-structure
+- prompt-engineering
+- ai-automation
+- agent-architecture
+- version-control
+- Domain/AI
+- Type/SystemGuide
 ---
 
 # CLAUDE.md - Prompt工程资源

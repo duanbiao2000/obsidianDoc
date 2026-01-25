@@ -1,0 +1,386 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+知识库笔记自动质量评分工具
+
+基于内容质量评估标准，自动为笔记打分 (1-5 分)
+评分标准参考: Atlas/BASE/内容质量评估标准.md
+"""
+
+import os
+import re
+import sys
+from pathlib import Path
+from datetime import datetime
+from collections import Counter
+import yaml
+
+# 设置标准输出编码为 UTF-8
+if sys.platform == "win32":
+    import codecs
+    sys.stdout = codecs.getwriter("utf-8")(sys.stdout.buffer, 'strict')
+    sys.stderr = codecs.getwriter("utf-8")(sys.stderr.buffer, 'strict')
+
+
+class NoteQualityRater:
+    """笔记质量自动评分器"""
+
+    def __init__(self, vault_root: str, dry_run: bool = True):
+        self.vault_root = Path(vault_root)
+        self.dry_run = dry_run
+        self.ratings = []
+
+    def extract_yaml_frontmatter(self, content: str) -> dict:
+        """提取 YAML frontmatter"""
+        yaml_match = re.match(r"^---\n(.*?)\n---", content, re.DOTALL)
+        if not yaml_match:
+            return {}
+        yaml_content = yaml_match.group(1)
+
+        # 简单解析 YAML（仅提取需要的字段）
+        result = {}
+        for line in yaml_content.split('\n'):
+            if ':' in line:
+                key, value = line.split(':', 1)
+                result[key.strip()] = value.strip()
+        return result
+
+    def count_links(self, content: str) -> int:
+        """统计内部链接数量"""
+        # 统计 [[wikilink]] 格式
+        wikilinks = len(re.findall(r'\[\[([^\]]+)\]\]', content))
+        return wikilinks
+
+    def count_headings(self, content: str) -> dict:
+        """统计标题层级"""
+        headings = Counter()
+        for match in re.finditer(r'^(#{1,3})\s+(.+)$', content, re.MULTILINE):
+            level = len(match.group(1))
+            headings[level] += 1
+        return dict(headings)
+
+    def has_code_blocks(self, content: str) -> bool:
+        """是否有代码块"""
+        return bool(re.search(r'```', content))
+
+    def has_tables(self, content: str) -> bool:
+        """是否有表格"""
+        return bool(re.search(r'\|.*\|', content))
+
+    def has_callouts(self, content: str) -> bool:
+        """是否有引用块"""
+        return bool(re.search(r'^>\s*', content, re.MULTILINE))
+
+    def count_words(self, content: str) -> int:
+        """统计字数（粗略）"""
+        # 移除 YAML frontmatter
+        content = re.sub(r'^---\n.*?\n---', '', content, flags=re.DOTALL)
+        # 统计中文字符和英文单词
+        chinese_chars = len(re.findall(r'[\u4e00-\u9fff]', content))
+        english_words = len(re.findall(r'\b[a-zA-Z]+\b', content))
+        return chinese_chars + english_words
+
+    def calculate_quality_score(self, content: str, yaml_data: dict) -> float:
+        """
+        计算笔记质量评分 (1-5 分)
+
+        评分维度:
+        1. 清晰度 (30%): 核心概念定义、逻辑流程
+        2. 结构 (25%): 章节层次、内部链接、格式化
+        3. 深度 (25%): 背景上下文、案例分析
+        4. 可维护性 (20%): YAML 完整性、单一真实源
+        """
+
+        scores = {
+            "clarity": 0.0,
+            "structure": 0.0,
+            "depth": 0.0,
+            "maintainability": 0.0
+        }
+
+        # === 清晰度评分 (30%) ===
+        clarity_score = 0
+
+        # 检查是否有"核心概念"、"定义"等关键词
+        clarity_keywords = ["定义", "概念", "是指", "所谓", "核心思想", "一句话"]
+        if any(keyword in content for keyword in clarity_keywords):
+            clarity_score += 1.5
+
+        # 检查字数（字数过少可能不够清晰）
+        word_count = self.count_words(content)
+        if word_count > 50:
+            clarity_score += 0.5
+        if word_count > 200:
+            clarity_score += 0.5
+
+        # 检查是否有"总结"、"要点"等
+        if any(keyword in content for keyword in ["总结", "要点", "关键", "核心"]):
+            clarity_score += 0.5
+
+        scores["clarity"] = min(5.0, clarity_score)
+
+        # === 结构评分 (25%) ===
+        structure_score = 0
+
+        # 统计标题层级
+        headings = self.count_headings(content)
+        if headings.get(2, 0) >= 3:
+            structure_score += 1.5
+        elif headings.get(2, 0) >= 1:
+            structure_score += 1.0
+
+        # 统计内部链接
+        link_count = self.count_links(content)
+        if link_count >= 5:
+            structure_score += 2.0
+        elif link_count >= 3:
+            structure_score += 1.5
+        elif link_count >= 1:
+            structure_score += 1.0
+
+        # 检查格式化元素
+        if self.has_code_blocks(content):
+            structure_score += 0.3
+        if self.has_tables(content):
+            structure_score += 0.3
+        if self.has_callouts(content):
+            structure_score += 0.2
+        if re.search(r'^\s*[-*+]\s+', content, re.MULTILINE):
+            structure_score += 0.2
+
+        scores["structure"] = min(5.0, structure_score)
+
+        # === 深度评分 (25%) ===
+        depth_score = 0
+
+        # 检查是否有"背景"、"为什么"、"原因"等
+        depth_keywords = ["背景", "为什么", "原因", "动机", "目的", "目标"]
+        if any(keyword in content for keyword in depth_keywords):
+            depth_score += 1.0
+
+        # 检查是否有"例如"、"比如"、"案例"等
+        example_keywords = ["例如", "比如", "案例", "示例", "例子", "实践"]
+        if any(keyword in content for keyword in example_keywords):
+            depth_score += 1.0
+
+        # 检查是否有"反思"、"思考"、"总结"等
+        reflection_keywords = ["反思", "思考", "总结", "心得", "体会", "理解"]
+        if any(keyword in content for keyword in reflection_keywords):
+            depth_score += 0.5
+
+        # 检查字数（深度内容通常字数较多）
+        if word_count > 300:
+            depth_score += 0.5
+        elif word_count > 500:
+            depth_score += 1.0
+
+        scores["depth"] = min(5.0, depth_score)
+
+        # === 可维护性评分 (20%) ===
+        maintainability_score = 0
+
+        # 检查 YAML 完整性
+        yaml_fields = ["tags", "created", "update"]
+        for field in yaml_fields:
+            if field in yaml_data and yaml_data[field] not in ["null", "", "None"]:
+                maintainability_score += 0.5
+
+        # 检查标签规范
+        if "tags" in yaml_data:
+            tags = yaml_data["tags"]
+            # 检查是否有 Domain/Status/Type 三层标签
+            if isinstance(tags, list):
+                has_domain = any("Domain/" in str(tag) for tag in tags)
+                has_status = any("Status/" in str(tag) for tag in tags)
+                has_type = any("Type/" in str(tag) for tag in tags)
+
+                if has_domain and has_status and has_type:
+                    maintainability_score += 1.0
+                elif has_domain or has_status or has_type:
+                    maintainability_score += 0.5
+
+        scores["maintainability"] = min(5.0, maintainability_score)
+
+        # === 计算总分 ===
+        total_score = (
+            scores["clarity"] * 0.3 +
+            scores["structure"] * 0.25 +
+            scores["depth"] * 0.25 +
+            scores["maintainability"] * 0.2
+        )
+
+        # 四舍五入到 1 位小数
+        total_score = round(total_score * 10) / 10
+
+        # 确保在 1-5 范围内
+        return max(1.0, min(5.0, total_score))
+
+    def rate_file(self, file_path: Path):
+        """为单个文件评分"""
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                content = f.read()
+
+            # 提取 YAML
+            yaml_data = self.extract_yaml_frontmatter(content)
+
+            # 检查是否已经有 rating
+            if "rating" in yaml_data and yaml_data["rating"] not in ["null", "", "None"]:
+                return
+
+            # 计算评分
+            score = self.calculate_quality_score(content, yaml_data)
+
+            # 获取文件信息
+            word_count = self.count_words(content)
+            link_count = self.count_links(content)
+
+            self.ratings.append({
+                "file": str(file_path.relative_to(self.vault_root)),
+                "score": score,
+                "word_count": word_count,
+                "link_count": link_count,
+                "has_yaml": bool(yaml_data),
+                "tags": yaml_data.get("tags", "N/A")
+            })
+
+            # 添加评分到文件
+            yaml_match = re.match(r"^(---\n.*?)\n(---)", content, re.DOTALL)
+
+            if yaml_match:
+                # YAML frontmatter 存在
+                yaml_content = yaml_match.group(1)
+
+                if "rating" not in yaml_content:
+                    # 没有 rating 字段，添加
+                    new_yaml = yaml_content + f"\nrating: {score}"
+                else:
+                    # 有 rating 字段但为 null，替换
+                    new_yaml = re.sub(
+                        r'^rating:\s*(.+?)\s*$',
+                        f'rating: {score}',
+                        yaml_content,
+                        flags=re.MULTILINE
+                    )
+
+                new_content = content.replace(yaml_match.group(0), f"---\n{new_yaml}\n---")
+
+                if self.dry_run:
+                    print(f"[DRY RUN] Would rate: {file_path.relative_to(self.vault_root)} → {score}")
+                else:
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.write(new_content)
+                    print(f"[RATED] {file_path.relative_to(self.vault_root)} → {score}")
+
+        except Exception as e:
+            print(f"[ERROR] {file_path.relative_to(self.vault_root)}: {e}")
+
+    def scan_and_rate(self, directory: str = None):
+        """扫描并评分目录下的所有 markdown 文件"""
+        target_dirs = [
+            self.vault_root / "1.Projects",
+            self.vault_root / "2.Topics",
+            self.vault_root / "3.Resources",
+        ]
+
+        for target_dir in target_dirs:
+            if not target_dir.exists():
+                continue
+
+            for md_file in target_dir.rglob("*.md"):
+                # 跳过索引文件
+                if md_file.name.startswith("_Index"):
+                    continue
+                # 跳过隐藏文件
+                if md_file.name.startswith("."):
+                    continue
+
+                self.rate_file(md_file)
+
+    def print_report(self):
+        """打印评分报告"""
+        print("\n" + "=" * 80)
+        print("📊 笔记质量评分报告")
+        print("=" * 80)
+        print(f"模式: {'DRY RUN (预览)' if self.dry_run else 'LIVE (实际执行)'}")
+        print(f"评分数: {len(self.ratings)}")
+        print()
+
+        if not self.ratings:
+            print("✅ 没有需要评分的文件")
+            return
+
+        # 统计分布
+        score_distribution = Counter()
+        for rating in self.ratings:
+            score_range = int(rating["score"])
+            score_distribution[score_range] += 1
+
+        print("## 📈 评分分布")
+        print("-" * 80)
+        for score in sorted(score_distribution.keys(), reverse=True):
+            count = score_distribution[score]
+            bar = "█" * int(count / 2)
+            print(f"  {score} 分: {count:3d} 个文件 {bar}")
+        print()
+
+        # 平均分
+        avg_score = sum(r["score"] for r in self.ratings) / len(self.ratings)
+        print(f"## 📊 平均分: {avg_score:.2f}")
+        print()
+
+        # 低质量笔记
+        low_quality = [r for r in self.ratings if r["score"] < 3.0]
+        if low_quality:
+            print("## ⚠️ 低质量笔记 (< 3.0 分)")
+            print("-" * 80)
+            for rating in sorted(low_quality, key=lambda x: x["score"])[:10]:
+                print(f"  {rating['file']}: {rating['score']}")
+                print(f"    字数: {rating['word_count']}, 链接: {rating['link_count']}")
+            if len(low_quality) > 10:
+                print(f"  ... 还有 {len(low_quality) - 10} 个文件")
+            print()
+
+        # 优秀笔记
+        excellent = [r for r in self.ratings if r["score"] >= 4.5]
+        if excellent:
+            print("## 🌟 优秀笔记 (≥ 4.5 分)")
+            print("-" * 80)
+            for rating in sorted(excellent, key=lambda x: x["score"], reverse=True)[:10]:
+                print(f"  {rating['file']}: {rating['score']}")
+                print(f"    字数: {rating['word_count']}, 链接: {rating['link_count']}")
+            if len(excellent) > 10:
+                print(f"  ... 还有 {len(excellent) - 10} 个文件")
+            print()
+
+        print("=" * 80)
+        if not self.dry_run:
+            print("✅ 评分完成")
+        else:
+            print("⚠️  这是 DRY RUN 模式，没有实际修改文件")
+            print("💡 如需实际执行，请使用: python auto_rate_notes.py --execute")
+        print("=" * 80)
+
+
+def main():
+    """主函数"""
+    import argparse
+
+    parser = argparse.ArgumentParser(description="自动为笔记打分")
+    parser.add_argument("--execute", action="store_true", help="实际执行评分（默认为 dry run）")
+    args = parser.parse_args()
+
+    # 获取脚本所在目录的父目录作为 vault 根目录
+    script_dir = Path(__file__).parent
+    vault_root = script_dir.parent.parent
+
+    print(f"知识库根目录: {vault_root}")
+    print()
+
+    rater = NoteQualityRater(str(vault_root), dry_run=not args.execute)
+    rater.scan_and_rate()
+    rater.print_report()
+
+
+if __name__ == "__main__":
+    main()
