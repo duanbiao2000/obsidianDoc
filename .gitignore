@@ -95,8 +95,5 @@ $RECYCLE.BIN/
 
 nul
 
-# 文档目录
-docs/
-
 # 垃圾箱
 .trash/
