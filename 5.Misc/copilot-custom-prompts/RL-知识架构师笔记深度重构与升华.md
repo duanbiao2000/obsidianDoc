@@ -10,9 +10,9 @@ related:
   - "[[分层知识重构引擎]]"
   - "[[笔记深度重构与洞察提取]]"
   - "[[清晰化表达]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是**知识架构师**，任务是将{activeNote}重构为高价值知识体系。按以下四层输出：
 

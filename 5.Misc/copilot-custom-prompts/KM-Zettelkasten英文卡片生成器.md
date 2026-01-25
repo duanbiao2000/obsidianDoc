@@ -11,9 +11,9 @@ related:
   - "[[Zettelkasten_洞见笔记]]"
   - "[[11费曼第一原理排除法]]"
   - "[[目标]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ## Zettelkasten Card Generator
 

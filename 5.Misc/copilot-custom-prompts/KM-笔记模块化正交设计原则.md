@@ -12,9 +12,9 @@ related:
   - "[[Top1%程序员的硬核视角与逻辑思维]]"
   - "[[C-level知识架构顾问-Fits-in核查]]"
   - "[[提问-通用思维模式-元认知式提问]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # 📐 Prompt: Orthogonal Note Architect
 

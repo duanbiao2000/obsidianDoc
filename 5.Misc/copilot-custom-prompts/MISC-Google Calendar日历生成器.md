@@ -8,9 +8,10 @@ view-count: 5
 update: 2026-01-08 23:51
 related:
   - "[[模式调用-Plan then Execution]]"
-
-tags: ["Domain/Technology/Go", "Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/Technology/Go
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 **你的角色:** 行政助理。
 

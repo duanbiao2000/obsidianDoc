@@ -12,9 +12,9 @@ related:
   - "[[分层知识重构引擎]]"
   - "[[PERE元认知引擎-结构化目标]]"
   - "[[Top1%程序员的硬核视角与逻辑思维]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 第一性原理思考者
 

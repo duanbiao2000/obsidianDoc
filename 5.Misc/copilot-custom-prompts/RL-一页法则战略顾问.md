@@ -13,9 +13,9 @@ related:
   - "[[技术知识萃取专家]]"
   - "[[一句话论文]]"
 update: 2026-01-05 16:05
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

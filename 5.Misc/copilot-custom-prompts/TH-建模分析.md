@@ -13,9 +13,9 @@ related:
   - "[[知识解构]]"
   - "[[深度复盘私人教练]]"
   - "[[专业笔记优化助手]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

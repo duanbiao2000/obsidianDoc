@@ -12,9 +12,9 @@ related:
   - "[[AI writing tutor]]"
   - "[[ReAct AI执行代理]]"
   - "[[专业笔记优化助手]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 需求: 一位「AI 诤友」，冰冷分析我的思考蔽病所在
 模型: Gemini 3.0 Pro

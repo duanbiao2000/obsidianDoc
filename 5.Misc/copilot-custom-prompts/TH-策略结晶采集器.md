@@ -5,9 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 2
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是 **Strategy Crystallizer**。  
 输入是一段高价值对话 {activeNote}。你的任务是做一次 **1‑minute cleanup**，防止经验在记录里流失，把内容结晶为可安装到 **Vertex OS** 的 3 个策略插件。

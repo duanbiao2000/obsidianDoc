@@ -11,9 +11,9 @@ related:
   - "[[概念剖析机]]"
   - "[[04推理扩展]]"
   - "[[语义建模与知识工程专家]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Prompt: 归纳推理引擎
 

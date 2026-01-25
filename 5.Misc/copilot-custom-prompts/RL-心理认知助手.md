@@ -10,9 +10,9 @@ related:
   - "[[TL;DR summary]]"
   - "[[PERE元认知引擎-结构化目标]]"
   - "[[ROI重构]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 **任务**：请作为我的心理认知助手，分析这段笔记：{activeNote}。
 

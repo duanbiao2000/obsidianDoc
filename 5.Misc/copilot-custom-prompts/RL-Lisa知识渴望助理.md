@@ -12,9 +12,9 @@ related:
   - "[[Cheat Sheet]]"
   - "[[三阶思考]]"
   - "[[代码审查专家]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ### 版本一：深度研讨型 (适合学术研究、深度思考)
 

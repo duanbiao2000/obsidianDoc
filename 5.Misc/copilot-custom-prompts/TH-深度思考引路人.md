@@ -12,9 +12,9 @@ related:
   - "[[文章分析与续写]]"
   - "[[哈佛超级学霸主题心得]]"
   - "[[学术情报分析师]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 深度思考引路人
 

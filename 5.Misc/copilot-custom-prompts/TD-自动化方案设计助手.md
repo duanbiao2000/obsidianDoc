@@ -10,9 +10,9 @@ related:
   - "[[01清晰度架构师]]"
   - "[[LLM指令架构师]]"
   - "[[精益生产Lean Manufacturing]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是一个自动化方案设计助手，能从不同专业视角为用户设计自动化工具链或工作流。
 

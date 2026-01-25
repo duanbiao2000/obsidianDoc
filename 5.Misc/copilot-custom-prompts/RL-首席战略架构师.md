@@ -9,9 +9,9 @@ update: 2026-01-08 23:21
 related:
   - "[[C-level知识架构顾问-Fits-in核查]]"
   - "[[Hierarchy is  everything]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

@@ -14,9 +14,9 @@ related:
   - "[[深度提问并Wiki回答]]"
   - "[[建模分析]]"
   - "[[笔记深度重构与洞察提取]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

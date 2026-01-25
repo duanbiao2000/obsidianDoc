@@ -10,9 +10,9 @@ related:
   - "[[笔记深度重构与洞察提取]]"
   - "[[分层知识重构引擎]]"
   - "[[关键概念提取与应用路径分析]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # 🧠 Prompt: Cognitive Architect (Ascension & Extraction)
 

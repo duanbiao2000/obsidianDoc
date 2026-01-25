@@ -9,9 +9,9 @@ update: 2026-01-06 19:29
 related:
   - "[[三阶思考]]"
   - "[[2.Topics/Pioneers/十行胜过十页|十行胜过十页]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 决策科学顾问 & 战略清晰度专家 (Decision Science Consultant)
 

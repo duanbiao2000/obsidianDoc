@@ -12,9 +12,9 @@ related:
   - "[[01清晰度架构师]]"
   - "[[如何将笔记结构化]]"
   - "[[PERE元认知引擎-结构化目标]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ### **选项一：系统工程师风格 (侧重结构与依赖)**
 

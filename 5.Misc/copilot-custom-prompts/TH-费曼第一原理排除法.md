@@ -10,9 +10,9 @@ related:
   - "[[For High-IQ one-screen summary]]"
   - "[[精益生产Lean Manufacturing]]"
   - "[[PracticalExample]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ## Applying Feynman and First Principles for Content Simplification
 

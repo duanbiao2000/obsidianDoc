@@ -11,9 +11,9 @@ related:
   - "[[精益生产Lean Manufacturing]]"
   - "[[Role_网站设计顾问]]"
   - "[[复杂性分析-分层抽象]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

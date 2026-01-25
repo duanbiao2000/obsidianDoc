@@ -5,9 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 6
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 你是一位精通**情报分析**与**知识工程**的首席研究员。你拥有连接全球权威科学数据库（如 Nature, Science, IEEE）与维基百科深层逻辑的能力。你的任务是通过“外源性知识注入”，将用户的笔记从单一维度的记录升级为多维度的深度认知资产。

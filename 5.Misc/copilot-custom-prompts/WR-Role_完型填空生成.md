@@ -11,9 +11,9 @@ related:
   - "[[上下文工程专家]]"
   - "[[Notion AI 主要功能提示词合集]]"
   - "[[文章分析与续写]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ### 选项 1：结构化增强版（推荐用于制作完整讲义）
 

@@ -10,9 +10,9 @@ related:
   - "[[PALC结构分析器]]"
   - "[[PERE元认知引擎-结构化目标]]"
   - "[[C-level知识架构顾问-Fits-in核查]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 笔记反向工程分析师
 

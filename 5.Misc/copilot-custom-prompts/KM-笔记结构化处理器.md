@@ -12,9 +12,9 @@ related:
   - "[[明确意图-沟通价值与可维护]]"
   - "[[分治法笔记重构专家]]"
   - "[[关键概念提取与应用路径分析]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # ⚙️ Prompt: Note Structuring Engine
 

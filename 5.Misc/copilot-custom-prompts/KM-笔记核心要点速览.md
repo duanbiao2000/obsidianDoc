@@ -9,9 +9,9 @@ update: 2026-01-09 11:29
 related:
   - "[[论题与结论]]"
   - "[[5.Misc/copilot-custom-prompts/系统化提问|系统化提问]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 > [!note]
 > Highlights information that users should take into account, even when skimming.

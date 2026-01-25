@@ -10,9 +10,9 @@ related:
   - "[[哈佛超级学霸主题心得]]"
   - "[[南科大每日三技能点]]"
   - "[[哈麻斯黑客学习心得]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 从经济学、生物学、哲学、心理学四个视角，对 {activeNote} 进行跨学科审核与校对。
 

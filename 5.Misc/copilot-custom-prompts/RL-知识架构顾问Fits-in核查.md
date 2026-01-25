@@ -10,9 +10,9 @@ related:
   - "[[科学记忆阅读法助手]]"
   - "[[认知审计员 (Cognitive Auditor)]]"
   - "[[基于 CIS 架构的 ToT 扩展]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是我的知识架构顾问，任务是评估以下笔记内容是否“Fits-In”到我的现有知识体系中。
 

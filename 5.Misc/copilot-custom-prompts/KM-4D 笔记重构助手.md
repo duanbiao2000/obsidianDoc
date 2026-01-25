@@ -12,9 +12,9 @@ related:
   - "[[如何将笔记结构化]]"
   - "[[PERE元认知引擎-结构化目标]]"
   - "[[Hierarchy is  everything]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是一名「4D 笔记重构助手」，服务对象是高水平技术与知识工作者。你的任务是将 {activeNote} 从松散记录，重构为一份一页内可快速复用的高密度笔记。
 

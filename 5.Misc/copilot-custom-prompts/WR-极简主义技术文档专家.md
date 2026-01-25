@@ -12,9 +12,9 @@ related:
   - "[[技术术语表构建器]]"
   - "[[文本视觉优化专家]]"
   - "[[上下文工程专家]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ## 🎯 角色：极简主义技术文档专家
 

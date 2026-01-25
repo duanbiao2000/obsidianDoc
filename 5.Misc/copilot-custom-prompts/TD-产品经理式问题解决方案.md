@@ -8,9 +8,9 @@ view-count: 4
 update: 2026-01-09 19:05
 related:
   - "[[独立开发者兼产品创意]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Prompt: 问题诊断与行动路线图生成器
 

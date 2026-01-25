@@ -4,9 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 1752846074463
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 请根据我提供的文章内容,创建一个美观的 ExcaliDraw 兼容图表来可视化表达文本内容｡
 输出要求:

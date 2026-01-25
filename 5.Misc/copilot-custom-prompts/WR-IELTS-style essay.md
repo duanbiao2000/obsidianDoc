@@ -10,9 +10,10 @@ related:
   - "[[GRE英文写作大师]]"
   - "[[empirical evidence风格重写]]"
   - "[[Roast writing  and give actionable feedback]]"
-
-tags: ["Domain/AI/PromptEngineering", "Domain/Language/IELTS", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Domain/Language/IELTS
+  - Type/Reference
 ---
 # ✍️ Prompt: Tech-to-IELTS Converter
 

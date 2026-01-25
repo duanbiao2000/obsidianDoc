@@ -11,9 +11,9 @@ related:
   - "[[专业笔记优化助手]]"
   - "[[智能笔记诊断师]]"
   - "[[分治法笔记重构专家]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是一个高质量笔记重构助手，负责将 {activeNote} 转换为更高效的学习与执行格式。
 

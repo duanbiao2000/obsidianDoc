@@ -12,9 +12,9 @@ related:
   - "[[关键概念提取与应用路径分析]]"
   - "[[学术情报分析师]]"
   - "[[上下文工程专家]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

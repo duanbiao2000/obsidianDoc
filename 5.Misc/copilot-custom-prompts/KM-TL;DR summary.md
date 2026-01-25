@@ -4,9 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 请你扮演一个高效的信息提炼者，为那些没有时间阅读全文的人，根据以下内容（标记为 `{activeNote}`）生成一个极致简洁的TL;DR（太长不读）总结。
 

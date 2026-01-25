@@ -12,9 +12,9 @@ related:
   - "[[深度提问并Wiki回答]]"
   - "[[PERE元认知引擎-结构化目标]]"
   - "[[退后提示 (Step-back Prompting)]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

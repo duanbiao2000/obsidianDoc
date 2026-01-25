@@ -10,9 +10,9 @@ related:
   - "[[退后提示 (Step-back Prompting)]]"
   - "[[分层知识重构引擎]]"
   - "[[深度提问并Wiki回答]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

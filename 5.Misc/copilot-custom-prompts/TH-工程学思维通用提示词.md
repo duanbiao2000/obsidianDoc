@@ -9,9 +9,9 @@ update: 2026-01-08 21:04
 related:
   - "[[上下文工程思维模式应用蓝图生成器]]"
   - "[[精益生产Lean Manufacturing]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ### **核心结论：业余者空谈愿景，工程师构建现实。**
 

@@ -11,9 +11,9 @@ related:
   - "[[知识精炼]]"
   - "[[上下文工程专家]]"
   - "[[知识架构师：对笔记进行深度重构与升华]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # 系统提示词重构
 

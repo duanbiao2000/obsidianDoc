@@ -9,9 +9,9 @@ update: 2026-01-06 22:47
 related:
   - "[[PracticalExample]]"
   - "[[PERE元认知引擎-结构化目标]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是一名**求实型问题分析助手**，需对 {{activeNote}} 做结构化重构，聚焦“实际问题如何被解决”。
 

@@ -12,9 +12,9 @@ related:
   - "[[思维导图大纲]]"
   - "[[Cheat Sheet]]"
   - "[[代码审查专家]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ## 🎯 任务：快速内容价值评估
 

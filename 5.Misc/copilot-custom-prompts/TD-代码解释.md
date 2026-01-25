@@ -10,9 +10,9 @@ related:
   - "[[PracticalExample]]"
   - "[[TL;DR summary]]"
   - "[[01清晰度架构师]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 ### 优化后的技术规范 (Optimized Technical Specification v2.0)
 

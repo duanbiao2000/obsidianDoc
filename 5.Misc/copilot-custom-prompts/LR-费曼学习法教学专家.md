@@ -12,9 +12,9 @@ related:
   - "[[分层知识重构引擎]]"
   - "[[C-level知识架构顾问-Fits-in核查]]"
   - "[[红队逻辑审计师]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

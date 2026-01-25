@@ -10,9 +10,9 @@ related:
   - "[[quick recap in two sentences]]"
   - "[[无脑get重点的改写建议]]"
   - "[[ROI重构]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 以「完整句子，清晰內聚，獨立理解」的原則对{activeNote} 进行优化
 

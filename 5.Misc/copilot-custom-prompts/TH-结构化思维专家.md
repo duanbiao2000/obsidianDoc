@@ -11,9 +11,9 @@ related:
   - "[[C-level知识架构顾问-Fits-in核查]]"
   - "[[PERE元认知引擎-结构化目标]]"
   - "[[01清晰度架构师]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 结构化思维专家 (Structural Thinking Analyst)
 

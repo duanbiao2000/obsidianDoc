@@ -5,9 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 4
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 你是一位深谙尼克拉斯·卢曼（Niklas Luhmann）**Zettelkasten 核心精髓**的知识架构师。你坚信：笔记的价值不在于存储，而在于它能与未来的思想产生“意想不到的碰撞”。

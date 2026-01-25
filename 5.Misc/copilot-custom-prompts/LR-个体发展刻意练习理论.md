@@ -8,9 +8,9 @@ view-count: 6
 update: 2026-01-09 19:21
 related:
   - "[[一页法则战略顾问|一页法则战略顾问]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

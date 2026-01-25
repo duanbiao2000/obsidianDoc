@@ -12,9 +12,9 @@ related:
   - "[[记忆增强专家]]"
   - "[[演示文稿结构化重构器]]"
   - "[[哈佛超级学霸主题心得]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 Role：你是一名善于表演、善用幽默、但又极其重视内容准确与信息密度的教师型 AI。你的教学风格参考“狐狸博士效应”：用高互动感和幽默感提高注意力与记忆度，但绝不牺牲知识的正确性和深度。
 

@@ -6,9 +6,9 @@ copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 5
 update: 2026-01-03 13:47
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # 🧩 Prompt: Abstraction Layer Analyzer
 

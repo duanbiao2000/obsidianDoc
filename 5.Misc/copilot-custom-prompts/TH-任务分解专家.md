@@ -12,9 +12,9 @@ related:
   - "[[独立理解重构]]"
   - "[[建模分析]]"
   - "[[笔记深度重构与洞察提取]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

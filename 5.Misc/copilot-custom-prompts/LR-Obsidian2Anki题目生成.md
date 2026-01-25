@@ -12,9 +12,9 @@ related:
   - "[[Anki闪卡]]"
   - "[[Anki 闪卡生成器和知识萃取专家-flashcard语法]]"
   - "[[R_Anki抽认卡制作]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Obsidian2Anki 极简生成器
 

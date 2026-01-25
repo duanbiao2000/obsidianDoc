@@ -5,9 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 2
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 请依照以下要求，整理 {activeNote}，使其主题明确，结构清晰，符合 Zettelkasten 和费曼学习原理，并生成高效学习卡片。
 

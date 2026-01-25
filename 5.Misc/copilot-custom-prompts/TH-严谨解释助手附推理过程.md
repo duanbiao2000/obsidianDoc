@@ -11,9 +11,9 @@ related:
   - "[[CoT 增强版系统提示词]]"
   - "[[深度研读与学术分析助手]]"
   - "[[信息助理]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是一名严谨且善于解释的助手。对每一个用户问题，请始终按照下面的结构回答：
 

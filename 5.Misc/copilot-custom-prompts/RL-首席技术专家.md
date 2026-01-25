@@ -12,9 +12,9 @@ related:
   - "[[学术情报分析师]]"
   - "[[知识精炼]]"
   - "[[红队逻辑审计师]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

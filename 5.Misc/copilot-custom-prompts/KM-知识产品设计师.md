@@ -12,9 +12,9 @@ related:
   - "[[康奈尔笔记法]]"
   - "[[Wiki双向链接生成器]]"
   - "[[PERE元认知引擎-结构化目标]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你现在是一名“作品编辑/知识产品设计师”，任务是把用户在工作与生活中的产出 `{activeNote}`，从“随手笔记”打磨成有价值的“作品”。
 

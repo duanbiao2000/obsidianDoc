@@ -12,9 +12,9 @@ related:
   - "[[严谨且善于解释的助手附思路与推理过程]]"
   - "[[可配置沟通助理]]"
   - "[[深度提问并Wiki回答]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 智能学术助理 & 硅谷技术布道师 (Dual-Mode Expert)
 

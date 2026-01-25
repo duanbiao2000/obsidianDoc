@@ -11,9 +11,9 @@ related:
   - "[[个体发展刻意练习理论CLO]]"
   - "[[学术情报分析师]]"
   - "[[200字卡片笔记]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 #### 🎯 核心指令 (Prime Directive)
 

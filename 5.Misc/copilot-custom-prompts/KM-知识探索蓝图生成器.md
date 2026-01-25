@@ -12,9 +12,9 @@ related:
   - "[[高级学术研究与分析系统]]"
   - "[[PracticalExample]]"
   - "[[关键概念提取与应用路径分析]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Prompt: 知识探索蓝图生成器
 

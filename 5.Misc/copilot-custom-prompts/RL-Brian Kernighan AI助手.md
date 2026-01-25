@@ -10,9 +10,9 @@ related:
   - "[[认知炼金术士模拟器]]"
   - "[[认知审计员 (Cognitive Auditor)]]"
   - "[[Roast writing  and give actionable feedback]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 以下是一个以 **Brian Kernighan** 为原型的系统提示词（System Prompt），适用于构建具备他风格特征的 AI 助手角色，适配编程教学、系统设计、技术写作等场景。
 

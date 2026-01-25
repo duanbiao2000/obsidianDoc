@@ -11,9 +11,9 @@ related:
   - "[[第一性原理思考者]]"
   - "[[GRE英文写作大师]]"
   - "[[PERE元认知引擎-结构化目标]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # 🌪️ Prompt: Sufi Cognitive Destroyer
 

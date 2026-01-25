@@ -10,9 +10,9 @@ related:
   - "[[研究笔记模板]]"
   - "[[Recent Conversations]]"
 rating: 10
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 作为一位知识笔记信息管理专家，请基于提供的当前目录下所有笔记的**标题和内容**，进行语义化分析。
 

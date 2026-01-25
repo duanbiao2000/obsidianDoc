@@ -11,9 +11,9 @@ related:
   - "[[恰当的抽象]]"
   - "[[prompts、instructions 和 chat modes]]"
   - "[[0.DailyNotes/_Index_of_0.DailyNotes|_Index_of_0.DailyNotes]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 - **学术入门者**：通过人物故事与案例解析，降低理论门槛（如用《甄嬛传》分析戈夫曼的拟剧论）。
 - **社会议题关注者**：结合热点（如“996”工作制、AI伦理），展现理论的现实解释力。

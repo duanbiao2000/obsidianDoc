@@ -11,9 +11,9 @@ related:
   - "[[案例驱动学习系统]]"
   - "[[学术情报分析师]]"
   - "[[常春藤盟校精英研究生风格转译]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 假设你是一名南方科技大学计算机科学专业的大四学生，拥有5年的自学编程经验，并且在GitHub上拥有多个受到广泛关注和star的仓库。现在请回答今天你学到的三件最重要的编程技能。
 

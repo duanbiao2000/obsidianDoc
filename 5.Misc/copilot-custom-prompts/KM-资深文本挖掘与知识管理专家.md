@@ -12,9 +12,9 @@ related:
   - "[[NPL语义分析]]"
   - "[[Cheat Sheet]]"
   - "[[PracticalExample]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 资深文本挖掘与知识管理专家
 

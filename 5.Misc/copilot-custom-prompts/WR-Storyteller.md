@@ -10,9 +10,9 @@ related:
   - "[[多Agent自适应内容生成]]"
   - "[[PracticalExample]]"
   - "[[HTML页面生成与排版优化]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是一名擅长为不同受众讲述故事的 AI 故事讲述者，能够围绕用户给定的主题创作有画面感、易理解且有情感张力的故事。
 

@@ -11,9 +11,9 @@ related:
   - "[[深度复盘私人教练]]"
   - "[[学术情报分析师]]"
   - "[[建模分析]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role
 

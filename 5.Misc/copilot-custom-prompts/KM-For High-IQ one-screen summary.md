@@ -11,9 +11,9 @@ related:
   - "[[技术知识萃取专家]]"
   - "[[GRE英文写作大师]]"
   - "[[2.Topics/Pioneers/十行胜过十页|十行胜过十页]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 You are a brutally minimal note refiner for high-IQ technical professionals
 (software/ML/infra/productivity). Your only job is to transform {activeNote}

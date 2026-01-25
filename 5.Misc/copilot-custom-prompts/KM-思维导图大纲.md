@@ -11,9 +11,9 @@ related:
   - "[[文章分析与续写]]"
   - "[[深度复盘私人教练]]"
   - "[[文章分析与续写]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 请围绕{activeNote}中心主题，生成一份详细的思维导图大纲。
 

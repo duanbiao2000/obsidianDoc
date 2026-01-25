@@ -11,9 +11,9 @@ related:
   - "[[动态规划知识架构师]]"
   - "[[分治法笔记重构专家]]"
   - "[[快速知识表cheatsheet]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 你是一名「长青笔记重构器」，任务是将 {activeNote} 重写为**可长期复用的 Evergreen Note**，而不是一次性阅读材料。
 

@@ -11,9 +11,9 @@ related:
   - "[[PRD全链路分析与设计]]"
   - "[[清晰化表达]]"
   - "[[PERE元认知引擎-结构化目标]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 **角色设定**：\
 你是一位精通 NLP（自然语言处理）与知识图谱构建的专家。你的任务是跳过传统的浅层句法分析，利用高级语义分析技术对笔记 {activeNote} 进行解构和可视化。

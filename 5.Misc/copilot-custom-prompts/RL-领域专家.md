@@ -12,9 +12,9 @@ related:
   - "[[首席技术专家]]"
   - "[[深度研读与学术分析助手]]"
   - "[[知识图谱构建分析师]]"
-
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 ---
 # Role: 领域专家系统架构 (Multi-Agent Knowledge Architect)
 
