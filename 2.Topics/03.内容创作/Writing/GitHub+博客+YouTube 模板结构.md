@@ -10,6 +10,15 @@ tags:
   - Type/Template
 view-count: 4
 ---
+
+## 🔗 相关链接
+
+**相关主题**:
+- [[2.Topics/01.技术栈/Coding/01-Git集.md|Coding]]
+- [[2.Topics\03.内容创作\Writing|Writing]]
+
+---
+
 ## [[L6/L7 工程师技术影响力模板结构：GitHub+博客+YouTube]]
 
 本文旨在为 L6/L7 工程师提供一个具有说服力的「技术影响力展示系统」模板结构，帮助你在面试、影响力经营、社交网络等多个维度全面发声。这个系统以 GitHub 为技术资产中心，博客为内容传播枢纽，YouTube 为影响力放大器，并辅以其他社交媒体渠道。

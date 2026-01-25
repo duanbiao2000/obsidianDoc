@@ -17,6 +17,15 @@ rating: null
 related: null
 ---
 
+
+## 🔗 相关链接
+
+**相关主题**:
+- [[2.Topics\04.职业发展|04]]
+- [[1.Projects\技术能力晋升|技术能力晋升]]
+
+---
+
 ### [[用LOL阵容模型构建高效团队]]
 
 #### 核心模型 (The Core Model)

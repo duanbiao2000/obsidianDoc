@@ -159,7 +159,7 @@ def enhance_links_in_file_safe(file_path: Path) -> bool:
         original_lines = original_content.count('\n')
 
         # 检查是否已经有相关链接部分
-        has_links_section = '## 🔗 相关链接' in content or '## 相关链接' in content
+        has_links_section = '## 🔗 相关链接' in original_content or '## 相关链接' in original_content
 
         # 提取现有链接
         existing_links = set(re.findall(r'\[\[([^\]]+)\]\]', original_content))

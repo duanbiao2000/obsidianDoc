@@ -6,6 +6,14 @@ tags:
   - Domain/Creativity
   - SoftwareEngineering
 ---
+
+## 🔗 相关链接
+
+**相关主题**:
+- [[3.Resources\Prompt工程|Prompt工程]]
+
+---
+
 ### 一、 核心本质
 **能力飞轮 = 技术资产的复利增长**。
 目标：将 **底层工程力** 转化为 **标准化产品**，最终实现 **商业自动化变现**。

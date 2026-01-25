@@ -10,6 +10,15 @@ tags:
   - Domain/Language/IELTS
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**相关主题**:
+- [[2.Topics\06.语言与移民\英语\IELTS\雅思口语知识库.md|雅思口语知识库]]
+- [[2.Topics\06.语言与移民\英语\IELTS\IELTS大作文命题框架与策略.md|IELTS大作文命题框架与策略]]
+
+---
+
 # IELTS英语 vs 职场英语：一页速通
 
 > 💡 **IELTS展示语言能力，职场传达决策效率**
