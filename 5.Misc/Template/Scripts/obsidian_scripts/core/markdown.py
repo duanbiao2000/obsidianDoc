@@ -19,7 +19,7 @@ Markdown 链接解析模块
 """
 
 import re
-from typing import List, Dict, NamedTuple
+from typing import List, Dict, NamedTuple, Optional
 from dataclasses import dataclass
 
 
