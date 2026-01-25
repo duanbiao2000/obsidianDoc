@@ -1,0 +1,173 @@
+# Obsidian 自动化脚本配置文件
+#
+# 这是自动化脚本系统的默认配置文件。
+# 可以通过环境变量覆盖配置值（格式：OBSIDIAN_<section>_<key>）
+#
+# 作者: Claude Sonnet 4.5
+# 创建时间: 2026-01-25
+# 相关: Issue #4 - 自动化脚本体系优化
+
+# ========================================
+# Vault 配置
+# ========================================
+
+vault_root: "d:\\迅雷下载\\@同步文件\\OneDrive\\obsidianDoc"
+
+# ========================================
+# 文件扫描配置
+# ========================================
+
+scan:
+  # 包含的目录（PARA 结构 + Atlas）
+  include_dirs:
+    - "0.DailyNotes"
+    - "1.Projects"
+    - "2.Topics"
+    - "3.Resources"
+    - "4.Archives"
+    - "5.Misc"
+    - "6.Calendar"
+    - "Atlas"
+
+  # 排除的模式（文件路径中包含这些字符串将被跳过）
+  exclude_patterns:
+    - ".agent"
+    - ".git"
+    - ".obsidian"
+    - ".opencode"
+    - ".smart-env"
+
+# ========================================
+# 备份配置
+# ========================================
+
+backup:
+  # 是否启用自动备份
+  enabled: true
+
+  # 备份目录
+  directory: ".backup_enhance"
+
+  # 保留备份的天数（超过此天数的备份将被自动清理）
+  keep_days: 30
+
+# ========================================
+# 编码配置
+# ========================================
+
+encoding:
+  # 使用 UTF-8 编码
+  utf8: true
+
+  # Windows 编码兼容性
+  windows_compat: true
+
+# ========================================
+# 输出配置
+# ========================================
+
+output:
+  # 详细输出模式（显示更多调试信息）
+  verbose: false
+
+  # 预览模式（不实际修改文件）
+  dry_run: false
+
+# ========================================
+# 标签配置
+# ========================================
+
+tags:
+  # 标签映射规则（用于标签规范化）
+  domain_mappings:
+    "技术栈": "Domain/Technology"
+    "认知系统": "Domain/Cognitive"
+    "AI": "Domain/AI"
+
+  # 标签验证规则
+  valid_domains:
+    - "Domain/Technology"
+    - "Domain/AI"
+    - "Domain/Cognitive"
+    - "Domain/Professional"
+    - "Domain/Language"
+    - "Domain/Content"
+    - "Domain/Life"
+
+  valid_types:
+    - "Type/Note"
+    - "Type/Reference"
+    - "Type/Template"
+    - "Type/Index"
+    - "Type/MOC"
+
+  valid_statuses:
+    - "Status/TODO"
+    - "Status/InProgress"
+    - "Status/Review"
+    - "Status/Done"
+
+# ========================================
+# 链接配置
+# ========================================
+
+links:
+  # 孤立笔记的阈值（链接数小于等于此值视为孤立）
+  orphan_threshold: 0
+
+  # 低连通性笔记的阈值范围
+  low_connectivity_min: 1
+  low_connectivity_max: 2
+
+# ========================================
+# 分类规则配置
+# ========================================
+
+classification:
+  # 内容分类规则（用于 DailyNotes 分类）
+  keywords:
+    # 技术相关
+    technology:
+      - "Python"
+      - "Java"
+      - "JavaScript"
+      - "Rust"
+      - "系统设计"
+      - "架构"
+
+    # AI 相关
+    ai:
+      - "AI"
+      - "GPT"
+      - "LLM"
+      - "大模型"
+      - "Prompt"
+
+    # 认知系统
+    cognitive:
+      - "学习"
+      - "思考"
+      - "认知"
+      - "方法论"
+
+  # 目标目录映射
+  target_directories:
+    "1.Projects/技术能力晋升/02.学习路径/":
+      - "技术栈"
+      - "编程"
+      - "学习路线"
+
+    "2.Topics/01.技术栈/":
+      - "技术"
+      - "系统设计"
+      - "架构"
+
+    "2.Topics/02.认知系统/":
+      - "认知"
+      - "学习"
+      - "思考"
+
+    "2.Topics/03.内容创作/":
+      - "写作"
+      - "内容"
+      - "创作"
