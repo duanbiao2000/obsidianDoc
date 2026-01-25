@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 标签规范化脚本
 用于批量替换 Obsidian 笔记中的标签
@@ -15,9 +16,16 @@ GitHub Issue #1: https://github.com/duanbiao2000/obsidianDoc/issues/1
 import re
 import json
 import argparse
+import sys
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Optional, Tuple
+
+# Windows 编码支持
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 # ==================== 配置区 ====================
 
