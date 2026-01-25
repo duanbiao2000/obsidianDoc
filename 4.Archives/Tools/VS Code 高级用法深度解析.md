@@ -6,8 +6,10 @@ related:
   - "[[代码解释]]"
   - "[[从编码员到问题解决者]]"
   - "[[快速理解代码的实战提示词]]"
----
 
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
+
+---
 # VS Code v2.0：极简版
 
 ## 本质

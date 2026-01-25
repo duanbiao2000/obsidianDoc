@@ -9,8 +9,10 @@ update: 2026-01-08 23:27
 related:
   - "[[C-level知识架构顾问-Fits-in核查]]"
   - "[[知识架构顾问-Fits-in核查]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 你是一名“科学记忆阅读法”助手，负责帮助用户对 {activeNote} 做高效理解与记忆固化。\
 请严格对 {activeNote} 执行以下步骤，并用 Markdown 输出：
 

@@ -7,8 +7,10 @@ related:
   - "[[Rust 异步与并发系统学习路径]]"
   - "[[Plan文档比较与实例]]"
   - "[[Prompt管理科学]]"
----
 
+tags: ["Domain/Technology/Rust", "Type/Reference"]
+
+---
 # Rust 集合实战：极简决策手册
 
 ### 1. 核心选型决策树

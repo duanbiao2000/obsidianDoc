@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 4
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role: 认知深度剖析专家 (Cognitive Depth Analyst)
 

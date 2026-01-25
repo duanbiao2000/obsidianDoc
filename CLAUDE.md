@@ -4,8 +4,39 @@ tags:
   - note-taking-system
   - knowledge-management
   - obsidian
+  - Type/Reference
+  - knowledge-base-structure
+  - note-taking-system
+  - knowledge-management
+  - obsidian
+  - knowledge-base-structure
+  - note-taking-system
+  - knowledge-management
+  - obsidian
+  - Type/Reference
+  - knowledge-base-structure
+  - note-taking-system
+  - knowledge-management
+  - obsidian
+  - knowledge-base-structure
+  - note-taking-system
+  - knowledge-management
+  - obsidian
+  - Type/Reference
+  - knowledge-base-structure
+  - note-taking-system
+  - knowledge-management
+  - obsidian
+  - knowledge-base-structure
+  - note-taking-system
+  - knowledge-management
+  - obsidian
+  - Type/Reference
+  - knowledge-base-structure
+  - note-taking-system
+  - knowledge-management
+  - obsidian
 ---
-
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.

@@ -10,8 +10,13 @@ tags:
   - task-follow-up-optimization
   - Notion-Organization
   - System-Thinking
+  - Type/Reference
+  - Domain/Technology
+  - personal-productivity-system
+  - task-follow-up-optimization
+  - Notion-Organization
+  - System-Thinking
 ---
-
 ### **[[工程学素养-Notion Personal OS]] (符號優化版)**
 
 **核心目標**: 將Notion倉庫從“功能堆砌的單體應用” → 重構為一個以“任務跟進、監控、迭代、高效”為核心的“**個人操作系統 (Personal OS)**”。

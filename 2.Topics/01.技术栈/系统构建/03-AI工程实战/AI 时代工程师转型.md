@@ -6,6 +6,12 @@ tags:
   - human-in-the-loop
   - AI
   - EngineeringMindset
+  - Type/Reference
+  - Domain/Technology
+  - system-architecting
+  - human-in-the-loop
+  - AI
+  - EngineeringMindset
 related:
   - '[[2025-12-19-开发过程中的关键不变量]]'
   - '[[破局而出]]'

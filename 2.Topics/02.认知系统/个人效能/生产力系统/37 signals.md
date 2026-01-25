@@ -6,6 +6,12 @@ tags:
   - proposal-quality
   - productivity
   - work-life-balance
+  - Type/Reference
+  - Domain/Technology
+  - boundary-setting
+  - proposal-quality
+  - productivity
+  - work-life-balance
 source:
   - https://37signals.com
 update: null
@@ -13,7 +19,6 @@ rating: null
 related: null
 view-count: 8
 ---
-
 ## 核心公式
 **做少 = 得多**
 **6周 = 进展极限**

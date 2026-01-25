@@ -5,6 +5,12 @@ tags:
   - ui-framework
   - react
   - vuejs
+  - Type/Reference
+  - Domain/Technology
+  - component-architecture
+  - ui-framework
+  - react
+  - vuejs
 ---
 # Vue.js 3 核心工程：极简评估协议
 

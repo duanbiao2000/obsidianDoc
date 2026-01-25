@@ -5,8 +5,10 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 3
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ## 1. 核心链路 (The 5-Layer Protocol)
 
 | 层级 | 核心目标 | 关键动作 | 产出物 |

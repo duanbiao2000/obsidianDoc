@@ -1,4 +1,7 @@
 ---
+tags: ["Type/Index", "Domain/Technology"]
+---
+---
 tags:
   - file-structure-optimization
   - indexing-strategy

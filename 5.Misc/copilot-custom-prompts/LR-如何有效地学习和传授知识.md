@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 **任务目标：** 实现对技术和方法论知识的深度学习与高效传授。
 

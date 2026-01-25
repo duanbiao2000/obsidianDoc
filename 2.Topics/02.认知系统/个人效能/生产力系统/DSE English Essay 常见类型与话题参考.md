@@ -1,3 +1,6 @@
+---
+tags: ["Domain/Language/IELTS", "Type/Reference"]
+---
 ### DSE English Essay 常见类型与话题参考
 
 

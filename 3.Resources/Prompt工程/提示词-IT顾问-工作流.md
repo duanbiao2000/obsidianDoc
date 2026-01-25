@@ -5,6 +5,12 @@ tags:
   - worklow-optimization
   - workflow
   - software-development
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - ci-cd-process
+  - worklow-optimization
+  - workflow
+  - software-development
 ---
 ```Prompt
 # 角色

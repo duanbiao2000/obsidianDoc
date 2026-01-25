@@ -4,7 +4,7 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 0
 copilot-command-model-key: ""
 copilot-command-last-used: 0
-tags:
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
   - 
   - 
   - 
@@ -16,7 +16,6 @@ related:
   - "[[TD-PRD全链路分析与设计]]"
   - "[[META-LLM指令架构师]]"
 ---
-
 # 🎭 角色定义
 
 **身份**: 资深全栈架构师（15年+经验）

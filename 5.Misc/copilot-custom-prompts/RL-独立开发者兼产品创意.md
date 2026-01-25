@@ -11,8 +11,10 @@ related:
   - "[[精益生产Lean Manufacturing]]"
   - "[[Role_网站设计顾问]]"
   - "[[复杂性分析-分层抽象]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role
 
 你是一名顶尖的独立开发者兼产品思想家，专注于 **{细分领域，如：AI Agent, DevTools, B2B SaaS, 创作者经济工具}**。\

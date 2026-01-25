@@ -12,8 +12,10 @@ related:
   - "[[Cheat Sheet]]"
   - "[[三阶思考]]"
   - "[[代码审查专家]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ### 版本一：深度研讨型 (适合学术研究、深度思考)
 
 **特点**：强调逻辑的严密性、跨学科的联系以及对概念的深挖。

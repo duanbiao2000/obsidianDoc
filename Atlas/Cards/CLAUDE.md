@@ -4,8 +4,13 @@ tags:
   - visual-expression
   - multimedia-content
   - knowledge-cards
+  - Type/Reference
+  - Domain/Cognitive
+  - knowledge-base-structure
+  - visual-expression
+  - multimedia-content
+  - knowledge-cards
 ---
-
 # CLAUDE.md - Atlas Cards系统
 
 ## 系统概述

@@ -10,8 +10,13 @@ tags:
   - non-obvious-information-documentation
   - content-translation
   - cognitive-content-delivery
+  - Type/Reference
+  - Domain/Technology
+  - document-minimalism
+  - non-obvious-information-documentation
+  - content-translation
+  - cognitive-content-delivery
 ---
-
 # 遵循“仅记录非显而易见信息”原则的精简高价值文档撰写指南
 
 “仅记录非显而易见信息”的文档核心在于：完全聚焦关键、反直觉的细节，剔除用户可轻松推断的基础内容。这种模式能大幅减少冗余信息，让读者快速获取“真正需要注意”的核心要点。以下从核心原则、撰写框架和实例三个维度，详细说明如何落地该模式。

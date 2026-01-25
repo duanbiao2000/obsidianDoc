@@ -9,8 +9,10 @@ related:
   - "[[TH-清晰度架构师]]"
   - "[[KM-清晰度审计与重构器]]"
 update: 2026-01-09 16:21
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 降维解释专家 (Down-sampling Expert)
 
 # Mission

@@ -4,8 +4,13 @@ tags:
   - index-system
   - query-management
   - data-view
+  - Type/Index
+  - Domain/Cognitive
+  - knowledge-base-structure
+  - index-system
+  - query-management
+  - data-view
 ---
-
 # CLAUDE.md - Atlas Index系统
 
 ## 系统概述

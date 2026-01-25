@@ -7,6 +7,12 @@ tags:
   - decision-making-efficiency
   - ielts
   - english-writing
+  - Domain/Language/IELTS
+  - Type/Reference
+  - business-communication
+  - decision-making-efficiency
+  - ielts
+  - english-writing
 ---
 # IELTS英语 vs 职场英语：一页速通
 

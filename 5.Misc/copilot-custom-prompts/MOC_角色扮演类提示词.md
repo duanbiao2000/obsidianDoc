@@ -1,5 +1,5 @@
 ---
-tags:
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
   - 
   - 
 related:
@@ -13,7 +13,6 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 ---
-
 # MOC: 角色扮演类提示词
 
 本分类包含 28 个专业角色扮演类提示词,涵盖商业、技术、教育等领域。

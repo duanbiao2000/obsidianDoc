@@ -4,8 +4,39 @@ tags:
   - ai-knowledge-ip
   - content-factory
   - okr-management
+  - Type/Reference
+  - knowledge-base-structure
+  - ai-knowledge-ip
+  - content-factory
+  - okr-management
+  - knowledge-base-structure
+  - ai-knowledge-ip
+  - content-factory
+  - okr-management
+  - Type/Reference
+  - knowledge-base-structure
+  - ai-knowledge-ip
+  - content-factory
+  - okr-management
+  - knowledge-base-structure
+  - ai-knowledge-ip
+  - content-factory
+  - okr-management
+  - Type/Reference
+  - knowledge-base-structure
+  - ai-knowledge-ip
+  - content-factory
+  - okr-management
+  - knowledge-base-structure
+  - ai-knowledge-ip
+  - content-factory
+  - okr-management
+  - Type/Reference
+  - knowledge-base-structure
+  - ai-knowledge-ip
+  - content-factory
+  - okr-management
 ---
-
 # CLAUDE.md - AI知识IP打造项目
 
 ## 项目概述

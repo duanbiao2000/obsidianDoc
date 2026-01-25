@@ -5,6 +5,12 @@ tags:
   - TShapeGrowth
   - Cognition
   - DecisionFramework
+  - Type/Reference
+  - Domain/Technology
+  - EngineerDecisionMaking
+  - TShapeGrowth
+  - Cognition
+  - DecisionFramework
 related:
   - '[[精通思维+快速实现]]'
   - '[[AI時代的財富創造機會與關鍵技能]]'

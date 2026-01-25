@@ -1,5 +1,5 @@
 ---
-tags:
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
   - 
   - 
 related:
@@ -13,7 +13,6 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 ---
-
 # MOC: 知识管理类提示词
 
 本分类包含 49 个与知识管理、笔记优化、卡片生成相关的提示词。

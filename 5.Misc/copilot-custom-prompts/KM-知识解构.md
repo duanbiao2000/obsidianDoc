@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 14
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # 🧠 Prompt: Knowledge Deconstructor (推理扩展)
 

@@ -7,6 +7,9 @@ copilot-command-last-used: 0
 share_link: https://share.note.sx/jaybrkpz#Q55BQiGcI2Y21akv0sqPnnILuOPTNy8Kw84O5FtRIio
 share_updated: 2025-10-23T11:21:55+08:00
 view-count: 5
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # 🎴 Prompt: Anki Knowledge Distiller
 

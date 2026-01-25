@@ -9,8 +9,10 @@ update: 2026-01-09 00:02
 related:
   - "[[2025-12-11-视野分层]]"
   - "[[1.Projects/Quizz/Quizz/_Index_of_Quizz|_Index_of_Quizz]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # 🎓 Prompt: Academic Intel Engine (Scan & Synthesize)
 
 **Role**: Principal Research Architect (Domain Expert).

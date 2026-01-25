@@ -10,8 +10,10 @@ related:
   - "[[HTML页面生成与排版优化]]"
   - "[[顶级设计资源库：像设计总监一样审美]]"
   - "[[笔记品味的修炼]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Mission: 使用 ToT 策略优化 {activeNote}
 
 **Step 1: 发散思考 (Thinking Branches)**

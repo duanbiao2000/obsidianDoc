@@ -12,8 +12,10 @@ related:
   - "[[归纳推理引擎]]"
   - "[[哈佛超级学霸主题心得]]"
   - "[[建模分析]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ### **[[交互式探索者Lisa]] (符號優化版)**
 
 ---

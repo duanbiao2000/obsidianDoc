@@ -10,6 +10,12 @@ tags:
   - microservices-optimization
   - rust
   - software-engineering
+  - Domain/Technology/Rust
+  - Type/Template
+  - rust-architecture
+  - microservices-optimization
+  - rust
+  - software-engineering
 ---
 # [[Rust生产级综合开发技能学习系统提示词模板]]
 

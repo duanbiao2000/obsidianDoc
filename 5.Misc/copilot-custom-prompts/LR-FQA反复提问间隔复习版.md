@@ -11,8 +11,10 @@ related:
   - "[[Anki抽认闪卡制作]]"
   - "[[Anki 闪卡生成器和知识萃取专家-flashcard语法]]"
   - "[[Critical Thinking]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ## 03 FQA Frequent Questions
 
 Generate multiple-choice questions based on {activeNote} to test students' understanding of the note.

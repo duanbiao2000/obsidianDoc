@@ -12,8 +12,13 @@ tags:
   - usability-testing
   - ux-design
   - user-experience
+  - Type/Reference
+  - Domain/Technology
+  - user-journey
+  - usability-testing
+  - ux-design
+  - user-experience
 ---
-
 ## UX 的本质（一句话版）
 
 **UX = 用户在“使用前、使用中、使用后”对一个产品/系统/品牌产生的全部感受与判断。**\

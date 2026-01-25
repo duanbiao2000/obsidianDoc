@@ -12,8 +12,13 @@ tags:
   - knowledge-base-simplification
   - note-taking
   - dataview
+  - Type/Index
+  - Domain/Cognitive
+  - note-maintenance-strategy
+  - knowledge-base-simplification
+  - note-taking
+  - dataview
 ---
-
 根据您提及的“Lau策略”来生成最优先删除的笔记列表，由于“Lau策略”的具体标准在此上下文中并未明确，我将基于常见的笔记维护和知识库精简原则，为您构建一个Dataview查询。
 
 我假定“Lau策略”倾向于删除那些：

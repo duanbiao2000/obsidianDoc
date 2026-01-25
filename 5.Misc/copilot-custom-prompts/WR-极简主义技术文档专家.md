@@ -12,8 +12,10 @@ related:
   - "[[技术术语表构建器]]"
   - "[[文本视觉优化专家]]"
   - "[[上下文工程专家]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ## 🎯 角色：极简主义技术文档专家
 
 **任务**：将{activeNote}转化为"零废话避坑清单"，仅保留非显而易见的关键信息。

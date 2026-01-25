@@ -6,12 +6,17 @@ tags:
   - presentation-protocol
   - algorithm
   - cognitive-science
+  - Type/Reference
+  - Domain/Technology
+  - slides-automation
+  - presentation-protocol
+  - algorithm
+  - cognitive-science
 source: null
 rating: null
 related: null
 view-count: null
 ---
-
 # Slides架构生成协议：幻灯片自动化指令集
 
 ## 1. 核心模型

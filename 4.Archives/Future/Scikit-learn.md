@@ -2,6 +2,9 @@
 source: https://deepwiki.com/scikit-learn/scikit-learn
 update: 2025-05-07 00:31
 view-count: 4
+
+tags: ["Type/Reference", "Domain/Technology"]
+
 ---
 # Scikit-learn：机器学习工程化极简协议
 

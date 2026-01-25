@@ -1,5 +1,8 @@
 ---
 view-count: 2
+
+tags: ["Domain/AI/Agent", "Type/Reference"]
+
 ---
 # AGENTS.md - Obsidian Knowledge Vault Guidelines
 

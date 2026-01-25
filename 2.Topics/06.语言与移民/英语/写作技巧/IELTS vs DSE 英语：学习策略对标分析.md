@@ -1,3 +1,6 @@
+---
+tags: ["Domain/Language/IELTS", "Type/Reference"]
+---
 
 ## IELTS vs DSE 英语：学习策略对标分析
 

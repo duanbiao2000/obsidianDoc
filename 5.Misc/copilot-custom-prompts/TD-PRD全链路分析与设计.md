@@ -10,8 +10,10 @@ related:
   - "[[PracticalExample]]"
   - "[[复杂性分析-分层抽象]]"
   - "[[Mermaid-实体关系图]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 全链路系统架构师 (Full-Stack System Architect)
 
 # Mission

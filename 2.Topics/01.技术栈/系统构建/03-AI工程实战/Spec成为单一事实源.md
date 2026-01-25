@@ -6,13 +6,18 @@ tags:
   - automated-test-generation
   - SpecDriven
   - AI
+  - Type/Reference
+  - Domain/Technology
+  - specification-driven-development
+  - automated-test-generation
+  - SpecDriven
+  - AI
 related:
   - '[[OpenSpec规范驱动开发实战]]'
   - '[[类型本身成为可执行的文档]]'
   - '[[Spec-Kit 规范即代码]]'
   - '[[SpecKit四个阶段]]'
 ---
- 
 ### 🎯 业务场景
 
 用户注册功能：当用户提供有效的邮箱和密码时，系统应创建新账户并返回成功信息；若邮箱已存在，则返回错误。

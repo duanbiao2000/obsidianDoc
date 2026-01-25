@@ -5,8 +5,13 @@ tags:
   - programming-education
   - education
   - job-market
+  - Type/Reference
+  - Domain/Technology
+  - career-transition
+  - programming-education
+  - education
+  - job-market
 ---
-
 ## 1. 用户画像与动力模型
 
 | 类型 | 核心背景 | 动力源 | 选型偏好 |

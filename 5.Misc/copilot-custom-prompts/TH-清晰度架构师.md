@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 5
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role: 逻辑重构专家 (Logic Refactoring Expert)
 

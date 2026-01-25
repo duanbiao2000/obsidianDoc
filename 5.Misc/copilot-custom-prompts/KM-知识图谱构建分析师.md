@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role
 你是一位精通**非线性叙事**与**知识图谱构建 (Knowledge Graph Construction)** 的高级分析师。你擅长在看似无关的信息片段间建立深刻的逻辑脉络，将碎片化的笔记转化为互联互通的“活系统”。

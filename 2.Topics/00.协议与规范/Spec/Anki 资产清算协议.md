@@ -5,8 +5,13 @@ tags:
   - cognitive-efficiency
   - cognitive-science
   - knowledge-management
+  - Type/Reference
+  - Domain/Technology
+  - memory-optimization
+  - cognitive-efficiency
+  - cognitive-science
+  - knowledge-management
 ---
-
 # Anki 资产清算协议：从知识囤积到认知增值
 
 ## 1. 核心逻辑：记忆即投资 (Asset Mindset)

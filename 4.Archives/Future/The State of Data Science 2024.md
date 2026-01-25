@@ -1,7 +1,9 @@
 ---
 view-count: 3
----
 
+tags: ["Type/Reference", "Domain/Technology"]
+
+---
 1.  **核心问题：** 数据科学领域工具选择与趋势、数据处理效率、ML模型选择与应用、项目可持续性/可扩展性。
 2.  **关键领域及其具体趋势/工具：**
     *   **数据处理：** pandas (主流稳定), Polars (高速并行, 快速发展), Narwhals (整合API), Spark/Dask (超大数据集)。

@@ -11,11 +11,30 @@
 
 import os
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List, Optional
 
+# 设置UTF-8编码输出(修复Windows控制台问题)
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
 # === 配置部分 ===
 VAULT_ROOT = Path(r"d:\迅雷下载\@同步文件\OneDrive\obsidianDoc")
+
+# 只处理这些笔记目录（include模式）
+INCLUDE_DIRS = [
+    "0.DailyNotes",
+    "1.Projects",
+    "2.Topics",
+    "3.Resources",
+    "4.Archives",
+    "5.Misc",
+    "6.Calendar",
+    "Atlas",
+]
 
 # Domain分类规则（基于路径）
 DOMAIN_RULES = {
@@ -116,18 +135,27 @@ def add_tags_to_yaml(yaml_content: str, new_tags: List[str]) -> str:
             if match:
                 tags_indent = match.group(1)
             # 解析现有标签
-            if '[' in line:
+            # 检查是否是完整的单行格式: tags: [tag1, tag2]
+            inline_match = re.match(r'tags:\s*\[(.*)\]$', line)
+            if inline_match:
                 # 单行格式: tags: [tag1, tag2]
-                tags_match = re.search(r'tags:\s*\[(.*?)\]', line)
-                if tags_match:
-                    tags = [t.strip().strip('"').strip("'") for t in tags_match.group(1).split(',')]
+                tags_content = inline_match.group(1).strip()
+                if tags_content:
+                    tags = [t.strip().strip('"').strip("'") for t in tags_content.split(',')]
+                else:
+                    tags = []
             else:
-                # 多行格式
-                j = i + 1
-                while j < len(lines) and lines[j].startswith(tags_indent + '  -'):
-                    tag = lines[j].split('-', 1)[1].strip().strip('"').strip("'")
-                    tags.append(tag)
-                    j += 1
+                # 多行格式或空列表
+                if line.strip() == 'tags:[]':
+                    tags = []
+                else:
+                    # 读取多行标签
+                    j = i + 1
+                    while j < len(lines) and lines[j].startswith(tags_indent + '  -'):
+                        tag = lines[j].split('-', 1)[1].strip().strip('"').strip("'")
+                        if tag:  # 只添加非空标签
+                            tags.append(tag)
+                        j += 1
             break
 
     # 添加新标签（去重）
@@ -224,8 +252,9 @@ def process_file(filepath: Path) -> bool:
         yaml_content, body_content = extract_frontmatter(content)
 
         # 检查是否已有Domain标签
-        if re.search(r'tags:\s*\[.*?Domain/', yaml_content, re.DOTALL):
-            print(f"  ✓ {filepath.name} - 已有Domain标签，跳过")
+        # 支持单行格式和多行格式
+        if re.search(r'(^\s*-\s*Domain/|tags:\s*\[.*?Domain/)', yaml_content, re.MULTILINE | re.DOTALL):
+            print(f"  ⊙ {filepath.name} - 已有Domain标签，跳过")
             return False
 
         # 推断应该添加的标签
@@ -236,7 +265,7 @@ def process_file(filepath: Path) -> bool:
 
         # 重建文件内容
         if new_yaml.strip():
-            new_content = f"---\n{new_yaml}---\n{body_content}"
+            new_content = f"---\n{new_yaml}\n---\n{body_content}"
         else:
             new_content = body_content
 
@@ -257,9 +286,16 @@ def main():
     print("标签规范化批量处理脚本")
     print("=" * 60)
 
-    # 查找所有Markdown文件
+    # 只在指定的笔记目录中查找Markdown文件
     print("\n🔍 扫描Markdown文件...")
-    md_files = list(VAULT_ROOT.rglob("*.md"))
+    md_files = []
+    for dir_name in INCLUDE_DIRS:
+        dir_path = VAULT_ROOT / dir_name
+        if dir_path.exists():
+            md_files.extend(dir_path.rglob("*.md"))
+            print(f"  ✓ 扫描 {dir_name}/")
+        else:
+            print(f"  ⊙ 跳过 {dir_name}/ (目录不存在)")
 
     # 过滤出需要处理的文件（没有Domain标签的）
     files_to_process = []
@@ -272,7 +308,7 @@ def main():
         except:
             pass
 
-    print(f"📊 找到 {len(files_to_process)} 个需要处理的文件")
+    print(f"\n📊 找到 {len(files_to_process)} 个需要处理的文件")
 
     if not files_to_process:
         print("\n✅ 所有文件已规范化，无需处理！")

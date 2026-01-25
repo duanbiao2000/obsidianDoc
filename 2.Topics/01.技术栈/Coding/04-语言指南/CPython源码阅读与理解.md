@@ -6,6 +6,12 @@ tags:
   - runtime-optimization
   - python
   - source-code-inspection
+  - Domain/Technology/Python
+  - Type/Reference
+  - cpython-performance
+  - runtime-optimization
+  - python
+  - source-code-inspection
 collections: null
 source: null
 rating: null

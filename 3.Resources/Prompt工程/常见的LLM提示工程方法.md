@@ -9,8 +9,14 @@ tags:
   - thought-path-activation
   - PromptEngineering
   - AI
+  - Domain/AI/PromptEngineering
+  - Domain/AI/LLM
+  - Type/Reference
+  - prompt-optimization
+  - thought-path-activation
+  - PromptEngineering
+  - AI
 ---
-
 ## 0. 本质 (The Essence)
 
 - **提示工程 = 强制慢思考**。通过结构化规范，将人类的模糊意图转化为 AI 的执行指令。

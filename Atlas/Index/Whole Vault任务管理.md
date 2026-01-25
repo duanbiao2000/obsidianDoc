@@ -10,8 +10,13 @@ tags:
   - due-date-organization
   - task-sorting
   - priority-sorting
+  - Type/Index
+  - Domain/Cognitive
+  - task-limitation
+  - due-date-organization
+  - task-sorting
+  - priority-sorting
 ---
-
 ## 全部未完成任务
 
 ```tasks

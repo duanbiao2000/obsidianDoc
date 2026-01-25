@@ -7,6 +7,12 @@ tags:
   - coding-tips
   - github
   - search
+  - Domain/Technology/Git
+  - Type/Reference
+  - github-efficiency
+  - coding-tips
+  - github
+  - search
 source: null
 update: null
 rating: null
@@ -18,7 +24,6 @@ related:
   - '[[Github源码阅读指南]]'
   - '[[100项适合程序员的深度工作示例]]'
 ---
-
 ## 高效搜索技巧
 
 1. **使用GitHub高级搜索语法**：

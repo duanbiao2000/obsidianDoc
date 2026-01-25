@@ -1,7 +1,7 @@
 ---
 aliases:
 date: 2026-01-11 21:23
-tags:
+tags: ["Type/Reference"]
 source:
 rating:
 related:
@@ -9,7 +9,6 @@ related:
   - "[[2.Topics/进阶/设计模式|设计模式]]"
 view-count: 8
 ---
-
 以下是 **Fabric 提示范式（Patterns）** 的完整速查表，包含每个范式的 **最佳适用场景（1–3 条）** 和 **关键注意事项**，以表格形式呈现，便于快速查阅与使用。
 
 > ⚠️ 说明：

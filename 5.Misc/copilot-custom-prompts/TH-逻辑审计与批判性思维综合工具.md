@@ -17,8 +17,12 @@ tags:
   - Logic
   - CriticalThinking
   - Audit
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - Logic
+  - CriticalThinking
+  - Audit
 ---
-
 # TH-逻辑审计与批判性思维综合工具
 
 ## Role: 首席逻辑审计官 (Chief Logic Auditor)

@@ -12,6 +12,12 @@ tags:
   - ComplexityCommunication
   - Communication
   - TechnicalCommunication
+  - Type/Reference
+  - Domain/Technology
+  - HighFidelityCommunication
+  - ComplexityCommunication
+  - Communication
+  - TechnicalCommunication
 ---
 ### 高保真沟通与高密度专业语言（LFSP）  
 ——在复杂场景中，如何既说得准，又说得懂

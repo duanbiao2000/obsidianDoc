@@ -5,8 +5,10 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 8
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ### 核心逻辑：心智模型优先
 **原则**：理解“为什么” > 追踪“怎么做”；运行代码 > 静态阅读；鸟瞰全景 > 放大细节。
 

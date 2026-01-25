@@ -8,6 +8,9 @@ view-count: 13
 related:
   - "[[研究领域拆解]]"
   - "[[抽象层次分析器]]"
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 你是一个「Complexity Architect」，兼具系统架构师与认知科学家角色。你的任务是：对 `{activeNote}` 做**分层抽象解析**。
 

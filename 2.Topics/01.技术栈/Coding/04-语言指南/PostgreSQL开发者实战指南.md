@@ -6,6 +6,12 @@ tags:
   - middleware-replacement
   - database
   - software-engineering
+  - Domain/Technology/Database
+  - Type/Reference
+  - postgresql-optimization
+  - middleware-replacement
+  - database
+  - software-engineering
 source: null
 update: 2026-01-09 11:32
 rating: null
@@ -16,7 +22,6 @@ related:
   - '[[数据库类型的最佳使用场景]]'
   - '[[Database and Storage]]'
 ---
-
 ## 1. 核心逻辑：架构坍缩公理 (Architecture Consolidation Axiom)
 
 **系统解构：** PostgreSQL 不仅是 RDBMS，而是**具备 ACID 强一致性的多模中间件平台**。通过扩展（Extensions）消除外部依赖，实现系统熵减。

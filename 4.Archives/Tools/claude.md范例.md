@@ -1,7 +1,7 @@
 ---
 aliases:
 date: 2025-09-11 21:41
-tags:
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
 source:
   - https://github.com/grahama1970/claude-code-mcp-enhanced/blob/main/
 update:

@@ -3,8 +3,10 @@ view-count: 6
 update: 2026-01-06 23:15
 related:
   - "[[Browser-use关键技术]]"
----
 
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
+
+---
 ## Neovim 全栈 Web 开发配置 (LazyVim 架构)
 
 **核心架构：** 基于 **LazyVim Starter** 建立标准化开发流，通过剥离冗余 UI 释放屏幕空间。

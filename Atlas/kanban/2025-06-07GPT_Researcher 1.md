@@ -12,8 +12,13 @@ tags:
   - module-integration
   - task-management
   - task-organization
+  - Type/Reference
+  - Domain/Cognitive
+  - research-workflow
+  - module-integration
+  - task-management
+  - task-organization
 ---
-
 ## To Do
 
 - [ ] Task 2.1: 追蹤 conduct_research 方法的完整執行流程 (Phase 2: 研究流程深入)

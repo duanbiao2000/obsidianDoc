@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 1753806461267
 view-count: 2
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 请以以下风格重新表述 {activeNote} (可以选择 1-3 项):
 

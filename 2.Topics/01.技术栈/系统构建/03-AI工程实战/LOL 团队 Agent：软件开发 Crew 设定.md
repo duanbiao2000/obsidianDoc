@@ -6,8 +6,14 @@ tags:
   - Methodology
   - DevProcess
   - AI
+  - Domain/AI/Agent
+  - Type/Reference
+  - game-mechanics-integration
+  - cross-functional-teams
+  - Methodology
+  - DevProcess
+  - AI
 ---
- 
 ### 一、 核心本质
 **团队协同 = 战术补位**。
 目标：将 LOL 的 **职责解耦** 与 **动态博弈** 引入开发流程，实现高韧性交付。

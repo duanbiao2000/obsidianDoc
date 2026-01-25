@@ -4,8 +4,13 @@ tags:
   - project-management
   - task-tracking
   - agile-workflow
+  - Type/Reference
+  - Domain/Cognitive
+  - knowledge-base-structure
+  - project-management
+  - task-tracking
+  - agile-workflow
 ---
-
 # CLAUDE.md - Atlas Kanban系统
 
 ## 系统概述

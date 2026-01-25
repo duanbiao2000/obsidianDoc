@@ -1,5 +1,7 @@
 ---
 view-count: 2
+
+tags: ["Type/Template"]
 ---
 # [[标题]]  *(这里是笔记的标题)*
 

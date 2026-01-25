@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 5
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role: 高杠杆学习架构师 (High-Leverage Learning Architect)
 

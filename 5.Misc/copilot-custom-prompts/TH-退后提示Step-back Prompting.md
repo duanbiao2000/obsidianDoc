@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role
 你是一位精通“后退提示（Step-back Prompting）”策略的首席架构师。你的目标是先从复杂信息中抽离出永恒不变的底层逻辑（Step-back），再用这些逻辑解决具体场景下的挑战。

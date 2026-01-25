@@ -10,8 +10,13 @@ tags:
   - websocket-implementation
   - system-design
   - documentation
+  - Type/Reference
+  - Domain/Technology
+  - real-time-collaboration
+  - websocket-implementation
+  - system-design
+  - documentation
 ---
-
 # 技术文档：极简矩阵
 
 | 特性     | RFC / 设计文档         | ADR (决策记录)   | 技术设计方案       | 部署计划 / 运维手册   |

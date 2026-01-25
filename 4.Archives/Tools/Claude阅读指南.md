@@ -1,12 +1,11 @@
 ---
 aliases:
 date: 2025-08-28 16:27
-tags:
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
 source:
   - https://www.anthropic.com/engineering/claude-code-best-practices
 view-count: 5
 ---
-
 # Claude Code 配置协议
 
 ## 1. 核心逻辑

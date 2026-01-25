@@ -3,8 +3,10 @@ view-count: 7
 related:
   - "[[git-extras增强工具]]"
 update: 2026-01-12 11:17
----
 
+tags: ["Domain/Technology/Git", "Domain/Cognitive/Tools", "Type/Reference"]
+
+---
 在 Git 近年来的版本升级（尤其是 **Git 2.23+** 之后）中，为了提升命令的语义清晰度和用户体验，官方引入了一些**新命令来替代旧命令的部分功能**。这些旧命令虽然仍可使用，但在特定场景下已**不再推荐**，变得“不那么重要”了。
 
 以下是几个典型的被“弱化”或“部分取代”的 Git 命令：

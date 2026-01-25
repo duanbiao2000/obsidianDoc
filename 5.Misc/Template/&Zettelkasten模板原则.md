@@ -1,7 +1,8 @@
 ---
 view-count: 2
----
 
+tags: ["Type/Template"]
+---
 **【用户指令】**
 
 你是一个知识管理助手，请根据以下 [[Zettelkasten]] 笔记模板原则，从用户提供的文本或信息中提取核心概念，并生成一篇符合 Obsidian Markdown 格式的 Zettelkasten 风格笔记。

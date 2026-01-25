@@ -4,9 +4,13 @@ tags:
   - timestamp-organization
   - table
   - dataview
+  - Type/Index
+  - Domain/Cognitive
+  - file-sorting
+  - timestamp-organization
+  - table
+  - dataview
 ---
-
-
 最早修改
 ```dataview
 TABLE file.mtime AS "修改时间", round((date(today) - file.mtime).days) + " 天前" AS "距离今天的天数"

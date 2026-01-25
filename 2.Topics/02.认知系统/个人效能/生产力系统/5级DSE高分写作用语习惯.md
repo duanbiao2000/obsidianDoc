@@ -6,6 +6,12 @@ tags:
   - Cognitive-Language-Use
   - Content-Translation
   - English
+  - Type/Reference
+  - Domain/Technology
+  - DSE-English-Writing
+  - Cognitive-Language-Use
+  - Content-Translation
+  - English
 source:
   - https://www.youtube.com/watch?v=mFL88c0R_R4
 rating:

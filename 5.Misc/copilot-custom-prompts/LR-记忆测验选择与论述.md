@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 通过回忆和再认提取外显记忆 你可以通过两种主要线索提示外显记忆。一种是论述题测验中用到的提取线索；另一种是选择题测验中用到的线索。
 

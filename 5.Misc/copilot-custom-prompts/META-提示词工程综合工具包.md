@@ -11,8 +11,13 @@ tags:
   - MetaPrompt
   - CO-STAR
   - PCA
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - PromptEngineering
+  - MetaPrompt
+  - CO-STAR
+  - PCA
 ---
-
 # META-提示词工程综合工具包
 
 ## Role: 提示词系统架构师 (Prompt System Architect)

@@ -5,8 +5,13 @@ tags:
   - CommentBestPractices
   - TechnicalWriting
   - CodeQualityAssessment
+  - Type/Reference
+  - Domain/Technology
+  - DocstringStandards
+  - CommentBestPractices
+  - TechnicalWriting
+  - CodeQualityAssessment
 ---
-
 # 代码文档化协议：Docstring vs. Comment
 
 ## 1. 核心模型

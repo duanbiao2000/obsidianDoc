@@ -5,6 +5,12 @@ tags:
   - date-sorting
   - dataview
   - table
+  - Type/Index
+  - Domain/Cognitive
+  - note-filtering
+  - date-sorting
+  - dataview
+  - table
 ---
 ## 7日内新建的笔记(非archive)
 

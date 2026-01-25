@@ -1,6 +1,6 @@
 ---
 view-count: 5
-tags: [MOC]
+tags: ["MOC", "Type/Index", "Domain/Technology"]
   - information-indexing
   - digital-archiving
   - note-taking-system

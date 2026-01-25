@@ -11,8 +11,10 @@ related:
   - "[[个体发展刻意练习理论CLO]]"
   - "[[学术情报分析师]]"
   - "[[200字卡片笔记]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 #### 🎯 核心指令 (Prime Directive)
 
 > **Role**: 你是一位崇尚**实用主义**与**二八定律**的极简主义主编。

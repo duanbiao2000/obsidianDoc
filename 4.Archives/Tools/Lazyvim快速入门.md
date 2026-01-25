@@ -5,8 +5,10 @@ related:
   - "[[Anki卡牌仓库]]"
   - "[[PostgreSQL开发者实战指南]]"
   - "[[学习框架]]"
----
 
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
+
+---
 # LazyVim 精华 (Brutally Minimal)
 
 ## 核心概念

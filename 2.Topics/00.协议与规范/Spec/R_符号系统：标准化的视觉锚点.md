@@ -13,8 +13,13 @@ tags:
   - meta-data-symbols
   - visual-thinking
   - symbolic-matrix
+  - Type/Reference
+  - Domain/Technology
+  - visual-protocol
+  - meta-data-symbols
+  - visual-thinking
+  - symbolic-matrix
 ---
-
 # 视觉化思考协议：高密度元数据符号系统 (VTPS)
 
 ## 1. 意图与场景 (Intent & Scenarios)

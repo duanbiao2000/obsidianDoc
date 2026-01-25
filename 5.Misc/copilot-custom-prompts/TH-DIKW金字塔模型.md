@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 1760669857046
 view-count: 6
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # 🔼 Prompt: DIKW Stack Architect
 

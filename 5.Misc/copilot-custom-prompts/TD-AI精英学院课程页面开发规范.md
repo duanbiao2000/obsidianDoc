@@ -9,8 +9,10 @@ update: 2026-01-09 18:51
 related:
   - "[[AI writing tutor]]"
   - "[[Excalidraw图表生成PROMPT]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # 🛠️ AI精英学院™ 页面开发规范 (v3.2)
 
 **核心原则**：简洁专业 · 教学导向 · 严禁营销。

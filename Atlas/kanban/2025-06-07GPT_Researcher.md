@@ -5,8 +5,13 @@ tags:
   - multi-agent-systems
   - task-management
   - task-organization
+  - Type/Reference
+  - Domain/Cognitive
+  - gpt-researcher-configuration
+  - multi-agent-systems
+  - task-management
+  - task-organization
 ---
-
 ## To Do
 
 - [ ] Task 2.1: 追蹤 conduct_research 方法的完整執行流程 (Phase 2: 研究流程深入)

@@ -6,13 +6,18 @@ tags:
   - Code-Formatting-Standards
   - GitHub
   - CodeQualityAssessment
+  - Type/Reference
+  - Domain/Technology
+  - GitHub-Copilot-Contributions
+  - Code-Formatting-Standards
+  - GitHub
+  - CodeQualityAssessment
 source:
   - https://github.com/duanbiao2000/awesome-copilot
 update: null
 rating: null
 view-count: 2
 ---
-
 ## Awesome GitHub Copilot 贡献指南总结  
   
 ### 贡献方式  

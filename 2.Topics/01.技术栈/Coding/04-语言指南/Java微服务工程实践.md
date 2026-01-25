@@ -10,8 +10,13 @@ tags:
   - distributed-system-design
   - java
   - microservices
+  - Type/Reference
+  - Domain/Technology
+  - spring-boot-configuration
+  - distributed-system-design
+  - java
+  - microservices
 ---
-
 # Java微服务工程实践
 
 ## 一、核心定位与关系

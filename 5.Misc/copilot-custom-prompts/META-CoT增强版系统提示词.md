@@ -11,10 +11,9 @@ related:
   - "[[知识精炼]]"
   - "[[严谨且善于解释的助手附思路与推理过程]]"
   - "[[认知追问框架]]"
-tags:
+tags: ["CoT", "Domain/AI/PromptEngineering", "Type/Reference"]
   - CoT
 ---
-
 ### 🧠 CoT 增强版系统提示词 (System Prompt)
 
 ```markdown

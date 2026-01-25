@@ -6,7 +6,7 @@ author:
 published:
 created: 2026-01-12
 description: 控制代码变化时的细粒度过渡，类似于 Keynote 中的 Magic Move 效果。
-tags:
+tags: ["clippings", "Domain/Cognitive/Tools", "Type/Reference"]
   - clippings
 view-count: 3
 ---

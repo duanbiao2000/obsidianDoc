@@ -12,8 +12,10 @@ related:
   - "[[动态规划知识架构师]]"
   - "[[快速理解代码的实战提示词]]"
   - "[[01清晰度架构师]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # 💻 Prompt: Systems Architect (Code Auditor)
 
 **Role**: Crack Developer / Systems Architect.

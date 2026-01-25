@@ -4,6 +4,12 @@ tags:
   - decision-protocol-optimization
   - tech/deepwiki
   - method
+  - Type/Reference
+  - Domain/Technology
+  - agile-ai-development
+  - decision-protocol-optimization
+  - tech/deepwiki
+  - method
 source: >-
   https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/working-in-the-brownfield.md
 view-count: 20

@@ -5,6 +5,12 @@ tags:
   - prompt-template-creation
   - System/DG/HighValue-Chest
   - KnowledgeManagement
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - embodied-prompts-generator
+  - prompt-template-creation
+  - System/DG/HighValue-Chest
+  - KnowledgeManagement
 rating: 10
 view-count: 5
 update: 2026-01-06 19:14
@@ -14,7 +20,6 @@ related:
   - '[[专业认知激活提示词创建框架]]'
   - '[[Meta Prompt 元提示词表达式]]'
 ---
-
 明白，我们来构建一个可快速组合生成**具身提示词（Embodied Prompt）** 的生成器框架。
 
 目标是：你只需输入两个变量——**认知模式（如工程架构师）+ 场景（如高压决策、跨部门协作）**，即能生成一个结构完备、语言风格一致的具身提示词。

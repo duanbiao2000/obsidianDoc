@@ -4,9 +4,13 @@ tags:
   - ai-democratization
   - ai-agent-development
   - ai-content-creation-process
+  - Type/Reference
+  - Domain/Technology
+  - agi-apis
+  - ai-democratization
+  - ai-agent-development
+  - ai-content-creation-process
 ---
-
-
 ### **25句濃縮版本**
 
 1.  這份筆記基於AGIaaS（通用人工智能即服務）理念，提出了100個創新產品創意，旨在將AI能力API化並普及。

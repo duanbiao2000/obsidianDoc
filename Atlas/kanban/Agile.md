@@ -5,9 +5,14 @@ tags:
   - video-organization
   - kanban
   - task-management
+  - Type/Reference
+  - Domain/Cognitive
+  - github-guide
+  - video-organization
+  - kanban
+  - task-management
 view-count: 4
 ---
-
 ## Rodermap
 
 - [ ] github操作指南

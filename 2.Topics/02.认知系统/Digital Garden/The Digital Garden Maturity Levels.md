@@ -7,6 +7,12 @@ tags:
   - Content-Evolution-Stage
   - System-DG-Seedling
   - System-DG-Sapling
+  - Domain/Technology/Git
+  - Type/Reference
+  - Knowledge-Maturity-Level
+  - Content-Evolution-Stage
+  - System-DG-Seedling
+  - System-DG-Sapling
 ---
 **核心主题：** 建立一套比喻性的“成熟度”和“功能”等级系统，用于组织、理解和管理数字花园中的知识和内容，反映思想的演化过程和花园的结构元素。
 

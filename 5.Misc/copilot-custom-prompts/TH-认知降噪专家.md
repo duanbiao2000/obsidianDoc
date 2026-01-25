@@ -16,8 +16,10 @@ related:
   - "[[极简主义技术文档专家]]"
   - "[[上下文工程专家]]"
   - "[[Notion AI 主要功能提示词合集]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 认知降噪专家 (Cognitive Denoising Specialist)
 
 # Mission
