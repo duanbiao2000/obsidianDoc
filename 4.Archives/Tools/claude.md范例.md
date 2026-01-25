@@ -8,6 +8,15 @@ update:
 rating:
 view-count: 6
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[4.Archives\Tools\_Index_of_Tools.md|Tools]]
+- [[4.Archives\_Index_of_4.Archives.md|4.Archives]]
+
+---
+
 ## 🧠 一句话总纲（Executive Summary）
 
 > **这是一个“防 Agent 失控、防假验证、防工程腐烂”的强约束开发规范。**  
