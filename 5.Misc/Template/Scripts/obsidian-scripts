@@ -1,0 +1,257 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Obsidian 知识库自动化工具 - 统一CLI入口
+
+提供统一的命令行接口，整合所有自动化脚本功能：
+- 标签管理
+- 链接分析
+- 元数据验证
+- 工作流编排
+
+作者: Claude Sonnet 4.5
+创建时间: 2026-01-25
+相关: Issue #4 - 自动化脚本体系优化
+"""
+
+import argparse
+import sys
+from pathlib import Path
+
+# 导入核心库
+from obsidian_scripts.core.encoding import auto_setup
+from obsidian_scripts.core.config import Config
+from obsidian_scripts.plugins.tags import TagManager
+from obsidian_scripts.plugins.links import LinkAnalyzer
+
+# 自动设置UTF-8编码
+auto_setup()
+
+
+def create_parser():
+    """创建CLI参数解析器"""
+    parser = argparse.ArgumentParser(
+        description="Obsidian知识库自动化工具",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+示例:
+  标签管理:
+    obsidian-scripts tags add-domain --dry-run
+    obsidian-scripts tags cleanup --verbose
+    obsidian-scripts tags normalize --phase all
+
+  链接分析:
+    obsidian-scripts links find-orphans --threshold 0 --output orphans.md
+    obsidian-scripts links analyze --stats
+    obsidian-scripts links density
+
+  元数据验证:
+    obsidian-scripts validate metadata --include-domains --fix --dry-run
+
+  工作流:
+    obsidian-scripts workflow daily-maintenance
+        """
+    )
+
+    subparsers = parser.add_subparsers(dest='command', help='可用命令')
+
+    # ==================== tags 子命令 ====================
+    tags_parser = subparsers.add_parser('tags', help='标签管理')
+    tags_subparsers = tags_parser.add_subparsers(dest='tags_command')
+
+    # tags add-domain
+    add_domain_parser = tags_subparsers.add_parser('add-domain', help='添加Domain标签')
+    add_domain_parser.add_argument('--dry-run', action='store_true', help='预览模式')
+    add_domain_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    # tags cleanup
+    cleanup_parser = tags_subparsers.add_parser('cleanup', help='清理重复标签')
+    cleanup_parser.add_argument('--dry-run', action='store_true', help='预览模式')
+    cleanup_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    # tags normalize
+    normalize_parser = tags_subparsers.add_parser('normalize', help='标签规范化')
+    normalize_parser.add_argument('--phase', choices=['invalid', 'high', 'medium', 'low', 'all'],
+                                default='all', help='执行阶段')
+    normalize_parser.add_argument('--dry-run', action='store_true', help='预览模式')
+    normalize_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    # ==================== links 子命令 ====================
+    links_parser = subparsers.add_parser('links', help='链接分析')
+    links_subparsers = links_parser.add_subparsers(dest='links_command')
+
+    # links find-orphans
+    orphans_parser = links_subparsers.add_parser('find-orphans', help='查找孤立笔记')
+    orphans_parser.add_argument('--threshold', type=int, default=0, help='链接阈值（默认0）')
+    orphans_parser.add_argument('--output', help='输出文件路径')
+    orphans_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    # links analyze
+    analyze_parser = links_subparsers.add_parser('analyze', help='分析链接连通性')
+    analyze_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    # links density
+    density_parser = links_subparsers.add_parser('density', help='链接密度统计')
+    density_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    # ==================== validate 子命令 ====================
+    validate_parser = subparsers.add_parser('validate', help='元数据验证')
+    validate_subparsers = validate_parser.add_subparsers(dest='validate_command')
+
+    # validate metadata
+    metadata_parser = validate_subparsers.add_parser('metadata', help='元数据验证')
+    metadata_parser.add_argument('--include-domains', action='store_true', help='验证Domain标签')
+    metadata_parser.add_argument('--include-types', action='store_true', help='验证Type标签')
+    metadata_parser.add_argument('--include-statuses', action='store_true', help='验证Status标签')
+    metadata_parser.add_argument('--fix', action='store_true', help='自动修复模式')
+    metadata_parser.add_argument('--dry-run', action='store_true', help='预览模式')
+    metadata_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    # ==================== workflow 子命令 ====================
+    workflow_parser = subparsers.add_parser('workflow', help='工作流编排')
+    workflow_subparsers = workflow_parser.add_subparsers(dest='workflow_command')
+
+    # workflow daily-maintenance
+    daily_parser = workflow_subparsers.add_parser('daily-maintenance', help='日常维护工作流')
+    daily_parser.add_argument('--dry-run', action='store_true', help='预览模式')
+    daily_parser.add_argument('--verbose', '-v', action='store_true', help='显示详细信息')
+
+    return parser
+
+
+def main():
+    """主函数"""
+    parser = create_parser()
+    args = parser.parse_args()
+
+    # 如果没有指定命令，显示帮助
+    if not args.command:
+        parser.print_help()
+        return
+
+    config = Config()
+
+    print("=" * 70)
+    print(f"Obsidian 知识库自动化工具")
+    print(f"Vault: {config.vault_root}")
+    print("=" * 70)
+    print()
+
+    # ==================== 标签管理 ====================
+    if args.command == 'tags':
+        tag_manager = TagManager(config)
+
+        if args.tags_command == 'add-domain':
+            print("📌 批量添加 Domain 标签")
+            print()
+            stats = tag_manager.add_domain_tags(
+                dry_run=args.dry_run,
+                verbose=args.verbose
+            )
+            print()
+            print("✅ 完成！")
+            print(f"  处理: {stats['processed']} 个文件")
+            print(f"  跳过: {stats['skipped']} 个文件")
+
+        elif args.tags_command == 'cleanup':
+            print("🧹 清理重复标签")
+            print()
+            stats = tag_manager.cleanup_duplicates(
+                dry_run=args.dry_run,
+                verbose=args.verbose
+            )
+            print()
+            print("✅ 完成！")
+            print(f"  处理: {stats['processed']} 个文件")
+            print(f"  清理: {stats['duplicates_removed']} 个重复标签")
+
+        elif args.tags_command == 'normalize':
+            print("🔧 标签规范化")
+            print()
+            stats = tag_manager.normalize_tags(
+                phase=args.phase,
+                dry_run=args.dry_run,
+                verbose=args.verbose
+            )
+            print()
+            print("✅ 完成！")
+            print(f"  删除: {stats['deleted']} 个无效标签")
+            print(f"  替换: {stats['replaced']} 个标签")
+            print(f"  修改: {stats['files_modified']} 个文件")
+
+    # ==================== 链接分析 ====================
+    elif args.command == 'links':
+        link_analyzer = LinkAnalyzer(config)
+
+        if args.links_command == 'find-orphans':
+            print("🔍 查找孤立笔记")
+            print()
+            output_file = Path(args.output) if args.output else None
+            orphans = link_analyzer.find_orphan_notes(
+                link_threshold=args.threshold,
+                output_file=output_file
+            )
+            print()
+            print("✅ 完成！")
+            print(f"  找到 {len(orphans)} 个孤立笔记（链接数<={args.threshold}）")
+            if output_file:
+                print(f"  报告: {output_file}")
+
+        elif args.links_command == 'analyze':
+            print("📊 分析链接连通性")
+            print()
+            connectivity = link_analyzer.analyze_connectivity()
+
+            # 排序并显示前20个
+            sorted_items = sorted(
+                connectivity.items(),
+                key=lambda x: len(x[1]['in_links']),
+                reverse=True
+            )
+
+            print("前 20 个高连通性笔记：")
+            for i, (title, links) in enumerate(sorted_items[:20], 1):
+                in_count = len(links['in_links'])
+                out_count = len(links['out_links'])
+                print(f"  {i}. {title}: {in_count} ← → {out_count}")
+
+            print()
+            print("✅ 分析完成！")
+
+        elif args.links_command == 'density':
+            print("📈 链接密度统计")
+            print()
+            stats = link_analyzer.get_link_density_stats()
+            print(f"  总文件数: {stats['total_files']}")
+            print(f"  总链接数: {stats['total_links']}")
+            print(f"  平均链接数/文件: {stats['avg_links_per_file']}")
+            print(f"  孤立笔记 (0链接): {stats['orphan_count']}")
+            print(f"  低连通性 (1-2链接): {stats['low_connectivity_count']}")
+            print(f"  高连通性 (>2链接): {stats['high_connectivity_count']}")
+            print()
+            print("✅ 统计完成！")
+
+    # ==================== 元数据验证 ====================
+    elif args.command == 'validate':
+        print("🔍 元数据验证")
+        print()
+        print("⚠️  此功能正在开发中...")
+        print("   相关: Issue #3 项目元数据审计")
+
+    # ==================== 工作流 ====================
+    elif args.command == 'workflow':
+        print("⚙️  工作流编排")
+        print()
+
+        if args.workflow_command == 'daily-maintenance':
+            print("📅 日常维护工作流")
+            print()
+            print("⚠️  此功能正在开发中...")
+            print("   将包括：标签清理 + 孤立笔记检测 + 元数据验证")
+
+    print()
+    print("=" * 70)
+
+
+if __name__ == "__main__":
+    main()

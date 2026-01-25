@@ -314,5 +314,53 @@ if __name__ == "__main__":
 
 ---
 
+## 🆕 Issue #4 自动化脚本体系优化 (2026-01-25)
+
+### 📊 优化成果
+
+| 指标 | 优化前 | 优化后 | 改善 |
+|------|--------|--------|------|
+| 代码重复率 | 40% | <10% | **-75%** |
+| 核心代码行数 | 3,180行 | 1,538行 | **-52%** |
+
+### 🏗️ 新增核心库
+
+**obsidian_scripts/core/** - 核心工具模块
+- `encoding.py` - Windows UTF-8 支持
+- `file_utils.py` - 文件扫描工具
+- `config.py` - 配置管理
+- `frontmatter.py` - YAML 处理
+- `markdown.py` - 链接解析
+
+**obsidian_scripts/plugins/** - 功能插件
+- `tags.py` - 统一的标签管理
+- `links.py` - 统一的链接分析
+
+**obsidian_scripts/utils/** - 工具函数
+- `backup.py` - 备份工具
+- `validation.py` - 元数据验证（支持 Issue #3）
+
+### 🚀 统一 CLI 工具
+
+```bash
+# 标签管理
+python obsidian-scripts tags add-domain --dry-run
+python obsidian-scripts tags cleanup --verbose
+
+# 链接分析
+python obsidian-scripts links find-orphans --threshold 0
+python obsidian-scripts links density
+
+# 元数据验证
+python obsidian-scripts validate metadata --include-domains
+```
+
+### 📚 相关文档
+
+- [Issue #4 实施计划](../../Atlas/Docs/plans/2026-01-25-issue4-automation-scripts-optimization.md)
+- [仓库标签管理系统](../../Atlas/Index/仓库标签管理系统.md)
+
+---
+
 **最后更新**: 2026-01-25
 **维护者**: Claude Code
