@@ -36,6 +36,42 @@ tags:
   - templater
   - kanban
   - priority-management
+  - automation
+  - templater
+  - kanban
+  - priority-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - priority-management
+  - automation
+  - templater
+  - kanban
+  - priority-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - priority-management
+  - automation
+  - templater
+  - kanban
+  - priority-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - priority-management
+  - automation
+  - templater
+  - kanban
+  - priority-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - priority-management
 ---
 # 优先级动态调整脚本
 

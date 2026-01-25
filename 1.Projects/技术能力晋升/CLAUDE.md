@@ -36,6 +36,42 @@ tags:
   - technical-career-growth
   - skill-development
   - roi-optimization
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
+  - Type/Reference
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
+  - Type/Reference
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
+  - Type/Reference
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
+  - Type/Reference
+  - knowledge-base-structure
+  - technical-career-growth
+  - skill-development
+  - roi-optimization
 ---
 # CLAUDE.md - 技术能力晋升项目
 

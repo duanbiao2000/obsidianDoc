@@ -44,6 +44,42 @@ tags:
   - tech-giants-analysis
   - agent-architecture
   - devops
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
 ---
 # 🏢 Tech Giants: 工程师生存法则与组织基因
 

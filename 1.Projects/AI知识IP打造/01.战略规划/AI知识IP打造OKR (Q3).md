@@ -37,6 +37,42 @@ tags:
   - video-content-metrics
   - KnowledgeManagement
   - Productivity
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
 ---
 ### **OKR 拆解分析：从执行目标到战略成果**
 

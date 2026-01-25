@@ -36,6 +36,42 @@ tags:
   - templater
   - kanban
   - notification
+  - automation
+  - templater
+  - kanban
+  - notification
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - notification
+  - automation
+  - templater
+  - kanban
+  - notification
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - notification
+  - automation
+  - templater
+  - kanban
+  - notification
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - notification
+  - automation
+  - templater
+  - kanban
+  - notification
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - notification
 ---
 # Kanban智能提醒脚本
 

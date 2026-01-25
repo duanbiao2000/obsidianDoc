@@ -36,6 +36,42 @@ tags:
   - templater
   - kanban
   - task-management
+  - automation
+  - templater
+  - kanban
+  - task-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - task-management
+  - automation
+  - templater
+  - kanban
+  - task-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - task-management
+  - automation
+  - templater
+  - kanban
+  - task-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - task-management
+  - automation
+  - templater
+  - kanban
+  - task-management
+  - Type/Template
+  - automation
+  - templater
+  - kanban
+  - task-management
 ---
 # Kanban自动化脚本
 
