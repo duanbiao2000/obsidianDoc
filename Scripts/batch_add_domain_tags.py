@@ -24,6 +24,18 @@ if sys.platform == 'win32':
 # === 配置部分 ===
 VAULT_ROOT = Path(r"d:\迅雷下载\@同步文件\OneDrive\obsidianDoc")
 
+# 只处理这些笔记目录（include模式）
+INCLUDE_DIRS = [
+    "0.DailyNotes",
+    "1.Projects",
+    "2.Topics",
+    "3.Resources",
+    "4.Archives",
+    "5.Misc",
+    "6.Calendar",
+    "Atlas",
+]
+
 # Domain分类规则（基于路径）
 DOMAIN_RULES = {
     r"2\.Topics/01\.技术栈": "Domain/Technology",
@@ -274,9 +286,16 @@ def main():
     print("标签规范化批量处理脚本")
     print("=" * 60)
 
-    # 查找所有Markdown文件
+    # 只在指定的笔记目录中查找Markdown文件
     print("\n🔍 扫描Markdown文件...")
-    md_files = list(VAULT_ROOT.rglob("*.md"))
+    md_files = []
+    for dir_name in INCLUDE_DIRS:
+        dir_path = VAULT_ROOT / dir_name
+        if dir_path.exists():
+            md_files.extend(dir_path.rglob("*.md"))
+            print(f"  ✓ 扫描 {dir_name}/")
+        else:
+            print(f"  ⊙ 跳过 {dir_name}/ (目录不存在)")
 
     # 过滤出需要处理的文件（没有Domain标签的）
     files_to_process = []
@@ -289,7 +308,7 @@ def main():
         except:
             pass
 
-    print(f"📊 找到 {len(files_to_process)} 个需要处理的文件")
+    print(f"\n📊 找到 {len(files_to_process)} 个需要处理的文件")
 
     if not files_to_process:
         print("\n✅ 所有文件已规范化，无需处理！")
