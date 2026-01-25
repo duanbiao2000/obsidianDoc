@@ -8,6 +8,9 @@
 Scripts/
 ├── tags/                    # 标签管理脚本
 ├── links/                   # 链接分析脚本
+├── project_metadata_audit.py    # 项目元数据审计
+├── add_update_field.py          # 批量补充 update 字段
+├── check_project_activity.py    # 项目活跃度检查
 ├── content/                 # 内容处理脚本(预留)
 └── README.md               # 本文件
 ```
@@ -127,6 +130,95 @@ python links/find_orphan_notes.py
 ```bash
 python links/link_analyzer.py
 ```
+
+---
+
+## 🗂️ 项目元数据管理脚本
+
+### [project_metadata_audit.py](project_metadata_audit.py)
+项目元数据审计脚本 - 扫描和识别缺失的元数据字段
+
+**功能**:
+- 扫描 `1.Projects/` 目录下所有项目文件
+- 检查 YAML frontmatter 完整性（update, created, tags, status）
+- 生成详细的审计报告，按缺失字段分类
+- 统计元数据覆盖率
+
+**使用方法**:
+```bash
+# 运行审计脚本
+python project_metadata_audit.py
+```
+
+**输出文件**:
+- `项目元数据审计报告_Phase1.md` - 详细审计报告
+- 包含缺失字段清单和完整元数据矩阵
+
+**相关Issue**: [#3: 项目元数据完善与归档审计](https://github.com/duanbiao2000/obsidianDoc/issues/3)
+
+---
+
+### [add_update_field.py](add_update_field.py)
+批量为项目文件补充 update 字段
+
+**功能**:
+- 自动为缺少 `update` 字段的文件添加当前日期
+- 支持 dry-run 模式预览修改
+- 保持原有 YAML 格式和缩进
+- 自动处理 `update: null` 情况
+
+**使用方法**:
+```bash
+# 运行脚本（会先 dry-run 预览，再实际执行）
+python add_update_field.py
+```
+
+**特性**:
+- 两阶段执行：先预览所有修改，确认无误后才会实际写入
+- 安全性高：可随时中断，已修改的文件可手动回滚
+- 支持批量处理：一次性处理多个文件
+
+---
+
+### [check_project_activity.py](check_project_activity.py)
+项目活跃度检查脚本 - 识别需要归档的不活跃项目
+
+**功能**:
+- 基于 `update` 字段计算项目活跃度
+- 识别超过 90 天未更新的项目
+- 按活跃度分类：活跃（63天内）、预警（63-90天）、不活跃（>90天）
+- 生成归档建议报告
+
+**使用方法**:
+```bash
+# 运行活跃度检查
+python check_project_activity.py
+```
+
+**输出文件**:
+- `项目活跃度审计报告_Phase3.md` - 活跃度分析报告
+- 包含归档建议和项目健康度统计
+
+**自定义阈值**:
+```python
+# 编辑脚本中的阈值
+days_threshold = 90  # 归档阈值（天）
+```
+
+---
+
+### 📊 相关工具
+
+#### [项目活跃度看板](../../Atlas/Index/项目活跃度看板.md)
+使用 Dataview 实时展示项目活跃度
+
+**功能**:
+- 实时查询项目元数据
+- 按活跃度分类展示
+- 可视化项目分布
+- 识别需要关注的项目
+
+**使用**: 直接打开 `项目活跃度看板.md` 文件查看
 
 ---
 
