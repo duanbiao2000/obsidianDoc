@@ -117,7 +117,7 @@ def extract_frontmatter(content: str) -> tuple[str, str]:
     return "", content
 
 def add_tags_to_yaml(yaml_content: str, new_tags: List[str]) -> str:
-    """为YAML内容添加新标签"""
+    """为YAML内容添加新标签（修复版：避免重复）"""
     if not yaml_content.strip():
         yaml_content = "tags: []"
 
@@ -126,6 +126,7 @@ def add_tags_to_yaml(yaml_content: str, new_tags: List[str]) -> str:
     tags_start_idx = -1
     tags = []
     tags_indent = ""
+    tags_end_idx = -1  # 记录多行标签的结束位置
 
     for i, line in enumerate(lines):
         if line.strip().startswith('tags:'):
@@ -149,40 +150,49 @@ def add_tags_to_yaml(yaml_content: str, new_tags: List[str]) -> str:
                 if line.strip() == 'tags:[]':
                     tags = []
                 else:
-                    # 读取多行标签
+                    # 读取多行标签（关键修复：正确记录结束位置）
                     j = i + 1
                     while j < len(lines) and lines[j].startswith(tags_indent + '  -'):
                         tag = lines[j].split('-', 1)[1].strip().strip('"').strip("'")
                         if tag:  # 只添加非空标签
                             tags.append(tag)
                         j += 1
+                    tags_end_idx = j  # 记录多行标签的结束位置
             break
 
     # 添加新标签（去重）
     for tag in new_tags:
-        if tag not in tags:
+        if tag and tag not in tags:  # 确保 tag 不为空
             tags.append(tag)
 
-    # 重建YAML
+    # 重建YAML（关键修复：正确删除旧的多行标签）
     if tags_start_idx >= 0:
         if len(tags) == 0:
             # 保留tags行但为空
             lines[tags_start_idx] = f"{tags_indent}tags: []"
+            # 删除旧的多行标签（如果有）
+            if tags_end_idx > tags_start_idx:
+                lines = lines[:tags_start_idx + 1] + lines[tags_end_idx:]
         elif len(tags) <= 3:  # 单行格式
             tags_str = ", ".join(f'"{t}"' for t in tags)
             lines[tags_start_idx] = f"{tags_indent}tags: [{tags_str}]"
+            # 删除旧的多行标签（如果有）
+            if tags_end_idx > tags_start_idx:
+                lines = lines[:tags_start_idx + 1] + lines[tags_end_idx:]
         else:
-            # 多行格式
-            new_lines = [
-                f"{tags_indent}tags:"
-            ] + [f"{tags_indent}  - {tag}" for tag in tags]
-            # 移除旧的tags行
-            lines = lines[:tags_start_idx] + new_lines + lines[tags_start_idx + 1:]
-            # 移除旧的tags项（如果有）
-            j = tags_start_idx + 1
-            while j < len(lines) and lines[j].startswith(tags_indent + '  - '):
-                j += 1
-            lines = lines[:j] + lines[j:]
+            # 多行格式（关键修复：正确替换整个tags块）
+            if tags_end_idx > tags_start_idx:
+                # 有旧的多行标签，替换整个块
+                new_lines = [
+                    f"{tags_indent}tags:"
+                ] + [f"{tags_indent}  - {tag}" for tag in tags]
+                lines = lines[:tags_start_idx] + new_lines + lines[tags_end_idx:]
+            else:
+                # 没有旧的多行标签，直接替换单行
+                new_lines = [
+                    f"{tags_indent}tags:"
+                ] + [f"{tags_indent}  - {tag}" for tag in tags]
+                lines = lines[:tags_start_idx] + new_lines + lines[tags_start_idx + 1:]
 
         # 移除空行
         while lines and lines[-1].strip() == '':
@@ -244,21 +254,33 @@ def get_tags_from_path(filepath: Path) -> List[str]:
     return tags
 
 def process_file(filepath: Path) -> bool:
-    """处理单个文件"""
+    """处理单个文件（改进版：更好的Domain标签检测）"""
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
         yaml_content, body_content = extract_frontmatter(content)
 
-        # 检查是否已有Domain标签
-        # 支持单行格式和多行格式
-        if re.search(r'(^\s*-\s*Domain/|tags:\s*\[.*?Domain/)', yaml_content, re.MULTILINE | re.DOTALL):
+        # 检查是否已有Domain标签（改进版：更准确的检测）
+        has_domain = False
+        # 检查单行格式: tags: ["Domain/xxx", ...]
+        if re.search(r'tags:\s*\[[^\]]*?Domain/', yaml_content):
+            has_domain = True
+        # 检查多行格式: - Domain/xxx
+        elif re.search(r'^\s*-\s*Domain/', yaml_content, re.MULTILINE):
+            has_domain = True
+
+        if has_domain:
             print(f"  ⊙ {filepath.name} - 已有Domain标签，跳过")
             return False
 
         # 推断应该添加的标签
         new_tags = get_tags_from_path(filepath)
+
+        # 如果没有推断出任何标签，跳过
+        if not new_tags:
+            print(f"  ⊙ {filepath.name} - 无法推断标签，跳过")
+            return False
 
         # 添加标签
         new_yaml = add_tags_to_yaml(yaml_content, new_tags)
@@ -281,7 +303,7 @@ def process_file(filepath: Path) -> bool:
         return False
 
 def main():
-    """主函数"""
+    """主函数（改进版：更准确的文件过滤）"""
     print("=" * 60)
     print("标签规范化批量处理脚本")
     print("=" * 60)
@@ -299,16 +321,35 @@ def main():
 
     # 过滤出需要处理的文件（没有Domain标签的）
     files_to_process = []
+    skipped = 0
+
     for filepath in md_files:
+        # 跳过agent配置文件
+        if '.agent' in str(filepath) or filepath.name.startswith('.'):
+            skipped += 1
+            continue
+
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
-            if not re.search(r'tags:\s*\[.*?Domain/', content, re.DOTALL):
+
+            # 更准确的Domain标签检测
+            has_domain = False
+            # 检查单行格式
+            if re.search(r'tags:\s*\[[^\]]*?Domain/', content):
+                has_domain = True
+            # 检查多行格式
+            elif re.search(r'^\s*-\s*Domain/', content, re.MULTILINE):
+                has_domain = True
+
+            if not has_domain:
                 files_to_process.append(filepath)
         except:
-            pass
+            skipped += 1
 
     print(f"\n📊 找到 {len(files_to_process)} 个需要处理的文件")
+    if skipped > 0:
+        print(f"  ⊙ 跳过 {skipped} 个文件（已有Domain标签或无法读取）")
 
     if not files_to_process:
         print("\n✅ 所有文件已规范化，无需处理！")
