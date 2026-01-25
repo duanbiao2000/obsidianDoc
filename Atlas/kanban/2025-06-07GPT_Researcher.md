@@ -12,6 +12,14 @@ tags:
   - task-management
   - task-organization
 ---
+
+## 🔗 相关链接
+
+- **主索引**: [[Atlas/BASE/Whole Vault任务管理.md | 任务管理]]
+- **看板系统**: [[Atlas/kanban/]]
+
+---
+
 ## To Do
 
 - [ ] Task 2.1: 追蹤 conduct_research 方法的完整執行流程 (Phase 2: 研究流程深入)

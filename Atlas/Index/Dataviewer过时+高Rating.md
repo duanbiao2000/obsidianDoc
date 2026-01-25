@@ -11,6 +11,14 @@ tags:
   - table
   - dataview
 ---
+
+## 🔗 相关链接
+
+- **主索引**: [[Atlas/Index/Whole Vault任务管理.md | 任务管理]]
+- **Dataview文档**: [[Atlas/Index/Dataviewer.md | Dataview使用指南]]
+
+---
+
 最早修改
 ```dataview
 TABLE file.mtime AS "修改时间", round((date(today) - file.mtime).days) + " 天前" AS "距离今天的天数"
