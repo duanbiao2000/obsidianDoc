@@ -4,7 +4,7 @@ theme:
 source:
   - https://www.bilibili.com/video/BV13mfTYcEJg?spm_id_from=333.788.videopod.sections&vd_source=7038f96b6bb3b14743531b102b109c43
 author:
-tags:
+tags: ["Status/TODO", "Domain/Cognitive/Tools", "Type/Reference"]
   - Status/TODO
 date: 2025-05-28 22:14
 categories:
@@ -18,8 +18,6 @@ related:
   - "[[NPL语义分析]]"
   - "[[2025-12-03-specs开发阶段]]"
 ---
-
-
 1. **流程图 (Flowchart)**:
    ```mermaid
    graph TD;

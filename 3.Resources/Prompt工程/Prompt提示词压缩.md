@@ -5,6 +5,12 @@ tags:
   - token-compression
   - content-creation
   - information-structure
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - prompt-optimization
+  - token-compression
+  - content-creation
+  - information-structure
 ---
 ## ★ Prompt压缩核心目标
 

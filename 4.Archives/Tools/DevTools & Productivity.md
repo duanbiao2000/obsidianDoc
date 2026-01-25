@@ -6,8 +6,10 @@ related:
   - "[[Java SE核心内容]]"
   - "[[Tech Stack Selection Guide Build Smart Not Overcomplicated]]"
   - "[[_Index_of_技术精进]]"
----
 
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
+
+---
 # 开发者工具栈：精简指南 (ByteByteGo)
 
 **原则：人生苦短，善用工具 $\rightarrow$ 极致效率。**

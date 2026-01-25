@@ -1,5 +1,5 @@
 ---
-tags:
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
   - 
   - 
 related:
@@ -13,7 +13,6 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 ---
-
 # MOC: 思维框架类提示词
 
 本分类包含 61 个与思维框架、提问技巧、逻辑推理相关的提示词。

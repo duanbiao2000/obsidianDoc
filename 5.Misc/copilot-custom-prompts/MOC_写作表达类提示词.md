@@ -1,5 +1,5 @@
 ---
-tags:
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
   - 
   - 
 related:
@@ -12,7 +12,6 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 ---
-
 # MOC: 写作表达类提示词
 
 本分类包含 18 个与学术写作、故事创作、文案优化相关的提示词。

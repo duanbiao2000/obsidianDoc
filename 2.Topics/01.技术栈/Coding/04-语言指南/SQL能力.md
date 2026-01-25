@@ -5,6 +5,12 @@ tags:
   - performance-tuning
   - sql
   - database
+  - Domain/Technology/Database
+  - Type/Reference
+  - sql-optimization
+  - performance-tuning
+  - sql
+  - database
 ---
 ## ★ 高阶 SQL 能力总目标
 - ★ SQL专家→问题解决者

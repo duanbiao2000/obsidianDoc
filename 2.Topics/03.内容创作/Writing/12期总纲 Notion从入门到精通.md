@@ -9,8 +9,14 @@ tags:
   - KnowledgeSystemization
   - Notion-Organization
   - ContentCreation
+  - Domain/AI/ContentCreation
+  - Type/Reference
+  - Status/Mastered
+  - DigitalBrainBuilding
+  - KnowledgeSystemization
+  - Notion-Organization
+  - ContentCreation
 ---
-
 ### **第三轮：最终版提示词 (V3.0)**
 
 这是最终的、可以直接使用的、专业级的提示词。

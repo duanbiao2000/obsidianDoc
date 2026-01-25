@@ -10,8 +10,13 @@ tags:
   - stream-processing-architecture
   - data-structure
   - algorithm
+  - Type/Reference
+  - Domain/Technology
+  - real-time-data-processing
+  - stream-processing-architecture
+  - data-structure
+  - algorithm
 ---
-
 ### **25句濃縮版本**
 
 1. 這是一份將用戶行為分析平台從傳統MySQL批處理遷移至現代**實時流處理架構**的RFC。

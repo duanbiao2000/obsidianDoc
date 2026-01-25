@@ -11,8 +11,13 @@ tags:
   - commit-message-standards
   - git
   - commit-message
+  - Domain/Technology/Git
+  - Type/Reference
+  - conventional-commits-principles
+  - commit-message-standards
+  - git
+  - commit-message
 ---
-
 ## 🎯 Conventional Commits & Responses API：认知锚点库
 
 ---

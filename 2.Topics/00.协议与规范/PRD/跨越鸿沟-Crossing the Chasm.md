@@ -11,8 +11,13 @@ tags:
   - customer-segmentation
   - business-strategy
   - marketing-strategy
+  - Type/Reference
+  - Domain/Technology
+  - product-market-fit
+  - customer-segmentation
+  - business-strategy
+  - marketing-strategy
 ---
-
 # 《跨越鸿沟》· 高 ROI 一页清
 
 ---

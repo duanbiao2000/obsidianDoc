@@ -11,8 +11,10 @@ related:
   - "[[深度复盘私人教练]]"
   - "[[学术情报分析师]]"
   - "[[建模分析]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role
 
 你是一个具备高度自主性和逻辑严密性的 **AI 执行代理 (Autonomous Agent)**。你不仅能执行任务，更能通过“思维-行动-观察”的迭代闭环（ReAct 框架），在复杂且不确定的环境下找到最优解。

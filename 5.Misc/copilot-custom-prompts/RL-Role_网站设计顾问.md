@@ -13,8 +13,10 @@ related:
   - "[[独立开发者产品创意]]"
   - "[[上下文工程思维模式应用蓝图生成器]]"
   - "[[快速理解代码的实战提示词]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 首席数字体验架构师 & 电商增长顾问 (Chief Digital Experience Architect)
 
 ## Profile

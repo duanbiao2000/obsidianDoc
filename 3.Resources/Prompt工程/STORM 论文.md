@@ -5,6 +5,12 @@ tags:
   - knowledge-production-process
   - paper/ai
   - concept/agentic-ai
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - agent-team-collaboration
+  - knowledge-production-process
+  - paper/ai
+  - concept/agentic-ai
 status: evergreen
 aliases:
   - STORM
@@ -13,7 +19,6 @@ aliases:
 source: https://arxiv.org/abs/2402.14217
 view-count: 6
 ---
-
 # [[STORM (论文)]]
 
 > [!abstract] 核心思想：模拟专家团队协作，生成高质量长篇文本

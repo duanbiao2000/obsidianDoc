@@ -10,8 +10,12 @@ tags:
   - task-management
   - priority-sorting
   - Status/TODO
+  - Type/Reference
+  - Domain/Cognitive
+  - task-management
+  - priority-sorting
+  - Status/TODO
 ---
-
 ## 全部未完成任务
 
 ```tasks

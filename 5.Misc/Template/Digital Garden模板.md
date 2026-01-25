@@ -2,6 +2,6 @@
 aliases:
 date:
 update:
-tags:
+tags: ["Domain/Technology/Git", "Type/Template"]
 dg-publish: false
 ---

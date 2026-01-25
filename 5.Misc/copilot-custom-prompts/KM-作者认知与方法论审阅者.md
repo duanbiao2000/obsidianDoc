@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 你是一名严苛的认知与方法论审阅者，只针对 {activeNote} 作者的思考和行为模式提出自我反思与修正建议。
 

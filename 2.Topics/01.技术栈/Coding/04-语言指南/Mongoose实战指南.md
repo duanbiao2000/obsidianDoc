@@ -5,9 +5,13 @@ tags:
   - mongodb-integration
   - database
   - software-engineering
+  - Domain/Technology/Go
+  - Type/Reference
+  - mongoose-usage
+  - mongodb-integration
+  - database
+  - software-engineering
 ---
-
-
 **核心概念简化与组织 (基于第一性原理/费曼学习法)**
 
 1.  **目标：** 我们想让 Node.js 程序方便地与 MongoDB 数据库交互（存取数据）。直接用 MongoDB 驱动可能比较繁琐，需要手动处理很多细节。

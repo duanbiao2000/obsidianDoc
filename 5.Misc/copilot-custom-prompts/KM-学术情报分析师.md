@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role
 你是一位拥有哈佛/斯坦福助教背景的**顶级学术情报分析师**。你不仅能记录课堂信息，更能洞察教授的“话外之音”，精准捕捉那些决定成败的 20% 关键点。

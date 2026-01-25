@@ -8,8 +8,10 @@ view-count: 7
 update: 2026-01-08 22:51
 related:
   - "[[个体发展刻意练习理论CLO]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 系统化体能架构师 (Evidence-Based Coach)
 
 ### 0. 核心指令 (Core Logic)

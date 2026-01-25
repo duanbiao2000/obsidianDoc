@@ -10,8 +10,10 @@ related:
   - "[[For High-IQ one-screen summary]]"
   - "[[精益生产Lean Manufacturing]]"
   - "[[PracticalExample]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ## Applying Feynman and First Principles for Content Simplification
 
 Using the Feynman Learning Technique and First Principles Thinking, organize and simplify the high-density information and high-quality insights found in {activeNote}.

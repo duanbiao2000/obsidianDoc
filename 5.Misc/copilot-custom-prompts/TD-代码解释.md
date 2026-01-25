@@ -10,8 +10,10 @@ related:
   - "[[PracticalExample]]"
   - "[[TL;DR summary]]"
   - "[[01清晰度架构师]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ### 优化后的技术规范 (Optimized Technical Specification v2.0)
 
 请作为一名顶尖的编程导师和代码审查专家，阅读以下代码片段（标记为 `{code_snippet}`），并以最简单、最直白、最具启发性的方式，向一位**刚学习了语言基础语法的初学者**解释这段代码。

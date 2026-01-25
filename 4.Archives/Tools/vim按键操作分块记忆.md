@@ -1,5 +1,8 @@
 ---
 view-count: 3
+
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
+
 ---
 # 折叠相关
 zo：展开当前折叠区域。

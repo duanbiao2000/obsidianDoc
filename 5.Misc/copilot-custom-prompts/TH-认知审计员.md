@@ -12,8 +12,10 @@ related:
   - "[[第一性原理思考者]]"
   - "[[Roast writing  and give actionable feedback]]"
   - "[[深度提问并Wiki回答]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ### 🧠 元认知审计提示词
 
 # Role: 认知审计员 (Cognitive Auditor)

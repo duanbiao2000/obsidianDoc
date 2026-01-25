@@ -11,8 +11,15 @@
 
 import os
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List, Optional
+
+# 设置UTF-8编码输出(修复Windows控制台问题)
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 # === 配置部分 ===
 VAULT_ROOT = Path(r"d:\迅雷下载\@同步文件\OneDrive\obsidianDoc")
@@ -116,18 +123,27 @@ def add_tags_to_yaml(yaml_content: str, new_tags: List[str]) -> str:
             if match:
                 tags_indent = match.group(1)
             # 解析现有标签
-            if '[' in line:
+            # 检查是否是完整的单行格式: tags: [tag1, tag2]
+            inline_match = re.match(r'tags:\s*\[(.*)\]$', line)
+            if inline_match:
                 # 单行格式: tags: [tag1, tag2]
-                tags_match = re.search(r'tags:\s*\[(.*?)\]', line)
-                if tags_match:
-                    tags = [t.strip().strip('"').strip("'") for t in tags_match.group(1).split(',')]
+                tags_content = inline_match.group(1).strip()
+                if tags_content:
+                    tags = [t.strip().strip('"').strip("'") for t in tags_content.split(',')]
+                else:
+                    tags = []
             else:
-                # 多行格式
-                j = i + 1
-                while j < len(lines) and lines[j].startswith(tags_indent + '  -'):
-                    tag = lines[j].split('-', 1)[1].strip().strip('"').strip("'")
-                    tags.append(tag)
-                    j += 1
+                # 多行格式或空列表
+                if line.strip() == 'tags:[]':
+                    tags = []
+                else:
+                    # 读取多行标签
+                    j = i + 1
+                    while j < len(lines) and lines[j].startswith(tags_indent + '  -'):
+                        tag = lines[j].split('-', 1)[1].strip().strip('"').strip("'")
+                        if tag:  # 只添加非空标签
+                            tags.append(tag)
+                        j += 1
             break
 
     # 添加新标签（去重）
@@ -224,8 +240,9 @@ def process_file(filepath: Path) -> bool:
         yaml_content, body_content = extract_frontmatter(content)
 
         # 检查是否已有Domain标签
-        if re.search(r'tags:\s*\[.*?Domain/', yaml_content, re.DOTALL):
-            print(f"  ✓ {filepath.name} - 已有Domain标签，跳过")
+        # 支持单行格式和多行格式
+        if re.search(r'(^\s*-\s*Domain/|tags:\s*\[.*?Domain/)', yaml_content, re.MULTILINE | re.DOTALL):
+            print(f"  ⊙ {filepath.name} - 已有Domain标签，跳过")
             return False
 
         # 推断应该添加的标签
@@ -236,7 +253,7 @@ def process_file(filepath: Path) -> bool:
 
         # 重建文件内容
         if new_yaml.strip():
-            new_content = f"---\n{new_yaml}---\n{body_content}"
+            new_content = f"---\n{new_yaml}\n---\n{body_content}"
         else:
             new_content = body_content
 

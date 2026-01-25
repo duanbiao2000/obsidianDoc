@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 5
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 针对高智商技术专业人士（High-IQ Tech Professionals）优化的 **Brutally Minimal** 版本。将苏格拉底教学法转化为“双阶段认知压力测试流水线”。
 

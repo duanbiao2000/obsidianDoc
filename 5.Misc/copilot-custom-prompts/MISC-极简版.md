@@ -10,6 +10,8 @@ related:
   - "[[quick recap in two sentences]]"
   - "[[笔记核心要点速览]]"
   - "[[Compare&Contrast]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 将{activeNote}改写为brutally minimal风格

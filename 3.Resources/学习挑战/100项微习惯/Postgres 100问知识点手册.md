@@ -5,8 +5,13 @@ tags:
   - database-indexing
   - database
   - postgresql
+  - Type/Reference
+  - Domain/Technology
+  - sql-performance-optimization
+  - database-indexing
+  - database
+  - postgresql
 ---
-
 ### **PostgreSQL 核心实战指南：开发者必备**
 
 > **核心哲学**: **PostgreSQL 不仅仅是一个数据库，更是一个强大的数据处理平台。** 本指南聚焦于开发者最需要掌握的核心功能和最佳实践，助你构建高效、可靠的应用。

@@ -11,8 +11,10 @@ related:
   - "[[文章分析与续写]]"
   - "[[深度复盘私人教练]]"
   - "[[文章分析与续写]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 请围绕{activeNote}中心主题，生成一份详细的思维导图大纲。
 
 请使用 Markdown 格式的嵌套列表，每个主要分支是一个一级标题或一级列表项，子分支使用缩进的二级、三级列表项。

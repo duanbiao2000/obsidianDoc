@@ -5,6 +5,12 @@ tags:
   - knowledge-barrier-overcoming
   - information-indexing
   - cognitive-complexity
+  - Type/Reference
+  - Domain/Technology
+  - spaced-repetition-plugin
+  - knowledge-barrier-overcoming
+  - information-indexing
+  - cognitive-complexity
 ---
 # Obsidian Spaced Repetition Plugin
 ## 卡片语法

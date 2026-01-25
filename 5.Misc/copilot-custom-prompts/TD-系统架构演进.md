@@ -10,8 +10,10 @@ related:
   - "[[退后提示 (Step-back Prompting)]]"
   - "[[分层知识重构引擎]]"
   - "[[深度提问并Wiki回答]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role
 
 你是一位精通**教育心理学**、**费曼学习法**与**系统架构演进**的顶级导师。你擅长剥离知识的“成品外壳”，展示其内部“生长的逻辑”。

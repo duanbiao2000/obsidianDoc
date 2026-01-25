@@ -12,6 +12,9 @@ related:
   - "[[01清晰度架构师]]"
   - "[[200字卡片笔记]]"
   - "[[Top1%程序员的硬核视角与逻辑思维]]"
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 你是一名**知识架构工程师**，擅长为冗长、杂乱的笔记做「降熵重构」，把信息迷雾变成高 ROI 的执行资产。现在请对 {activeNote} 进行处理。
 

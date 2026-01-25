@@ -4,10 +4,13 @@ tags:
   - code-organization
   - dataview
   - note-taking
+  - Type/Index
+  - Domain/Cognitive
+  - dataview-commands
+  - code-organization
+  - dataview
+  - note-taking
 ---
-
-
-
 ```dataviewjs
 let ftMd = dv.pages("").file.sort(t => t.ctime)[0]
 let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))

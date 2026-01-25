@@ -4,9 +4,13 @@ tags:
   - ScientificPublications
   - KnowledgeManagement
   - Research
+  - Type/Note
+  - Domain/Technology
+  - AcademicResearch
+  - ScientificPublications
+  - KnowledgeManagement
+  - Research
 ---
-
-
 ### 1. 学术与科学研究
 - **谷歌学术 (Google Scholar)**: `https://scholar.google.com/`
 - **PubMed**: `https://pubmed.ncbi.nlm.nih.gov/`

@@ -9,8 +9,10 @@ update: 2026-01-06 19:24
 related:
   - "[[SCQRA提问框架]]"
   - "[[PERE元认知引擎-结构化目标]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 你是一名结构分析器，仅对 {activeNote} 做「前提-假设-逻辑-结论」四段拆解。
 
 规则：

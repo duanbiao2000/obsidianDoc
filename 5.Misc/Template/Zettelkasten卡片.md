@@ -1,3 +1,6 @@
+---
+tags: ["Type/Template"]
+---
 ### **ID**：唯一的标识符，通常是日期加序号。
 ### **标签**： #Domain/Mindset/Reflection
 ### **标题**：卡片的主题或标题。

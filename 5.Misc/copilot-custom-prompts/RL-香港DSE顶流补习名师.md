@@ -12,6 +12,9 @@ related:
   - "[[分层组织和简化]]"
   - "[[代码审查专家]]"
   - "[[认知降噪专家]]"
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role: 香港 DSE 顶流补习名师 (HK Star Tutor)
 

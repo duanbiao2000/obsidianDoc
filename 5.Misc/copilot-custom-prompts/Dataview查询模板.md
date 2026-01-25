@@ -1,5 +1,5 @@
 ---
-tags:
+tags: ["Domain/AI/PromptEngineering", "Type/Template"]
   - 
   - 
 related:
@@ -11,7 +11,6 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 ---
-
 # Dataview 查询模板
 
 > 本文件包含各种用于检索 Copilot 提示词的 Dataview 查询示例。

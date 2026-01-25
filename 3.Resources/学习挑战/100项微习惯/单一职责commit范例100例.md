@@ -8,12 +8,19 @@ tags:
   - Testing
   - Refactoring
   - Performance
+  - Type/Reference
+  - Domain/Technology
+  - yaml-parser-improvement
+  - dependency-validation
+  - Documentation
+  - Testing
+  - Refactoring
+  - Performance
 source: null
 update: null
 rating: null
 related: null
 ---
-
 ## 一、Docs（文档类，20 条）
 
 1. `docs: add code review report for yaml parser`

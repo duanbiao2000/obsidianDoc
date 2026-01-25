@@ -5,6 +5,12 @@ tags:
   - object-orientation
   - python
   - programming
+  - Domain/Technology/Python
+  - Type/Reference
+  - pythonic-coding
+  - object-orientation
+  - python
+  - programming
 view-count: 3
 ---
 ### 一、 语法层面：超越规则，拥抱 `Pythonic` 思维

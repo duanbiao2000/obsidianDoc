@@ -10,8 +10,13 @@ tags:
   - content-strategy
   - content-creation
   - productivity
+  - Type/Reference
+  - Domain/Technology
+  - technical-writing-sop
+  - content-strategy
+  - content-creation
+  - productivity
 ---
-
 ## 技术博客写作与发布 SOP：从“创作”到“工程”
 
 **核心目标：** 建立标准化流水线，消除灵感依赖，确保高频、高质量内容产出。

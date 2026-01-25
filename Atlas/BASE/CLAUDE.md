@@ -4,8 +4,13 @@ tags:
   - system-governance
   - metadata-management
   - base-configuration
+  - Type/Reference
+  - Domain/Cognitive
+  - knowledge-base-structure
+  - system-governance
+  - metadata-management
+  - base-configuration
 ---
-
 # CLAUDE.md - Atlas BASE系统
 
 ## 系统概述

@@ -1,4 +1,7 @@
 ---
+tags: ["Type/Reference", "Domain/Technology"]
+---
+---
 tags:
   - knowledge-base-structure
   - cognitive-science

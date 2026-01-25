@@ -1,5 +1,5 @@
 ---
-tags:
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
   - 
   - 
 related:
@@ -12,7 +12,6 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 ---
-
 # MOC: 技术开发类提示词
 
 本分类包含 19 个与代码理解、系统架构、技术开发相关的提示词。

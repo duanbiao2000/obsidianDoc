@@ -10,8 +10,10 @@ related:
   - "[[01清晰度架构师]]"
   - "[[上下文工程专家]]"
   - "[[Roast writing  and give actionable feedback]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 深度文本架构师
 
 ## Objective

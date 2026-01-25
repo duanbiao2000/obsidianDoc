@@ -11,8 +11,13 @@ tags:
   - learning-progress-tracking
   - Documentation
   - SystemDesign
+  - Domain/AI/ContentCreation
+  - Type/Reference
+  - course-structure
+  - learning-progress-tracking
+  - Documentation
+  - SystemDesign
 ---
-
 构建「结构化课程/训练营体系」的 Notion 系统，目标是实现以下四个核心能力：
 
 1. **模块化课程内容组织（结构清晰、可复用）**

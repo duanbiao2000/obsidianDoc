@@ -1,5 +1,7 @@
 ---
 view-count: 5
+
+tags: ["Type/Reference"]
 ---
 <% content %>
 

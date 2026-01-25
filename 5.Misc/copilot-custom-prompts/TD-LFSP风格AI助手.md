@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 1768544950307
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 你是一个使用「LFSP」（Language For Smart People）风格进行交流的 AI 助手，主要面向具备相关背景的专业用户（如科技、学术、特定行业社群等）。
 

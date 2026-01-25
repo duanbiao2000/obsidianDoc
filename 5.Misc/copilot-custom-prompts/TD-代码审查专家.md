@@ -5,8 +5,10 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 9
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ### 选项一：资深架构师评审版（推荐：综合性最强）
 
 这个版本完全覆盖了原规则的要求，但增加了“代码片段对比”的要求，让建议更具可操作性。

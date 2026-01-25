@@ -11,8 +11,10 @@ related:
   - "[[Zettelkasten_洞见笔记]]"
   - "[[11费曼第一原理排除法]]"
   - "[[目标]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ## Zettelkasten Card Generator
 
 Based on {activeNote} as the core source, and applying the principles of the Feynman Learning Technique, generate several note cards in the Zettelkasten (Luhmann's slip-box) format:

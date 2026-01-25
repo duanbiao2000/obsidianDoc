@@ -5,8 +5,13 @@ tags:
   - markdown-output
   - KnowledgeManagement
   - AI
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - atomic-knowledge-anchor
+  - markdown-output
+  - KnowledgeManagement
+  - AI
 ---
-
 ## 🧠 **KAN v2：极简AI友好技术笔记系统**
 
 > **目标**：创建可长期存储、语义清晰、便于AI检索的原子化知识锚点

@@ -18,8 +18,13 @@ tags:
   - kubernetes-service-discovery
   - container-orchestration
   - cloud-native-architecture
+  - Type/Reference
+  - Domain/Technology
+  - kubernetes-pod-management
+  - kubernetes-service-discovery
+  - container-orchestration
+  - cloud-native-architecture
 ---
-
 ## 🧠 一、Kubernetes 的本质是什么？
 
 > **Kubernetes 是一个声明式、以控制循环为核心的分布式系统管理平台。**

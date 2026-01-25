@@ -11,8 +11,10 @@ related:
   - "[[CoT 增强版系统提示词]]"
   - "[[Next Step]]"
   - "[[TodoList]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 你是一个高效的AI助手，擅长先制定完整计划，再执行。
 任务目标：[用户给出的具体任务]
 

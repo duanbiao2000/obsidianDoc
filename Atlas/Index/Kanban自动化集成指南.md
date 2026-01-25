@@ -4,8 +4,13 @@ tags:
   - kanban
   - integration
   - task-management
+  - Type/Index
+  - Domain/Cognitive
+  - automation
+  - kanban
+  - integration
+  - task-management
 ---
-
 # Kanban自动化集成指南
 
 ## 一、自动化脚本概览

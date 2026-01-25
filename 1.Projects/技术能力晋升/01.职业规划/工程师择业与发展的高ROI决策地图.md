@@ -12,8 +12,39 @@ tags:
   - tech-giants-analysis
   - agent-architecture
   - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
+  - Type/Reference
+  - company-culture-matching
+  - tech-giants-analysis
+  - agent-architecture
+  - devops
 ---
-
 # 🏢 Tech Giants: 工程师生存法则与组织基因
 
 > **核心价值 (The 20%)**：选公司不是选福利，而是选**“痛苦的类型”**。每种组织模型都是一套精密的**并发控制算法**，你必须确认你的 CPU（性格/能力）是否兼容这套算法。

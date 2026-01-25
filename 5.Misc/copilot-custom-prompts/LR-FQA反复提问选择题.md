@@ -5,8 +5,10 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 15
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # 📝 Prompt: Deep Learning Assessor
 
 **Role**: Expert Learning Scientist (15y exp).

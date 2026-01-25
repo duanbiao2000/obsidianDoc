@@ -6,12 +6,17 @@ tags:
   - large-scale-system-design
   - AI
   - Algorithm
+  - Type/Reference
+  - Domain/Technology
+  - bilibili-recommendation-system
+  - large-scale-system-design
+  - AI
+  - Algorithm
 source: null
 update: null
 rating: null
 related: null
 ---
-
 明白了。现在设计 **B站推荐系统** —— 包含推荐算法。这是一个比秒杀系统 **复杂度更高、涉及ML的大型系统**。
 
 在开始前，我需要澄清几个关键问题，以便精准设计方案：

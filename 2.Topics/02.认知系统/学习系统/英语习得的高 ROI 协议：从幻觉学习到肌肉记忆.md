@@ -6,6 +6,12 @@ tags:
   - memory-reinforcement
   - english-learning
   - language-acquisition
+  - Type/Reference
+  - Domain/Technology
+  - language-protocol
+  - memory-reinforcement
+  - english-learning
+  - language-acquisition
 source: null
 view-count: 7
 rating: 10
@@ -16,7 +22,6 @@ related:
   - '[[2.Topics/Deeplife/思想工具模板库]]'
   - '[[2025-12-13-学习知识库架构]]'
 ---
-
 # 英语习得的高 ROI 协议：从幻觉学习到肌肉记忆
 
 ## 1. 核心逻辑：二八定律与输出驱动

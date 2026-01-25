@@ -10,8 +10,10 @@ related:
   - "[[TL;DR summary]]"
   - "[[PERE元认知引擎-结构化目标]]"
   - "[[ROI重构]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 **任务**：请作为我的心理认知助手，分析这段笔记：{activeNote}。
 
 **核心指令**：不要只关注字面意思，请通过以下三个维度进行语义解码，帮助我提升自我认知：

@@ -9,6 +9,38 @@ tags:
   - technical-leadership
   - role-engineer
   - role-founder
+  - Type/Reference
+  - career-growth-path
+  - technical-leadership
+  - role-engineer
+  - role-founder
+  - career-growth-path
+  - technical-leadership
+  - role-engineer
+  - role-founder
+  - Type/Reference
+  - career-growth-path
+  - technical-leadership
+  - role-engineer
+  - role-founder
+  - career-growth-path
+  - technical-leadership
+  - role-engineer
+  - role-founder
+  - Type/Reference
+  - career-growth-path
+  - technical-leadership
+  - role-engineer
+  - role-founder
+  - career-growth-path
+  - technical-leadership
+  - role-engineer
+  - role-founder
+  - Type/Reference
+  - career-growth-path
+  - technical-leadership
+  - role-engineer
+  - role-founder
 ---
 ## IC 职级演进 ROI 优化：[[IC 职级演进]]
 

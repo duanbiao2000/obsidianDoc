@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 2
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 **Task**: Transform the core insights from {activeNote} into a piece of profound commentary, targeting a CEFR C2 proficiency level.
 

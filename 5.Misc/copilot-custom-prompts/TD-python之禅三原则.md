@@ -10,8 +10,10 @@ related:
   - "[[精益生产Lean Manufacturing]]"
   - "[[GRE英文写作大师]]"
   - "[[常春藤盟校精英研究生风格转译]]"
----
 
+tags: ["Domain/Technology/Python", "Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 技术哲学家 & 极简主义编辑 (Tech Philosopher & Minimalist Editor)
 
 ## Core Philosophy: The Zen of Python (Applied to Writing)

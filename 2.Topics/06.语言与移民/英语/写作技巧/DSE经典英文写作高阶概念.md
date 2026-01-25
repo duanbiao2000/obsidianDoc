@@ -1,13 +1,12 @@
 ---
 aliases: null
 date: '2026-01-24'
-tags: null
+tags: ["Type/Reference", "Domain/Technology"]
 source: null
 rating: null
 related: null
 view-count: null
 ---
-
 除了**无灵主语**，DSE Level 5** 写作中还有几个核心的“高阶概念”。掌握这些不仅能提升句式的复杂度，更能展现出考生的**批判性思维**和**学术素养**，这是考官极其看重的“质感”。
 
 以下是五大必杀技：

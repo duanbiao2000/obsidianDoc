@@ -5,9 +5,13 @@ tags:
   - information-density
   - KnowledgeManagement
   - AI
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - semantic-safety
+  - information-density
+  - KnowledgeManagement
+  - AI
 ---
-
-
 > **先保语义安全 & 行为稳定 → 再追求 Token 节省**
 
 可以拆成几类因素来看。

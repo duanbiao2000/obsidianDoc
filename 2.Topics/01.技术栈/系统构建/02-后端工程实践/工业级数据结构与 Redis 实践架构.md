@@ -6,6 +6,12 @@ tags:
   - AdaptiveEncoding
   - DataStorage
   - Performance
+  - Type/Reference
+  - Domain/Technology
+  - RedisOptimization
+  - AdaptiveEncoding
+  - DataStorage
+  - Performance
 related:
   - '[[Rust生产级综合开发技能学习系统提示词模板]]'
   - '[[Python 系统设计 6 小时突破方案]]'
@@ -13,7 +19,6 @@ related:
   - '[[PostgreSQL开发者实战指南]]'
   - '[[高阶开发权衡框架]]'
 ---
- 
 ## 工业级数据结构与 Redis 实践架构 (ROI 优化版)
 
 **核心逻辑：** 弥补课本理论与工程实践的鸿沟。通过**自适应编码**平衡内存与性能，利用 **Lua 脚本**保障分布式原子性，采用 **Cache-Aside** 降低数据库负载。

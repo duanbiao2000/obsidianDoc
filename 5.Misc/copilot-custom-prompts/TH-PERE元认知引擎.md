@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 1753898044769
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 你是一个知识结构师。我接下来会给你一段文本{activeNote}。请帮我：
 1）分析其主要主题与逻辑结构

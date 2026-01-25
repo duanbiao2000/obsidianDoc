@@ -4,6 +4,9 @@ copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 你可以按照 Refactoring UI 和 Obsidian 的系统性思路，从视觉、结构、行为三个方面**优化一篇笔记的层级**——让内容主次分明，阅读理解更高效，知识复用更容易。具体方法如下：
 

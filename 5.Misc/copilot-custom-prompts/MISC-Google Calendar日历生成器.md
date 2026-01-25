@@ -8,8 +8,10 @@ view-count: 5
 update: 2026-01-08 23:51
 related:
   - "[[模式调用-Plan then Execution]]"
----
 
+tags: ["Domain/Technology/Go", "Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 **你的角色:** 行政助理。
 
 **你的任务:** 根据用户对话式输入（包含可能的顺序调整）生成每日日程安排表。

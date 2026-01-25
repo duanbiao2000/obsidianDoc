@@ -5,8 +5,39 @@ tags:
   - video-content-metrics
   - KnowledgeManagement
   - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
+  - Type/Reference
+  - okr-strategy
+  - video-content-metrics
+  - KnowledgeManagement
+  - Productivity
 ---
-
 ### **OKR 拆解分析：从执行目标到战略成果**
 
 #### **第一步：将执行目标升级为战略目标 (Objective)**

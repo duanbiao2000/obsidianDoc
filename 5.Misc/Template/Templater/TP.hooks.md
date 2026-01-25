@@ -1,6 +1,6 @@
 ---
 key: value
-tags: Status/TODO
+tags: ["Type/Template"]
 view-count: 3
 ---
 // Update frontmatter after template finishes executing

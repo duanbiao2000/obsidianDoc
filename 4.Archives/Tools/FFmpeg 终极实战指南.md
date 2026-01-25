@@ -4,6 +4,9 @@ related:
   - "[[视频质量评定手册]]"
   - "[[剪辑技能核心技术栈]]"
   - "[[Prompt管理科学]]"
+
+tags: ["Domain/Cognitive/Tools", "Type/Reference"]
+
 ---
 # FFmpeg 视频压缩 · 无脑上手一页清
 

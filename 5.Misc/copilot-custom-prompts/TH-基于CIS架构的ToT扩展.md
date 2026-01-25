@@ -9,8 +9,10 @@ update: 2026-01-08 23:22
 related:
   - "[[TL;DR summary]]"
   - "[[C-level知识架构顾问-Fits-in核查]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Mission: 基于 CIS 架构的 ToT 扩展
 
 **Step 1: 层级扫描 (Branching)**

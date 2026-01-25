@@ -6,6 +6,9 @@ copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 10
 related:
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; author: 段彪

@@ -5,8 +5,10 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 2
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 ## 版本三：跨界策略顾问模式（AI-Augmented Strategic Advisor Embodiment）
 
 ```

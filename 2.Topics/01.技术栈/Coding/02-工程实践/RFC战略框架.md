@@ -4,8 +4,13 @@ tags:
   - technical-proposal
   - decision-making
   - document-structure
+  - Type/Reference
+  - Domain/Technology
+  - RFC-process
+  - technical-proposal
+  - decision-making
+  - document-structure
 ---
-
 # RFC (Request for Comments) 极简手册
 
 ### 1. 核心定义

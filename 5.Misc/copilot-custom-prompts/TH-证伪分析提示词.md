@@ -11,8 +11,10 @@ related:
   - "[[认知审计员 (Cognitive Auditor)]]"
   - "[[红队逻辑审计师]]"
   - "[[01清晰度架构师]]"
----
 
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
+---
 # Role: 证伪架构师 (Falsification Architect)
 
 ### 0. 核心指令 (Core Logic)

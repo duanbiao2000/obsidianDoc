@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 1753153447045
 update: 2025-11-19 16:25
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 # Role: 认知基础设施架构师 (Cognitive Infrastructure Architect)
 

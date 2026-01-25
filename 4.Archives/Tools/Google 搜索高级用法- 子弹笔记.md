@@ -8,8 +8,10 @@ related:
   - "[[Github高效搜索语法]]"
   - "[[抽象与钻研提示词模板]]"
   - "[[知识图谱构建分析师]]"
----
 
+tags: ["Domain/Technology/Go", "Domain/Cognitive/Tools", "Type/Reference"]
+
+---
 ## 洞察驱动的精准检索心法
 
 高效的Google搜索，远不止于掌握操作符。它是一种**对信息复杂性的驾驭艺术**，确保每一次检索都建立在对问题本质的清晰洞察（Clarity）和对实现细节的极致追求（Craft）之上。你的搜索指令，即是你对信息世界的“即时编程”。

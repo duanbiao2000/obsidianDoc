@@ -5,8 +5,13 @@ tags:
   - prompt-engineering-principles
   - kanban
   - task-management
+  - Type/Reference
+  - Domain/Cognitive
+  - langgraph-integration
+  - prompt-engineering-principles
+  - kanban
+  - task-management
 ---
-
 ## ROADMAP
 
 - [ ] 精通 LangGraph 节点模型与边逻辑设计（8h | ★★★★★）

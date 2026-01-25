@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 5
+
+tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 这是一个为您设计的**结构化提示词（Prompt）**。它将“上下文工程”的理念转化为一段可执行的指令，旨在让LLM在正式开始对话前，先对`{activeNote}`进行深度的理解、压缩和逻辑重组。
 

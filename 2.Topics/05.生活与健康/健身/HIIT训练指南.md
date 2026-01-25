@@ -6,6 +6,12 @@ tags:
   - work-recovery-ratio
   - fitness
   - exercise
+  - Type/Reference
+  - Domain/Technology
+  - bioenergetic-timing
+  - work-recovery-ratio
+  - fitness
+  - exercise
 source: null
 update: null
 rating: null

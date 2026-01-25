@@ -8,8 +8,13 @@ tags:
   - developer-guidance
   - product-management
   - task-creation
+  - Type/Reference
+  - Domain/Technology
+  - markdown-documentation
+  - developer-guidance
+  - product-management
+  - task-creation
 ---
-
 # 规则：从 PRD 生成任务列表
 
 ## 目标

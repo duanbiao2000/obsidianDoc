@@ -5,6 +5,12 @@ tags:
   - multilevel-learning
   - academic-research
   - cognitive-science
+  - Type/Reference
+  - Domain/Technology
+  - knowledge-guidance-model
+  - multilevel-learning
+  - academic-research
+  - cognitive-science
 ---
 ### 通用知识指导模型
 

@@ -5,6 +5,12 @@ tags:
   - llm-automation
   - KnowledgeManagement
   - NoteTaking
+  - Type/Reference
+  - Domain/Technology
+  - advanced-filters
+  - llm-automation
+  - KnowledgeManagement
+  - NoteTaking
 ---
 以下是 [[Obsidian Base 100练]] 的极简改写版本：
 

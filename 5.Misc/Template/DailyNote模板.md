@@ -1,13 +1,12 @@
 ---
 date: {{date}}
-tags:
+tags: ["#Type/DailyNote", "#Status/Active", "Type/Template"]
   - #Type/DailyNote
   - #Status/Active
 mood:
 energy_level:
 weather:
 ---
-
 ## 🎯 核心问题：今天最重要的 3 件事是什么？
 
 1.

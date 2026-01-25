@@ -8,9 +8,14 @@ tags:
   - agent-roles
   - prompt-engineering
   - specification
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - workflow-design
+  - agent-roles
+  - prompt-engineering
+  - specification
 rating: 10
 ---
-
 ## 一、阶段 0：Prompt（当下主流，但天生不稳）
 
 ### Prompt 的真实定位

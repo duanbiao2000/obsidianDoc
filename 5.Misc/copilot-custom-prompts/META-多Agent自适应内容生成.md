@@ -5,6 +5,9 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 view-count: 2
+
+tags: ["Domain/AI/Agent", "Domain/AI/PromptEngineering", "Type/Reference"]
+
 ---
 针对{activeNote}的内容,选择你认为最合适的1-3项agent进行内容生成
 
