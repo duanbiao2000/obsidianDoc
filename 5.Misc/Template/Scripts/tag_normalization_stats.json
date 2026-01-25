@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-01-25T13:41:12.166303",
+  "phase": "all",
+  "dry_run": true,
+  "stats": {
+    "total_files": 0,
+    "updated_files": 0,
+    "deleted_tags": 0,
+    "replaced_tags": 0,
+    "errors": []
+  }
+}
