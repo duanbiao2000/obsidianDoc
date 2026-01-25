@@ -8,7 +8,7 @@ tags:
   - Spring
   - Type/Reference
 source: null
-update: null
+update: 2025-12-06
 rating: null
 related:
   - '[[如何快速有效获取特定领域知识]]'
