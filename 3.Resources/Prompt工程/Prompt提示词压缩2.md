@@ -7,10 +7,6 @@ tags:
   - AI
   - Domain/AI/PromptEngineering
   - Type/Reference
-  - semantic-safety
-  - information-density
-  - KnowledgeManagement
-  - AI
 ---
 > **先保语义安全 & 行为稳定 → 再追求 Token 节省**
 

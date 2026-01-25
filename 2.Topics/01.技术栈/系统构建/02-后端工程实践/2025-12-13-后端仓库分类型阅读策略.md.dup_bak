@@ -1,0 +1,82 @@
+---
+view-count: 4
+tags:
+  - backend-architecture
+  - repository-navigation
+  - code-quality
+  - software-engineering
+  - Type/Reference
+  - Domain/Technology
+  - backend-architecture
+  - repository-navigation
+  - code-quality
+  - software-engineering
+---
+# [[2025-12-13-后端仓库分类型阅读策略]] - 极简协议
+
+---
+
+## 1. 仓库类型决策矩阵
+
+| 维度 | 后端框架 (Framework) | 业务服务 (Business) | 中间件/库 (Library) |
+| :--- | :--- | :--- | :--- |
+| **本质** | 编程模型与工具集 | 解决具体商业问题 | 通用技术能力 (如 ORM) |
+| **核心交互** | 扩展点 (Hooks/DI) | 业务流 (Use Cases) | 抽象接口 + 适配器 |
+| **关注点** | 开发者体验 (DX) | 可靠性与业务规则 | 性能与兼容性 |
+
+---
+
+## 2. 三大阅读协议
+
+### A. 框架仓库：找“骨架”
+- **核心逻辑**: 识别框架在哪里允许注入代码。
+- **关键路径**: `Middleware` (生命周期) -> `Decorators` (元数据) -> `Signals/Hooks` (事件)。
+- **切入点**: `examples/`。通过官方示例反推框架如何解析请求与分发路由。
+
+### B. 业务服务：走“流程”
+- **核心逻辑**: 追踪数据从 API 进入到数据库落地的全路径。
+- **架构层级**: `API` (接口) -> `Application` (编排) -> `Domain` (规则) -> `Infrastructure` (持久化)。
+- **切入点**: `tests/integration/`。集成测试是业务逻辑的最佳描述文件。
+
+### C. 中间件/库：看“适配”
+- **核心逻辑**: 理解单一抽象接口如何支持多种后端实现。
+- **关键路径**: `Abstract Interface` -> `Adapters/Drivers` (Redis, RabbitMQ, etc.)。
+- **切入点**: `benchmarks/`。性能数据决定了其设计的取舍。
+
+---
+
+## 3. 极简阅读顺序清单
+
+| 优先级 | 框架 (Framework) | 业务服务 (Service) | 中间件/库 (Library) |
+| :--- | :--- | :--- | :--- |
+| **1 (5min)** | `examples/` | `README` + `Architecture.md` | `Core Interface` (抽象类) |
+| **2 (20min)** | `Core Routing` | `domain/models.py` | `Adapters/` (具体实现) |
+| **3 (1h)** | `Middleware/DI` | `tests/integration/` | `benchmarks/` |
+
+---
+
+## 4. 性能红线 (Focus)
+
+- **Framework**: 启动时间、请求上下文开销、DI 性能。
+- **Business**: 数据库 N+1、事务原子性、分布式一致性。
+- **Library**: 吞吐量 (TPS)、延迟 (P99)、内存分配效率。
+
+---
+
+## 5. 学习自测 (Checklist)
+
+### 框架型
+- [ ] 能否实现一个自定义中间件？
+- [ ] 是否掌握其 ORM 的延迟加载机制？
+
+### 业务型
+- [ ] 能否画出核心业务的 API-to-DB 流程图？
+- [ ] 是否识别出业务逻辑中的“不变量” (Domain Rules)？
+
+### 工具型
+- [ ] 能否编写一个新的适配器 (Backend)？
+- [ ] 是否理解其并发/连接池的管理策略？
+
+---
+
+**最后更新: 2026-01-01**

@@ -1,0 +1,44 @@
+---
+view-count: 5
+tags:
+  - discrete-event-simulation
+  - micro-macro-emergence
+  - system-thinking
+  - simulation
+  - Type/Reference
+  - Domain/Technology
+  - discrete-event-simulation
+  - micro-macro-emergence
+  - system-thinking
+  - simulation
+---
+# 复杂系统行为仿真：极简模型指南
+
+---
+
+### 一、 核心本质
+**仿真模型 = 系统的“平行时空”测试场**。
+目标：通过 **离散事件仿真 (DES)** 捕捉微观动作引发的 **宏观涌现 (Emergence)** 与非线性瓶颈。
+
+### 二、 三大核心实体 (Actors)
+- **请求发生器 (Generator)**：模拟用户负载（如泊松分布、阶梯增长）。
+- **服务单元 (Service)**：抽象处理能力（CPU/内存）、延迟特性及依赖拓扑。
+- **资源池 (Resource Pool)**：模拟共享瓶颈（DB 连接数、缓存容量、IO 队列）。
+
+### 三、 运作机制 (Mechanisms)
+- **事件驱动队列**：基于时间轴驱动“请求到达”、“处理完成”、“故障触发”等事件。
+- **级联策略**：模拟 RPC 同步调用、消息队列异步解耦、熔断与重试逻辑。
+- **分布式追踪**：透传 Trace ID，计算端到端 P99 延迟及瓶颈位置。
+
+### 四、 关键评估维度
+- **性能界限**：P50/P90/P99 延迟分布、最大吞吐量 (QPS)。
+- **系统韧性**：模拟故障注入（Service Down），分析故障传播路径与恢复时长。
+- **伸缩效率**：验证弹性伸缩 (Autoscaling) 规则在流量激增时的滞后性与有效性。
+
+### 五、 极简技术栈
+- **核心库**：`SimPy` (Python) 或 `Go` 并发原语。
+- **数学模型**：马尔可夫链 (状态切换)、排队论 (队列堆积)。
+- **验证方法**：回溯历史生产数据 (Backtesting) 校准仿真精度。
+
+### 六、 极简金句
+**仿真不是为了复现已知的过去，而是为了预测未发生的极限。**

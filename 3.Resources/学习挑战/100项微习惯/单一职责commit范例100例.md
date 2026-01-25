@@ -10,12 +10,6 @@ tags:
   - Performance
   - Type/Reference
   - Domain/Technology
-  - yaml-parser-improvement
-  - dependency-validation
-  - Documentation
-  - Testing
-  - Refactoring
-  - Performance
 source: null
 update: null
 rating: null

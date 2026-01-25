@@ -7,10 +7,6 @@ tags:
   - KnowledgeManagement
   - Domain/AI/PromptEngineering
   - Type/Reference
-  - embodied-prompts-generator
-  - prompt-template-creation
-  - System/DG/HighValue-Chest
-  - KnowledgeManagement
 rating: 10
 view-count: 5
 update: 2026-01-06 19:14

@@ -7,10 +7,6 @@ tags:
   - concept/agentic-ai
   - Domain/AI/PromptEngineering
   - Type/Reference
-  - agent-team-collaboration
-  - knowledge-production-process
-  - paper/ai
-  - concept/agentic-ai
 status: evergreen
 aliases:
   - STORM

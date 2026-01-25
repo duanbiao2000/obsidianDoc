@@ -8,11 +8,6 @@ tags:
   - AI
   - Domain/AI/Agent
   - Type/Reference
-  - game-mechanics-integration
-  - cross-functional-teams
-  - Methodology
-  - DevProcess
-  - AI
 ---
 ### 一、 核心本质
 **团队协同 = 战术补位**。

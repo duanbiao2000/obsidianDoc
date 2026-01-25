@@ -6,10 +6,6 @@ tags:
   - performance-optimization
   - Domain/Technology/Database
   - Type/Reference
-  - sql-query-optimization
-  - database-performance
-  - database-indexing
-  - performance-optimization
 ---
 * **为什么需要优化SQL语句（为什么烹饪方法很重要）：**
  * **效率低下：** 一条编写不当的SQL语句，可能会导致数据库扫描大量不必要的数据，消耗大量的CPU、内存和I/O资源，导致查询响应慢，甚至拖垮整个系统。

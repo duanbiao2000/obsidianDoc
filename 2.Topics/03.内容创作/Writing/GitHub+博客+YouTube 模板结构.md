@@ -8,10 +8,6 @@ tags:
   - Domain/Technology/Git
   - Domain/AI/ContentCreation
   - Type/Template
-  - personal-branding
-  - technical-content-creation
-  - GitHub
-  - YouTube
 view-count: 4
 ---
 ## [[L6/L7 工程师技术影响力模板结构：GitHub+博客+YouTube]]

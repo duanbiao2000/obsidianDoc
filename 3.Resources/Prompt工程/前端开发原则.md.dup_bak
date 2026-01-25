@@ -1,0 +1,128 @@
+---
+view-count: 2
+tags:
+  - server-side-rendering
+  - client-side-optimization
+  - react
+  - typeScript
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - server-side-rendering
+  - client-side-optimization
+  - react
+  - typeScript
+---
+## ★ 核心痛点识别
+
+- ★ 首屏白屏→用户流失+SEO差  
+- ★ 客户端JS重→设备卡顿+TTI长  
+- ★ API类型不匹配→运行时才报错  
+- ★ 手动同步文档→前后端协作低效  
+- ★ UI无系统→重复造轮子+无障碍缺失  
+
+---
+
+## ★ 服务端优先原则
+
+- ★ 服务端渲染HTML→LCP↓60%以上  
+- ★ RSC=React服务器组件→0客户端JS  
+- ★ 数据获取在服务端→消除网络往返  
+- △ 渲染与数据并行→避免瀑布流请求  
+- ❗ CSR串行等待 vs SSR/RSC并行执行  
+
+---
+
+## ★ 客户端"轻"+"懒"
+
+- ★ 客户端组件→仅交互+浏览器API  
+- ★ "轻"=最小封装→Bundle Size↓  
+- ★ "懒"=Suspense+动态加载→非阻塞  
+- △ Suspense显示fallback→不阻塞外部渲染  
+- △ Code Splitting→按需下载JS块  
+- △ Hydration成本∝组件树复杂度  
+
+---
+
+## ★ tRPC核心机制
+
+- ★ 端到端类型安全→编译时捕获错误  
+- ★ TS类型即Schema→无需额外定义层  
+- ★ AppRouter类型导出→前端自动推导  
+- △ 后端改签名→前端调用处立即报错  
+- △ 适用Monorepo+内部API调用  
+- ❗ 不适合公开API→非标准RPC协议  
+
+---
+
+## ★ tRPC架构分层
+
+- ★ server/trpc.ts→初始化+导出helpers  
+- ★ server/context.ts→请求上下文定义  
+- ★ server/routers/[feature]→功能模块拆分  
+- ★ server/routers/_app→汇总导出AppRouter  
+- ★ utils/trpc.ts→前端仅导入类型不导入实现  
+- △ 类型作契约→物理代码分离  
+
+---
+
+## ★ 性能指标驱动
+
+- ★ LCP=最大内容绘制时间  
+- ★ FID/INP=首次/持续交互延迟  
+- ★ CLS=累积布局偏移  
+- △ RSC→LCP↓+FID↓  
+- △ 图片优化(WebP+尺寸+懒加载)→LCP↓  
+- △ 减少主线程阻塞→INP↓  
+- △ Suspense预留空间→CLS↓  
+
+---
+
+## △ 工具选型逻辑
+
+- ★ TypeScript→编译时类型检查  
+- ★ Shadcn UI→可复制可定制组件配方  
+- ★ Radix UI→无障碍交互原语  
+- ★ Tailwind CSS→原子化+JIT→CSS体积小  
+- ★ nuqs→URL与React状态自动同步  
+- △ URL状态→可分享+浏览器历史  
+- △ interface优于type→扩展性更强  
+
+---
+
+## △ 数据获取模式
+
+- ★ RSC中调用tRPC→服务器内部RPC调用  
+- ★ 客户端hooks→交互触发时请求  
+- △ RSC数据获取→与组件渲染并行  
+- △ API路由调用tRPC→纯后端逻辑场景  
+- ❗ useEffect发请求→客户端串行瀑布流  
+
+---
+
+## ❗ 权衡与边界
+
+- ❗ Shadcn需手动更新 vs 传统库npm update  
+- ❗ tRPC紧耦合前后端 vs REST标准化分离  
+- ❗ URL状态仅适用可分享全局状态  
+- ❗ 类型安全≠消除业务逻辑错误  
+- ❗ 并非所有状态适合放URL→有长度限制  
+
+---
+
+## △ 协同效应链
+
+- △ 服务端优先+tRPC→性能+类型安全双赢  
+- △ RSC数据获取+tRPC→客户端极简化  
+- △ URL状态→RSC读取作tRPC参数传入  
+- △ 性能指标监控→驱动技术决策反馈循环  
+- △ Suspense+动态加载→LCP与CLS同步优化  
+
+---
+
+## ★ 范式转变本质
+
+- ★ 客户端驱动→服务端驱动数据获取  
+- ★ 运行时发现错误→编译时捕获错误  
+- ★ 手动文档同步→类型即文档自动同步  
+- ★ 页面加载后取数→渲染时已有数据  
+- ❗ 从"提示艺术"→"提示工程"思维相通

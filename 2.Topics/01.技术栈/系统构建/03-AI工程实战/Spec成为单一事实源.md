@@ -8,10 +8,6 @@ tags:
   - AI
   - Type/Reference
   - Domain/Technology
-  - specification-driven-development
-  - automated-test-generation
-  - SpecDriven
-  - AI
 related:
   - '[[OpenSpec规范驱动开发实战]]'
   - '[[类型本身成为可执行的文档]]'

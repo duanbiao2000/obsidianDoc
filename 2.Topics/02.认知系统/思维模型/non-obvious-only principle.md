@@ -12,10 +12,6 @@ tags:
   - cognitive-content-delivery
   - Type/Reference
   - Domain/Technology
-  - document-minimalism
-  - non-obvious-information-documentation
-  - content-translation
-  - cognitive-content-delivery
 ---
 # 遵循“仅记录非显而易见信息”原则的精简高价值文档撰写指南
 

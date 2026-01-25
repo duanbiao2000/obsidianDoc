@@ -13,10 +13,6 @@ tags:
   - productivity
   - Type/Reference
   - Domain/Technology
-  - sleep-optimization
-  - work-life-balance
-  - time-management
-  - productivity
 ---
 好的，遵照您的要求，這就利用符號改寫法對筆記 [[ManicTime量化]] 進行優化。
 

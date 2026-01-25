@@ -6,10 +6,6 @@ tags:
   - software-engineering
   - Type/Reference
   - Domain/Technology
-  - profiling-methods
-  - code-benchmarking
-  - performance-optimization
-  - software-engineering
 ---
 在软件开发中，**最常用且经过广泛实测验证的 Profile（性能剖析）方法**，主要围绕 **CPU 时间、内存使用、函数调用开销** 三大维度展开。以下是按编程语言和场景分类的 **主流、实用、可复现的实测方案**，均基于真实项目经验与权威文档（如 Python 官方、PyTorch、Chrome DevTools 等），**非猜测，而是开发者社区公认的“最优实践”**。
 

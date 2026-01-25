@@ -12,10 +12,6 @@ tags:
   - Domain/AI/ContentCreation
   - Type/Reference
   - Status/Mastered
-  - DigitalBrainBuilding
-  - KnowledgeSystemization
-  - Notion-Organization
-  - ContentCreation
 ---
 ### **第三轮：最终版提示词 (V3.0)**
 

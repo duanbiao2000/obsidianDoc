@@ -15,10 +15,6 @@ tags:
   - Algorithm
   - Domain/Cognitive/Tools
   - Type/System
-  - distributed-cognitive-systems
-  - microservices-architecture
-  - AI
-  - Algorithm
 ---
 基于您提供的原子行动方案，我将其重构为一份**分布式认知加速系统 (Distributed Cognitive Acceleration System, DCAS)** 的技术规格说明书 (Technical Specification)。
 

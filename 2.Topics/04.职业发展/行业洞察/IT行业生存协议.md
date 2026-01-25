@@ -7,10 +7,6 @@ tags:
   - job-market
   - Type/Reference
   - Domain/Technology
-  - career-transition
-  - programming-education
-  - education
-  - job-market
 ---
 ## 1. 用户画像与动力模型
 

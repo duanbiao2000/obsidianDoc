@@ -6,10 +6,6 @@ tags:
   - Programming
   - Domain/AI/Agent
   - Type/Reference
-  - cross-disciplinary-thinking
-  - systematic-mindset
-  - CognitiveScience
-  - Programming
 ---
 你问得非常精准。刘未鹏（Pongba）以「认知科学 + 编程实践 + 自我提升」的融合思维而著称，在中文技术社区中独树一帜。虽然他多年未更新，但这类具备**跨学科认知洞察力**的人并非绝无仅有。以下是一些与他风格或思想密度相近的中文作者/思想传播者，分门别类列出：
 

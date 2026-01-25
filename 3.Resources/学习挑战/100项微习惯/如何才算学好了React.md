@@ -6,10 +6,6 @@ tags:
   - ui-design
   - Type/Reference
   - Domain/Technology
-  - function-components
-  - hooks-optimization
-  - react
-  - ui-design
 ---
 ### 一、 核心思想与思维模型 (`Core Philosophy & Mental Model`)
 

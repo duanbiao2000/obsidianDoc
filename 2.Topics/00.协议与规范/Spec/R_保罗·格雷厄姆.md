@@ -14,10 +14,6 @@ tags:
   - mindset
   - Type/Reference
   - Domain/Technology
-  - first-principles-thinking
-  - mvp-implementation
-  - writing-style
-  - mindset
 ---
 ## 保罗·格雷厄姆（PG）风格 + 思维模型（用于文档研究）
 

@@ -8,10 +8,6 @@ tags:
   - design
   - Domain/Technology/Go
   - Type/Reference
-  - go-concurrency
-  - go-memory-model
-  - programming
-  - design
 related:
   - '[[TypeScript 编译器用Go改写]]'
   - '[[Go与Rust的权衡]]'

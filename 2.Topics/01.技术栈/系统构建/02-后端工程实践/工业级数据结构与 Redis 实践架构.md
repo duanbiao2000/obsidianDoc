@@ -8,10 +8,6 @@ tags:
   - Performance
   - Type/Reference
   - Domain/Technology
-  - RedisOptimization
-  - AdaptiveEncoding
-  - DataStorage
-  - Performance
 related:
   - '[[Rust生产级综合开发技能学习系统提示词模板]]'
   - '[[Python 系统设计 6 小时突破方案]]'

@@ -1,0 +1,38 @@
+---
+view-count: 9
+tags:
+  - data-architecture-patterns
+  - system-trade-offs
+  - database-indexing
+  - algorithm
+  - Type/Reference
+  - Domain/Technology
+  - data-architecture-patterns
+  - system-trade-offs
+  - database-indexing
+  - algorithm
+---
+[ByteByteGo | Database and Storage](https://bytebytego.com/guides/database-and-storage/)
+
+![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picutre/20250513140133456.png)
+
+
+
+### **数据架构模式核心手册：在权衡中构建智慧系统**
+
+> **核心哲学**: **数据架构模式不是孤立的技术，而是应对特定“系统约束”的思维模型。** 掌握它们，意味着你理解了在性能、一致性、复杂度和成本之间如何做出明智的**权衡 (Trade-off)**。
+
+---
+
+#### **核心问题驱动的模式选择框架**
+
+在选择数据模式前，先问自己：**我的系统当前最核心的瓶颈是什么？**
+
+| 如果你的核心问题是...                       | ...那么你应该优先考虑的模式是：                                 |
+| :---------------------------------------- | :-------------------------------------------------------------- |
+| **高频读取相同数据，导致数据库不堪重负？**  | **1. 旁路缓存 (Cache Aside)** - 用内存换取速度。                |
+| **某些复杂查询（如报表统计）极其缓慢？**    | **2. 物化视图 (Materialized View)** - 用空间和预计算换取查询速度。 |
+| **读写模型差异巨大，互相干扰？** (如电商的下单与浏览) | **3. CQRS** - 将读写操作彻底分离，各自优化。                  |
+| **需要完整的历史追溯和审计能力？**        | **4. 事件溯源 (Event Sourcing)** - 记录“变化”，而非“状态”。     |
+| **需要对非主键字段进行快速查找？**        | **5. 索引表 (Index Table)** - 用写入开销换取特定查询的性能。    |
+| **单库容量或 QPS 达到极限，无法再垂直扩展？** | **6. 分片 (Sharding)** - 用分布式复杂性换取无限的水平扩展能力。 |

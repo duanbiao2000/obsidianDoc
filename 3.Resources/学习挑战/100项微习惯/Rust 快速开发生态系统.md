@@ -17,10 +17,6 @@ tags:
   - programming
   - Domain/Technology/Rust
   - Type/Reference
-  - asynchronous-programming
-  - software-architecture
-  - rust
-  - programming
 ---
 # Rust 快速开发生态系统补充
 

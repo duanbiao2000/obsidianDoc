@@ -7,10 +7,6 @@ tags:
   - react
   - Type/Reference
   - Domain/Technology
-  - vue-testing
-  - vue-performance
-  - vue
-  - react
 ---
 ## 🧠 Vue.js 选择题测试（共 50 题，每题 2 分，总分 100 分）
 

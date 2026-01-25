@@ -7,10 +7,6 @@ tags:
   - video-marketing
   - Type/Reference
   - Domain/Technology
-  - youtube-advertising
-  - ad-revenue
-  - advertising
-  - video-marketing
 ---
 **YouTube广告术语速查：**
 

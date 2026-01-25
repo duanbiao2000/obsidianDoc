@@ -8,10 +8,6 @@ tags:
   - Algorithm
   - Type/Reference
   - Domain/Technology
-  - bilibili-recommendation-system
-  - large-scale-system-design
-  - AI
-  - Algorithm
 source: null
 update: null
 rating: null

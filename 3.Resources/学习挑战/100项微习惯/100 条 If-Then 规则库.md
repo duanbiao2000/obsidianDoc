@@ -11,10 +11,6 @@ tags:
   - task-optimization
   - Type/Reference
   - Domain/Technology
-  - daily-routine-management
-  - productivity-templates
-  - time-blocking
-  - task-optimization
 ---
 ## Active-Core 20（日常看板）
 

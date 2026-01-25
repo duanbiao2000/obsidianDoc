@@ -12,10 +12,6 @@ tags:
   - productivity
   - Type/Reference
   - Domain/Technology
-  - technical-writing-sop
-  - content-strategy
-  - content-creation
-  - productivity
 ---
 ## 技术博客写作与发布 SOP：从“创作”到“工程”
 

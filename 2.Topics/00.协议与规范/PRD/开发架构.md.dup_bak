@@ -1,0 +1,96 @@
+---
+view-count: 12
+update: 2026-01-07 15:46
+related:
+  - '[[实时应用架构设计指南]]'
+  - '[[系统设计：规模化与权衡指南]]'
+  - '[[Next.js 进阶学习指南]]'
+tags:
+  - vercel-deployment
+  - performance-optimization
+  - nextjs
+  - serverless
+  - Type/Reference
+  - Domain/Technology
+  - vercel-deployment
+  - performance-optimization
+  - nextjs
+  - serverless
+---
+按照你的 **ROI 最大化原则**与 **Brutally Minimal 风格**，重构 [[开发架构]] 如下：
+
+# 企业官网开发协议：Next.js 云原生架构
+
+## 1. 核心逻辑：高性能、高 SEO、低运维
+采用 **Next.js + Vercel + Serverless** 体系，通过 **RSC (Server Components)** 和 **ISR (增量再生)** 实现首屏秒开与零配置扩展。
+
+## 2. 技术矩阵 (Tech Stack)
+
+| 维度 | 选型 | 核心收益 (ROI) |
+| :--- | :--- | :--- |
+| **框架/渲染** | Next.js (App Router) | RSC 减少 JS 体积；ISR 实现静态页面动态更新。 |
+| **样式/动画** | Tailwind + Framer Motion | 极速样式开发 + 高质量交互。 |
+| **数据/ORM** | PostgreSQL + Prisma | 强类型安全 + 自动化迁移。 |
+| **部署/缓存** | Vercel + Cloudflare | 全球边缘加速 + 自动化 CI/CD。 |
+
+## 3. 架构解构：数据流向
+`用户 -> CDN (Edge) -> Next.js (ISR/SSG) -> Serverless API -> DB (PostgreSQL)`
+
+## 4. 模块开发要点 (Functional Map)
+
+- **首页 (Hero)**: `use client` 仅限动画，其余 RSC；首屏加载 < 1s。
+- **产品/案例**: Prisma 模型定义 $\rightarrow$ 后台 CRUD $\rightarrow$ 前端 ISR 渲染（缓存 1 小时）。
+- **新闻/文档**: MDX 文件存储 $\rightarrow$ `next-mdx-remote` 渲染 $\rightarrow$ 自动生成 SEO 元数据。
+- **联系表单**: `react-hook-form` + `Zod` 校验 $\rightarrow$ Server Action 提交处理。
+
+## 5. 性能与质量红线 (SLA)
+- **Lighthouse**: 全项 > 95 分。
+- **API 响应**: < 100ms（利用 Redis 缓存高频请求）。
+- **图片优化**: 强制使用 `next/image` 进行 WebP 转换与懒加载。
+
+## 6. 标准 Repo 结构 (Monorepo)
+
+```bash
+/apps
+  /web        # 官网前端 (App Router)
+  /admin      # CMS 管理后台
+/packages
+  /ui         # 共享组件库 (Tailwind)
+  /types      # 强类型定义
+/prisma       # 数据库模型 (Schema)
+```
+
+## 7. 核心代码 Snippets
+
+### 数据模型 (Prisma)
+```prisma
+model Product {
+  id    String @id @default(uuid())
+  name  String
+  slug  String @unique
+  desc  String
+}
+```
+
+### 异步数据抓取 (RSC)
+```typescript
+// web/app/products/page.tsx
+const products = await prisma.product.findMany();
+return products.map(p => <ProductCard key={p.id} {...p} />);
+```
+
+## 8. 开发脚手架指令
+- `pnpm dev`: 启动全栈服务。
+- `pnpm prisma migrate dev`: 数据库结构同步。
+- `pnpm build`: 生成静态优化生产版本。
+
+---
+
+### 质量自检
+- **压缩率**: 约 65% (剔除大量描述性文字，保留结构与代码)。
+- **层级**: 2 层 (核心逻辑/矩阵/模块/结构/代码)。
+- **5秒测试**: 一眼可见 "Next.js+Prisma" 核心栈与 "ISR" 性能策略。
+
+**关联笔记**
+- [[实时应用架构设计指南]]
+- [[系统设计：规模化与权衡指南]]

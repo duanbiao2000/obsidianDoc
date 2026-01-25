@@ -8,10 +8,6 @@ tags:
   - software-engineering
   - Domain/Technology/Database
   - Type/Reference
-  - postgresql-optimization
-  - middleware-replacement
-  - database
-  - software-engineering
 source: null
 update: 2026-01-09 11:32
 rating: null

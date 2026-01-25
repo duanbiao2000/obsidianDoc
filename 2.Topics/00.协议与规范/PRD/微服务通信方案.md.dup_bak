@@ -1,0 +1,55 @@
+---
+view-count: 12
+tags:
+  - distributed-systems-design
+  - resilience-engineering
+  - microservices-architecture
+  - communication-skills
+  - Type/Reference
+  - Domain/Technology
+  - distributed-systems-design
+  - resilience-engineering
+  - microservices-architecture
+  - communication-skills
+---
+# 微服务通信方案：2025 架构指南
+
+---
+
+### 一、 核心本质
+**微服务通信 = 在延迟 (Latency) 与耦合 (Coupling) 之间的权衡博弈。**
+目标：建立高性能、强契约、高韧性的分布式神经系统。
+
+### 二、 核心选型矩阵
+
+| 维度 | **REST** | **gRPC** | **消息队列 (MQ)** |
+| :--- | :--- | :--- | :--- |
+| **场景** | 对外 API / Web 前端 | 内部服务同步调用 | 异步解耦 / 削峰填谷 |
+| **优势** | 兼容性极强 | ★极致性能 (Protobuf) | ★最高韧性 (持久化) |
+| **契约** | 弱 (OpenAPI) | ★极强 (单一事实来源) | 中 (AsyncAPI) |
+| **治理** | 负载均衡 / 网关 | 头部压缩 / 多路复用 | 最终一致性 |
+
+### 三、 2025 分层通信模型
+
+- **L1. 对外层 (REST/GraphQL)**：标准 Web 交互，兼容浏览器与第三方。
+- **L2. 内部同步层 (gRPC)**：基于 HTTP/2 的二进制传输，解决“内部通信税”问题。
+- **L3. 内部异步层 (Event-Driven)**：Kafka/RabbitMQ 实现服务间解耦与数据流转。
+- **L4. AI Agent 层 (MCP)**：**2025 新增**。标准化 AI 调用的工具接口。
+
+### 四、 关键韧性法则 (Resilience)
+- **幂等性**：重试的前提，确保多次调用结果一致。
+- **显式超时**：禁止无限等待，必须设置 Deadline。
+- **指数退避**：重试需配合 `Exponential Backoff + Jitter`。
+- **断路器 (Circuit Breaker)**：检测到下游故障时快速失败，防止雪崩。
+
+### 五、 通信可观测性 (Observability)
+- **Trace ID 传播**：必须贯穿同步 (gRPC) 与异步 (MQ) 全链路。
+- **OpenTelemetry 标准**：指标 (Metrics)、日志 (Logs)、追踪 (Tracing) 三位一体。
+- **Service Mesh (>10 服务)**：将流量治理（mTLS、负载均衡、重试）下沉至 Sidecar。
+
+### 六、 核心反常识
+- ❗ **gRPC 不是万能**：浏览器环境仍需转译，不要在公开 API 中盲目推行。
+- ❗ **异步增加复杂度**：MQ 引入了延迟不确定性与调试难度，简单场景优先同步。
+- ❗ **Mesh 非必须**：小规模集群引入 Service Mesh 是过度设计，运维成本远超收益。
+- ❗ **契约即代码**：API 变更必须通过 CI 契约测试，禁止手动修改。
+

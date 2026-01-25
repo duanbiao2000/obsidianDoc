@@ -13,10 +13,6 @@ tags:
   - Java
   - Type/Reference
   - Domain/Technology
-  - jvm-memory-model
-  - concurrent-execution-protocols
-  - concurrency
-  - Java
 ---
 # JVM内存模型：并发执行协议
 

@@ -14,10 +14,6 @@ tags:
   - Domain/Technology/JavaScript
   - Domain/Technology/Go
   - Type/Reference
-  - 编译器优化
-  - 性能提升
-  - typescript
-  - programming-languages
 ---
 ## ★ 核心结论（一句话）
 - ★ TypeScript 编译器从 TS → Go 是一次 **“行为完全不变、性能数量级提升”** 的工程级优化，而非语言变革。

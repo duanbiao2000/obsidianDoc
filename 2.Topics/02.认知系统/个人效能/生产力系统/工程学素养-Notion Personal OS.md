@@ -12,10 +12,6 @@ tags:
   - System-Thinking
   - Type/Reference
   - Domain/Technology
-  - personal-productivity-system
-  - task-follow-up-optimization
-  - Notion-Organization
-  - System-Thinking
 ---
 ### **[[工程学素养-Notion Personal OS]] (符號優化版)**
 

@@ -12,10 +12,6 @@ tags:
   - Domain/AI/PromptEngineering
   - Domain/AI/LLM
   - Type/Reference
-  - prompt-optimization
-  - thought-path-activation
-  - PromptEngineering
-  - AI
 ---
 ## 0. 本质 (The Essence)
 

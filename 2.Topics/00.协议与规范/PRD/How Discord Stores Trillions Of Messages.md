@@ -7,10 +7,6 @@ tags:
   - scylla-db
   - Type/Reference
   - Domain/Technology
-  - discord-message-storage
-  - mongodb-to-cassandra-migration
-  - database-evolution
-  - scylla-db
 ---
 ![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picutre/20250513134754924.png)
 您提供了一段文字和一张图片，图片标题是 **"How Discord Stores Trillions Of Messages"**。

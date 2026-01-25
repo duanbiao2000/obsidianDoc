@@ -7,10 +7,6 @@ tags:
   - data-structures
   - Type/Reference
   - Domain/Technology
-  - complexity-theory
-  - graph-theory
-  - algorithm
-  - data-structures
 source: https://deepwiki.com/kdn251/interviews/
 view-count: 7
 ---

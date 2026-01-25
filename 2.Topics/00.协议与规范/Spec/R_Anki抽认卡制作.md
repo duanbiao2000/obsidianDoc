@@ -11,10 +11,6 @@ tags:
   - memory-retention
   - Type/Reference
   - Domain/Technology
-  - card-making
-  - mnemonic-techniques
-  - cognitive-science
-  - memory-retention
 ---
 请根据我提供的文本，制作一套抽认卡。
 

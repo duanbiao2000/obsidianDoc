@@ -8,10 +8,6 @@ tags:
   - cognitive-science
   - Type/Reference
   - Domain/Technology
-  - slides-automation
-  - presentation-protocol
-  - algorithm
-  - cognitive-science
 source: null
 rating: null
 related: null

@@ -7,10 +7,6 @@ tags:
   - postgresql
   - Type/Reference
   - Domain/Technology
-  - sql-performance-optimization
-  - database-indexing
-  - database
-  - postgresql
 ---
 ### **PostgreSQL 核心实战指南：开发者必备**
 

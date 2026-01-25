@@ -1,0 +1,60 @@
+---
+view-count: 10
+tags:
+  - llm-engineering
+  - context-structured-execution
+  - ai-alternatives
+  - system-thinking
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - llm-engineering
+  - context-structured-execution
+  - ai-alternatives
+  - system-thinking
+---
+# LLM 工程化执行手册 (Brutally Minimal)
+
+### R1: 上下文结构化 (Context)
+*   **Why Header**：5行固定结构（目的/原因/权衡/约束/责任人）。
+*   **轻量 ADR**：决策记录（背景 $\rightarrow$ 决定 $\rightarrow$ 替代方案 $\rightarrow$ 后果）。
+*   **Prompt 工件化**：禁止字符串。使用 YAML/JSON 定义（意图/约束/失败模式）。
+
+### R2: 接口抽象化 (Interface)
+*   **统一 Tool**：强制 Zod Schema 接口。Agent 只调用定义，不感知实现。
+*   **微组件拆分**：
+    *   **Planner**：生成序列。
+    *   **Executor**：执行调用。
+    *   **Critic**：评估重试。
+*   **类型优先**：先定义 Types，再写逻辑。为 AI 自动生成代码预留接口。
+
+### R3: 评测与观测 (Eval & Obs)
+*   **Eval 第一公民**：无评测不准上线。CI 强制跑核心 Case 集。
+*   **日志结构化**：统一 Schema（Agent/Step/Prompt/Tool/Latency/Error）。
+*   **内嵌 Mock**：Tool 必须支持 Fake 实现。分离逻辑与 LLM 调用，支持离线测试。
+
+### R4: 数据系统化 (Data)
+*   **版本控制**：数据集 = Schema + 版本号 + Pipeline。
+*   **数据契约**：跨服务强校验（Zod/Protobuf）。杜绝脏数据进入上下文。
+*   **质量信号**：上下文透传新鲜度、置信度、来源。
+
+---
+
+### 团队流程嵌入 (Execution)
+*   **PR 强制项**：Why Header + 接口影响 + Eval 链接 + 数据源声明。
+*   **周度复盘**：只看失败样例。产出：1个 ADR + 1个 Prompt 优化 + 1个新增 Eval。
+*   **模式仓库**：独立存放 Prompt 模板与 Agent 结构样例，不混业务代码。
+
+---
+
+### 核心优先级
+1.  **第1周**：Why Header 强制校验 + PR 模板。
+2.  **第2周**：Tool 接口标准化。
+3.  **第3周**：统一结构化日志。
+4.  **第4周**：Eval 套件 CI 集成。
+
+---
+
+### 终极哲学
+*   **文档即数据**：只有机器可读的结构化文档才具备长效价值。
+*   **评估即规范**：LLM 系统不看单测，看 Eval 分布。
+*   **抽象即资产**：标准化接口是 AI 参与协作的前提。

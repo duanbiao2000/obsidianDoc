@@ -7,10 +7,6 @@ tags:
   - CommunicationSkills
   - Type/Reference
   - Domain/Technology
-  - Fixed-Phrases
-  - ReputationManagement
-  - Content-Translation
-  - CommunicationSkills
 ---
 “小心那些内容不明、质量参差不齐的东西。”
 “提防那些看似便宜实则可能有问题的混合包。

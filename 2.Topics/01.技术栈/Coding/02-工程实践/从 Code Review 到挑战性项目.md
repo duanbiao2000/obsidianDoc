@@ -14,10 +14,6 @@ tags:
   - Type/Reference
   - Status/Review
   - Domain/Technology
-  - cognitive-skill-building
-  - code-review-principles
-  - cognitive-modeling
-  - system-thinking
 ---
 ## 1. 核心逻辑：技术认知螺旋 (The Cognition Spiral)
 

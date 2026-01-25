@@ -7,10 +7,6 @@ tags:
   - knowledge-management
   - Domain/Technology/Git
   - Type/Index
-  - cognitive-limiting-factors
-  - maturity-levels-of-digital-garden
-  - digital-garden
-  - knowledge-management
 dg-home: null
 dg-publish: true
 ---

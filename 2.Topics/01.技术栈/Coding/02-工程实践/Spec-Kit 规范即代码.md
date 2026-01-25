@@ -6,10 +6,6 @@ tags:
   - github
   - Type/Reference
   - Domain/Technology
-  - specification-driven-development
-  - code-quality-assessment
-  - ai-content-creation
-  - github
 ---
 这期视频“Kilo Code + Spec-Kit: This NEW Github Tool FINALLY Fixed AI Coding!”介绍了如何用Spec-Kit和Kilo Code进行高质量、结构化的AI编程，实现规范驱动开发（spec-driven development）。[youtube](https://www.youtube.com/watch?v=peJr-6BRQ3M)​
 

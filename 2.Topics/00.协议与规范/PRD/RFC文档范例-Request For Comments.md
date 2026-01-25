@@ -12,10 +12,6 @@ tags:
   - algorithm
   - Type/Reference
   - Domain/Technology
-  - real-time-data-processing
-  - stream-processing-architecture
-  - data-structure
-  - algorithm
 ---
 ### **25句濃縮版本**
 

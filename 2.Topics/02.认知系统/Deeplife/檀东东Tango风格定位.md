@@ -7,10 +7,6 @@ tags:
   - CognitiveModeling
   - Domain/Technology/Go
   - Type/Reference
-  - PracticalSkillVideos
-  - AIApplicatonTutorials
-  - ContentCreation
-  - CognitiveModeling
 view-count: 111
 ---
 根据 **ROI 优化框架**，通过**结论前置**、**公式视觉化**和**冗余剔除**，实现了认知负载的最小化。

@@ -8,10 +8,6 @@ tags:
   - CodeQualityAssessment
   - Type/Reference
   - Domain/Technology
-  - GitHub-Copilot-Contributions
-  - Code-Formatting-Standards
-  - GitHub
-  - CodeQualityAssessment
 source:
   - https://github.com/duanbiao2000/awesome-copilot
 update: null

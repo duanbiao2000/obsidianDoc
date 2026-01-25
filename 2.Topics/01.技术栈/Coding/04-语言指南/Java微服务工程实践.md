@@ -12,10 +12,6 @@ tags:
   - microservices
   - Type/Reference
   - Domain/Technology
-  - spring-boot-configuration
-  - distributed-system-design
-  - java
-  - microservices
 ---
 # Java微服务工程实践
 

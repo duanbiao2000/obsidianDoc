@@ -13,10 +13,6 @@ tags:
   - SystemDesign
   - Domain/AI/ContentCreation
   - Type/Reference
-  - course-structure
-  - learning-progress-tracking
-  - Documentation
-  - SystemDesign
 ---
 构建「结构化课程/训练营体系」的 Notion 系统，目标是实现以下四个核心能力：
 

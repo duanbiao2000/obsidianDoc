@@ -7,10 +7,6 @@ tags:
   - SoftwareEngineering
   - Type/Reference
   - Domain/Technology
-  - specification-driven
-  - requirement-validation
-  - Documentation
-  - SoftwareEngineering
 ---
 Spec-Driven Development（简称SDD，规格驱动开发）是一种以**明确的“规格说明”（Specification）为核心驱动力**的软件开发方法论，核心逻辑是“先定义清晰规则，再落地实现”，确保开发过程不偏离需求目标，同时提升产物的可验证性。
 

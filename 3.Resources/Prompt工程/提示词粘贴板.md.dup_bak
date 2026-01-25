@@ -1,0 +1,20 @@
+---
+tags:
+  - nextjs-framework
+  - frontend-best-practices
+  - react
+  - typescript
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - nextjs-framework
+  - frontend-best-practices
+  - react
+  - typescript
+---
+## cursor.directory
+[Next.js React TypeScript Cursor Rules rule by Pontus Abrahamsson](https://cursor.directory/nextjs-react-typescript-cursor-rules)
+
+`npx cursor-directory rules add nextjs-react-typescript-cursor-rules`
+
+
+[[提示词-前端开发-最佳实践]]

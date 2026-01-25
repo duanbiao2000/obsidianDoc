@@ -16,10 +16,6 @@ tags:
   - architecture
   - Type/Reference
   - Domain/Technology
-  - microservices-architecture
-  - ddd-implementation
-  - system-design
-  - architecture
 ---
 # 程序员圈 LFSP Top 100
 

@@ -13,10 +13,6 @@ tags:
   - coding
   - Type/Reference
   - Domain/Technology
-  - new-dev-tools
-  - practical-tutorials
-  - programming
-  - coding
 ---
 下面这 100 个选题都满足两个约束：\
 1）**制作周期短**：适合做成一篇文章 / 一期视频 / 一次小课；\

@@ -1,0 +1,72 @@
+---
+view-count: 3
+tags:
+  - DatabaseIndexing
+  - DataStructure
+  - DataAnalysis
+  - Algorithm
+  - Type/Reference
+  - Domain/Technology
+  - DatabaseIndexing
+  - DataStructure
+  - DataAnalysis
+  - Algorithm
+---
+![image.png](https://cdn.jsdelivr.net/gh/duanbiao2000/BlogGallery@main/picutre/20250513140313619.png)
+ **"8 Data Structures That Power Your Databases"**。
+
+### 常用索引数据结构：
+
+图片清晰地展示了 8 种不同的数据结构，并配有图示、用例和备注。
+
+1. **Skiplist (跳表)**
+    
+    - **特点：** 一种概率性数据结构，是链表的扩展，通过多层级的链表来提高查询效率。
+    - **用例：** 内存中索引 (In-memory index)。
+    - **备注：** Redis 中使用。
+    - **理解：** 它在保证较高查询性能的同时，实现起来比平衡树更简单。
+2. **Hash index (哈希索引)**
+    
+    - **特点：** 基于哈希函数，将键映射到存储位置，实现 O(1) 的平均查找时间。
+    - **用例：** 内存中索引 (In-memory index)。
+    - **备注：** 最常见的内存中索引解决方案。
+    - **理解：** 适用于等值查询，但不适用于范围查询。
+3. **SSTable (Sorted String Table - 有序字符串表)**
+    
+    - **特点：** 一种不可变的磁盘上的键值对有序集合。数据以块的形式写入，并保持有序。
+    - **用例：** 磁盘存储 (Disk-based)。
+    - **备注：** 不可变数据结构，很少单独使用（通常是 LSM tree 的一部分）。
+    - **理解：** 写入性能高，但更新和删除需要重写整个文件，因此通常与日志结构合并树 (LSM tree) 结合使用。
+4. **LSM tree (Log-Structured Merge tree - 日志结构合并树)**
+    
+    - **特点：** 结合了内存中的写缓冲区 (如 Skiplist) 和磁盘上的不可变有序文件 (SSTable)。新数据先写入内存，达到一定阈值后合并到磁盘上的 SSTable。
+    - **用例：** 内存 + 磁盘存储 (Memory + Disk)。
+    - **备注：** 高写入吞吐量 (High write throughput)。磁盘合并 (compaction) 操作可能会影响性能。
+    - **理解：** 许多 NoSQL 数据库（如 Cassandra, RocksDB）和现代数据库（如 ScyllaDB）都使用 LSM tree 来实现高写入性能。
+5. **B-tree (B树)**
+    
+    - **特点：** 一种自平衡的树形数据结构，广泛用于磁盘存储系统。所有叶子节点位于同一深度，且数据块通常较大，以减少磁盘 I/O。
+    - **用例：** 磁盘存储 (Disk-based solution)。
+    - **备注：** 最流行的数据库索引实现。提供一致的读/写性能。
+    - **理解：** 关系型数据库（如 MySQL, PostgreSQL）的主键索引和二级索引通常都使用 B-tree 或其变体 (B+ tree)。它擅长范围查询。
+6. **Inverted index (倒排索引)**
+    
+    - **特点：** 一种特殊类型的索引，将文档中的每个单词映射到包含该单词的文档列表。
+    - **用例：** 文档索引搜索 (Search document)。
+    - **备注：** 用于文档搜索引擎，如 Lucene (Elasticsearch 的底层)。
+    - **理解：** 是全文搜索的核心，使得用户能够快速查找包含特定关键词的文档。
+7. **Suffix tree (后缀树)**
+    
+    - **特点：** 一种压缩的 Trie (前缀树) 结构，存储字符串的所有后缀。
+    - **用例：** 字符串模式搜索 (For string pattern search)，例如字符串前缀匹配、子串匹配、最长公共子串等。
+    - **备注：** 用于字符串搜索，例如后缀匹配 (suffix match)。
+    - **理解：** 在生物信息学、文本处理和搜索引擎等领域有应用。
+8. **R-tree (R树)**
+    
+    - **特点：** 一种树形数据结构，用于索引多维数据，例如地理空间数据。它将多维对象组织成最小边界矩形 (MBR)。
+    - **用例：** 搜索多维形状 (Search multi-dimension shape)，例如查找最近的邻居。
+    - **理解：** 广泛应用于地理信息系统 (GIS) 和位置服务中，用于高效查询空间数据（如“查找某个区域内的所有餐厅”）。
+
+### 总结：
+
+这张图提供了一个关于数据库索引数据结构及其应用场景的概览。选择正确的索引数据结构对于数据库的性能至关重要。不同的数据结构在内存使用、磁盘 I/O、读写性能、以及对不同类型查询（等值查询、范围查询、全文搜索、空间搜索）的支持上各有优劣。开发者需要根据其应用的具体需求（如读写比例、数据量、查询模式、数据类型）来做出明智的选择。

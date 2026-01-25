@@ -11,10 +11,6 @@ tags:
   - cognitive-modeling
   - Type/Reference
   - Domain/Technology
-  - emotional-intelligence
-  - mindset-transformation
-  - personal-development
-  - cognitive-modeling
 ---
 **人類意識能級分佈圖如下：\
 1 開悟正覺： 700—1000\

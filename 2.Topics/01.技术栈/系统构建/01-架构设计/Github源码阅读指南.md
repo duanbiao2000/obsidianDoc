@@ -7,10 +7,6 @@ tags:
   - SoftwareEngineering
   - Domain/Technology/Git
   - Type/Reference
-  - SourceCodeNavigation
-  - EfficientCodeAnalysis
-  - CodeReading
-  - SoftwareEngineering
 ---
 按照你的 **ROI 最大化原则**与 **Brutally Minimal 风格**，重构 [[Github源码阅读指南]] 如下：
 

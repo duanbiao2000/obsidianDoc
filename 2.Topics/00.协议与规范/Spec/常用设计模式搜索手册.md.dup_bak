@@ -1,0 +1,75 @@
+---
+view-count: 4
+update: 2026-01-07 11:06
+related:
+  - '[[2025-12-06-企业应用架构模式]]'
+  - '[[问题模式：跨语言解题内核]]'
+  - '[[见解-模式-解决方案]]'
+  - '[[2025-12-07-系统架构分类框架]]'
+  - '[[2025-12-31-系统设计与架构模式]]'
+tags:
+  - pattern-identification
+  - architectural-matrix
+  - algorithm
+  - design-patterns
+  - Type/Reference
+  - Domain/Technology
+  - pattern-identification
+  - architectural-matrix
+  - algorithm
+  - design-patterns
+---
+# 常用设计模式搜索手册：架构特征狙击指南
+
+## 1. 核心逻辑：意图识别 > 逻辑推演
+
+设计模式是开发者留下的“架构方言”。识别出模式，即可瞬间理解其**解耦意图**，无需逐行分析。
+
+- **公式**：理解效率 = $f(\text{识别模式关键字} \times \text{套用标准模板})$
+
+## 2. 设计模式狙击矩阵 (Search Matrix)
+
+| 分类      | 模式名称                | 狙击指令 (Ripgrep)                                | 核心价值 (Insight)          |
+| :------ | :------------------ | :-------------------------------------------- | :---------------------- |
+| **创建型** | **工厂 (Factory)**    | `rg -i "Factory\|Creator\|build.*Object"`     | 屏蔽对象创建细节，统一生成入口。        |
+|         | **单例 (Singleton)**  | `rg -i "Instance\|getInstance\|@Singleton"`   | 维护全局唯一状态或资源。            |
+|         | **建造者 (Builder)**   | `rg -i "\.with.*\.build()\|fluent"`           | 解决复杂对象初始化时的参数爆炸。        |
+| **结构型** | **适配器 (Adapter)**   | `rg -i "Adapter\|Wrapper\|To[A-Z]"`           | 兼容两套不匹配的接口。             |
+|         | **装饰器 (Decorator)** | `rg -i "@\|Wrapper\|Decorator"`               | 动态地给对象增加职责（如日志、权限）。     |
+|         | **代理 (Proxy)**      | `rg -i "Proxy\|Delegate\|InvocationHandler"`  | 控制对真实对象的访问（如懒加载、远程调用）。  |
+| **行为型** | **策略 (Strategy)**   | `rg -i "Strategy\|Policy\|HandlerMap"`        | 消除 `if-else` 堆砌，动态切换算法。 |
+|         | **观察者 (Observer)**  | `rg -i "Listen\|Subscribe\|Notify\|Event"`    | 一对多的状态变更通知，实现彻底解耦。      |
+|         | **责任链 (CoR)**       | `rg -i "Interceptor\|Filter\|Chain\|Handler"` | 将请求沿链条传递，直到被处理（如中间件）。   |
+
+## 3. 行动指南：三步定位法 (Actionable)
+
+1. **扫描高频词（Histogram）**：
+   - `rg --files | awk -F'/' '{print $NF}' | sort | uniq -c | sort -rn | head -10`
+   - *目的*：看文件名中哪个模式词（如 `Service`, `Manager`, `Handler`）最高频。
+2. **验证模式特征（Pattern Check）**：
+   - **策略模式**：寻找 `Map<Key, Strategy>` 结构。
+   - **单例模式**：寻找私有构造函数 + 静态获取实例方法。
+   - **责任链**：寻找包含 `next` 引用且方法签名一致的类集合。
+3. **逆向绘制交互（Visualizing）**：
+   - 选定一个模式实例，用 **Debugger** 的 **Call Stack** 查看它在何时被触发（Trigger）以及它调用了谁（Target）。
+
+## 4. 决策指南：搜索场景 (Scenario)
+
+- **场景 A：系统太死板，难以增加新功能**
+  - *搜寻点*：`Factory` 或 `Strategy`。看是否可以引入抽象接口来实现扩展。
+- **场景 B：不知道谁改了我的数据**
+  - *搜寻点*：`Observer` 或 `Event`。追踪谁在订阅/监听该数据的变动。
+- **场景 C：请求处理流程像面条一样乱**
+  - *搜寻点*：`Interceptor`, `Filter` 或 `Chain`。寻找标准化的处理流。
+
+---
+
+### 质量自检
+
+- **压缩率**：剔除 23 种设计模式的详尽解释，仅保留 80% 常用模式的狙击指令。
+- **5秒测试**：一眼可见 `Strategy` -> `HandlerMap` 的搜索关联。
+
+**关联笔记**
+
+- [[快速代码阅读规范]]
+

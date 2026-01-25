@@ -1,0 +1,51 @@
+---
+date: 2025-05-19 13:58
+tags:
+  - cloud-native-architecture
+  - gitops-principles
+  - ci-cd-process
+  - devops
+  - Type/Reference
+  - Domain/Technology
+  - cloud-native-architecture
+  - gitops-principles
+  - ci-cd-process
+  - devops
+view-count: 3
+---
+### CD Pipeline & Modern Stack
+
+#### I. CD Workflow: 7 Stages (核心流程)
+
+1.  **Commit**: Git. PR → Main. **唯一事实源**.
+2.  **CI**: 自动构建 + 测试. **质量门禁**.
+3.  **Artifacts**: 存储制品 (Jar/镜像). **版本追溯**.
+4.  **Deploy**: 自动发布. GitOps. **零人工干预**.
+5.  **Traffic**: 流量切换 (金丝雀/蓝绿). **风险控制**.
+6.  **Monitor**: 指标 + 日志. **实时反馈循环**.
+7.  **Rollback**: 异常自动回退. **快速止损**.
+
+---
+
+#### II. Modern Stack: Cloud Native (技术选型)
+
+| 阶段 | 核心工具 | 关键逻辑 |
+| :--- | :--- | :--- |
+| **SCM** | Git (GitHub/GitLab) | 变更追踪 |
+| **CI** | GitHub Actions / Jenkins | 自动验证/打包 |
+| **Repo** | Harbor / Docker Hub | 镜像存储/版本化 |
+| **CD** | **ArgoCD** / FluxCD | **GitOps 声明式同步** |
+| **Runtime**| **Kubernetes (K8s)** | 容器编排/资源管理 |
+| **Traffic** | **Istio** / Ingress | 灰度发布/流量调度 |
+| **Monitor** | **Prometheus** + **Grafana** | 时序监控/可视化 |
+| **Logs** | ELK / Loki | 聚合检索/排障 |
+| **IaC** | Terraform / Ansible | 环境一致性 |
+
+---
+
+#### III. Key Concepts (核心要素)
+
+*   **唯一源**: 所有变更源于 Git。
+*   **前置项**: 无 CI，不 CD。
+*   **安全阀**: 监控触发自动回滚。
+*   **解耦**: 构建 ⊥ 部署。从制品库拉取，而非现场编译。

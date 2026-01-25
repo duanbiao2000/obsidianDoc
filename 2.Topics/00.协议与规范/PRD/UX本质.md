@@ -14,10 +14,6 @@ tags:
   - user-experience
   - Type/Reference
   - Domain/Technology
-  - user-journey
-  - usability-testing
-  - ux-design
-  - user-experience
 ---
 ## UX 的本质（一句话版）
 

@@ -20,10 +20,6 @@ tags:
   - cloud-native-architecture
   - Type/Reference
   - Domain/Technology
-  - kubernetes-pod-management
-  - kubernetes-service-discovery
-  - container-orchestration
-  - cloud-native-architecture
 ---
 ## 🧠 一、Kubernetes 的本质是什么？
 

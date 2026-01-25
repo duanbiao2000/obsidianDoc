@@ -1,0 +1,64 @@
+---
+aliases: null
+date: 2025-12-09 15:56
+source: null
+update: 2026-01-01 17:25
+rating: null
+related:
+  - '[[2025-12-31-系统设计与架构模式]]'
+  - '[[Plan文档比较与实例]]'
+  - '[[2025-12-13-API-First接口优先开发流程]]'
+view-count: 16
+tags:
+  - offline-first-apps
+  - indexeddb-pwa-combo
+  - vue
+  - pwa
+  - Type/Reference
+  - Status/TODO
+  - Domain/Technology
+  - offline-first-apps
+  - indexeddb-pwa-combo
+  - vue
+  - pwa
+---
+# Todo 应用：离线优先极简设计协议
+
+## 1. 核心逻辑：离线优先 (Offline-First)
+拒绝功能膨胀，通过 **IndexedDB + PWA** 实现“本地原生”级的响应速度与任务持久化。
+
+## 2. 架构与技术矩阵 (Minimal Stack)
+
+| 模块 | 选型 (ROI) | 核心机制 |
+| :--- | :--- | :--- |
+| **框架** | Vue 3 + Vite | `<script setup>` 组合式 API，极速 HMR。 |
+| **状态** | Pinia | 全局状态管理，对接 IndexedDB 镜像。 |
+| **存储** | Dexie.js | 封装 IndexedDB，突破 5MB 限制，异步持久化。 |
+| **环境** | PWA (Workbox) | Service Worker 实现静态资源预缓存与离线可用。 |
+
+## 3. 核心对象模型 (Schema)
+- **Task**: `{ id, title, completed, priority, categoryId, tags[] }`
+- **Category**: `{ id, name, icon, color, order }`
+
+## 4. 行动指南：开发 3 步走 (SOP)
+1. **基础骨架**：配置 `vite-plugin-pwa`，建立全局 CSS 变量系统（Inter 字体 + 深色模式）。
+2. **数据双向绑定**：初始化 Dexie.js，编写 Composable 实现 Pinia 状态与本地数据库同步。
+3. **交互打磨**：实现**乐观更新**（先更新 UI，后写入 DB），置入 Transition 过渡动画。
+
+## 5. 避坑协议 (Safeguards)
+- **IF** 数据结构复杂 $\rightarrow$ **USE** Dexie 索引，禁止在前端执行 O(n) 全表扫描。
+- **IF** 追求流畅感 $\rightarrow$ **USE** 乐观更新，禁止等待异步写入完成后再刷新列表。
+- **NO** 第一阶段禁止引入云端同步，规避同步冲突（Conflict Resolution）导致的复杂度陷阱。
+
+## 6. 决策树
+1. **跨组件通信？** $\rightarrow$ Pinia。
+2. **数据持久化？** $\rightarrow$ IndexedDB。
+3. **瞬间启动？** $\rightarrow$ Service Worker。
+
+---
+
+### 质量自检
+- **压缩率**：约 65% (剔除冗余修辞，保留 PRD 核心要素)
+- **层级**：2 层 (核心逻辑/矩阵/模型/行动/避坑/决策)
+- **5秒测试**：一眼可见 "IndexedDB + PWA" 核心选型与三步开发流程。
+

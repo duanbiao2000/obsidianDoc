@@ -9,10 +9,6 @@ tags:
   - problem-solving
   - Type/Reference
   - Domain/Technology
-  - question-quality-improvement
-  - problem-formulation-technique
-  - training
-  - problem-solving
 collections: null
 source: null
 rating: null

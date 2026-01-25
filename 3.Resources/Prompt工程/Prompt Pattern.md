@@ -12,10 +12,6 @@ tags:
   - KnowledgeManagement
   - Domain/AI/PromptEngineering
   - Type/Reference
-  - prompt-patterns
-  - cognitive-models
-  - ThoughtFramework
-  - KnowledgeManagement
 ---
 # [[Prompt Pattern]] | Minimal
 

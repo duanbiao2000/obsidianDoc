@@ -8,10 +8,6 @@ tags:
   - language-acquisition
   - Type/Reference
   - Domain/Technology
-  - language-protocol
-  - memory-reinforcement
-  - english-learning
-  - language-acquisition
 source: null
 view-count: 7
 rating: 10

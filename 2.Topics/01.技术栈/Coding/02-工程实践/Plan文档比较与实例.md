@@ -12,10 +12,6 @@ tags:
   - documentation
   - Type/Reference
   - Domain/Technology
-  - real-time-collaboration
-  - websocket-implementation
-  - system-design
-  - documentation
 ---
 # 技术文档：极简矩阵
 

@@ -9,10 +9,6 @@ tags:
   - search
   - Domain/Technology/Git
   - Type/Reference
-  - github-efficiency
-  - coding-tips
-  - github
-  - search
 source: null
 update: null
 rating: null
