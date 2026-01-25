@@ -7,6 +7,19 @@ rating: null
 related: null
 view-count: null
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\06.语言与移民\英语\_Index_of_英语.md|英语]]
+- [[2.Topics\06.语言与移民\_Index_of_06.语言与移民.md|06.语言与移民]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+**相关主题**:
+- [[2.Topics\03.内容创作\Writing]]
+
+---
+
 除了**无灵主语**，DSE Level 5** 写作中还有几个核心的“高阶概念”。掌握这些不仅能提升句式的复杂度，更能展现出考生的**批判性思维**和**学术素养**，这是考官极其看重的“质感”。
 
 以下是五大必杀技：

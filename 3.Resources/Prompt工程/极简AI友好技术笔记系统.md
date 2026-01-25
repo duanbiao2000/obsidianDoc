@@ -8,6 +8,18 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+**相关主题**:
+- [[2.Topics/03.内容创作/AI|03.内容创作]]
+- [[3.Resources/Prompt工程/README.md|Prompt工程]]
+
+---
+
 ## 🧠 **KAN v2：极简AI友好技术笔记系统**
 
 > **目标**：创建可长期存储、语义清晰、便于AI检索的原子化知识锚点

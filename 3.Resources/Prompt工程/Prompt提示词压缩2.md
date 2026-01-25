@@ -8,6 +8,14 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 > **先保语义安全 & 行为稳定 → 再追求 Token 节省**
 
 可以拆成几类因素来看。

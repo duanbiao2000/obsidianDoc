@@ -9,6 +9,20 @@ tags:
   - Type/Reference
 view-count: 3
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\学习挑战\100项微习惯\_Index_of_100项微习惯.md|100项微习惯]]
+- [[3.Resources\学习挑战\_Index_of_学习挑战.md|学习挑战]]
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+**相关主题**:
+- [[2.Topics\01.技术栈\Coding\04-语言指南]]
+- [[2.Topics\02.认知系统\学习系统]]
+
+---
+
 ### 一、 语法层面：超越规则，拥抱 `Pythonic` 思维
 
 - **熟练运用惯用法 (`Idiomatic Python`)**:

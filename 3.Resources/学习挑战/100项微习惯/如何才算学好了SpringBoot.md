@@ -7,6 +7,19 @@ tags:
   - Domain/Mindset
 update: 2025-05-22 18:15
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\学习挑战\100项微习惯\_Index_of_100项微习惯.md|100项微习惯]]
+- [[3.Resources\学习挑战\_Index_of_学习挑战.md|学习挑战]]
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+**相关主题**:
+- [[2.Topics\02.认知系统\学习系统]]
+
+---
+
 ### 一、 阶段一：能用 (入门)
 - **核心能力**: 快速搭建并运行一个基本的Spring Boot应用。
 - **掌握技能**:

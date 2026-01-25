@@ -7,6 +7,16 @@ tags:
   - Type/Reference
   - Domain/Technology
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\00.协议与规范\Spec\_Index_of_Rules.md|Rules]]
+- [[2.Topics\00.协议与规范\_Index_of_00.协议与规范.md|00.协议与规范]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+---
+
 本笔记旨在梳理和分析`tone_map`字典中定义的多种语气类型，帮助理解每种语气的功能、特点及其适用场景，以便在写作和交流中更有效地选择和运用。
 
 ### 1. 语气分类速览

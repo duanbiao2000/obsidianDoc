@@ -7,6 +7,14 @@ tags:
   - Type/Note
   - Domain/Technology
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 ### 1. 学术与科学研究
 - **谷歌学术 (Google Scholar)**: `https://scholar.google.com/`
 - **PubMed**: `https://pubmed.ncbi.nlm.nih.gov/`

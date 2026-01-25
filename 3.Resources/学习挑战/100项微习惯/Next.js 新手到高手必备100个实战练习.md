@@ -8,6 +8,19 @@ tags:
   - Type/Reference
   - Domain/Technology
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\学习挑战\100项微习惯\_Index_of_100项微习惯.md|100项微习惯]]
+- [[3.Resources\学习挑战\_Index_of_学习挑战.md|学习挑战]]
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+**相关主题**:
+- [[2.Topics\02.认知系统\学习系统]]
+
+---
+
 ### **Next.js 核心能力20题实战 (App Router 版)**
 
 > **核心目标**: **在 20 个实战练习中，掌握构建现代、高性能 Next.js 应用所需的最核心工程能力。** 本指南以构建一个迷你博客为例，贯穿所有练习。

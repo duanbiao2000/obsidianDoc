@@ -15,6 +15,21 @@ source:
 update: null
 rating: null
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\00.协议与规范\PRD\_Index_of_PRD.md|PRD]]
+- [[2.Topics\00.协议与规范\_Index_of_00.协议与规范.md|00.协议与规范]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+**相关主题**:
+- [[2.Topics/03.内容创作/AI|03.内容创作]]
+- [[3.Resources/Prompt工程/README.md|Prompt工程]]
+- [[2.Topics\03.内容创作\Writing]]
+
+---
+
 好的，我将根据您提供的 "ScriptCraft AI" 产品文档，为您生成结构化、原子化的 Anki 闪卡。
 
 # ScriptCraft AI - 产品核心

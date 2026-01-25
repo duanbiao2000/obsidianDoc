@@ -10,6 +10,14 @@ tags:
   - Type/Reference
 ---
 
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[3.Resources\_Index_of_3.Resources.md|3.Resources]]
+
+---
+
 # 🧠 Meta Prompt for “需求精准表达 Copilot Prompt Generator”
 
 > ✅ 用途：当用户输入一个模糊问题时，生成一个能引导 LLM 产出**结构化、工程可执行的需求说明**的提示词。

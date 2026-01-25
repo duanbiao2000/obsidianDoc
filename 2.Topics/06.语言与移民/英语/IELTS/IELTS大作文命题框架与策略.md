@@ -10,6 +10,20 @@ tags:
   - Type/Reference
   - Status/Review
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\06.语言与移民\英语\IELTS\_Index_of_IELTS.md|IELTS]]
+- [[2.Topics\06.语言与移民\英语\_Index_of_英语.md|英语]]
+- [[2.Topics\06.语言与移民\_Index_of_06.语言与移民.md|06.语言与移民]]
+
+**相关主题**:
+- [[2.Topics\06.语言与移民\英语\IELTS\雅思口语知识库.md]]
+- [[2.Topics\06.语言与移民\英语\IELTS\IELTS大作文命题框架与策略.md]]
+
+---
+
 # IELTS Writing Task 2 完整命题类型框架与应对策略
 
 ## **核心分类体系**

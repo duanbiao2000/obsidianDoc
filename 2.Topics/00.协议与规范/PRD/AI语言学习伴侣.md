@@ -16,6 +16,21 @@ rating: null
 related: null
 view-count: 6
 ---
+
+## 🔗 相关链接
+
+**上级索引**:
+- [[2.Topics\00.协议与规范\PRD\_Index_of_PRD.md|PRD]]
+- [[2.Topics\00.协议与规范\_Index_of_00.协议与规范.md|00.协议与规范]]
+- [[2.Topics\_Index_of_2.Topics.md|2.Topics]]
+
+**相关主题**:
+- [[2.Topics/03.内容创作/AI|03.内容创作]]
+- [[3.Resources/Prompt工程/README.md|Prompt工程]]
+- [[2.Topics\02.认知系统\学习系统]]
+
+---
+
 ## 0. 本质 (The Essence)
 - **核心逻辑**：AI 实时对话 + 即时纠正 = 消除“开口跪”焦虑。
 - **价值点**：24/7 无压力陪练 + 个性化反馈。
