@@ -1,13 +1,13 @@
 ---
-view-count: 6
+rating: 3.0
 tags:
-  - okr-strategy
-  - video-content-metrics
-  - KnowledgeManagement
-  - Productivity
-  - Type/Reference
+- okr-strategy
+- video-content-metrics
+- KnowledgeManagement
+- Productivity
+- Type/Reference
 update: 2026-01-25
-
+view-count: 6
 ---
 
 ## 🔗 相关链接

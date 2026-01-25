@@ -1,12 +1,13 @@
 ---
-view-count: 6
+rating: 2.5
 tags:
-  - langchain-components
-  - ai-protocol
-  - ai
-  - agent-architecture
-  - Type/Reference
-  - Domain/Technology
+- langchain-components
+- ai-protocol
+- ai
+- agent-architecture
+- Type/Reference
+- Domain/Technology
+view-count: 6
 ---
 # LangChain：组件化 AI 架构极简协议
 

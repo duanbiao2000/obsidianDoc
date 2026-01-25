@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 2.5
 tags:
-  - java-annotation
-  - aop-implementation
-  - java
-  - algorithm
-  - Type/Reference
-  - Domain/Technology
+- java-annotation
+- aop-implementation
+- java
+- algorithm
+- Type/Reference
+- Domain/Technology
+view-count: 2
 ---
 Java 注解（Annotation）作为一种元编程工具，广泛应用于**框架设计、代码生成、配置驱动、AOP、权限控制等多个领域**。下面我来帮你系统梳理一下它的典型应用场景 👇
 

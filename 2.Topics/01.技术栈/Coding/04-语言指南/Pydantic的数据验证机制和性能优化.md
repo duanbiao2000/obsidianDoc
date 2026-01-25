@@ -1,11 +1,12 @@
 ---
+rating: 3.0
 tags:
-  - malicious-input-detection
-  - transaction-validation
-  - content-creation
-  - security-vulnerabilities
-  - Type/Reference
-  - Domain/Technology
+- malicious-input-detection
+- transaction-validation
+- content-creation
+- security-vulnerabilities
+- Type/Reference
+- Domain/Technology
 ---
 你提到的“攻击者代码”实际上是指**攻击者可能构造的恶意输入数据（payload）**，目的是绕过业务逻辑校验、篡改金额、提升权限、注入恶意内容等。在你提供的场景中（订单总价校验），攻击者主要目标是**让系统接受一个不合理的低总价**，从而以低价购买商品。
 

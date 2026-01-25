@@ -1,12 +1,13 @@
 ---
+rating: 2.5
 tags:
-  - workflow-optimization
-  - action-plan-creation
-  - knowledge-management
-  - system-thinking
-  - Domain/AI
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- workflow-optimization
+- action-plan-creation
+- knowledge-management
+- system-thinking
+- Domain/AI
+- Domain/AI/PromptEngineering
+- Type/Reference
 ---
 
 

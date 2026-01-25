@@ -1,17 +1,18 @@
 ---
-view-count: 6
-update: 2026-01-06 18:12
+rating: 3.0
 related:
-  - '[[技术写作]]'
-  - '[[通过Figma和Notion建立SOP内容工厂]]'
-  - '[[先优化内核，再设计API]]'
+- '[[技术写作]]'
+- '[[通过Figma和Notion建立SOP内容工厂]]'
+- '[[先优化内核，再设计API]]'
 tags:
-  - technical-writing-sop
-  - content-strategy
-  - content-creation
-  - productivity
-  - Type/Reference
-  - Domain/Technology
+- technical-writing-sop
+- content-strategy
+- content-creation
+- productivity
+- Type/Reference
+- Domain/Technology
+update: 2026-01-06 18:12
+view-count: 6
 ---
 ## 技术博客写作与发布 SOP：从“创作”到“工程”
 

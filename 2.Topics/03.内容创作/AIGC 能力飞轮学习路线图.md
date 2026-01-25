@@ -1,10 +1,11 @@
 ---
-view-count: 5
+rating: 2.0
 tags:
-  - TechAssetCompounding
-  - BusinessAutomation
-  - Domain/Creativity
-  - SoftwareEngineering
+- TechAssetCompounding
+- BusinessAutomation
+- Domain/Creativity
+- SoftwareEngineering
+view-count: 5
 ---
 
 ## 🔗 相关链接

@@ -1,17 +1,18 @@
 ---
-view-count: 3
-update: 2026-01-06 18:47
+rating: 2.5
 related:
-  - '[[Prompt管理科学]]'
-  - '[[纽约客笔记架构优化建议]]'
-  - '[[分治法笔记重构专家]]'
+- '[[Prompt管理科学]]'
+- '[[纽约客笔记架构优化建议]]'
+- '[[分治法笔记重构专家]]'
 tags:
-  - personal-productivity-system
-  - task-follow-up-optimization
-  - Notion-Organization
-  - System-Thinking
-  - Type/Reference
-  - Domain/Technology
+- personal-productivity-system
+- task-follow-up-optimization
+- Notion-Organization
+- System-Thinking
+- Type/Reference
+- Domain/Technology
+update: 2026-01-06 18:47
+view-count: 3
 ---
 ### **[[工程学素养-Notion Personal OS]] (符號優化版)**
 

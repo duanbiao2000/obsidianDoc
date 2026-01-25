@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 3.0
 tags:
-  - knowledge-guidance-model
-  - multilevel-learning
-  - academic-research
-  - cognitive-science
-  - Type/Reference
-  - Domain/Technology
+- knowledge-guidance-model
+- multilevel-learning
+- academic-research
+- cognitive-science
+- Type/Reference
+- Domain/Technology
+view-count: 2
 ---
 
 ## 🔗 相关链接

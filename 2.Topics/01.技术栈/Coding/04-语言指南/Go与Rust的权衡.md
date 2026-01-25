@@ -1,13 +1,14 @@
 ---
-view-count: 4
+rating: 2.5
 tags:
-  - go-rust-comparison
-  - java-evolution
-  - programming-languages
-  - software-engineering
-  - Domain/Technology/Rust
-  - Domain/Technology/Go
-  - Type/Reference
+- go-rust-comparison
+- java-evolution
+- programming-languages
+- software-engineering
+- Domain/Technology/Rust
+- Domain/Technology/Go
+- Type/Reference
+view-count: 4
 ---
 # [[2025-12-05-Go与Rust的权衡]]：极简版
 

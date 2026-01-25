@@ -1,12 +1,13 @@
 ---
 date: 2025-05-19 13:58
+rating: 2.5
 tags:
-  - pythonic-coding
-  - object-orientation
-  - python
-  - programming
-  - Domain/Technology/Python
-  - Type/Reference
+- pythonic-coding
+- object-orientation
+- python
+- programming
+- Domain/Technology/Python
+- Type/Reference
 view-count: 3
 ---
 

@@ -1,18 +1,19 @@
 ---
-view-count: 4
-update: 2026-01-08 19:28
+rating: 3.0
 related:
-  - '[[2025-11-30-高 ROI 个人操作系统]]'
-  - '[[2025-12-07-2026开发思维模型转变]]'
-  - '[[2026-01-08-关于AI产品系统集成与工程落地]]'
-  - '[[独立开发者产品创意]]'
+- '[[2025-11-30-高 ROI 个人操作系统]]'
+- '[[2025-12-07-2026开发思维模型转变]]'
+- '[[2026-01-08-关于AI产品系统集成与工程落地]]'
+- '[[独立开发者产品创意]]'
 tags:
-  - product-market-fit
-  - customer-segmentation
-  - business-strategy
-  - marketing-strategy
-  - Type/Reference
-  - Domain/Technology
+- product-market-fit
+- customer-segmentation
+- business-strategy
+- marketing-strategy
+- Type/Reference
+- Domain/Technology
+update: 2026-01-08 19:28
+view-count: 4
 ---
 # 《跨越鸿沟》· 高 ROI 一页清
 

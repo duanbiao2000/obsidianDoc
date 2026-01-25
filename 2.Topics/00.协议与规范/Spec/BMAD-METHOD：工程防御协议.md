@@ -1,24 +1,23 @@
 ---
-tags:
-  - agile-ai-development
-  - decision-protocol-optimization
-  - tech/deepwiki
-  - method
-  - Type/Reference
-  - Domain/Technology
-source: >-
-  https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/working-in-the-brownfield.md
-view-count: 20
-update: 2026-01-08 23:13
-related: null
 aliases: BMAD-METHOD/docs/user-guide.md at main · bmad-code-org/BMAD-METHOD
 author:
-  - '[[GitHub]]'
+- '[[GitHub]]'
+date: 2025-08-17 00:00:00+00:00
+description: Breakthrough Method for Agile Ai Driven Development - BMAD-METHOD/docs/user-guide.md
+  at main · bmad-code-org/BMAD-METHOD
 published: null
-date: 2025-08-17T00:00:00.000Z
-description: >-
-  Breakthrough Method for Agile Ai Driven Development -
-  BMAD-METHOD/docs/user-guide.md at main · bmad-code-org/BMAD-METHOD
+rating: 3.0
+related: null
+source: https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/working-in-the-brownfield.md
+tags:
+- agile-ai-development
+- decision-protocol-optimization
+- tech/deepwiki
+- method
+- Type/Reference
+- Domain/Technology
+update: 2026-01-08 23:13
+view-count: 20
 ---
 根据你的 ROI 优化策略，对 [[BMAD-METHOD]] 的三篇整合笔记进行重构，将清单、指令集与决策流压缩为高密度的**工程防御协议**。
 

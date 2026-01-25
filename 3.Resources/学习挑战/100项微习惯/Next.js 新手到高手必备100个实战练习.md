@@ -1,12 +1,13 @@
 ---
-view-count: 5
+rating: 3.0
 tags:
-  - typescript
-  - tailwind-css
-  - react
-  - next-js
-  - Type/Reference
-  - Domain/Technology
+- typescript
+- tailwind-css
+- react
+- next-js
+- Type/Reference
+- Domain/Technology
+view-count: 5
 ---
 
 ## 🔗 相关链接

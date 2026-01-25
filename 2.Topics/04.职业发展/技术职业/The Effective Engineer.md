@@ -1,20 +1,21 @@
 ---
-view-count: 13
-update: 2026-01-06 17:33
+rating: 3.0
 related:
-  - '[[真·效率：在加速社会中求生]]'
-  - '[[思维模型：优化思考的实用工具箱]]'
-  - '[[2025-11-30-高 ROI 个人操作系统]]'
-  - '[[原则驱动行动]]'
+- '[[真·效率：在加速社会中求生]]'
+- '[[思维模型：优化思考的实用工具箱]]'
+- '[[2025-11-30-高 ROI 个人操作系统]]'
+- '[[原则驱动行动]]'
 tags:
-  - leveraging-efficiency
-  - high-impact-activities
-  - productivity
-  - system-thinking
-  - Domain/Professional
-  - Domain/Professional/Skill
-  - Status/Mastered
-  - Type/Reference
+- leveraging-efficiency
+- high-impact-activities
+- productivity
+- system-thinking
+- Domain/Professional
+- Domain/Professional/Skill
+- Status/Mastered
+- Type/Reference
+update: 2026-01-06 17:33
+view-count: 13
 ---
 
 # 《The Effective Engineer》核心思想与方法

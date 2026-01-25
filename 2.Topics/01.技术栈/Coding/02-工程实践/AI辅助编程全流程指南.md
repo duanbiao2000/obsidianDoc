@@ -1,18 +1,19 @@
 ---
 date: 2025-05-30 14:38
-tags:
-  - structured-documentation
-  - contextual-encoding
-  - ai-content-creation-process
-  - ai-agent-development
-  - Domain/AI
-  - Domain/AI/Agent
-  - Domain/AI/ContentCreation
-  - Domain/Technology/Programming
-  - Type/Reference
-  - Status/Done
+rating: 2.5
 source:
-  - https://www.youtube.com/watch?v=MBaTuJfICP4
+- https://www.youtube.com/watch?v=MBaTuJfICP4
+tags:
+- structured-documentation
+- contextual-encoding
+- ai-content-creation-process
+- ai-agent-development
+- Domain/AI
+- Domain/AI/Agent
+- Domain/AI/ContentCreation
+- Domain/Technology/Programming
+- Type/Reference
+- Status/Done
 view-count: 7
 ---
 # [[AI 辅助编程全流程指南]] | Minimal

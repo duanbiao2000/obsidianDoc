@@ -1,11 +1,12 @@
 ---
+rating: 2.0
 tags:
-  - AcademicResearch
-  - ScientificPublications
-  - KnowledgeManagement
-  - Research
-  - Type/Note
-  - Domain/Technology
+- AcademicResearch
+- ScientificPublications
+- KnowledgeManagement
+- Research
+- Type/Note
+- Domain/Technology
 ---
 
 ## 🔗 相关链接

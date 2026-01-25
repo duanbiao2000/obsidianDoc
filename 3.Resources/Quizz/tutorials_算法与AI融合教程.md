@@ -1,12 +1,13 @@
 ---
-view-count: 4
+rating: 2.5
 tags:
-  - algorithm-ai-integration
-  - adaptive-algorithm-design
-  - Tech/AI
-  - Algorithm
-  - Type/Reference
-  - Domain/Technology
+- algorithm-ai-integration
+- adaptive-algorithm-design
+- Tech/AI
+- Algorithm
+- Type/Reference
+- Domain/Technology
+view-count: 4
 ---
 # 算法与 AI 融合：从确定性到自适应
 

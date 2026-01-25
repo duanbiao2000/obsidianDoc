@@ -1,12 +1,13 @@
 ---
 date: 2025-07-21 22:29
+rating: 3.0
 tags:
-  - PracticalSkillVideos
-  - AIApplicatonTutorials
-  - ContentCreation
-  - CognitiveModeling
-  - Domain/Technology/Go
-  - Type/Reference
+- PracticalSkillVideos
+- AIApplicatonTutorials
+- ContentCreation
+- CognitiveModeling
+- Domain/Technology/Go
+- Type/Reference
 view-count: 111
 ---
 

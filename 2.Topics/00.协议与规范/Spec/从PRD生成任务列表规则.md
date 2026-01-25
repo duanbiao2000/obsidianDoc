@@ -1,15 +1,16 @@
 ---
+alwaysApply: false
 description: null
 globs: null
-alwaysApply: false
-view-count: 2
+rating: 2.5
 tags:
-  - markdown-documentation
-  - developer-guidance
-  - product-management
-  - task-creation
-  - Type/Reference
-  - Domain/Technology
+- markdown-documentation
+- developer-guidance
+- product-management
+- task-creation
+- Type/Reference
+- Domain/Technology
+view-count: 2
 ---
 
 ## 🔗 相关链接

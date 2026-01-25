@@ -1,18 +1,19 @@
 ---
-view-count: 6
-update: 2026-01-08 14:12
+rating: 3.5
 related:
-  - '[[2025-12-20-常用开发标记]]'
-  - '[[commit 和 PR的选择]]'
-  - '[[200组开发选题]]'
-  - '[[如何为开源项目贡献你的第一个PR]]'
+- '[[2025-12-20-常用开发标记]]'
+- '[[commit 和 PR的选择]]'
+- '[[200组开发选题]]'
+- '[[如何为开源项目贡献你的第一个PR]]'
 tags:
-  - conventional-commits-principles
-  - commit-message-standards
-  - git
-  - commit-message
-  - Domain/Technology/Git
-  - Type/Reference
+- conventional-commits-principles
+- commit-message-standards
+- git
+- commit-message
+- Domain/Technology/Git
+- Type/Reference
+update: 2026-01-08 14:12
+view-count: 6
 ---
 ## 🎯 Conventional Commits & Responses API：认知锚点库
 

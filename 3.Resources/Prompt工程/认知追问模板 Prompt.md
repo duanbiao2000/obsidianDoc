@@ -1,9 +1,10 @@
 ---
+rating: 3.0
 tags:
-  - cognitive-probing-framework
-  - meta-prompt-design
-  - Domain/Creativity
-  - KnowledgeManagement
+- cognitive-probing-framework
+- meta-prompt-design
+- Domain/Creativity
+- KnowledgeManagement
 ---
 
 

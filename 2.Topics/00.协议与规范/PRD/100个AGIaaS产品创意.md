@@ -1,11 +1,12 @@
 ---
+rating: 2.5
 tags:
-  - agi-apis
-  - ai-democratization
-  - ai-agent-development
-  - ai-content-creation-process
-  - Type/Reference
-  - Domain/Technology
+- agi-apis
+- ai-democratization
+- ai-agent-development
+- ai-content-creation-process
+- Type/Reference
+- Domain/Technology
 ---
 
 ## 🔗 相关链接

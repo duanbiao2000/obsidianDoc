@@ -1,13 +1,14 @@
 ---
 date: 2025-05-23 23:05
+rating: 2.5
 tags:
-  - multi-threading-agent
-  - agent-performance-bottlenecks
-  - Tech/AI/LLM
-  - agent-architecture
-  - Domain/AI
-  - Domain/AI/Agent
-  - Type/Reference
+- multi-threading-agent
+- agent-performance-bottlenecks
+- Tech/AI/LLM
+- agent-architecture
+- Domain/AI
+- Domain/AI/Agent
+- Type/Reference
 view-count: 2
 ---
 

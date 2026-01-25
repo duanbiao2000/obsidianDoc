@@ -1,19 +1,20 @@
 ---
-view-count: 4
+rating: 3.5
 related:
-  - "[[IELTS-style essay]]"
-  - "[[debate辩论性分析]]"
-  - "[[从优秀中学习-用分析深度换取实践效率]]"
-  - "[[5级DSE高分写作用语习惯]]"
+- '[[IELTS-style essay]]'
+- '[[debate辩论性分析]]'
+- '[[从优秀中学习-用分析深度换取实践效率]]'
+- '[[5级DSE高分写作用语习惯]]'
 tags:
-  - argumentative-writing-framework
-  - paradigm-extraction
-  - IELTS
-  - debate
-  - Domain/Language/IELTS
-  - Domain/Language/English
-  - Type/Essay
-  - Status/Done
+- argumentative-writing-framework
+- paradigm-extraction
+- IELTS
+- debate
+- Domain/Language/IELTS
+- Domain/Language/English
+- Type/Essay
+- Status/Done
+view-count: 4
 ---
 
 # 基于此文的IELTS写作复用框架与范式提炼

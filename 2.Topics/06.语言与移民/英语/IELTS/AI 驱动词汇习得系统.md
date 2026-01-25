@@ -1,20 +1,21 @@
 ---
-view-count: 5
-update: 2026-01-08 22:11
+rating: 3.0
 related:
-  - '[[语言能力日练计划]]'
-  - '[[2025-12-12-主题库vs问题驱动]]'
-  - '[[AI语言学习伴侣]]'
-  - '[[极简AI友好技术笔记系统]]'
+- '[[语言能力日练计划]]'
+- '[[2025-12-12-主题库vs问题驱动]]'
+- '[[AI语言学习伴侣]]'
+- '[[极简AI友好技术笔记系统]]'
 tags:
-  - lexical-density
-  - contextual-encoding
-  - language-learning
-  - ai
-  - Domain/Language/IELTS
-  - Domain/AI/ContentCreation
-  - Type/LearningSystem
-  - Status/Review
+- lexical-density
+- contextual-encoding
+- language-learning
+- ai
+- Domain/Language/IELTS
+- Domain/AI/ContentCreation
+- Type/LearningSystem
+- Status/Review
+update: 2026-01-08 22:11
+view-count: 5
 ---
 
 # 🚀 AI 驱动·词汇习得系统 (F/C/P/M 2.0)

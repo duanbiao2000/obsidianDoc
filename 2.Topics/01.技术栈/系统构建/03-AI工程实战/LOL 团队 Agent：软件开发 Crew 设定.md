@@ -1,13 +1,14 @@
 ---
-view-count: 6
+rating: 2.0
 tags:
-  - game-mechanics-integration
-  - cross-functional-teams
-  - Methodology
-  - DevProcess
-  - AI
-  - Domain/AI/Agent
-  - Type/Reference
+- game-mechanics-integration
+- cross-functional-teams
+- Methodology
+- DevProcess
+- AI
+- Domain/AI/Agent
+- Type/Reference
+view-count: 6
 ---
 ### 一、 核心本质
 **团队协同 = 战术补位**。

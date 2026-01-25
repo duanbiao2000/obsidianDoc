@@ -1,12 +1,13 @@
 ---
-view-count: 4
+rating: 3.0
 tags:
-  - sql-performance-optimization
-  - database-indexing
-  - database
-  - postgresql
-  - Type/Reference
-  - Domain/Technology
+- sql-performance-optimization
+- database-indexing
+- database
+- postgresql
+- Type/Reference
+- Domain/Technology
+view-count: 4
 ---
 
 ## 🔗 相关链接

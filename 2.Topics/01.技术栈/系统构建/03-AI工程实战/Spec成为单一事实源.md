@@ -1,18 +1,19 @@
 ---
-view-count: 4
-update: 2026-01-06 23:04
-tags:
-  - specification-driven-development
-  - automated-test-generation
-  - SpecDriven
-  - AI
-  - Type/Reference
-  - Domain/Technology
+rating: 2.5
 related:
-  - '[[OpenSpec规范驱动开发实战]]'
-  - '[[类型本身成为可执行的文档]]'
-  - '[[Spec-Kit 规范即代码]]'
-  - '[[SpecKit四个阶段]]'
+- '[[OpenSpec规范驱动开发实战]]'
+- '[[类型本身成为可执行的文档]]'
+- '[[Spec-Kit 规范即代码]]'
+- '[[SpecKit四个阶段]]'
+tags:
+- specification-driven-development
+- automated-test-generation
+- SpecDriven
+- AI
+- Type/Reference
+- Domain/Technology
+update: 2026-01-06 23:04
+view-count: 4
 ---
 ### 🎯 业务场景
 

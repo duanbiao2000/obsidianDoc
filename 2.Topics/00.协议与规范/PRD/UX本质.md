@@ -1,19 +1,20 @@
 ---
-view-count: 5
-update: 2026-01-09 11:55
+rating: 3.5
 related:
-  - '[[问对问题的前提]]'
-  - '[[快速提升提问质量的10大实战练习]]'
-  - '[[编程范式]]'
-  - '[[从编码员到问题解决者]]'
-  - '[[产品经理都有哪些常用方法论]]'
+- '[[问对问题的前提]]'
+- '[[快速提升提问质量的10大实战练习]]'
+- '[[编程范式]]'
+- '[[从编码员到问题解决者]]'
+- '[[产品经理都有哪些常用方法论]]'
 tags:
-  - user-journey
-  - usability-testing
-  - ux-design
-  - user-experience
-  - Type/Reference
-  - Domain/Technology
+- user-journey
+- usability-testing
+- ux-design
+- user-experience
+- Type/Reference
+- Domain/Technology
+update: 2026-01-09 11:55
+view-count: 5
 ---
 ## UX 的本质（一句话版）
 

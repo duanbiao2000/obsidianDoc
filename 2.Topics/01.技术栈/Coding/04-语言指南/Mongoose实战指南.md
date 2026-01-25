@@ -1,12 +1,13 @@
 ---
-view-count: 4
+rating: 2.5
 tags:
-  - mongoose-usage
-  - mongodb-integration
-  - database
-  - software-engineering
-  - Domain/Technology/Go
-  - Type/Reference
+- mongoose-usage
+- mongodb-integration
+- database
+- software-engineering
+- Domain/Technology/Go
+- Type/Reference
+view-count: 4
 ---
 **核心概念简化与组织 (基于第一性原理/费曼学习法)**
 

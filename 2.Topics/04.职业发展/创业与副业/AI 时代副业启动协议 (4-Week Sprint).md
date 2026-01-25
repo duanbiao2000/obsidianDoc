@@ -1,17 +1,18 @@
 ---
-view-count: 5
-update: 2026-01-08 21:36
+rating: 3.0
 related:
-  - '[[2025-12-12-成本模型分析]]'
-  - '[[科技前哨·内容炼金术]]'
+- '[[2025-12-12-成本模型分析]]'
+- '[[科技前哨·内容炼金术]]'
 tags:
-  - Side-Hustle
-  - ROI-Optimization
-  - Productivity
-  - PromptEngineering
-  - Domain/Professional
-  - Domain/Professional/SideHustle
-  - Type/Action
+- Side-Hustle
+- ROI-Optimization
+- Productivity
+- PromptEngineering
+- Domain/Professional
+- Domain/Professional/SideHustle
+- Type/Action
+update: 2026-01-08 21:36
+view-count: 5
 ---
 
 # AI 时代副业启动协议 (4-Week Sprint)

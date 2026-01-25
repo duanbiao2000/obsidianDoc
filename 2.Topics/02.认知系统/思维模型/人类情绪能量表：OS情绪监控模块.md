@@ -1,16 +1,17 @@
 ---
-view-count: 54
-update: 2026-01-08 14:43
+rating: 3.5
 related:
-  - "[[我们要解决什么问题]]"
-  - "[[专业认知激活提示词创建框架]]"
+- '[[我们要解决什么问题]]'
+- '[[专业认知激活提示词创建框架]]'
 tags:
-  - emotional-intelligence
-  - mindset-transformation
-  - personal-development
-  - cognitive-modeling
-  - Type/Reference
-  - Domain/Technology
+- emotional-intelligence
+- mindset-transformation
+- personal-development
+- cognitive-modeling
+- Type/Reference
+- Domain/Technology
+update: 2026-01-08 14:43
+view-count: 54
 ---
 **人類意識能級分佈圖如下：\
 1 開悟正覺： 700—1000\

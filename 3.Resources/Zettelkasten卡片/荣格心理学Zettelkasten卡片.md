@@ -1,16 +1,17 @@
 ---
-view-count: 4
+rating: 3.0
 related:
-  - "[[MOC - 抽象思维]]"
+- '[[MOC - 抽象思维]]'
 tags:
-  - collective-unconscious
-  - archetypal-theory
-  - Jungian
-  - Psychology
-  - Domain/Cognitive
-  - Domain/Cognitive/MentalModel
-  - Type/Reference
-  - Status/Review
+- collective-unconscious
+- archetypal-theory
+- Jungian
+- Psychology
+- Domain/Cognitive
+- Domain/Cognitive/MentalModel
+- Type/Reference
+- Status/Review
+view-count: 4
 ---
 ## 荣格心理学Zettelkasten卡片
 

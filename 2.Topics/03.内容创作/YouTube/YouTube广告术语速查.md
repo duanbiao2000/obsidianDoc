@@ -1,12 +1,13 @@
 ---
-view-count: 4
+rating: 2.0
 tags:
-  - youtube-advertising
-  - ad-revenue
-  - advertising
-  - video-marketing
-  - Type/Reference
-  - Domain/Technology
+- youtube-advertising
+- ad-revenue
+- advertising
+- video-marketing
+- Type/Reference
+- Domain/Technology
+view-count: 4
 ---
 
 ## 🔗 相关链接

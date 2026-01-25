@@ -1,12 +1,13 @@
 ---
-view-count: 2
+rating: 3.0
 tags:
-  - ci-cd-process
-  - worklow-optimization
-  - workflow
-  - software-development
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- ci-cd-process
+- worklow-optimization
+- workflow
+- software-development
+- Domain/AI/PromptEngineering
+- Type/Reference
+view-count: 2
 ---
 
 ## 🔗 相关链接

@@ -1,10 +1,11 @@
 ---
+rating: 3.0
 tags:
-  - knowledge-base-structure
-  - technical-career-growth
-  - skill-development
-  - roi-optimization
-  - Type/Reference
+- knowledge-base-structure
+- technical-career-growth
+- skill-development
+- roi-optimization
+- Type/Reference
 ---
 # CLAUDE.md - 技术能力晋升项目
 

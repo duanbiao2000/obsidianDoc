@@ -1,21 +1,22 @@
 ---
-view-count: 4
+rating: 3.0
 related:
-  - '[[200组开发选题]]'
-  - '[[20250624-技能点+3]]'
-  - '[[编程范式]]'
-  - '[[微服务生态系统]]'
-  - '[[领域驱动设计]]'
-  - '[[2025-12-06-企业应用架构模式]]'
-  - '[[系统设计：规模化与权衡指南]]'
-  - '[[前端开发原则]]'
+- '[[200组开发选题]]'
+- '[[20250624-技能点+3]]'
+- '[[编程范式]]'
+- '[[微服务生态系统]]'
+- '[[领域驱动设计]]'
+- '[[2025-12-06-企业应用架构模式]]'
+- '[[系统设计：规模化与权衡指南]]'
+- '[[前端开发原则]]'
 tags:
-  - microservices-architecture
-  - ddd-implementation
-  - system-design
-  - architecture
-  - Type/Reference
-  - Domain/Technology
+- microservices-architecture
+- ddd-implementation
+- system-design
+- architecture
+- Type/Reference
+- Domain/Technology
+view-count: 4
 ---
 # 程序员圈 LFSP Top 100
 

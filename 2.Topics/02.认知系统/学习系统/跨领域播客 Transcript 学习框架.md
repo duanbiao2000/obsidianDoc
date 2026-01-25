@@ -1,12 +1,13 @@
 ---
-view-count: 7
+rating: 3.0
 tags:
-  - cross-domain-mapping
-  - rapid-framework-creation
-  - algorithm
-  - cognitive-modeling
-  - Type/Reference
-  - Domain/Technology
+- cross-domain-mapping
+- rapid-framework-creation
+- algorithm
+- cognitive-modeling
+- Type/Reference
+- Domain/Technology
+view-count: 7
 ---
 # [[2025-12-30-跨领域播客 Transcript 快速框架构建法]]
 

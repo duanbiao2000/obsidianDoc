@@ -1,11 +1,12 @@
 ---
+rating: 2.5
 tags:
-  - RFC-process
-  - technical-proposal
-  - decision-making
-  - document-structure
-  - Type/Reference
-  - Domain/Technology
+- RFC-process
+- technical-proposal
+- decision-making
+- document-structure
+- Type/Reference
+- Domain/Technology
 ---
 # RFC (Request for Comments) 极简手册
 

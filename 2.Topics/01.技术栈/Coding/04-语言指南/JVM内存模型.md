@@ -1,18 +1,19 @@
 ---
-view-count: 12
+rating: 2.5
 related:
-  - '[[2025-12-03-并发基础核心解析]]'
-  - '[[Java SE核心内容]]'
-  - '[[Java 并发革命：虚拟线程实战指南（2025 工业级应用）]]'
-  - '[[多线程的主要用途]]'
-  - '[[2025-12-07-系统架构分类框架]]'
+- '[[2025-12-03-并发基础核心解析]]'
+- '[[Java SE核心内容]]'
+- '[[Java 并发革命：虚拟线程实战指南（2025 工业级应用）]]'
+- '[[多线程的主要用途]]'
+- '[[2025-12-07-系统架构分类框架]]'
 tags:
-  - jvm-memory-model
-  - concurrent-execution-protocols
-  - concurrency
-  - Java
-  - Type/Reference
-  - Domain/Technology
+- jvm-memory-model
+- concurrent-execution-protocols
+- concurrency
+- Java
+- Type/Reference
+- Domain/Technology
+view-count: 12
 ---
 # JVM内存模型：并发执行协议
 

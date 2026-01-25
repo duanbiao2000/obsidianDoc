@@ -1,23 +1,24 @@
 ---
-view-count: 8
-update: 2026-01-22T00:00:00.000Z
-tags:
-  - AI-Coordination-Principles
-  - AI-Role-Differentiation
-  - AI-Implementation-Maturity
-  - AI-Code-Review
-  - AI
-  - Collaboration
-  - PromptEngineering
-  - AgentArchitecture
-  - Domain/AI
-  - Domain/AI/Agent
-  - Type/Reference
+rating: 3.0
 related:
-  - '[[AI 协作白皮书]]'
-  - '[[上下文工程完全指南]]'
-  - '[[Agent Engineering]]'
-  - '[[智能 Agent 架构关键范式]]'
+- '[[AI 协作白皮书]]'
+- '[[上下文工程完全指南]]'
+- '[[Agent Engineering]]'
+- '[[智能 Agent 架构关键范式]]'
+tags:
+- AI-Coordination-Principles
+- AI-Role-Differentiation
+- AI-Implementation-Maturity
+- AI-Code-Review
+- AI
+- Collaboration
+- PromptEngineering
+- AgentArchitecture
+- Domain/AI
+- Domain/AI/Agent
+- Type/Reference
+update: 2026-01-22 00:00:00+00:00
+view-count: 8
 ---
 
 # AI工程完全指南

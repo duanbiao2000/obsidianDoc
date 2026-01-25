@@ -1,12 +1,13 @@
 ---
-view-count: 4
+rating: 3.0
 tags:
-  - DocstringStandards
-  - CommentBestPractices
-  - TechnicalWriting
-  - CodeQualityAssessment
-  - Type/Reference
-  - Domain/Technology
+- DocstringStandards
+- CommentBestPractices
+- TechnicalWriting
+- CodeQualityAssessment
+- Type/Reference
+- Domain/Technology
+view-count: 4
 ---
 # 代码文档化协议：Docstring vs. Comment
 

@@ -1,20 +1,21 @@
 ---
 aliases:
-  - 雅思评分标准
-  - IELTS Score criteria
+- 雅思评分标准
+- IELTS Score criteria
 categories: null
-tags:
-  - language-tests
-  - ielts-preparation
-  - ielts
-  - english-language
-  - Domain/Language/IELTS
-  - Domain/Language/English
-  - Type/Reference
-  - Status/Review
-view-count: 2
-update: '2026-01-22'
+rating: 3.0
 related: null
+tags:
+- language-tests
+- ielts-preparation
+- ielts
+- english-language
+- Domain/Language/IELTS
+- Domain/Language/English
+- Type/Reference
+- Status/Review
+update: '2026-01-22'
+view-count: 2
 ---
 
 

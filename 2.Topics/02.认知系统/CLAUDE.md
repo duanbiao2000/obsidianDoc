@@ -1,5 +1,8 @@
 ---
-tags: ["Type/Reference", "Domain/Technology"]
+rating: 3.0
+tags:
+- Type/Reference
+- Domain/Technology
 ---
 ---
 tags:

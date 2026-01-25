@@ -1,12 +1,13 @@
 ---
-view-count: 8
+rating: 3.0
 tags:
-  - semantic-safety
-  - information-density
-  - KnowledgeManagement
-  - AI
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- semantic-safety
+- information-density
+- KnowledgeManagement
+- AI
+- Domain/AI/PromptEngineering
+- Type/Reference
+view-count: 8
 ---
 
 ## 🔗 相关链接

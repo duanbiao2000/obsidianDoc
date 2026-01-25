@@ -1,13 +1,14 @@
 ---
 date: 2025-05-29 13:04
+rating: 3.0
 tags:
-  - personal-branding
-  - technical-content-creation
-  - GitHub
-  - YouTube
-  - Domain/Technology/Git
-  - Domain/AI/ContentCreation
-  - Type/Template
+- personal-branding
+- technical-content-creation
+- GitHub
+- YouTube
+- Domain/Technology/Git
+- Domain/AI/ContentCreation
+- Type/Template
 view-count: 4
 ---
 

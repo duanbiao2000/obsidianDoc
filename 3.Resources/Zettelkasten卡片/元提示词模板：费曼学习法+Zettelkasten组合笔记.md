@@ -1,9 +1,10 @@
 ---
+rating: 3.0
 tags:
-  - knowledge-engineering
-  - cognitive-science
-  - Domain/Creativity
-  - Method/Feynman
+- knowledge-engineering
+- cognitive-science
+- Domain/Creativity
+- Method/Feynman
 ---
 
 

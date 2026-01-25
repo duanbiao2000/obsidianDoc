@@ -1,17 +1,18 @@
 ---
-view-count: 5
-update: 2026-01-06 18:49
+rating: 3.0
 related:
-  - '[[信息到能力：知识工程的系统化框架]]'
-  - '[[用Notion搭建结构化课程体系]]'
+- '[[信息到能力：知识工程的系统化框架]]'
+- '[[用Notion搭建结构化课程体系]]'
 tags:
-  - DigitalBrainBuilding
-  - KnowledgeSystemization
-  - Notion-Organization
-  - ContentCreation
-  - Domain/AI/ContentCreation
-  - Type/Reference
-  - Status/Mastered
+- DigitalBrainBuilding
+- KnowledgeSystemization
+- Notion-Organization
+- ContentCreation
+- Domain/AI/ContentCreation
+- Type/Reference
+- Status/Mastered
+update: 2026-01-06 18:49
+view-count: 5
 ---
 
 ## 🔗 相关链接

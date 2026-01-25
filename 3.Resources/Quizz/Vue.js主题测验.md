@@ -1,12 +1,13 @@
 ---
-view-count: 7
+rating: 3.0
 tags:
-  - component-architecture
-  - ui-framework
-  - react
-  - vuejs
-  - Type/Reference
-  - Domain/Technology
+- component-architecture
+- ui-framework
+- react
+- vuejs
+- Type/Reference
+- Domain/Technology
+view-count: 7
 ---
 # Vue.js 3 核心工程：极简评估协议
 

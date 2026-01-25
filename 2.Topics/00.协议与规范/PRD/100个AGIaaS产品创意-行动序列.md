@@ -1,11 +1,12 @@
 ---
+rating: 2.5
 tags:
-  - agi-assistants
-  - cross-domain-applications
-  - Domain/AI
-  - Domain/AI/Agent
-  - Type/Action
-  - Status/TODO
+- agi-assistants
+- cross-domain-applications
+- Domain/AI
+- Domain/AI/Agent
+- Type/Action
+- Status/TODO
 ---
 
 

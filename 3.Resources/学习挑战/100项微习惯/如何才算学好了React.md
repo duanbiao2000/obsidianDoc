@@ -1,11 +1,12 @@
 ---
+rating: 3.0
 tags:
-  - function-components
-  - hooks-optimization
-  - react
-  - ui-design
-  - Type/Reference
-  - Domain/Technology
+- function-components
+- hooks-optimization
+- react
+- ui-design
+- Type/Reference
+- Domain/Technology
 ---
 
 ## 🔗 相关链接

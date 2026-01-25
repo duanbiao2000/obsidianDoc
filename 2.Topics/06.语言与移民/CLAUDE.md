@@ -1,14 +1,15 @@
 ---
+rating: 3.0
 tags:
-  - knowledge-base-structure
-  - language-learning
-  - immigration
-  - test-preparation
-  - progress-tracking
-  - Domain/Language
-  - Domain/Language/Immigration
-  - Type/SystemGuide
-  - Status/Done
+- knowledge-base-structure
+- language-learning
+- immigration
+- test-preparation
+- progress-tracking
+- Domain/Language
+- Domain/Language/Immigration
+- Type/SystemGuide
+- Status/Done
 ---
 
 # CLAUDE.md - 语言与移民领域
