@@ -26,6 +26,7 @@ smart-chats/*
 .agent/
 .opencode/
 .smart-env/
+.prometheus/
 
 # 其他工具目录
 .codemap/
