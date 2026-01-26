@@ -1,11 +1,11 @@
 <%*
 /**
- * 智能标签推荐脚本
+ * 智能标签推荐模板
  *
  * 功能：根据文件目录、内容特征、关键词自动推荐标签
- * 使用方法：在新建笔记时自动调用，或手动命令触发
+ * 使用方法：在新建笔记时自动调用，或手动运行
  * 创建时间：2026-01-26
- * 相关：知识库优化线路图 P2-1
+ * 相关：知识库优化线路图 P2-1 - 智能标签推荐系统
  */
 -%>
 
@@ -21,15 +21,20 @@
 -%>
 
 <%*
-// 获取文件所在目录的父级
+// 获取文件所在目录
 const filePath = tp.file.path(true);
 const dirPath = filePath.split('/').slice(0, -1).join('/');
 const dirSegments = dirPath.split('/');
 
 // 确定主目录类型
 let mainDirectory = '';
+let subDirectory = '';
+
 if (dirSegments.length >= 1) {
-  mainDirectory = dirSegments[0];  // 0.DailyNotes, 1.Projects, 2.Topics, etc.
+  mainDirectory = dirSegments[0];
+  if (dirSegments.length >= 2) {
+    subDirectory = dirSegments[1];
+  }
 }
 
 // 目录到 Domain 标签映射
@@ -54,19 +59,22 @@ const domainMapping = {
   }
 };
 
-// 提取 Domain 标签
-const domainTags = [];
-
 // 跳过不需要 Domain 标签的目录
 const noDomainDirectories = ['0.DailyNotes', '3.Resources', '4.Archives', '5.Misc', '6.Calendar'];
 
+// 提取 Domain 标签
+let domainTags = [];
 if (!noDomainDirectories.includes(mainDirectory)) {
-  // 检查第二级目录
-  if (dirSegments.length >= 2) {
-    const subDirectory = dirSegments[1];
-    if (domainMapping[mainDirectory] && domainMapping[mainDirectory][subDirectory]) {
-      domainTags.push(...domainMapping[mainDirectory][subDirectory]);
+  if (domainMapping[mainDirectory] && domainMapping[mainDirectory][subDirectory]) {
+    domainTags = domainMapping[mainDirectory][subDirectory];
+  } else if (domainMapping[mainDirectory]) {
+    const subDirKeys = Object.keys(domainMapping[mainDirectory]);
+    const matchedKey = subDirKeys.find(key => dirPath.includes(key.split('/')[0]));
+    if (matchedKey) {
+      domainTags = domainMapping[mainDirectory][matchedKey];
     }
+  } else if (domainMapping[mainDirectory]) {
+    domainTags = Object.values(domainMapping[mainDirectory]).flat();
   }
 }
 -%>
@@ -78,31 +86,74 @@ if (!noDomainDirectories.includes(mainDirectory)) {
 -%>
 
 <%*
-// 获取笔记内容
-const noteContent = tp.file.content || '';
+// 获取笔记标题和内容
 const noteTitle = tp.file.basename;
+const noteContent = tp.file.content || '';
 
 // 关键词到 Topic 标签映射
 const keywordTopicMap = {
+  '技术-前端': ['#Topic/Frontend'],
   '前端': ['#Topic/Frontend'],
+  'React': ['#Topic/Frontend'],
+  'Vue': ['#Topic/Frontend'],
+  'Angular': ['#Topic/Frontend'],
+  'TypeScript': ['#Topic/Frontend'],
+  'CSS': ['#Topic/Frontend'],
+  'HTML': ['#Topic/Frontend'],
+  'UI': ['#Topic/Frontend'],
+  'UX': ['#Topic/Frontend'],
+  '组件': ['#Topic/Frontend'],
+  '界面': ['#Topic/Frontend'],
+  
+  '技术-后端': ['#Topic/Backend'],
   '后端': ['#Topic/Backend'],
+  'Node.js': ['#Topic/Backend'],
+  'Express': ['#Topic/Backend'],
+  'Python': ['#Topic/Backend'],
+  'Java': ['#Topic/Backend'],
+  'Spring': ['#Topic/Backend'],
+  'Go': ['#Topic/Backend'],
+  'API': ['#Topic/Backend'],
+  '数据库': ['#Topic/Backend'],
+  '服务': ['#Topic/Backend'],
+  
+  '技术-DevOps': ['#Topic/DevOps'],
   'DevOps': ['#Topic/DevOps'],
+  'Docker': ['#Topic/DevOps'],
+  'CI/CD': ['#Topic/DevOps'],
+  'Git': ['#Topic/DevOps'],
+  '部署': ['#Topic/DevOps'],
+  '自动化': ['#Topic/DevOps'],
+  'AWS': ['#Topic/DevOps'],
+  '云': ['#Topic/DevOps'],
+  '运维': ['#Topic/DevOps'],
+  
+  '技术-AI': ['#Topic/AI/ML'],
   'AI': ['#Topic/AI/ML'],
   'GPT': ['#Topic/AI/ML'],
   'LLM': ['#Topic/AI/ML'],
+  '大模型': ['#Topic/AI/ML'],
   '机器学习': ['#Topic/AI/ML'],
+  '提示词': ['#Topic/AI/ML'],
+  'Prompt': ['#Topic/AI/ML'],
+  '提示词工程': ['#Topic/AI/ML'],
   '深度学习': ['#Topic/AI/ML'],
   '神经网络': ['#Topic/AI/ML'],
   '模型': ['#Topic/AI/ML'],
-  '提示词': ['#Topic/AI/ML', '#Topic/PromptEngineering'],
+  
+  '产品-设计': ['#Topic/ProductDesign'],
   '设计': ['#Topic/ProductDesign'],
   'UI': ['#Topic/ProductDesign'],
   'UX': ['#Topic/ProductDesign'],
+  '用户体验': ['#Topic/ProductDesign'],
   '产品': ['#Topic/ProductDesign'],
   '用户': ['#Topic/ProductDesign'],
   '体验': ['#Topic/ProductDesign'],
   '交互': ['#Topic/ProductDesign'],
   'Figma': ['#Topic/ProductDesign'],
+  '界面': ['#Topic/ProductDesign'],
+  
+  '写作-学术': ['#Topic/AcademicWriting'],
   '论文': ['#Topic/AcademicWriting'],
   '学术': ['#Topic/AcademicWriting'],
   '研究': ['#Topic/AcademicWriting'],
@@ -111,6 +162,8 @@ const keywordTopicMap = {
   '数据': ['#Topic/AcademicWriting'],
   '实验': ['#Topic/AcademicWriting'],
   '发表': ['#Topic/AcademicWriting'],
+  
+  '写作-创意': ['#Topic/CreativeWriting'],
   '故事': ['#Topic/CreativeWriting'],
   '小说': ['#Topic/CreativeWriting'],
   '创意': ['#Topic/CreativeWriting'],
@@ -118,6 +171,8 @@ const keywordTopicMap = {
   '剧本': ['#Topic/CreativeWriting'],
   '写作': ['#Topic/CreativeWriting'],
   '创作': ['#Topic/CreativeWriting'],
+  
+  '职业-规划': ['#Topic/CareerPlanning'],
   '职业': ['#Topic/CareerPlanning'],
   '规划': ['#Topic/CareerPlanning'],
   '目标': ['#Topic/CareerPlanning'],
@@ -126,6 +181,8 @@ const keywordTopicMap = {
   '转型': ['#Topic/CareerPlanning'],
   '跳槽': ['#Topic/CareerPlanning'],
   '求职': ['#Topic/CareerPlanning'],
+  
+  '学习-方法': ['#Topic/LearningMethod'],
   '学习': ['#Topic/LearningMethod'],
   '记忆': ['#Topic/LearningMethod'],
   '笔记': ['#Topic/LearningMethod'],
@@ -134,6 +191,8 @@ const keywordTopicMap = {
   '理解': ['#Topic/LearningMethod'],
   '掌握': ['#Topic/LearningMethod'],
   '方法': ['#Topic/LearningMethod'],
+  
+  '效率-系统': ['#Topic/ProductivitySystem'],
   '效率': ['#Topic/ProductivitySystem'],
   '系统': ['#Topic/ProductivitySystem'],
   '时间': ['#Topic/ProductivitySystem'],
@@ -150,10 +209,13 @@ const topicCountLimit = 3;
 const contentLower = noteContent.toLowerCase();
 const titleLower = noteTitle.toLowerCase();
 
-for (const [keyword, tags] of Object.entries(keywordTopicMap)) {
+for (const [keywords, tags] of Object.entries(keywordTopicMap)) {
   if (topicTags.length < topicCountLimit) {
-    if (contentLower.includes(keyword) || titleLower.includes(keyword)) {
-      topicTags.push(...tags);
+    for (const keyword of keywords) {
+      if (contentLower.includes(keyword.toLowerCase()) || titleLower.includes(keyword.toLowerCase())) {
+        topicTags.push(...tags);
+        break; // 每个分类只匹配一个关键词
+      }
     }
   }
 }
@@ -169,13 +231,13 @@ for (const [keyword, tags] of Object.entries(keywordTopicMap)) {
 // 文件类型特征检测
 const typePatterns = {
   '#Type/Index': ['MOC', 'Index', '索引'],
-  '#Type/Journal': [/^\d{4}-\d{2}-/], [/^\d{4}-\d{2}_/],
-  '#Type/Structure': ['大纲', '结构', '框架', '架构'],
+  '#Type/Journal': [/^\d{4}-\d{2}-\d{2}/, /^\d{4}-\d{2}_/],
+  '#Type/Structure': ['大纲', '结构', '框架', '架构', '思维导图', '概念图'],
   '#Type/Checklist': ['清单', '列表', '任务', '待办', 'TODO'],
-  '#Type/Code': ['代码', '程序', '实现', 'function', 'class', 'const'],
-  '#Type/Concept': ['公式', '定义', '概念', '原理', '定理', '定理'],
-  '#Type/Example': ['模板', '示例', '样例', '范例'],
-  '#Type/Reference': ['引用', '文献', '参考', '资料', 'source']
+  '#Type/Code': ['代码', '程序', '实现', 'function', 'class', 'const', 'var', 'interface'],
+  '#Type/Concept': ['公式', '定义', '概念', '原理', '定理', '模型'],
+  '#Type/Example': ['模板', '示例', '样例', '范例', 'demo'],
+  '#Type/Reference': ['引用', '文献', '参考', '资料', 'source', '链接']
 };
 
 // 检测文件类型
@@ -196,7 +258,7 @@ for (const [typeTag, patterns] of Object.entries(typePatterns)) {
   }
   if (matched) {
     typeTags.push(typeTag);
-    break;
+    break; // 每个分类只匹配一个类型
   }
 }
 -%>
@@ -208,14 +270,13 @@ for (const [typeTag, patterns] of Object.entries(typePatterns)) {
 -%>
 
 <%*
-// 状态关键词检测
+// 状态关键词检测（仅限 1 个 Status 标签）
 const statusKeywords = {
   '#Status/TODO': ['TODO', '待办', '未完成', '待处理', '待实现'],
-  '#Status/InProgress': ['进行中', '处理', '实施', 'working on'],
-  '#Status/Review': ['优化', '改进', '重构', 'review', '审查'],
-  '#Status/Done': ['完成', '已完成', 'Done', 'finished', '完成'],
-  '#Status/Archive': ['归档', '存档', 'Archive', '归档'],
-  '#Status/Obsolete': ['废弃', '过时', 'obsolete', '过时']
+  '#Status/InProgress': ['进行中', '处理', '实施', 'working on', 'wip'],
+  '#Status/Review': ['优化', '改进', '重构', 'review', '审查', '需要优化'],
+  '#Status/Done': ['完成', '已完成', 'Done', 'finished', '解决'],
+  '#Status/Archive': ['归档', '存档', 'Archive', '归档到']
 };
 
 // 检测状态（仅限 1 个 Status 标签）
@@ -245,10 +306,10 @@ for (const [statusTag, keywords] of Object.entries(statusKeywords)) {
 <%*
 // 合并所有推荐的标签
 const allRecommendedTags = [
-  ...domainTags,        // P0: 目录映射
-  ...topicTags,        // P1: 关键词匹配（最多 3 个）
-  ...typeTags,         // P2: 文件类型推断（全部匹配）
-  ...statusTags        // P3: 状态推断（最多 1 个）
+  ...domainTags,        // P0: 目录映射（总是应用）
+  ...topicTags,         // P1: 关键词匹配（最多 3 个）
+  ...typeTags,          // P2: 文件类型推断（全部匹配）
+  ...statusTags          // P3: 状态推断（最多 1 个）
 ];
 
 // 去重并保持顺序
@@ -268,64 +329,105 @@ const tagsArray = uniqueTags;
 
 <%*
 // ========================================
-// 输出推荐结果
+// 用户选择界面（可选）
 // ========================================
 -%>
 
 <%*
-// 输出格式化的标签
-tR += `✨ 推荐标签：\n\n`;
+// 显示推荐结果
+tR += `\`\`\```
+tR += `# 🔮 智能标签推荐\n\n`;
+tR += `**笔记**: ${noteTitle}\n\n`;
+tR += `**文件路径**: ${filePath}\n\n`;
+tR += `---\n\n`;
 
+// 按优先级分组显示
 if (domainTags.length > 0) {
-  tR += `📂 Domain: ${domainTags.join(', ')}\n`;
+  tR += `## 📂 P0: 目录映射 → Domain 标签\n\n`;
+  tR += `${domainTags.join('\n  - ')}\n\n`;
 }
 
 if (topicTags.length > 0) {
-  tR += `🏷️  Topic: ${topicTags.join(', ')}\n`;
+  tR += `## 🏷️ P1: 关键词匹配 → Topic 标签\n\n`;
+  tR += `${topicTags.join('\n  - ')}\n\n`;
 }
 
 if (typeTags.length > 0) {
-  tR += `📄 Type: ${typeTags.join(', ')}\n`;
+  tR += `## 📄 P2: 文件类型 → Type 标签\n\n`;
+  tR += `${typeTags.join('\n  - ')}\n\n`;
 }
 
 if (statusTags.length > 0) {
-  tR += `🚦 Status: ${statusTags.join(', ')}\n`;
+  tR += `## 🚦 P3: 状态推断 → Status 标签\n\n`;
+  tR += `${statusTags.join('\n  - ')}\n\n`;
 }
 
-tR += `\n\`\`\`\n`;
+// 显示最终标签数组
+tR += `---\n\n`;
+tR += `## 📋 最终推荐的标签\n\n`;
+tR += `\`\`\`yaml\n`;
+for (const tag of tagsArray) {
+  tR += `  - ${tag}\n`;
+}
+tR += `\`\`\`\n\n`;
+
+tR += `---\n\n`;
+tR += `## 📊 推荐统计\n\n`;
+tR += `- Domain 标签: ${domainTags.length}\n`;
+tR += `- Topic 标签: ${topicTags.length} (限制 3 个)\n`;
+tR += `- Type 标签: ${typeTags.length}\n`;
+tR += `- Status 标签: ${statusTags.length} (限制 1 个)\n`;
+tR += `- 总计: ${tagsArray.length}\n\n`;
+
+tR += `---\n\n`;
+tR += `## 🎯 应用方式\n\n`;
+tR += `**自动应用**: 直接添加到笔记 YAML\n\n`;
+tR += `\`\`\`yaml\n`;
+tR += `---\n`;
 tR += `tags:\n`;
 for (const tag of tagsArray) {
   tR += `  - ${tag}\n`;
 }
+tR += `\`\`\`\n\n`;
+tR += `**手动选择**: 删除不需要的标签\n\n`;
+tR += `**编辑优化**: 查看 [tag_recommender_rules.md](./tag_recommender_rules.md) 了解规则\n\n`;
+tR += `---\n\n`;
+tR += `**配置文件**: [tag_recommender_rules.md](./tag_recommender_rules.md) - 规则库\n`;
+tR += `**规则说明**: [tag_recommender.md](./tag_recommender_rules.md) - 完整规则体系\n`;
+-%>
+
+<%*
+// ========================================
+// 输出格式化的标签（用于复制粘贴）
+// ========================================
+-%>
+
+<%*
+tR += `\`\`\`text\n`;
+tR += `--- 推荐标签 ---\n`;
+tR += `${tagsArray.join('\n')}\n`;
 tR += `\`\`\`\n`;
 -%>
 
 <%*
 // ========================================
-// 使用说明
+// 注意事项
 // ========================================
 -%>
 
 <%*
-tR += `---\n`;
-tR += `## 💡 使用说明\n\n`;
-tR += `### 自动应用\n`;
-tR += `- 在 Templater 设置中配置此模板为默认笔记模板\n`;
-tR += `- 新建笔记时会自动运行标签推荐\n\n`;
-tR += `### 手动触发\n`;
-tR += `- 在现有笔记中运行：添加 \`tp.file.tags = tagsArray\` 到笔记末尾\n`;
-tR += `- 或使用命令：\`/tag-recommender\`\n\n`;
-tR += `### 推荐优先级\n`;
-tR += `1. **P0**: 目录映射 → Domain 标签（自动）\n`;
-tR += `2. **P1**: 关键词匹配 → Topic 标签（最多 3 个）\n`;
-tR += `3. **P2**: 文件类型推断 → Type 标签（全部匹配）\n`;
-tR += `4. **P3**: 状态推断 → Status 标签（最多 1 个）\n\n`;
-tR += `### 注意事项\n`;
-tR += `- DailyNotes, Resources, Archives 不自动添加 Domain 标签\n`;
-tR += `- Topic 标签限制为前 3 个匹配项\n`;
-tR += `- Status 标签限制为第 1 个匹配项\n`;
-tR += `- Type 标签检测所有匹配项\n\n`;
-tR += `---\n`;
-tR += `**配置文件**: [tag_recommender_rules.md](./tag_recommender_rules.md)\n`;
-tR += `**查看详情**: [仓库标签管理系统](../../Atlas/Index/仓库标签管理系统.md)\n`;
+tR += `---\n\n`;
+tR += `## 💡 使用技巧\n\n`;
+tR += `1. **目录映射优先**: Domain 标签基于文件路径，最可靠\n`;
+tR += `2. **Topic 限制**: 限制 3 个避免标签爆炸\n`;
+tR += `3. **Status 限制**: 限制 1 个避免状态冲突\n`;
+tR += `4. **Type 全面**: 所有匹配的类型标签都添加\n`;
+tR += `5. **去重机制**: 自动去除重复标签\n\n`;
+tR += `6. **手动调整**: 推荐后可根据实际需求修改\n\n`;
+
+tR += `\`\`\`text\n`;
+tR += `--- 快速操作 ---\n\n`;
+tR += `复制上方 YAML 标签块，粘贴到笔记开头\n`;
+tR += `使用 "Ctrl+Shift+V" 格式化 YAML\n`;
+tR += `保存笔记，完成自动标签添加\n`;
 -%>
