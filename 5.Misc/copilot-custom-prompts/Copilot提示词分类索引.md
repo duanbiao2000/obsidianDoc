@@ -1,8 +1,13 @@
 ---
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-  - 
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
+  - Type/Index
 related:
-update: 2026-01-24
+  - [[2.Topics/02.认知系统/Digital Garden]]
+  - [[2.Topics/02.认知系统/Zettelkasten方法]]
+  - [[Atlas/Index/仓库标签管理系统]]
+update: 2026-01-26
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
