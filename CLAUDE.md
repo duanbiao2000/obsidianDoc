@@ -128,6 +128,28 @@ This vault heavily relies on Obsidian plugins:
 - **smart-connections**: AI-powered note connections
 - **obsidian-git**: Version control integration
 
+## Copilot Prompt Engineering System
+
+This vault includes a sophisticated AI prompt engineering system for GitHub Copilot:
+
+### Core Components
+- **Prompt Library**: 40+ structured prompts in `5.Misc/copilot-custom-prompts/`
+- **Quality Standards**: Evaluation framework in `提示词质量评估标准.md` (6 dimensions, 100-point scale)
+- **Usage Tracking**: Automated usage statistics via `prompt_usage_tracker.md`
+- **MOC Indexes**: 5 categorized indexes (Writing, Learning, Thinking, Development, Knowledge Management)
+
+### Prompt Categories
+- **System-level**: Meta-prompts controlling AI behavior and workflows
+- **Workflow**: Task decomposition and step-by-step guidance
+- **Specialized**: Content creation, analysis, programming, learning tasks
+
+### Quality Assurance
+- All prompts evaluated on: Functionality, Effectiveness, Maintainability, Usability, Documentation, Extensibility
+- Usage statistics tracked automatically (creation date, usage count, last used)
+- Regular cleanup of low-value prompts based on usage data
+
+See `5.Misc/copilot-custom-prompts/Copilot提示词分类索引.md` for the complete catalog.
+
 ## Working with This Vault
 
 ### When Creating New Notes:
