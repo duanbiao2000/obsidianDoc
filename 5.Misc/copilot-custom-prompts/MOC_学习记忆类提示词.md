@@ -1,11 +1,13 @@
 ---
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-  - 
-  - 
+tags:
+  - Domain/AI/PromptEngineering
+  - Type/Reference
 related:
-  - "[[MOC_知识管理类提示词]]"
-  - "[[Copilot提示词分类索引]]"
-update: 2026-01-24
+  - [[MOC_知识管理类提示词]]
+  - [[Copilot提示词分类索引]]
+  - [[2.Topics/02.认知系统/学习系统]]
+  - [[2.Topics/02.认知系统/思维模型/]]
+update: 2026-01-26
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
