@@ -3,11 +3,11 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 related:
-  - [[MOC_知识管理类提示词]]
-  - [[MOC_角色扮演类提示词]]
-  - [[Copilot提示词分类索引]]
-  - [[2.Topics/02.认知系统/思维模型/]]
-  - [[2.Topics/02.认知系统/元认知]]
+  - - - MOC_知识管理类提示词
+  - - - MOC_角色扮演类提示词
+  - - - Copilot提示词分类索引
+  - - - 2.Topics/02.认知系统/思维模型/
+  - - - 2.Topics/02.认知系统/元认知
 update: 2026-01-26
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true

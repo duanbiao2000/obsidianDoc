@@ -3,10 +3,10 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 related:
-  - [[MOC_知识管理类提示词]]
-  - [[Copilot提示词分类索引]]
-  - [[2.Topics/03.内容创作/Writing/]]
-  - [[2.Topics/06.语言与移民/英语/]]
+  - - - MOC_知识管理类提示词
+  - - - Copilot提示词分类索引
+  - - - 2.Topics/03.内容创作/Writing/
+  - - - 2.Topics/06.语言与移民/英语/
 update: 2026-01-26
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true

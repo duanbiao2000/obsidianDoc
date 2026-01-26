@@ -3,10 +3,10 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 related:
-  - [[MOC_知识管理类提示词]]
-  - [[Copilot提示词分类索引]]
-  - [[2.Topics/01.技术栈/Coding/]]
-  - [[2.Topics/01.技术栈/系统构建/]]
+  - - - MOC_知识管理类提示词
+  - - - Copilot提示词分类索引
+  - - - 2.Topics/01.技术栈/Coding/
+  - - - 2.Topics/01.技术栈/系统构建/
 update: 2026-01-26
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true

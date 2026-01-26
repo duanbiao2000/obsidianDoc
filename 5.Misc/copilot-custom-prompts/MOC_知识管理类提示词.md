@@ -3,11 +3,11 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 related:
-  - [[MOC_思维框架类提示词]]
-  - [[MOC_角色扮演类提示词]]
-  - [[Copilot提示词分类索引]]
-  - [[2.Topics/02.认知系统/Digital Garden]]
-  - [[2.Topics/02.认知系统/Zettelkasten方法]]
+  - - - MOC_思维框架类提示词
+  - - - MOC_角色扮演类提示词
+  - - - Copilot提示词分类索引
+  - - - 2.Topics/02.认知系统/Digital Garden
+  - - - 2.Topics/02.认知系统/Zettelkasten方法
 update: 2026-01-26
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
