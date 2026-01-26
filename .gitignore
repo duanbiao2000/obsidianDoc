@@ -26,7 +26,10 @@ smart-chats/*
 .agent/
 .opencode/
 .smart-env/
-.prometheus/
+# .prometheus/ - 但保留 plans/ 目录用于版本控制
+.prometheus/*
+!.prometheus/plans/
+!.prometheus/plans/*.md
 
 # 其他工具目录
 .codemap/
