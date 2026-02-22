@@ -1,10 +1,20 @@
+---
+aliases: null
+date: '2026-02-22'
+tags: null
+source: null
+rating: null
+related: null
+view-count: null
+---
+
 当然可以！下面我将对你提供的 `agent.md`（来自 oh-my-opencode 项目中的 agents 目录）进行详细分析和讲解。
 
 ---
 
 ## 一、整体结构与目的
 
-这份文档描述了一个由 10 个 AI agent 组成的“多模型协作系统”，每个 agent 都有明确的角色、模型偏好、工具权限和分工。整体设计思想是模拟一个高效的“AI 团队”，通过分工协作来完成复杂的任务，同时通过工具限制和角色分离提升安全性和质量。
+这份文档描述了一个由 10 个 AI agent 组成的“多模型协作系统”，每个 agent 都有明确的角色、模型偏好、工具权限和分工。整体设计思想是模拟一个高效的“AI 团队”，通过分工协作来完成复杂的任务，同时通过工具限制和角色分离提升安全性和质量1。
 
 ---
 
@@ -34,18 +44,18 @@ agents/
 
 ## 三、各个 agent 的职责与分配
 
-| Agent            | 主要职责                                    | 用的模型                   | 热度(Temp) | 特殊限制                |
-|------------------|--------------------------------------------|---------------------------|------------|------------------------|
-| **atlas**        | 主协调者（todo 列表管理，全局调度）         | claude-opus-4-5           | 0.1        |                        |
-| **sisyphus**     | 主推动者（核心任务执行，SF Bay Area 工程师角色） | claude-opus-4-5           | 0.1        |                        |
-| **sisyphus-junior** | 子任务执行者（按类别动态生成）             | claude-sonnet-4-5         | 0.1        | 不能直接 task/delegate_task |
-| **oracle**       | 策略性顾问（复杂问题分析、调试）            | gpt-5.2                   | 0.1        | 不能写、编辑、任务分派 |
-| **librarian**    | 文档和代码检索专家（GitHub、Context7）       | big-pickle                | 0.1        | 不能写、编辑、任务分派、不能调用其他 agent |
-| **explore**      | 快速上下文搜索（Grok Code 风格）            | gpt-5-nano                | 0.1        | 同 librarian           |
-| **multimodal-looker** | 多模态媒体分析（图片/文档等）          | gemini-3-flash           | 0.1        | 只读，不能写            |
-| **prometheus**   | 规划者（面试、咨询、长期规划）             | claude-opus-4-5           | 0.1        | 只做规划，不写代码     |
-| **metis**        | 预规划分析（检测空白/风险）                | claude-sonnet-4-5         | 0.3        |                        |
-| **momus**        | 计划审核者（严格批评和纠错）                | claude-sonnet-4-5         | 0.1        |                        |
+| Agent                 | 主要职责                           | 用的模型              | 热度(Temp) | 特殊限制                     |
+| --------------------- | ------------------------------ | ----------------- | -------- | ------------------------ |
+| **atlas**             | 主协调者（todo 列表管理，全局调度）           | claude-opus-4-5   | 0.1      |                          |
+| **sisyphus**          | 主推动者（核心任务执行，SF Bay Area 工程师角色） | claude-opus-4-5   | 0.1      |                          |
+| **sisyphus-junior**   | 子任务执行者（按类别动态生成）                | claude-sonnet-4-5 | 0.1      | 不能直接 task/delegate_task  |
+| **oracle**            | 策略性顾问（复杂问题分析、调试）               | gpt-5.2           | 0.1      | 不能写、编辑、任务分派              |
+| **librarian**         | 文档和代码检索专家（GitHub、Context7）     | big-pickle        | 0.1      | 不能写、编辑、任务分派、不能调用其他 agent |
+| **explore**           | 快速上下文搜索（Grok Code 风格）          | gpt-5-nano        | 0.1      | 同 librarian              |
+| **multimodal-looker** | 多模态媒体分析（图片/文档等）                | gemini-3-flash    | 0.1      | 只读，不能写                   |
+| **prometheus**        | 规划者（面试、咨询、长期规划）                | claude-opus-4-5   | 0.1      | 只做规划，不写代码                |
+| **metis**             | 预规划分析（检测空白/风险）                 | claude-sonnet-4-5 | 0.3      |                          |
+| **momus**             | 计划审核者（严格批评和纠错）                 | claude-sonnet-4-5 | 0.1      |                          |
 
 - **Temp**：是模型采样温度，0.1 通常是低温（更确定性），0.3 更具探索性。
 - **工具限制**：比如 oracle 不能写东西，librarian 不能执行任务，multimodal-looker 只读，prometheus 只做规划不写代码，sisyphus-junior 不能直接 task/delegate_task，防止权限滥用和污染。
