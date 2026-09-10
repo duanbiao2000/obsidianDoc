@@ -1,0 +1,1 @@
+使用kiss原则, 对{activeNote}进行改写

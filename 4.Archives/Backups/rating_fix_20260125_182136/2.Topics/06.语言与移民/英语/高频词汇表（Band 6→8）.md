@@ -16,9 +16,9 @@ tags:
   - Word
 rating: 10
 related:
-  - '[[万能故事库模板]]'
-  - '[[话题网络图谱]]'
-  - '[[DSE vs IELTS 范文对比实例集#观点29]]'
+  - "[[万能故事库模板]]"
+  - "[[话题网络图谱]]"
+  - "[[IELTS/DSE vs IELTS 范文对比实例集#观点29]]"
 source: Band 6→Band 8词汇升级系统
 view-count: 0
 update: 2026-01-23
@@ -454,7 +454,7 @@ To **mitigate** the **catastrophic** effects of climate change, governments must
 
 - [[万能故事库模板]] - 在故事中应用这些词汇
 - [[话题网络图谱]] - 按话题组织词汇
-- [[DSE vs IELTS 范文对比实例集#观点29]] - 查看词汇在实际范文中的应用
+- [[IELTS/DSE vs IELTS 范文对比实例集#观点29]] - 查看词汇在实际范文中的应用
 - [[雅思口语知识库]] - 口语场景词汇应用
 
 ---

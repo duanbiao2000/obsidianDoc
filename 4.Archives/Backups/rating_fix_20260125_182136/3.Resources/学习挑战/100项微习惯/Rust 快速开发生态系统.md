@@ -1,15 +1,15 @@
 ---
-aliases: null
+aliases:
 date: 2025-10-05 09:14
 source:
   - https://app.codecrafters.io/courses/
 update: 2026-01-07 13:54
-rating: null
+rating:
 view-count: 7
 related:
-  - '[[Rust 异步与并发系统学习路径]]'
-  - '[[Rust生产级综合开发技能学习系统提示词模板]]'
-  - '[[Rust疑难知识点]]'
+  - "[[Rust 异步与并发系统学习路径]]"
+  - "[[../../../../../../Extras/Template/Rust生产级综合开发技能学习系统提示词模板]]"
+  - "[[Rust疑难知识点]]"
 tags:
   - asynchronous-programming
   - software-architecture

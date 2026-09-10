@@ -2,13 +2,13 @@
 view-count: 3
 update: 2026-01-08 13:38
 related:
-  - "[[Github高效搜索语法]]"
+  - "[[../../3.Resources/Github/Github高效搜索语法]]"
   - "[[专业大学生实用操作指南]]"
   - "[[产品经理都有哪些常用方法论]]"
   - "[[Python AI工具-源码快速分析模板]]"
-
-tags: ["Domain/Cognitive/Tools", "Type/Reference"]
-
+tags:
+  - Domain/Cognitive/Tools
+  - Type/Reference
 ---
 ## 为什么是rg 而不是 grep
 

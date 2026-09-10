@@ -3,13 +3,13 @@ view-count: 3
 update: 2026-01-09 13:51
 related:
   - "[[Rust 异步与并发系统学习路径]]"
-  - "[[Rust生产级综合开发技能学习系统提示词模板]]"
+  - "[[../../Extras/Template/Rust生产级综合开发技能学习系统提示词模板]]"
   - "[[2025-12-05-Go与Rust的权衡]]"
   - "[[Rust疑难知识点]]"
   - "[[2025-12-10-高质量开源项目的特征]]"
-
-tags: ["Domain/Technology/Rust", "Type/Reference"]
-
+tags:
+  - Domain/Technology/Rust
+  - Type/Reference
 ---
 # 🦀 Rust 第三方库速查 Cheatsheet（工程实战向）
 

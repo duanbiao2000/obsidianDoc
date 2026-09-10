@@ -2,14 +2,14 @@
 view-count: 6
 update: 2026-01-09 11:56
 related:
-  - "[[Rust生产级综合开发技能学习系统提示词模板]]"
+  - "[[../../Extras/Template/Rust生产级综合开发技能学习系统提示词模板]]"
   - "[[2025-12-05-Go与Rust的权衡]]"
   - "[[Rust 异步与并发系统学习路径]]"
   - "[[Plan文档比较与实例]]"
   - "[[Prompt管理科学]]"
-
-tags: ["Domain/Technology/Rust", "Type/Reference"]
-
+tags:
+  - Domain/Technology/Rust
+  - Type/Reference
 ---
 # Rust 集合实战：极简决策手册
 

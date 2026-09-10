@@ -94,7 +94,7 @@ date: 2026-01-23
 > - **DSE风格**："I firmly believe that regulation is **indispensable** to mitigate risks..."
 > - **IELTS风格**："That's a **multifaceted** question...my position is **nuanced** rather than blanket..."
 >
-> → 📚 **完整范文对比**：[[DSE vs IELTS 范文对比实例集#一、观点1：模板优先 vs 思维优先]]
+> → 📚 **完整范文对比**：[[IELTS/DSE vs IELTS 范文对比实例集#一、观点1：模板优先 vs 思维优先]]
 
 ### 2. **DSE: 标准答案 vs IELTS: 个人观点**
 - **DSE**: 寻找"正确答案"
@@ -146,7 +146,7 @@ date: 2026-01-23
 > - **纯DSE风格**："Remote work **constitutes a superior arrangement**...organizations **should embrace** it..."
 > - **融合风格**："While proponents **champion** flexibility, I contend that a **hybrid model** **optimally balances**..."
 >
-> → 📚 **完整范文对比**：[[DSE vs IELTS 范文对比实例集#二、观点9：HKABS + IELTS Discussion融合]]
+> → 📚 **完整范文对比**：[[IELTS/DSE vs IELTS 范文对比实例集#二、观点9：HKABS + IELTS Discussion融合]]
 
 ### 10. **DSE的QRS + IELTS的Part 2融合**
 - **QRS**: Question → Reasons → Solution
@@ -319,7 +319,7 @@ date: 2026-01-23
 > - **Band 7**: "It's a **remarkable** work that **illustrates** racial **discrimination**..."
 > - **Band 8**: "It **exemplifies** literature's power to **challenge** societal norms..."
 >
-> → 📚 **完整范文对比**：[[DSE vs IELTS 范文对比实例集#三观点29-词汇升级band-6--band-8]]
+> → 📚 **完整范文对比**：[[IELTS/DSE vs IELTS 范文对比实例集#三观点29-词汇升级band-6--band-8]]
 
 ### 30. **"抽象表达"从DSE到IELTS的进阶**
 - **DSE抽象表达**:
@@ -417,7 +417,7 @@ date: 2026-01-23
 > - **无限定（低分）**："Social media **definitely** makes **everyone** lonely..."
 > - **有限定（高分）**："It **depends largely on how** individuals engage...**when used intentionally**..."
 >
-> → 📚 **完整范文对比**：[[DSE vs IELTS 范文对比实例集#四观点39-scoping限定范围对比]]
+> → 📚 **完整范文对比**：[[IELTS/DSE vs IELTS 范文对比实例集#四观点39-scoping限定范围对比]]
 
 ### 40. **"Balancing"(平衡观点)的跨文体应用**
 - **DSE议论文**:
@@ -432,7 +432,7 @@ date: 2026-01-23
 > - **DSE风格**："**On one hand**, proponents argue...**On the other hand**, critics contend...**Weighing both**..."
 > - **IELTS风格**："Hmm, that's tricky...**I mean**, from my experience...**But then again**...**So my take is**..."
 >
-> → 📚 **完整范文对比**：[[DSE vs IELTS 范文对比实例集#五观点40-balancing平衡观点对比]]
+> → 📚 **完整范文对比**：[[IELTS/DSE vs IELTS 范文对比实例集#五观点40-balancing平衡观点对比]]
 
 ### 41. **"Reframing"(重新定义)从论证到对话**
 - **DSE写作**:
@@ -474,7 +474,7 @@ date: 2026-01-23
 > - **IELTS Part 2角度**：CARD叙事 → sentimental value/unconditional love
 > - **IELTS Part 3角度**：手工艺消失 → paradox/resurgence/mindfulness
 >
-> → 📚 **完整范文对比**：[[DSE vs IELTS 范文对比实例集#六观点44-万能故事多场景应用]]
+> → 📚 **完整范文对比**：[[IELTS/DSE vs IELTS 范文对比实例集#六观点44-万能故事多场景应用]]
 
 ### 45. "时间管理"的元认知训练
 - **DSE场景**:
@@ -519,7 +519,7 @@ date: 2026-01-23
 > - **IELTS Part 1**："I'd describe it as a **mix of urban and rural**...**honestly**, growing up there gave me the **best of both worlds**..."
 > - **IELTS Part 3**："That's a **multifaceted** question...density creates "**agglomeration benefits**"...**conversely**, rural living offers..."
 >
-> → 📚 **完整范文对比**：[[DSE vs IELTS 范文对比实例集#七观点48-语域转换register-switching]]
+> → 📚 **完整范文对比**：[[IELTS/DSE vs IELTS 范文对比实例集#七观点48-语域转换register-switching]]
 
 ### 49. **"文化意识"(Cultural Awareness)的跨系统需要**
 - **DSE语境**: 香港本地文化

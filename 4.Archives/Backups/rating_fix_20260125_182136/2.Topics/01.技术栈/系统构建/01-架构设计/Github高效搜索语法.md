@@ -1,6 +1,6 @@
 ---
 view-count: 5
-aliases: null
+aliases:
 date: 2025-12-02 18:26
 tags:
   - github-efficiency
@@ -9,16 +9,16 @@ tags:
   - search
   - Domain/Technology/Git
   - Type/Reference
-source: null
-update: null
-rating: null
+source:
+update:
+rating:
 related:
-  - '[[Github高效搜索语法]]'
-  - '[[2025-12-10-高质量开源项目的特征]]'
-  - '[[Google 搜索高级用法- 子弹笔记]]'
-  - '[[Github Trending]]'
-  - '[[Github源码阅读指南]]'
-  - '[[100项适合程序员的深度工作示例]]'
+  - "[[Github高效搜索语法]]"
+  - "[[2025-12-10-高质量开源项目的特征]]"
+  - "[[Google 搜索高级用法- 子弹笔记]]"
+  - "[[Github Trending]]"
+  - "[[../../../../../../../3.Resources/Github/Github源码阅读指南]]"
+  - "[[100项适合程序员的深度工作示例]]"
 ---
 ## 高效搜索技巧
 

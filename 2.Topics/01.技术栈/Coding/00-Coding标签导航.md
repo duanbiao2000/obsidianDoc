@@ -105,7 +105,7 @@ view-count: 7
 [[Java 并发革命：虚拟线程实战指南（2025 工业级应用）]] #Java #Concurrency
 [[Java 注解]] #Java #Annotation
 [[Rust 异步与并发系统学习路径]] #Rust #Async #Concurrency
-[[Rust生产级综合开发技能学习系统提示词模板]] #Rust #Production
+[[../../../Extras/Template/Rust生产级综合开发技能学习系统提示词模板]] #Rust #Production
 [[TDD 驱动良好设计的 Go 语言实战案例]] #Go #TDD #Testing
 [[TanStack等四个现代框架深度对比]] #Frameworks #Comparison
 [[TypeScript 编译器用Go改写]] #TypeScript #Compiler #Go

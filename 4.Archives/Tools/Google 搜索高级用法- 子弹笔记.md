@@ -5,12 +5,13 @@ update: 2026-01-06 12:24
 related:
   - "[[2.Topics/认知科学/一页法则|一页法则]]"
   - "[[关键概念提取与应用路径分析]]"
-  - "[[Github高效搜索语法]]"
+  - "[[../../3.Resources/Github/Github高效搜索语法]]"
   - "[[抽象与钻研提示词模板]]"
   - "[[知识图谱构建分析师]]"
-
-tags: ["Domain/Technology/Go", "Domain/Cognitive/Tools", "Type/Reference"]
-
+tags:
+  - Domain/Technology/Go
+  - Domain/Cognitive/Tools
+  - Type/Reference
 ---
 ## 洞察驱动的精准检索心法
 

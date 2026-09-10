@@ -1,18 +1,18 @@
 ---
-rating: 3.0
+rating: 3
 related:
-- '[[Rust生产级综合开发技能学习系统提示词模板]]'
-- '[[Python 系统设计 6 小时突破方案]]'
-- '[[区分理论与工程实践]]'
-- '[[PostgreSQL开发者实战指南]]'
-- '[[高阶开发权衡框架]]'
+  - "[[../../../../Extras/Template/Rust生产级综合开发技能学习系统提示词模板]]"
+  - "[[Python 系统设计 6 小时突破方案]]"
+  - "[[区分理论与工程实践]]"
+  - "[[PostgreSQL开发者实战指南]]"
+  - "[[高阶开发权衡框架]]"
 tags:
-- RedisOptimization
-- AdaptiveEncoding
-- DataStorage
-- Performance
-- Type/Reference
-- Domain/Technology
+  - RedisOptimization
+  - AdaptiveEncoding
+  - DataStorage
+  - Performance
+  - Type/Reference
+  - Domain/Technology
 update: 2026-01-06 23:24
 view-count: 12
 ---

@@ -1,0 +1,1 @@
+运用scqra框架对{activeNote}进行提问分析
